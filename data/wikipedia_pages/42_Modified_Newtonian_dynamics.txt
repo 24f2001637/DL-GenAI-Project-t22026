@@ -1,0 +1,1451 @@
+Wikipedia article: Modified Newtonian dynamics
+Source: https://en.wikipedia.org/wiki/Modified_Newtonian_dynamics
+PageID: 21591425
+======================================================================
+
+Modified Newtonian dynamics (MOND) is a theory that proposes a modification of Newton's laws to account for observed properties of galaxies. Modifying Newton's law of gravity results in modified gravity, while modifying Newton's second law results in modified inertia. The latter has received little attention compared to the modified gravity version. Its primary motivation is to explain galaxy rotation curves without invoking dark matter, and is one of the most well-known theories of this class.
+
+
+== History ==
+MOND was developed in 1982 and presented in 1983 by Israeli physicist Mordehai Milgrom. Milgrom noted that galaxy rotation curve data, which seemed to show that galaxies contain more matter than is observed, could also be explained if the gravitational force experienced by a star in the outer regions of a galaxy decays more slowly than predicted by Newton's law of gravity. MOND modifies Newton's laws for extremely small accelerations, which are common in galaxies and galaxy clusters. This provides a good fit to galaxy rotation curve data while leaving the dynamics of the Solar System with its strong gravitational field intact. However, the theory predicts that the gravitational field of the galaxy could influence the orbits of Kuiper Belt objects through the external field effect, which is unique to MOND.
+Since Milgrom's original proposal, MOND has seen some successes. It is capable of explaining several observations in galaxy dynamics, a number of which can be difficult for Lambda-CDM to explain. However, MOND struggles to explain a range of other observations, such as the acoustic peaks of the cosmic microwave background and the matter power spectrum of the large scale structure of the universe. Furthermore, because MOND is not a relativistic theory, it struggles to explain relativistic effects such as gravitational lensing and gravitational waves. Finally, a major weakness of MOND is that all galaxy clusters, including the famous Bullet Cluster, show a residual mass discrepancy even when analyzed using MOND. As a result, it has not gained widespread acceptance.
+In 2004, Jacob Bekenstein developed a relativistic generalization of MOND, TeVeS, which however had its own set of problems. Another notable attempt was by Constantinos Skordis and Tom Złośnik in 2021, which proposed a relativistic model of MOND that is compatible with cosmic microwave background observations; this model requires multiple extra fields (thus reducing the elegance of the model) and is still unable to match observed gravitational lensing.
+
+
+== Concept ==
+
+
+=== Missing mass problem ===
+
+Several independent observations suggest that the visible mass in galaxies and galaxy clusters is insufficient to account for their dynamics, when analyzed using Newton's laws. This discrepancy – known as the "missing mass problem" – was identified by several observers, most notably by Swiss astronomer Fritz Zwicky in 1933 through his study of the Coma Cluster. This was subsequently extended to include spiral galaxies by the 1939 work of Horace Babcock on Andromeda.
+These early studies were augmented and brought to the attention of the astronomical community in the 1960s and 1970s by the work of Vera Rubin, who mapped in detail the rotation velocities of stars in a large sample of spirals. While Newton's Laws predict that stellar rotation velocities should decrease with distance from the galactic centre, Rubin and collaborators found instead that they remain almost constant – the rotation curves are said to be "flat". This observation necessitates one of the following:
+
+There are large quantities of unseen matter in galaxies that boost the stars' velocities beyond what would be expected from the visible mass alone, or
+One of Newton's Laws does not apply to galaxies.
+The first option leads to the dark matter hypothesis; the second option leads to alternative theories of gravitation like MOND.
+MOND was proposed in 1983 and has been significantly revised ever since. By 2004 Jacob Bekenstein produced a relativistically correct version TeVeS that adds two additional fields and three free parameters to general relativity. The ΛCDM incorporating dark matter and MOND incorporating alternative gravity have different arenas of success. At the large scale of cosmology, galaxy clusters and galaxy formation, ΛCDM has been very successful. MOND is able to describe galaxy scale astronomical observations but fails as a model for cosmology.
+
+
+=== Milgrom's law ===
+
+The basic premise of MOND is that while Newton's laws have been extensively tested in high-acceleration environments (in the Solar System and on Earth), they have not been verified for environments with extremely low acceleration, such as orbits in the outer parts of galaxies. This led Milgrom to postulate a new effective gravitational force law that relates the true acceleration of an object to the acceleration that would be predicted for it on the basis of Newtonian mechanics. This law, the keystone of MOND, is chosen to reproduce the Newtonian result at high acceleration but leads to different ("deep-MOND") behavior at low acceleration:
+
+Here FN is the Newtonian force, m is the object's (gravitational) mass, a is its acceleration, μ(x) is an as-yet unspecified function (called the interpolating function), and a0 is a new fundamental constant which marks the transition between the Newtonian and deep-MOND regimes. Agreement with Newtonian mechanics requires
+
+  
+    
+      
+        
+          
+            
+              
+                μ
+                (
+                x
+                )
+                ⟶
+                1
+              
+              
+              
+                
+                   for 
+                
+                x
+                ≫
+                1
+              
+            
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle {\begin{aligned}\mu (x)\longrightarrow 1&&{\text{ for }}x\gg 1\end{aligned}}~,}
+  
+
+and consistency with astronomical observations requires
+
+  
+    
+      
+        
+          
+            
+              
+                μ
+                (
+                x
+                )
+                ⟶
+                x
+              
+              
+              
+                
+                   for 
+                
+                x
+                ≪
+                1
+              
+            
+          
+        
+         
+        .
+      
+    
+    {\displaystyle {\begin{aligned}\mu (x)\longrightarrow x&&{\text{ for }}x\ll 1\end{aligned}}~.}
+  
+
+Beyond these limits, the interpolating function is not specified by the hypothesis.
+Milgrom's law can be interpreted in two ways:
+
+Modified inertia: One possibility is to treat it as a modification to Newton's second law, so that the force on an object is not proportional to the particle's acceleration a but rather to 
+  
+    
+      
+        μ
+        
+          (
+          
+            
+              a
+              
+                a
+                
+                  0
+                
+              
+            
+          
+          )
+        
+        a
+        .
+      
+    
+    {\textstyle \mu \left({\frac {a}{a_{0}}}\right)a.}
+  
+ In this case, the modified dynamics would apply not only to gravitational phenomena, but also those generated by other forces, for example electromagnetism. This interpretation is experimentally disfavoured by laboratory experiments.
+Modified gravity: Alternatively, Milgrom's law can be viewed as modifying Newton's universal law of gravity instead, so that the true gravitational force on an object of mass m due to another of mass M is roughly of the form 
+  
+    
+      
+        
+          
+            
+              G
+              M
+              m
+            
+            
+              ν
+              
+                (
+                
+                  
+                    
+                      a
+                      
+                        0
+                      
+                    
+                    a
+                  
+                
+                )
+              
+              
+                r
+                
+                  2
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\textstyle {\frac {GMm}{\nu \left({\frac {a_{0}}{a}}\right)r^{2}}}.}
+  
+ In this interpretation, Milgrom's modification would apply exclusively to gravitational phenomena. This interpretation has received more attention between the two.
+Milgrom's law states that for accelerations smaller than a0 accelerations increasingly depart from the standard M · G / r 2 Newtonian relationship of mass and distance, wherein gravitational strength is linearly proportional to mass and the inverse square of distance. Instead, the theory holds that the gravitational field below the a0 value, increases with the square root of mass and decreases linearly with distance. Whenever the gravitational field is larger than a0, whether it be near the center of a galaxy or an object near or on Earth, MOND yields dynamics that are nearly indistinguishable from those of Newtonian gravity. For instance, if the gravitational acceleration equals a0 at a distance from a mass, at ten times that distance, Newtonian gravity predicts a hundredfold decline in gravity whereas MOND predicts only a tenfold reduction. In 1991 Begeman et al. found a0 ≈ 1.2 × 10−10 m/s2 to be optimal by fitting Milgrom's law to rotation curve data. The value of Milgrom's acceleration constant has not varied meaningfully since then. The value of a0 also establishes the distance from a mass at which Newtonian and MOND dynamics diverge. 
+By itself, Milgrom's law is not a complete and self-contained physical theory, but rather an empirically motivated variant of an equation in classical mechanics. Its status within a coherent non-relativistic hypothesis of MOND is akin to Kepler's Third Law within Newtonian mechanics. Milgrom's law provides a succinct description of observational facts, but must itself be grounded in a proper field theory. Several complete classical hypotheses have been proposed (typically along "modified gravity" as opposed to "modified inertia" lines). These generally yield Milgrom's law exactly in situations of high symmetry and otherwise deviate from it slightly. For MOND as modified gravity two complete field theories exist called AQUAL and QUMOND. A subset of these non-relativistic hypotheses have been further embedded within relativistic theories, which are capable of making contact with non-classical phenomena (e.g., gravitational lensing) and cosmology. Distinguishing both theoretically and observationally between these alternatives is a subject of current research.
+
+
+=== Interpolating function ===
+Milgrom's law uses an interpolation function to join its two limits together. It represents a simple algorithm to convert Newtonian gravitational accelerations to observed kinematic accelerations and vice versa. Many functions have been proposed in the literature although currently there is no single interpolation function that satisfies all constraints. Two common choices are the "simple interpolating function" and the "standard interpolating function". Each has a 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+ and a 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+ direction to convert the Milgromian gravitational field to the Newtonian and vice versa such that:
+
+  
+    
+      
+        
+          a
+          
+            N
+          
+        
+        =
+        μ
+        
+          (
+          
+            
+              
+                a
+                
+                  M
+                
+              
+              
+                a
+                
+                  0
+                
+              
+            
+          
+          )
+        
+        
+          a
+          
+            M
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle a_{N}=\mu \left({\frac {a_{M}}{a_{0}}}\right)a_{M}~,}
+  
+
+  
+    
+      
+        
+          a
+          
+            M
+          
+        
+        =
+        ν
+        
+          (
+          
+            
+              
+                a
+                
+                  0
+                
+              
+              
+                a
+                
+                  N
+                
+              
+            
+          
+          )
+        
+        
+          a
+          
+            N
+          
+        
+         
+        .
+      
+    
+    {\displaystyle a_{M}=\nu \left({\frac {a_{0}}{a_{N}}}\right)a_{N}~.}
+  
+
+The simple interpolation function is:
+
+  
+    
+      
+        μ
+        
+          (
+          
+            
+              
+                a
+                
+                  M
+                
+              
+              
+                a
+                
+                  0
+                
+              
+            
+          
+          )
+        
+        =
+        
+          
+            
+              
+                a
+                
+                  M
+                
+              
+              
+                a
+                
+                  0
+                
+              
+            
+            
+              1
+              +
+              
+                
+                  
+                    a
+                    
+                      M
+                    
+                  
+                  
+                    a
+                    
+                      0
+                    
+                  
+                
+              
+            
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle \mu \left({\frac {a_{M}}{a_{0}}}\right)={\frac {\frac {a_{M}}{a_{0}}}{1+{\frac {a_{M}}{a_{0}}}}}~,}
+  
+
+  
+    
+      
+        ν
+        
+          (
+          
+            
+              
+                a
+                
+                  0
+                
+              
+              
+                a
+                
+                  N
+                
+              
+            
+          
+          )
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        
+          (
+          
+            1
+            +
+            
+              
+                1
+                +
+                
+                  
+                    
+                      4
+                      
+                        a
+                        
+                          0
+                        
+                      
+                    
+                    
+                      a
+                      
+                        N
+                      
+                    
+                  
+                
+              
+            
+          
+          )
+        
+         
+        .
+      
+    
+    {\displaystyle \nu \left({\frac {a_{0}}{a_{N}}}\right)={\frac {1}{2}}\left(1+{\sqrt {1+{\frac {4a_{0}}{a_{N}}}}}\right)~.}
+  
+
+The standard interpolation function is:
+
+  
+    
+      
+        μ
+        
+          (
+          
+            
+              
+                a
+                
+                  M
+                
+              
+              
+                a
+                
+                  0
+                
+              
+            
+          
+          )
+        
+        =
+        
+          
+            
+              
+                a
+                
+                  M
+                
+              
+              
+                a
+                
+                  0
+                
+              
+            
+            
+              
+                
+                  1
+                  +
+                  
+                    
+                      (
+                      
+                        
+                          
+                            a
+                            
+                              M
+                            
+                          
+                          
+                            a
+                            
+                              0
+                            
+                          
+                        
+                      
+                      )
+                    
+                    
+                      2
+                    
+                  
+                
+              
+               
+            
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle \mu \left({\frac {a_{M}}{a_{0}}}\right)={\frac {\frac {a_{M}}{a_{0}}}{{\sqrt {1+\left({\frac {a_{M}}{a_{0}}}\right)^{2}}}~}}~,}
+  
+
+  
+    
+      
+        ν
+        
+          (
+          
+            
+              
+                a
+                
+                  0
+                
+              
+              
+                a
+                
+                  N
+                
+              
+            
+          
+          )
+        
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          
+            1
+            +
+            
+              
+                1
+                +
+                4
+                
+                  
+                    (
+                    
+                      
+                        
+                          a
+                          
+                            0
+                          
+                        
+                        
+                          a
+                          
+                            N
+                          
+                        
+                      
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+         
+        .
+      
+    
+    {\displaystyle \nu \left({\frac {a_{0}}{a_{N}}}\right)={\frac {1}{\sqrt {2}}}{\sqrt {1+{\sqrt {1+4\left({\frac {a_{0}}{a_{N}}}\right)^{2}}}}}~.}
+  
+
+Thus, in the deep-MOND regime (a ≪ a0):
+
+  
+    
+      
+        
+          F
+          
+            N
+          
+        
+        =
+        m
+        
+          
+            
+              
+              
+                a
+                
+                  2
+                
+              
+              
+            
+            
+              
+              
+                a
+                
+                  0
+                
+              
+              
+            
+          
+        
+         
+        .
+      
+    
+    {\displaystyle F_{\text{N}}=m{\frac {\,a^{2}\,}{\,a_{0}\,}}~.}
+  
+
+Data from spiral and elliptical galaxies favour the simple interpolation function, whereas data from lunar laser ranging and radio tracking data of the Cassini spacecraft towards Saturn require interpolation functions that converge to Newtonian gravity faster.
+
+
+=== External field effect ===
+In Newtonian mechanics, an object's acceleration can be found as the vector sum of the acceleration due to each of the individual forces acting on it. This means that a subsystem can be decoupled from the larger system in which it is embedded simply by referring the motion of its constituent particles to their centre of mass; in other words, the influence of the larger system is irrelevant for the internal dynamics of the subsystem. Since Milgrom's law is non-linear in acceleration, MONDian subsystems cannot be decoupled from their environment in this way, and in certain situations this leads to behaviour with no Newtonian parallel. This is known as the "external field effect" (EFE), for which there exists observational evidence.
+The external field effect is best described by classifying physical systems according to their relative values of ain (the characteristic acceleration of one object within a subsystem due to the influence of another), aex (the acceleration of the entire subsystem due to forces exerted by objects outside of it), and a0:
+
+  
+    
+      
+        
+          a
+          
+            
+              i
+              n
+            
+          
+        
+        >
+        
+          a
+          
+            0
+          
+        
+      
+    
+    {\displaystyle a_{\mathrm {in} }>a_{0}}
+  
+ :  Newtonian regime
+
+  
+    
+      
+        
+          a
+          
+            
+              e
+              x
+            
+          
+        
+        <
+        
+          a
+          
+            
+              i
+              n
+            
+          
+        
+        <
+        
+          a
+          
+            0
+          
+        
+      
+    
+    {\displaystyle a_{\mathrm {ex} }<a_{\mathrm {in} }<a_{0}}
+  
+ :  Deep-MOND regime
+
+  
+    
+      
+        
+          a
+          
+            
+              i
+              n
+            
+          
+        
+        <
+        
+          a
+          
+            0
+          
+        
+        <
+        
+          a
+          
+            
+              e
+              x
+            
+          
+        
+      
+    
+    {\displaystyle a_{\mathrm {in} }<a_{0}<a_{\mathrm {ex} }}
+  
+ : The external field is dominant and the behavior of the system is Newtonian.
+
+  
+    
+      
+        
+          a
+          
+            
+              i
+              n
+            
+          
+        
+        <
+        
+          a
+          
+            
+              e
+              x
+            
+          
+        
+        <
+        
+          a
+          
+            0
+          
+        
+      
+    
+    {\displaystyle a_{\mathrm {in} }<a_{\mathrm {ex} }<a_{0}}
+  
+ : The external field is larger than the internal acceleration of the system, but both are smaller than the critical value. In this case, dynamics is Newtonian but the effective value of G is enhanced by a factor of a0/aex.
+The external field effect implies a fundamental break with the strong equivalence principle (but not the weak equivalence principle which is required by the Lagrangian). The effect was postulated by Milgrom in the first of his 1983 papers to explain why some open clusters were observed to have no mass discrepancy even though their internal accelerations were below a0. It has since come to be recognized as a crucial element of the MOND paradigm.
+The dependence in MOND of the internal dynamics of a system on its external environment (in principle, the rest of the universe) is strongly reminiscent of Mach's principle, and may hint towards a more fundamental structure underlying Milgrom's law. In this regard, Milgrom has commented:
+
+It has been long suspected that local dynamics is strongly influenced by the universe at large, a-la Mach's principle, but MOND seems to be the first to supply concrete evidence for such a connection. This may turn out to be the most fundamental implication of MOND, beyond its implied modification of Newtonian dynamics and general relativity, and beyond the elimination of dark matter.
+
+
+=== Complete MOND theories ===
+Milgrom's law requires incorporation into a complete hypothesis if it is to satisfy conservation laws and provide a unique solution for the time evolution of any physical system. Each of the theories described here reduce to Milgrom's law in situations of high symmetry, but produce different behavior in detail.
+Both AQUAL and QUMOND propose changes to the gravitational part of the classical matter action, and hence interpret Milgrom's law as a modification of Newtonian gravity as opposed to Newton's second law. The alternative is to turn the kinetic term of the action into a functional depending on the trajectory of the particle. Such "modified inertia" theories, however, are difficult to use because they are time-nonlocal, require energy and momentum to be non-trivially redefined to be conserved, and have predictions that depend on the entirety of a particle's orbit.
+
+
+==== AQUAL ====
+
+The first hypothesis of MOND (dubbed AQUAL, for "A QUAdratic Lagrangian") was constructed in 1984 by Milgrom and Jacob Bekenstein. AQUAL generates MONDian behavior by modifying the gravitational term in the classical Lagrangian from being quadratic in the gradient of the Newtonian potential to a more general function F. This function F reduces to the 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+-version of the interpolation function after varying the over 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+ using the principle of least action. In Newtonian gravity and AQUAL the Lagrangians are:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      L
+                    
+                  
+                  
+                    Newton
+                  
+                
+              
+              
+                
+                =
+                −
+                
+                  
+                    1
+                    
+                      8
+                      π
+                      G
+                    
+                  
+                
+                ⋅
+                ‖
+                ∇
+                ϕ
+                
+                  ‖
+                  
+                    2
+                  
+                
+              
+            
+            
+              
+                
+                  
+                    
+                      L
+                    
+                  
+                  
+                    AQUAL
+                  
+                
+              
+              
+                
+                =
+                −
+                
+                  
+                    1
+                    
+                      8
+                      π
+                      G
+                    
+                  
+                
+                ⋅
+                
+                  a
+                  
+                    0
+                  
+                  
+                    2
+                  
+                
+                F
+                
+                  (
+                  
+                    
+                      
+                        
+                          ‖
+                          ∇
+                          ϕ
+                          
+                            ‖
+                            
+                              2
+                            
+                          
+                        
+                        
+                          a
+                          
+                            0
+                          
+                          
+                            2
+                          
+                        
+                      
+                    
+                  
+                  )
+                
+                ,
+                
+                
+                  with 
+                
+                
+                μ
+                (
+                x
+                )
+                =
+                
+                  
+                    
+                      d
+                      F
+                      (
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      )
+                    
+                    
+                      d
+                      x
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\mathcal {L}}_{\text{Newton}}&=-{\frac {1}{8\pi G}}\cdot \|\nabla \phi \|^{2}\\[6pt]{\mathcal {L}}_{\text{AQUAL}}&=-{\frac {1}{8\pi G}}\cdot a_{0}^{2}F\left({\tfrac {\|\nabla \phi \|^{2}}{a_{0}^{2}}}\right),\qquad {\text{with }}\quad \mu (x)={\frac {dF(x^{2})}{dx}}.\end{aligned}}}
+  
+
+where  
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+ is the standard Newtonian gravitational potential and F is a new dimensionless function. Applying the Euler–Lagrange equations in the standard way then leads to a non-linear generalization of the Newton–Poisson equation:
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          [
+          
+            μ
+            
+              (
+              
+                
+                  
+                    ‖
+                    
+                      ∇
+                      ϕ
+                    
+                    ‖
+                  
+                  
+                    a
+                    
+                      0
+                    
+                  
+                
+              
+              )
+            
+            ∇
+            ϕ
+          
+          ]
+        
+        =
+        4
+        π
+        G
+        ρ
+      
+    
+    {\displaystyle \nabla \cdot \left[\mu \left({\frac {\left\|\nabla \phi \right\|}{a_{0}}}\right)\nabla \phi \right]=4\pi G\rho }
+  
+
+This can be solved given suitable boundary conditions and choice of F to yield Milgrom's law (up to a curl field correction which vanishes in situations of high symmetry). AQUAL uses the 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+-version of the chosen interpolation function.
+
+
+==== QUMOND ====
+An alternative way to modify the gravitational term in the Lagrangian is to introduce a distinction between the true (MONDian) acceleration field a and the Newtonian acceleration field aN. The Lagrangian may be constructed so that aN satisfies the usual Newton-Poisson equation, and is then used to find a via an additional algebraic but non-linear step, which is chosen to satisfy Milgrom's law. This is called the "quasi-linear formulation of MOND", or QUMOND, and is particularly useful for calculating the distribution of "phantom" dark matter that would be inferred from a Newtonian analysis of a given physical situation. QUMOND has become the dominant MOND field theory since it was first formulated in 2010 because it is much more computationally friendly and may be more intuitive to those who have worked on numerical simulations of Newtonian gravity. QUMOND uses the 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+-version of the chosen interpolation function. QUMOND and AQUAL can be derived from each other using a Legendre transform. The QUMOND Lagrangian is:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      L
+                    
+                  
+                  
+                    QUMOND
+                  
+                
+                =
+                
+                  
+                    1
+                    2
+                  
+                
+                ρ
+                
+                  v
+                  
+                    2
+                  
+                
+                −
+                ρ
+                ϕ
+                −
+                
+                  
+                    1
+                    
+                      8
+                      π
+                      G
+                    
+                  
+                
+                
+                  (
+                  
+                    2
+                    ∇
+                    ϕ
+                    ⋅
+                    ∇
+                    
+                      ϕ
+                      
+                        N
+                      
+                    
+                    −
+                    
+                      a
+                      
+                        0
+                      
+                      
+                        2
+                      
+                    
+                    Q
+                    
+                      (
+                      
+                        (
+                        
+                          a
+                          
+                            0
+                          
+                        
+                        
+                          /
+                        
+                        ∇
+                        
+                          ϕ
+                          
+                            N
+                          
+                        
+                        
+                          )
+                          
+                            2
+                          
+                        
+                      
+                      )
+                    
+                  
+                  )
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\mathcal {L}}_{\text{QUMOND}}={\frac {1}{2}}\rho v^{2}-\rho \phi -{\frac {1}{8\pi G}}\left(2\nabla \phi \cdot \nabla \phi _{N}-a_{0}^{2}Q\left((a_{0}/\nabla \phi _{N})^{2}\right)\right)\end{aligned}}}
+  
+
+Since this Lagrangian does not explicitly depend on time and is invariant under spatial translations this means energy and momentum are conserved according to Noether's theorem. Varying over r yields 
+  
+    
+      
+        m
+        a
+        =
+        m
+        g
+      
+    
+    {\displaystyle ma=mg}
+  
+ showing that the weak equivalence principle always applies in QUMOND. However, since 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+ and 
+  
+    
+      
+        
+          ϕ
+          
+            N
+          
+        
+      
+    
+    {\displaystyle \phi _{N}}
+  
+ are not identical and are non-linearly related this means that the strong equivalence principle must be violated. This can be observed by measuring the external field effect. Furthermore, by varying over 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+ we get the following Newton-Poisson equation familiar from Newtonian gravity but now with a subscript to denote that in QUMOND this equation determines the auxiliary gravitational field 
+  
+    
+      
+        
+          ϕ
+          
+            N
+          
+        
+      
+    
+    {\displaystyle \phi _{N}}
+  
+:
+
+  
+    
+      
+        
+          ∇
+          
+            2
+          
+        
+        
+          ϕ
+          
+            N
+          
+        
+        =
+        4
+        π
+        G
+        ρ
+        .
+      
+    
+    {\displaystyle \nabla ^{2}\phi _{N}=4\pi G\rho .}
+  
+
+Finally by varying the QUMOND Lagrangian with respect to 
+  
+    
+      
+        
+          ϕ
+          
+            N
+          
+        
+      
+    
+    {\displaystyle \phi _{N}}
+  
+ we get the QUMOND field equation:
+
+  
+    
+      
+        
+          ∇
+          
+            2
+          
+        
+        ϕ
+        =
+        ∇
+        ⋅
+        
+          [
+          
+            ν
+            
+              (
+              
+                
+                  
+                    a
+                    
+                      0
+                    
+                  
+                  
+                    ‖
+                    
+                      ∇
+                      
+                        ϕ
+                        
+                          N
+                        
+                      
+                    
+                    ‖
+                  
+                
+              
+              )
+            
+            ∇
+            
+              ϕ
+              
+                N
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle \nabla ^{2}\phi =\nabla \cdot \left[\nu \left({\frac {a_{0}}{\left\|\nabla \phi _{N}\right\|}}\right)\nabla \phi _{N}\right]}
+  
+
+These two field equations can be solved numerically for any matter distribution with numerical solvers like Phantom of RAMSES (POR).
+
+
+== Observational evidence for MOND ==
+
+Since MOND was specifically designed to produce flat rotation curves, these do not constitute evidence for the hypothesis, but every matching observation does add support to the empirical law MOND is based on. Nevertheless, proponents claim that a broad range of astrophysical phenomena at the galactic scale are neatly accounted for within the MOND framework. Many of these came to light after the publication of Milgrom's original papers and are difficult to explain using the dark matter hypothesis. The most prominent are the following:
+
+
+=== Rotation curves ===
+
+In addition to demonstrating that rotation curves in MOND are flat, equation 2 provides a concrete relation between a galaxy's total baryonic mass (the sum of its mass in stars and gas) and its asymptotic rotation velocity. This predicted relation was called the mass-asymptotic speed relation (MASSR) by Milgrom; its observational manifestation is known as the baryonic Tully–Fisher relation (BTFR), and is found to conform quite closely to the MOND prediction. This relation is derived from the Deep-MOND limit as follows:
+
+Milgrom's law fully specifies the rotation curve of a galaxy given only the distribution of its baryonic mass. In particular, MOND predicts a far stronger correlation between features in the baryonic mass distribution and features in the rotation curve than does the dark matter hypothesis (since dark matter dominates the galaxy's mass budget and is conventionally assumed not to closely track the distribution of baryons). Such a tight correlation is claimed to be observed in several spiral galaxies, a fact which has been referred to as "Renzo's rule".
+Since MOND modifies Newtonian dynamics in an acceleration-dependent way, it predicts a specific relationship between the acceleration of a star at any radius from the centre of a galaxy and the amount of unseen (dark matter) mass within that radius that would be inferred in a Newtonian analysis. This is known as the mass discrepancy-acceleration relation, and has been measured observationally. One aspect of the MOND prediction is that the mass of the inferred dark matter goes to zero when the stellar centripetal acceleration becomes greater than a0, where MOND reverts to Newtonian mechanics. In a dark matter hypothesis, it is a challenge to understand why this mass should correlate so closely with acceleration, and why there appears to be a critical acceleration above which dark matter is not required.
+Particularly massive galaxies are within the Newtonian regime (a > a0) out to radii enclosing the vast majority of their baryonic mass. At these radii, MOND predicts that the rotation curve should fall as 1/r, in accordance with Kepler's Laws. In contrast, from a dark matter perspective one would expect the halo to significantly boost the rotation velocity and cause it to asymptote to a constant value, as in less massive galaxies. Observations of high-mass ellipticals bear out the MOND prediction.
+In 2020, a group of astronomers analyzing data from the Spitzer Photometry and Accurate Rotation Curves (SPARC) sample together with estimates of the large-scale external gravitational field from an all-sky galaxy catalog, concluded that there was highly statistically significant evidence of violations of the strong equivalence principle in weak gravitational fields in the vicinity of rotationally supported galaxies. They observed an effect consistent with the external field effect of modified Newtonian dynamics and inconsistent with tidal effects in the dark matter based Lambda-CDM model.
+In 2023, a study claimed that cold dark matter cannot explain the inner parts of galactic rotation curves, while MOND can.
+
+
+=== Dwarf galaxies ===
+Recent work has shown that many of the dwarf galaxies around the Milky Way and Andromeda are located preferentially in a single plane and have correlated motions. This suggests that they may have formed during a close encounter with another galaxy and hence are tidal dwarf galaxies. If so, the presence of mass discrepancies in these systems constitutes evidence for MOND. In addition, it has been claimed that a gravitational force stronger than Newton's (such as Milgrom's) is required for these galaxies to retain their orbits over time. Centaurus A has a similar plane of dwarf galaxies around it which is challenging for LCDM which expects uniform halos of dwarf galaxies.
+In MOND, all isolated gravitationally bound objects with a < a0 that are in equilibrium – regardless of their origin – should exhibit a mass discrepancy when analyzed using Newtonian mechanics, and should lie on the BTFR. Under the dark matter hypothesis, objects formed from baryonic material ejected during the merger or tidal interaction of two galaxies ("tidal dwarf galaxies") are expected to be devoid of dark matter and hence show no mass discrepancy. Three objects unambiguously identified as tidal dwarf galaxies appear to have mass discrepancies in agreement with the MOND prediction.
+In a 2022 published survey of dwarf galaxies from the Fornax Deep Survey (FDS) catalogue, a group of astronomers and physicists conclude that 'observed deformations of dwarf galaxies in the Fornax Cluster and the lack of low surface brightness dwarfs towards its centre are incompatible with ΛCDM expectations but well consistent with MOND.'
+
+
+=== Gravitational lensing ===
+
+Weak gravitational lensing around isolated spiral and elliptical galaxies confirms the gravitational field of such galaxies follows Milgrom's law. This corresponds to flat rotation curves out to distances of 1 Mpc.
+Strong gravitational lensing using Einstein rings also seems to confirm the MOND expectation for the mass discrepancy-acceleration relation.
+
+
+=== Other ===
+Both MOND and dark matter halos stabilize disk galaxies, helping them retain their rotation-supported structure and preventing their transformation into elliptical galaxies. In MOND, this added stability is only available for regions of galaxies within the deep-MOND regime (i.e., with a < a0), suggesting that spirals with a > a0 in their central regions should be prone to instabilities and hence less likely to survive to the present day. This may explain the "Freeman limit" to the observed central surface mass density of spiral galaxies, which is roughly a0/G. This scale must be put in by hand in dark matter-based galaxy formation models.
+Galactic bars in barred galaxies are in tension with dark matter simulations as they are too pronounced and rotate too fast, yet do match MOND based calculations.
+In 2022, Kroupa et al. published a study of open star clusters, arguing that asymmetry in the population of leading and trailing tidal tails, and the observed lifetime of these clusters, are inconsistent with Newtonian dynamics but consistent with MOND.
+In 2023, a study measured the acceleration of 26,615 wide binaries within 200 parsecs. The study showed that those binaries with accelerations less than 1 nm/s2 systematically deviate from Newtonian dynamics, but conform to MOND predictions, specifically to AQUAL. The results are disputed, with some authors arguing that the detection is caused by poor quality controls, while the original authors claimed that the added quality controls do not significantly affect the results.
+In 2024, a study claimed that the universe's earliest galaxies formed and grew too quickly for the Lambda-CDM model to explain, but such rapid growth is predicted in MOND.
+
+
+== Responses and criticism ==
+
+
+=== Dark matter explanation ===
+While acknowledging that Milgrom's law provides a succinct and accurate description of a range of galactic phenomena, many physicists reject the idea that classical dynamics itself needs to be modified and attempt instead to explain the law's success by reference to the behavior of dark matter. Some effort has gone towards establishing the presence of a characteristic acceleration scale as a natural consequence of the behavior of cold dark matter halos, although Milgrom has argued that such arguments explain only a small subset of MOND phenomena. An alternative proposal is to ad hoc modify the properties of dark matter (e.g., to make it interact strongly with itself or baryons) in order to induce the tight coupling between the baryonic and dark matter mass that the observations point to. Finally, some researchers suggest that explaining the empirical success of Milgrom's law requires a more radical break with conventional assumptions about the nature of dark matter. One idea (dubbed "dipolar dark matter") is to make dark matter gravitationally polarizable by ordinary matter and have this polarization enhance the gravitational attraction between baryons.
+
+
+=== Outstanding problems for MOND ===
+Some ultra diffuse galaxies, such as NGC 1052-DF2, originally appeared to be free of dark matter. Were this the case, it would have posed a problem for MOND because it cannot explain the rotation curves. However, further research showed that the galaxies were at a different distance than previously thought, leaving the galaxies with plenty of room for dark matter. The idea that a single value of a0 can fit all the different galaxies' rotation curves has also been criticized, although this finding is disputed. It has also been claimed that MOND offers a poor fit to both the HI column density and size of Lyα absorbers. Modified inertia versions of MOND have long suffered from poor theoretical compatibility with long held physical principles such as conservation laws. Researchers working on MOND generally do not interpret it as a modification of inertia, with only very limited work done on this area.
+
+
+==== Solar System ====
+Almost the entire Solar System has gravitational field strengths many orders of magnitude higher than a0 so the increase in gravity due to MOND is negligible. However solar system tests are extremely precise and most observations have proven difficult for MOND to explain. Notably data from lunar laser ranging rules out the simple interpolation function. Radio tracking data of the Cassini spacecraft towards Saturn rules out both the simple and standard interpolation functions by testing an anomalous quadrupole effect predicted by MOND. It is also possible that a full fit of solar system ephemerides where the masses of planets and asteroids are allowed to vary can accommodate this anomalous quadrupole effect since these are currently determined using general relativity only. Observations of long period comets also seem to conflict with higher order predictions of MOND. Furthermore, laboratory experiments of Newton's second law seem to have ruled out modified inertia versions of MOND with experimental accelerations reaching as low as 0.1% of a0 without deviation from the Newtonian expectation. Some solar system observations could support MOND as it has been suggested that the orbits of Kuiper Belt objects are best explained through MOND's external field effect, rather than through a hypothetical planet nine. It has also been claimed that the variation in the measurements of Newton's gravitational constant are caused by MOND acting perpendicularly to the Earth's gravitational field.
+
+
+==== Galaxy clusters ====
+The most serious problem facing Milgrom's law is that galaxy clusters show a residual mass discrepancy even when analyzed using MOND. This problem is long standing and has been dubbed the "cluster conundrum". This undermines MOND as an alternative to dark matter, although the amount of extra mass required is only a fifth that of a Newtonian analysis and could be in the form of normal matter. It has been speculated that ~2 eV neutrinos could account for the cluster observations in MOND while preserving the hypothesis's successes at the galaxy scale. Analysis of lensing data for the galaxy cluster Abell 1689 shows that this residual missing mass problem in MOND becomes more severe towards the cores of galaxy clusters.
+
+The 2006 observation a pair of colliding galaxy clusters known as the "Bullet Cluster" has been claimed as a significant challenge for all theories proposing a modified gravity solution to the missing mass problem, including MOND. Astronomers measured the distribution of stellar and gas mass in the clusters using visible and X-ray light, respectively, and also mapped the gravitational potential using gravitational lensing. As shown in the images on the right, the X-ray gas is in the center, while the galaxies are on the outskirts. During the collision, the X-ray gas interacted and slowed down, remaining in the center, while the galaxies largely passed by one another, as the distances between them were vast. The gravitational potential reveals two large concentrations centered on the galaxies, not on the X-ray gas, where most of the normal matter is located. In ΛCDM one would also expect the clusters to each have a dark matter halo that would pass through each other during the collision (assuming, as is conventional, that dark matter is collisionless). This expectation for the dark matter is a clear explanation for the offset between the peaks of the gravitational potential and the X-ray gas. It is this offset between the gravitational potential and normal matter that was claimed by Clowe et al. as "A Direct Empirical Proof of the Existence of Dark Matter" arguing that modified gravity theories fail to account for it. However, this study by Clowe et al. made no attempt to analyze the Bullet Cluster using MOND or any other modified gravity theory. Furthermore, in the same year, Angus et al. demonstrated that MOND does indeed reproduce the offset between the gravitational potential and the X-ray gas in this highly non-spherically-symmetric system. In MOND, one would expect the "missing mass" to be centred on regions which experience accelerations lower than a0, which, in the case of the Bullet Cluster, correspond to the areas containing the galaxies, not the X-ray gas. Nevertheless, MOND still fails to fully explain this cluster, as it does with other galaxy clusters, due to the remaining mass residuals in several core regions of the Bullet Cluster.
+
+
+==== Relativistic MOND ====
+Besides these observational issues, MOND and its relativistic generalizations are plagued by theoretical difficulties. Several ad hoc and inelegant additions to general relativity are required to create a theory compatible with a non-Newtonian non-relativistic limit, though the predictions in this limit are rather clear.
+In 2004, Jacob Bekenstein formulated TeVeS, the first complete relativistic hypothesis using MONDian behaviour. TeVeS is constructed from a local Lagrangian (and hence respects conservation laws), and employs a unit vector field, a dynamical and non-dynamical scalar field, a free function and a non-Einsteinian metric in order to yield AQUAL in the non-relativistic limit (low speeds and weak gravity). TeVeS has enjoyed some success in making contact with gravitational lensing and structure formation observations, but faces problems when confronted with data on the anisotropy of the cosmic microwave background, the lifetime of compact objects, and the relationship between the lensing and matter overdensity potentials. TeVeS also appears inconsistent with the speed of gravitational waves according to LIGO. The speed of gravitational waves was measured to be equal to the speed of light to high precision using gravitational wave event GW170817.
+Several newer relativistic generalizations of MOND exist, including BIMOND and generalized Einstein aether theory. There is also a relativistic generalization of MOND that assumes a Lorentz-type invariance as the physical basis of MOND phenomenology. Recently Skordis and Złośnik proposed a relativistic model of MOND that is compatible with cosmic microwave background observations, the matter power spectrum and the speed of gravity.
+
+
+==== Cosmology ====
+It has been claimed that MOND is generally unsuited to forming the basis of cosmology. A significant piece of evidence in favor of standard dark matter is the observed anisotropies in the cosmic microwave background. While ΛCDM is able to explain the observed angular power spectrum, MOND has a much harder time. It is possible to construct relativistic generalizations of MOND that can fit CMB observations, but it requires terms that do not look natural, and several observations (such as the amount of gravitational lensing) are still difficult to explain. MOND also encounters difficulties explaining structure formation, with density perturbations in MOND perhaps growing so rapidly that too much structure is formed by the present epoch. However, galaxy surveys appear to show massive galaxy formation occurring at much greater rapidity early in time than is possible according to ΛCDM.
+There is a potential link between MOND and cosmology. It has been noted that the value of a0 is within an order of magnitude of cH0, where c is the speed of light and H0 is the Hubble constant (a measure of the present-day expansion rate of the universe). It is also close to the acceleration rate of the universe through 
+  
+    
+      
+        
+          
+            Λ
+          
+        
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\sqrt {\Lambda }}c^{2}}
+  
+, where Λ is the cosmological constant. Recent work on a transactional formulation of entropic gravity by Schlatter and Kastner suggests a natural connection between a0, H0, and the cosmological constant.
+
+
+== Proposals for testing MOND ==
+Several observational and experimental tests have been proposed to help distinguish between MOND and dark matter-based models:
+
+The detection of particles suitable for constituting cosmological dark matter would strongly suggest that ΛCDM is correct and no modification to Newton's laws is required.
+If MOND is taken as a theory of modified inertia, it predicts the existence of anomalous accelerations on the Earth at particular places and times of the year. These could be detected in a precision experiment. This prediction would not hold if MOND is taken as a theory of modified gravity, as the external field effect produced by the Earth would cancel MONDian effects at the Earth's surface.
+It has been suggested that MOND could be tested in the Solar System using the LISA Pathfinder mission (launched in 2015). In particular, it may be possible to detect the anomalous tidal stresses predicted by MOND to exist at the Earth-Sun saddlepoint of the Newtonian gravitational potential. It may also be possible to measure MOND corrections to the perihelion precession of the planets in the Solar System, or a purpose-built spacecraft.
+One potential astrophysical test of MOND is to investigate whether isolated galaxies behave differently from otherwise-identical galaxies that are under the influence of a strong external field. Another is to search for non-Newtonian behaviour in the motion of binary star systems where the stars are sufficiently separated for their accelerations to be below a0.
+Testing MOND using the redshift-dependence of radial acceleration –  Sabine Hossenfelder and Tobias Mistele propose a parameter-free MOND model they call Covariant Emergent Gravity and suggest that as measurements of radial acceleration improve, various MOND models and particle dark matter might be distinguishable because MOND predicts a much smaller redshift-dependence.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Technical (books & book-length reviews):
+
+Banik, Indranil; Zhao, Hongsheng (2022-06-27). "From Galactic Bars to the Hubble Tension: Weighing Up the Astrophysical Evidence for Milgromian Gravity". Symmetry. 14 (7): 1331. arXiv:2110.06936. Bibcode:2022Symm...14.1331B. doi:10.3390/sym14071331. ISSN 2073-8994.
+Merritt, David (2020). A Philosophical Approach to MOND: Assessing the Milgromian Research Program in Cosmology (Cambridge: Cambridge University Press), 282 pp. ISBN 9781108492690
+Famaey, Benoît; McGaugh, Stacy S. (2012). "Modified Newtonian Dynamics (MOND): Observational Phenomenology and Relativistic Extensions". Living Reviews in Relativity. 15 (1): 10. arXiv:1112.3960. Bibcode:2012LRR....15...10F. doi:10.12942/lrr-2012-10. PMC 5255531. PMID 28163623.
+Technical (review articles):
+
+McGaugh, Stacy S. (2015). "A tale of two paradigms: The mutual incommensurability of ΛCDM and MOND". Canadian Journal of Physics. 93 (2): 250–259. arXiv:1404.7525. Bibcode:2015CaJPh..93..250M. doi:10.1139/cjp-2014-0203. S2CID 51822163.
+Milgrom, Mordehai (2015). "MOND theory". Canadian Journal of Physics. 93 (2): 107–118. arXiv:1404.7661. Bibcode:2015CaJPh..93..107M. doi:10.1139/cjp-2014-0211. S2CID 119183394.
+Kroupa, Pavel (2015). "Galaxies as simple dynamical systems: Observational data disfavor dark matter and stochastic star formation". Canadian Journal of Physics. 93 (2): 169–202. arXiv:1406.4860. Bibcode:2015CaJPh..93..169K. doi:10.1139/cjp-2014-0179. S2CID 118479184.
+Milgrom, Mordehai (2014). "The MOND paradigm of modified dynamics". Scholarpedia. 9 (6) 31410. Bibcode:2014SchpJ...931410M. doi:10.4249/scholarpedia.31410.
+Scarpa, Riccardo (2006). "Modified Newtonian Dynamics, an Introductory Review". AIP Conference Proceedings. Vol. 822. AIP. pp. 253–265. arXiv:astro-ph/0601478. doi:10.1063/1.2189141.
+Popular:
+
+A non-Standard model, David Merritt, Aeon Magazine, July 2021
+Dark matter critics focus on details, ignore big picture, Lee, 14 Nov 2012
+Milgrom, Mordehai (2009). "MOND: Time for a change of mind?". arXiv:0908.3842 [astro-ph.CO].
+"Dark matter" doubters not silenced yet Archived 2016-05-20 at the Wayback Machine, World Science, 2 Aug 2007
+Does Dark Matter Really Exist?, Milgrom, Scientific American, Aug 2002
+
+
+== External links ==
+ Media related to Modified Newtonian Dynamic at Wikimedia Commons
+
+Mordehai Milgrom's website
+Large collection of lectures and talks on Youtube

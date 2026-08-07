@@ -1,0 +1,46 @@
+Wikipedia article: The Ambidextrous Universe
+Source: https://en.wikipedia.org/wiki/The_Ambidextrous_Universe
+PageID: 12987835
+======================================================================
+
+The Ambidextrous Universe is a popular science book by Martin Gardner, covering aspects of symmetry and asymmetry in human culture, science and the wider universe. It culminates in a discussion of whether nature's conservation of parity (the symmetry of mirrored quantum systems) is ever violated, which had been proven experimentally in 1956.
+The book was originally published in 1964 with the subtitle Left, Right, and the Fall of Parity, with a revised version following in 1969. A second edition was released in 1979 with the new subtitle Mirror Asymmetry and Time-Reversed Worlds. The third edition was released in 1990 under the title The New Ambidextrous Universe: Symmetry and Asymmetry from Mirror Reflections to Superstrings; this was re-released with minor revisions in 2005.
+
+
+== Content ==
+The book begins with the subject of mirror reflection, and from there passes through symmetry in geometry, poetry, art, music, galaxies, stars, planets and living organisms. It then moves down into the molecular scale and looks at how symmetry and asymmetry have evolved from the beginning of life on Earth. There is a chapter on carbon and its versatility and on chirality in biochemistry.
+The last several chapters deal with a conundrum called the Ozma Problem, which examines whether there is any fundamental asymmetry to the universe. This discussion concerns various aspects of atomic and subatomic physics and how they relate to mirror asymmetry and the related concepts of chirality, antimatter, magnetic and electrical polarity, parity, charge and spin. Time invariance (and reversal) is discussed. Implications for particle physics, theoretical physics and cosmology are covered and brought up to date (in later editions of the book) with regard to Grand Unified Theories, theories of everything, superstring theory and M-theory.
+
+
+=== The Ozma Problem ===
+The 18th chapter, "The Ozma Problem", poses a problem that Gardner claims would arise if Earth should ever enter into communication with life on another planet through Project Ozma. This is the problem of how to communicate the meaning of left and right, where the two communicants are conditionally not allowed to view any one object in common.
+The problem was first implied in Immanuel Kant's discussion of a hand isolated in space, which would have no meaning as left or right by itself; Gardner posits that Kant would today explain his problem using the reversibility of objects through a higher dimension. A three-dimensional hand can be reversed in a mirror or a hypothetical fourth dimension. In more easily visualizable terms, an outline of a hand in Flatland could be flipped over; the meaning of left or right would not apply until a being missing a corresponding hand came along. Charles Howard Hinton expressed the essential problem in 1888, as did William James in his The Principles of Psychology (1890). Gardner follows the thread of several false leads on the road to the solution of the problem, such as the magnetic poles of astronomical bodies and the chirality of life molecules, which could be arbitrary based on how life locally originated.
+The solution to the Ozma Problem was finally realized in the famous Wu experiment, conducted in 1956 by Chinese-American physicist Chien-Shiung Wu (1912–1997), involving the beta decay of cobalt-60. At a conference earlier that year, Richard Feynman had asked (on behalf of Martin M. Block) whether parity was sometimes violated, leading Tsung-Dao Lee and Chen-Ning Yang to propose Wu's experiment, for which Lee and Yang were awarded the 1957 Nobel Prize in Physics. It was the first experiment to disprove the conservation of parity, and according to Gardner, one could use it to convey the meaning of left and right to remote extraterrestrials. An earlier example of asymmetry had actually been detected as early as 1928 in the decay of a radionuclide of radium, but its significance was not then realized.
+
+
+== Literary references ==
+The Ambidextrous Universe references several physics-themed poems and certain works of literature which help to illustrate various points. Additionally, some other works have referenced Gardner's book.
+
+
+=== W. H. Auden ===
+W. H. Auden alludes to The Ambidextrous Universe in his poem "Josef Weinheber" (1965).
+
+
+=== Vladimir Nabokov ===
+Pale Fire
+In the original 1964 edition of The Ambidextrous Universe, Gardner quoted two lines of poetry from Vladimir Nabokov's 1962 novel Pale Fire which are supposed to have been written by a poet, "John Shade", who is actually fictional. As a joke, Gardner credited the lines only to Shade and put Shade's name in the index as if he were a real person. In his 1969 novel Ada or Ardor: A Family Chronicle, Nabokov returned the favor by having the character Van Veen "quote" the Gardner book along with the two lines of verse:
+
+"Space is a swarming in the eyes, and Time a singing in the ears," says John Shade, a modern poet, as quoted by an invented philosopher ("Martin Gardiner"  [sic]) in The Ambidextrous Universe, page 165  [sic].
+Look at the Harlequins!
+Nabokov's 1974 novel Look at the Harlequins!, about a man who cannot distinguish left from right, was heavily influenced by his reading of The Ambidextrous Universe.
+
+
+== Reviews ==
+Games
+
+
+== References ==
+
+
+=== Bibliography ===
+Gardner, Martin (2005) [1964]. The New Ambidextrous Universe: Symmetry and Asymmetry from Mirror Reflections to Superstrings (3rd rev. ed.). Mineola, NY: Dover Publications. ISBN 0-486-44244-6. OCLC 57373717.

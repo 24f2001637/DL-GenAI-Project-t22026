@@ -1,0 +1,414 @@
+Wikipedia article: Climate change feedbacks
+Source: https://en.wikipedia.org/wiki/Climate_change_feedbacks
+PageID: 26198824
+======================================================================
+
+Climate change feedbacks are natural processes that impact how much global temperatures will increase for a given amount of greenhouse gas emissions. Positive feedbacks amplify global warming while negative feedbacks diminish it. Feedbacks influence both the amount of greenhouse gases in the atmosphere and the amount of temperature change that happens in response. While emissions are the forcing that causes climate change, feedbacks combine to control climate sensitivity to that forcing.
+While the overall sum of feedbacks is negative, it is becoming less negative as greenhouse gas emissions continue. This means that warming is slower than it would be in the absence of feedbacks, but that warming will accelerate if emissions continue at current levels. Net feedbacks will stay negative largely because of increased thermal radiation as the planet warms, which is an effect that is several times larger than any other singular feedback. Accordingly, anthropogenic climate change alone cannot cause a runaway greenhouse effect.
+Feedbacks can be divided into physical feedbacks and partially biological feedbacks. Physical feedbacks include decreased surface reflectivity (from diminished snow and ice cover) and increased water vapor in the atmosphere. Water vapor is not only a powerful greenhouse gas, it also influences feedbacks in the distribution of clouds and temperatures in the atmosphere. Biological feedbacks are mostly associated with changes to the rate at which plant matter accumulates CO2 as part of the carbon cycle. The carbon cycle absorbs more than half of CO2 emissions every year into plants and into the ocean. Over the long term the percentage will be reduced as carbon sinks become saturated and higher temperatures lead to effects like drought and wildfires.
+Feedback strengths and relationships are estimated through global climate models, with their estimates calibrated against observational data whenever possible. Some feedbacks rapidly impact climate sensitivity, while the feedback response from ice sheets is drawn out over several centuries. Feedbacks can also result in localized differences, such as polar amplification resulting from feedbacks that include reduced snow and ice cover. While basic relationships are well understood, feedback uncertainty exists in certain areas, particularly regarding cloud feedbacks. Carbon cycle uncertainty is driven by the large rates at which CO2 is both absorbed into plants and released when biomass burns or decays. For instance, permafrost thaw produces both CO2 and methane emissions in ways that are difficult to model. Climate change scenarios use models to estimate how Earth will respond to greenhouse gas emissions over time, including how feedbacks will change as the planet warms.
+
+
+== Definition and terminology ==
+
+The Planck response is the additional thermal radiation objects emit as they get warmer. Whether Planck response is a climate change feedback depends on the context. In climate science the Planck response can be treated as an intrinsic part of warming that is separate from radiative feedbacks and carbon cycle feedbacks. However, the Planck response is included when calculating climate sensitivity.
+A feedback that amplifies an initial change is called a positive feedback while a feedback that reduces an initial change is called a negative feedback. Climate change feedbacks are in the context of global warming, so positive feedbacks enhance warming and negative feedbacks diminish it. Naming a feedback positive or negative does not imply that the feedback is good or bad.
+The initial change that triggers a feedback may be externally forced, or may arise through the climate system's internal variability. External forcing refers to "a forcing agent outside the climate system causing a change in the climate system" that may push the climate system in the direction of warming or cooling. External forcings may be human-caused (for example, greenhouse gas emissions or land use change) or natural (for example, volcanic eruptions).
+
+
+== Physical feedbacks ==
+
+
+=== Planck response (negative) ===
+
+Planck response is "the most fundamental feedback in the climate system". As the temperature of a black body increases, the emission of infrared radiation increases with the fourth power of its absolute temperature according to the Stefan–Boltzmann law. This increases the amount of outgoing radiation back into space as the Earth warms.  It is a strong stabilizing response and has sometimes been called the "no-feedback response" because it is an intensive property of a thermodynamic system when considered to be purely a function of temperature. Although Earth has an effective emissivity less than unity, the ideal black body radiation emerges as a separable quantity when investigating perturbations to the planet's outgoing radiation.
+The Planck "feedback" or Planck response is the comparable radiative response obtained from analysis of practical observations or global climate models (GCMs). Its expected strength has been most simply estimated from the derivative of the Stefan-Boltzmann equation as −4σT3 = −3.8 W/m2·K (watts per square meter per degree of warming). Accounting from GCM applications has sometimes yielded a reduced strength, as caused by extensive properties of the stratosphere and similar residual artifacts subsequently identified as being absent from such models.
+Most extensive "grey body" properties of Earth that influence the outgoing radiation are usually postulated to be encompassed by the other GCM feedback components, and to be distributed in accordance with a particular forcing-feedback framework.  Ideally the Planck response strength obtained from GCMs, indirect measurements, and black body estimates will further converge as analysis methods continue to mature.
+
+
+=== Water vapor feedback (positive) ===
+
+According to Clausius–Clapeyron relation, saturation vapor pressure is higher in a warmer atmosphere, and so the absolute amount of water vapor will increase as the atmosphere warms. It is sometimes also called the specific humidity feedback, because relative humidity (RH) stays practically constant over the oceans, but it decreases over land. This occurs because land experiences faster warming than the ocean, and a decline in RH has been observed after the year 2000.
+Since water vapor is a greenhouse gas, the increase in water vapor content makes the atmosphere warm further, which allows the atmosphere to hold still more water vapor. Thus, a positive feedback loop is formed, which continues until the negative feedbacks bring the system to equilibrium. Increases in atmospheric water vapor have been detected from satellites, and calculations based on these observations place this feedback strength at 1.85 ± 0.32 W/m2·K. This is very similar to model estimates, which are at 1.77 ± 0.20 W/m2·K Either value effectively doubles the warming that would otherwise occur from CO2 increases alone. Like with the other physical feedbacks, this is already accounted for in the warming projections under climate change scenarios.
+
+
+=== Lapse rate (negative) ===
+
+ 
+The lapse rate is the rate at which an atmospheric variable, normally temperature in Earth's atmosphere, falls with altitude. It is therefore a quantification of temperature, related to radiation, as a function of altitude, and is not a separate phenomenon in this context. The lapse rate feedback is generally a negative feedback. However, it is in fact a positive feedback in polar regions where it strongly contributed to polar amplified warming, one of the biggest consequences of climate change. This is because in regions with strong inversions, such as the polar regions, the lapse rate feedback can be positive because the surface warms faster than higher altitudes, resulting in inefficient longwave cooling.
+The atmosphere's temperature decreases with height in the troposphere. Since emission of infrared radiation varies with temperature, longwave radiation escaping to space from the relatively cold upper atmosphere is less than that emitted toward the ground from the lower atmosphere. Thus, the strength of the greenhouse effect depends on the atmosphere's rate of temperature decrease with height. Both theory and climate models indicate that global warming will reduce the rate of temperature decrease with height, producing a negative lapse rate feedback that weakens the greenhouse effect.
+
+
+=== Surface albedo feedback (positive) ===
+
+Albedo is the measure of how strongly the planetary surface can reflect solar radiation, which prevents its absorption and thus has a cooling effect. Brighter and more reflective surfaces have a high albedo and darker surfaces have a low albedo, so they heat up more. The most reflective surfaces are ice and snow, so surface albedo changes are overwhelmingly associated with what is known as the ice-albedo feedback. A minority of the effect is also associated with changes in physical oceanography, soil moisture and vegetation cover.
+The presence of ice cover and sea ice makes the North Pole and the South Pole colder than they would have been without it. During glacial periods, additional ice increases the reflectivity and thus lowers absorption of solar radiation, cooling the planet. But when warming occurs and the ice melts, darker land or open water takes its place and this causes more warming, which in turn causes more melting. In both cases, a self-reinforcing cycle continues until an equilibrium is found. Consequently, recent Arctic sea ice decline is a key reason behind the Arctic warming nearly four times faster than the global average since 1979 (the start of continuous satellite readings), in a phenomenon known as Arctic amplification. Conversely, the high stability of ice cover in Antarctica, where the East Antarctic ice sheet rises nearly 4 km above the sea level, means that it has experienced very little net warming over the past seven decades.  
+
+ 
+As of 2021, the total surface feedback strength is estimated at 0.35 [0.10 to 0.60] W/m2·K. On its own, Arctic sea ice decline between 1979 and 2011 was responsible for 0.21 (W/m2) of radiative forcing. This is equivalent to a quarter of impact from CO2 emissions over the same period. The combined change in all sea ice cover between 1992 and 2018 is equivalent to 10% of all the anthropogenic greenhouse gas emissions. Ice-albedo feedback strength is not constant and depends on the rate of ice loss - models project that under high warming, its strength peaks around 2100 and declines afterwards, as most easily melted ice would already be lost by then.
+When CMIP5 models estimate a total loss of Arctic sea ice cover from June to September (a plausible outcome under higher levels of warming), it increases the global temperatures by 0.19 °C (0.34 °F), with a range of 0.16–0.21 °C, while the regional temperatures would increase by over 1.5 °C (2.7 °F). These calculations include second-order effects such as the impact from ice loss on regional lapse rate, water vapor and cloud feedbacks, and do not cause "additional" warming on top of the existing model projections.
+
+
+=== Cloud feedback (positive) ===
+
+Seen from below, clouds emit infrared radiation back to the surface, which has a warming effect; seen from above, clouds reflect sunlight and emit infrared radiation to space, leading to a cooling effect. Low clouds are bright and very reflective, so they lead to strong cooling, while high clouds are too thin and transparent to effectively reflect sunlight, so they cause overall warming. As a whole, clouds have a substantial cooling effect. However, climate change is expected to alter the distribution of cloud types in a way which collectively reduces their cooling and thus accelerates overall warming. While changes to clouds act as a negative feedback in some latitudes, they represent a clear positive feedback on a global scale.
+As of 2021, cloud feedback strength is estimated at 0.42 [–0.10 to 0.94] W/m2·K. This is the largest confidence interval of any climate feedback, and it occurs because some cloud types (most of which are present over the oceans) have been very difficult to observe, so climate models don't have as much data to go on with when they attempt to simulate their behaviour. Additionally, clouds have been strongly affected by aerosol particles, mainly from the unfiltered burning of sulfur-rich fossil fuels such as coal and bunker fuel. Any estimate of cloud feedback needs to disentangle the effects of so-called global dimming caused by these particles as well.
+Thus, estimates of cloud feedback differ sharply between climate models. Models with the strongest cloud feedback have the highest climate sensitivity, which means that they simulate much stronger warming in response to a doubling of CO2 (or equivalent greenhouse gas) concentrations than the rest. Around 2020, a small fraction of models was found to simulate so much warming as the result that they had contradicted paleoclimate evidence from fossils, and their output was effectively excluded from the climate sensitivity estimate of the IPCC Sixth Assessment Report.
+
+
+== Biogeophysical and biogeochemical feedbacks ==
+
+
+=== CO2 feedbacks (mostly negative) ===
+
+There are positive and negative climate feedbacks from Earth's carbon cycle. Negative feedbacks are large, and play a great role in the studies of climate inertia or of dynamic (time-dependent) climate change. Because they are considered relatively insensitive to temperature changes, they are sometimes considered separately or disregarded in studies which aim to quantify climate sensitivity. Global warming projections have included carbon cycle feedbacks since the IPCC Fourth Assessment Report (AR4) in 2007. While the scientific understanding of these feedbacks was limited at the time, it had improved since then. These positive feedbacks include an increase in wildfire frequency and severity, substantial losses from  tropical rainforests due to fires and drying and tree losses elsewhere.
+The Amazon rainforest is a well-known example due to its enormous size and importance, and because the damage it experiences from climate change is exacerbated by the ongoing deforestation. The combination of two threats can potentially transform much or all of the rainforest to a savannah-like state, although this would most likely require relatively high warming of 3.5 °C (6.3 °F).
+Altogether, carbon sinks in the land and ocean absorb around half of the current emissions. Their future absorption is dynamic. In the future, if the emissions decrease, the fraction they absorb will increase, and they will absorb up to three-quarters of the remaining emissions - yet, the raw amount absorbed will decrease from the present. On the contrary, if the emissions will increase, then the raw amount absorbed will increase from now, yet the fraction could decline to one-third by the end of the 21st century. If the emissions remain very high after the 21st century, carbon sinks would eventually be completely overwhelmed, with the ocean sink diminished further and land ecosystems outright becoming a net source. Hypothetically, very strong carbon dioxide removal could also result in land and ocean carbon sinks becoming net sources for several decades.
+
+
+==== Role of oceans ====
+
+Following Le Chatelier's principle, the chemical equilibrium of the Earth's carbon cycle will shift in response to anthropogenic CO2 emissions. The primary driver of this is the ocean, which absorbs anthropogenic CO2 via the so-called solubility pump. At present this accounts for only about one third of the current emissions, but ultimately most (~75%) of the CO2 emitted by human activities will dissolve in the ocean over a period of centuries: "A better approximation of the lifetime of fossil fuel CO2 for public discussion might be 300 years, plus 25% that lasts forever". However, the rate at which the ocean will take it up in the future is less certain, and will be affected by stratification induced by warming and, potentially, changes in the ocean's thermohaline circulation. It is believed that the single largest factor in determining the total strength of the global carbon sink is the state of the Southern Ocean - particularly of the Southern Ocean overturning circulation.
+
+
+==== Chemical weathering ====
+Chemical weathering over the geological long term acts to remove CO2 from the atmosphere. With current global warming, weathering is increasing, demonstrating significant feedbacks between climate and Earth surface. Biosequestration also captures and stores CO2 by biological processes.  The formation of shells by organisms in the ocean, over a very long time, removes CO2 from the oceans.  The complete conversion of CO2 to limestone takes thousands to hundreds of thousands of years.
+
+
+==== Primary production through photosynthesis ====
+
+Net primary productivity of plants' and phytoplankton grows as the increased CO2 fuels their photosynthesis in what is known as the CO2 fertilization effect. Additionally, plants require less water as the atmospheric CO2 concentrations increase, because they lose less moisture to evapotranspiration through open stomata (the pores in leaves through which CO2 is absorbed). However, increased droughts in certain regions can still limit plant growth, and the warming beyond optimum conditions has a consistently negative impact. Thus, estimates for the 21st century show that plants would become a lot more abundant at high latitudes near the poles but grow much less near the tropics - there is only medium confidence that tropical ecosystems would gain more carbon relative to now. However, there is high confidence that the total land carbon sink will remain positive.
+
+
+=== Non-CO2 climate-relevant gases (unclear) ===
+
+Release of gases of biological origin would be affected by global warming, and this includes climate-relevant gases such as methane, nitrous oxide or dimethyl sulfide. Others, such as dimethyl sulfide released from oceans, have indirect effects. Emissions of methane from land (particularly from wetlands) and of nitrous oxide from land and oceans are a known positive feedback. I.e. long-term warming changes the balance in the methane-related microbial community within freshwater ecosystems so they produce more methane while proportionately less is oxidised to carbon dioxide. There would also be biogeophysical changes which affect the albedo. For instance, larch in some sub-arctic forests are being replaced by spruce trees. This has a limited contribution to warming, because larch trees shed their needles in winter and so they end up more extensively covered in snow than the spruce trees which retain their dark needles all year.
+On the other hand, changes in emissions of compounds such sea salt, dimethyl sulphide, dust, ozone and a range of  biogenic volatile organic compounds are expected to be negative overall. As of 2021, all of these non-CO2 feedbacks are believed to practically cancel each other out, but there is only low confidence, and the combined feedbacks could be up to  0.25 W/m2·K in either direction.
+
+
+=== Permafrost (positive) ===
+Permafrost is not included in the estimates above, as it is difficult to model, and the estimates of its role is strongly time-dependent as its carbon pools are depleted at different rates under different warming levels. Instead, it is treated as a separate process that will contribute to near-term warming, with the best estimates shown below.
+
+ 
+A study published in 2024 in Nature Climate Change found that coastal erosion in the Arctic, driven by permafrost thaw, reduces the ocean's capacity to absorb carbon dioxide, thereby triggering additional carbon–climate feedbacks in the region.
+
+
+== Long-term feedbacks ==
+
+
+=== Ice sheets ===
+
+The Earth's two remaining ice sheets, the Greenland ice sheet and the Antarctic ice sheet, cover the world's largest island and an entire continent, and both of them are also around 2 km (1 mi) thick on average. Due to this immense size, their response to warming is measured in thousands of years and is believed to occur in two stages.
+The first stage would be the effect from ice melt on thermohaline circulation. Because meltwater is completely fresh, it makes it harder for the surface layer of water to sink beneath the lower layers, and this disrupts the exchange of oxygen, nutrients and heat between the layers. This would act as a negative feedback - sometimes estimated as a cooling effect of 0.2 °C (0.36 °F) over a 1000-year average, though the research on these timescales has been limited.  An even longer-term effect is the ice-albedo feedback from ice sheets reaching their ultimate state in response to whatever the long-term temperature change would be. Unless the warming is reversed entirely, this feedback would be positive.
+The total loss of the Greenland Ice Sheet is estimated to add 0.13 °C (0.23 °F) to global warming (with a range of 0.04–0.06 °C), while the loss of the West Antarctic Ice Sheet adds 0.05 °C (0.090 °F) (0.04–0.06 °C), and East Antarctic ice sheet 0.6 °C (1.1 °F)  Total loss of the Greenland ice sheet would also increase regional temperatures in the Arctic by between 0.5 °C (0.90 °F) and 3 °C (5.4 °F), while the regional temperature in Antarctica is likely to go up by 1 °C (1.8 °F) after the loss of the West Antarctic ice sheet and 2 °C (3.6 °F) after the loss of the East Antarctic ice sheet.
+These estimates assume that global warming stays at an average of 1.5 °C (2.7 °F). Because of the logarithmic growth of the greenhouse effect, the impact from ice loss would be larger at the slightly lower warming level of 2020s, but it would become lower if the warming proceeds towards higher levels. While Greenland and the West Antarctic ice sheet are likely committed to melting entirely if the long-term warming is around 1.5 °C (2.7 °F), the East Antarctic ice sheet would not be at risk of complete disappearance until the very high global warming of 5–10 °C (9.0–18.0 °F)
+
+
+=== Methane hydrates ===
+
+Methane hydrates or methane clathrates are frozen compounds where a large amount of methane is trapped within a crystal structure of water, forming a solid similar to ice. On Earth, they generally lie beneath sediments on the ocean floors, (approximately 1,100 m (3,600 ft) below the sea level). Around 2008, there was a serious concern that a large amount of hydrates from relatively shallow deposits in the Arctic, particularly around the East Siberian Arctic Shelf, could quickly break down and release large amounts of methane, potentially leading to 6 °C (11 °F) within 80 years. Current research shows that hydrates react very slowly to warming, and that it's very difficult for methane to reach the atmosphere after dissociation on the seafloor. Thus, no "detectable" impact on the global temperatures is expected to occur in this century due to methane hydrates. Some research suggests hydrate dissociation can still cause a warming of 0.4–0.5 °C (0.72–0.90 °F) over several millennia.
+
+
+== Forcing-feedback formulation of climate sensitivity ==
+Earth is a thermodynamic system for which long-term temperature changes follow the global energy imbalance (EEI stands for Earth's energy imbalance):
+
+  
+    
+      
+        E
+        E
+        I
+        ≡
+        A
+        S
+        R
+        −
+        O
+        L
+        R
+      
+    
+    {\displaystyle EEI\equiv ASR-OLR}
+  
+
+where ASR is the absorbed solar radiation and OLR is the outgoing longwave radiation at top of atmosphere.  When EEI is positive the system is warming, when it is negative they system is cooling, and when it is approximately zero then there is neither warming or cooling. The ASR and OLR terms in this expression encompass many temperature-dependent properties and complex interactions that govern system behavior.
+In order to diagnose that behavior around a relatively stable equilibrium state, one may consider a perturbation to EEI as indicated by the symbol Δ. Such a perturbation is typically induced by a radiative forcing (ΔF) which can be natural or man-made. Responses within the system to either return towards the stable state, or to move further away from the stable state are called feedbacks λΔT:
+
+  
+    
+      
+        Δ
+        E
+        E
+        I
+        =
+        Δ
+        F
+        +
+        λ
+        Δ
+        T
+      
+    
+    {\displaystyle \Delta EEI=\Delta F+\lambda \Delta T}
+  
+.
+A feedback is a thermodynamic process while a forcing is a thermodynamic operation according to classical principles.
+Collectively the feedbacks may be approximated by the linearized parameter λ and the perturbed temperature ΔT because all components of λ (assumed to be first-order to act independently and additively) are also functions of temperature, albeit to varying extents, by definition for a thermodynamic system:
+
+  
+    
+      
+        λ
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          λ
+          
+            i
+          
+        
+        =
+        (
+        
+          λ
+          
+            w
+            v
+          
+        
+        +
+        
+          λ
+          
+            c
+          
+        
+        +
+        
+          λ
+          
+            a
+          
+        
+        +
+        
+          λ
+          
+            c
+            c
+          
+        
+        +
+        
+          λ
+          
+            p
+          
+        
+        +
+        
+          λ
+          
+            l
+            r
+          
+        
+        +
+        .
+        .
+        .
+        )
+      
+    
+    {\displaystyle \lambda =\sum _{i}\lambda _{i}=(\lambda _{wv}+\lambda _{c}+\lambda _{a}+\lambda _{cc}+\lambda _{p}+\lambda _{lr}+...)}
+  
+.
+Some feedback components having significant influence on EEI are:
+
+  
+    
+      
+        w
+        v
+      
+    
+    {\displaystyle wv}
+  
+= water vapor,
+
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  
+= clouds,
+
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+= surface albedo,
+
+  
+    
+      
+        c
+        c
+      
+    
+    {\displaystyle cc}
+  
+= carbon cycle,
+
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+= Planck response, and
+
+  
+    
+      
+        l
+        r
+      
+    
+    {\displaystyle lr}
+  
+= lapse rate. All quantities are understood to be global averages,  while T is usually translated to temperature at the surface because of its direct relevance to humans and much other life.
+The negative Planck response, being an especially strong function of temperature, is sometimes factored out to give an expression in terms of the relative feedback gains gi from other components:
+
+  
+    
+      
+        λ
+        =
+        ¬
+        
+          λ
+          
+            p
+          
+        
+        ×
+        (
+        1
+        −
+        
+          ∑
+          
+            i
+          
+        
+        
+          g
+          
+            i
+          
+        
+        )
+      
+    
+    {\displaystyle \lambda =\neg \lambda _{p}\times (1-\sum _{i}g_{i})}
+  
+.
+For example 
+  
+    
+      
+        
+          g
+          
+            w
+            v
+          
+        
+        ≈
+        0.5
+      
+    
+    {\displaystyle g_{wv}\approx 0.5}
+  
+ for the water vapor feedback.
+Within the context of modern numerical climate modelling and analysis, the linearized formulation has limited use. One such use is to diagnose the relative strengths of different feedback mechanisms. An estimate of climate sensitivity to a forcing is then obtained for the case where the net feedback remains negative and the system reaches a new equilibrium state (ΔEEI=0) after some time has passed:
+
+  
+    
+      
+        Δ
+        T
+        =
+        
+          
+            
+              Δ
+              F
+            
+            
+              
+                λ
+                
+                  p
+                
+              
+              ×
+              (
+              1
+              −
+              
+                ∑
+                
+                  i
+                
+              
+              
+                g
+                
+                  i
+                
+              
+              )
+            
+          
+        
+      
+    
+    {\displaystyle \Delta T={\frac {\Delta F}{\lambda _{p}\times (1-\sum _{i}g_{i})}}}
+  
+.
+
+
+== Implications for climate policy ==
+
+Uncertainty over climate change feedbacks has implications for climate policy. For instance, uncertainty over carbon cycle feedbacks may affect targets for reducing greenhouse gas emissions (climate change mitigation). Emissions targets are often based on a target stabilization level of atmospheric greenhouse gas concentrations, or on a target for limiting global warming to a particular magnitude. Both of these targets (concentrations or temperatures) require an understanding of future changes in the carbon cycle.
+If models incorrectly project future changes in the carbon cycle, then concentration or temperature targets could be missed. For example, if models underestimate the amount of carbon released into the atmosphere due to positive feedbacks (e.g., due to thawing permafrost), then they may also underestimate the extent of emissions reductions necessary to meet a concentration or temperature target.
+
+
+== See also ==
+
+Climate variability and change
+Climate inertia
+Complex system
+Effects of climate change
+Parametrization (atmospheric modeling)
+Tipping points in the climate system
+
+
+== References ==

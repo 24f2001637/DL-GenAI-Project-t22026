@@ -1,0 +1,3818 @@
+Wikipedia article: Angular momentum operator
+Source: https://en.wikipedia.org/wiki/Angular_momentum_operator
+PageID: 3797203
+======================================================================
+
+In quantum mechanics, the angular momentum operator is one of several related operators analogous to classical angular momentum. The angular momentum operator plays a central role in the theory of atomic and molecular physics and other quantum problems involving rotational symmetry.  Being an observable, its eigenfunctions represent the distinguishable physical states of a system's angular momentum, and the corresponding eigenvalues the observable experimental values. When applied to a mathematical representation of the state of a system, yields the same state multiplied by its angular momentum value if the state is an eigenstate (as per the eigenstates/eigenvalues equation). In both classical and quantum mechanical systems, angular momentum (together with linear momentum and energy) is one of the three fundamental properties of motion.
+There are several angular momentum operators: total angular momentum (usually denoted J), orbital angular momentum (usually denoted L), and spin angular momentum (spin for short, usually denoted S). The term angular momentum operator can (confusingly) refer to either the total or the orbital angular momentum. Total angular momentum is always conserved, see Noether's theorem.
+
+
+== Overview ==
+
+In quantum mechanics, angular momentum can refer to one of three different, but related things.
+
+
+=== Orbital angular momentum ===
+The classical definition of angular momentum is 
+  
+    
+      
+        
+          L
+        
+        =
+        
+          r
+        
+        ×
+        
+          p
+        
+      
+    
+    {\displaystyle \mathbf {L} =\mathbf {r} \times \mathbf {p} }
+  
+. The quantum-mechanical counterparts of these objects share the same relationship:
+
+  
+    
+      
+        
+          L
+        
+        =
+        
+          r
+        
+        ×
+        
+          p
+        
+      
+    
+    {\displaystyle \mathbf {L} =\mathbf {r} \times \mathbf {p} }
+  
+
+where r is the quantum position operator, p is the quantum momentum operator, × is cross product, and L is the orbital angular momentum operator. L (just like p and r) is a vector operator (a vector whose components are operators), i.e. 
+  
+    
+      
+        
+          L
+        
+        =
+        
+          (
+          
+            
+              L
+              
+                x
+              
+            
+            ,
+            
+              L
+              
+                y
+              
+            
+            ,
+            
+              L
+              
+                z
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {L} =\left(L_{x},L_{y},L_{z}\right)}
+  
+ where Lx, Ly, Lz are three different quantum-mechanical operators.
+In the special case of a single particle with no electric charge and no spin, the orbital angular momentum operator can be written in the position basis as:
+  
+    
+      
+        
+          L
+        
+        =
+        −
+        i
+        ℏ
+        (
+        
+          r
+        
+        ×
+        ∇
+        )
+      
+    
+    {\displaystyle \mathbf {L} =-i\hbar (\mathbf {r} \times \nabla )}
+  
+
+where ∇ is the vector differential operator, del.
+
+
+=== Spin angular momentum ===
+
+There is another type of angular momentum, called spin angular momentum (more often shortened to spin), represented by the spin operator 
+  
+    
+      
+        
+          S
+        
+        =
+        
+          (
+          
+            
+              S
+              
+                x
+              
+            
+            ,
+            
+              S
+              
+                y
+              
+            
+            ,
+            
+              S
+              
+                z
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {S} =\left(S_{x},S_{y},S_{z}\right)}
+  
+. Spin is often depicted as a particle literally spinning around an axis, but this is only a metaphor: the closest classical analog is based on wave circulation. All elementary particles have a characteristic spin (scalar bosons have zero spin). For example, electrons always have "spin 1/2" while photons always have "spin 1" (details below).
+
+
+=== Total angular momentum ===
+Finally, there is total angular momentum 
+  
+    
+      
+        
+          J
+        
+        =
+        
+          (
+          
+            
+              J
+              
+                x
+              
+            
+            ,
+            
+              J
+              
+                y
+              
+            
+            ,
+            
+              J
+              
+                z
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {J} =\left(J_{x},J_{y},J_{z}\right)}
+  
+, which combines both the spin and orbital angular momentum of a particle or system:
+
+  
+    
+      
+        
+          J
+        
+        =
+        
+          L
+        
+        +
+        
+          S
+        
+        .
+      
+    
+    {\displaystyle \mathbf {J} =\mathbf {L} +\mathbf {S} .}
+  
+
+Conservation of angular momentum states that J for a closed system, or J for the whole universe, is conserved. However, L and S are not generally conserved. For example, the spin–orbit interaction allows angular momentum to transfer back and forth between L and S, with the total J remaining constant.
+
+
+== Commutation relations ==
+
+
+=== Commutation relations between components ===
+The orbital angular momentum operator is a vector operator, meaning it can be written in terms of its vector components 
+  
+    
+      
+        
+          L
+        
+        =
+        
+          (
+          
+            
+              L
+              
+                x
+              
+            
+            ,
+            
+              L
+              
+                y
+              
+            
+            ,
+            
+              L
+              
+                z
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {L} =\left(L_{x},L_{y},L_{z}\right)}
+  
+. The components have the following commutation relations with each other:
+
+  
+    
+      
+        
+          [
+          
+            
+              L
+              
+                x
+              
+            
+            ,
+            
+              L
+              
+                y
+              
+            
+          
+          ]
+        
+        =
+        i
+        ℏ
+        
+          L
+          
+            z
+          
+        
+        ,
+        
+        
+        
+          [
+          
+            
+              L
+              
+                y
+              
+            
+            ,
+            
+              L
+              
+                z
+              
+            
+          
+          ]
+        
+        =
+        i
+        ℏ
+        
+          L
+          
+            x
+          
+        
+        ,
+        
+        
+        
+          [
+          
+            
+              L
+              
+                z
+              
+            
+            ,
+            
+              L
+              
+                x
+              
+            
+          
+          ]
+        
+        =
+        i
+        ℏ
+        
+          L
+          
+            y
+          
+        
+        ,
+      
+    
+    {\displaystyle \left[L_{x},L_{y}\right]=i\hbar L_{z},\;\;\left[L_{y},L_{z}\right]=i\hbar L_{x},\;\;\left[L_{z},L_{x}\right]=i\hbar L_{y},}
+  
+
+where [ , ] denotes the commutator
+
+  
+    
+      
+        [
+        X
+        ,
+        Y
+        ]
+        ≡
+        X
+        Y
+        −
+        Y
+        X
+        .
+      
+    
+    {\displaystyle [X,Y]\equiv XY-YX.}
+  
+
+This can be written as
+
+  
+    
+      
+        
+          [
+          
+            
+              L
+              
+                l
+              
+            
+            ,
+            
+              L
+              
+                m
+              
+            
+          
+          ]
+        
+        =
+        i
+        ℏ
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            3
+          
+        
+        
+          ε
+          
+            l
+            m
+            n
+          
+        
+        
+          L
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle \left[L_{l},L_{m}\right]=i\hbar \sum _{n=1}^{3}\varepsilon _{lmn}L_{n},}
+  
+
+where l, m, n are the component indices (1 for x, 2 for y, 3 for z), and εlmn denotes the Levi-Civita symbol. Alternatively Einstein's summation convention can be used to write this as:
+
+  
+    
+      
+        
+          [
+          
+            
+              L
+              
+                l
+              
+            
+            ,
+            
+              L
+              
+                m
+              
+            
+          
+          ]
+        
+        =
+        i
+        ℏ
+        
+          ε
+          
+            l
+            m
+            n
+          
+        
+        
+          L
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle \left[L_{l},L_{m}\right]=i\hbar \varepsilon _{lmn}L_{n}.}
+  
+
+A compact expression as one vector equation is also possible:
+
+  
+    
+      
+        
+          L
+        
+        ×
+        
+          L
+        
+        =
+        i
+        ℏ
+        
+          L
+        
+      
+    
+    {\displaystyle \mathbf {L} \times \mathbf {L} =i\hbar \mathbf {L} }
+  
+
+The commutation relations can be proved as a direct consequence of the canonical commutation relations 
+  
+    
+      
+        [
+        
+          x
+          
+            l
+          
+        
+        ,
+        
+          p
+          
+            m
+          
+        
+        ]
+        =
+        i
+        ℏ
+        
+          δ
+          
+            l
+            m
+          
+        
+      
+    
+    {\displaystyle [x_{l},p_{m}]=i\hbar \delta _{lm}}
+  
+, where δlm is the Kronecker delta.
+There is an analogous relationship in classical physics:
+
+  
+    
+      
+        
+          {
+          
+            
+              L
+              
+                i
+              
+            
+            ,
+            
+              L
+              
+                j
+              
+            
+          
+          }
+        
+        =
+        
+          ε
+          
+            i
+            j
+            k
+          
+        
+        
+          L
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \left\{L_{i},L_{j}\right\}=\varepsilon _{ijk}L_{k}}
+  
+
+where Ln is a component of the classical angular momentum operator, and 
+  
+    
+      
+        {
+        ,
+        }
+      
+    
+    {\displaystyle \{,\}}
+  
+ is the Poisson bracket.
+The same commutation relations apply for the other angular momentum operators (spin and total angular momentum):
+
+  
+    
+      
+        
+          [
+          
+            
+              S
+              
+                l
+              
+            
+            ,
+            
+              S
+              
+                m
+              
+            
+          
+          ]
+        
+        =
+        i
+        ℏ
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            3
+          
+        
+        
+          ε
+          
+            l
+            m
+            n
+          
+        
+        
+          S
+          
+            n
+          
+        
+        ,
+        
+        
+          [
+          
+            
+              J
+              
+                l
+              
+            
+            ,
+            
+              J
+              
+                m
+              
+            
+          
+          ]
+        
+        =
+        i
+        ℏ
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            3
+          
+        
+        
+          ε
+          
+            l
+            m
+            n
+          
+        
+        
+          J
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle \left[S_{l},S_{m}\right]=i\hbar \sum _{n=1}^{3}\varepsilon _{lmn}S_{n},\quad \left[J_{l},J_{m}\right]=i\hbar \sum _{n=1}^{3}\varepsilon _{lmn}J_{n}.}
+  
+
+These can be assumed to hold in analogy with L. Alternatively, they can be derived as discussed below.
+These commutation relations mean that L has the mathematical structure of a Lie algebra, and the εlmn are its structure constants. In this case, the Lie algebra is SU(2) or SO(3) in physics notation (
+  
+    
+      
+        su
+        ⁡
+        (
+        2
+        )
+      
+    
+    {\displaystyle \operatorname {su} (2)}
+  
+ or 
+  
+    
+      
+        so
+        ⁡
+        (
+        3
+        )
+      
+    
+    {\displaystyle \operatorname {so} (3)}
+  
+ respectively in mathematics notation), i.e. Lie algebra associated with rotations in three dimensions. The same is true of J and S. The reason is discussed below. These commutation relations are relevant for measurement and uncertainty, as discussed further below.
+In molecules the total angular momentum F is the sum of the rovibronic (orbital) angular momentum N, the electron spin angular momentum S, and the nuclear spin angular momentum I. For electronic singlet states the rovibronic angular momentum is denoted J rather than N. As explained by Van Vleck, 
+the components of the molecular rovibronic angular momentum referred to molecule-fixed axes have different commutation relations from those given above which are for the components about space-fixed axes.
+
+
+=== Commutation relations involving vector magnitude ===
+Like any vector, the square of a magnitude can be defined for the orbital angular momentum operator,
+
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        ≡
+        
+          L
+          
+            x
+          
+          
+            2
+          
+        
+        +
+        
+          L
+          
+            y
+          
+          
+            2
+          
+        
+        +
+        
+          L
+          
+            z
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle L^{2}\equiv L_{x}^{2}+L_{y}^{2}+L_{z}^{2}.}
+  
+
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L^{2}}
+  
+ is another quantum operator. It commutes with the components of 
+  
+    
+      
+        
+          L
+        
+      
+    
+    {\displaystyle \mathbf {L} }
+  
+,
+
+  
+    
+      
+        
+          [
+          
+            
+              L
+              
+                2
+              
+            
+            ,
+            
+              L
+              
+                x
+              
+            
+          
+          ]
+        
+        =
+        
+          [
+          
+            
+              L
+              
+                2
+              
+            
+            ,
+            
+              L
+              
+                y
+              
+            
+          
+          ]
+        
+        =
+        
+          [
+          
+            
+              L
+              
+                2
+              
+            
+            ,
+            
+              L
+              
+                z
+              
+            
+          
+          ]
+        
+        =
+        0.
+      
+    
+    {\displaystyle \left[L^{2},L_{x}\right]=\left[L^{2},L_{y}\right]=\left[L^{2},L_{z}\right]=0.}
+  
+
+One way to prove that these operators commute is to start from the [Lℓ, Lm] commutation relations in the previous section:
+
+Mathematically, 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L^{2}}
+  
+ is a Casimir invariant of the Lie algebra SO(3) spanned by 
+  
+    
+      
+        
+          L
+        
+      
+    
+    {\displaystyle \mathbf {L} }
+  
+.
+As above, there is an analogous relationship in classical physics:
+
+  
+    
+      
+        
+          {
+          
+            
+              L
+              
+                2
+              
+            
+            ,
+            
+              L
+              
+                x
+              
+            
+          
+          }
+        
+        =
+        
+          {
+          
+            
+              L
+              
+                2
+              
+            
+            ,
+            
+              L
+              
+                y
+              
+            
+          
+          }
+        
+        =
+        
+          {
+          
+            
+              L
+              
+                2
+              
+            
+            ,
+            
+              L
+              
+                z
+              
+            
+          
+          }
+        
+        =
+        0
+      
+    
+    {\displaystyle \left\{L^{2},L_{x}\right\}=\left\{L^{2},L_{y}\right\}=\left\{L^{2},L_{z}\right\}=0}
+  
+
+where 
+  
+    
+      
+        
+          L
+          
+            i
+          
+        
+      
+    
+    {\displaystyle L_{i}}
+  
+ is a component of the classical angular momentum operator, and 
+  
+    
+      
+        {
+        ,
+        }
+      
+    
+    {\displaystyle \{,\}}
+  
+ is the Poisson bracket.
+Returning to the quantum case, the same commutation relations apply to the other angular momentum operators (spin and total angular momentum), as well,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  [
+                  
+                    
+                      S
+                      
+                        2
+                      
+                    
+                    ,
+                    
+                      S
+                      
+                        i
+                      
+                    
+                  
+                  ]
+                
+              
+              
+                
+                =
+                0
+                ,
+              
+            
+            
+              
+                
+                  [
+                  
+                    
+                      J
+                      
+                        2
+                      
+                    
+                    ,
+                    
+                      J
+                      
+                        i
+                      
+                    
+                  
+                  ]
+                
+              
+              
+                
+                =
+                0.
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\left[S^{2},S_{i}\right]&=0,\\\left[J^{2},J_{i}\right]&=0.\end{aligned}}}
+  
+
+
+=== Uncertainty principle ===
+
+In general, in quantum mechanics, when two observable operators do not commute, they are called complementary observables. Two complementary observables cannot be measured simultaneously; instead they satisfy an uncertainty principle. The more accurately one observable is known, the less accurately the other one can be known. Just as there is an uncertainty principle relating position and momentum, there are uncertainty principles for angular momentum.
+The Robertson–Schrödinger relation gives the following uncertainty principle:
+
+  
+    
+      
+        
+          σ
+          
+            
+              L
+              
+                x
+              
+            
+          
+        
+        
+          σ
+          
+            
+              L
+              
+                y
+              
+            
+          
+        
+        ≥
+        
+          
+            ℏ
+            2
+          
+        
+        
+          |
+          
+            ⟨
+            
+              L
+              
+                z
+              
+            
+            ⟩
+          
+          |
+        
+        .
+      
+    
+    {\displaystyle \sigma _{L_{x}}\sigma _{L_{y}}\geq {\frac {\hbar }{2}}\left|\langle L_{z}\rangle \right|.}
+  
+
+where 
+  
+    
+      
+        
+          σ
+          
+            X
+          
+        
+      
+    
+    {\displaystyle \sigma _{X}}
+  
+ is the standard deviation in the measured values of X and 
+  
+    
+      
+        ⟨
+        X
+        ⟩
+      
+    
+    {\displaystyle \langle X\rangle }
+  
+ denotes the expectation value of X. This inequality is also true if x, y, z are rearranged, or if L is replaced by J or S.
+Therefore, two orthogonal components of angular momentum (for example Lx and Ly) are complementary and cannot be simultaneously known or measured, except in special cases such as 
+  
+    
+      
+        
+          L
+          
+            x
+          
+        
+        =
+        
+          L
+          
+            y
+          
+        
+        =
+        
+          L
+          
+            z
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle L_{x}=L_{y}=L_{z}=0}
+  
+.
+It is, however, possible to simultaneously measure or specify L2 and any one component of L; for example, L2 and Lz. This is often useful, and the values are characterized by the azimuthal quantum number (l) and the magnetic quantum number (m). In this case the quantum state of the system is a simultaneous eigenstate of the operators L2 and Lz, but not of Lx or Ly. The eigenvalues are related to l and m, as shown in the table below.
+
+
+== Quantization ==
+
+In quantum mechanics, angular momentum is quantized – that is, it cannot vary continuously, but only in "quantum leaps" between certain allowed values. For any system, the following restrictions on measurement results apply, where 
+  
+    
+      
+        ℏ
+      
+    
+    {\displaystyle \hbar }
+  
+ is reduced Planck constant:
+
+
+=== Derivation using ladder operators ===
+
+A common way to derive the quantization rules above is the method of ladder operators. The ladder operators for the total angular momentum 
+  
+    
+      
+        
+          J
+        
+        =
+        
+          (
+          
+            
+              J
+              
+                x
+              
+            
+            ,
+            
+              J
+              
+                y
+              
+            
+            ,
+            
+              J
+              
+                z
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {J} =\left(J_{x},J_{y},J_{z}\right)}
+  
+ are defined as:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  J
+                  
+                    +
+                  
+                
+              
+              
+                
+                ≡
+                
+                  J
+                  
+                    x
+                  
+                
+                +
+                i
+                
+                  J
+                  
+                    y
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  J
+                  
+                    −
+                  
+                
+              
+              
+                
+                ≡
+                
+                  J
+                  
+                    x
+                  
+                
+                −
+                i
+                
+                  J
+                  
+                    y
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}J_{+}&\equiv J_{x}+iJ_{y},\\J_{-}&\equiv J_{x}-iJ_{y}\end{aligned}}}
+  
+
+Suppose 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+  
+ is a simultaneous eigenstate of 
+  
+    
+      
+        
+          J
+          
+            2
+          
+        
+      
+    
+    {\displaystyle J^{2}}
+  
+ and 
+  
+    
+      
+        
+          J
+          
+            z
+          
+        
+      
+    
+    {\displaystyle J_{z}}
+  
+ (i.e., a state with a definite value for 
+  
+    
+      
+        
+          J
+          
+            2
+          
+        
+      
+    
+    {\displaystyle J^{2}}
+  
+ and a definite value for 
+  
+    
+      
+        
+          J
+          
+            z
+          
+        
+      
+    
+    {\displaystyle J_{z}}
+  
+). Then using the commutation relations for the components of 
+  
+    
+      
+        
+          J
+        
+      
+    
+    {\displaystyle \mathbf {J} }
+  
+, one can prove that each of the states 
+  
+    
+      
+        
+          J
+          
+            +
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle J_{+}|\psi \rangle }
+  
+ and 
+  
+    
+      
+        
+          J
+          
+            −
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle J_{-}|\psi \rangle }
+  
+ is either zero or a simultaneous eigenstate of 
+  
+    
+      
+        
+          J
+          
+            2
+          
+        
+      
+    
+    {\displaystyle J^{2}}
+  
+ and 
+  
+    
+      
+        
+          J
+          
+            z
+          
+        
+      
+    
+    {\displaystyle J_{z}}
+  
+, with the same value as 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+  
+ for 
+  
+    
+      
+        
+          J
+          
+            2
+          
+        
+      
+    
+    {\displaystyle J^{2}}
+  
+ but with  values for 
+  
+    
+      
+        
+          J
+          
+            z
+          
+        
+      
+    
+    {\displaystyle J_{z}}
+  
+ that are increased or decreased by 
+  
+    
+      
+        ℏ
+      
+    
+    {\displaystyle \hbar }
+  
+ respectively. The result is zero when the use of a ladder operator would otherwise result in a state with a value for 
+  
+    
+      
+        
+          J
+          
+            z
+          
+        
+      
+    
+    {\displaystyle J_{z}}
+  
+ that is outside the allowable range. Using the ladder operators in this way, the possible values and quantum numbers for 
+  
+    
+      
+        
+          J
+          
+            2
+          
+        
+      
+    
+    {\displaystyle J^{2}}
+  
+ and 
+  
+    
+      
+        
+          J
+          
+            z
+          
+        
+      
+    
+    {\displaystyle J_{z}}
+  
+ can be found.
+
+Since 
+  
+    
+      
+        
+          S
+        
+      
+    
+    {\displaystyle \mathbf {S} }
+  
+ and 
+  
+    
+      
+        
+          L
+        
+      
+    
+    {\displaystyle \mathbf {L} }
+  
+ have the same commutation relations as 
+  
+    
+      
+        
+          J
+        
+      
+    
+    {\displaystyle \mathbf {J} }
+  
+, the same ladder analysis can be applied to them, except that for 
+  
+    
+      
+        
+          L
+        
+      
+    
+    {\displaystyle \mathbf {L} }
+  
+ there is a further restriction on the quantum numbers that they must be integers.
+
+
+=== Visual interpretation ===
+
+Since the angular momenta are quantum operators, they cannot be drawn as vectors like in classical mechanics. Nevertheless, it is common to depict them heuristically in this way. Depicted on the right is a set of states with quantum numbers 
+  
+    
+      
+        ℓ
+        =
+        2
+      
+    
+    {\displaystyle \ell =2}
+  
+, and 
+  
+    
+      
+        
+          m
+          
+            ℓ
+          
+        
+        =
+        −
+        2
+        ,
+        −
+        1
+        ,
+        0
+        ,
+        1
+        ,
+        2
+      
+    
+    {\displaystyle m_{\ell }=-2,-1,0,1,2}
+  
+ for the five cones from bottom to top. Since 
+  
+    
+      
+        
+          |
+        
+        L
+        
+          |
+        
+        =
+        
+          
+            
+              L
+              
+                2
+              
+            
+          
+        
+        =
+        ℏ
+        
+          
+            6
+          
+        
+      
+    
+    {\displaystyle |L|={\sqrt {L^{2}}}=\hbar {\sqrt {6}}}
+  
+, the vectors are all shown with length 
+  
+    
+      
+        ℏ
+        
+          
+            6
+          
+        
+      
+    
+    {\displaystyle \hbar {\sqrt {6}}}
+  
+. The rings represent the fact that 
+  
+    
+      
+        
+          L
+          
+            z
+          
+        
+      
+    
+    {\displaystyle L_{z}}
+  
+ is known with certainty, but 
+  
+    
+      
+        
+          L
+          
+            x
+          
+        
+      
+    
+    {\displaystyle L_{x}}
+  
+ and  
+  
+    
+      
+        
+          L
+          
+            y
+          
+        
+      
+    
+    {\displaystyle L_{y}}
+  
+ are unknown; therefore every classical vector with the appropriate length and z-component is drawn, forming a cone. The expected value of the angular momentum for a given ensemble of systems in the quantum state characterized by 
+  
+    
+      
+        ℓ
+      
+    
+    {\displaystyle \ell }
+  
+ and 
+  
+    
+      
+        
+          m
+          
+            ℓ
+          
+        
+      
+    
+    {\displaystyle m_{\ell }}
+  
+ could be somewhere on this cone while it cannot be defined for a single system (since the components of 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+  
+ do not commute with each other).
+
+
+=== Quantization in macroscopic systems ===
+The quantization rules are widely thought to be true even for macroscopic systems, like the angular momentum L of a spinning tire. However they have no observable effect so this has not been tested. For example, if 
+  
+    
+      
+        
+          L
+          
+            z
+          
+        
+        
+          /
+        
+        ℏ
+      
+    
+    {\displaystyle L_{z}/\hbar }
+  
+ is roughly 100000000, it makes essentially no difference whether the precise value is an integer like 100000000 or 100000001, or a non-integer like 100000000.2—the discrete steps are currently too small to measure. For most intents and purposes, the assortment of all the possible values of angular momentum is effectively continuous at macroscopic scales.
+
+
+== Angular momentum as the generator of rotations ==
+
+The most general and fundamental definition of angular momentum is as the generator of rotations. More specifically, let 
+  
+    
+      
+        R
+        (
+        
+          
+            
+              n
+              ^
+            
+          
+        
+        ,
+        ϕ
+        )
+      
+    
+    {\displaystyle R({\hat {n}},\phi )}
+  
+ be a rotation operator, which rotates any quantum state about axis 
+  
+    
+      
+        
+          
+            
+              n
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {n}}}
+  
+ by angle 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+. As 
+  
+    
+      
+        ϕ
+        →
+        0
+      
+    
+    {\displaystyle \phi \rightarrow 0}
+  
+, the operator 
+  
+    
+      
+        R
+        (
+        
+          
+            
+              n
+              ^
+            
+          
+        
+        ,
+        ϕ
+        )
+      
+    
+    {\displaystyle R({\hat {n}},\phi )}
+  
+ approaches the identity operator, because a rotation of 0° maps all states to themselves. Then the angular momentum operator 
+  
+    
+      
+        
+          J
+          
+            
+              
+                n
+                ^
+              
+            
+          
+        
+      
+    
+    {\displaystyle J_{\hat {n}}}
+  
+ about axis 
+  
+    
+      
+        
+          
+            
+              n
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {n}}}
+  
+ is defined as:
+
+  
+    
+      
+        
+          J
+          
+            
+              
+                n
+                ^
+              
+            
+          
+        
+        ≡
+        i
+        ℏ
+        
+          lim
+          
+            ϕ
+            →
+            0
+          
+        
+        
+          
+            
+              R
+              
+                (
+                
+                  
+                    
+                      
+                        n
+                        ^
+                      
+                    
+                  
+                  ,
+                  ϕ
+                
+                )
+              
+              −
+              1
+            
+            ϕ
+          
+        
+        =
+        
+          
+            
+            
+              i
+              ℏ
+              
+                
+                  
+                    ∂
+                    R
+                    
+                      (
+                      
+                        
+                          
+                            
+                              n
+                              ^
+                            
+                          
+                        
+                        ,
+                        ϕ
+                      
+                      )
+                    
+                  
+                  
+                    ∂
+                    ϕ
+                  
+                
+              
+            
+            |
+          
+          
+            ϕ
+            =
+            0
+          
+        
+      
+    
+    {\displaystyle J_{\hat {n}}\equiv i\hbar \lim _{\phi \rightarrow 0}{\frac {R\left({\hat {n}},\phi \right)-1}{\phi }}=\left.i\hbar {\frac {\partial R\left({\hat {n}},\phi \right)}{\partial \phi }}\right|_{\phi =0}}
+  
+
+where 1 is the identity operator. Also notice that R is an additive morphism : 
+  
+    
+      
+        R
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            
+              ϕ
+              
+                1
+              
+            
+            +
+            
+              ϕ
+              
+                2
+              
+            
+          
+          )
+        
+        =
+        R
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            
+              ϕ
+              
+                1
+              
+            
+          
+          )
+        
+        R
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            
+              ϕ
+              
+                2
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle R\left({\hat {n}},\phi _{1}+\phi _{2}\right)=R\left({\hat {n}},\phi _{1}\right)R\left({\hat {n}},\phi _{2}\right)}
+  
+ ; as a consequence
+
+  
+    
+      
+        R
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            ϕ
+          
+          )
+        
+        =
+        exp
+        ⁡
+        
+          (
+          
+            −
+            
+              
+                
+                  i
+                  ϕ
+                  
+                    J
+                    
+                      
+                        
+                          n
+                          ^
+                        
+                      
+                    
+                  
+                
+                ℏ
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle R\left({\hat {n}},\phi \right)=\exp \left(-{\frac {i\phi J_{\hat {n}}}{\hbar }}\right)}
+  
+
+where exp is matrix exponential. The existence of the generator is guaranteed by the Stone's theorem on one-parameter unitary groups.
+In simpler terms, the total angular momentum operator characterizes how a quantum system is changed when it is rotated. The relationship between angular momentum operators and rotation operators is the same as the relationship between Lie algebras and Lie groups in mathematics, as discussed further below.
+
+Just as J is the generator for rotation operators, L and S are generators for modified partial rotation operators. The operator
+
+  
+    
+      
+        
+          R
+          
+            spatial
+          
+        
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            ϕ
+          
+          )
+        
+        =
+        exp
+        ⁡
+        
+          (
+          
+            −
+            
+              
+                
+                  i
+                  ϕ
+                  
+                    L
+                    
+                      
+                        
+                          n
+                          ^
+                        
+                      
+                    
+                  
+                
+                ℏ
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle R_{\text{spatial}}\left({\hat {n}},\phi \right)=\exp \left(-{\frac {i\phi L_{\hat {n}}}{\hbar }}\right),}
+  
+
+rotates the position (in space) of all particles and fields, without rotating the internal (spin) state of any particle. Likewise, the operator
+
+  
+    
+      
+        
+          R
+          
+            internal
+          
+        
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            ϕ
+          
+          )
+        
+        =
+        exp
+        ⁡
+        
+          (
+          
+            −
+            
+              
+                
+                  i
+                  ϕ
+                  
+                    S
+                    
+                      
+                        
+                          n
+                          ^
+                        
+                      
+                    
+                  
+                
+                ℏ
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle R_{\text{internal}}\left({\hat {n}},\phi \right)=\exp \left(-{\frac {i\phi S_{\hat {n}}}{\hbar }}\right),}
+  
+
+rotates the internal (spin) state of all particles, without moving any particles or fields in space. The relation J = L + S comes from:
+
+  
+    
+      
+        R
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            ϕ
+          
+          )
+        
+        =
+        
+          R
+          
+            internal
+          
+        
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            ϕ
+          
+          )
+        
+        
+          R
+          
+            spatial
+          
+        
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            ϕ
+          
+          )
+        
+      
+    
+    {\displaystyle R\left({\hat {n}},\phi \right)=R_{\text{internal}}\left({\hat {n}},\phi \right)R_{\text{spatial}}\left({\hat {n}},\phi \right)}
+  
+
+i.e. if the positions are rotated, and then the internal states are rotated, then altogether the complete system has been rotated.
+
+
+=== SU(2), SO(3), and 360° rotations ===
+
+Although one might expect 
+  
+    
+      
+        R
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            
+              360
+              
+                ∘
+              
+            
+          
+          )
+        
+        =
+        1
+      
+    
+    {\displaystyle R\left({\hat {n}},360^{\circ }\right)=1}
+  
+ (a rotation of 360° is the identity operator), this is not assumed in quantum mechanics, and it turns out it is often not true: When the total angular momentum quantum number is a half-integer (1/2, 3/2, etc.), 
+  
+    
+      
+        R
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            
+              360
+              
+                ∘
+              
+            
+          
+          )
+        
+        =
+        −
+        1
+      
+    
+    {\displaystyle R\left({\hat {n}},360^{\circ }\right)=-1}
+  
+, and when it is an integer, 
+  
+    
+      
+        R
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            
+              360
+              
+                ∘
+              
+            
+          
+          )
+        
+        =
+        +
+        1
+      
+    
+    {\displaystyle R\left({\hat {n}},360^{\circ }\right)=+1}
+  
+. Mathematically, the structure of rotations in the universe is not SO(3), the group of three-dimensional rotations in classical mechanics. Instead, it is SU(2), which is identical to SO(3) for small rotations, but where a 360° rotation is mathematically distinguished from a rotation of 0°. (A rotation of 720° is, however, the same as a rotation of 0°.)
+On the other hand, 
+  
+    
+      
+        
+          R
+          
+            spatial
+          
+        
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            
+              360
+              
+                ∘
+              
+            
+          
+          )
+        
+        =
+        +
+        1
+      
+    
+    {\displaystyle R_{\text{spatial}}\left({\hat {n}},360^{\circ }\right)=+1}
+  
+ in all circumstances, because a 360° rotation of a spatial configuration is the same as no rotation at all. (This is different from a 360° rotation of the internal (spin) state of the particle, which might or might not be the same as no rotation at all.) In other words, the 
+  
+    
+      
+        
+          R
+          
+            spatial
+          
+        
+      
+    
+    {\displaystyle R_{\text{spatial}}}
+  
+ operators carry the structure of SO(3), while 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ and 
+  
+    
+      
+        
+          R
+          
+            internal
+          
+        
+      
+    
+    {\displaystyle R_{\text{internal}}}
+  
+ carry the structure of SU(2).
+From the equation 
+  
+    
+      
+        +
+        1
+        =
+        
+          R
+          
+            spatial
+          
+        
+        
+          (
+          
+            
+              
+                
+                  z
+                  ^
+                
+              
+            
+            ,
+            
+              360
+              
+                ∘
+              
+            
+          
+          )
+        
+        =
+        exp
+        ⁡
+        
+          (
+          
+            −
+            2
+            π
+            i
+            
+              L
+              
+                z
+              
+            
+            
+              /
+            
+            ℏ
+          
+          )
+        
+      
+    
+    {\displaystyle +1=R_{\text{spatial}}\left({\hat {z}},360^{\circ }\right)=\exp \left(-2\pi iL_{z}/\hbar \right)}
+  
+, one picks an eigenstate 
+  
+    
+      
+        
+          L
+          
+            z
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        m
+        ℏ
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle L_{z}|\psi \rangle =m\hbar |\psi \rangle }
+  
+ and draws
+
+  
+    
+      
+        
+          e
+          
+            −
+            2
+            π
+            i
+            m
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle e^{-2\pi im}=1}
+  
+
+which is to say that the orbital angular momentum quantum numbers can only be integers, not half-integers.
+
+
+=== Connection to representation theory ===
+
+Starting with a certain quantum state 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            0
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi _{0}\rangle }
+  
+, consider the set of states 
+  
+    
+      
+        R
+        
+          (
+          
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+            ,
+            ϕ
+          
+          )
+        
+        
+          |
+          
+            ψ
+            
+              0
+            
+          
+          ⟩
+        
+      
+    
+    {\displaystyle R\left({\hat {n}},\phi \right)\left|\psi _{0}\right\rangle }
+  
+ for all possible 
+  
+    
+      
+        
+          
+            
+              n
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {n}}}
+  
+ and 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+, i.e. the set of states that come about from rotating the starting state in every possible way. The linear span of that set is a vector space, and therefore the manner in which the rotation operators map one state onto another is a representation of the group of rotation operators.
+
+From the relation between J and rotation operators,
+
+(The Lie algebras of SU(2) and SO(3) are identical.)
+The ladder operator derivation above is a method for classifying the representations of the Lie algebra SU(2).
+
+
+=== Connection to commutation relations ===
+Classical rotations do not commute with each other: For example, rotating 1° about the x-axis then 1° about the y-axis gives a slightly different overall rotation than rotating 1° about the y-axis then 1° about the x-axis. By carefully analyzing this noncommutativity, the commutation relations of the angular momentum operators can be derived.
+(This same calculational procedure is one way to answer the mathematical question "What is the Lie algebra of the Lie groups SO(3) or SU(2)?")
+
+
+== Conservation of angular momentum ==
+The Hamiltonian H represents the energy and dynamics of the system. In a spherically symmetric situation, the Hamiltonian is invariant under rotations:
+
+  
+    
+      
+        R
+        H
+        
+          R
+          
+            −
+            1
+          
+        
+        =
+        H
+      
+    
+    {\displaystyle RHR^{-1}=H}
+  
+
+where R is a rotation operator. As a consequence, 
+  
+    
+      
+        [
+        H
+        ,
+        R
+        ]
+        =
+        0
+      
+    
+    {\displaystyle [H,R]=0}
+  
+, and then 
+  
+    
+      
+        [
+        H
+        ,
+        
+          J
+        
+        ]
+        =
+        
+          0
+        
+      
+    
+    {\displaystyle [H,\mathbf {J} ]=\mathbf {0} }
+  
+ due to the relationship between J and R. By the Ehrenfest theorem, it follows that J is conserved.
+To summarize, if H is rotationally-invariant (The Hamiltonian function defined on an inner product space is said to have rotational invariance if its value does not change when arbitrary rotations are applied to its coordinates.), then total angular momentum J is conserved. This is an example of Noether's theorem.
+If H is just the Hamiltonian for one particle, the total angular momentum of that one particle is conserved when the particle is in a central potential (i.e., when the potential energy function depends only on 
+  
+    
+      
+        
+          |
+          
+            r
+          
+          |
+        
+      
+    
+    {\displaystyle \left|\mathbf {r} \right|}
+  
+). Alternatively, H may be the Hamiltonian of all particles and fields in the universe, and then H is always rotationally-invariant, as the fundamental laws of physics of the universe are the same regardless of orientation. This is the basis for saying conservation of angular momentum is a general principle of physics.
+For a particle without spin, J = L, so orbital angular momentum is conserved in the same circumstances. When the spin is nonzero, the spin–orbit interaction allows angular momentum to transfer from L to S or back. Therefore, L is not, on its own, conserved.
+
+
+== Angular momentum coupling ==
+
+Often, two or more sorts of angular momentum interact with each other, so that angular momentum can transfer from one to the other. For example, in spin–orbit coupling, angular momentum can transfer between L and S, but only the total J = L + S is conserved. In another example, in an atom with two electrons, each has its own angular momentum J1 and J2, but only the total J = J1 + J2 is conserved.
+In these situations, it is often useful to know the relationship between, on the one hand, states where 
+  
+    
+      
+        
+          
+            (
+            
+              J
+              
+                1
+              
+            
+            )
+          
+          
+            z
+          
+        
+        ,
+        
+          
+            (
+            
+              J
+              
+                1
+              
+            
+            )
+          
+          
+            2
+          
+        
+        ,
+        
+          
+            (
+            
+              J
+              
+                2
+              
+            
+            )
+          
+          
+            z
+          
+        
+        ,
+        
+          
+            (
+            
+              J
+              
+                2
+              
+            
+            )
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \left(J_{1}\right)_{z},\left(J_{1}\right)^{2},\left(J_{2}\right)_{z},\left(J_{2}\right)^{2}}
+  
+ all have definite values, and on the other hand, states where 
+  
+    
+      
+        
+          
+            (
+            
+              J
+              
+                1
+              
+            
+            )
+          
+          
+            2
+          
+        
+        ,
+        
+          
+            (
+            
+              J
+              
+                2
+              
+            
+            )
+          
+          
+            2
+          
+        
+        ,
+        
+          J
+          
+            2
+          
+        
+        ,
+        
+          J
+          
+            z
+          
+        
+      
+    
+    {\displaystyle \left(J_{1}\right)^{2},\left(J_{2}\right)^{2},J^{2},J_{z}}
+  
+ all have definite values, as the latter four are usually conserved (constants of motion). The procedure to go back and forth between these bases is to use Clebsch–Gordan coefficients.
+One important result in this field is that a relationship between the quantum numbers for 
+  
+    
+      
+        
+          
+            (
+            
+              J
+              
+                1
+              
+            
+            )
+          
+          
+            2
+          
+        
+        ,
+        
+          
+            (
+            
+              J
+              
+                2
+              
+            
+            )
+          
+          
+            2
+          
+        
+        ,
+        
+          J
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \left(J_{1}\right)^{2},\left(J_{2}\right)^{2},J^{2}}
+  
+:
+
+  
+    
+      
+        j
+        ∈
+        
+          {
+          
+            
+              |
+              
+                
+                  j
+                  
+                    1
+                  
+                
+                −
+                
+                  j
+                  
+                    2
+                  
+                
+              
+              |
+            
+            ,
+            
+              (
+              
+                
+                  |
+                  
+                    
+                      j
+                      
+                        1
+                      
+                    
+                    −
+                    
+                      j
+                      
+                        2
+                      
+                    
+                  
+                  |
+                
+                +
+                1
+              
+              )
+            
+            ,
+            …
+            ,
+            
+              (
+              
+                
+                  j
+                  
+                    1
+                  
+                
+                +
+                
+                  j
+                  
+                    2
+                  
+                
+              
+              )
+            
+          
+          }
+        
+        .
+      
+    
+    {\displaystyle j\in \left\{\left|j_{1}-j_{2}\right|,\left(\left|j_{1}-j_{2}\right|+1\right),\ldots ,\left(j_{1}+j_{2}\right)\right\}.}
+  
+
+For an atom or molecule with J = L + S, the term symbol gives the quantum numbers associated with the operators 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        ,
+        
+          S
+          
+            2
+          
+        
+        ,
+        
+          J
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L^{2},S^{2},J^{2}}
+  
+.
+
+
+== Orbital angular momentum in spherical coordinates ==
+Angular momentum operators usually occur when solving a problem with spherical symmetry in spherical coordinates. The angular momentum in the spatial representation is
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  L
+                
+              
+              
+                
+                =
+                i
+                ℏ
+                
+                  (
+                  
+                    
+                      
+                        
+                          
+                            θ
+                            ^
+                          
+                        
+                        
+                          sin
+                          ⁡
+                          (
+                          θ
+                          )
+                        
+                      
+                    
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          ϕ
+                        
+                      
+                    
+                    −
+                    
+                      
+                        
+                          ϕ
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          θ
+                        
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                i
+                ℏ
+                
+                  (
+                  
+                    
+                      
+                        
+                          
+                            x
+                          
+                          ^
+                        
+                      
+                    
+                    
+                      (
+                      
+                        sin
+                        ⁡
+                        (
+                        ϕ
+                        )
+                        
+                          
+                            ∂
+                            
+                              ∂
+                              θ
+                            
+                          
+                        
+                        +
+                        cot
+                        ⁡
+                        (
+                        θ
+                        )
+                        cos
+                        ⁡
+                        (
+                        ϕ
+                        )
+                        
+                          
+                            ∂
+                            
+                              ∂
+                              ϕ
+                            
+                          
+                        
+                      
+                      )
+                    
+                    +
+                    
+                      
+                        
+                          
+                            y
+                          
+                          ^
+                        
+                      
+                    
+                    
+                      (
+                      
+                        −
+                        cos
+                        ⁡
+                        (
+                        ϕ
+                        )
+                        
+                          
+                            ∂
+                            
+                              ∂
+                              θ
+                            
+                          
+                        
+                        +
+                        cot
+                        ⁡
+                        (
+                        θ
+                        )
+                        sin
+                        ⁡
+                        (
+                        ϕ
+                        )
+                        
+                          
+                            ∂
+                            
+                              ∂
+                              ϕ
+                            
+                          
+                        
+                      
+                      )
+                    
+                    −
+                    
+                      
+                        
+                          
+                            z
+                          
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          ϕ
+                        
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+                
+                  L
+                  
+                    +
+                  
+                
+              
+              
+                
+                =
+                ℏ
+                
+                  e
+                  
+                    i
+                    ϕ
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          θ
+                        
+                      
+                    
+                    +
+                    i
+                    cot
+                    ⁡
+                    (
+                    θ
+                    )
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          ϕ
+                        
+                      
+                    
+                  
+                  )
+                
+                ,
+              
+            
+            
+              
+                
+                  L
+                  
+                    −
+                  
+                
+              
+              
+                
+                =
+                ℏ
+                
+                  e
+                  
+                    −
+                    i
+                    ϕ
+                  
+                
+                
+                  (
+                  
+                    −
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          θ
+                        
+                      
+                    
+                    +
+                    i
+                    cot
+                    ⁡
+                    (
+                    θ
+                    )
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          ϕ
+                        
+                      
+                    
+                  
+                  )
+                
+                ,
+              
+            
+            
+              
+                
+                  L
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                −
+                
+                  ℏ
+                  
+                    2
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        1
+                        
+                          sin
+                          ⁡
+                          (
+                          θ
+                          )
+                        
+                      
+                    
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          θ
+                        
+                      
+                    
+                    
+                      (
+                      
+                        sin
+                        ⁡
+                        (
+                        θ
+                        )
+                        
+                          
+                            ∂
+                            
+                              ∂
+                              θ
+                            
+                          
+                        
+                      
+                      )
+                    
+                    +
+                    
+                      
+                        1
+                        
+                          
+                            sin
+                            
+                              2
+                            
+                          
+                          ⁡
+                          (
+                          θ
+                          )
+                        
+                      
+                    
+                    
+                      
+                        
+                          ∂
+                          
+                            2
+                          
+                        
+                        
+                          ∂
+                          
+                            ϕ
+                            
+                              2
+                            
+                          
+                        
+                      
+                    
+                  
+                  )
+                
+                ,
+              
+            
+            
+              
+                
+                  L
+                  
+                    z
+                  
+                
+              
+              
+                
+                =
+                −
+                i
+                ℏ
+                
+                  
+                    ∂
+                    
+                      ∂
+                      ϕ
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {L} &=i\hbar \left({\frac {\hat {\boldsymbol {\theta }}}{\sin(\theta )}}{\frac {\partial }{\partial \phi }}-{\hat {\boldsymbol {\phi }}}{\frac {\partial }{\partial \theta }}\right)\\&=i\hbar \left({\hat {\mathbf {x} }}\left(\sin(\phi ){\frac {\partial }{\partial \theta }}+\cot(\theta )\cos(\phi ){\frac {\partial }{\partial \phi }}\right)+{\hat {\mathbf {y} }}\left(-\cos(\phi ){\frac {\partial }{\partial \theta }}+\cot(\theta )\sin(\phi ){\frac {\partial }{\partial \phi }}\right)-{\hat {\mathbf {z} }}{\frac {\partial }{\partial \phi }}\right)\\L_{+}&=\hbar e^{i\phi }\left({\frac {\partial }{\partial \theta }}+i\cot(\theta ){\frac {\partial }{\partial \phi }}\right),\\L_{-}&=\hbar e^{-i\phi }\left(-{\frac {\partial }{\partial \theta }}+i\cot(\theta ){\frac {\partial }{\partial \phi }}\right),\\L^{2}&=-\hbar ^{2}\left({\frac {1}{\sin(\theta )}}{\frac {\partial }{\partial \theta }}\left(\sin(\theta ){\frac {\partial }{\partial \theta }}\right)+{\frac {1}{\sin ^{2}(\theta )}}{\frac {\partial ^{2}}{\partial \phi ^{2}}}\right),\\L_{z}&=-i\hbar {\frac {\partial }{\partial \phi }}.\end{aligned}}}
+  
+
+In spherical coordinates the angular part of the Laplace operator can be expressed by the angular momentum. This leads to the relation
+
+  
+    
+      
+        Δ
+        =
+        
+          
+            1
+            
+              r
+              
+                2
+              
+            
+          
+        
+        
+          
+            ∂
+            
+              ∂
+              r
+            
+          
+        
+        
+          (
+          
+            
+              r
+              
+                2
+              
+            
+            
+            
+              
+                ∂
+                
+                  ∂
+                  r
+                
+              
+            
+          
+          )
+        
+        −
+        
+          
+            
+              L
+              
+                2
+              
+            
+            
+              
+                ℏ
+                
+                  2
+                
+              
+              
+                r
+                
+                  2
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \Delta ={\frac {1}{r^{2}}}{\frac {\partial }{\partial r}}\left(r^{2}\,{\frac {\partial }{\partial r}}\right)-{\frac {L^{2}}{\hbar ^{2}r^{2}}}.}
+  
+
+When solving to find eigenstates of the operator 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L^{2}}
+  
+, we obtain the following
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  L
+                  
+                    2
+                  
+                
+                
+                  |
+                  
+                    ℓ
+                    ,
+                    m
+                  
+                  ⟩
+                
+              
+              
+                
+                =
+                
+                  ℏ
+                  
+                    2
+                  
+                
+                ℓ
+                (
+                ℓ
+                +
+                1
+                )
+                
+                  |
+                  
+                    ℓ
+                    ,
+                    m
+                  
+                  ⟩
+                
+              
+            
+            
+              
+                
+                  L
+                  
+                    z
+                  
+                
+                
+                  |
+                  
+                    ℓ
+                    ,
+                    m
+                  
+                  ⟩
+                
+              
+              
+                
+                =
+                ℏ
+                m
+                
+                  |
+                  
+                    ℓ
+                    ,
+                    m
+                  
+                  ⟩
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}L^{2}\left|\ell ,m\right\rangle &=\hbar ^{2}\ell (\ell +1)\left|\ell ,m\right\rangle \\L_{z}\left|\ell ,m\right\rangle &=\hbar m\left|\ell ,m\right\rangle \end{aligned}}}
+  
+
+where
+
+  
+    
+      
+        
+          ⟨
+          
+            θ
+            ,
+            ϕ
+            
+              |
+            
+            ℓ
+            ,
+            m
+          
+          ⟩
+        
+        =
+        
+          Y
+          
+            ℓ
+            ,
+            m
+          
+        
+        (
+        θ
+        ,
+        ϕ
+        )
+      
+    
+    {\displaystyle \left\langle \theta ,\phi |\ell ,m\right\rangle =Y_{\ell ,m}(\theta ,\phi )}
+  
+
+are the spherical harmonics.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Abers, E. (2004). Quantum Mechanics. Addison Wesley, Prentice Hall Inc. ISBN 978-0-13-146100-0.
+Biedenharn, L. C.; Louck, James D. (1984). Angular Momentum in Quantum Physics: Theory and Application. Encyclopedia of Mathematics and its Applications. Cambridge: Cambridge University Press. Bibcode:1984amqp.book.....B. doi:10.1017/cbo9780511759888. ISBN 978-0-521-30228-9.
+Bransden, B.H.; Joachain, C.J. (1983). Physics of Atoms and Molecules. Longman. ISBN 0-582-44401-2.
+Feynman, Richard P.; Leighton, Robert B.; Sands, Matthew. "Ch. 18: Angular Momentum". The Feynman Lectures on Physics Vol. III (The New Millennium ed.).
+McMahon, D. (2006). Quantum Mechanics Demystified. Mc Graw Hill (USA). ISBN 0-07-145546 9.
+Zare, R.N. (1991). Angular Momentum. Understanding Spatial Aspects in Chemistry and Physics. Wiley-Interscience. ISBN 978-0-47-1858928.

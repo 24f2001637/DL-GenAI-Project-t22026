@@ -1,0 +1,53 @@
+Wikipedia article: Droste effect
+Source: https://en.wikipedia.org/wiki/Droste_effect
+PageID: 2354244
+======================================================================
+
+The Droste effect (Dutch pronunciation: [ˈdrɔstə]) is the effect of a picture recursively appearing within itself, in a place where a similar picture would realistically be expected to appear. In art history, the technique is known as mise en abyme. This produces a loop which in theory could go on forever, but in practice only continues as far as the image's resolution allows.
+The effect is named after Droste, a Dutch brand of cocoa, with an image designed by Jan Misset in 1904. The Droste effect has since been used in the packaging of a variety of products. Apart from advertising, a variant of the effect is seen in the Dutch artist M. C. Escher's 1956 lithograph Print Gallery, which portrays a gallery that depicts itself. The effect has been widely used on the covers of comic books, mainly in the 1940s.
+
+
+== Effect ==
+
+
+=== Origins ===
+The Droste effect is named after the image on the tins and boxes of Droste cocoa powder which displayed a nurse carrying a serving tray with a cup of hot chocolate and a box with the same image, designed by Jan Misset. This familiar image was introduced in 1904 and maintained for decades with slight variations from 1912 by artists including Adolphe Mouron. The poet and columnist Nico Scheepmaker introduced wider usage of the term in the late 1970s.
+
+
+=== Mathematics ===
+
+The appearance is recursive: the smaller version contains an even smaller version of the picture, and so on. Only in theory could this go on forever, as fractals do; practically, it continues only as long as the resolution of the picture allows, which is relatively short, since each iteration geometrically reduces the picture's size.
+
+
+=== Medieval art ===
+The Droste effect was anticipated by Giotto early in the 14th century, in his Stefaneschi Triptych. The altarpiece portrays in its centre panel Cardinal Giacomo Gaetani Stefaneschi offering the triptych itself to St. Peter. There are also several examples from medieval times of books featuring images containing the book itself or window panels in churches depicting miniature copies of the window panel itself.
+
+
+=== M. C. Escher ===
+The Dutch artist M. C. Escher made use of the Droste effect in his 1956 lithograph Print Gallery, which portrays a gallery containing a print which depicts the gallery, each time both reduced and rotated, but with a void at the centre of the image. The work has attracted the attention of mathematicians including Hendrik Lenstra. They devised a method of filling in the artwork's central void in an additional application of the Droste effect by successively rotating and shrinking an image of the artwork.
+
+
+=== Advertising ===
+In the 20th century, the Droste effect was used to market a variety of products. The packaging of Land O'Lakes butter featured a Native American woman holding a package of butter with a picture of herself. Morton Salt similarly made use of the effect. The cover of the 1969 vinyl album Ummagumma by Pink Floyd shows the band members sitting in various places, with a picture on the wall showing the same scene, but the order of the band members rotated. The logo of The Laughing Cow cheese spread brand pictures a cow with earrings. On closer inspection, these are seen to be images of the circular cheese spread package, each bearing the image of the mascot itself.
+The Droste effect is a theme in Russell Hoban's children's novel, The Mouse and His Child, appearing in the form of a label on a can of "Bonzo Dog Food" which depicts itself.
+
+
+=== Comic books ===
+The Droste effect has been a motif for the cover of comic books for many years, known as an "infinity cover". Such covers were especially popular during the 1940s. Examples include Batman #8 (December 1941–January 1942), Action Comics #500 (October 1979), and Bongo Comics Free For All! (2007 ed.). Little Giant Comics #1 (July 1938) is said to be the first-published example of an infinity cover.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+
+Escher and the Droste effect Archived 21 January 2016 at the Wayback Machine
+The Math Behind the Droste Effect (article by Jos Leys summarizing the results of the Leiden study and article)
+Droste Effect with Mathematica
+Droste Effect from Wolfram Demonstrations Project

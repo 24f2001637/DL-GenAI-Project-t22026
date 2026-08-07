@@ -1,0 +1,1263 @@
+Wikipedia article: Diffraction
+Source: https://en.wikipedia.org/wiki/Diffraction
+PageID: 8603
+======================================================================
+
+Diffraction is the deviation of waves from straight-line propagation due to an obstacle or through an aperture, without any change in their energy. Diffraction is the same physical effect as interference, but interference is typically used for the superposition of a few waves, while the term diffraction is used when many waves are superposed. The term diffraction pattern is used to refer to an image or map of the different directions of the waves after they have been diffracted. Diffraction patterns are pronounced when a wave from a coherent source (such as a laser) encounters a slit/aperture as shown in the first image.
+In classical physics, diffraction is described by the Huygens–Fresnel principle that treats each point in a propagating wavefront as a collection of individual spherical wavelets. The patterns are due to the summation over different points on the wavefront (or, equivalently, each wavelet) that travel by paths of different lengths to the registering surface. If there are multiple closely spaced openings, a complex pattern of varying intensity can result. Other types of apertures or obstacles lead to different patterns, some of which are described later on this page.
+These effects occur when a light wave travels through a medium with a varying refractive index, or when a sound wave travels through a medium with varying acoustic impedance – all waves diffract, including gravitational waves, water waves, and other electromagnetic waves such as X-rays, radio waves as well as matter waves such as electrons and neutrons. It plays a role in many areas, ranging from security devices on credit cards to methods of determining the atomic structure of materials at the nanoscale.
+Italian scientist Francesco Maria Grimaldi coined the word diffraction and was the first to record accurate observations of the phenomenon in 1660. After that various equivalent formulations were derived; mathematically, diffraction is explained by solving the wave equation for electromagnetic waves, or Schroedinger's equation for matter waves, in some cases with relativistic corrections.
+
+
+== History ==
+
+The effects of diffraction of light were first carefully observed and characterized by Francesco Maria Grimaldi, who also coined the term diffraction, from the Latin diffringere, 'to break into pieces', referring to light breaking up into different directions. The results of Grimaldi's observations were published posthumously in 1665. Isaac Newton studied these effects and attributed them to inflexion of light rays. James Gregory (1638–1675) observed the diffraction patterns caused by a bird feather, which was effectively the first diffraction grating to be discovered.
+Thomas Young developed the first wave treatment of diffraction in 1800. In his model Young proposed that the fringes observed behind an illuminated sharp edge arose from interference between the direct transmitted plane wave and a cylindrical wave that appears to emitted from the edge.
+Augustin-Jean Fresnel revisited the problem and devised an alternative wave theory  based on Huygens' principle. In this model, point sources of light are distributed up to the diffraction edge but not in the barrier. These point sources are driven by the incoming plane wave and they interfere beyond the barrier. Fresnel developed a mathematical treatment from his approach and Young's model was initially considered incorrect. Later work showed that Young's more physical approach is equivalent to Fresnel's mathematical one.
+In 1818, supporters of the  corpuscular theory of light proposed that the Paris Academy prize question address diffraction, expecting to see the wave theory defeated. When Fresnel's presentation on his new theory based on wave propagation looked like it might take the prize, Siméon Denis Poisson challenged the Fresnel theory by showing that it predicted light in the shadow behind a circular obstruction. Dominique-François-Jean Arago proceeded to demonstrate experimentally that such light is visible, confirming Fresnel's diffraction model.
+In 1859 Hermann von Helmholtz and later in 1882 Gustav Kirchhoff developed integral equations for diffraction based on the concepts proposed by Fresnel as well as approximations needed to apply them. In general, all these approaches require formulating the problem in terms of virtual sources. Cases like those with an absorbing barrier require methods developed in the 1940s based on transverse amplitude diffusion.
+
+
+== Basics ==
+Diffraction is a general phenomenon of waves, occurring whenever a wave encounters some form of obstruction. The obstruction may be solidly blocking the wave, or transparent and shifting the phase of the wave without any change in energy (elastic scattering). The waves beyond the obstacle interfere leading to a diffraction pattern. The diffraction pattern cannot be predicted by the straight line trajectories of geometrical optics. For a simple example, a strong light source blocked by a solid object does not show a crisp dark shadow when examined carefully.
+The appropriate model for diffraction depends upon the character of the waves and the obstructions. The simplest model uses the Huygens–Fresnel principle. The Huygens part visualizes propagation of a wave by considering every point on a wavefront as a source for a secondary spherical wave, these being called Huygens wavelets. The Fresnel part is the superposition (linear sum) of these secondary waves and their consequent interference.
+In the absence of obstacles, the Huygens's principle alone predicts wavefront propagation. When some of the secondary waves are blocked by an obstacle, the remainder will create both wavefront propagation in the unblocked direction and waves behind the obstacle which form the diffraction pattern.
+It is possible to obtain a qualitative understanding of many diffraction phenomena by considering how the relative phases of the individual secondary wave sources vary, and, in particular, the conditions in which the phase difference equals half a cycle in which case waves will cancel one another out. When waves are added together, their sum is determined by their relative phases as well as the amplitudes of the individual waves, so that the summed amplitude can have any value between zero and the sum of the individual amplitudes. Hence, diffraction patterns usually have a series of maxima and minima.
+In quantum mechanics, diffraction is also described in terms of a wave, but the wavefunction represents a probability amplitude whose modulus squared is the probability of detection. The light and dark regions in diffraction patterns are then areas where the quanta are more or less likely to be detected.
+Quantitative models which allow the diffraction to be calculated include the Kirchhoff diffraction equation (derived from the wave equation), the Fraunhofer diffraction approximation of the Kirchhoff equation (applicable to the far field), and the Fresnel diffraction approximation  (applicable to the near field).  Most configurations cannot be solved analytically, but can yield numerical solutions through finite element and boundary element methods. In many cases it is assumed that there is only one scattering event, what is called kinematical diffraction, with an Ewald's sphere construction used to represent that there is no change in energy during the diffraction process. For matter waves a similar but slightly different approach is used based upon a relativistically corrected form of the Schrödinger equation, as first detailed by Hans Bethe. The Fraunhofer and Fresnel limits exist for these as well, although they correspond more to approximations for the matter wave Green's function (propagator) for the Schrödinger equation. Multiple scattering models are required in many types of electron diffraction; in some cases similar dynamical diffraction  models are also used for X-rays.
+The simplest descriptions of diffraction are those in which the situation can be reduced to a two-dimensional problem. For water waves, this is already the case; water waves propagate only on the surface of the water. For light, we can often neglect one direction if the diffracting object extends in that direction over a distance far greater than the wavelength. In the case of light shining through small circular holes, we have to take into account the full three-dimensional nature of the problem.
+
+
+== Occurrence ==
+The effects of diffraction are often seen in everyday life. The most commonly encountered examples of diffraction are those that involve light; for example, the closely spaced tracks on a CD or DVD which act as a diffraction grating to form the familiar rainbow pattern seen when looking at a disc. This principle can be extended to engineer a grating with a structure such that it will produce any diffraction pattern desired; the hologram on a credit card is an example.
+
+Diffraction in the atmosphere by small particles can cause a corona—a bright disc and rings around a light source such as the Sun or the Moon. At the opposite point, one may observe a glory—bright rings around the shadow of the observer. In contrast to the corona, glory requires the particles to be transparent spheres (like fog droplets), since the backscattering of the light that forms the glory involves refraction and internal reflection within the droplet.
+
+ Another frequently encountered example is diffraction spikes which are caused by a range of processes including a non‑circular aperture in a camera or by support struts in a telescope; in normal vision, diffraction through eyelashes may produce similar spikes.
+When deli meat appears iridescent, the effect is caused by diffraction from the meat fibres, as are the colors of a spider web; there are many other cases for  light colors.
+
+While diffraction by light is the most common case encountered, diffraction can occur with any kind of wave, for instance ocean waves diffract around jetties and other obstacles.  Sound waves can diffract around objects, which is why one can still hear someone calling even when hiding behind a tree.
+Other examples of diffraction are considered in more detail below.
+
+
+== Different cases ==
+The diffraction patterns depend upon the nature of the obstacles the wave encounters,  both their physical dimensions as well as how the change the phase and/or direction of the wave. The simplest types of obstacles are slits or apertures which block of part of the wave In the far-field / Fraunhofer region, Huygens' principle applied to the open region around such obstacles says that the far-field diffraction pattern is the spatial Fourier transform of the open region shape. This is a direct by-product of using the parallel-rays approximation, which is identical to doing a plane wave decomposition of the plane fields across the open region (see Fourier optics).
+
+
+=== Single-slit diffraction ===
+
+An illuminated slit that is wider than a wavelength produces interference effects in the space downstream of the slit. Assuming that the slit behaves as though it has a large number of point sources spaced evenly across the width of the slit, the interference effects can be calculated. If the incident light is a single wavelength and coherent, these sources all have the same phase. Light in the space downstream of the slit is made up of contributions from each of these point sources. If the relative phases of contributions from each point source vary due to differences in the path lengths, the resulting intensity will vary. Imagining the slit as the y axis with the z across the slit and x pointing downstream, intensity minima and maxima can be seen along z for large values of x.
+For points very close to 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ all the point sources are in phase. This is the undiffracted beam, forming a maximum. Moving away fom the 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ axis, the path length from the point sources in the center and those on the edges of the slit differ. When the path difference equals 
+  
+    
+      
+        λ
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \lambda /2}
+  
+, the central sources cancel the edge sources in destructive interference. For angles off the 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ axis of 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+, the path difference is approximately 
+  
+    
+      
+        
+          
+            
+              d
+              sin
+              ⁡
+              (
+              θ
+              )
+            
+            2
+          
+        
+      
+    
+    {\displaystyle {\frac {d\sin(\theta )}{2}}}
+  
+ so that the minimum intensity occurs at an angle 
+  
+    
+      
+        
+          θ
+          
+            min
+          
+        
+      
+    
+    {\displaystyle \theta _{\text{min}}}
+  
+ given by
+
+  
+    
+      
+        d
+        
+        sin
+        ⁡
+        
+          θ
+          
+            min
+          
+        
+        =
+        λ
+        ,
+      
+    
+    {\displaystyle d\,\sin \theta _{\text{min}}=\lambda ,}
+  
+
+where 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  
+ is the width of the slit and 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  
+ is the wavelength of the light.
+The entire intensity profile can be calculated using the Fraunhofer diffraction equation as
+
+  
+    
+      
+        I
+        (
+        θ
+        )
+        =
+        
+          I
+          
+            0
+          
+        
+        
+        
+          sinc
+          
+            2
+          
+        
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  d
+                  π
+                
+                λ
+              
+            
+            sin
+            ⁡
+            θ
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle I(\theta )=I_{0}\,\operatorname {sinc} ^{2}\left({\frac {d\pi }{\lambda }}\sin \theta \right),}
+  
+
+where 
+  
+    
+      
+        I
+        (
+        θ
+        )
+      
+    
+    {\displaystyle I(\theta )}
+  
+ is the intensity at a given angle, 
+  
+    
+      
+        
+          I
+          
+            0
+          
+        
+      
+    
+    {\displaystyle I_{0}}
+  
+ is the intensity at the central maximum (
+  
+    
+      
+        θ
+        =
+        0
+      
+    
+    {\displaystyle \theta =0}
+  
+), which is also a normalization factor of the intensity profile that can be determined by an integration from 
+  
+    
+      
+        θ
+        =
+        −
+        
+          
+            π
+            2
+          
+        
+      
+    
+    {\textstyle \theta =-{\frac {\pi }{2}}}
+  
+ to 
+  
+    
+      
+        θ
+        =
+        
+          
+            π
+            2
+          
+        
+      
+    
+    {\textstyle \theta ={\frac {\pi }{2}}}
+  
+ and conservation of energy, and 
+  
+    
+      
+        sinc
+        ⁡
+        x
+        =
+        
+          
+            
+              sin
+              ⁡
+              x
+            
+            x
+          
+        
+      
+    
+    {\displaystyle \operatorname {sinc} x={\frac {\sin x}{x}}}
+  
+, which is the unnormalized sinc function.
+This analysis applies only to the far field (Fraunhofer diffraction), that is, at a distance much larger than the width of the slit.
+
+
+=== Circular aperture ===
+
+The far-field diffraction pattern of a plane wave incident on a circular aperture is known as the Airy disk. The Airy disk has the following intensity distribution as a function of angle θ:
+
+  
+    
+      
+        I
+        (
+        θ
+        )
+        =
+        
+          I
+          
+            0
+          
+        
+        
+          
+            (
+            
+              
+                
+                  2
+                  
+                    J
+                    
+                      1
+                    
+                  
+                  (
+                  k
+                  a
+                  sin
+                  ⁡
+                  θ
+                  )
+                
+                
+                  k
+                  a
+                  sin
+                  ⁡
+                  θ
+                
+              
+            
+            )
+          
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle I(\theta )=I_{0}\left({\frac {2J_{1}(ka\sin \theta )}{ka\sin \theta }}\right)^{2},}
+  
+
+where 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ is the radius of the circular aperture, 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  
+ is equal to 
+  
+    
+      
+        2
+        π
+        
+          /
+        
+        λ
+      
+    
+    {\displaystyle 2\pi /\lambda }
+  
+ and 
+  
+    
+      
+        
+          J
+          
+            1
+          
+        
+      
+    
+    {\displaystyle J_{1}}
+  
+ is a Bessel function. The smaller the aperture, the larger the spot size at a given distance, and the greater the divergence of the diffracted beams. For aperture diameters close to the wavelength of the light, the Airy disk begins to act like a point source with very large divergence of diffracted beams.
+
+
+=== Babinet's principle ===
+
+An opaque body and a hole of the same size and shape as the opaque body are called complementary apertures: as diffraction apertures they sum to a completely open space. For example, a screen with a circular hole is complementary to a circular disk the same size as the hole. The optical effect 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+  
+ of these apertures add, 
+
+  
+    
+      
+        
+          E
+          
+            
+              opaque
+            
+          
+        
+        +
+        
+          E
+          
+            
+              hole
+            
+          
+        
+        =
+        
+          E
+          
+            0
+          
+        
+      
+    
+    {\displaystyle E_{\textrm {opaque}}+E_{\textrm {hole}}=E_{0}}
+  
+ 
+giving the optical effect, 
+  
+    
+      
+        
+          E
+          
+            0
+          
+        
+      
+    
+    {\displaystyle E_{0}}
+  
+ of no obstacle. This is Babinet's principle; it works well in the Fraunhofer diffraction limit. When 
+  
+    
+      
+        
+          E
+          
+            0
+          
+        
+        ≈
+        0
+        ,
+      
+    
+    {\displaystyle E_{0}\approx 0,}
+  
+ 
+  
+    
+      
+        
+          E
+          
+            
+              opaque
+            
+          
+        
+        =
+        −
+        
+          E
+          
+            
+              hole
+            
+          
+        
+      
+    
+    {\displaystyle E_{\textrm {opaque}}=-E_{\textrm {hole}}}
+  
+ so the intensity in the two patterns are the same everywhere. By imaging a point source through either aperture, the same pattern results every except right at the focal point.
+
+
+=== Knife edge ===
+The knife-edge effect or knife-edge diffraction is a truncation of a portion of the incident radiation that strikes a sharp well-defined obstacle, such as a mountain range or the wall of a building.
+Knife-edge diffraction is an outgrowth of the "half-plane problem", originally solved by Arnold Sommerfeld using a plane wave spectrum formulation. A generalization of the half-plane problem is the "wedge problem", solvable as a boundary value problem in cylindrical coordinates. The solution in cylindrical coordinates was then extended to the optical regime by Joseph B. Keller, who introduced the notion of diffraction coefficients through his geometrical theory of diffraction (GTD). In 1974, Prabhakar Pathak and Robert Kouyoumjian extended the (singular) Keller coefficients via the uniform theory of diffraction (UTD).
+
+
+=== Gratings ===
+
+A diffraction grating is an optical component with a regular pattern. The form of the light diffracted by a grating depends on the structure of the elements and the number of elements present, but all gratings have intensity maxima at angles θm which are given by the grating equation
+  
+    
+      
+        d
+        
+          (
+          
+            sin
+            ⁡
+            
+              
+                θ
+                
+                  m
+                
+              
+            
+            ±
+            sin
+            ⁡
+            
+              
+                θ
+                
+                  i
+                
+              
+            
+          
+          )
+        
+        =
+        m
+        λ
+        ,
+      
+    
+    {\displaystyle d\left(\sin {\theta _{m}}\pm \sin {\theta _{i}}\right)=m\lambda ,}
+  
+
+where 
+  
+    
+      
+        
+          θ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \theta _{i}}
+  
+ is the angle at which the light is incident, 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  
+ is the separation of grating elements, and 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+ is an integer which can be positive or negative.
+The light diffracted by a grating is found by summing the light diffracted from each of the elements, and is essentially a convolution of diffraction and interference patterns. The figure shows the light diffracted by 2-element and 5-element gratings where the grating spacings are the same; it can be seen that the maxima are in the same position, but the detailed structures of the intensities are different.
+
+
+=== General case for far field ===
+
+A more mathematical approach involves treating the problem as a summation over  spherical waves derived from the relevant wave equation; see for instance Born and Wolf for details. The wave that emerges from a point source has an amplitude 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+  
+ at location 
+  
+    
+      
+        
+          r
+        
+      
+    
+    {\displaystyle \mathbf {r} }
+  
+ that is given by the solution of the frequency domain wave equation for a point source (the Helmholtz equation),
+
+  
+    
+      
+        
+          ∇
+          
+            2
+          
+        
+        ψ
+        +
+        
+          k
+          
+            2
+          
+        
+        ψ
+        =
+        δ
+        (
+        
+          r
+        
+        )
+        ,
+      
+    
+    {\displaystyle \nabla ^{2}\psi +k^{2}\psi =\delta (\mathbf {r} ),}
+  
+
+where 
+  
+    
+      
+        δ
+        (
+        
+          r
+        
+        )
+      
+    
+    {\displaystyle \delta (\mathbf {r} )}
+  
+ is the 3-dimensional delta function.  By direct substitution, the solution to this equation can be shown to be the scalar Green's function, which in the spherical coordinate system (and using the physics time convention 
+  
+    
+      
+        
+          e
+          
+            −
+            i
+            ω
+            t
+          
+        
+      
+    
+    {\displaystyle e^{-i\omega t}}
+  
+) is
+
+  
+    
+      
+        ψ
+        (
+        r
+        )
+        =
+        
+          
+            
+              e
+              
+                i
+                k
+                r
+              
+            
+            
+              4
+              π
+              r
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \psi (r)={\frac {e^{ikr}}{4\pi r}}.}
+  
+which is a spherical wave emanating from the origin, the mathematical form of Huygen"s wavelets in the Huygens-Fresnel appriach. This solution assumes that the delta function source is located at the origin.  If the source is located at an arbitrary source point, denoted by the vector 
+  
+    
+      
+        
+          
+            r
+          
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {r} '}
+  
+ and the field point is located at the point 
+  
+    
+      
+        
+          r
+        
+      
+    
+    {\displaystyle \mathbf {r} }
+  
+, then we may represent the scalar Green's function (for arbitrary source location) as
+
+  
+    
+      
+        ψ
+        (
+        
+          r
+        
+        
+          |
+        
+        
+          
+            r
+          
+          ′
+        
+        )
+        =
+        
+          
+            
+              e
+              
+                i
+                k
+                
+                  |
+                
+                
+                  r
+                
+                −
+                
+                  
+                    r
+                  
+                  ′
+                
+                
+                  |
+                
+              
+            
+            
+              4
+              π
+              
+                |
+              
+              
+                r
+              
+              −
+              
+                
+                  r
+                
+                ′
+              
+              
+                |
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \psi (\mathbf {r} |\mathbf {r} ')={\frac {e^{ik|\mathbf {r} -\mathbf {r} '|}}{4\pi |\mathbf {r} -\mathbf {r} '|}}.}
+  
+
+In the far field, where 
+  
+    
+      
+        r
+      
+    
+    {\displaystyle r}
+  
+ is large the Green's function simplifies to
+
+  
+    
+      
+        ψ
+        (
+        
+          r
+        
+        
+          |
+        
+        
+          
+            r
+          
+          ′
+        
+        )
+        =
+        
+          
+            
+              e
+              
+                i
+                k
+                r
+              
+            
+            
+              4
+              π
+              r
+            
+          
+        
+        
+          e
+          
+            −
+            i
+            k
+            (
+            
+              
+                r
+              
+              ′
+            
+            ⋅
+            
+              
+                
+                  r
+                  ^
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \psi (\mathbf {r} |\mathbf {r} ')={\frac {e^{ikr}}{4\pi r}}e^{-ik(\mathbf {r} '\cdot \mathbf {\hat {r}} )}}
+  
+The expression for the far (Fraunhofer region) wave then becomes
+
+  
+    
+      
+        Ψ
+        (
+        r
+        )
+        ∝
+        
+          
+            
+              e
+              
+                i
+                k
+                r
+              
+            
+            
+              4
+              π
+              r
+            
+          
+        
+        
+          ∬
+          
+            
+              a
+              p
+              e
+              r
+              t
+              u
+              r
+              e
+            
+          
+        
+        
+        
+        
+          E
+          
+            
+              i
+              n
+              c
+            
+          
+        
+        (
+        
+          x
+          ′
+        
+        ,
+        
+          y
+          ′
+        
+        )
+        
+          e
+          
+            −
+            i
+            k
+            (
+            
+              
+                r
+              
+              ′
+            
+            ⋅
+            
+              
+                
+                  r
+                  ^
+                
+              
+            
+            )
+          
+        
+        
+        d
+        
+          x
+          ′
+        
+        
+        d
+        
+          y
+          ′
+        
+        .
+      
+    
+    {\displaystyle \Psi (r)\propto {\frac {e^{ikr}}{4\pi r}}\iint \limits _{\mathrm {aperture} }\!\!E_{\mathrm {inc} }(x',y')e^{-ik(\mathbf {r} '\cdot \mathbf {\hat {r}} )}\,dx'\,dy'.}
+  
+
+with an electric field 
+  
+    
+      
+        
+          E
+          
+            
+              i
+              n
+              c
+            
+          
+        
+        (
+        x
+        ,
+        y
+        )
+      
+    
+    {\displaystyle E_{\mathrm {inc} }(x,y)}
+  
+ incident on the aperture for the case of an electromagnetic wave. In the far-field / Fraunhofer region, this becomes the spatial Fourier transform of the aperture.  Huygens' principle when applied to an aperture simply says that the far-field diffraction pattern is the spatial Fourier transform of the aperture shape, and this is a direct by-product of using the parallel-rays approximation, which is identical to doing a plane wave decomposition of the aperture plane fields (see Fourier optics).
+In the far field, where r is essentially constant, then the equation:
+
+  
+    
+      
+        Ψ
+        =
+        
+          ∫
+          
+            
+              a
+              p
+              e
+              r
+              t
+              u
+              r
+              e
+            
+          
+        
+        
+          
+            i
+            
+              r
+              λ
+            
+          
+        
+        
+          Ψ
+          
+            ′
+          
+        
+        
+          e
+          
+            −
+            i
+            k
+            r
+          
+        
+        
+        d
+        
+          a
+          p
+          e
+          r
+          t
+          u
+          r
+          e
+        
+      
+    
+    {\displaystyle \Psi =\int _{\mathrm {aperture} }{\frac {i}{r\lambda }}\Psi ^{\prime }e^{-ikr}\,d\mathrm {aperture} }
+  
+is equivalent to doing a Fourier transform on the gaps in the barrier. Similar forms can be derived for matter and other types of waves. For instance, with electron diffraction the aperture would be replaced by the electrostatic potential, while for x-ray diffraction  it would be the electron charge density.
+
+
+=== Dynamical diffraction ===
+
+In the cases discussed above it is implicitly assumed that the wave encounters some single barrier or obstruction and is then diffraction by it. In reality it may encounter a number of barriers along the direction that it is travelling. The wave diffraction by the first one it encounters can be diffraction by the next, and so forth. The case when only single diffraction occurs is called kinematical diffraction, the more general case is called dynamical diffraction. Dynamical diffraction is quite well developed for x-rays, and also for electrons. As discussed extensively in the existing literature and reviews the results with dynamical diffraction can be quite different from those when only single scattering is considered. It can also occur with light, one example being opals and photonic crystals.
+
+
+== Matter wave diffraction ==
+
+According to quantum theory every particle exhibits wave properties and can therefore diffract. Diffraction of electrons and neutrons is one of the powerful arguments in favor of quantum mechanics. The wavelength associated with a non-relativistic particle is the de Broglie wavelength
+
+  
+    
+      
+        λ
+        =
+        
+          
+            h
+            p
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \lambda ={\frac {h}{p}}\,,}
+  
+
+where 
+  
+    
+      
+        h
+      
+    
+    {\displaystyle h}
+  
+ is the Planck constant and 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ is the momentum of the particle (mass × velocity for slow-moving particles). For example, a sodium atom traveling at about 300 m/s would have a de Broglie wavelength of about 50 picometres.
+Diffraction of matter waves has been observed for small particles, like electrons, neutrons, atoms, and even large molecules. The short wavelength of these matter waves makes them ideally suited to study the atomic structure of solids, molecules and proteins.
+
+
+== Bragg diffraction ==
+
+Diffraction from a large three-dimensional periodic structure such as many thousands of atoms in a crystal is called Bragg diffraction. It is similar to what occurs when waves are scattered from a diffraction grating. Bragg diffraction is a consequence of interference between waves reflecting from many different crystal planes.
+The condition of constructive interference is given by Bragg's law:
+
+  
+    
+      
+        m
+        λ
+        =
+        2
+        d
+        sin
+        ⁡
+        θ
+        ,
+      
+    
+    {\displaystyle m\lambda =2d\sin \theta ,}
+  
+
+where 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  
+ is the wavelength, 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  
+ is the distance between crystal planes, 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ is the angle of the diffracted wave, and 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+ is an integer known as the order of the diffracted beam.
+Bragg diffraction may be carried out using either electromagnetic radiation of very short wavelength like X-rays or matter waves like neutrons whose wavelength is on the order of (or much smaller than) the atomic spacing. The pattern produced gives information of the separations of crystallographic planes 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  
+, allowing one to deduce the crystal structure.
+For completeness, Bragg diffraction is a limit for a large number of atoms with X-rays or neutrons, and is rarely valid for electron diffraction or with solid particles in the size range of less than 50 nanometers.
+
+
+== Importance of coherence ==
+
+The description of diffraction relies on the interference of waves emanating from the same source taking different paths to the same point on a screen. In this description, the difference in phase between waves that took different paths is only dependent on the effective path length. This does not take into account the fact that waves that arrive at the screen at the same time were emitted by the source at different times. The initial phase with which the source emits waves can change over time in an unpredictable way. This means that waves emitted by the source at times that are too far apart can no longer form a constant interference pattern since the relation between their phases is no longer time independent.
+The length over which the phase in a beam of light is correlated is called the coherence length. In order for interference to occur, the path length difference must be smaller than the coherence length. This is sometimes referred to as spectral coherence, as it is related to the presence of different frequency components in the wave. In the case of light emitted by an atomic transition, the coherence length is related to the lifetime of the excited state from which the atom made its transition.
+If waves are emitted from an extended source, this can lead to incoherence in the transversal direction. When looking at a cross section of a beam of light, the length over which the phase is correlated is called the transverse coherence length. In the case of Young's double-slit experiment, this would mean that if the transverse coherence length is smaller than the spacing between the two slits, the resulting pattern on a screen would look like two single-slit diffraction patterns.
+In the case of particles like electrons, neutrons, and atoms, the coherence length is related to the spatial extent of the wave function that describes the particle.
+
+
+== Main articles involving diffraction ==
+Dynamical theory of diffraction – Multiple diffraction of waves
+Electron diffraction – Bending of electron beams due to electrostatic interactions with matter
+Fraunhofer diffraction – Far-field diffraction
+Fresnel diffraction – Near-field diffraction
+Gas electron diffraction – Method of observing gaseous atomic structure
+Grazing incidence diffraction – Diffraction using small incidence angles
+Helium atom scattering – Diffraction of He from surfaces
+Kinematical diffraction – Single scattering diffractionPages displaying short descriptions of redirect targets
+Low energy electron diffraction – Technique for determining surface structuresPages displaying short descriptions of redirect targets
+Neutron diffraction – Technique to investigate atomic structures using neutron scattering
+Powder diffraction – Experimental method in X-ray diffraction
+Reflection high-energy electron diffraction – Electron diffraction by reflection from surfaces
+X-ray diffraction – Elastic interaction of x-rays with electrons
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+
+The Feynman Lectures on Physics Vol. I Ch. 30: Diffraction
+"Scattering and diffraction". Crystallography. International Union of Crystallography.
+Using a cd as a diffraction grating at YouTube

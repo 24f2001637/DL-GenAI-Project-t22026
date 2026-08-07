@@ -1,0 +1,2392 @@
+Wikipedia article: Schwarzschild metric
+Source: https://en.wikipedia.org/wiki/Schwarzschild_metric
+PageID: 264606
+======================================================================
+
+In Einstein's theory of general relativity, the Schwarzschild metric (also known as the Schwarzschild solution) is an  exact solution to the Einstein field equations that describes the gravitational field outside a spherical mass, on the assumption that the electric charge of the mass, angular momentum of the mass, and universal cosmological constant are all zero. The solution is a useful approximation for describing slowly rotating astronomical objects such as many stars and planets, including Earth and the Sun. It was found by Karl Schwarzschild and independently of him by Johannes Droste in 1916.
+According to Birkhoff's theorem, the Schwarzschild metric is the most general spherically symmetric vacuum solution of the Einstein field equations. A Schwarzschild black hole or static black hole is a black hole that has neither electric charge nor angular momentum (non-rotating). A Schwarzschild black hole is described by the Schwarzschild metric, and cannot be distinguished from any other Schwarzschild black hole except by its mass.
+The Schwarzschild black hole is characterized by a surrounding spherical boundary, called the event horizon, which is situated at the Schwarzschild radius (⁠
+  
+    
+      
+        
+          r
+          
+            s
+          
+        
+      
+    
+    {\displaystyle r_{\text{s}}}
+  
+⁠), often called the radius of a black hole. The boundary is not a physical surface, and a person who fell through the event horizon (before being torn apart by tidal forces) would not notice any physical surface at that position; it is a mathematical surface which is significant in determining the black hole's properties. Any non-rotating and non-charged mass that is smaller than its Schwarzschild radius forms a black hole. The solution of the Einstein field equations is valid for any mass M, so in principle (within the theory of general relativity) a Schwarzschild black hole of any mass could exist if conditions became sufficiently favorable to allow for its formation.
+In the vicinity of a Schwarzschild black hole, space curves so much that even light rays are deflected, and very nearby light can be deflected so much that it travels several times around the black hole.
+
+
+== Formulation ==
+
+The Schwarzschild metric is a spherically symmetric Lorentzian metric (here, with signature convention (+ − − −)), defined on (a subset of) 
+
+  
+    
+      
+        
+          R
+        
+        ×
+        
+          (
+          
+            
+              E
+              
+                3
+              
+            
+            −
+            O
+          
+          )
+        
+        ≅
+        
+          R
+        
+        ×
+        (
+        0
+        ,
+        ∞
+        )
+        ×
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} \times \left(E^{3}-O\right)\cong \mathbb {R} \times (0,\infty )\times S^{2}}
+  
+ 
+where 
+  
+    
+      
+        
+          E
+          
+            3
+          
+        
+      
+    
+    {\displaystyle E^{3}}
+  
+ is 3 dimensional Euclidean space, and 
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+        ⊂
+        
+          E
+          
+            3
+          
+        
+      
+    
+    {\displaystyle S^{2}\subset E^{3}}
+  
+ is the two-sphere.  The rotation group 
+  
+    
+      
+        
+          S
+          O
+        
+        (
+        3
+        )
+        =
+        
+          S
+          O
+        
+        (
+        
+          E
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle \mathrm {SO} (3)=\mathrm {SO} (E^{3})}
+  
+ acts on the 
+  
+    
+      
+        
+          E
+          
+            3
+          
+        
+        −
+        O
+      
+    
+    {\displaystyle E^{3}-O}
+  
+ or 
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S^{2}}
+  
+ factor as rotations around the center 
+  
+    
+      
+        O
+      
+    
+    {\displaystyle O}
+  
+, while leaving the first 
+  
+    
+      
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {R} }
+  
+ factor unchanged. The Schwarzschild metric is a solution of Einstein's field equations in empty space, meaning that it is valid only outside the gravitating body. That is, for a spherical body of radius 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ the solution is valid for 
+  
+    
+      
+        r
+        >
+        R
+      
+    
+    {\displaystyle r>R}
+  
+. To describe the gravitational field both inside and outside the gravitating body the Schwarzschild solution must be matched with some suitable interior solution at ⁠
+  
+    
+      
+        r
+        =
+        R
+      
+    
+    {\displaystyle r=R}
+  
+⁠, such as the interior Schwarzschild metric.
+In Schwarzschild coordinates 
+  
+    
+      
+        (
+        t
+        ,
+        r
+        ,
+        θ
+        ,
+        ϕ
+        )
+      
+    
+    {\displaystyle (t,r,\theta ,\phi )}
+  
+ the Schwarzschild metric (or equivalently, the line element for proper time) has the form
+
+  
+    
+      
+        
+          
+            d
+            s
+          
+          
+            2
+          
+        
+        =
+        
+          c
+          
+            2
+          
+        
+        
+        
+          
+            d
+            τ
+          
+          
+            2
+          
+        
+        =
+        
+          (
+          
+            1
+            −
+            
+              
+                
+                  r
+                  
+                    
+                      s
+                    
+                  
+                
+                r
+              
+            
+          
+          )
+        
+        
+          c
+          
+            2
+          
+        
+        
+        d
+        
+          t
+          
+            2
+          
+        
+        −
+        
+          
+            (
+            
+              1
+              −
+              
+                
+                  
+                    r
+                    
+                      
+                        s
+                      
+                    
+                  
+                  r
+                
+              
+            
+            )
+          
+          
+            −
+            1
+          
+        
+        
+        d
+        
+          r
+          
+            2
+          
+        
+        −
+        
+          r
+          
+            2
+          
+        
+        
+          
+            d
+            Ω
+          
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle {ds}^{2}=c^{2}\,{d\tau }^{2}=\left(1-{\frac {r_{\mathrm {s} }}{r}}\right)c^{2}\,dt^{2}-\left(1-{\frac {r_{\mathrm {s} }}{r}}\right)^{-1}\,dr^{2}-r^{2}{d\Omega }^{2},}
+  
+
+where 
+  
+    
+      
+        
+          
+            d
+            Ω
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {d\Omega }^{2}}
+  
+ is the metric on the two-sphere, i.e. ⁠
+  
+    
+      
+        
+          
+            d
+            Ω
+          
+          
+            2
+          
+        
+        =
+        
+          (
+          
+            d
+            
+              θ
+              
+                2
+              
+            
+            +
+            
+              sin
+              
+                2
+              
+            
+            ⁡
+            θ
+            
+            d
+            
+              ϕ
+              
+                2
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle {d\Omega }^{2}=\left(d\theta ^{2}+\sin ^{2}\theta \,d\phi ^{2}\right)}
+  
+⁠. Furthermore,  
+
+  
+    
+      
+        d
+        
+          τ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle d\tau ^{2}}
+  
+ is positive for timelike curves, in which case 
+  
+    
+      
+        τ
+      
+    
+    {\displaystyle \tau }
+  
+ is the proper time (time measured by a clock moving along the same world line with a test particle),
+
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  
+ is the speed of light,
+
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+ is, for ⁠
+  
+    
+      
+        r
+        >
+        
+          r
+          
+            s
+          
+        
+      
+    
+    {\displaystyle r>r_{\text{s}}}
+  
+⁠, the time coordinate (measured by a clock located infinitely far from the massive body and stationary with respect to it),
+
+  
+    
+      
+        r
+      
+    
+    {\displaystyle r}
+  
+ is, for ⁠
+  
+    
+      
+        r
+        >
+        
+          r
+          
+            s
+          
+        
+      
+    
+    {\displaystyle r>r_{\text{s}}}
+  
+⁠, the radial coordinate (measured as the circumference, divided by 2π, of a sphere centered around the massive body),
+
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+  
+ is a point on the two-sphere ⁠
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S^{2}}
+  
+⁠,
+
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+  is the colatitude of 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+  
+ (angle from north, in units of radians) defined after arbitrarily choosing a z-axis,
+
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+ is the longitude of 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+  
+ (also in radians) around the chosen z-axis, and
+
+  
+    
+      
+        
+          r
+          
+            s
+          
+        
+      
+    
+    {\displaystyle r_{\text{s}}}
+  
+ is the Schwarzschild radius of the massive body, a scale factor which is related to its mass 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+ by ⁠
+  
+    
+      
+        
+          r
+          
+            s
+          
+        
+        =
+        
+          2
+          G
+          M
+        
+        
+          /
+        
+        
+          
+            c
+            
+              2
+            
+          
+        
+      
+    
+    {\displaystyle r_{\text{s}}={2GM}/{c^{2}}}
+  
+⁠, where 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+  
+ is the gravitational constant.
+The Schwarzschild metric has a singularity for r = 0, which is an intrinsic curvature singularity. It also seems to have a singularity on the event horizon r = rs. Depending on the point of view, the metric is therefore defined only on the exterior region 
+  
+    
+      
+        r
+        >
+        
+          r
+          
+            s
+          
+        
+      
+    
+    {\displaystyle r>r_{\text{s}}}
+  
+, only on the interior region 
+  
+    
+      
+        r
+        <
+        
+          r
+          
+            s
+          
+        
+      
+    
+    {\displaystyle r<r_{\text{s}}}
+  
+ or their disjoint union. However, the metric is actually non-singular across the event horizon, as one sees in suitable coordinates (see below). For ⁠
+  
+    
+      
+        r
+        ≫
+        
+          r
+          
+            s
+          
+        
+      
+    
+    {\displaystyle r\gg r_{\text{s}}}
+  
+⁠, the Schwarzschild metric is asymptotic to the standard Lorentz metric on Minkowski space. For almost all astrophysical objects, the ratio 
+  
+    
+      
+        
+          
+            
+              r
+              
+                s
+              
+            
+            R
+          
+        
+      
+    
+    {\displaystyle {\frac {r_{\text{s}}}{R}}}
+  
+ is extremely small. For example, the Schwarzschild radius 
+  
+    
+      
+        
+          r
+          
+            s
+          
+          
+            (
+            
+              Earth
+            
+            )
+          
+        
+      
+    
+    {\displaystyle r_{\text{s}}^{({\text{Earth}})}}
+  
+ of the Earth is roughly 8.9 mm, while the Sun, which is 3.3×105 times as massive has a Schwarzschild radius 
+  
+    
+      
+        
+          r
+          
+            s
+          
+          
+            (
+            
+              Sun
+            
+            )
+          
+        
+      
+    
+    {\displaystyle r_{\text{s}}^{({\text{Sun}})}}
+  
+ of approximately 3.0 km. The ratio becomes large only in close proximity to black holes and other ultra-dense objects such as neutron stars.
+The radial coordinate turns out to have physical significance as the "proper distance between two events that occur simultaneously relative to the radially moving geodesic clocks, the two events lying on the same radial coordinate line".
+The Schwarzschild solution is analogous to a classical Newtonian theory of gravity that corresponds to the gravitational field around a point particle.
+Even at the surface of the Earth, the corrections to Newtonian gravity are only one part in a billion. However, this is enough for the metric to be used to correct for gravitational time dilation in the Global Positioning System.
+
+
+== History ==
+The Schwarzschild solution is named in honour of Karl Schwarzschild, who found the exact solution in 1915 and published it in January 1916, a little more than a month after the publication of Einstein's theory of general relativity.
+It was the first exact solution of the Einstein field equations other than the trivial flat space solution. Schwarzschild died shortly after his paper was published, as a result of a disease (thought to be pemphigus) he developed while serving in the German army during World War I.
+Johannes Droste in 1916
+independently produced the same solution as Schwarzschild, using a simpler, more direct derivation.
+In the early years of general relativity there was a lot of confusion about the nature of the singularities found in the Schwarzschild and other solutions of the Einstein field equations. In Schwarzschild's original paper, he put what we now call the event horizon at the origin of his coordinate system. In this paper he also introduced what is now known as the Schwarzschild radial coordinate (r in the equations above), as an auxiliary variable. In his equations, Schwarzschild was using a different radial coordinate that was zero at the Schwarzschild radius.
+A more complete analysis of the singularity structure was given by David Hilbert in the following year, identifying the singularities both at r = 0 and r = rs. Although there was general consensus that the singularity at r = 0 was a 'genuine' physical singularity, the nature of the singularity at r = rs remained unclear.
+In 1921, Paul Painlevé and in 1922 Allvar Gullstrand independently produced a metric, a spherically symmetric solution of Einstein's equations, which we now know is a coordinate transformation of the Schwarzschild metric, Gullstrand–Painlevé coordinates, in which there was no singularity at r = rs. They, however, did not recognize that their solutions were just coordinate transforms, and in fact used their solution to argue that Einstein's theory was wrong. In 1924 Arthur Eddington produced the first coordinate transformation (Eddington–Finkelstein coordinates) that showed that the singularity at r = rs was a coordinate artifact, although he also seems to have been unaware of the significance of this discovery. Later, in 1932, Georges Lemaître gave a different coordinate transformation (Lemaître coordinates) to the same effect and was the first to recognize that this implied that the singularity at r = rs was not physical. In 1939 Howard Robertson showed that a free falling observer descending in the Schwarzschild metric would cross the r = rs singularity in a finite amount of proper time even though this would take an infinite amount of time in terms of coordinate time t.
+In 1950, John Synge produced a paper that showed the maximal analytic extension of the Schwarzschild metric, again showing that the singularity at r = rs was a coordinate artifact and that it represented two horizons. A similar result was later rediscovered by George Szekeres, and independently Martin Kruskal. The new coordinates nowadays known as Kruskal–Szekeres coordinates were much simpler than Synge's but both provided a single set of coordinates that covered the entire spacetime. However, perhaps due to the obscurity of the journals in which the papers of Lemaître and Synge were published their conclusions went unnoticed, with many of the major players in the field including Einstein believing that the singularity at the Schwarzschild radius was physical. Synge's later derivation of the Kruskal–Szekeres metric solution, which was motivated by a desire to avoid "using 'bad' [Schwarzschild] coordinates to obtain 'good' [Kruskal–Szekeres] coordinates", has been generally under-appreciated in the literature, but was adopted by Chandrasekhar in his black hole monograph.
+Real progress was made in the 1960s when the mathematically rigorous formulation cast in terms of differential geometry entered the field of general relativity, allowing more exact definitions of what it means for a Lorentzian manifold to be singular. This led to definitive identification of the r = rs singularity in the Schwarzschild metric as an event horizon, i.e., a hypersurface in spacetime that can be crossed in only one direction.
+
+
+== Singularities and black holes ==
+The Schwarzschild solution appears to have singularities at r = 0 and r = rs; some of the metric components "blow up" (entail division by zero or multiplication by infinity) at these radii. Since the Schwarzschild metric is expected to be valid only for those radii larger than the radius R of the gravitating body, there is no problem as long as R > rs. For ordinary stars and planets this is always the case. For example, the radius of the Sun is approximately 700000 km, while its Schwarzschild radius is only 3 km.
+The singularity at r = rs divides the Schwarzschild coordinates in two disconnected patches. The exterior Schwarzschild solution with r > rs is the one that is related to the gravitational fields of stars and planets. The interior Schwarzschild solution with 0 ≤ r < rs, which contains the singularity at r = 0, is completely separated from the outer patch by the singularity at r = rs. The Schwarzschild coordinates therefore give no physical connection between the two patches, which may be viewed as separate solutions. The singularity at r = rs is an illusion however; it is an instance of what is called a coordinate singularity. As the name implies, the singularity arises from a bad choice of coordinates or coordinate conditions. When changing to a different coordinate system (for example Lemaître coordinates, Eddington–Finkelstein coordinates, Kruskal–Szekeres coordinates, Novikov coordinates, or Gullstrand–Painlevé coordinates) the metric becomes regular at r = rs and can extend the external patch to values of r smaller than rs. Using a different coordinate transformation one can then relate the extended external patch to the inner patch.
+The case r = 0 is different, however. If one asks that the solution be valid for all r one runs into a true physical singularity, or gravitational singularity, at the origin. To see that this is a true singularity one must look at quantities that are independent of the choice of coordinates. One such important quantity is the Kretschmann invariant, which is given by
+
+  
+    
+      
+        
+          R
+          
+            α
+            β
+            γ
+            δ
+          
+        
+        
+          R
+          
+            α
+            β
+            γ
+            δ
+          
+        
+        =
+        
+          
+            
+              12
+              
+                r
+                
+                  
+                    s
+                  
+                
+                
+                  2
+                
+              
+            
+            
+              r
+              
+                6
+              
+            
+          
+        
+        =
+        
+          
+            
+              48
+              
+                G
+                
+                  2
+                
+              
+              
+                M
+                
+                  2
+                
+              
+            
+            
+              
+                c
+                
+                  4
+                
+              
+              
+                r
+                
+                  6
+                
+              
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle R^{\alpha \beta \gamma \delta }R_{\alpha \beta \gamma \delta }={\frac {12r_{\mathrm {s} }^{2}}{r^{6}}}={\frac {48G^{2}M^{2}}{c^{4}r^{6}}}\,.}
+  
+
+At r = 0 the curvature becomes infinite, indicating the presence of a singularity. At this point the metric cannot be extended in a smooth manner (the Kretschmann invariant involves second derivatives of the metric), spacetime itself is then no longer well-defined. Furthermore, Sbierski showed the metric cannot be extended even in a continuous manner. For a long time it was thought that such a solution was non-physical. However, a greater understanding of general relativity led to the realization that such singularities were a generic feature of the theory and not just an exotic special case.
+The Schwarzschild solution, taken to be valid for all r > 0, is called a Schwarzschild black hole. It is a perfectly valid solution of the Einstein field equations, although (like other black holes) it has rather bizarre properties. For r < rs the Schwarzschild radial coordinate r becomes timelike and the time coordinate t becomes spacelike. A curve at constant r is no longer a possible worldline of a particle or observer, not even if a force is exerted to try to keep it there; this occurs because spacetime has been curved so much that the direction of cause and effect (the particle's future light cone) points into the singularity. The surface r = rs demarcates what is called the event horizon of the black hole. It represents the point past which light can no longer escape the gravitational field. Any physical object whose radius R becomes less than or equal to the Schwarzschild radius has undergone gravitational collapse and become a black hole.
+
+
+== Alternative coordinates ==
+The Schwarzschild solution can be expressed in a range of different choices of coordinates besides the Schwarzschild coordinates used above. Different choices tend to highlight different features of the solution. The table below shows some popular choices.
+
+In table above, some shorthand has been introduced for brevity. The speed of light c has been set to one. The notation
+
+  
+    
+      
+        
+          g
+          
+            Ω
+          
+        
+        =
+        d
+        
+          θ
+          
+            2
+          
+        
+        +
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+        
+        d
+        
+          φ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle g_{\Omega }=d\theta ^{2}+\sin ^{2}\theta \,d\varphi ^{2}}
+  
+
+is used for the metric of a unit radius 2-dimensional sphere. Moreover, in each entry R and T denote alternative choices of radial and time coordinate for the particular coordinates. Note, the R or T may vary from entry to entry.
+The Kruskal–Szekeres coordinates have the form to which the Belinski–Zakharov transform can be applied. This implies that the Schwarzschild black hole is a form of gravitational soliton.
+
+
+== Flamm's paraboloid ==
+
+The spatial curvature of the Schwarzschild solution for r > rs can be visualized as the graphic shows. Consider a constant time equatorial slice  H through the Schwarzschild solution by fixing θ = ⁠π/2⁠, t = constant, and letting the remaining Schwarzschild coordinates (r, φ) vary. Imagine now that there is an additional Euclidean dimension w, which has no physical reality (it is not part of spacetime). Then replace the (r, φ) plane with a surface dimpled in the w direction according to the equation (Flamm's paraboloid)
+
+  
+    
+      
+        w
+        =
+        2
+        
+          
+            
+              r
+              
+                s
+              
+            
+            
+              (
+              
+                r
+                −
+                
+                  r
+                  
+                    s
+                  
+                
+              
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle w=2{\sqrt {r_{\text{s}}\left(r-r_{\text{s}}\right)}}.}
+  
+
+This surface has the property that distances measured within it match distances in the Schwarzschild metric, because with the definition of w above,
+
+  
+    
+      
+        d
+        
+          w
+          
+            2
+          
+        
+        +
+        d
+        
+          r
+          
+            2
+          
+        
+        +
+        
+          r
+          
+            2
+          
+        
+        
+        d
+        
+          φ
+          
+            2
+          
+        
+        =
+        
+          
+            
+              d
+              
+                r
+                
+                  2
+                
+              
+            
+            
+              1
+              −
+              
+                
+                  
+                    r
+                    
+                      s
+                    
+                  
+                  r
+                
+              
+            
+          
+        
+        +
+        
+          r
+          
+            2
+          
+        
+        
+        d
+        
+          φ
+          
+            2
+          
+        
+        =
+        −
+        d
+        
+          s
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle dw^{2}+dr^{2}+r^{2}\,d\varphi ^{2}={\frac {dr^{2}}{1-{\frac {r_{\text{s}}}{r}}}}+r^{2}\,d\varphi ^{2}=-ds^{2}.}
+  
+
+Thus, Flamm's paraboloid is useful for visualizing the spatial curvature of the Schwarzschild metric. It should not, however, be confused with a gravity well. No ordinary (massive or massless) particle can have a worldline lying on the paraboloid, since all distances on it are spacelike (this is a cross-section at one moment of time, so any particle moving on it would have an infinite velocity). A tachyon could have a spacelike worldline that lies entirely on a single paraboloid. However, even in that case its geodesic path is not the trajectory one gets through a "rubber sheet" analogy of gravitational well: in particular, if the dimple is drawn pointing upward rather than downward, the tachyon's geodesic path still curves toward the central mass, not away. See the gravity well article for more information.
+Flamm's paraboloid may be derived as follows. The Euclidean metric in the cylindrical coordinates (r, φ, w) is written
+
+  
+    
+      
+        −
+        d
+        
+          s
+          
+            2
+          
+        
+        =
+        d
+        
+          w
+          
+            2
+          
+        
+        +
+        d
+        
+          r
+          
+            2
+          
+        
+        +
+        
+          r
+          
+            2
+          
+        
+        
+        d
+        
+          φ
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle -ds^{2}=dw^{2}+dr^{2}+r^{2}\,d\varphi ^{2}.}
+  
+
+Letting the surface be described by the function w = w(r), the Euclidean metric can be written as
+
+  
+    
+      
+        −
+        d
+        
+          s
+          
+            2
+          
+        
+        =
+        
+          (
+          
+            1
+            +
+            
+              
+                (
+                
+                  
+                    
+                      d
+                      w
+                    
+                    
+                      d
+                      r
+                    
+                  
+                
+                )
+              
+              
+                2
+              
+            
+          
+          )
+        
+        
+        d
+        
+          r
+          
+            2
+          
+        
+        +
+        
+          r
+          
+            2
+          
+        
+        
+        d
+        
+          φ
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle -ds^{2}=\left(1+\left({\frac {dw}{dr}}\right)^{2}\right)\,dr^{2}+r^{2}\,d\varphi ^{2}.}
+  
+
+Comparing this with the Schwarzschild metric in the equatorial plane (θ = π/2) at a fixed time (t = constant, dt = 0),
+
+  
+    
+      
+        −
+        d
+        
+          s
+          
+            2
+          
+        
+        =
+        
+          
+            (
+            
+              1
+              −
+              
+                
+                  
+                    r
+                    
+                      s
+                    
+                  
+                  r
+                
+              
+            
+            )
+          
+          
+            −
+            1
+          
+        
+        
+        d
+        
+          r
+          
+            2
+          
+        
+        +
+        
+          r
+          
+            2
+          
+        
+        
+        d
+        
+          φ
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle -ds^{2}=\left(1-{\frac {r_{\text{s}}}{r}}\right)^{-1}\,dr^{2}+r^{2}\,d\varphi ^{2},}
+  
+
+yields an integral expression for w(r):
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                (
+                r
+                )
+              
+              
+                
+                =
+                ∫
+                
+                  
+                    
+                      d
+                      r
+                    
+                    
+                      
+                        
+                          r
+                          
+                            r
+                            
+                              s
+                            
+                          
+                        
+                      
+                      −
+                      1
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                2
+                
+                  r
+                  
+                    s
+                  
+                
+                
+                  
+                    
+                      
+                        r
+                        
+                          r
+                          
+                            s
+                          
+                        
+                      
+                    
+                    −
+                    1
+                  
+                
+                +
+                
+                  constant
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}w(r)&=\int {\frac {dr}{\sqrt {{\frac {r}{r_{\text{s}}}}-1}}}\\&=2r_{\text{s}}{\sqrt {{\frac {r}{r_{\text{s}}}}-1}}+{\text{constant}},\end{aligned}}}
+  
+
+whose solution is Flamm's paraboloid.
+
+
+== Orbital motion ==
+
+A particle orbiting in the Schwarzschild metric can have a stable circular orbit with r > 3rs. Circular orbits with r between 1.5rs and 3rs are unstable, and no circular orbits exist for r < 1.5rs. The circular orbit of minimum radius 1.5rs corresponds to an orbital velocity approaching the speed of light. It is possible for a particle to have a constant value of r between rs and 1.5rs, but only if some force acts to keep it there.
+Noncircular orbits, such as Mercury's, dwell longer at small radii than would be expected in Newtonian gravity. This can be seen as a less extreme version of the more dramatic case in which a particle passes through the event horizon and dwells inside it forever. Intermediate between the case of Mercury and the case of an object falling past the event horizon, there are exotic possibilities such as knife-edge orbits, in which the satellite can be made to execute an arbitrarily large number of nearly circular orbits, after which it flies back outward.
+
+
+== Symmetries ==
+The isometry group of the Schwarzschild metric is ⁠
+  
+    
+      
+        
+          R
+        
+        ×
+        
+          O
+        
+        (
+        3
+        )
+        ×
+        {
+        ±
+        1
+        }
+      
+    
+    {\displaystyle \mathbb {R} \times \mathrm {O} (3)\times \{\pm 1\}}
+  
+⁠, where 
+  
+    
+      
+        
+          O
+        
+        (
+        3
+        )
+      
+    
+    {\displaystyle \mathrm {O} (3)}
+  
+ is the orthogonal group of rotations and reflections in three dimensions, 
+  
+    
+      
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {R} }
+  
+ comprises the time translations, and 
+  
+    
+      
+        {
+        ±
+        1
+        }
+      
+    
+    {\displaystyle \{\pm 1\}}
+  
+ is the group generated by time reversal.
+This is thus the subgroup of the ten-dimensional Poincaré group which takes the time axis (trajectory of the star) to itself. It omits the spatial translations (three dimensions) and boosts (three dimensions). It retains the time translations (one dimension) and rotations (three dimensions). Thus it has four dimensions. Like the Poincaré group, it has four connected components: the component of the identity; the time reversed component; the spatial inversion component; and the component which is both time reversed and spatially inverted.
+
+
+== Curvatures ==
+The Ricci curvature scalar and the Ricci curvature tensor are both zero. Non-zero components of the Riemann curvature tensor are given by
+
+  
+    
+      
+        
+          
+            
+              
+                −
+                
+                  R
+                  
+                    t
+                  
+                
+                
+                  
+
+                  
+                  
+                    r
+                    t
+                    r
+                  
+                
+              
+              
+                
+                =
+                2
+                
+                  R
+                  
+                    θ
+                  
+                
+                
+                  
+
+                  
+                  
+                    r
+                    θ
+                    r
+                  
+                
+                =
+                2
+                
+                  R
+                  
+                    ϕ
+                  
+                
+                
+                  
+
+                  
+                  
+                    r
+                    ϕ
+                    r
+                  
+                
+                =
+                
+                  
+                    
+                      r
+                      
+                        s
+                      
+                    
+                    
+                      
+                        r
+                        
+                          2
+                        
+                      
+                      (
+                      
+                        r
+                        
+                          s
+                        
+                      
+                      −
+                      r
+                      )
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                2
+                
+                  R
+                  
+                    t
+                  
+                
+                
+                  
+
+                  
+                  
+                    θ
+                    t
+                    θ
+                  
+                
+              
+              
+                
+                =
+                2
+                
+                  R
+                  
+                    r
+                  
+                
+                
+                  
+
+                  
+                  
+                    θ
+                    r
+                    θ
+                  
+                
+                =
+                −
+                
+                  R
+                  
+                    ϕ
+                  
+                
+                
+                  
+
+                  
+                  
+                    θ
+                    ϕ
+                    θ
+                  
+                
+                =
+                −
+                
+                  
+                    
+                      r
+                      
+                        s
+                      
+                    
+                    r
+                  
+                
+                ,
+              
+            
+            
+              
+                2
+                
+                  R
+                  
+                    t
+                  
+                
+                
+                  
+
+                  
+                  
+                    ϕ
+                    t
+                    ϕ
+                  
+                
+              
+              
+                
+                =
+                2
+                
+                  R
+                  
+                    r
+                  
+                
+                
+                  
+
+                  
+                  
+                    ϕ
+                    r
+                    ϕ
+                  
+                
+                =
+                −
+                
+                  R
+                  
+                    θ
+                  
+                
+                
+                  
+
+                  
+                  
+                    ϕ
+                    θ
+                    ϕ
+                  
+                
+                =
+                −
+                
+                  
+                    
+                      
+                        r
+                        
+                          s
+                        
+                      
+                      
+                        sin
+                        
+                          2
+                        
+                      
+                      ⁡
+                      (
+                      θ
+                      )
+                    
+                    r
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  R
+                  
+                    r
+                  
+                
+                
+                  
+
+                  
+                  
+                    t
+                    r
+                    t
+                  
+                
+              
+              
+                
+                =
+                −
+                2
+                
+                  R
+                  
+                    θ
+                  
+                
+                
+                  
+
+                  
+                  
+                    t
+                    θ
+                    t
+                  
+                
+                =
+                −
+                2
+                
+                  R
+                  
+                    ϕ
+                  
+                
+                
+                  
+
+                  
+                  
+                    t
+                    ϕ
+                    t
+                  
+                
+                =
+                
+                  c
+                  
+                    2
+                  
+                
+                
+                  
+                    
+                      
+                        r
+                        
+                          s
+                        
+                      
+                      (
+                      
+                        r
+                        
+                          s
+                        
+                      
+                      −
+                      r
+                      )
+                    
+                    
+                      r
+                      
+                        4
+                      
+                    
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}-R^{t}{}_{rtr}&=2R^{\theta }{}_{r\theta r}=2R^{\phi }{}_{r\phi r}={\frac {r_{\text{s}}}{r^{2}(r_{\text{s}}-r)}},\\2R^{t}{}_{\theta t\theta }&=2R^{r}{}_{\theta r\theta }=-R^{\phi }{}_{\theta \phi \theta }=-{\frac {r_{\text{s}}}{r}},\\2R^{t}{}_{\phi t\phi }&=2R^{r}{}_{\phi r\phi }=-R^{\theta }{}_{\phi \theta \phi }=-{\frac {r_{\text{s}}\sin ^{2}(\theta )}{r}},\\R^{r}{}_{trt}&=-2R^{\theta }{}_{t\theta t}=-2R^{\phi }{}_{t\phi t}=c^{2}{\frac {r_{\text{s}}(r_{\text{s}}-r)}{r^{4}}},\end{aligned}}}
+  
+
+from which one can see that 
+  
+    
+      
+        
+          R
+          
+            γ
+          
+        
+        
+          
+
+          
+          
+            α
+            γ
+            β
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle R^{\gamma }{}_{\alpha \gamma \beta }=0}
+  
+.
+Six of these formulas are Eq. 5.13 in Carroll and imply the other 6 by 
+  
+    
+      
+        
+          R
+          
+            α
+          
+        
+        
+          
+
+          
+          
+            β
+            γ
+            δ
+          
+        
+        =
+        
+          g
+          
+            α
+            κ
+          
+        
+        
+          g
+          
+            β
+            λ
+          
+        
+        
+          R
+          
+            λ
+          
+        
+        
+          
+
+          
+          
+            κ
+            δ
+            γ
+          
+        
+      
+    
+    {\displaystyle R^{\alpha }{}_{\beta \gamma \delta }=g^{\alpha \kappa }g_{\beta \lambda }R^{\lambda }{}_{\kappa \delta \gamma }}
+  
+.
+Components which are obtainable by other symmetries of the Riemann tensor are not displayed.
+To understand the physical meaning of these quantities, it is useful to express the curvature tensor in an orthonormal basis. In an orthonormal basis of an observer the non-zero components in geometric units are
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  R
+                  
+                    
+                      
+                        r
+                        ^
+                      
+                    
+                  
+                
+                
+                  
+
+                  
+                  
+                    
+                      
+                        
+                          t
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          r
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          t
+                          ^
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                −
+                
+                  R
+                  
+                    
+                      
+                        θ
+                        ^
+                      
+                    
+                  
+                
+                
+                  
+
+                  
+                  
+                    
+                      
+                        
+                          ϕ
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          θ
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          ϕ
+                          ^
+                        
+                      
+                    
+                  
+                
+                =
+                −
+                
+                  
+                    
+                      r
+                      
+                        s
+                      
+                    
+                    
+                      r
+                      
+                        3
+                      
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  R
+                  
+                    
+                      
+                        θ
+                        ^
+                      
+                    
+                  
+                
+                
+                  
+
+                  
+                  
+                    
+                      
+                        
+                          t
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          θ
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          t
+                          ^
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  R
+                  
+                    
+                      
+                        ϕ
+                        ^
+                      
+                    
+                  
+                
+                
+                  
+
+                  
+                  
+                    
+                      
+                        
+                          t
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          ϕ
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          t
+                          ^
+                        
+                      
+                    
+                  
+                
+                =
+                −
+                
+                  R
+                  
+                    
+                      
+                        r
+                        ^
+                      
+                    
+                  
+                
+                
+                  
+
+                  
+                  
+                    
+                      
+                        
+                          θ
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          r
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          θ
+                          ^
+                        
+                      
+                    
+                  
+                
+                =
+                −
+                
+                  R
+                  
+                    
+                      
+                        r
+                        ^
+                      
+                    
+                  
+                
+                
+                  
+
+                  
+                  
+                    
+                      
+                        
+                          ϕ
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          r
+                          ^
+                        
+                      
+                    
+                    
+                      
+                        
+                          ϕ
+                          ^
+                        
+                      
+                    
+                  
+                
+                =
+                
+                  
+                    
+                      r
+                      
+                        s
+                      
+                    
+                    
+                      2
+                      
+                        r
+                        
+                          3
+                        
+                      
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}R^{\hat {r}}{}_{{\hat {t}}{\hat {r}}{\hat {t}}}&=-R^{\hat {\theta }}{}_{{\hat {\phi }}{\hat {\theta }}{\hat {\phi }}}=-{\frac {r_{\text{s}}}{r^{3}}},\\R^{\hat {\theta }}{}_{{\hat {t}}{\hat {\theta }}{\hat {t}}}&=R^{\hat {\phi }}{}_{{\hat {t}}{\hat {\phi }}{\hat {t}}}=-R^{\hat {r}}{}_{{\hat {\theta }}{\hat {r}}{\hat {\theta }}}=-R^{\hat {r}}{}_{{\hat {\phi }}{\hat {r}}{\hat {\phi }}}={\frac {r_{\text{s}}}{2r^{3}}}.\end{aligned}}}
+  
+
+Again, components which are obtainable by the symmetries of the Riemann tensor are not displayed. These results are invariant to any Lorentz boost, thus the components do not change for non-static observers. The geodesic deviation equation shows that the tidal acceleration between two observers separated by 
+  
+    
+      
+        
+          ξ
+          
+            
+              
+                j
+                ^
+              
+            
+          
+        
+      
+    
+    {\displaystyle \xi ^{\hat {j}}}
+  
+ is 
+  
+    
+      
+        
+          D
+          
+            2
+          
+        
+        
+          ξ
+          
+            
+              
+                j
+                ^
+              
+            
+          
+        
+        
+          /
+        
+        D
+        
+          τ
+          
+            2
+          
+        
+        =
+        −
+        
+          R
+          
+            
+              
+                j
+                ^
+              
+            
+          
+        
+        
+          
+
+          
+          
+            
+              
+                
+                  t
+                  ^
+                
+              
+            
+            
+              
+                
+                  k
+                  ^
+                
+              
+            
+            
+              
+                
+                  t
+                  ^
+                
+              
+            
+          
+        
+        
+          ξ
+          
+            
+              
+                k
+                ^
+              
+            
+          
+        
+      
+    
+    {\displaystyle D^{2}\xi ^{\hat {j}}/D\tau ^{2}=-R^{\hat {j}}{}_{{\hat {t}}{\hat {k}}{\hat {t}}}\xi ^{\hat {k}}}
+  
+, so a body of length 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+  
+ is stretched in the radial direction by an apparent acceleration 
+  
+    
+      
+        (
+        
+          r
+          
+            s
+          
+        
+        
+          /
+        
+        
+          r
+          
+            3
+          
+        
+        )
+        
+          c
+          
+            2
+          
+        
+        L
+      
+    
+    {\displaystyle (r_{\text{s}}/r^{3})c^{2}L}
+  
+ and squeezed in the perpendicular directions by  
+  
+    
+      
+        −
+        (
+        
+          r
+          
+            s
+          
+        
+        
+          /
+        
+        (
+        2
+        
+          r
+          
+            3
+          
+        
+        )
+        )
+        
+          c
+          
+            2
+          
+        
+        L
+      
+    
+    {\displaystyle -(r_{\text{s}}/(2r^{3}))c^{2}L}
+  
+.
+
+
+== See also ==
+Derivation of the Schwarzschild solution
+Reissner–Nordström metric (charged, non-rotating solution)
+Kerr metric (uncharged, rotating solution)
+Kerr–Newman metric (charged, rotating solution)
+Black hole, a general review
+Schwarzschild coordinates
+Kruskal–Szekeres coordinates
+Eddington–Finkelstein coordinates
+Gullstrand–Painlevé coordinates
+Lemaître coordinates (Schwarzschild solution in synchronous coordinates)
+Frame fields in general relativity (Lemaître observers in the Schwarzschild vacuum)
+Tolman–Oppenheimer–Volkoff equation (metric and pressure equations of a static and spherically symmetric body of isotropic material)
+Planck length
+
+
+== Notes ==
+
+
+== References ==
+Schwarzschild, K. (1916). "Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie". Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften. 7: 189–196. Bibcode:1916AbhKP1916..189S.
+Text of the original paper, in Wikisource
+Translation: Antoci, S.; Loinger, A. (1999). "On the gravitational field of a mass point according to Einstein's theory". arXiv:physics/9905030.
+A commentary on the paper, giving a simpler derivation: Bel, L. (2007). "Über das Gravitationsfeld eines Massenpunktesnach der Einsteinschen Theorie". arXiv:0709.2257 [gr-qc].
+Schwarzschild, K. (1916). "Über das Gravitationsfeld einer Kugel aus inkompressibler Flüssigkeit". Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften. 1: 424.
+Text of the original paper, in Wikisource
+Translation: Antoci, S. (1999). "On the gravitational field of a sphere of incompressible fluid according to Einstein's theory". arXiv:physics/9912033.
+Flamm, L. (1916). "Beiträge zur Einstein'schen Gravitationstheorie". Physikalische Zeitschrift. 17: 448.
+Adler, R.; Bazin, M.; Schiffer, M. (1975). Introduction to General Relativity (2nd ed.). McGraw-Hill. Chapter 6. ISBN 0-07-000423-4.
+Landau, L. D.; Lifshitz, E. M. (1975). The Classical Theory of Fields. Course of Theoretical Physics. Vol. 2 (4th Revised English ed.). Pergamon Press. Chapter 12. ISBN 0-08-025072-6.
+Misner, C. W.; Thorne, K. S.; Wheeler, J. A. (1970). Gravitation. W.H. Freeman. Chapters 31 and 32. ISBN 0-7167-0344-0.
+Weinberg, S. (1972). Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity. John Wiley & Sons. Chapter 8. ISBN 0-471-92567-5.
+Taylor, E. F.; Wheeler, J. A. (2000). Exploring Black Holes: Introduction to General Relativity. Addison-Wesley. ISBN 0-201-38423-X.
+Heinzle, J. M.; Steinbauer, R. (2002). "Remarks on the distributional Schwarzschild geometry". Journal of Mathematical Physics. 43 (3): 1493–1508. arXiv:gr-qc/0112047. Bibcode:2002JMP....43.1493H. doi:10.1063/1.1448684. S2CID 119677857.
+Sanchez, Norma (15 August 1978). "Absorption and emission spectra of a Schwarzschild black hole". Physical Review D. 18 (4): 1030–1036. Bibcode:1978PhRvD..18.1030S. doi:10.1103/PhysRevD.18.1030.
+Persides, S. (1 August 1973). "On the radial wave equation in Schwarzschild's space-time". Journal of Mathematical Physics. 14 (8): 1017–1021. Bibcode:1973JMP....14.1017P. doi:10.1063/1.1666431. ISSN 0022-2488.

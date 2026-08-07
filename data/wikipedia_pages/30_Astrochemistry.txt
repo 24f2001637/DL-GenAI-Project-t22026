@@ -1,0 +1,92 @@
+Wikipedia article: Astrochemistry
+Source: https://en.wikipedia.org/wiki/Astrochemistry
+PageID: 71268
+======================================================================
+
+Astrochemistry is the interdisciplinary scientific study of the abundance and reactions of molecules in space and their interaction with radiation. The discipline overlaps with astronomy and chemistry. The term may refer to studies within both the Solar System and the interstellar medium. The investigation of elemental abundances and isotope ratios in Solar System materials, such as meteorites, is known as cosmochemistry, while the study of interstellar atoms and molecules and their interaction with radiation is sometimes called molecular astrophysics. The formation, composition, evolution and fate of molecular clouds is of particular interest, as these clouds are the birthplaces of planetary systems.
+
+
+== History ==
+As an offshoot of astronomy and chemistry, the history of astrochemistry follows the development of both fields. Advances in observational and experimental spectroscopy enabled the detection of an ever‑growing range of molecules within planetary systems and the surrounding interstellar medium. The expanding inventory of detected species, made possible by improvements in spectroscopy and related technologies, has in turn broadened the chemical space accessible to astrochemical research.
+
+
+=== History of spectroscopy ===
+
+Early observations of solar spectra by Athanasius Kircher (1646), Jan Marek Marci (1648), Robert Boyle (1664), and Francesco Maria Grimaldi (1665) predated Isaac Newton’s 1666 demonstration of the spectral nature of light, which led to the first spectroscope. Spectroscopy was first applied to astronomy in 1802, when William Hyde Wollaston used a spectrometer to observe dark lines in the solar spectrum. These features were later measured in detail by Joseph von Fraunhofer.
+In 1835, Charles Wheatstone showed that different metals produce distinct emission spectra when sparked, demonstrating that spectral lines could be used to identify chemical elements. Subsequent work by Léon Foucault (1849) and Anders Jonas Ångström (1853) established that the same material produces identical absorption and emission lines, laying the foundation for chemical identification through spectroscopy.
+The theoretical significance of these observations increased with Johann Balmer’s discovery that the spectral lines of hydrogen follow a simple empirical pattern, now known as the Balmer series. This relationship was later generalized by the Rydberg formula developed by Johannes Rydberg in 1888, enabling the calculation of spectral lines for many elements. With the advent of quantum mechanics, these empirical laws could be derived from first principles, allowing atomic and molecular spectra to be predicted a priori and providing the theoretical framework that underpins modern astrochemical spectroscopy.
+
+
+=== History of astrochemistry ===
+Although radio astronomy emerged in the 1930s, the first substantial evidence for an interstellar molecule was not obtained until 1937, when Swings and Rosenfeld identified spectral features attributable to molecular species. Until this point, only atomic species were known to exist in interstellar space. The result was confirmed in 1940, when McKellar et al. attributed previously unidentified spectroscopic lines to CH and CN molecules in the interstellar medium.
+Over the following three decades, additional interstellar molecules were detected. Among the most significant were OH, discovered in 1963 and important as a source of interstellar oxygen, and H2CO (formaldehyde), detected in 1969 and notable as the first observed organic, polyatomic molecule in interstellar space.
+The detection of formaldehyde—and later other molecules with potential biological relevance, such as water and carbon monoxide—was interpreted by some researchers as supporting abiogenetic hypotheses in which the basic molecular components of life may originate in space. This motivated continued searches for interstellar molecules of biological interest, including interstellar glycine, reported in a comet within the Solar System in 2009, and molecules exhibiting biologically relevant properties such as chirality, exemplified by the discovery of interstellar propylene oxide in 2016. These discoveries occurred alongside the broader development of modern astrochemical research.
+
+
+== Spectroscopy ==
+
+One of the most important experimental tools in astrochemistry is spectroscopy, which uses telescopes to measure the absorption and emission of light from atoms and molecules in different astrophysical environments. By comparing astronomical observations with laboratory spectra, astrochemists can infer the elemental abundances, chemical composition and temperatures of stars and interstellar clouds. This is possible because ions, atoms and molecules have characteristic spectra: that is, they absorb and emit light at specific wavelengths, many of which are not visible to the human eye. Different regions of the electromagnetic spectrum (radio, infrared, visible, ultraviolet and others) probe different types of transitions and are therefore sensitive to different kinds of species.
+
+
+=== Radio spectroscopy ===
+Perhaps the most powerful technique for detecting individual chemical species in the interstellar medium is radio astronomy, which has revealed more than a hundred interstellar species, including radicals, ions and organic (i.e. carbon-based) molecules such as aldehydes and ketones. One of the most abundant interstellar molecules, and among the easiest to detect with radio waves due to its strong electric dipole moment, is CO (carbon monoxide). CO is so common and bright that it is widely used to map molecular regions in galaxies. The first organic molecule detected in the interstellar medium by radio techniques was interstellar formaldehyde, which opened up the study of interstellar organic chemistry.
+One of the most discussed radio detections is the claimed observation of interstellar glycine, the simplest amino acid, a result that remains controversial. Radio and related techniques such as rotational spectroscopy are particularly effective for identifying relatively simple species with large dipole moments, but are less sensitive to more complex molecules, even those only modestly larger than amino acids.
+
+
+=== Infrared spectroscopy ===
+Infrared astronomy probes vibrational transitions in molecules, and is especially useful for detecting a wide range of organic and inorganic species. Many organic compounds absorb and emit strongly in the infrared, so IR spectroscopy is used both for interstellar molecules and for planetary atmospheres. For example, the detection of methane in the atmosphere of Mars was achieved using a ground-based IR telescope, NASA's 3-meter Infrared Telescope Facility atop Mauna Kea, Hawaii. NASA has also used the airborne IR telescope SOFIA and the space-based Spitzer for astrochemical observations.
+Infrared spectroscopy has revealed that the interstellar medium contains a suite of complex gas-phase carbon compounds called polyaromatic hydrocarbons (PAHs or PACs). These molecules, composed primarily of fused rings of carbon (in neutral or ionized states), are thought to be the most common class of carbon compound in the Galaxy and are abundant in cosmic dust, meteorites, and cometary and asteroidal material. Many of these compounds, along with amino acids, nucleobases and other organics in meteorites, are enriched in deuterium and rare isotopes of carbon, nitrogen and oxygen, indicating an extraterrestrial origin. PAHs are thought to form in hot circumstellar environments around dying, carbon-rich red giant stars.
+Infrared observations have also been used to assess the composition of solid materials in the interstellar medium, including silicates, kerogen-like carbon-rich solids and ices. Unlike visible light, which is strongly scattered or absorbed by solid particles, IR radiation can pass through microscopic interstellar grains but is absorbed at specific wavelengths characteristic of their composition.
+
+
+=== Ultraviolet and visible spectroscopy ===
+Some key astrochemical species are more readily detected at ultraviolet or visible wavelengths. The most abundant molecule in the universe, H2 (hydrogen gas, or dihydrogen), has no permanent dipole moment and is therefore invisible to radio telescopes. However, it can be observed in the UV and visible through its characteristic absorption and emission features, including the hydrogen line. Ultraviolet and visible observations complement radio and infrared measurements by probing different excitation conditions and tracing species that are otherwise difficult to detect.
+
+
+=== Limitations and solid-phase chemistry ===
+All spectroscopic techniques face important limitations. Radio and rotational spectroscopy are blind to molecules without a dipole moment, such as H2, and in general are less sensitive to large, complex molecules. Spectroscopic methods that rely on gas-phase transitions also cannot detect species that are frozen onto grains. In dense molecular clouds, where temperatures are typically 10 to 50 K [−263.1 to −223.2 °C; −441.7 to −369.7 °F], most molecules other than dihydrogen are in the solid phase, forming thin ice mantles on dust particles. In these ices, the initial chemistry is controlled by the available hydrogen: atomic hydrogen tends to produce "reduced" species such as H2O, CH4 and NH3, whereas largely molecular hydrogen allows heavier atoms to form species such as CO, CO2 and CN. These mixed-molecular ices are processed by ultraviolet radiation and cosmic rays, driving complex radiation-induced chemistry. Laboratory experiments on the photochemistry of simple interstellar ice analogues have produced amino acids, and similarities between interstellar and cometary ices, together with comparisons of gas-phase compounds, have been used to argue for a connection between interstellar and cometary chemistry. Results from the analysis of organics in samples returned by the Stardust mission support such links, while also indicating a substantial contribution from high-temperature chemistry in the solar nebula.
+
+
+== Research ==
+
+Astrochemical research investigates how molecules form, evolve and interact in interstellar and circumstellar environments. Modern work combines laboratory experiments, quantum chemical modelling and astronomical observations to understand the chemical pathways that operate under the extreme physical conditions of space.
+
+
+=== Molecular formation pathways ===
+A major area of research concerns the formation of molecules on the surfaces of interstellar dust grains. Low temperatures in dense clouds allow atoms and simple radicals to accrete onto grains, where reactions proceed through mechanisms such as quantum tunnelling. These processes influence the inventory of molecules present in the molecular cloud from which the Solar System formed, contributing to the carbon-rich chemistry of comets, asteroids, meteorites and interstellar dust particles.
+In dense clouds, thin ice mantles form on dust grains. The chemistry of these ices depends strongly on the form of hydrogen present: atomic hydrogen tends to produce reduced species such as H2O, CH4 and NH3, while molecular hydrogen allows heavier atoms to form species such as CO, CO2 and CN. Ultraviolet radiation and cosmic rays drive further processing, producing increasingly complex organics. Laboratory photochemistry experiments on simple ice analogues have produced amino acids, supporting the idea that prebiotic molecules may form in interstellar ices.
+
+
+=== Gas-phase chemistry and unusual species ===
+The low densities of interstellar and interplanetary space allow unusual gas-phase chemistry. Many reactions that are symmetry-forbidden under terrestrial conditions can occur over long timescales, enabling the formation of molecules and ions that are unstable on Earth. A notable example is the H3+ ion, which plays a central role in interstellar ion–molecule chemistry.
+
+
+=== Circumstellar and stellar chemistry ===
+Astrochemistry overlaps with astrophysics and nuclear physics in the study of molecules formed in stellar environments. Nuclear reactions in stellar interiors produce new elements, which can be transported to the surface by dredge-up events in stars with convective envelopes. If such stars undergo significant mass loss, their winds may contain molecules whose rotational and vibrational transitions are observable with radio and infrared telescopes.
+Carbon-rich stars provide a striking example: as helium burning brings carbon to the surface, the molecular composition of the stellar wind changes dramatically, producing species such as silicates and water ice in their outer envelopes.
+
+
+=== Complex organics and prebiotic molecules ===
+A major focus of modern astrochemistry is the detection and formation of complex organic molecules. Observations have shown that cosmic dust contains amorphous organic solids with mixed aromatic–aliphatic structures, and that polycyclic aromatic hydrocarbons (PAHs) are widespread throughout the universe. PAHs may account for more than 20% of cosmic carbon and have been proposed as potential precursors to amino acids and nucleotides.
+Several notable detections have highlighted the astrochemical relevance of complex organics. In 2012, astronomers reported the detection of the simple sugar glycolaldehyde around the protostellar binary IRAS 16293–2422, suggesting that biologically relevant molecules may form before planets themselves. In 2015, the Philae lander detected sixteen organic compounds on comet 67P, including acetamide, acetone, methyl isocyanate and propionaldehyde.
+In 2023, hydrogen cyanide and other organic molecules were detected in the plumes of Enceladus, a moon of Saturn, suggesting that chemically rich environments capable of supporting complex organic synthesis may exist in subsurface oceans.
+
+
+=== Observational advances ===
+Modern facilities such as the Atacama Large Millimeter/Submillimeter Array (ALMA) have enabled high-resolution mapping of molecular distributions in comets and other objects. In 2014, ALMA observations revealed the spatial distribution of HCN, HNC, H2CO and dust in the comae of comets C/2012 F6 (Lemmon) and C/2012 S1 (ISON).
+Astrochemical modelling has also advanced. Thermodynamic models developed by Dolomatov and collaborators use probability theory and equilibrium thermodynamics to estimate the distribution of organic molecules in the interstellar medium.<ref name="abundance of chemical elements3
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+
+NASA Ames Astrochemistry Laboratory
+NASA Ames PAH IR Spectroscopic Database
+Cologne Database for Molecular Spectroscopy (CDMS)
+JPL Molecular Spectroscopy Catalog
+NIST Chemistry WebBook – Molecular Spectra

@@ -1,0 +1,817 @@
+Wikipedia article: Spacetime diagram
+Source: https://en.wikipedia.org/wiki/Spacetime_diagram
+PageID: 11647860
+======================================================================
+
+A spacetime diagram is a graphical illustration of locations in space at various times, especially in the special theory of relativity. Spacetime diagrams can show the geometry underlying phenomena such as time dilation and length contraction without the need of mathematical equations.
+The history of an object's location through time traces out a line or curve on a spacetime diagram, referred to as the object's world line. Each point in a spacetime diagram represents a unique position in space and time and is referred to as an event.
+The most well-known class of spacetime diagrams are known as Minkowski diagrams, developed by Hermann Minkowski in 1908. Minkowski diagrams are two-dimensional graphs that depict events as happening in a universe consisting of one space dimension and one time dimension. Unlike a regular distance-time graph, the distance is displayed on the horizontal axis and time on the vertical axis. Additionally, the time and space units of measurement are chosen in such a way that an object moving at the speed of light is depicted as following a 45° angle to the diagram's axes.
+
+
+== Introduction to kinetic diagrams ==
+
+
+=== Position versus time graphs ===
+
+In the study of 1-dimensional kinematics, position vs. time graphs (called x-t graphs for short) provide a useful means to describe motion. Kinematic features besides the object's position are visible by the slope and shape of the lines. In Fig 1-1, the plotted object moves away from the origin at a positive constant velocity (1.66 m/s) for 6 seconds, halts for 5 seconds, then returns to the origin over a period of 7 seconds at a non-constant speed (but negative velocity).
+At its most basic level, a spacetime diagram is merely a time vs position graph, with the directions of the axes in a usual p-t graph exchanged; that is, the vertical axis refers to temporal and the horizontal axis to spatial coordinate values. Especially when used in special relativity (SR), the temporal axes of a spacetime diagram are often scaled with the speed of light c, and thus are often labeled by ct. This changes the dimension of the addressed physical quantity from <Time> to <Length>, in accordance with the dimension associated with the spatial axis, which is frequently labeled x.
+
+
+=== Standard configuration of reference frames ===
+
+To ease insight into how spacetime coordinates, measured by observers in different reference frames, compare with each other, it is useful to standardize and simplify the setup. Two  Galilean reference frames (i.e., conventional 3-space frames), S and S′ (pronounced "S prime"), each with observers O and O′ at rest in their respective frames, but measuring the other as moving with speeds ±v are said to be in standard configuration, when:
+
+The x, y, z axes of frame S are oriented parallel to the respective primed axes of frame S′.
+The origins of frames S and S′ coincide at time t = 0 in frame S and also at t′ = 0 in frame S′.
+Frame S′ moves in the x-direction of frame S with velocity v as measured in frame S.
+This spatial setting is displayed in the Fig 1-2, in which the temporal coordinates are separately annotated as quantities t and t'.
+In a further step of simplification it is often sufficient to consider just the direction of the observed motion and ignore the other two spatial components, allowing x and ct to be plotted in 2-dimensional spacetime diagrams, as introduced above.
+
+
+=== Non-relativistic "spacetime diagrams" ===
+
+The black axes labelled x and ct on Fig 1-3 are the coordinate system of an observer, referred to as at rest, and who is positioned at x = 0. This observer's world line is identical with the ct time axis. Each parallel line to this axis would correspond also to an object at rest but at another position. The blue line describes an object moving with constant speed v to the right, such as a moving observer.
+This blue line labelled ct′ may be interpreted as the time axis for the second observer. Together with the x axis, which is identical for both observers, it represents their coordinate system. Since the reference frames are in standard configuration, both observers agree on the location of the origin of their coordinate systems. The axes for the moving observer are not perpendicular to each other and the scale on their time axis is stretched. To determine the coordinates of a certain event, two lines, each parallel to one of the two axes, must be constructed passing through the event, and their intersections with the axes read off.
+Determining position and time of the event A as an example in the diagram leads to the same time for both observers, as expected. Only for the position different values result, because the moving observer has approached the position of the event A since t =  0. Generally stated, all events on a line parallel to the x axis happen simultaneously for both observers. There is only one universal time t = t′, modelling the existence of one common position axis. On the other hand, due to two different time axes the observers usually measure different coordinates for the same event. This graphical translation from x and t to x′ and t′ and vice versa is described mathematically by the so-called Galilean transformation.
+
+
+== Minkowski diagrams ==
+
+
+=== Overview ===
+
+The term Minkowski diagram refers to a specific form of spacetime diagram frequently used in special relativity.  A Minkowski diagram is a two-dimensional graphical depiction of a portion of Minkowski space, usually where space has been curtailed to a single dimension. The units of measurement in these diagrams are taken such that the light cone at an event consists of the lines of slope plus or minus one through that event. The horizontal lines correspond to the usual notion of simultaneous events for a stationary observer at the origin.
+A particular Minkowski diagram illustrates the result of a Lorentz transformation. The Lorentz transformation relates two inertial frames of reference, where an observer stationary at the event (0, 0) makes a change of velocity along the x-axis. As shown in Fig 2-1, the new time axis of the observer forms an angle α with the previous time axis, with α < ⁠π/4⁠. In the new frame of reference the simultaneous events lie parallel to a line inclined by α to the previous lines of simultaneity. This is the new x-axis. Both the original set of axes and the primed set of axes have the property that they are orthogonal with respect to the Minkowski inner product or relativistic dot product.
+The original position on your time line (ct) is perpendicular to position A, the original position on your mutual timeline (x) where (t) is zero. This timeline where timelines come together are positioned then on the same timeline even when there are 2 different positions. The 2 positions are on the 45 degree Event line on the original position of A. Hence position A and position A’ on the Event line and (t)=0, relocate A’ back to position A.
+Whatever the magnitude of α, the line ct = x forms the universal bisector, as shown in Fig 2-2.
+One frequently encounters Minkowski diagrams where the time units of measurement are scaled by a factor of c such that one unit of x equals one unit of t. Such a diagram may have units of 
+
+Approximately 30 centimetres length and nanoseconds
+Astronomical units and intervals of about 8 minutes and 19 seconds (499 seconds)
+Light years and years
+Light-second and second
+With that, light paths are represented by lines parallel to the bisector between the axes.
+
+
+=== Mathematical details ===
+
+The angle α between the x and x′ axes will be identical with that between the time axes ct and ct′. This follows from the second postulate of special relativity, which says that the speed of light is the same for all observers, regardless of their relative motion (see below). The angle α is given by
+
+  
+    
+      
+        tan
+        ⁡
+        α
+        =
+        
+          
+            v
+            c
+          
+        
+        =
+        β
+        .
+      
+    
+    {\displaystyle \tan \alpha ={\frac {v}{c}}=\beta .}
+  
+
+The corresponding boost from x and t to x′ and t′ and vice versa is described mathematically by the Lorentz transformation, which can be written
+
+  
+    
+      
+        
+          
+            
+              
+                c
+                
+                  t
+                  ′
+                
+              
+              
+                
+                =
+                γ
+                (
+                c
+                t
+                −
+                β
+                x
+                )
+                ,
+              
+            
+            
+              
+                
+                  x
+                  ′
+                
+              
+              
+                
+                =
+                γ
+                (
+                x
+                −
+                β
+                c
+                t
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}ct'&=\gamma (ct-\beta x),\\x'&=\gamma (x-\beta ct)\\\end{aligned}}}
+  
+
+where 
+  
+    
+      
+        γ
+        =
+        
+          
+            (
+            
+              1
+              −
+              
+                β
+                
+                  2
+                
+              
+            
+            )
+          
+          
+            −
+            
+              
+                1
+                2
+              
+            
+          
+        
+      
+    
+    {\textstyle \gamma =\left(1-\beta ^{2}\right)^{-{\frac {1}{2}}}}
+  
+ is the Lorentz factor. By applying the Lorentz transformation, the spacetime axes obtained for a boosted frame will always correspond to  conjugate diameters of a pair of conjugate hyperbolas.
+As illustrated in Fig 2-3, the boosted and unboosted spacetime axes will in general have unequal unit lengths. If U is the unit length on the axes of ct and x respectively, the unit length on the axes of ct′ and x′ is:
+
+  
+    
+      
+        
+          U
+          ′
+        
+        =
+        U
+        
+          
+            
+              
+                1
+                +
+                
+                  β
+                  
+                    2
+                  
+                
+              
+              
+                1
+                −
+                
+                  β
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle U'=U{\sqrt {\frac {1+\beta ^{2}}{1-\beta ^{2}}}}\,.}
+  
+
+The ct-axis represents the worldline of a clock resting in S, with U representing the duration between two events happening on this worldline, also called the proper time between these events. Length U upon the x-axis represents the rest length or proper length of a rod resting in S. The same interpretation can also be applied to distance U′ upon the ct′- and x′-axes for clocks and rods resting in S′.
+
+
+=== History ===
+
+Albert Einstein announced his theory of special relativity in 1905, with Hermann Minkowski providing his graphical representation in 1908.
+In Minkowski's 1908 paper there were three diagrams, first to illustrate the Lorentz transformation, then the partition of the plane by the light-cone, and finally illustration of worldlines. The first diagram used a branch of the unit hyperbola 
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+        −
+        
+          x
+          
+            2
+          
+        
+        =
+        1
+      
+    
+    {\textstyle t^{2}-x^{2}=1}
+  
+ to show the locus of a unit of proper time depending on velocity, thus illustrating time dilation. The second diagram showed the conjugate hyperbola to calibrate space, where a similar stretching leaves the impression of FitzGerald contraction. In 1914 Ludwik Silberstein included a diagram of "Minkowski's representation of the Lorentz transformation". This diagram included the unit hyperbola, its conjugate, and a pair of conjugate diameters. Since the 1960s a version of this more complete configuration has been referred to as The Minkowski Diagram, and used as a standard illustration of the transformation geometry of special relativity. E. T. Whittaker has pointed out that the principle of relativity is tantamount to the arbitrariness of what hyperbola radius is selected for time in the Minkowski diagram. In 1912 Gilbert N. Lewis and Edwin B. Wilson applied the methods of synthetic geometry to develop the properties of the non-Euclidean plane that has Minkowski diagrams.
+When Taylor and Wheeler composed Spacetime Physics (1966), they did not use the term Minkowski diagram for their spacetime geometry. Instead they included an acknowledgement of Minkowski's contribution to philosophy by the totality of his innovation of 1908.
+
+
+== Loedel diagrams ==
+While a frame at rest in a Minkowski diagram has orthogonal spacetime axes, a frame moving relative to the rest frame in a Minkowski diagram has spacetime axes which form an acute angle. This asymmetry of Minkowski diagrams can be misleading, since special relativity postulates that any two inertial reference frames must be physically equivalent. The Loedel diagram is an alternative spacetime diagram that makes the symmetry of inertial references frames much more manifest.
+
+
+=== Formulation via median frame ===
+
+Several authors showed that there is a frame of reference between the resting and moving ones where their symmetry would be apparent ("median frame"). In this frame, the two other frames are moving in opposite directions with equal speed. Using such coordinates makes the units of length and time the same for both axes. If β = ⁠v/c⁠ and 
+  
+    
+      
+        γ
+        =
+        
+          
+            (
+            
+              1
+              −
+              
+                β
+                
+                  2
+                
+              
+            
+            )
+          
+          
+            −
+            
+              
+                1
+                2
+              
+            
+          
+        
+      
+    
+    {\textstyle \gamma =\left(1-\beta ^{2}\right)^{-{\frac {1}{2}}}}
+  
+ are given between 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ and 
+  
+    
+      
+        
+          S
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle S^{\prime }}
+  
+, then these expressions are connected with the values in their median frame S0 as follows:
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                (
+                1
+                )
+              
+              
+                β
+              
+              
+                
+                =
+                
+                  
+                    
+                      2
+                      
+                        β
+                        
+                          0
+                        
+                      
+                    
+                    
+                      1
+                      +
+                      
+                        
+                          
+                            β
+                            
+                              0
+                            
+                          
+                        
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+              
+                
+                (
+                2
+                )
+              
+              
+                
+                  β
+                  
+                    0
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      γ
+                      −
+                      1
+                    
+                    
+                      β
+                      γ
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&(1)&\beta &={\frac {2\beta _{0}}{1+{\beta _{0}}^{2}}},\\[3pt]&(2)&\beta _{0}&={\frac {\gamma -1}{\beta \gamma }}.\end{aligned}}}
+  
+
+For instance, if β = 0.5 between 
+  
+    
+      
+        S
+      
+    
+    {\textstyle S}
+  
+ and 
+  
+    
+      
+        
+          S
+          
+            ′
+          
+        
+      
+    
+    {\textstyle S^{\prime }}
+  
+, then by (2) they are moving in their median frame S0 with approximately ±0.268c each in opposite directions. On the other hand, if β0 = 0.5 in S0, then by (1) the relative velocity between 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ and 
+  
+    
+      
+        
+          S
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle S^{\prime }}
+  
+ in their own rest frames is 0.8c. The construction of the axes of 
+  
+    
+      
+        S
+      
+    
+    {\textstyle S}
+  
+ and 
+  
+    
+      
+        
+          S
+          
+            ′
+          
+        
+      
+    
+    {\textstyle S^{\prime }}
+  
+ is done in accordance with the ordinary method using tan α = β0 with respect to the orthogonal axes of the median frame (Fig. 3–1).
+However, it turns out that when drawing such a symmetric diagram, it is possible to derive the diagram's relations even without mentioning the median frame and β0 at all. Instead, the relative velocity β = ⁠v/c⁠ between 
+  
+    
+      
+        S
+      
+    
+    {\textstyle S}
+  
+ and 
+  
+    
+      
+        
+          S
+          
+            ′
+          
+        
+      
+    
+    {\textstyle S^{\prime }}
+  
+ can directly be used in the following construction, providing the same result:
+If φ is the angle between the axes of ct′ and ct (or between x and x′), and θ between the axes of x′ and ct′, it is given:
+
+  
+    
+      
+        
+          
+            
+              
+                sin
+                ⁡
+                φ
+                =
+                cos
+                ⁡
+                θ
+              
+              
+                
+                =
+                β
+                ,
+              
+            
+            
+              
+                cos
+                ⁡
+                φ
+                =
+                sin
+                ⁡
+                θ
+              
+              
+                
+                =
+                
+                  
+                    1
+                    γ
+                  
+                
+                ,
+              
+            
+            
+              
+                tan
+                ⁡
+                φ
+                =
+                cot
+                ⁡
+                θ
+              
+              
+                
+                =
+                β
+                γ
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sin \varphi =\cos \theta &=\beta ,\\\cos \varphi =\sin \theta &={\frac {1}{\gamma }},\\\tan \varphi =\cot \theta &=\beta \gamma .\end{aligned}}}
+  
+
+Two methods of construction are obvious from Fig. 3-2: the x-axis is drawn perpendicular to the ct′-axis, the x′ and ct-axes are added at angle φ; and the x′-axis is drawn at angle θ with respect to the ct′-axis, the x-axis is added perpendicular to the ct′-axis and the ct-axis perpendicular to the x′-axis.
+In a Minkowski diagram, lengths on the page cannot be directly compared to each other, due to warping factor between the axes' unit lengths in a Minkowski diagram. In particular, if 
+  
+    
+      
+        U
+      
+    
+    {\textstyle U}
+  
+ and 
+  
+    
+      
+        
+          U
+          
+            ′
+          
+        
+      
+    
+    {\textstyle U^{\prime }}
+  
+ are the unit lengths of the rest frame axes and moving frame axes, respectively, in a Minkowski diagram, then the two unit lengths are warped relative to each other via the formula:
+
+  
+    
+      
+        
+          U
+          
+            ′
+          
+        
+        =
+        U
+        
+          
+            
+              
+                1
+                +
+                
+                  β
+                  
+                    2
+                  
+                
+              
+              
+                1
+                −
+                
+                  β
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle U^{\prime }=U{\sqrt {\frac {1+\beta ^{2}}{1-\beta ^{2}}}}}
+  
+
+By contrast, in a symmetric Loedel diagram, both the 
+  
+    
+      
+        S
+      
+    
+    {\textstyle S}
+  
+ and 
+  
+    
+      
+        
+          S
+          
+            ′
+          
+        
+      
+    
+    {\textstyle S^{\prime }}
+  
+ frame axes are warped by the same factor relative to the median frame and hence have identical unit lengths. This implies that, for a Loedel spacetime diagram, we can directly compare spacetime lengths between different frames as they appear on the page; no unit length scaling/conversion between frames is necessary due to the symmetric nature of the Loedel diagram.
+
+
+=== History ===
+Max Born (1920) drew Minkowski diagrams by placing the ct′-axis almost perpendicular to the x-axis, as well as the ct-axis to the x′-axis, in order to demonstrate length contraction and time dilation in the symmetric case of two rods and two clocks moving in opposite direction.
+Dmitry Mirimanoff (1921) showed that there is always a median frame with respect to two relatively moving frames, and derived the relations between them from the Lorentz transformation. However, he did not give a graphical representation in a diagram.
+Symmetric diagrams were systematically developed by Paul Gruner in collaboration with Josef Sauter in two papers in 1921. Relativistic effects such as length contraction and time dilation and some relations to covariant and contravariant vectors were demonstrated by them. Gruner extended this method in subsequent papers (1922–1924), and gave credit to Mirimanoff's treatment as well.
+The construction of symmetric Minkowski diagrams was later independently rediscovered by several authors. For instance, starting in 1948, Enrique Loedel Palumbo published a series of papers in Spanish language, presenting the details of such an approach. In 1955, Henri Amar also published a paper presenting such relations, and gave credit to Loedel in a subsequent paper in 1957. Some authors of textbooks use symmetric Minkowski diagrams, denoting as Loedel diagrams.
+
+
+== Relativistic phenomena in diagrams ==
+
+
+=== Time dilation ===
+
+Relativistic time dilation refers to the fact that a clock (indicating its proper time in its rest frame) that moves relative to an observer is observed to run slower. The situation is depicted in the symmetric Loedel diagrams of Fig 4-1. Note that we can compare spacetime lengths on page directly with each other, due to the symmetric nature of the Loedel diagram.
+In Fig 4-2, the observer whose reference frame is given by the black axes is assumed to move from the origin O towards A. The moving clock has the reference frame given by the blue axes and moves from O to B. For the black observer, all events happening simultaneously with the event at A are located on a straight line parallel to its space axis. This line passes through A and B, so A and B are simultaneous from the reference frame of the observer with black axes. However, the clock that is moving relative to the black observer marks off time along the blue time axis. This is represented by the distance from O to B. Therefore, the observer at A with the black axes notices their clock as reading the distance from O to A while they observe the clock moving relative him or her to read the distance from O to B. Due to the distance from O to B being smaller than the distance from O to A, they conclude that the time passed on the clock moving relative to them is smaller than that passed on their own clock.
+A second observer, having moved together with the clock from O to B, will argue that the black axis clock has only reached C and therefore runs slower. The reason for these apparently paradoxical statements is the different determination of the events happening synchronously at different locations. Due to the principle of relativity, the question of who is right has no answer and does not make sense.
+
+
+=== Length contraction ===
+
+Relativistic length contraction refers to the fact that a ruler (indicating its proper length in its rest frame) that moves relative to an observer is observed to contract/shorten. The situation is depicted in symmetric Loedel diagrams in Fig 4-3. Note that we can compare spacetime lengths on page directly with each other, due to the symmetric nature of the Loedel diagram.
+In Fig 4-4, the observer is assumed again to move along the ct-axis. The world lines of the endpoints of an object moving relative to him are assumed to move along the ct′-axis and the parallel line passing through A and B. For this observer the endpoints of the object at t = 0 are O and A. For a second observer moving together with the object, so that for him the object is at rest, it has the proper length OB at t′ = 0. Due to OA < OB. the object is contracted for the first observer.
+The second observer will argue that the first observer has evaluated the endpoints of the object at O and A respectively and therefore at different times, leading to a wrong result due to his motion in the meantime. If the second observer investigates the length of another object with endpoints moving along the ct-axis and a parallel line passing through C and D he concludes the same way this object to be contracted from OD to OC. Each observer estimates objects moving with the other observer to be contracted. This apparently paradoxical situation is again a consequence of the relativity of simultaneity as demonstrated by the analysis via Minkowski diagram.
+For all these considerations it was assumed, that both observers take into account the speed of light and their distance to all events they see in order to determine the actual times at which these events happen from their point of view.
+
+
+=== Constancy of the speed of light ===
+ Another postulate of special relativity is the constancy of the speed of light. It says that any observer in an inertial reference frame measuring the vacuum speed of light relative to themself obtains the same value regardless of his own motion and that of the light source. This statement seems to be paradoxical, but it follows immediately from the differential equation yielding this, and the Minkowski diagram agrees. It explains also the result of the Michelson–Morley experiment which was considered to be a mystery before the theory of relativity was discovered, when photons were thought to be waves through an undetectable medium.
+For world lines of photons passing the origin in different directions x = ct and x = −ct holds. That means any position on such a world line corresponds with steps on x- and ct-axes of equal absolute value. From the rule for reading off coordinates in coordinate system with tilted axes follows that the two world lines are the angle bisectors of the x- and ct-axes. As shown in Fig 4-5, the Minkowski diagram illustrates them as being angle bisectors of the x′- and ct′-axes as well. That means both observers measure the same speed c for both photons.
+Further coordinate systems corresponding to observers with arbitrary velocities can be added to this Minkowski diagram. For all these systems both photon world lines represent the angle bisectors of the axes. The more the relative speed approaches the speed of light the more the axes approach the corresponding angle bisector. The 
+  
+    
+      
+        x
+      
+    
+    {\textstyle x}
+  
+ axis is always more flat and the time axis more steep than the photon world lines. The scales on both axes are always identical, but usually different from those of the other coordinate systems.
+
+
+=== Speed of light and causality ===
+
+Straight lines passing the origin which are steeper than both photon world lines correspond with objects moving more slowly than the speed of light. If this applies to an object, then it applies from the viewpoint of all observers, because the world lines of these photons are the angle bisectors for any inertial reference frame. Therefore, any point above the origin and between the world lines of both photons can be reached with a speed smaller than that of the light and can have a cause-and-effect relationship with the origin. This area is the absolute future, because any event there happens later compared to the event represented by the origin regardless of the observer, which is obvious graphically from the Minkowski diagram in Fig 4-6.
+Following the same argument the range below the origin and between the photon world lines is the absolute past relative to the origin. Any event there belongs definitely to the past and can be the cause of an effect at the origin.
+The relationship between any such pairs of event is called timelike, because they have a time distance greater than zero for all observers. A straight line connecting these two events is always the time axis of a possible observer for whom they happen at the same place. Two events which can be connected just with the speed of light are called lightlike.
+In principle a further dimension of space can be added to the Minkowski diagram leading to a three-dimensional representation. In this case the ranges of future and past become cones with apexes touching each other at the origin. They are called light cones.
+
+
+=== The speed of light as a limit ===
+
+Following the same argument, all straight lines passing through the origin and which are more nearly horizontal than the photon world lines, would correspond to objects or signals moving faster than light regardless of the speed of the observer. Therefore, no event outside the light cones can be reached from the origin, even by a light-signal, nor by any object or signal moving with less than the speed of light. Such pairs of events are called spacelike because they have a finite spatial distance different from zero for all observers. On the other hand, a straight line connecting such events is always the space coordinate axis of a possible observer for whom they happen at the same time. By a slight variation of the velocity of this coordinate system in both directions it is always possible to find two inertial reference frames whose observers estimate the chronological order of these events to be different.
+Given an object moving faster than light, say from O to A in Fig 4-7, then for any observer watching the object moving from O to A, another observer can be found (moving at less than the speed of light with respect to the first) for whom the object moves from A to O. The question of which observer is right has no unique answer, and therefore makes no physical sense. Any such moving object or signal would violate the principle of causality.
+Also, any general technical means of sending signals faster than light would permit information to be sent into the originator's own past. In the diagram, an observer at O in the x-ct system sends a message moving faster than light to A. At A, it is received by another observer, moving so as to be in the x′-ct′ system, who sends it back, again faster than light, arriving at B. But B is in the past relative to O. The absurdity of this process becomes obvious when both observers subsequently confirm that they received no message at all, but all messages were directed towards the other observer as can be seen graphically in the Minkowski diagram. Furthermore, if it were possible to accelerate an observer to the speed of light, their space and time axes would coincide with their angle bisector. The coordinate system would collapse, in concordance with the fact that due to time dilation, time would effectively stop passing for them.
+These considerations show that the speed of light as a limit is a consequence of the properties of spacetime, and not of the properties of objects such as technologically imperfect space ships. The prohibition of faster-than-light motion, therefore, has nothing in particular to do with electromagnetic waves or light, but comes as a consequence of the structure of spacetime.
+
+
+== Accelerating observers ==
+
+It is often, incorrectly, asserted that special relativity cannot handle accelerating particles or accelerating reference frames. In reality, accelerating particles present no difficulty at all in special relativity. On the other hand, accelerating frames do require some special treatment, However, as long as one is dealing with flat, Minkowskian spacetime, special relativity can handle the situation. It is only in the presence of gravitation that general relativity is required.
+An accelerating particle's 4-vector acceleration is the derivative with respect to proper time of its 4-velocity. This is not a difficult situation to handle. Accelerating frames require that one understand the concept of a momentarily comoving reference frame (MCRF), which is to say, a frame traveling at the same instantaneous velocity of a particle at any given instant.
+Consider the animation in Fig 5–1. The curved line represents the world line of a particle that undergoes continuous acceleration, including complete changes of direction in the positive and negative x-directions. The red axes are the axes of the MCRF for each point along the particle's trajectory. The coordinates of events in the unprimed (stationary) frame can be related to their coordinates in any momentarily co-moving primed frame using the Lorentz transformations.
+Fig 5-2 illustrates the changing views of spacetime along the world line of a rapidly accelerating particle. The 
+  
+    
+      
+        c
+        
+          t
+          ′
+        
+      
+    
+    {\textstyle ct'}
+  
+ axis (not drawn) is vertical, while the 
+  
+    
+      
+        
+          x
+          ′
+        
+      
+    
+    {\textstyle x'}
+  
+ axis (not drawn) is horizontal. The dashed line is the spacetime trajectory ("world line") of the particle. The balls are placed at regular intervals of proper time along the world line. The solid diagonal lines are the light cones for the observer's current event, and they intersect at that event. The small dots are other arbitrary events in the spacetime.
+The slope of the world line (deviation from being vertical) is the velocity of the particle on that section of the world line. Bends in the world line represent particle acceleration. As the particle accelerates, its view of spacetime changes. These changes in view are governed by the Lorentz transformations. Also note that: 
+
+the balls on the world line before/after future/past accelerations are more spaced out due to time dilation.
+events which were simultaneous before an acceleration (horizontally spaced events) are at different times afterwards due to the relativity of simultaneity,
+events pass through the light cone lines due to the progression of proper time, but not due to the change of views caused by the accelerations, and
+the world line always remains within the future and past light cones of the current event.
+If one imagines each event to be the flashing of a light, then the events that are within the past light cone of the observer are the events visible to the observer. The slope of the world line (deviation from being vertical) gives the velocity relative to the observer.
+
+
+== Case of non-inertial reference frames ==
+
+The photon world lines are determined using the metric with 
+  
+    
+      
+        d
+        τ
+        =
+        0
+      
+    
+    {\textstyle d\tau =0}
+  
+. The light cones are deformed according to the position. In an inertial reference frame a free particle has a straight world line. In a non-inertial reference frame the world line of a free particle is curved.
+Take the example of the fall of an object dropped without initial velocity from a rocket. The rocket has a uniformly accelerated motion with respect to an inertial reference frame. As can be seen from Fig 6-2 of a Minkowski diagram in a non-inertial reference frame, the object once dropped, gains speed, reaches a maximum, and then sees its speed decrease and asymptotically cancel on the horizon where its proper time freezes at 
+  
+    
+      
+        
+          t
+          
+            H
+          
+        
+      
+    
+    {\textstyle t_{\text{H}}}
+  
+. The velocity is measured by an observer at rest in the accelerated rocket.
+
+
+== See also ==
+
+Minkowski space
+Penrose diagram
+Rapidity
+
+
+== References ==
+
+
+== Further reading ==
+French, A. P. (1968). Special relativity. The MIT introductory physics series. New York: Norton. pp. 82–83. ISBN 978-0-17-177075-9.
+Glass, E. N. (1975-11-01). "Lorentz boosts and Minkowski diagrams". American Journal of Physics. 43 (11): 1013–1014. Bibcode:1975AmJPh..43.1013G. doi:10.1119/1.9953. ISSN 0002-9505.
+Rindler, Wolfgang (2001). Relativity: special, general, and cosmological (2nd ed.). Oxford University Press. ISBN 978-0-19-856732-5.
+Rosser, William G. V. (1971). An introduction to the theory of relativity (3rd improved, revised ed.). London: Butterworth. page 256, Figure 6.4. ISBN 978-0-408-55700-9.
+Taylor, Edwin F.; Wheeler, John Archibald (2003). Spacetime physics: introduction to special relativity (PDF) (2nd ed.). New York City: W.H. Freeman. ISBN 978-0-7167-2327-1.
+Walter, Scott (1999-07-22). "The non-Euclidean style of Minkowskian relativity" (PDF). In Gray, Jeremy (ed.). The Symbolic Universe. Oxford University Press. pp. 91–127. doi:10.1093/oso/9780198500889.003.0007. ISBN 978-0-19-850088-9. Archived from the original (PDF) on 2013-10-16. Retrieved 2011-03-27. (see page 10 of e-link)
+
+
+== External links ==
+ Media related to Minkowski diagrams at Wikimedia Commons

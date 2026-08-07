@@ -1,0 +1,964 @@
+Wikipedia article: Theorem of three moments
+Source: https://en.wikipedia.org/wiki/Theorem_of_three_moments
+PageID: 23409732
+======================================================================
+
+In civil engineering and structural analysis Clapeyron's theorem of three moments (by Émile Clapeyron) is a relationship among the bending moments at three consecutive supports of a horizontal beam.
+Let A,B,C-D be the three consecutive points of support, and denote by- l the length of AB and 
+  
+    
+      
+        
+          l
+          ′
+        
+      
+    
+    {\displaystyle l'}
+  
+ the length of BC, by w and 
+  
+    
+      
+        
+          w
+          ′
+        
+      
+    
+    {\displaystyle w'}
+  
+ the weight per unit of length in these segments.  Then the bending moments 
+  
+    
+      
+        
+          M
+          
+            A
+          
+        
+        ,
+        
+        
+          M
+          
+            B
+          
+        
+        ,
+        
+        
+          M
+          
+            C
+          
+        
+      
+    
+    {\displaystyle M_{A},\,M_{B},\,M_{C}}
+  
+ at the three points are related by:
+
+  
+    
+      
+        
+          M
+          
+            A
+          
+        
+        l
+        +
+        2
+        
+          M
+          
+            B
+          
+        
+        (
+        l
+        +
+        
+          l
+          ′
+        
+        )
+        +
+        
+          M
+          
+            C
+          
+        
+        
+          l
+          ′
+        
+        =
+        
+          
+            1
+            4
+          
+        
+        w
+        
+          l
+          
+            3
+          
+        
+        +
+        
+          
+            1
+            4
+          
+        
+        
+          w
+          ′
+        
+        (
+        
+          l
+          ′
+        
+        
+          )
+          
+            3
+          
+        
+        .
+      
+    
+    {\displaystyle M_{A}l+2M_{B}(l+l')+M_{C}l'={\frac {1}{4}}wl^{3}+{\frac {1}{4}}w'(l')^{3}.}
+  
+
+This equation can also be written as 
+
+  
+    
+      
+        
+          M
+          
+            A
+          
+        
+        l
+        +
+        2
+        
+          M
+          
+            B
+          
+        
+        (
+        l
+        +
+        
+          l
+          ′
+        
+        )
+        +
+        
+          M
+          
+            C
+          
+        
+        
+          l
+          ′
+        
+        =
+        
+          
+            
+              6
+              
+                a
+                
+                  1
+                
+              
+              
+                x
+                
+                  1
+                
+              
+            
+            l
+          
+        
+        +
+        
+          
+            
+              6
+              
+                a
+                
+                  2
+                
+              
+              
+                x
+                
+                  2
+                
+              
+            
+            
+              l
+              ′
+            
+          
+        
+      
+    
+    {\displaystyle M_{A}l+2M_{B}(l+l')+M_{C}l'={\frac {6a_{1}x_{1}}{l}}+{\frac {6a_{2}x_{2}}{l'}}}
+  
+
+where a1 is the area on the bending moment diagram due to vertical loads on AB, a2 is the area due to loads on BC, x1 is the distance from A to the centroid of the bending moment diagram of beam AB, x2 is the distance from C to the centroid of the area of the bending moment diagram of beam BC.
+The second equation is more general as it does not require that the weight of each segment be distributed uniformly.
+
+
+== Derivation of three moments equations ==
+Christian Otto Mohr's theorem can be used to derive the three moment theorem  (TMT).
+
+
+=== Mohr's first theorem ===
+The change in slope of a deflection curve between two points of a beam is equal to the area of the M/EI diagram between those two points.(Figure 02)
+
+
+=== Mohr's second theorem ===
+Consider two points k1 and k2 on a beam. The deflection of k1 and k2 relative to the point of intersection between tangent at k1 and k2 and vertical through k1 is equal to the moment of M/EI diagram between k1 and k2 about k1.(Figure 03)
+
+The three moment equation expresses the relation between bending moments at three successive supports of a continuous beam, subject to a loading on a two adjacent span with or without settlement of the supports.
+
+
+=== The sign convention ===
+According to the Figure 04,
+
+The moment M1, M2, and M3 be positive if they cause compression in the upper part of the beam. (sagging positive)
+The deflection downward positive. (Downward settlement positive)
+Let ABC is a continuous beam with support at A,B, and C. Then moment at A,B, and C are M1, M2, and M3, respectively.
+Let A' B' and C' be the final positions of the beam ABC due to support settlements.
+
+
+=== Derivation of three moment theorem ===
+PB'Q is a tangent drawn at B' for final Elastic Curve A'B'C' of the beam ABC. RB'S is a horizontal line drawn through B'. 
+Consider, Triangles RB'P and QB'S.
+
+  
+    
+      
+        
+          
+            
+              
+                P
+                R
+              
+              
+                R
+                
+                  B
+                  ′
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                S
+                Q
+              
+              
+                
+                  B
+                  ′
+                
+                S
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\dfrac {PR}{RB'}}={\dfrac {SQ}{B'S}},}
+  
+
+From (1), (2), and (3),
+
+  
+    
+      
+        
+          
+            
+              
+                Δ
+                B
+                −
+                Δ
+                A
+                +
+                P
+                
+                  A
+                  ′
+                
+              
+              
+                L
+                1
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                Δ
+                C
+                −
+                Δ
+                B
+                −
+                Q
+                
+                  C
+                  ′
+                
+              
+              
+                L
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\dfrac {\Delta B-\Delta A+PA'}{L1}}={\dfrac {\Delta C-\Delta B-QC'}{L2}}}
+  
+
+Draw the M/EI diagram to find the PA' and QC'.
+
+From Mohr's Second Theorem 
+PA' = First moment of area of M/EI diagram between A and B about A.
+
+  
+    
+      
+        P
+        
+          A
+          ′
+        
+        =
+        
+          (
+          
+            
+              
+                1
+                2
+              
+            
+            ×
+            
+              
+                
+                  M
+                  
+                    1
+                  
+                
+                
+                  
+                    E
+                    
+                      1
+                    
+                  
+                  
+                    I
+                    
+                      1
+                    
+                  
+                
+              
+            
+            ×
+            
+              L
+              
+                1
+              
+            
+          
+          )
+        
+        ×
+        
+          L
+          
+            1
+          
+        
+        ×
+        
+          
+            1
+            3
+          
+        
+        +
+        
+          (
+          
+            
+              
+                1
+                2
+              
+            
+            ×
+            
+              
+                
+                  M
+                  
+                    2
+                  
+                
+                
+                  
+                    E
+                    
+                      2
+                    
+                  
+                  
+                    I
+                    
+                      2
+                    
+                  
+                
+              
+            
+            ×
+            
+              L
+              
+                1
+              
+            
+          
+          )
+        
+        ×
+        
+          L
+          
+            1
+          
+        
+        ×
+        
+          
+            2
+            3
+          
+        
+        +
+        
+          
+            
+              
+                A
+                
+                  1
+                
+              
+              
+                X
+                
+                  1
+                
+              
+            
+            
+              
+                E
+                
+                  1
+                
+              
+              
+                I
+                
+                  1
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle PA'=\left({\frac {1}{2}}\times {\frac {M_{1}}{E_{1}I_{1}}}\times L_{1}\right)\times L_{1}\times {\frac {1}{3}}+\left({\frac {1}{2}}\times {\frac {M_{2}}{E_{2}I_{2}}}\times L_{1}\right)\times L_{1}\times {\frac {2}{3}}+{\frac {A_{1}X_{1}}{E_{1}I_{1}}}}
+  
+
+QC' = First moment of area of M/EI diagram between B and C about C.
+
+  
+    
+      
+        Q
+        
+          C
+          ′
+        
+        =
+        
+          (
+          
+            
+              
+                1
+                2
+              
+            
+            ×
+            
+              
+                
+                  M
+                  
+                    3
+                  
+                
+                
+                  
+                    E
+                    
+                      2
+                    
+                  
+                  
+                    I
+                    
+                      2
+                    
+                  
+                
+              
+            
+            ×
+            
+              L
+              
+                2
+              
+            
+          
+          )
+        
+        ×
+        
+          L
+          
+            2
+          
+        
+        ×
+        
+          
+            1
+            3
+          
+        
+        +
+        
+          (
+          
+            
+              
+                1
+                2
+              
+            
+            ×
+            
+              
+                
+                  M
+                  
+                    2
+                  
+                
+                
+                  
+                    E
+                    
+                      2
+                    
+                  
+                  
+                    I
+                    
+                      2
+                    
+                  
+                
+              
+            
+            ×
+            
+              L
+              
+                2
+              
+            
+          
+          )
+        
+        ×
+        
+          L
+          
+            2
+          
+        
+        ×
+        
+          
+            2
+            3
+          
+        
+        +
+        
+          
+            
+              
+                A
+                
+                  2
+                
+              
+              
+                X
+                
+                  2
+                
+              
+            
+            
+              
+                E
+                
+                  2
+                
+              
+              
+                I
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle QC'=\left({\frac {1}{2}}\times {\frac {M_{3}}{E_{2}I_{2}}}\times L_{2}\right)\times L_{2}\times {\frac {1}{3}}+\left({\frac {1}{2}}\times {\frac {M_{2}}{E_{2}I_{2}}}\times L_{2}\right)\times L_{2}\times {\frac {2}{3}}+{\frac {A_{2}X_{2}}{E_{2}I_{2}}}}
+  
+
+Substitute in PA' and QC' on equation (a), the Three Moment Theorem (TMT) can be obtained.
+
+
+== Three moment equation ==
+
+  
+    
+      
+        
+          
+            
+              
+                M
+                
+                  1
+                
+              
+              
+                L
+                
+                  1
+                
+              
+            
+            
+              
+                E
+                
+                  1
+                
+              
+              
+                I
+                
+                  1
+                
+              
+            
+          
+        
+        +
+        2
+        
+          M
+          
+            2
+          
+        
+        
+          (
+          
+            
+              
+                
+                  L
+                  
+                    1
+                  
+                
+                
+                  
+                    E
+                    
+                      1
+                    
+                  
+                  
+                    I
+                    
+                      1
+                    
+                  
+                
+              
+            
+            +
+            
+              
+                
+                  L
+                  
+                    2
+                  
+                
+                
+                  
+                    E
+                    
+                      2
+                    
+                  
+                  
+                    I
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+          )
+        
+        +
+        
+          
+            
+              
+                M
+                
+                  3
+                
+              
+              
+                L
+                
+                  2
+                
+              
+            
+            
+              
+                E
+                
+                  2
+                
+              
+              
+                I
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        6
+        [
+        
+          
+            
+              Δ
+              A
+              −
+              Δ
+              B
+            
+            
+              L
+              
+                1
+              
+            
+          
+        
+        +
+        
+          
+            
+              Δ
+              C
+              −
+              Δ
+              B
+            
+            
+              L
+              
+                2
+              
+            
+          
+        
+        ]
+        −
+        6
+        [
+        
+          
+            
+              
+                A
+                
+                  1
+                
+              
+              
+                X
+                
+                  1
+                
+              
+            
+            
+              
+                E
+                
+                  1
+                
+              
+              
+                I
+                
+                  1
+                
+              
+              
+                L
+                
+                  1
+                
+              
+            
+          
+        
+        +
+        
+          
+            
+              
+                A
+                
+                  2
+                
+              
+              
+                X
+                
+                  2
+                
+              
+            
+            
+              
+                E
+                
+                  2
+                
+              
+              
+                I
+                
+                  2
+                
+              
+              
+                L
+                
+                  2
+                
+              
+            
+          
+        
+        ]
+      
+    
+    {\displaystyle {\frac {M_{1}L_{1}}{E_{1}I_{1}}}+2M_{2}\left({\frac {L_{1}}{E_{1}I_{1}}}+{\frac {L_{2}}{E_{2}I_{2}}}\right)+{\frac {M_{3}L_{2}}{E_{2}I_{2}}}=6[{\frac {\Delta A-\Delta B}{L_{1}}}+{\frac {\Delta C-\Delta B}{L_{2}}}]-6[{\frac {A_{1}X_{1}}{E_{1}I_{1}L_{1}}}+{\frac {A_{2}X_{2}}{E_{2}I_{2}L_{2}}}]}
+  
+
+
+== Notes ==
+
+
+== External links ==
+CodeCogs: Continuous beams with more than one span

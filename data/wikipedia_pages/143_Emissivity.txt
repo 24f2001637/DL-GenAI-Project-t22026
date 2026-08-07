@@ -1,0 +1,604 @@
+Wikipedia article: Emissivity
+Source: https://en.wikipedia.org/wiki/Emissivity
+PageID: 902820
+======================================================================
+
+The emissivity of the surface of a material is its effectiveness in emitting energy as thermal radiation. Thermal radiation is electromagnetic radiation that most commonly includes both visible radiation (light) and infrared radiation, which is not visible to human eyes. A portion of the thermal radiation from very hot objects (see photograph) is easily visible to the eye.
+The emissivity of a surface depends on its chemical composition and geometrical structure.  Quantitatively, it is the ratio of the thermal radiation from a surface to the radiation from an ideal black surface at the same temperature as given by the Stefan–Boltzmann law. (A comparison with Planck's law is used if one is concerned with particular wavelengths of thermal radiation.) The ratio varies from 0 to 1 for ordinary surfaces.
+The surface of a perfect black body (with an emissivity of 1) emits thermal radiation at the rate of approximately 448 watts per square metre (W/m2) at a room temperature of 25 °C (298 K; 77 °F).
+Real objects have emissivities less than 1.0, and emit radiation at correspondingly lower rates.
+However, wavelength- and subwavelength-scale particles, metamaterials, and other nanostructures may have an emissivity greater than 1, at least for near-field effects.
+
+
+== Practical applications ==
+Emissivities are important in a variety of contexts:
+
+Insulated windows
+Warm surfaces are usually cooled directly by air, but they also cool themselves by emitting thermal radiation. This second cooling mechanism is important for simple glass windows, which have emissivities close to the maximum possible value of 1.0. "Low-E windows" with transparent low-emissivity coatings emit less thermal radiation than ordinary windows. In winter, these coatings can halve the rate at which a window loses heat compared to an uncoated glass window.
+
+Solar heat collectors
+Similarly, solar heat collectors lose heat by emitting thermal radiation. Advanced solar collectors incorporate selective surfaces that have very low emissivities. These collectors waste very little of the solar energy through emission of thermal radiation.
+Thermal shielding
+For the protection of structures from high surface temperatures, such as reusable spacecraft or hypersonic aircraft, high-emissivity coatings (HECs), with emissivity values near 0.9, are applied on the surface of insulating ceramics. This facilitates radiative cooling and protection of the underlying structure and is an alternative to ablative coatings, used in single-use reentry capsules.
+Passive daytime radiative cooling
+Daytime passive radiative coolers use the extremely cold temperature of outer space (~2.7 K) to emit heat and lower ambient temperatures while requiring zero energy input. These surfaces minimize the absorption of solar radiation to lessen heat gain in order to maximize the emission of LWIR thermal radiation. It has been proposed as a solution to global warming.
+Planetary temperatures
+The planets are solar thermal collectors on a large scale. The temperature of a planet's surface is determined by the balance between the heat absorbed by the planet from sunlight, heat emitted from its core, and thermal radiation emitted back into space. Emissivity of a planet is determined by the nature of its surface and atmosphere.
+
+Temperature measurements
+Pyrometers and infrared cameras are instruments used to measure the temperature of an object by using its thermal radiation; no actual contact with the object is needed. The calibration of these instruments involves the emissivity of the surface that's being measured.
+
+
+== Mathematical definitions ==
+In its most general form, emissivity can be specified for a particular wavelength, direction, and polarization.
+However, the most commonly used form of emissivity is the hemispherical total emissivity, which considers emissions as totaled over all wavelengths, directions, and polarizations, given a particular temperature.
+Some specific forms of emissivity are detailed below.
+
+
+=== Hemispherical emissivity ===
+Hemispherical emissivity of a surface, denoted ε, is defined as
+
+  
+    
+      
+        ε
+        =
+        
+          
+            
+              M
+              
+                
+                  e
+                
+              
+            
+            
+              M
+              
+                
+                  e
+                
+              
+              
+                ∘
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \varepsilon ={\frac {M_{\mathrm {e} }}{M_{\mathrm {e} }^{\circ }}},}
+  
+
+where
+
+Me is the radiant exitance of that surface;
+Me° is the radiant exitance of a black body at the same temperature as that surface.
+
+
+=== Spectral hemispherical emissivity ===
+Spectral hemispherical emissivity in frequency and spectral hemispherical emissivity in wavelength of a surface, denoted εν and ελ, respectively, are defined as
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ε
+                  
+                    ν
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      M
+                      
+                        
+                          e
+                        
+                        ,
+                        ν
+                      
+                    
+                    
+                      M
+                      
+                        
+                          e
+                        
+                        ,
+                        ν
+                      
+                      
+                        ∘
+                      
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  ε
+                  
+                    λ
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      M
+                      
+                        
+                          e
+                        
+                        ,
+                        λ
+                      
+                    
+                    
+                      M
+                      
+                        
+                          e
+                        
+                        ,
+                        λ
+                      
+                      
+                        ∘
+                      
+                    
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\varepsilon _{\nu }&={\frac {M_{\mathrm {e} ,\nu }}{M_{\mathrm {e} ,\nu }^{\circ }}},\\\varepsilon _{\lambda }&={\frac {M_{\mathrm {e} ,\lambda }}{M_{\mathrm {e} ,\lambda }^{\circ }}},\end{aligned}}}
+  
+
+where
+
+Me,ν is the spectral radiant exitance in frequency of that surface;
+Me,ν° is the spectral radiant exitance in frequency of a black body at the same temperature as that surface;
+Me,λ is the spectral radiant exitance in wavelength of that surface;
+Me,λ° is the spectral radiant exitance in wavelength of a black body at the same temperature as that surface.
+
+
+=== Directional emissivity ===
+Directional emissivity of a surface, denoted εΩ, is defined as
+
+  
+    
+      
+        
+          ε
+          
+            Ω
+          
+        
+        =
+        
+          
+            
+              L
+              
+                
+                  e
+                
+                ,
+                Ω
+              
+            
+            
+              L
+              
+                
+                  e
+                
+                ,
+                Ω
+              
+              
+                ∘
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \varepsilon _{\Omega }={\frac {L_{\mathrm {e} ,\Omega }}{L_{\mathrm {e} ,\Omega }^{\circ }}},}
+  
+
+where
+
+Le,Ω is the radiance of that surface;
+Le,Ω° is the radiance of a black body at the same temperature as that surface.
+
+
+=== Spectral directional emissivity ===
+Spectral directional emissivity in frequency and spectral directional emissivity in wavelength of a surface, denoted εν,Ω and ελ,Ω, respectively, are defined as
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ε
+                  
+                    ν
+                    ,
+                    Ω
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      L
+                      
+                        
+                          e
+                        
+                        ,
+                        Ω
+                        ,
+                        ν
+                      
+                    
+                    
+                      L
+                      
+                        
+                          e
+                        
+                        ,
+                        Ω
+                        ,
+                        ν
+                      
+                      
+                        ∘
+                      
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  ε
+                  
+                    λ
+                    ,
+                    Ω
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      L
+                      
+                        
+                          e
+                        
+                        ,
+                        Ω
+                        ,
+                        λ
+                      
+                    
+                    
+                      L
+                      
+                        
+                          e
+                        
+                        ,
+                        Ω
+                        ,
+                        λ
+                      
+                      
+                        ∘
+                      
+                    
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\varepsilon _{\nu ,\Omega }&={\frac {L_{\mathrm {e} ,\Omega ,\nu }}{L_{\mathrm {e} ,\Omega ,\nu }^{\circ }}},\\\varepsilon _{\lambda ,\Omega }&={\frac {L_{\mathrm {e} ,\Omega ,\lambda }}{L_{\mathrm {e} ,\Omega ,\lambda }^{\circ }}},\end{aligned}}}
+  
+
+where
+
+Le,Ω,ν is the spectral radiance in frequency of that surface;
+Le,Ω,ν° is the spectral radiance in frequency of a black body at the same temperature as that surface;
+Le,Ω,λ is the spectral radiance in wavelength of that surface;
+Le,Ω,λ° is the spectral radiance in wavelength of a black body at the same temperature as that surface.
+Hemispherical emissivity can also be expressed as a weighted average of the directional spectral emissivities as described in textbooks on "radiative heat transfer".
+In practice, approximation models are often used to describe this dependence. One of the simplest is the cosine model:
+
+  
+    
+      
+        ε
+        (
+        α
+        )
+        =
+        
+          ε
+          
+            0
+          
+        
+        ⋅
+        
+          cos
+          
+            n
+          
+        
+        ⁡
+        (
+        α
+        )
+        ,
+      
+    
+    {\displaystyle \varepsilon (\alpha )=\varepsilon _{0}\cdot \cos ^{n}(\alpha ),}
+  
+
+where 
+  
+    
+      
+        
+          ε
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \varepsilon _{0}}
+  
+ is the emissivity in the normal direction and the exponent n characterizes the deviation of the surface from ideally diffuse behavior.  
+For thermographic applications, this angular dependence must be incorporated into the quantitative thermography equation, because the effective radiance detected by a thermal camera pixel depends on both the emissivity function 
+  
+    
+      
+        ε
+        (
+        α
+        )
+      
+    
+    {\displaystyle \varepsilon (\alpha )}
+  
+ and the contribution of reflected background radiation.
+Examples of the cosine-power emissivity model
+The parameter n in the function ε(α) = ε0·cosn(α) controls how strongly the emissivity decreases with the angle α from the surface normal. Typical interpretations are:
+
+n = 1 – Emissivity decreases moderately with angle. Such a surface radiates less efficiently at oblique incidence, and reflected background radiation contributes more strongly to the apparent temperature.
+n = 2 – Stronger angular dependence. At larger viewing angles, the detected emissivity is significantly lower, leading to a greater share of reflected radiation and a larger error in apparent temperature measurement if not corrected.
+n = 3 – Steep angular falloff. At oblique incidence the emitted component can become small relative to the reflected component; the apparent temperature may be strongly biased toward the background unless ε(α) and the viewing geometry are accounted for.
+In practical thermography, surfaces with higher n values require precise correction for reflected apparent temperature in order to avoid underestimation of the true object temperature.
+
+
+== Emissivities of common surfaces ==
+Emissivities ε can be measured using simple devices such as Leslie's cube in conjunction with a thermal radiation detector such as a thermopile or a bolometer. The apparatus compares the thermal radiation from a surface to be tested with the thermal radiation from a nearly ideal, black sample. The detectors are essentially black absorbers with very sensitive thermometers that record the detector's temperature rise when exposed to thermal radiation. For measuring room temperature emissivities, the detectors must absorb thermal radiation completely at infrared wavelengths near 10×10−6 metre. Visible light has a wavelength range of about 0.4–0.7×10−6 meter from violet to deep red.
+Emissivity measurements for many surfaces are compiled in many handbooks and texts. Some of these are listed in the following table.
+
+Notes:
+
+These emissivities are the total hemispherical emissivities from the surfaces.
+The values of the emissivities apply to materials that are optically thick. This means that the absorptivity at the wavelengths typical of thermal radiation doesn't depend on the thickness of the material. Very thin materials emit less thermal radiation than thicker materials.
+Most emissitivies in the chart above were recorded at room temperature, 300 K (27 °C; 80 °F).
+
+
+== Closely related properties ==
+
+
+=== Absorptance ===
+
+There is a fundamental relationship (Gustav Kirchhoff's 1859 law of thermal radiation) that equates the emissivity of a surface with its absorption of incident radiation (the "absorptivity" of a surface). Kirchhoff's law is rigorously applicable with regard to the spectral directional definitions of emissivity and absorptivity. The relationship explains why emissivities cannot exceed 1, since the largest absorptivity—corresponding to complete absorption of all incident light by a truly black object—is also 1. Mirror-like, metallic surfaces that reflect light will thus have low emissivities, since the reflected light isn't absorbed. A polished silver surface has an emissivity of about 0.02 near room temperature. Black soot absorbs thermal radiation very well; it has an emissivity as large as 0.97, and hence soot is a fair approximation to an ideal black body.
+With the exception of bare, polished metals, the appearance of a surface to the eye is not a good guide to emissivities near room temperature. For example, white paint absorbs very little visible light. However, at an infrared wavelength of 10×10−6 metre, paint absorbs light very well, and has a high emissivity. Similarly, pure water absorbs very little visible light, but water is nonetheless a strong infrared absorber and has a correspondingly high emissivity.
+
+
+=== Emittance ===
+Emittance (or emissive power) is the total amount of thermal energy emitted per unit area per unit time for all possible wavelengths. Emissivity of a body at a given temperature is the ratio of the total emissive power of a body to the total emissive power of a perfectly black body at that temperature. Following Planck's law, the total energy radiated increases with temperature while the peak of the emission spectrum shifts to shorter wavelengths. The energy emitted at shorter wavelengths increases more rapidly with temperature.  For example, an ideal blackbody in thermal equilibrium at 1,273 K (1,000 °C; 1,832 °F), will emit 97% of its energy at wavelengths below 14 μm.
+The term emissivity is generally used to describe a simple, homogeneous surface such as silver. Similar terms, emittance and thermal emittance, are used to describe thermal radiation measurements on complex surfaces such as insulation products.
+
+
+=== Measurement of emittance ===
+Emittance of a surface can be measured directly or indirectly from the emitted energy from that surface. In the direct radiometric method, the emitted energy from the sample is measured directly using a spectroscope such as Fourier transform infrared spectroscopy (FTIR). In the indirect calorimetric method, the emitted energy from the sample is measured indirectly using a calorimeter. In addition to these two commonly applied methods, inexpensive emission measurement technique based on the principle of two-color pyrometry.
+
+
+== Emissivities of planet Earth ==
+
+The emissivity of a planet or other astronomical body is determined by the composition and structure of its outer skin.  In this context, the "skin" of a planet generally includes both its semi-transparent atmosphere and its non-gaseous surface.  The resulting radiative emissions to space typically function as the primary cooling mechanism for these otherwise isolated bodies.  The balance between all other incoming plus internal sources of energy versus the outgoing flow regulates planetary temperatures.
+For Earth, equilibrium skin temperatures range near the freezing point of water, 260±50 K (-13±50 °C, 8±90 °F).  The most energetic emissions are thus within a band spanning about 4-50 μm as governed by Planck's law.  Emissivities for the atmosphere and surface components are often quantified separately,  and validated against satellite- and terrestrial-based observations as well as laboratory measurements.  These emissivities serve as parametrizations within some simpler meteorlogic and climatologic models.
+
+
+=== Surface ===
+Earth's surface emissivities (εs) have been inferred with satellite-based instruments by directly observing surface thermal emissions at nadir through a less obstructed atmospheric window spanning 8-13 μm.  Values range about εs=0.65-0.99, with lowest values typically limited to the most barren desert areas.  Emissivities of most surface regions are above 0.9 due to the dominant influence of water;  including oceans, land vegetation, and snow/ice.  Globally averaged estimates for the hemispheric emissivity of Earth's surface are in the vicinity of εs=0.95.
+
+
+=== Atmosphere ===
+
+Water also dominates the planet's atmospheric emissivity and absorptivity in the form of water vapor.  Clouds, carbon dioxide, and other components make substantial additional contributions, especially where there are gaps in the water vapor absorption spectrum.  Nitrogen (N2) and oxygen (O2) – the primary atmospheric components – interact less significantly with thermal radiation in the infrared band.  Direct measurement of Earths atmospheric emissivities (εa) are more challenging than for land surfaces due in part to the atmosphere's multi-layered and more dynamic structure.
+Upper and lower limits have been measured and calculated for εa in accordance with extreme yet realistic local conditions.  At the upper limit, dense low cloud structures (consisting of liquid/ice aerosols and saturated  water vapor) close the infrared transmission windows, yielding near to black body conditions with εa≈1.  At a lower limit, clear sky  (cloud-free) conditions promote the largest opening of transmission windows.  The more uniform concentration of long-lived trace greenhouse gases in combination with water vapor pressures of 0.25-20 mbar then yield minimum values in the range of εa=0.55-0.8 (with ε=0.35-0.75 for a simulated water-vapor-only atmosphere). Carbon dioxide (CO2) and other greenhouse gases contribute about ε=0.2 to εa when atmospheric humidity is low.  Researchers have also evaluated the contribution of differing cloud types to atmospheric absorptivity and emissivity.
+These days, the detailed processes and complex properties of radiation transport through the atmosphere are evaluated by general circulation models using radiation transport codes and databases such as MODTRAN/HITRAN. Emission, absorption, and scattering are thereby simulated through both space and time.
+For many practical applications it may not be possible, economical or necessary to know all emissivity values locally.  "Effective" or "bulk" values for an atmosphere or an entire planet may be used.  These can be based upon remote observations (from the ground or outer space) or defined according to the simplifications utilized by a particular model.  For example, an effective global value of εa≈0.78 has been estimated from application of an idealized single-layer-atmosphere energy-balance model to Earth.
+
+
+=== Effective emissivity due to atmosphere ===
+
+The IPCC reports an outgoing thermal radiation flux (OLR) of 239 (237–242) W m-2 and a surface thermal radiation flux (SLR) of 398 (395–400) W m-2, where the parenthesized amounts indicate the 5-95% confidence intervals as of 2015. These values indicate that the atmosphere (with clouds included) reduces Earth's overall emissivity, relative to its surface emissions, by a factor of 239/398 ≈ 0.60.  In other words, emissions to space are given by 
+  
+    
+      
+        
+          O
+          L
+          R
+        
+        =
+        
+          ϵ
+          
+            
+              e
+              f
+              f
+            
+          
+        
+        
+        σ
+        
+        
+          T
+          
+            s
+            e
+          
+          
+            4
+          
+        
+      
+    
+    {\displaystyle \mathrm {OLR} =\epsilon _{\mathrm {eff} }\,\sigma \,T_{se}^{4}}
+  
+ where 
+  
+    
+      
+        
+          ϵ
+          
+            
+              e
+              f
+              f
+            
+          
+        
+        ≈
+        0.6
+      
+    
+    {\displaystyle \epsilon _{\mathrm {eff} }\approx 0.6}
+  
+ is the effective emissivity of Earth as viewed from space and 
+  
+    
+      
+        
+          T
+          
+            
+              s
+              e
+            
+          
+        
+        ≡
+        
+          
+            [
+            
+              
+                S
+                L
+                R
+              
+              
+                /
+              
+              σ
+            
+            ]
+          
+          
+            1
+            
+              /
+            
+            4
+          
+        
+        ≈
+      
+    
+    {\displaystyle T_{\mathrm {se} }\equiv \left[\mathrm {SLR} /\sigma \right]^{1/4}\approx }
+  
+ 289 K (16 °C; 61 °F)  is the effective temperature of the surface.
+
+
+== History ==
+The concepts of emissivity and absorptivity, as properties of matter and radiation, appeared in the late-eighteenth thru mid-nineteenth century writings of Pierre Prévost, John Leslie, Balfour Stewart and others. In 1860, Gustav Kirchhoff published a mathematical description of their relationship under conditions of thermal equilibrium (i.e. Kirchhoff's law of thermal radiation).  By 1884 the emissive power of a perfect blackbody was inferred by Josef Stefan using John Tyndall's experimental measurements, and derived by Ludwig Boltzmann from fundamental statistical principles.   Emissivity, defined as a further proportionality factor to the Stefan-Boltzmann law, was thus implied and utilized in subsequent evaluations of the radiative behavior of grey bodies.  For example, Svante Arrhenius applied the recent theoretical developments to his 1896 investigation of Earth's surface temperatures as calculated from the planet's radiative equilibrium with all of space.  By 1900 Max Planck empirically derived a generalized law of blackbody radiation, thus clarifying the emissivity and absorptivity concepts at individual wavelengths.
+
+
+== Other radiometric coefficients ==
+
+
+== See also ==
+Albedo
+Black-body radiation
+Passive daytime radiative cooling
+Radiant barrier
+Reflectance
+Sakuma–Hattori equation
+Stefan–Boltzmann law
+View factor
+Wien's displacement law
+
+
+== References ==
+
+
+== Further reading ==
+"Spectral emissivity and emittance". Southampton, PA: Temperatures.com, Inc. Archived from the original on 24 April 2017. An open community-focused website & directory with resources related to spectral emissivity and emittance. On this site, the focus is on available data, references and links to resources related to spectral emissivity as it is measured & used in thermal radiation thermometry and thermography (thermal imaging).
+"Emissivity Coefficients of some common Materials". engineeringtoolbox.com. Resources, Tools and Basic Information for Engineering and Design of Technical Applications. This site offers an extensive list of other material not covered above.

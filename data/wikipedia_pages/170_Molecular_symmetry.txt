@@ -1,0 +1,576 @@
+Wikipedia article: Molecular symmetry
+Source: https://en.wikipedia.org/wiki/Molecular_symmetry
+PageID: 10986798
+======================================================================
+
+In chemistry, molecular symmetry describes the symmetry present in molecules and the classification of these molecules according to their symmetry. Molecular symmetry is a fundamental concept in chemistry, as it can be used to predict or explain many of a molecule's chemical properties, such as whether or not it has a dipole moment, as well as its allowed spectroscopic transitions. To do this it is necessary to use group theory. This involves classifying the states of the molecule using the irreducible representations from the character table of the symmetry group of the molecule. Symmetry is useful in the study of molecular orbitals, with applications to the Hückel method, to ligand field theory, and to the Woodward–Hoffmann rules. Many university level textbooks on physical chemistry, quantum chemistry, spectroscopy and inorganic chemistry discuss symmetry. Another framework on a larger scale is the use of crystal systems to describe crystallographic symmetry in bulk materials. 
+There are many techniques for determining the symmetry of a given molecule, including X-ray crystallography and various forms of spectroscopy. Spectroscopic notation is based on symmetry considerations.
+
+
+== Molecular symmetry concepts ==
+
+
+=== Elements ===
+There are three types of symmetry elements, these being the point, the lines or the planes about which symmetry operations take place. The important feature of symmetry elements is that they are invariant in symmetry operations They are the coordinates that do not move as similar atoms are permuted during symmetry transformations. Three basic symmetry operations can be defined to manipulate objects about the three elements. Rotational motions about axes and reflections in planes leave lines and planes invariant while spatial inversion (parity inversion) leaves just one centre point invariant. Molecular motions about a point in a three dimensional space can be completely described by rotational symmetry and either one of the reflection or spatial inversion operations. Two notations are widely used to describe molecular symmetry. The first of these was published by Schoenflies in 1891 and generally uses rotational symmetry combined with mirror reflections but departs from this pattern in a few cases. The second was developed by Hermann and Mauguin in 1931 and uses a structure based on rotational operations and spatial inversion. (the mirror symbols in Hermann-Mauguin notation are required for spatial symmetry)
+Operations
+Schoenflies defined the following five symmetry operations which leave the appearance of the molecule indistinguishable from the starting state
+
+Symmetry axis: an axis around which a rotation by ⁠360°/n⁠ results in a molecule indistinguishable from the original. This is also called an n-fold rotational axis and abbreviated Cn. Examples are the C2 axis in water and the C3 axis in ammonia. A molecule can have more than one symmetry axis; the one with the highest n is called the principal axis, and by convention is aligned with the z-axis in a Cartesian coordinate system.
+Plane of symmetry: a plane of reflection through which an identical copy of the original molecule is generated. This is also called a mirror plane and abbreviated σ (sigma = Greek "s", from the German 'Spiegel' meaning mirror). A symmetry plane parallel with the principal axis is dubbed vertical (σv) and one perpendicular to it horizontal (σh). A third type of symmetry plane exists: If a vertical symmetry plane additionally bisects the angle between two 2-fold rotation axes perpendicular to the principal axis, the plane is dubbed dihedral (σd). A symmetry plane can also be identified by its Cartesian orientation, e.g., (xz) or (yz).
+Center of symmetry or inversion center, abbreviated i. A molecule has a center of symmetry when, for any atom in the molecule, an identical atom exists diametrically opposite this center an equal distance from it. In other words, a molecule has a center of symmetry when the points (x,y,z) and (−x,−y,−z) of the molecule always look identical. For example, whenever there is an oxygen atom in some point (x,y,z), then there also has to be an oxygen atom in the point (−x,−y,−z). There may or may not be an atom at the inversion center itself.
+Rotation-reflection axis: an axis around which a rotation by ⁠360°/n⁠, followed by a reflection in the plane perpendicular to it, leaves the molecule unchanged. Also called an n-fold improper rotation axis, it is abbreviated Sn. Examples are present in tetrahedral silicon tetrafluoride, with three S4 axes, and the staggered conformation of ethane with one S6 axis. An S1 axis corresponds to a mirror plane σ and an S2 axis is an inversion center i.
+Identity, abbreviated to E, from the German 'Einheit' meaning unity. This symmetry element simply consists of no change: every molecule has this symmetry element, which is equivalent to a C1 proper rotation. It must be included in the list of symmetry elements so that they form a mathematical group, whose definition requires inclusion of the identity element. It is so called because it is analogous to multiplying by one (unity).
+
+Rotational symmetry operations are often described as "proper" operations because they could be physically performed on a model in three dimensional space. All other operations involving or including reflections and inversions are said to be improper. Rotations about axes are always assumed by chemists to move clockwise when viewed from above, i.e. from along the +z axis, and this is standard in molecular chemistry texts. A counter clockwise convention is common in other subject areas. For example, a square xenon tetrafluoride (XeF4) molecule has 4 symmetry operations associated with an obvious 4-fold axis: clockwise rotations of 90°, 180°, 270° and 360°. The last of these operations gets the molecule back to where it started and is equivalent to the identity operation. If the 4-fold axis is aligned with the z-axis (running vertically in the image) then further 2-fold rotational axes at right angles to the main rotational axis are obvious. One of the molecular 2-fold axes can be positioned along the y axis then the other three occur at 45° intervals around the vertical axis. This means that all of the fluorine atoms sit on two of the horizontal rotational axes while none is positioned on the other two axes. The 4-fold rotation about the vertical axis, generated by a clockwise rotation of 90°, is an example of cyclic symmetry and the additional four 2-fold horizontal rotations provide an example of dihedral symmetry. This molecule also has horizontal, vertical and diagonal mirror planes of symmetry together with a centre of symmetry. Only one of these operations is required to expand the 8 proper dihedral transformations to the maximum 16 operations and Schoenflies notation uses the horizontal plane reflection. Rotational axial orders run from 1 to infinity but in practice are either small numbers or the infinite orders associated with linear molecules.
+For linear molecules, either clockwise or counterclockwise rotation about the molecular axis by any angle φ is a symmetry operation.
+
+
+== Symmetry groups ==
+Molecular symmetry groups are sets of the operations listed above together with the binary operation of consecutive application. If A, B and C are group operations and the application of operation A to the molecule "followed by" operation B results in an equivalent result to operation C the process may be shown as C = BA or BA = C. For example, a C2 rotation followed by a σv reflection is seen to be a σv′ symmetry operation: σvC2 = σv′. The binary combination consists of applying first one symmetry operation and then the other. Operations are applied from right to left. Another example is the sequence of a C4 rotation about the z-axis and a reflection in the xy-plane, denoted σ(xy)C4. The composition (repeated application) of symmetry operations is sometimes shown as B ∗ A to emphasise the fact that binary operation is being performed but the most common practice in modern literature is just right-to-left placement. Molecular symmetry groups are also called point groups because the set of symmetry operations leave at least one point fixed (though for some symmetries an entire axis or an entire plane remains fixed). In other words, a point group is a group that summarises all symmetry operations that all molecules in that category have. The symmetry of a crystal, by contrast, is described by a space group of symmetry operations, which includes translations in space.
+The symmetry operations of a molecule provide a specific example of a mathematical group, a concept from linear algebra combining a set of operations with a binary operation that obeys the following three axioms
+
+there exists an identity element that in a binary operation with another element simply reproduces that element: for all x ∈ G there exists E ∈ G such that xE = Ex = x
+there exists an inverse element for every element in the group: for all x ∈ G there exists y ∈ G such that xy = yx = E
+combinations of elements are associative; for all x, y, z ∈ G, x(yz) = (xy)z. ie the order in which binary operations are applied does not matter so long as the overall order is maintained.
+
+Assigning each molecule to a point group classifies molecules into categories with similar symmetry properties. Schoenflies symbols for point groups evolved during the 19th century from the detailed examination of crystals and minerals but are used now only in atomic and molecular work. Hydrogen peroxide (H2O2) has the structure shown with hydrogen atoms attached to two oxygen atoms in a 'V' shape relative to the oxygen–oxygen bond. It provides an example of the simplest non-trivial point group C2, containing just the identity element E and a 2-fold rotational symmetry about the vertical axis, the set {E, c}. Clearly, Ec = c, cE = c, EE = E and cc = c2 = E. This molecule has two enantiomers that cannot be superimposed on each other by rotational motions in three dimensional space. Each enantiomer has hydrogen atoms placed on the opposite side of the V shape. Any molecule described completely by a rotational group has enantiomers but it is possible that the two might be interconverted by rotations about bonds. A molecule which has no improper axis for any value of n is a chiral molecule. So, molecules belonging to rotational groups Cn, Dn, T and O are potentially enantiomeric 
+Formaldehyde is a planar molecule with two hydrogen atoms and an oxygen atom attached to a carbon atom as shown in the diagram. It has a very clear 2-fold rotational axis through the carbon and oxygen atoms and so exhibits C2 symmetry. There are also vertical mirror symmetry planes labelled σv and σv' at right angles to each other so the molecule exhibits the higher order C2v group symmetry. Binary combinations of these four operations are shown in the C2v operation table where a slightly different notation is used for the reflections because in low symmetry molecules of this kind the mirror planes can be identified with the x, y and z axes. Operation σxz in the top row "followed by" operation C2 in the left hand column is equivalent to σyz read from the body of the table. In this point group the order in which operations are applied makes no difference to the outcome but for the vast majority of groups it does make a difference. Water (H2O) and hydrogen sulfide (H2S) molecules share identical symmetry operations with formaldehyde and therefore belong to the same symmetry group and are subject to the same four symmetry operations with order 4.
+Although simple, the procedure above is typical of Schoenflies point group symbols. A rotational group C2 of order 2 is extended to a non-rotational group C2v of order 4 through a combination of cyclic group elements with mirror reflection. Most all of these symbols have the form Cnx or Dnx in which Cn and Dn are cyclic and dihedral rotational groups and x is a mirror reflection. A cyclic group Cn contains n elements (its order) while a dihedral group Dn has 2n elements. Some molecules have symmetry operations limited to just rotational operations and the rotational group symbol is as far as the analysis can proceed. It is worth noting that the number of proper and improper operations is always equal whenever improper symmetry is present at all.
+
+Phosphoric acid only has 3-fold cyclic rotational symmetry and the point group C3 contains three symmetry operations: rotation through 120°, 240° and 360°, which is equivalent to the identity E. A glance at the gallery image on the right shows a central phosphorus atom with four oxygen atoms and three hydrogen atoms. It is easy to imagine a rotational axis through the central phosphorus atom and the lone oxygen atom about which rotations occur. If the 120° rotation is labelled c the set of three operations can be shown as the set {c, c2, c3 = E} and binary operations on these elements amount to simply counting indices modulo n, so c2c2 = c.
+
+Phosphoryl fluoride POF3 belongs to the same symmetry group as molecules PCl3, XeO3, and NH3 and therefore shares identical symmetry operations. This molecule obviously has the same three symmetry elements {c, c2, c3 = E} as the preceding phosphoric acid example and so provides an example of a C3 symmetry molecule. Closer examination shows that this molecule also has a vertical mirror plane of symmetry that did not exist in the previous example. In addition to the three rotational operations there are three combinations with the vertical mirror plane operation σv, these being {cσv, c2σv, σv} so they are placed in one point group, C3v, with order 6. Almost all Schoenflies point group symbols are constructed in this way. First find the rotational group to which the molecule belongs then double the number of elements by combining rotational elements with the reflection operation. This classification system helps scientists to study molecules more efficiently, since chemically related molecules in the same point group tend to exhibit similar bonding schemes, molecular bonding diagrams, and spectroscopic properties.
+The relationship between rotational group C3 and its non-rotational super-group C3v is just one of the relationships shown in the table. A cyclic group Cn has n elements but every element in the group is a product of a generating rotation c of ⁠360°/n⁠ about the z axis and the elements are c, c2, c3,…, cn = E. Group Cnv has 2n elements: the same n elements as the rotational group together with the product of these n elements with the vertical mirror plane σv . Notice that all 2n operations of the group Cnv can be obtained as products of the two generating elements c and σv. 
+
+Two low-symmetry groups of order 2 have symbols Cs and Ci, and are respectively combinations of group C1 with mirror reflection and spatial inversion. One remaining series of Schoenflies symbols does not follow the pattern of a rotational group combined with a mirror reflection. Rotation-reflection point groups S2n (where n is a simple integer) have a single generating operation that combines a 2n-fold rotation with a horizontal mirror reflection. Consider as an example the propadiene molecule C3H4 with three carbon atoms on an imaginary z axis and two carbon atoms in the zy plane and two in the xz plane. Imagine a 90° rotation about the z axis combined with a reflection in a horizontal plane through the central carbon atom. This combination brings the atoms back into coincidence with their original positions but neither the rotation or the reflection by itself would do so. Two applications of the combined improper operation are equivalent to a single application of a 2-fold rotation operation so point group S4 contains group C2 as a subgroup and generally rotation-reflection groups S2n contain Cn as a subgroup. It follows from this relationship that the subscript n in symbol Sn is always an even number.
+
+A benzene molecule has a 6-fold axis with carbon and hydrogen atoms positioned at apices of hexagons in an xy plane and is an example of a C6 molecule of order 6. It has 6 additional 2-fold axes at right angles to the principal 6-fold axis and is also an example of a D6 molecule of order 12. Finally, it has vertical, diagonal and horizontal mirror symmetry resulting from the fact that it has a centre of symmetry. Only one of these improper operations is necessary so Schoenflies describes this as point group D6h of order 24.
+
+
+== Molecular image gallery ==
+The following table shows a large number of molecules belonging to point groups labelled using Schoenflies notation. Each row contains example molecules a group belonging to the Schoenflies symbol on the left of the table In each row, the descriptions and examples have no higher symmetries, meaning that the named point group captures all of the point symmetries and is the highest order group applicable to that molecule. This table is excellent for an overall view of molecular forms but greater detail and the ability to move images is provided by the Otterbein site.
+
+
+== Laue classes ==
+All of the group operations described above and the symbols for crystallographic point groups themselves were first published by Arthur Schoenflies in 1891. Later Max von Laue published the results of experiments using X-ray diffraction to elucidate the internal structures of crystals, producing a limited version of the table of "Laue classes" shown below which are sometimes described as "Laue groups" or "Friedel classes" (after Georges Friedel). Hermann-Mauguin notation is almost invariably used now to describe crystallographic groups in Laue classes but this system provides no advantage for atomic and molecular work.
+
+When adapted for molecular work this table first divides point groups into three kinds: asymmetric, symmetric and spherical tops. These are categories based on the angular momentum of molecules, having respectively 3, 2 and 1 distinct values of angular momentum, becoming more symmetrical down the table. A further sub-division into systems is defined by the rotational group G in the leftmost column then into rows of Laue classes that take the form of cyclic and dihedral groups in the first two categories and tetrahedral and octahedral classes in the third.
+Rotational groups contain only pure rotational operations, sometimes called proper operations and occur only in the first column of the table. Von Laue showed that x-ray diffraction can not distinguish between groups in a row of the table and shows each one to be the centred point group on the right hand column of the table. Groups in this column contain the inversion operation itself as a member. The middle two columns contain non-rotational groups belonging to the same abstract group as that in the first column -this is why they result in the same diffraction pattern
+For example, seven groups in the hexagonal system all contain the C6 cyclic system, mostly as physical rotational group but in the third column of the table as an abstract group. So, C6 and C3h are distinct manifestations of the same group while C6h is simply C6 × i. Groups D6, C6v and D3h are also example of the same abstract group and D6h is the direct product D6 × i. Tetrahedral and octahedral point groups have a relationship similar to that between cyclic and dihedral groups and the tetrahedral group occurs in all cubic groups.
+
+
+== Representations and their characters ==
+A set of matrices that multiply together in a way that mimics the multiplication table of the elements of a group is called a representation of the group. The simplest method of obtaining a representation of molecular group transformations is to trace the movements of atoms in a molecule when symmetry operations are applied. For example, a water molecule belonging to the C2v point group might have an oxygen atom labelled 1 and two hydrogen atoms labelled 2 and 3 as shown in the right hand column vector below. If the hydrogen atoms are imagined to rotate by 180 degrees about an axis passing through the oxygen atom we have the familiar C2 operation of this point group. The oxygen atom in position number 1 stays in position but the atoms in positions 2 and 3 are moved to positions 3 and 2 in the resulting column vector. The matrix connecting the two provides a 3 × 3 representation for this operation. 
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  1
+                
+              
+              
+                
+                  3
+                
+              
+              
+                
+                  2
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+              
+              
+                
+                  0
+                
+                
+                  1
+                
+                
+                  0
+                
+              
+            
+            ]
+          
+        
+        ×
+        
+          
+            
+              [
+              
+                
+                  
+                    1
+                  
+                
+                
+                  
+                    2
+                  
+                
+                
+                  
+                    3
+                  
+                
+              
+              ]
+            
+          
+          
+
+          
+        
+      
+    
+    {\displaystyle {\begin{bmatrix}1\\3\\2\\\end{bmatrix}}={\begin{bmatrix}1&0&0\\0&0&1\\0&1&0\\\end{bmatrix}}\times {\begin{bmatrix}1\\2\\3\\\end{bmatrix}}_{}}
+  
+
+This point group only contains four operations and matrices for the other three operations are obtained similarly, including the identity matrix which just contains 1s on the leading diagonal (top left to bottom right) and 0s elsewhere. Having obtained the representation matrices in this way it is not difficult to show that they multiply out in exactly the same way as the operations themselves.
+
+  
+    
+      
+        
+          
+            
+              
+                [
+                
+                  
+                    
+                      1
+                    
+                    
+                      0
+                    
+                    
+                      0
+                    
+                  
+                  
+                    
+                      0
+                    
+                    
+                      0
+                    
+                    
+                      1
+                    
+                  
+                  
+                    
+                      0
+                    
+                    
+                      1
+                    
+                    
+                      0
+                    
+                  
+                
+                ]
+              
+              ⏟
+            
+          
+          
+            
+              C
+              
+                2
+              
+            
+          
+        
+        ×
+        
+          
+            
+              
+                [
+                
+                  
+                    
+                      1
+                    
+                    
+                      0
+                    
+                    
+                      0
+                    
+                  
+                  
+                    
+                      0
+                    
+                    
+                      1
+                    
+                    
+                      0
+                    
+                  
+                  
+                    
+                      0
+                    
+                    
+                      0
+                    
+                    
+                      1
+                    
+                  
+                
+                ]
+              
+              ⏟
+            
+          
+          
+            
+              σ
+              
+                v
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                [
+                
+                  
+                    
+                      1
+                    
+                    
+                      0
+                    
+                    
+                      0
+                    
+                  
+                  
+                    
+                      0
+                    
+                    
+                      0
+                    
+                    
+                      1
+                    
+                  
+                  
+                    
+                      0
+                    
+                    
+                      1
+                    
+                    
+                      0
+                    
+                  
+                
+                ]
+              
+              ⏟
+            
+          
+          
+            
+              σ
+              
+                v
+              
+              ′
+            
+          
+        
+      
+    
+    {\displaystyle \underbrace {\begin{bmatrix}1&0&0\\0&0&1\\0&1&0\\\end{bmatrix}} _{C_{2}}\times \underbrace {\begin{bmatrix}1&0&0\\0&1&0\\0&0&1\\\end{bmatrix}} _{\sigma _{\text{v}}}=\underbrace {\begin{bmatrix}1&0&0\\0&0&1\\0&1&0\\\end{bmatrix}} _{\sigma '_{\text{v}}}}
+  
+
+Although an infinite number of such representations exist, the irreducible representations (or "irreps") of the group are all that are needed as all other representations of the group can be described as a direct sum of the irreducible representations. The first step in finding the irreps making up a given representation is to sum up the values of the leading diagonals for each matrix so, taking the identity matrix first then the matrices in the order above, one obtains (3, 1, 3, 1). These values are the traces or characters of the four matrices. Asymmetric point groups such as C2v only have 1-dimensional irreps so the character of an irrep is exactly the same is the irrep itself and the following table can be interpreted as irreps or characters.
+
+Looking again at the characters obtained for the 3D representation above (3, 1, 3, 1), we only need simple arithmetic to break this down into irreps. Clearly, E = 3 means there are three irreps and a C2 representation sum of 1 means there must be two A and one B irreps so the only combination that adds up to the characters derived is 2A1 + B1.
+Robert Mulliken was the first to publish character tables in English and so the notation used to label irreps in the above table is called Mulliken notation. For asymmetric groups it consists of letters A and B with subscripts 1 and 2 as above and subscripts g and u as in the C2h example below. (Subscript 3 also appears in D2.) The irreducible representations are those matrix representations in which the matrices are in their most diagonal form possible and for asymmetric groups this means totally diagonal. One further thing to note about the irrep/character table above is the appearance of polar and axial base vector symbols on the right hand side. This tells us that, for example, cartesian base vector × transforms as irrep B1 under the operations of this group. The same collection of product base vectors is used for all asymmetric groups but symmetric and spherical groups use different sets of product base vectors.
+
+Point group C2h has the operations {E, C2, i, σh} and the 1,5-dibromonapthalene (C10H6Br2) shown in the figure belongs to this symmetry group. It is possible to construct four 18 × 18 matrices representing the transformations of atoms during its symmetry operations in the style of the water molecule example above and reduce it to 18 single-dimensional irreps. Notice however that carbon atom number 1 either stays in place or it is exchanged with carbon atom number 5 and these two atoms can be analysed separately from all the other atoms in the molecule. The transformation matrix for these two atoms alone during the molecular C2 rotation is
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  5
+                
+              
+              
+                
+                  1
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  0
+                
+                
+                  1
+                
+              
+              
+                
+                  1
+                
+                
+                  0
+                
+              
+            
+            ]
+          
+        
+        ×
+        
+          
+            
+              [
+              
+                
+                  
+                    1
+                  
+                
+                
+                  
+                    5
+                  
+                
+              
+              ]
+            
+          
+          
+
+          
+        
+      
+    
+    {\displaystyle {\begin{bmatrix}5\\1\\\end{bmatrix}}={\begin{bmatrix}0&1\\1&0\\\end{bmatrix}}\times {\begin{bmatrix}1\\5\\\end{bmatrix}}_{}}
+  
+
+with character 0. When this computation is carried out for each of the operations above the characters obtained are (2, 0, 0, 2) because two operations leave the atoms in place and two move them. The irrep table for this group is below. The first column tells us there are two single-dimensiona; irreps, the second column (C2) that there is one A and one B while columns 3 and 4 reveal that one irrep has subscript g the other has to have subscript u. This means that the irreps resulting from the two atoms are Ag + Bu. In fact, the 18 atoms in this molecule are paired off in exactly the same way as carbon atoms 1 and 5 so that, from a symmetry perspective, the atom consists of 9 pairs of equivalent atoms related through symmetry. It follows that each pair contributes the same irreps as the pair examined above to give a total 18 dimensional irrep result of 9(Ag + Bu). 
+
+
+=== Symmetric point group representations ===
+Symmetric point groups are divided into systems based on the increasing order of the main rotational axis from three to infinity. Systems are in turn divided into cyclic and dihedral groups and within a system the order of the dihedral group is twice that of the cyclic group. Cyclic groups only have one dimensional representations as shown in the table of irreps and the number of irreps is equal to the order of the group. The irreps shown use standard notation for the rotational group of a class but Mulliken sometimes gave different symbols to other members of the same class even though they belong to the same abstract group and therefore have the same irreps.
+
+Dihedral point groups contain a cyclic group of the same rotational order: so group Dn always contains group Cn as an index-2 subgroup. It follows that dihedral irreps are superimposed on cyclic irreps because the cyclic group within a dihedral one does not cease to be a cyclic group. A dihedral group also contains a 2-fold rotational axis at right angles to the main cyclic axis and this has two consequences. Firstly, the A and B cyclic irreps are split into pairs of one dimensional irreps identified by subscripts 1 and 2. Secondly, pairs of 1D E−x and E+x cyclic irreps combine to form single Ex 2D irreps in the dihedral group because the 2-fold horizontal rotation makes pairs of rotations equivalent. For example, a 60° rotation about the main axis becomes equivalent to a 300° (i.e. −60°) rotation because the 2-fold horizontal rotation makes them equivalent. Combinations of this kind are said to form a class. Infinite order dihedral group irreps sometimes use Greek symbol descriptions, σ, Π, Δ that follow from early linear molecule calculations.
+Taking benzene as a simple example, we have a molecule that belongs to the series of point groups C6, D6 and D6h with increasing orders 6, 12 and 24. The six carbon atoms may be represented by a 6 × 6 matrices which in group C6 have irreps A, B, E+1, E−1, E+2 and E−2, because n objects in an n-fold cyclic group always produce one of each irrep. If these cyclic irreps are promoted to group D6 we obtain A1, Bx, E1 and E2 when subscripts are added to the 1D A and B irreps and the others merge to form 2D irreps. A1 is there because the most symmetric irrep has to occur once and only once in the result leaving only the B irrep subscript to be deduced. The character of the 2-fold horizontal rotation operation is 2 because 2 carbon atoms stay in place during the rotation, Char(C2) = 2 telling us that there are two more 1 subscripts than 2 subscripts so the result is A1, B1, E1 and E2. Finally, promotion to D6h requires the addition of g and u subscripts. Since Char(i) = 0 there are an equal number of g and u subscripts, and A1g has to be present as the most symmetric group so B1u is mandatory. Furthermore, odd and even 2D irreps take u and g subscripts so the final result for the carbon atoms is (A1g, B1u, E1u, E2g), but with the hydrogen atoms we get 2(A1g, B1u, E1u, E2g).
+Boric acid and boron trifluoride provide further hexagonal examples in spite of their slightly misleading Schoenflies symbols C3h and D3h. Taking boric acid first, we have three sets of equivalent atoms: 1 boron, 3 oxygen and 3 hydrogen. Obviously the oxygen and hydrogen atoms produce the same irreps so only one has to be deduced. Applying the 6-fold cyclic group to (say) the hydrogen atoms produces characters (3,0,0,3,0,0) yielding irreps A + E+2 + E−2. Doubling up and adding an irrep for the central boron atom produces A + 2(A + E+2 + E−2) in standard Laue class notation. Unfortunately, Mulliken used a different notation for C3h and D3h irreps to that used for other groups and a conversion table would be needed if that was important.
+Boron trifluoride has a central boron atom with 3 fluorine atoms and belongs to cyclic subgroup C3h and the larger dihedral group D3h. Following the above reasoning, the irreps in C3h are A + (A + E+2 + E−2) and when promoted to the dihedral group this becomes A1 + (A1 + E2). Again, conversion to Mulliken notation is required if that is important.
+
+
+=== Spherical point group representations ===
+Spherical classes are defined by the tetrahedral, octahedral and icosahedral rotational groups T, O and I. The first two of these, T and O, are related in much the same way as cyclic and dihedral groups are related in symmetric groups. Both tetrahedral and octahedral molecules are often shown with their atoms inscribed in the apices or faces of cubes and might be considered as a single "cubic" system. The first Laue class of this system contains only the tetrahedral rotational group T of order 12 and the direct product of this group with space inversion Th of order 24. Every point group in the following octahedral class contains the tetrahedral rotational group as a subgroup. Irreps of tetrahedral and octahedral groups are also related similarly to cyclic and dihedral groups and the table below shows how tetrahedral irreps are incorporated in octahedral irreps 
+
+Tetrahedral symmetry has 3 one-dimensional irreps (A, E+, E−) and one 3-dimensional irrep T then the A and T irreps split into two irreps with subscripts 1 and 2 while the two 1D E irreps combine into a single 2D irrep. Notice that the T irrep is always 3 dimensional but the E irrep only becomes 2 dimensional in the higher order group.
+Methane (CH4) is often used as an example and, although often described as a tetrahedral molecule because of the very visible rotational symmetry, it really belongs to the octahedral symmetry class. Considering methane first as a tetrahedral molecule the 12 operations of group T are {E, 3 × c, 4 × b, 4 × b3} where c is a 180° rotation along the x, y and z axes and b is a 120° rotation about the apices of a cube. It is not difficult to convert 5 × 5 symmetry operation transformation matrices to reducible matrices and thence to molecular irreps but this not necessary.
+Methane has two sets of equivalent atoms: a single carbon atom and 4 hydrogen atoms. The atoms of each set are transformed into each other during operations. A single atom can only ever be transformed into itself and therefore always contributes the most symmetrical irrep to the end total irrep count. Additionally, there is a rule of group theory that the most symmetrical irrep must occur once and only once in the irreps of any equivalent atom set so the five dimensions of irreps being sought contain two A and three others. Although E1 and E2 are 1 dimensional they have to occur together in the irreps of any equivalent set of atoms. it follows that he only way of filling the remaining three dimensions is to adopt 3D irrep T so the irreps are 2A + T. (E irreps have to be taken in pairs in physical molecular applications.)
+
+ 
+Extending this treatment to the octahedral group Td requires six 4-fold roto-inversion operations (f) about the main axes and six 2-fold roto-inversions (a), appearing as mirror reflections through opposite edges of the imaginary cube in which methane is placed. So half the operations of this group are rotational and half non-rotational. Rotational group T exists within the non-rotational group Td = {E, 3 × c, 8 × b, 8 × b3, 6 × f, 6 × a} so the irreps in group T in the expansion to Td. Again we have 2 sets of equivalent atoms and each set must contribute one and only one of the most symmetrical irrep, in this case A1. Reasoning as above, we know that the irreps in Td must be 2A1 + Tx so the last step is to find the 3D subscript. A brief look at the 4 × 4 transformation matrix for the 4-fold rotation operation f shows character Ch(f) = 0 and the × subscript has to be 2 to balance the 1 on the A irrep. so the final result is 2A1 + T2 
+Sulfur hexafluoride (SF6) can also be treated first as a tetrahedral molecule T, then as octahedral O and finally as centred molecule Oi. There are two sets of equivalent atoms consisting of a single sulfur atom and six fluorine atoms. Transformations of the fluorine atoms generate a six dimensional representation that can only reduce into the direct sum of tetrahedral irreps A, E+1, E−1 and T because the direct sum must include the most symmetrical irrep once and only once, leaving five dimensions that can only be satisfied in the way shown—a direct sum of 5 can only be made up from a 2 and a 3—no other combination is possible. These irreps are "promoted" to 2A1 + E1 + Tx in group O. To get the × subscript observe that the 4-fold rotation in SF6 has character Ch(f) = 2 because two atoms stay in position and a glance at this column of the table suggests A1 + E1 + T1. Finally the inversion operation (i) applied go the fluorine atoms has character Ch(i) = 0 indicating equal numbers of g and u subscripts (because none of the atoms remains in position). Since the most symmetrical irrep must occur once the only possible result is A1g + E1g + T1u. The single sulfur atom always has the most symmetric irrep to the final reduction of the seven dimensional matrices to a direct sum is 2A1g + E1g + T1u.
+
+
+==== A summary of possible point group irreducible representations ====
+Cyclic groups have Schoenflies symbols Cn, Sn, Cnh, Cs and Ci positioned together in rows of the Laue class table above. These point groups are represented by the one dimensional symbols A, B, E+x and E−x. If the group has a centre of symmetry the number if irreps doubles and subscripts g and u have to be added to each of the simple cyclic symbols. For example, the eight possible irreps of C4h are Ag, Bg, E+1g, E−1g, Au, Bu, E+1u and E−1u. Cotton (page 96) shows how cyclic group irreps are derived for groups of any order. 
+Dihedral groups have Schoenflies symbols Dn, Cnv, Dnd and Dnh also positioned together in rows of the Laue class table. They are represented by one and two dimensional irreps derived from the cyclic irreps above. Cyclic A and B irreps split into separate one dimensional irreps A1, A2, B1 and B2 while pairs of E+x and E−x irreps merge to form single two dimensional degenerate irreps. For example, the possible irreps of D4 (also C4v and D2d) are A1, A2, B1, B2 and E. (E1 is normally shown simply as E.) A group with a centre of symmetry also has irreps with g and u subscripts. Once the irreps of a cyclic group Cn are known it is a simple task to deduce the irreps of the corresponding dihedral group Dn.
+In addition to the one and two dimensional irreps so far described, tetrahedral groups can a three dimensional degenerate irrep T that expands in octahedral groups to yield irreps T1 and T2. 
+The following reference of character tables uses symbols Zx for abstract cyclic groups Cx with A4 and S4 (alternating and symmetric permutations of 4 objects) for T and O. Many authors just use C, T and O in two senses, making it clear which is intended.
+
+
+== Historical background ==
+
+The article above provides an insight into the development of symmetry theory in the context of crystallographic investigations during the 19th century. Point groups were derived from observations of the macroscopic forms of crystals, leading up to the Schoenflies system used to describe them. Max von Laue's invention and use of X-ray diffraction to elucidate the internal structure provided an insight not possible from an examination of external crystal shapes. Laue showed that the 32 crystallographic point groups can be collected into 11 classes each containing 2, 3 or 4 point groups that all produce the same diffraction pattern. Crystallographic Laue classes are now very familiar and, although usually shown in international notation, would probably originally have been published in Schoenflies notation. (International notation was developed 10 years after Laue's work). Each class contains one rotational group, one non-rotational group that is the direct product of the rotational group with space inversion and 0, 1 or 2 more groups obtained from combinations of rotational group operations with space inversion. Of course, the crystallographic restriction applies only to crystals and in the wider field of molecular symmetry an infinite number of Laue classes become possible.
+While crystallographic research continued apace in the first part of the 20th century there were also major discoveries at the atomic level. Rutherford showed that a single atom consists of a massive nucleus surrounded mainly by empty space containing electrons, leading directly to the planetary Bohr model of the atom. Planck discovered that black body radiation could be explained if he allocated particles to discrete energy levels then Einstein showed that the energy levels were characteristic of particles themselves. De Broglie extended this reasoning to all particles, providing a relationship between the allowed energy levels and the wave nature of the particle. All of this work on the combination of Newtonian particle particle behaviour combined with the wave nature of the particles led up to Schrodinger's three dimensional wave equation, perhaps the most fundamental mathematical expression in modern chemistry. Solutions to this equation are defined by 3 quantum numbers that label the allowed energy levels when it is applied to particles, The equation might be applied to any quantized state.
+A particle in energy level E1 might be stimulated to rise to level E2 by the absorption of a photon with energy ε provided that
+
+E2 − E1 = ε
+or a particle might fall from the higher energy level to the lower one and emit a photon with the same energy. Like all particles the photon has an energy related to its frequency ε = hν where h is Planck's constant (6.626×10−34 J Hz−1) and ν is the frequency. Higher frequencies have greater energies. This is the basis of "spectroscopy", a procedure in which the energy levels in atoms and molecules probed by photons of varying frequency until the frequency matches an energy level difference. These techniques may be applied in the following three areas
+
+electronic transitions in atoms and molecules that have frequencies in the range 430 to 770 THz
+vibrational transitions in molecules with typical frequencies 10 to 100 THz
+rotational transitions of molecules with common frequencies in the range 8 to 10 GHz
+Clearly, these frequencies are in the order electronic > vibrational > rotational so the energy differences also change in this order. Suppose an atom or molecule emits or absorbs at 500 THz, a quick calculation shows the energy involved to be
+
+ε = hν = 6.626×10−34 × 500×1012 = 3.313×10−19 J
+and it becomes clear that at the atomic level levels involved here are incredibly small in relation to day to day experience.
+Soon after the Schrodinger equation became familiar to early researchers Hans Bethe showed how atomic orbitals could be modified by symmetric "crystal fields" resulting from surrounding charges and this work was extended to his study of ligand field theory in 1929. Eugene Wigner used group theory to explain the selection rules of atomic spectroscopy.
+E. Bright Wilson used character tables in 1934 to predict the symmetry of vibrational normal modes.
+Electronic and vibrational spectra provide enormous detail about molecular structures and, although rotational spectra cannot be linked to individual point groups, it does often supply useful information.
+
+
+== Symmetry of molecular orbitals ==
+When Schrodinger's 3D wave equation is applied to a one-electron atom it provides a number of solutions called wave functions that are then used to label the allowed energy levels in that atom. Exact solutions of this kind are usually described by three quantum numbers, n, l and m from which the probable radial and angular distribution of the electron around the atom can be computed. This type of deduction leads to the familiar s, p, d, f,… description of atomic orbitals based on the l and m quantum numbers. Each solution is a base vector from which more complex structures may be constructed. Descriptions of many-electron atoms use the one-electron model to build models that are sometimes pictured as multiple electrons in the simple structure. Molecular orbitals then take linear combinations of atomic orbitals (LCAOs) to explain the distribution of electrons over multiple atoms within a molecule. Atomic orbital symmetry follows from the angular part of the wave function which increases in complexity in the series s, p, d, f,… so that s orbitals only have radial symmetry while p orbital base vectors have a symmetry identical to that of the Cartesian polar base vectors.
+Consider the example of water (H2O), which has the C2v symmetry described above. The 2px orbital of oxygen has, like the × base vector, B1 symmetry. It is oriented perpendicular to the plane of the molecule and switches sign with a C2 and a σv′(yz) operation, but remains unchanged with the other two operations (obviously, the character for the identity operation is always +1). This orbital's character set is thus {1, −1, 1, −1}, corresponding to the B1 irreducible representation. Likewise, the 2pz orbital is seen to have the symmetry of the A1 irreducible representation (i.e., none of the symmetry operations change it), 2py B2, and the 3dxy orbital A2. These assignments are noted in the rightmost columns of the table.
+Each molecular orbital also has the symmetry of one irreducible representation. For example, ethylene (C2H4) has symmetry group D2h, and its highest occupied molecular orbital (HOMO) is the bonding π orbital which forms a basis for its irreducible representation B1u.
+
+
+== Symmetry of vibrational modes ==
+Electronic bonds between atoms in molecules can be imagined to be equivalent to springs that extend, contract and bend, absorbing energies appropriate for the strength of the bond. Each of the N atoms in a molecule can move to a limited extent in three dimensions so that a total of 3N distinct motions become possible but 3 of these correspond to the overall translational motion of the molecule and 3 to overall rotation. It follows that there are 3N − 6 genuine motions relative to the whole semi-rigid molecule (or 3N − 5 in linear molecules). Vibrational motions of this kind may be resolved into normal modes of molecular vibration in which each mode has a symmetry which forms a basis for one irreducible representation of the molecular symmetry group. This relationship is the basis of vibrational spectroscopy. Irreps for the normal modes of a molecule are derived through a fairly mechanical procedure
+
+find the point group of the molecule
+deduce the irreps for that molecule
+look up the irreps corresponding to x, y and z base vectors for an atom in the point group
+take the direct product of the molecular irreps and the three base vector irreps
+subtract the six irreps that represent overall rotations and translations
+
+
+=== Vibrational modes for a water molecule ===
+A water molecule (H2O) has three atoms and so has 3 × 3 − 6 = 3 normal modes of vibration. The molecular symmetry of water is C2v and the molecular irreps 2A1 + B2. A glance at the irrep/character table shows that the x, y and z base vectors for C2v are A1, B1 and B2. The direct product is then
+
+(2A1 + B2) × (A1 + B1 + B2) = 2(A1 + B1+ B2) + (B2 + A2 + A1) = 3A1 + A2 + 2B1 + 3B2
+There are three atoms in the molecule so the resulting representation has 3N = 3 × 3 = 9 dimensions. Subtracting the three polar base vectors A1, B1 and B2 and the axial base vectors B2, B1 and A1 a final result is obtained
+
+(3A1 + A2 + 2B1 + 3B2) − ((A1, B1, B2) + (B2, B1, A1)) = 2A1 + B2
+The overall symmetry of the three vibrational modes is therefore 2A1 + B2.
+The three modes represents a symmetric stretch in which the two O–H bond lengths vary in phase with each other, an asymmetric stretch in which they vary out of phase, and a bending mode in which the bond angle varies. Symmetric stretching and the bending modes have symmetry A1, while the asymmetric mode has symmetry B2.
+
+Diborane (B2H6) has D2h molecular symmetry. The terminal B–H stretching vibrations which are active in IR are B2u and B3u.
+
+
+=== Vibrational modes for an ammonia molecule ===
+An ammonia molecule (NH3) has 4 atoms and therefore 3N − 6 = 6 normal modes of vibration. It has a trigonal pyramidal shape with 3 hydrogen atoms equidistant from a nitrogen atom and belongs to point group C3v, with symmetry operations E, C3 and σv. Both of the examples above are asymmetric molecules in which only 1-dimensional irreps are possible and in which each irrep corresponds to a single vibrational mode related to a single frequency. Ammonia is a symmetric molecule and therefore its vibrational modes may include 2-dimensional irreps representing two modes of the same frequency (degenerate modes). Symmetry group C3v for has the three symmetry species A1, A2 and E1 although the last of these is usually written simply as E.
+A brief glance at the molecule shows that the nitrogen atom contributes irrep A1 while the three hydrogen atoms contribute A1 + E so the molecular irreps are 2A1 + E. The translational modes for this point group are A1 + E and so the direct product of these three vectors with the molecular irreps produces a 12 dimensional representation
+
+(2A1 + E) × (A1 + E) = 3A1 + A2 + 4E
+Now the 3 translational modes A1 + E and 3 rotational modes A2 + E have to be subtracted from this representation
+
+(3A1 + A2 + 4E) − (A2 + E) − (A1 + E) = 2A1 + 2E
+
+All three hydrogen atoms travel symmetrically along the N–H bonds, either in the direction of the nitrogen atom or away from it. This mode is known as symmetric stretch (ν1) and reflects the symmetry in the N–H bond stretching. Of the three vibrational modes, this one has the highest frequency.
+In the bending (ν2) vibration, the nitrogen atom stays on the axis of symmetry, while the three hydrogen atoms move in different directions from one another, leading to changes in the bond angles. The hydrogen atoms move like an umbrella, so this mode is often referred to as the "umbrella mode".
+There is also an asymmetric stretch mode (ν3) in which one hydrogen atom approaches the nitrogen atom while the other two hydrogens move away.
+
+
+=== Vibrational modes for spherical molecules ===
+Molecules such as methane and carbon tetrachloride with a general formula AB4 have a very obvious tetrahedral appearance and are usually described as such even though they belong to the octahedral Laue class. They have five atoms: a central atom A surrounded by four equivalent B atoms so there might be expected to be (5 × 3) − 6 = 9 vibrational modes. Molecular irreps for this shape were earlier found to be 2A1 + T2 and a direct product of this five dimensional expression with the irrep representing x, y and z base vector transformations (T2) produces a 15-dimensional result
+
+(2A1 + T2) × T2 = (2T2 + (A1 + E + T1 + T2)) = A1 + E + T1 + 3T2
+A subtraction of the polar and axial base vectors (T2 and T1) produces a final 9-dimensional result
+
+A1 + E + T1 + 3T2 − (T1 + T2) = A1 + E + 2T2
+All three of these modes are Raman active but only T2 is IR active.
+While there are simple rules to deduce the results of direct products for asymmetric and symmetric groups the results for spherical molecules are best found from tables. For example the product above used the identity T2 × T2 = A1 + E + T1 + T2. This is equally applicable to other octahedral groups because O and Td are distinct examples of the same abstract group.
+W(CO)6 has octahedral geometry. The irreducible representations contributing to the six dimensional representation for the C–O stretching vibration are A1g + Eg + T1u. Of these, only T1u is IR active.
+
+
+== Symmetry and molecular rotation ==
+
+Molecular rotation is quantized but the relationship between molecular symmetry and allowed energy levels is not as detailed as that for electronic and vibrational motions. Rotational transitions depend only on the kinetic energy of the rotating molecule while electronic and vibrational levels involve both kinetic and potential energies. In spite of this difference the general procedure for relating molecular structure to observed spectra is similar to that of the earlier systems. First of all an expression is derived for the energy of the rotating molecule, taking into account the Laue partition to which it belongs because rotational motion is not related to individual point groups or even to their class. Asymmetric molecules have three different moments of inertia from which three different angular momenta can be derived: Lx, Ly and Lz. The fact that there are three distinct values of angular momentum means that solutions to the Schrodinger for this kind of molecule are exceedingly difficult. This does not stop asymmetric molecules exhibiting clear rotational spectra: water vapour provides clear transition lines.
+Symmetric molecules have two equal moments of inertia and so two equal angular momenta, making their energy expressions more easily soluble. Oblate symmetric molecules have a discus shape (e.g. benzene) and prolate examples are cigar shaped (e.g. methyl chloride). Prolate symmetric molecules become linear when the main axial order reaches infinity at which point there is only one moment of inertia and one angular momentum. This makes the Schrodinger equation easily soluble and it is possible to relate (say) diatomic molecule structure to their structure very accurately. Spherical molecules also only have one moment of inertia so their energy levels are easily calculated but not always observed.
+Point group symmetry describes the symmetry of a molecule when fixed at its equilibrium configuration in a particular electronic state. It does not allow for tunneling between minima nor for the change in shape that can come about from the centrifugal distortion effects of molecular rotation.
+
+
+== The molecular symmetry group ==
+One can determine the symmetry operations of the point group for a particular molecule by considering the geometrical symmetry of its molecular model. However, when one uses a point group to classify molecular states, the operations in it are not to be interpreted in the same way. Instead the operations are interpreted as rotating and/or reflecting the vibronic (vibration-electronic) coordinates and these operations commute with the vibronic Hamiltonian. They are "symmetry operations" for that vibronic Hamiltonian. The point group is used to classify by symmetry the vibronic eigenstates of a rigid molecule. The symmetry classification of the rotational levels, the eigenstates of the full (rotation-vibration-electronic) Hamiltonian, can be achieved through the use of the appropriate permutation-inversion group (called the molecular symmetry group), as introduced by Longuet-Higgins.
+
+
+== Molecular nonrigidity ==
+
+As discussed above in § The molecular symmetry group, point groups are useful for classifying the vibrational and electronic states of rigid molecules (sometimes called semi-rigid molecules) which undergo only small oscillations about a single equilibrium geometry. Longuet-Higgins introduced the molecular symmetry group (a more general type of symmetry group) suitable not only for classifying the vibrational and electronic states of rigid molecules but also for classifying their rotational and nuclear spin states. Further, such groups can be used to classify the states of non-rigid (or fluxional) molecules that tunnel between equivalent geometries and to allow for the distorting effects of molecular rotation. The symmetry operations in the molecular symmetry group are so-called 'feasible' permutations of identical nuclei, or inversion with respect to the center of mass (the parity operation), or a combination of the two, so that the group is sometimes called a "permutation-inversion group".
+Examples of molecular nonrigidity abound. For example, ethane (C2H6) has three equivalent staggered conformations. Tunneling between the conformations occurs at ordinary temperatures by internal rotation of one methyl group relative to the other. This is not a rotation of the entire molecule about the C3 axis, although each conformation has D3d symmetry, as in the table above. The molecule 2-butyne (dimethylacetylene) has the same molecular symmetry group (G36) as ethane but a very much
+lower torsional barrier. Similarly, ammonia (NH3) has two equivalent pyramidal (C3v) conformations which are interconverted by the process known as nitrogen inversion.
+Additionally, the methane molecule (CH4) and trihydrogen cation (H+3) have highly symmetric equilibrium structures with Td and D3h point group symmetries respectively; they lack permanent electric dipole moments but they do have very weak pure rotation spectra because of rotational centrifugal distortion.
+Sometimes it is necessary to consider together electronic states having different point group symmetries at equilibrium. For example, in its ground (N) electronic state the ethylene molecule C2H4 has D2h point group symmetry whereas in the excited (V) state it has D2d symmetry. To treat these two states together it is necessary to allow torsion and to use the double group of the molecular symmetry group G16.
+
+
+== See also ==
+Parity (physics) § Molecules
+Irreducible representation § Applications in theoretical physics and chemistry
+Woodward–Hoffmann rules § Correlation diagrams
+Hapticity § Hapticity and fluxionality
+Character table
+Crystallographic point group
+Molecular geometry
+Point groups in three dimensions
+Symmetry of diatomic molecules
+Symmetry in quantum mechanics
+
+
+== References ==
+
+
+== External links ==
+The molecular symmetry group [1] @ The University of Western Ontario
+Point group symmetry @ Newcastle University
+Molecular symmetry @ Imperial College London
+Molecular Point Group Symmetry Tables
+Character tables for point groups for chemistry
+Molecular Symmetry Online @ The Open University of Israel
+An internet lecture course on molecular symmetry @ Bergische Universitaet
+DECOR – Symmetry @ The Cambridge Crystallographic Data Centre
+Landskrone Kai. LibreTexts - Chemistry. Section 2.2: Point Groups

@@ -1,0 +1,2710 @@
+Wikipedia article: Cabibbo–Kobayashi–Maskawa matrix
+Source: https://en.wikipedia.org/wiki/Cabibbo–Kobayashi–Maskawa_matrix
+PageID: 1083721
+======================================================================
+
+In the Standard Model of particle physics, the Cabibbo–Kobayashi–Maskawa matrix, CKM matrix, quark mixing matrix, or KM matrix is a unitary matrix that contains information on the strength of the flavour-changing weak interaction. Technically, it specifies the mismatch of quantum states of quarks when they propagate freely and when they take part in the weak interactions. It is important in the understanding of CP violation. This matrix was introduced for three generations of quarks by Makoto Kobayashi and Toshihide Maskawa, adding one generation to the matrix previously introduced by Nicola Cabibbo. This matrix is also an extension of the GIM mechanism, which only includes two of the three current families of quarks.
+
+
+== Description ==
+
+
+=== Predecessor: Cabibbo matrix ===
+
+In 1963, Nicola Cabibbo introduced the Cabibbo angle (θc) to preserve the universality of the weak interaction. 
+Cabibbo was inspired by previous work by Murray Gell-Mann and  Maurice Lévy,
+on the effectively rotated nonstrange and strange vector and axial weak currents, which he references.
+In light of current concepts (quarks had not yet been proposed), the Cabibbo angle is related to the relative probability that down and strange quarks decay into up quarks  ( |Vud|2   and   |Vus|2 , respectively). In particle physics terminology, the object that couples to the up quark via charged-current weak interaction is a superposition of down-type quarks, here denoted by d′.
+Mathematically this is:
+
+  
+    
+      
+        
+          d
+          ′
+        
+        =
+        
+          V
+          
+            
+              u
+              d
+            
+          
+        
+        
+        d
+         
+         
+        +
+         
+         
+        
+          V
+          
+            
+              u
+              s
+            
+          
+        
+        
+        s
+         
+        ,
+      
+    
+    {\displaystyle d'=V_{\mathrm {ud} }\;d~~+~~V_{\mathrm {us} }\;s~,}
+  
+
+or using the Cabibbo angle:
+
+  
+    
+      
+        
+          d
+          ′
+        
+        =
+        cos
+        ⁡
+        
+          θ
+          
+            
+              c
+            
+          
+        
+        
+        d
+         
+         
+        +
+         
+         
+        sin
+        ⁡
+        
+          θ
+          
+            
+              c
+            
+          
+        
+        
+        s
+         
+        .
+      
+    
+    {\displaystyle d'=\cos \theta _{\mathrm {c} }\;d~~+~~\sin \theta _{\mathrm {c} }\;s~.}
+  
+
+Using the currently accepted values for   |Vud|   and   |Vus|   (see below), the Cabibbo angle can be calculated using
+
+  
+    
+      
+        tan
+        ⁡
+        
+          θ
+          
+            
+              c
+            
+          
+        
+        =
+        
+          
+            
+              
+              
+                |
+              
+              
+                V
+                
+                  
+                    u
+                    s
+                  
+                
+              
+              
+                |
+              
+              
+            
+            
+              
+                |
+              
+              
+                V
+                
+                  
+                    u
+                    d
+                  
+                
+              
+              
+                |
+              
+            
+          
+        
+        =
+        
+          
+            0.22534
+            0.97427
+          
+        
+        
+        ⇒
+        
+        
+          θ
+          
+            
+              c
+            
+          
+        
+        =
+         
+        
+          13.02
+          
+            ∘
+          
+        
+         
+        .
+      
+    
+    {\displaystyle \tan \theta _{\mathrm {c} }={\frac {\,|V_{\mathrm {us} }|\,}{|V_{\mathrm {ud} }|}}={\frac {0.22534}{0.97427}}\quad \Rightarrow \quad \theta _{\mathrm {c} }=~13.02^{\circ }~.}
+  
+
+When the charm quark was discovered in 1974, it was noticed that the down and strange quark could transition into either the up or charm quark, leading to two sets of equations:
+
+  
+    
+      
+        
+          d
+          ′
+        
+        =
+        
+          V
+          
+            
+              u
+              d
+            
+          
+        
+        
+        d
+         
+         
+        +
+         
+         
+        
+          V
+          
+            
+              u
+              s
+            
+          
+        
+        
+        s
+         
+        ,
+      
+    
+    {\displaystyle d'=V_{\mathrm {ud} }\;d~~+~~V_{\mathrm {us} }\;s~,}
+  
+
+  
+    
+      
+        
+          s
+          ′
+        
+        =
+        
+          V
+          
+            
+              c
+              d
+            
+          
+        
+        
+        d
+         
+         
+        +
+         
+         
+        
+          V
+          
+            
+              c
+              s
+            
+          
+        
+        
+        s
+         
+        ;
+      
+    
+    {\displaystyle s'=V_{\mathrm {cd} }\;d~~+~~V_{\mathrm {cs} }\;s~;}
+  
+
+or using the Cabibbo angle:
+
+  
+    
+      
+        
+          d
+          ′
+        
+        =
+         
+         
+         
+        cos
+        ⁡
+        
+          
+            θ
+            
+              
+                c
+              
+            
+          
+        
+        
+        d
+         
+         
+        +
+         
+         
+        sin
+        ⁡
+        
+          
+            θ
+            
+              
+                c
+              
+            
+          
+        
+        
+        s
+         
+        ,
+      
+    
+    {\displaystyle d'=~~~\cos {\theta _{\mathrm {c} }}\;d~~+~~\sin {\theta _{\mathrm {c} }}\;s~,}
+  
+
+  
+    
+      
+        
+          s
+          ′
+        
+        =
+        −
+        sin
+        ⁡
+        
+          
+            θ
+            
+              
+                c
+              
+            
+          
+        
+        
+        d
+         
+         
+        +
+         
+         
+        cos
+        ⁡
+        
+          
+            θ
+            
+              
+                c
+              
+            
+          
+        
+        
+        s
+         
+        .
+      
+    
+    {\displaystyle s'=-\sin {\theta _{\mathrm {c} }}\;d~~+~~\cos {\theta _{\mathrm {c} }}\;s~.}
+  
+
+This can also be written in matrix notation as:
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    d
+                    ′
+                  
+                
+              
+              
+                
+                  
+                    s
+                    ′
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    V
+                    
+                      
+                        u
+                        d
+                      
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      
+                        u
+                        s
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    V
+                    
+                      c
+                      d
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      c
+                      s
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  d
+                
+              
+              
+                
+                  s
+                
+              
+            
+            ]
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle {\begin{bmatrix}d'\\s'\end{bmatrix}}={\begin{bmatrix}V_{\mathrm {ud} }&V_{\mathrm {us} }\\V_{cd}&V_{cs}\\\end{bmatrix}}{\begin{bmatrix}d\\s\end{bmatrix}}~,}
+  
+
+or using the Cabibbo angle
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    d
+                    ′
+                  
+                
+              
+              
+                
+                  
+                    s
+                    ′
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                   
+                   
+                  cos
+                  ⁡
+                  
+                    
+                      θ
+                      
+                        
+                          c
+                        
+                      
+                    
+                  
+                
+                
+                  sin
+                  ⁡
+                  
+                    
+                      θ
+                      
+                        
+                          c
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                  −
+                  sin
+                  ⁡
+                  
+                    
+                      θ
+                      
+                        
+                          c
+                        
+                      
+                    
+                  
+                
+                
+                  cos
+                  ⁡
+                  
+                    
+                      θ
+                      
+                        
+                          c
+                        
+                      
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  d
+                
+              
+              
+                
+                  s
+                
+              
+            
+            ]
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle {\begin{bmatrix}d'\\s'\end{bmatrix}}={\begin{bmatrix}~~\cos {\theta _{\mathrm {c} }}&\sin {\theta _{\mathrm {c} }}\\-\sin {\theta _{\mathrm {c} }}&\cos {\theta _{\mathrm {c} }}\\\end{bmatrix}}{\begin{bmatrix}d\\s\end{bmatrix}}~,}
+  
+
+where the various |Vij|2 represent the probability that the quark of flavor j decays into a quark of flavor i. This 2×2 rotation matrix is called the "Cabibbo matrix", and was subsequently expanded to the 3×3 CKM matrix.
+
+
+=== CKM matrix ===
+
+In 1973, observing that CP-violation could not be explained in a four-quark model, Kobayashi and Maskawa generalized the Cabibbo matrix into the Cabibbo–Kobayashi–Maskawa matrix (or CKM matrix) to keep track of the weak decays of three generations of quarks:
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    d
+                    ′
+                  
+                
+              
+              
+                
+                  
+                    s
+                    ′
+                  
+                
+              
+              
+                
+                  
+                    b
+                    ′
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    V
+                    
+                      
+                        u
+                        d
+                      
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      
+                        u
+                        s
+                      
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      
+                        u
+                        b
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    V
+                    
+                      
+                        c
+                        d
+                      
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      
+                        c
+                        s
+                      
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      
+                        c
+                        b
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    V
+                    
+                      
+                        t
+                        d
+                      
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      
+                        t
+                        s
+                      
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      
+                        t
+                        b
+                      
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  d
+                
+              
+              
+                
+                  s
+                
+              
+              
+                
+                  b
+                
+              
+            
+            ]
+          
+        
+         
+        .
+      
+    
+    {\displaystyle {\begin{bmatrix}d'\\s'\\b'\end{bmatrix}}={\begin{bmatrix}V_{\mathrm {ud} }&V_{\mathrm {us} }&V_{\mathrm {ub} }\\V_{\mathrm {cd} }&V_{\mathrm {cs} }&V_{\mathrm {cb} }\\V_{\mathrm {td} }&V_{\mathrm {ts} }&V_{\mathrm {tb} }\end{bmatrix}}{\begin{bmatrix}d\\s\\b\end{bmatrix}}~.}
+  
+
+On the left are the weak interaction doublet partners of down-type quarks, and on the right is the CKM matrix, along with a vector of mass eigenstates of down-type quarks. The CKM matrix describes the probability of a transition from one flavour j quark to another flavour i quark. These transitions are proportional to |Vij|2.
+As of 2023, the best determination of the individual magnitudes of the CKM matrix elements was:
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    |
+                  
+                  
+                    V
+                    
+                      u
+                      d
+                    
+                  
+                  
+                    |
+                  
+                
+                
+                  
+                    |
+                  
+                  
+                    V
+                    
+                      u
+                      s
+                    
+                  
+                  
+                    |
+                  
+                
+                
+                  
+                    |
+                  
+                  
+                    V
+                    
+                      u
+                      b
+                    
+                  
+                  
+                    |
+                  
+                
+              
+              
+                
+                  
+                    |
+                  
+                  
+                    V
+                    
+                      c
+                      d
+                    
+                  
+                  
+                    |
+                  
+                
+                
+                  
+                    |
+                  
+                  
+                    V
+                    
+                      c
+                      s
+                    
+                  
+                  
+                    |
+                  
+                
+                
+                  
+                    |
+                  
+                  
+                    V
+                    
+                      c
+                      b
+                    
+                  
+                  
+                    |
+                  
+                
+              
+              
+                
+                  
+                    |
+                  
+                  
+                    V
+                    
+                      t
+                      d
+                    
+                  
+                  
+                    |
+                  
+                
+                
+                  
+                    |
+                  
+                  
+                    V
+                    
+                      t
+                      s
+                    
+                  
+                  
+                    |
+                  
+                
+                
+                  
+                    |
+                  
+                  
+                    V
+                    
+                      t
+                      b
+                    
+                  
+                  
+                    |
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  0.97435
+                  ±
+                  0.00016
+                
+                
+                  0.22500
+                  ±
+                  0.00067
+                
+                
+                  0.00369
+                  ±
+                  0.00011
+                
+              
+              
+                
+                  0.22486
+                  ±
+                  0.00067
+                
+                
+                  0.97349
+                  ±
+                  0.00016
+                
+                
+                  
+                    0.04182
+                    
+                      −
+                      0.00074
+                    
+                    
+                      +
+                      0.00085
+                    
+                  
+                
+              
+              
+                
+                  
+                    0.00857
+                    
+                      −
+                      0.00018
+                    
+                    
+                      +
+                      0.00020
+                    
+                  
+                
+                
+                  
+                    0.04110
+                    
+                      −
+                      0.00072
+                    
+                    
+                      +
+                      0.00083
+                    
+                  
+                
+                
+                  
+                    0.999118
+                    
+                      −
+                      0.000036
+                    
+                    
+                      +
+                      0.000031
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle {\begin{bmatrix}|V_{ud}|&|V_{us}|&|V_{ub}|\\|V_{cd}|&|V_{cs}|&|V_{cb}|\\|V_{td}|&|V_{ts}|&|V_{tb}|\end{bmatrix}}={\begin{bmatrix}0.97435\pm 0.00016&0.22500\pm 0.00067&0.00369\pm 0.00011\\0.22486\pm 0.00067&0.97349\pm 0.00016&0.04182_{-0.00074}^{+0.00085}\\0.00857_{-0.00018}^{+0.00020}&0.04110_{-0.00072}^{+0.00083}&0.999118_{-0.000036}^{+0.000031}\end{bmatrix}}.}
+  
+
+Using those values, one can check the unitarity of the CKM matrix. In particular, we find that the first-row matrix elements give: 
+  
+    
+      
+        
+          |
+        
+        
+          V
+          
+            
+              u
+              d
+            
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        +
+        
+          |
+        
+        
+          V
+          
+            
+              u
+              s
+            
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        +
+        
+          |
+        
+        
+          V
+          
+            
+              u
+              b
+            
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        0.999997
+        ±
+        0.0007
+      
+    
+    {\displaystyle |V_{\mathrm {ud} }|^{2}+|V_{\mathrm {us} }|^{2}+|V_{\mathrm {ub} }|^{2}=0.999997\pm 0.0007}
+  
+
+making the experimental results in line with the theoretical value of 1.
+The choice of usage of down-type quarks in the definition is a convention, and does not represent a physically preferred asymmetry between up-type and down-type quarks. Other conventions are equally valid: The mass eigenstates u, c, and t of the up-type quarks can equivalently define the matrix in terms of their weak interaction partners u′, c′, and t′. Since the CKM matrix is unitary, its inverse is the same as its conjugate transpose, which the alternate choices use; it appears as the same matrix, in a slightly altered form.
+
+
+== General case construction ==
+To generalize the matrix, count the number of physically important parameters in this matrix V which appear in experiments. If there are N generations of quarks (2N flavours) then
+
+An N × N unitary matrix (that is, a matrix V such that V†V = I, where V† is the conjugate transpose of V and I is the identity matrix) requires N2 real parameters to be specified.
+2N − 1 of these parameters are not physically significant, because one phase can be absorbed into each quark field (both of the mass eigenstates, and of the weak eigenstates), but the matrix is independent of a common phase. Hence, the total number of free variables independent of the choice of the phases of basis vectors is N2 − (2N − 1) = (N − 1)2.
+Of these, ⁠1/2⁠N(N − 1) are rotation angles called quark mixing angles.
+The remaining ⁠1/2⁠(N − 1)(N − 2) are complex phases, which cause CP violation.
+
+
+=== N = 2 ===
+For the case N = 2, there is only one parameter, which is a mixing angle between two generations of quarks. Historically, this was the first version of CKM matrix when only two generations were known. It is called the Cabibbo angle after its inventor Nicola Cabibbo.
+
+
+=== N = 3 ===
+For the Standard Model case (N = 3), there are three mixing angles and one CP-violating complex phase.
+
+
+== Observations and predictions ==
+Cabibbo's idea originated from a need to explain two observed phenomena:
+
+the transitions  u ↔ d,   e ↔ νe , and  μ ↔ νμ  had similar amplitudes.
+the transitions with change in strangeness  ΔS = 1  had amplitudes equal to ⁠ 1 /4⁠ of those with  ΔS = 0 .
+Cabibbo's solution consisted of postulating weak universality (see below) to resolve the first issue, along with a mixing angle θc, now called the Cabibbo angle, between the d and s quarks to resolve the second.
+For two generations of quarks, there can be no CP violating phases, as shown by the counting of the previous section. Since CP violations had already been seen in 1964, in neutral kaon decays, the Standard Model that emerged soon after clearly indicated the existence of a third generation of quarks, as Kobayashi and Maskawa pointed out in 1973. The discovery of the bottom quark at Fermilab (by Leon Lederman's group) in 1976 therefore immediately started off the search for the top quark, the missing third-generation quark.
+Note, however, that the specific values that the angles take on are not a prediction of the standard model: They are free parameters. At present, there is no generally-accepted theory that explains why the angles should have the values that are measured in experiments.
+
+
+== Weak universality ==
+The constraints of unitarity of the CKM-matrix on the diagonal terms can be written as
+
+  
+    
+      
+        
+          ∑
+          
+            k
+          
+        
+        
+          |
+        
+        
+          V
+          
+            j
+            k
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            k
+          
+        
+        
+          |
+        
+        
+          V
+          
+            k
+            j
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle \sum _{k}|V_{jk}|^{2}=\sum _{k}|V_{kj}|^{2}=1}
+  
+
+separately for each generation j. This implies that the sum of all couplings of any one of the up-type quarks to all the down-type quarks is the same for all generations. This relation is called weak universality and was first pointed out by Nicola Cabibbo in 1967. Theoretically it is a consequence of the fact that all SU(2) doublets couple with the same strength to the vector bosons of weak interactions. It has been subjected to continuing experimental tests.
+
+
+== Unitary triangles ==
+The remaining constraints of unitarity of the CKM-matrix can be written in the form
+
+  
+    
+      
+        
+          ∑
+          
+            k
+          
+        
+        
+          V
+          
+            i
+            k
+          
+        
+        
+          V
+          
+            j
+            k
+          
+          
+            ∗
+          
+        
+        =
+        0
+         
+        .
+      
+    
+    {\displaystyle \sum _{k}V_{ik}V_{jk}^{*}=0~.}
+  
+
+For any fixed and different i and j, this is a constraint on three complex numbers, one for each k, which says that these numbers form the sides of a triangle in the complex plane. There are six choices of i and j (three independent), and hence six such triangles, each of which is called a unitary triangle. Their shapes can be very different, but they all have the same area, which can be related to the CP violating phase. The area vanishes for the specific parameters in the Standard Model for which there would be no CP violation. The orientation of the triangles depend on the phases of the quark fields.
+A popular quantity amounting to twice the area of the unitarity triangle is the Jarlskog invariant (introduced by Cecilia Jarlskog in 1985), 
+
+  
+    
+      
+        J
+        =
+        
+          c
+          
+            12
+          
+        
+        
+          c
+          
+            13
+          
+          
+            2
+          
+        
+        
+          c
+          
+            23
+          
+        
+        
+          s
+          
+            12
+          
+        
+        
+          s
+          
+            13
+          
+        
+        
+          s
+          
+            23
+          
+        
+        sin
+        ⁡
+        δ
+        ≈
+        3
+        ⋅
+        
+          10
+          
+            −
+            5
+          
+        
+         
+        .
+      
+    
+    {\displaystyle J=c_{12}c_{13}^{2}c_{23}s_{12}s_{13}s_{23}\sin \delta \approx 3\cdot 10^{-5}~.}
+  
+
+For Greek indices denoting up quarks and Latin ones down quarks, the 4-tensor 
+  
+    
+      
+        
+        (
+        α
+        ,
+        β
+        ;
+        i
+        ,
+        j
+        )
+        ≡
+        Im
+        ⁡
+        (
+        
+          V
+          
+            α
+            i
+          
+        
+        
+          V
+          
+            β
+            j
+          
+        
+        
+          V
+          
+            α
+            j
+          
+          
+            ∗
+          
+        
+        
+          V
+          
+            β
+            i
+          
+          
+            ∗
+          
+        
+        )
+        
+      
+    
+    {\displaystyle \;(\alpha ,\beta ;i,j)\equiv \operatorname {Im} (V_{\alpha i}V_{\beta j}V_{\alpha j}^{*}V_{\beta i}^{*})\;}
+  
+ is doubly antisymmetric,
+
+  
+    
+      
+        (
+        β
+        ,
+        α
+        ;
+        i
+        ,
+        j
+        )
+        =
+        −
+        (
+        α
+        ,
+        β
+        ;
+        i
+        ,
+        j
+        )
+        =
+        (
+        α
+        ,
+        β
+        ;
+        j
+        ,
+        i
+        )
+         
+        .
+      
+    
+    {\displaystyle (\beta ,\alpha ;i,j)=-(\alpha ,\beta ;i,j)=(\alpha ,\beta ;j,i)~.}
+  
+
+Up to antisymmetry, it only has  9 = 3 × 3  non-vanishing components, which, remarkably, from the unitarity of V, can be shown to be all identical in magnitude, that is,
+
+  
+    
+      
+        (
+        α
+        ,
+        β
+        ;
+        i
+        ,
+        j
+        )
+        =
+        J
+         
+        
+          
+            
+              [
+              
+                
+                  
+                    
+                     
+                     
+                    0
+                  
+                  
+                    
+                     
+                     
+                    1
+                  
+                  
+                    −
+                    1
+                  
+                
+                
+                  
+                    −
+                    1
+                  
+                  
+                    
+                     
+                     
+                    0
+                  
+                  
+                    
+                     
+                     
+                    1
+                  
+                
+                
+                  
+                    
+                     
+                     
+                    1
+                  
+                  
+                    −
+                    1
+                  
+                  
+                    
+                     
+                     
+                    0
+                  
+                
+              
+              ]
+            
+          
+          
+            α
+            β
+          
+        
+        ⊗
+        
+          
+            
+              [
+              
+                
+                  
+                    
+                     
+                     
+                    0
+                  
+                  
+                    
+                     
+                     
+                    1
+                  
+                  
+                    −
+                    1
+                  
+                
+                
+                  
+                    −
+                    1
+                  
+                  
+                    
+                     
+                     
+                    0
+                  
+                  
+                    
+                     
+                     
+                    1
+                  
+                
+                
+                  
+                    
+                     
+                     
+                    1
+                  
+                  
+                    −
+                    1
+                  
+                  
+                    
+                     
+                     
+                    0
+                  
+                
+              
+              ]
+            
+          
+          
+            i
+            j
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle (\alpha ,\beta ;i,j)=J~{\begin{bmatrix}\;~~0&\;~~1&-1\\-1&\;~~0&\;~~1\\\;~~1&-1&\;~~0\end{bmatrix}}_{\alpha \beta }\otimes {\begin{bmatrix}\;~~0&\;~~1&-1\\-1&\;~~0&\;~~1\\\;~~1&-1&\;~~0\end{bmatrix}}_{ij}\;,}
+  
+
+so that 
+
+  
+    
+      
+        J
+        =
+        (
+        u
+        ,
+        c
+        ;
+        s
+        ,
+        b
+        )
+        =
+        (
+        u
+        ,
+        c
+        ;
+        d
+        ,
+        s
+        )
+        =
+        (
+        u
+        ,
+        c
+        ;
+        b
+        ,
+        d
+        )
+        =
+        (
+        c
+        ,
+        t
+        ;
+        s
+        ,
+        b
+        )
+        =
+        (
+        c
+        ,
+        t
+        ;
+        d
+        ,
+        s
+        )
+        =
+        (
+        c
+        ,
+        t
+        ;
+        b
+        ,
+        d
+        )
+        =
+        (
+        t
+        ,
+        u
+        ;
+        s
+        ,
+        b
+        )
+        =
+        (
+        t
+        ,
+        u
+        ;
+        b
+        ,
+        d
+        )
+        =
+        (
+        t
+        ,
+        u
+        ;
+        d
+        ,
+        s
+        )
+         
+        .
+      
+    
+    {\displaystyle J=(u,c;s,b)=(u,c;d,s)=(u,c;b,d)=(c,t;s,b)=(c,t;d,s)=(c,t;b,d)=(t,u;s,b)=(t,u;b,d)=(t,u;d,s)~.}
+  
+
+Since the three sides of the triangles are open to direct experiment, as are the three angles, a class of tests of the Standard Model is to check that the triangle closes. This is the purpose of a modern series of experiments under way at the Japanese BELLE and the American BaBar experiments, as well as at LHCb in CERN, Switzerland.
+
+
+== Parameterizations ==
+Four independent parameters are required to fully define the CKM matrix.  Many parameterizations have been proposed, and three of the most common ones are shown below.
+
+
+=== KM parameters ===
+The original parameterization of Kobayashi and Maskawa used three angles ( θ1, θ2, θ3 ) and a CP-violating phase angle ( δ ). θ1 is the Cabibbo angle. For brevity, the cosines and sines of the angles θk are denoted ck and sk, for k = 1, 2, 3 respectively. 
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    c
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    s
+                    
+                      1
+                    
+                  
+                  
+                    c
+                    
+                      3
+                    
+                  
+                
+                
+                  
+                    s
+                    
+                      1
+                    
+                  
+                  
+                    s
+                    
+                      3
+                    
+                  
+                
+              
+              
+                
+                  −
+                  
+                    s
+                    
+                      1
+                    
+                  
+                  
+                    c
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    c
+                    
+                      1
+                    
+                  
+                  
+                    c
+                    
+                      2
+                    
+                  
+                  
+                    c
+                    
+                      3
+                    
+                  
+                  −
+                  
+                    s
+                    
+                      2
+                    
+                  
+                  
+                    s
+                    
+                      3
+                    
+                  
+                  
+                    e
+                    
+                      i
+                      δ
+                    
+                  
+                
+                
+                  
+                    c
+                    
+                      1
+                    
+                  
+                  
+                    c
+                    
+                      2
+                    
+                  
+                  
+                    s
+                    
+                      3
+                    
+                  
+                  +
+                  
+                    s
+                    
+                      2
+                    
+                  
+                  
+                    c
+                    
+                      3
+                    
+                  
+                  
+                    e
+                    
+                      i
+                      δ
+                    
+                  
+                
+              
+              
+                
+                  −
+                  
+                    s
+                    
+                      1
+                    
+                  
+                  
+                    s
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    c
+                    
+                      1
+                    
+                  
+                  
+                    s
+                    
+                      2
+                    
+                  
+                  
+                    c
+                    
+                      3
+                    
+                  
+                  +
+                  
+                    c
+                    
+                      2
+                    
+                  
+                  
+                    s
+                    
+                      3
+                    
+                  
+                  
+                    e
+                    
+                      i
+                      δ
+                    
+                  
+                
+                
+                  
+                    c
+                    
+                      1
+                    
+                  
+                  
+                    s
+                    
+                      2
+                    
+                  
+                  
+                    s
+                    
+                      3
+                    
+                  
+                  −
+                  
+                    c
+                    
+                      2
+                    
+                  
+                  
+                    c
+                    
+                      3
+                    
+                  
+                  
+                    e
+                    
+                      i
+                      δ
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle {\begin{bmatrix}c_{1}&s_{1}c_{3}&s_{1}s_{3}\\-s_{1}c_{2}&c_{1}c_{2}c_{3}-s_{2}s_{3}e^{i\delta }&c_{1}c_{2}s_{3}+s_{2}c_{3}e^{i\delta }\\-s_{1}s_{2}&c_{1}s_{2}c_{3}+c_{2}s_{3}e^{i\delta }&c_{1}s_{2}s_{3}-c_{2}c_{3}e^{i\delta }\end{bmatrix}}.}
+  
+
+
+=== "Standard" CK parameters ===
+A "standard" Chau-Keung parameterization of the CKM matrix uses three Euler angles ( θ12, θ23, θ13 ) and one CP-violating phase ( δ13 ). θ12 is the Cabibbo angle. This is the convention advocated by the Particle Data Group. Couplings between quark generations j and k vanish if θjk = 0 . Cosines and sines of the angles are denoted cjk and sjk, respectively.
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  
+                    [
+                    
+                      
+                        
+                          1
+                        
+                        
+                          0
+                        
+                        
+                          0
+                        
+                      
+                      
+                        
+                          0
+                        
+                        
+                          
+                            c
+                            
+                              23
+                            
+                          
+                        
+                        
+                          
+                            s
+                            
+                              23
+                            
+                          
+                        
+                      
+                      
+                        
+                          0
+                        
+                        
+                          −
+                          
+                            s
+                            
+                              23
+                            
+                          
+                        
+                        
+                          
+                            c
+                            
+                              23
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          1
+                        
+                        
+                          0
+                        
+                        
+                          0
+                        
+                      
+                      
+                        
+                          0
+                        
+                        
+                          1
+                        
+                        
+                          0
+                        
+                      
+                      
+                        
+                          0
+                        
+                        
+                          0
+                        
+                        
+                          
+                            e
+                            
+                              i
+                              δ
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            c
+                            
+                              13
+                            
+                          
+                        
+                        
+                          0
+                        
+                        
+                          
+                            s
+                            
+                              13
+                            
+                          
+                        
+                      
+                      
+                        
+                          0
+                        
+                        
+                          1
+                        
+                        
+                          0
+                        
+                      
+                      
+                        
+                          −
+                          
+                            s
+                            
+                              13
+                            
+                          
+                        
+                        
+                          0
+                        
+                        
+                          
+                            c
+                            
+                              13
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          1
+                        
+                        
+                          0
+                        
+                        
+                          0
+                        
+                      
+                      
+                        
+                          0
+                        
+                        
+                          1
+                        
+                        
+                          0
+                        
+                      
+                      
+                        
+                          0
+                        
+                        
+                          0
+                        
+                        
+                          
+                            e
+                            
+                              −
+                              i
+                              δ
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            c
+                            
+                              12
+                            
+                          
+                        
+                        
+                          
+                            s
+                            
+                              12
+                            
+                          
+                        
+                        
+                          0
+                        
+                      
+                      
+                        
+                          −
+                          
+                            s
+                            
+                              12
+                            
+                          
+                        
+                        
+                          
+                            c
+                            
+                              12
+                            
+                          
+                        
+                        
+                          0
+                        
+                      
+                      
+                        
+                          0
+                        
+                        
+                          0
+                        
+                        
+                          1
+                        
+                      
+                    
+                    ]
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            c
+                            
+                              12
+                            
+                          
+                          
+                            c
+                            
+                              13
+                            
+                          
+                        
+                        
+                          
+                            s
+                            
+                              12
+                            
+                          
+                          
+                            c
+                            
+                              13
+                            
+                          
+                        
+                        
+                          
+                            s
+                            
+                              13
+                            
+                          
+                          
+                            e
+                            
+                              −
+                              i
+                              
+                                δ
+                                
+                                  13
+                                
+                              
+                            
+                          
+                        
+                      
+                      
+                        
+                          −
+                          
+                            s
+                            
+                              12
+                            
+                          
+                          
+                            c
+                            
+                              23
+                            
+                          
+                          −
+                          
+                            c
+                            
+                              12
+                            
+                          
+                          
+                            s
+                            
+                              23
+                            
+                          
+                          
+                            s
+                            
+                              13
+                            
+                          
+                          
+                            e
+                            
+                              i
+                              
+                                δ
+                                
+                                  13
+                                
+                              
+                            
+                          
+                        
+                        
+                          
+                            c
+                            
+                              12
+                            
+                          
+                          
+                            c
+                            
+                              23
+                            
+                          
+                          −
+                          
+                            s
+                            
+                              12
+                            
+                          
+                          
+                            s
+                            
+                              23
+                            
+                          
+                          
+                            s
+                            
+                              13
+                            
+                          
+                          
+                            e
+                            
+                              i
+                              
+                                δ
+                                
+                                  13
+                                
+                              
+                            
+                          
+                        
+                        
+                          
+                            s
+                            
+                              23
+                            
+                          
+                          
+                            c
+                            
+                              13
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            s
+                            
+                              12
+                            
+                          
+                          
+                            s
+                            
+                              23
+                            
+                          
+                          −
+                          
+                            c
+                            
+                              12
+                            
+                          
+                          
+                            c
+                            
+                              23
+                            
+                          
+                          
+                            s
+                            
+                              13
+                            
+                          
+                          
+                            e
+                            
+                              i
+                              
+                                δ
+                                
+                                  13
+                                
+                              
+                            
+                          
+                        
+                        
+                          −
+                          
+                            c
+                            
+                              12
+                            
+                          
+                          
+                            s
+                            
+                              23
+                            
+                          
+                          −
+                          
+                            s
+                            
+                              12
+                            
+                          
+                          
+                            c
+                            
+                              23
+                            
+                          
+                          
+                            s
+                            
+                              13
+                            
+                          
+                          
+                            e
+                            
+                              i
+                              
+                                δ
+                                
+                                  13
+                                
+                              
+                            
+                          
+                        
+                        
+                          
+                            c
+                            
+                              23
+                            
+                          
+                          
+                            c
+                            
+                              13
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&{\begin{bmatrix}1&0&0\\0&c_{23}&s_{23}\\0&-s_{23}&c_{23}\end{bmatrix}}{\begin{bmatrix}1&0&0\\0&1&0\\0&0&e^{i\delta }\end{bmatrix}}{\begin{bmatrix}c_{13}&0&s_{13}\\0&1&0\\-s_{13}&0&c_{13}\\\end{bmatrix}}{\begin{bmatrix}1&0&0\\0&1&0\\0&0&e^{-i\delta }\end{bmatrix}}{\begin{bmatrix}c_{12}&s_{12}&0\\-s_{12}&c_{12}&0\\0&0&1\end{bmatrix}}\\&={\begin{bmatrix}c_{12}c_{13}&s_{12}c_{13}&s_{13}e^{-i\delta _{13}}\\-s_{12}c_{23}-c_{12}s_{23}s_{13}e^{i\delta _{13}}&c_{12}c_{23}-s_{12}s_{23}s_{13}e^{i\delta _{13}}&s_{23}c_{13}\\s_{12}s_{23}-c_{12}c_{23}s_{13}e^{i\delta _{13}}&-c_{12}s_{23}-s_{12}c_{23}s_{13}e^{i\delta _{13}}&c_{23}c_{13}\end{bmatrix}}.\end{aligned}}}
+  
+
+The 2008 values for the standard parameters were:
+
+θ12 = 13.04°±0.05°, θ13 = 0.201°±0.011°,  θ23 = 2.38°±0.06°
+and
+
+δ13 = 1.20±0.08 radians = 68.8°±4.5°.
+
+
+=== Wolfenstein parameters ===
+A third parameterization of the CKM matrix was introduced by Lincoln Wolfenstein with the four real parameters λ, A, ρ, and η, which would all 'vanish' (would be zero) if there were no coupling. The four Wolfenstein parameters have the property that all are of order 1 and are related to the 'standard' parameterization:
+
+Although the Wolfenstein parameterization of the CKM matrix can be as exact as desired when carried to high order, it is mainly used for generating convenient approximations to the standard parameterization. The approximation to order λ3, good to better than 0.3% accuracy, is:
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  1
+                  −
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                  
+                    λ
+                    
+                      2
+                    
+                  
+                
+                
+                  λ
+                
+                
+                  A
+                  
+                    λ
+                    
+                      3
+                    
+                  
+                  (
+                  ρ
+                  −
+                  i
+                  η
+                  )
+                
+              
+              
+                
+                  −
+                  λ
+                
+                
+                  1
+                  −
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                  
+                    λ
+                    
+                      2
+                    
+                  
+                
+                
+                  A
+                  
+                    λ
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  A
+                  
+                    λ
+                    
+                      3
+                    
+                  
+                  (
+                  1
+                  −
+                  ρ
+                  −
+                  i
+                  η
+                  )
+                
+                
+                  −
+                  A
+                  
+                    λ
+                    
+                      2
+                    
+                  
+                
+                
+                  1
+                
+              
+            
+            ]
+          
+        
+        +
+        O
+        (
+        
+          λ
+          
+            4
+          
+        
+        )
+         
+        .
+      
+    
+    {\displaystyle {\begin{bmatrix}1-{\tfrac {1}{2}}\lambda ^{2}&\lambda &A\lambda ^{3}(\rho -i\eta )\\-\lambda &1-{\tfrac {1}{2}}\lambda ^{2}&A\lambda ^{2}\\A\lambda ^{3}(1-\rho -i\eta )&-A\lambda ^{2}&1\end{bmatrix}}+O(\lambda ^{4})~.}
+  
+
+Rates of CP violation correspond to the parameter η.
+Using the values of the previous section for the CKM matrix, as of 2008 the best determination of the Wolfenstein parameter values is:
+
+λ =.22500 ± 0.0067,   A = 0.826+0.018−0.015,   ρ = 0.159±0.010,   and   η = 0.348±0.010.
+
+
+== Nobel Prize ==
+In 2008, Kobayashi and Maskawa shared one half of the Nobel Prize in Physics "for the discovery of the origin of the broken symmetry which predicts the existence of at least three families of quarks in nature". Some physicists were reported to harbor bitter feelings about the fact that the Nobel Prize committee failed to reward the work of Cabibbo, whose prior work was closely related to that of Kobayashi and Maskawa. Asked for a reaction on the prize, Cabibbo preferred to give no comment.
+
+
+== See also ==
+Formulation of the Standard Model and CP violations
+Quantum chromodynamics, flavour and strong CP problem
+Weinberg angle, a similar angle for Z and photon mixing
+Pontecorvo–Maki–Nakagawa–Sakata matrix, the equivalent mixing matrix for neutrinos
+Koide formula
+
+
+== References ==
+
+
+== Further reading and external links ==
+D.J. Griffiths (2008). Introduction to Elementary Particles (2nd ed.). John Wiley & Sons. ISBN 978-3-527-40601-2.
+B. Povh; et al. (1995). Particles and Nuclei: An Introduction to the Physical Concepts. Springer. ISBN 978-3-540-20168-7.
+I.I. Bigi, A.I. Sanda (2000). CP violation. Cambridge University Press. ISBN 978-0-521-44349-4.
+"Particle Data Group: The CKM quark-mixing matrix" (PDF).
+"Particle Data Group: CP violation in meson decays" (PDF).
+"The Babar experiment". at SLAC, California, and "the BELLE experiment". at KEK, Japan.

@@ -1,0 +1,61 @@
+Wikipedia article: Cardiac skeleton
+Source: https://en.wikipedia.org/wiki/Cardiac_skeleton
+PageID: 3071039
+======================================================================
+
+In cardiology, the cardiac skeleton, also known as the fibrous skeleton of the heart, is a high-density homogeneous structure of connective tissue that forms and anchors the valves of the heart, and influences the forces exerted by and through them. The cardiac skeleton separates and partitions the atria (the smaller, upper two chambers) from the ventricles (the larger, lower two chambers). The heart's cardiac skeleton comprises four dense connective tissue rings that encircle the mitral and tricuspid atrioventricular (AV) canals and extend to the origins of the pulmonary trunk and aorta. This provides crucial support and structure to the heart while also serving to electrically isolate the atria from the ventricles. 
+The unique matrix of connective tissue within the cardiac skeleton isolates electrical influence within these defined chambers. In normal anatomy, there is only one conduit for electrical conduction from the upper chambers to the lower chambers, known as the atrioventricular node. The physiologic cardiac skeleton forms a firewall governing autonomic/electrical influence until bordering the bundle of His which further governs autonomic flow to the bundle branches of the ventricles. Understood as such, the cardiac skeleton efficiently centers and robustly funnels electrical energy from the atria to the ventricles.
+
+
+== Structure ==
+The structure of the components of the heart has become an area of increasing interest. The cardiac skeleton binds several bands of dense connective tissue, as collagen, that encircle the bases of the pulmonary trunk, aorta, and all four heart valves. While not a traditionally or "true" or rigid skeleton, it does provide structure and support for the heart, as well as isolate the atria from the ventricles. This is why atrial fibrillation almost never degrades to ventricular fibrillation. In youth, this collagen structure is free of calcium adhesions and is quite flexible. With aging, calcium and other mineral accumulation occur within this skeleton. Distensibility of the ventricles is tied to variable accumulation of minerals which also contributes to the delay of the depolarization wave in geriatric patients that can take place from the AV node and the bundle of His.
+
+
+=== Fibrous rings ===
+
+The right and left fibrous rings of heart (annuli fibrosi cordis) surround the atrioventricular and arterial orifices.  The right fibrous ring is known as the annulus fibrosus dexter cordis, and the left is known as the annulus fibrosus sinister cordis. The right fibrous trigone is continuous with the central fibrous body. This is the strongest part of the fibrous cardiac skeleton.
+The upper chambers (atria) and lower (ventricles) are electrically divided by the properties of collagen proteins within the rings. The valve rings, central body, and skeleton of the heart consisting of collagen are impermeable to electrical propagation. The only channel allowed (barring accessory/rare preexcitation channels) through this collagen barrier is represented by a sinus that opens up to the atrioventricular node and exits to the bundle of His. The muscle origins/insertions of many of the cardiomyocytes are anchored to opposite sides of the valve rings.
+The atrioventricular rings serve for the attachment of the muscular fibers of the atria and ventricles, and for the attachment of the bicuspid and tricuspid valves.
+The left atrioventricular ring is closely connected, by its right margin, with the aortic arterial ring; between these and the right atrioventricular ring is a triangular mass of fibrous tissue, the fibrous trigone, which represents the os cordis seen in the heart of some of the larger animals, such as the ox.
+Lastly, there is the tendinous band, already referred to, the posterior surface of the conus arteriosus.
+The fibrous rings surrounding the arterial orifices serve for the attachment of the great vessels and semilunar valves, they are known as The aortic annulus.
+Each ring receives, by its ventricular margin, the attachment of some of the muscular fibers of the ventricles; its opposite margin presents three deep semicircular notches, to which the middle coat of the artery is firmly fixed.
+The attachment of the artery to its fibrous ring is strengthened by the external coat and serous membrane externally, and by the endocardium internally.
+From the margins of the semicircular notches, the fibrous structure of the ring is continued into the segments of the valves.
+The middle coat of the artery in this situation is thin, and the vessel is dilated to form the sinuses of the aorta and pulmonary artery.
+
+
+=== Os cordis ===
+In some animals, the fibrous trigone can undergo increasing mineralization with age, leading to the formation of a significant os cordis (heart bone), or two (os cordis sinistrum and os cordis dextrum, the latter being the larger one). The os cordis is thought to serve mechanical functions.
+In humans, two paired trigones (left and right) are seen in this essential view of anatomy. As a surgical purchase point, the Trigones risk much in AV propagation.
+It has been known since Classical times in deer and oxen and was thought to have medicinal properties and mystical properties. It is occasionally observed in goats, but also in other animals such as otters. It was recently also discovered in chimpanzees, the only great ape so far to known to have os cordis. 
+Against the opinion of his time, Galen wrote that the os cordis was also found in elephants. The claim endured up to the nineteenth century and was still treated as fact in Gray's Anatomy, although it is not the case.
+
+
+== Function ==
+
+Electrical signals from the sinoatrial node and the autonomic nervous system must find their way from the upper chambers to the lower ones to ensure that the ventricles can drive the flow of blood. The heart functions as a pump delivering an intermittent volume of blood, incrementally delivered to the lungs, body, and brain.
+The cardiac skeleton ensures that the electrical and autonomic energy generated above is ushered below and cannot return. The cardiac skeleton does this by establishing an electrically impermeable boundary to autonomic electrical influence within the heart. Simply put, the dense connective tissue within the cardiac skeleton does not conduct electricity and its deposition within the myocardial matrix is not accidental.
+The anchored and electrically inert collagen framework of the four valves allows normal anatomy to house the atrioventricular node (AV node) in its center. The AV node is the only electrical conduit from the atria to the ventricles through the cardiac skeleton, which is why atrial fibrillation can never degrade into ventricular fibrillation.
+Throughout life, the cardiac collagen skeleton is remodeled. Where collagen is diminished by age, calcium is often deposited, thus allowing readily imaged mathematical markers which are especially valuable in measuring systolic volumetrics. The inert characteristics of the collagen structure that blocks electrical influence also make it difficult to attain an accurate signal for imaging without allowing for an applied ratio of collagen to calcium.
+
+
+== History ==
+Boundaries within the heart were first described and greatly magnified by Drs. Charles S. Peskin and David M. McQueen at the Courant Institute of Mathematical Sciences.
+
+
+== See also ==
+
+Chordae tendineae
+Fibrous ring of intervertebral disk
+Coronary arteries
+Coronary sinus
+
+
+== References ==
+ This article incorporates text in the public domain from page 536 of the 20th edition of Gray's Anatomy (1918)
+
+
+== External links ==
+Description at cwc.net
+Histology (see slide #96)

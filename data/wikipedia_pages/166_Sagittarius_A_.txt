@@ -1,0 +1,269 @@
+Wikipedia article: Sagittarius A*
+Source: https://en.wikipedia.org/wiki/Sagittarius_A*
+PageID: 840191
+======================================================================
+
+Sagittarius A*, abbreviated as Sgr A* ( SADGE-AY-star), is the supermassive black hole at the Galactic Center of the Milky Way. Viewed from Earth, it is located near the border of the constellations Sagittarius and Scorpius, about 5.6° south of the ecliptic, visually close to the Butterfly Cluster (M6) and Lambda Scorpii. Sagittarius A* is a bright and very compact astronomical radio source.
+In May 2022, astronomers released the first image of the accretion disk around the event horizon of Sagittarius A*, using the Event Horizon Telescope, a world-wide network of radio observatories. This is the second confirmed image of a black hole, after Messier 87's supermassive black hole in 2019. The black hole itself is not seen; as light is incapable of escaping the immense gravitational force of a black hole, only nearby objects whose behavior is influenced by the black hole can be observed. The observed radio and infrared energy emanates from gas and dust heated to millions of degrees while falling into the black hole.
+Sgr A* was discovered in 1974 by Bruce Balick and Robert L. Brown, and the asterisk * was assigned in 1982 by Brown, who understood that the strongest radio emission from the center of the galaxy appeared to be due to a compact non-thermal radio object embedded in a larger, and much brighter, radio source, Sagittarius A (Sgr A).
+The observation of several stars orbiting Sagittarius A*, particularly star S2, have been used to determine the mass and upper limits on the radius of the object. Based on the mass and the precise radius limits obtained, astronomers concluded that Sagittarius A* was the central supermassive black hole of the Milky Way galaxy. The current best estimate of its mass is 4.297±0.012 million solar masses.
+Reinhard Genzel and Andrea Ghez were each awarded a quarter share in the 2020 Nobel Prize in Physics for their discovery that Sagittarius A* is a supermassive compact object, for which a black hole was the only  explanation. Sir Roger Penrose received the other half "for the discovery that black hole formation is a robust prediction of the general theory of relativity".
+
+
+== Observation and description ==
+
+On May 12, 2022, the first image of Sagittarius A* was released by the Event Horizon Telescope Collaboration. The image, which is based on radio interferometer data taken in 2017, confirms that the object contains a black hole. This is the second image of a black hole, and took five years of calculations to process. The data were collected by eight radio observatories at six geographical sites. Radio images are produced from data by aperture synthesis, usually from night-long observations of stable sources. The radio emission from Sgr A* varies on the order of minutes, complicating the analysis.
+Their result gives an overall angular size for the source of 51.8±2.3 μas. At a distance of 26,000 light-years (8,000 parsecs), this yields a diameter of 51.8 million kilometres (32.2 million miles). For comparison, Earth is 150 million kilometres (1.0 astronomical unit; 93 million miles) from the Sun, and Mercury is 46 million km (0.31 AU; 29 million mi) from the Sun at perihelion. The proper motion of Sgr A* is approximately −2.70 mas per year for the right ascension and −5.6 mas per year for the declination.
+The telescope's measurement of these black holes tested Einstein's theory of relativity more rigorously than has previously been done, and the results match perfectly.
+In 2019, measurements made with the High-resolution Airborne Wideband Camera-Plus (HAWC+) mounted in the SOFIA aircraft revealed that magnetic fields cause the surrounding ring of gas and dust, temperatures of which range from −280 to 17,500 °F (99.8 to 9,977.6 K; −173.3 to 9,704.4 °C), to flow into an orbit around Sagittarius A*, keeping black hole emissions low.
+Astronomers have been unable to observe Sgr A* in the visible spectrum because of the effect of 25 magnitudes of extinction (absorption and scattering) by dust and gas between the source and Earth.
+
+
+== History ==
+In April 1933, Karl Jansky, considered one of the fathers of radio astronomy, discovered that a radio signal was coming from a location in the direction of the constellation of Sagittarius, towards the center of the Milky Way. The radio source later became known as Sagittarius A. His observations did not extend quite as far south as we now know to be the Galactic Center. Observations by Jack Piddington and Harry Minnett using the CSIRO radio telescope at Potts Hill Reservoir, in Sydney discovered a discrete and bright "Sagittarius-Scorpius" radio source, which after further observation with the 80-foot (24-metre) CSIRO radio telescope at Dover Heights was identified in a letter to Nature as the probable Galactic Center.
+Later observations showed that Sagittarius A actually consists of several overlapping sub-components; a bright and very compact component, Sgr A*, was discovered on February 13 and 15, 1974, by Balick and Robert L. Brown using the baseline interferometer of the National Radio Astronomy Observatory. The name Sgr A* was coined by Brown in a 1982 paper because the radio source was "exciting", and excited states of atoms are denoted with asterisks.
+Since the 1980s, it has been evident that the central component of Sgr A* is likely a black hole. In 1994, infrared and sub-millimetre spectroscopy studies by a Berkeley team involving Nobel Laureate Charles H. Townes and future Nobel Prize Winner Reinhard Genzel showed that the mass of Sgr A* was tightly concentrated and on the order of 3 million Suns.
+On October 16, 2002, an international team led by Reinhard Genzel at the Max Planck Institute for Extraterrestrial Physics reported the observation of the motion of the star S2 near Sagittarius A* throughout a period of ten years. According to the team's analysis, the data ruled out the possibility that Sgr A* contains a cluster of dark stellar objects or a mass of degenerate fermions, strengthening the evidence for a massive black hole. The observations of S2 used near-infrared (NIR) interferometry (in the Ks-band, i.e. 2.1 μm) because of reduced interstellar extinction in this band. SiO masers were used to align NIR images with radio observations, as they can be observed in both NIR and radio bands. The rapid motion of S2 (and other nearby stars) easily stood out against slower-moving stars along the line-of-sight so these could be subtracted from the images.
+
+The VLBI radio observations of Sagittarius A* could also be aligned centrally with the NIR images, so the focus of S2's elliptical orbit was found to coincide with the position of Sagittarius A*. From examining the Keplerian orbit of S2, they determined the mass of Sagittarius A* to be 4.1±0.6 million solar masses, confined in a volume with a radius no more than 17 light-hours (120 AU [18 billion km; 11 billion mi]). Later observations of the star S14 showed the mass of the object to be about 4.1 million solar masses within a volume with radius no larger than 6.25 light-hours (45 AU [6.7 billion km; 4.2 billion mi]). S175 passed within a similar distance. For comparison, the Schwarzschild radius is 0.08 AU (12 million km; 7.4 million mi). They also determined the distance from Earth to the Galactic Center (the rotational center of the Milky Way), which is important in calibrating astronomical distance scales, as 8,000 ± 600 parsecs (30,000 ± 2,000 light-years). In November 2004, a team of astronomers reported the discovery of a potential intermediate-mass black hole, referred to as GCIRS 13E, orbiting 3 light-years from Sagittarius A*. This black hole of 1,300 solar masses is within a cluster of seven stars. This observation may add support to the idea that supermassive black holes grow by absorbing nearby smaller black holes and stars.
+After monitoring stellar orbits around Sagittarius A* for 16 years, Gillessen et al. estimated the object's mass at 4.31±0.38 million solar masses. The result was announced in 2008 and published in The Astrophysical Journal in 2009. Reinhard Genzel, team leader of the research, said the study has delivered "what is now considered to be the best empirical evidence that supermassive black holes do really exist. The stellar orbits in the Galactic Center show that the central mass concentration of four million solar masses must be a black hole, beyond any reasonable doubt."
+On January 5, 2015, NASA reported observing an X-ray flare 400 times brighter than usual, a record-breaker, from Sgr A*. The unusual event may have been caused by the breaking apart of an asteroid falling into the black hole or by the entanglement of magnetic field lines within gas flowing into Sgr A*, according to astronomers.
+On 13 May 2019, astronomers using the Keck Observatory witnessed a sudden brightening of Sgr A*, which became 75 times brighter than usual, suggesting that the supermassive black hole may have encountered another object.
+In June 2023, unexplained filaments of radio energy were found associated with Sagittarius A*.
+
+
+== Central black hole ==
+In a paper published on October 31, 2018, the discovery of conclusive evidence that Sagittarius A* is a black hole was announced. Using the GRAVITY interferometer and the four telescopes of the Very Large Telescope (VLT) to create a virtual telescope 130 metres (430 feet) in diameter, astronomers detected clumps of gas moving at about 30% of the speed of light. Emission from highly energetic electrons very close to the black hole was visible as three prominent bright flares. These exactly match theoretical predictions for hot spots orbiting close to a black hole of four million solar masses. The flares are thought to originate from magnetic interactions in the very hot gas orbiting very close to Sagittarius A*.
+In July 2018, it was reported that S2 orbiting Sgr A* had been recorded at 7,650 km/s (17.1 million mph), or 2.55% the speed of light, leading up to the pericenter approach, in May 2018, at about 120 AU (18 billion km; 11 billion mi) (approximately 1,400 Schwarzschild radii) from Sgr A*. At that close distance to the black hole, Einstein's theory of general relativity predicts that S2 would show a discernible gravitational redshift in addition to the usual velocity redshift. The gravitational redshift was detected, in agreement with the general relativity prediction within the 10 percent measurement precision.
+The Sagittarius A* radio emissions are not centered on the black hole, but arise from a bright spot in the region around the black hole, close to the event horizon, possibly in the accretion disc, or a relativistic jet of material ejected from the disc. If the apparent position of Sagittarius A* were exactly centered on the black hole, it would be possible to see it magnified beyond its size, because of gravitational lensing of the black hole. According to general relativity, this would result in a ring-like structure, which has a diameter about 5.2 times the black hole's Schwarzschild radius (10 μas). For a black hole of around 4 million solar masses, this corresponds to a size of approximately 52 μas, which is consistent with the observed overall size of about 50 μas, the size (apparent diameter) of the black hole Sgr A* itself being 20 μas.
+Lower resolution observations revealed that the radio source of Sagittarius A* is symmetrical. Simulations of alternative theories of gravity depict results that may be difficult to distinguish from GR. A 2018 paper predicted an image of Sagittarius A* that is in agreement with  observations. In particular, it explains the small angular size and the symmetrical morphology of the source.
+The mass of Sagittarius A* has been estimated in two different ways:
+
+Two groups—in Germany and the U.S.—monitored the orbits of individual stars very near to the black hole and used Kepler's laws to infer the enclosed mass. The German group found a mass of 4.31±0.38 million solar masses, whereas the American group found 4.1±0.6 million solar masses.
+More recently, measurement of the proper motions of a sample of several thousand stars within approximately one parsec from the black hole, combined with a statistical technique, has yielded both an estimate of the black hole's mass at 3.6+0.2−0.4×106 M☉, plus a distributed mass in the central parsec amounting to (1±0.5)×106 M☉. The latter is thought to be composed of stars and stellar remnants.
+
+The comparatively small mass of this supermassive black hole, along with the low luminosity of the radio and infrared emission lines, imply that the Milky Way is not a Seyfert galaxy.
+Ultimately, what is seen is not the black hole itself, but observations that are consistent only if there is a black hole present near Sgr A*. In the case of such a black hole, the observed radio and infrared energy emanates from gas and dust heated to millions of degrees while falling into the black hole. The black hole itself is thought to emit only Hawking radiation at a negligible temperature, on the order of 10−14 kelvin.
+The European Space Agency's gamma-ray observatory INTEGRAL observed gamma rays interacting with the nearby giant molecular cloud Sagittarius B2, causing X-ray emission from the cloud. The total luminosity from this outburst (L≈1,5×1039 erg/s) is estimated to be a million times stronger than the current output from Sgr A* and is comparable with a typical active galactic nucleus. In 2011 this conclusion was supported by Japanese astronomers observing the Milky Way's center with the Suzaku satellite.
+In July 2019, astronomers reported finding a star, S5-HVS1, traveling 1,755 km/s (3.93 million mph) or 0.006 c. The star is in the Grus (or Crane) constellation in the southern sky, and about 29,000 light-years from Earth, and may have been propelled out of the Milky Way galaxy after interacting with Sagittarius A*.
+Several values have been given for its spin parameter 
+  
+    
+      
+        
+          a
+          
+            ∗
+          
+        
+        =
+        
+          
+            
+              c
+              J
+            
+            
+              G
+              
+                M
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle a_{*}={\frac {cJ}{GM^{2}}}}
+  
+; some examples are Fragione & Loeb (2020) 
+  
+    
+      
+        
+          a
+          
+            ∗
+          
+        
+        <
+        0.1
+      
+    
+    {\displaystyle a_{*}<0.1}
+  
+, Belanger et al. (2006) 
+  
+    
+      
+        
+          a
+          
+            ∗
+          
+        
+        ∼
+        0.22
+      
+    
+    {\displaystyle a_{*}\sim 0.22}
+  
+, Meyer et al. (2006) 
+  
+    
+      
+        
+          a
+          
+            ∗
+          
+        
+        >
+        0.4
+      
+    
+    {\displaystyle a_{*}>0.4}
+  
+, Genzel et al. (2003) 
+  
+    
+      
+        
+          a
+          
+            ∗
+          
+        
+        ∼
+        0.52
+      
+    
+    {\displaystyle a_{*}\sim 0.52}
+  
+, 
+Daly (2019) 
+  
+    
+      
+        
+          a
+          
+            ∗
+          
+        
+        =
+        0.93
+        ±
+        0.15
+      
+    
+    {\displaystyle a_{*}=0.93\pm 0.15}
+  
+, 
+and Daly et al. (2023) 
+  
+    
+      
+        
+          a
+          
+            ∗
+          
+        
+        =
+        0.90
+        ±
+        0.06
+      
+    
+    {\displaystyle a_{*}=0.90\pm 0.06}
+  
+. Daly et al. (2023) also found that the ratio of the black hole rotational mass component to the irreducible mass component of Sgr A* is 
+  
+    
+      
+        
+          M
+          
+            r
+            o
+            t
+          
+        
+        
+          /
+        
+        
+          M
+          
+            i
+            r
+            r
+          
+        
+        =
+        0.62
+        ±
+        0.10
+      
+    
+    {\displaystyle M_{rot}/M_{irr}=0.62\pm 0.10}
+  
+, which indicates that the black hole is rotating with an angular velocity that is 
+  
+    
+      
+        0.62
+        ±
+        0.10
+      
+    
+    {\displaystyle 0.62\pm 0.10}
+  
+ of the maximum possible value, set by the speed of light. 
+
+
+== Orbiting stars ==
+
+There are a number of stars in close orbit around Sagittarius A*, which are collectively known as "S stars". These stars are observed primarily in K band infrared wavelengths, as interstellar dust drastically limits visibility in visible wavelengths. This is a rapidly changing field—in 2011, the orbits of the most prominent stars then known were plotted in the diagram at left, showing a comparison between their orbits and various orbits in the Solar System. Since then, S62 was thought to approach even more closely than those stars, but later observations of the star have found this not to be the case.
+The high velocities and close approaches to the supermassive black hole makes these stars useful to establish limits on the physical dimensions of Sagittarius A*, as well as to observe general relativity associated effects like periapse shift of their orbits. An active watch is maintained for the possibility of stars approaching the event horizon close enough to be disrupted, but none of these stars are expected to suffer that fate.
+As of 2020, S4714 is the current record holder of closest approach to Sagittarius A*, at about 12.6 AU (1.88 billion km), almost as close as Saturn gets to the Sun, traveling at about 8% of the speed of light. These figures given are approximate, the formal uncertainties being 12.6±9.3 AU and 23,928±8,840 km/s. Its orbital period is 12 years, but an extreme eccentricity of 0.985 gives it the close approach and high velocity.
+An excerpt from a table of this cluster (see Sagittarius A* cluster), featuring the most prominent members. In the below table, id1 is the star's name in the Gillessen catalog and id2 in the catalog of the University of California, Los Angeles. a, e, i, Ω and ω are standard orbital elements, with a measured in arcseconds. Tp is the epoch of pericenter passage, P is the orbital period in years and Kmag is the infrared K-band apparent magnitude of the star. q and v are the pericenter distance in AU and pericenter speed in percent of the speed of light.
+
+
+== Discovery of G2 gas cloud on an accretion course ==
+First noticed as something unusual in images of the center of the Milky Way in 2002, the gas cloud G2, which has a mass about three times that of Earth, was confirmed to be likely on a course taking it into the accretion zone of Sgr A* in a paper published in Nature in 2012. Predictions of its orbit suggested it would make its closest approach to the black hole (a perinigricon) in early 2014, when the cloud was at a distance of just over 3,000 times the radius of the event horizon (or ≈260 AU, 36 light-hours) from the black hole. G2 has been observed to be disrupting since 2009, and was predicted by some to be completely destroyed by the encounter, which could have led to a significant brightening of X-ray and other emission from the black hole. Other astronomers suggested the gas cloud could be hiding a dim star, or a binary star merger product, which would hold it together against the tidal forces of Sgr A*, allowing the ensemble to pass by without any effect. In addition to the tidal effects on the cloud itself, it was proposed in May 2013 that, prior to its perinigricon, G2 might experience multiple close encounters with members of the black-hole and neutron-star populations thought to orbit near the Galactic Center, offering some insight to the region surrounding the supermassive black hole at the center of the Milky Way.
+The average rate of accretion onto Sgr A* is unusually small for a black hole of its mass and is only detectable because it is so close to Earth. It was thought that the passage of G2 in 2013 might offer astronomers the chance to learn much more about how material accretes onto supermassive black holes. Several astronomical facilities observed this closest approach, with observations confirmed with Chandra, XMM, VLA, INTEGRAL, Swift, Fermi and requested at VLT and Keck.
+Simulations of the passage were made before it happened by groups at ESO and Lawrence Livermore National Laboratory (LLNL).
+As the cloud approached the black hole, Daryl Haggard said, "It's exciting to have something that feels more like an experiment", and hoped that the interaction would produce effects that would provide new information and insights.
+Nothing was observed during and after the closest approach of the cloud to the black hole, which was described as a lack of "fireworks" and a "flop". Astronomers from the UCLA Galactic Center Group published observations obtained on March 19 and 20, 2014, concluding that G2 was still intact (in contrast to predictions for a simple gas cloud hypothesis) and that the cloud was likely to have a central star.
+An analysis published on July 21, 2014, based on observations by the ESO's Very Large Telescope in Chile, concluded alternatively that the cloud, rather than being isolated, might be a dense clump within a continuous but thinner stream of matter, and would act as a constant breeze on the disk of matter orbiting the black hole, rather than sudden gusts that would have caused high brightness as they hit, as originally expected. Supporting this hypothesis, G1, a cloud that passed near the black hole 13 years ago, had an orbit almost identical to G2, consistent with both clouds, and a gas tail thought to be trailing G2, all being denser clumps within a large single gas stream.
+Andrea Ghez et al. suggested in 2014 that G2 is not a gas cloud but rather a pair of binary stars that had been orbiting the black hole in tandem and merged into an extremely large star.
+
+
+== See also ==
+Galactic Center GeV excess – Unexplained gamma rays from the Galactic Center
+List of nearest known black holes
+M87*
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+Is there a Supermassive Black Hole at the Center of the Milky Way? (arXiv preprint)
+2004 paper deducing mass of central black hole from orbits of 7 stars (arXiv preprint)
+ESO video clip of orbiting star (533 KB MPEG Video)
+The Proper Motion of Sgr A* and the Mass of Sgr A* (PDF)
+NRAO article regarding VLBI radio imaging of Sgr A*
+Peering into a Black Hole, 2015 New York Times video
+Image of supermassive black hole Sagittarius A* (2022), Harvard Center for Astrophysics
+Video (65:30) – EHT conference presenting first image of Sgr A* on YouTube (NSF; 12 May 2022)

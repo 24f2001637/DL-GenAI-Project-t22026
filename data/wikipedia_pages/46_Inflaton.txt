@@ -1,0 +1,208 @@
+Wikipedia article: Inflaton
+Source: https://en.wikipedia.org/wiki/Inflaton
+PageID: 842430
+======================================================================
+
+The inflaton field is a hypothetical scalar field that is conjectured to have driven cosmic inflation in the very early universe. The field, originally postulated by Alan Guth, provides a mechanism that can generate a period of rapid expansion from 10−35 to 10−34 seconds after the initial expansion, which consequently forms a universe consistent with observed spatial isotropy and homogeneity.
+
+
+== Cosmological inflation ==
+
+The basic model of inflation proceeds in three phases:
+
+Expanding vacuum state with high potential energy
+Phase transition to true vacuum
+Slow roll and reheating
+
+
+=== Expanding vacuum state with high potential energy ===
+A "vacuum" or "vacuum state" in quantum field theory is a state of quantum fields that is at locally minimal potential energy. Quantum particles are excitations that deviate from this minimal potential energy state, therefore a vacuum state has no particles in it. Depending on the specifics of a quantum field theory, there can be more than one vacuum state. Those different vacua, despite all "being empty" (having no particles), will generally each have different vacuum energies. Quantum field theory stipulates that the pressure of the vacuum energy is always negative and equal in magnitude to its energy density.
+Inflationary theory postulates that there is some vacuum state with very large vacuum energy, caused by a non-zero vacuum expectation value of the inflaton field. Any region of space in this state will rapidly expand. Even if initially it is not empty (contains some particles), very rapid exponential expansion dilutes any particles that might have previously been present to essentially zero density.
+
+
+=== Transition to true vacuum ===
+Inflationary theory further postulates that this "inflationary vacuum" state is not the state with globally the lowest energy; rather, it is a "false vacuum", also known as a metastable state.
+
+Historically, the first proposals of inflation suggested that the transition from the "false" to the "true vacuum" follows a quantum tunnelling process, where the inflaton field passes through the potential barrier of the two phases (this would correspond to a first-order phase transition). However, it was realised that this procedure would create a very inhomogeneous Universe on the large scales, contrary to what we observe.The theory was soon refined to allow a smooth transition between the two phases, where the inflaton field "rolls down" its potential.
+
+
+=== Slow roll and reheating ===
+In simple, modern models of inflation, the inflaton originally has much bigger potential energy than kinetic energy ("slow-roll"), which leads the inflationary potential to act as an effective cosmological constant. As an effect, one expects a period of exponential expansion.
+When the inflaton reaches its true vacuum, it needs to be connected to the standard cosmological model. At that point, the field has "lost" its original potential energy, but gained kinetic energy. To introduce the standard model at this point, the idea is that this energy needs to be transferred to the observed Standard Model particles. This procedure is known as "reheating". When complete, the Universe is radiation dominated and its expansion decelerates. The decay of the inflaton fills the space with new particles, which interact with each other and finally reach the hot and dense state of the Big Bang theory.
+
+
+== Field quanta ==
+Just like every other quantum field, excitations of the inflaton field are expected to be quantized. The field quanta of the inflaton field are known as inflatons. Depending on the modeled potential energy density, the inflaton field's ground state might, or might not, be zero.
+The term inflaton follows the typical style of other quantum particles’ names – such as photon, gluon, boson, and fermion – deriving from the word inflation. The term was first used in a paper by Nanopoulos, Olive & Srednicki (1983).
+The nature of the inflaton field is currently not known. One of the obstacles for narrowing its properties is that current quantum theory is not able to correctly predict the current observed vacuum energy, based on the particle content of a chosen theory (see vacuum catastrophe).
+The confirmation of the Higgs boson led to the suggestion that it is possible that no new field is necessary – that a modified version of the Higgs field could suffice. However this early proposal and others that followed have faced criticism on fundamental grounds.
+
+
+== Non-minimally coupled inflation ==
+Non-minimally coupled inflation is an inflationary model in which the constant which couples gravity to the inflaton field is not small. The coupling constant is usually represented by 
+  
+    
+      
+         
+        ξ
+         
+      
+    
+    {\displaystyle \ \xi \ }
+  
+ (Greek letter xi), which features in the action (constructed by modifying the Einstein–Hilbert action):
+
+  
+    
+      
+        S
+        =
+        ∫
+        
+          
+            −
+            g
+             
+          
+        
+         
+        
+          
+            [
+          
+        
+         
+        
+          
+            
+              1
+              2
+            
+          
+        
+        
+          m
+          
+            P
+          
+          
+            2
+          
+        
+        R
+        −
+        
+          
+            
+              1
+              2
+            
+          
+        
+         
+        
+          ∂
+          
+            μ
+          
+        
+        ϕ
+         
+        
+          ∂
+          
+            μ
+          
+        
+        ϕ
+        −
+        V
+        (
+        ϕ
+        )
+        −
+        
+          
+            
+              1
+              2
+            
+          
+        
+        ξ
+         
+        R
+         
+        
+          ϕ
+          
+            2
+          
+        
+         
+        
+          
+            ]
+          
+        
+        
+          d
+          
+            4
+          
+        
+        ⁡
+        x
+         
+        ,
+      
+    
+    {\displaystyle S=\int {\sqrt {-g~}}\ {\Bigl [}\ {\tfrac {1}{2}}m_{P}^{2}R-{\tfrac {1}{2}}\ \partial ^{\mu }\phi ~\partial _{\mu }\phi -V(\phi )-{\tfrac {1}{2}}\xi \ R\ \phi ^{2}\ {\Bigr ]}\operatorname {d} ^{4}x\ ,}
+  
+
+with 
+  
+    
+      
+         
+        ξ
+         
+      
+    
+    {\displaystyle \ \xi \ }
+  
+ representing the strength of the interaction between the curvature of space-time 
+  
+    
+      
+         
+        R
+         
+        ,
+      
+    
+    {\displaystyle \ R\ ,}
+  
+ and the magnitude of the inflaton field 
+  
+    
+      
+         
+        ϕ
+         
+        .
+      
+    
+    {\displaystyle \ \phi ~.}
+  
+
+
+== See also ==
+Hubble's law
+Big Bang
+Cosmological constant
+Inflationary dark energy
+List of hypothetical particles
+
+
+== References ==

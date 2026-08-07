@@ -1,0 +1,48 @@
+Wikipedia article: Condensation cloud
+Source: https://en.wikipedia.org/wiki/Condensation_cloud
+PageID: 26834979
+======================================================================
+
+A transient condensation cloud, also called a Wilson cloud, is observable surrounding large explosions in humid air.
+When a nuclear weapon or high explosive is detonated in sufficiently humid air, the "negative phase" of the shock wave causes a rarefaction of the air surrounding the explosion but not of the air contained within it. The rarefied air is temporarily cooled, which causes condensation of some of the water vapor within the rarefied air. When the pressure and temperature return to normal, the Wilson cloud dissipates.
+
+
+== Mechanism ==
+Since heat does not leave the affected air mass, the change of pressure following a detonation is adiabatic, with an associated change of temperature. In humid air, the drop in temperature in the most rarefied portion of the shock wave can bring the air temperature below its dew point, at which moisture condenses to form a visible cloud of microscopic water droplets. Since the pressure effect of the wave is reduced by its expansion (the same pressure effect is spread over a larger radius), the vapor effect also has a limited radius. Such vapor can also be seen in low pressure regions during high–g subsonic maneuvers of aircraft in humid conditions.
+
+
+== Cloud Chambers ==
+The term "Wilson cloud" is an analogy based on the operational principles of the Wilson cloud chamber, a particle detector invented by Scottish physicist Charles Thomson Rees Wilson in the early 20th century. "The result was the formation of a large zone of fog, called the condensation cloud. Some persons referred to it as the 'Wilson Cloud,' in honor of C. T. R. Wilson, who fifty years ago pioneered the study of fog and rain, and made thousands of experiments in which fogs were produced by sudden expansion of saturated vapor."In Wilson's original device, a sealed chamber containing air supersaturated with water or alcohol vapor undergoes a rapid adiabatic expansion. This expansion causes the gas to cool significantly, creating conditions where the vapor is ready to condense. If ionizing radiation passes through the chamber at this moment, the ions created along the particle's path serve as condensation nuclei, and tiny visible droplets form, revealing the particle's track. Similarly, the shockwave from a large explosion causes an initial compression followed by a rapid rarefaction (expansion) of the surrounding air. This rarefaction phase results in significant adiabatic cooling. If the ambient air is sufficiently humid, this cooling can drop the temperature below the dew point, causing water vapor to condense into a visible cloud. Thus, both the explosion phenomenon and the scientific instrument involve rapid adiabatic expansion which leads to cooling and the subsequent visible condensation of vapor. While the nucleation mechanisms and scales are different (the chamber relies on ions for specific track formation, while the explosion cloud forms due to bulk cooling with condensation often on pre-existing atmospheric aerosols), the shared fundamental physical principle of condensation triggered by sudden cooling is the basis for the colloquial naming.
+
+
+== Occurrence ==
+
+
+=== Nuclear weapons testing ===
+Scientists observing the Operation Crossroads nuclear tests in 1946 at Bikini Atoll named that transitory cloud a "Wilson cloud" because the same pressure effect is employed in a Wilson cloud chamber to let condensation mark the tracks of electrically charged sub-atomic particles. Analysts of later nuclear bomb tests used the more general term condensation cloud.
+The shape of the shock wave (influenced by different speed in different altitudes), and the temperature and humidity of different atmospheric layers determine the appearance of the Wilson clouds. During nuclear tests, condensation rings around or above the fireball are commonly observed. Rings around the fireball may become stable and form rings around the rising stem of the mushroom cloud. The lifetime of the Wilson cloud during nuclear air bursts can be shortened by the thermal radiation from the fireball, which heats the cloud above to the dew point and evaporates the droplets.
+
+
+=== Non-nuclear explosions ===
+
+Any sufficiently large explosion, such as one caused by a large quantity of conventional explosives or a volcanic eruption, can create a condensation cloud, as seen in Operation Sailor Hat or in the 2020 Beirut explosion, where a very large Wilson cloud expanded outwards from the blast.
+
+
+=== Aircraft and rockets ===
+The same kind of condensation cloud is sometimes seen above the wings of aircraft in a moist atmosphere. The top of a wing has a reduction of air pressure as part of the process of generating lift. This reduction in air pressure causes a cooling and the condensation of water vapor. Hence, small, transient clouds appear. The vapor cone of a transonic aircraft or rocket on ascent is another example of a condensation cloud.
+
+
+== Underwater Atomic Explosions ==
+Following a shallow underwater atomic explosion, an initial air shock wave propagates outwards. As described in observations from the Test Baker at Bikini Atoll, after this shock wave has passed, a characteristic "dome-shaped cloud of condensed water droplets" can form. This phenomenon is, in fact, a proper Wilson cloud. It appears for a few seconds and is a result of the rapid expansion and cooling of the air behind the shock front, causing ambient water vapor to condense.
+
+
+=== Relation to other cloud formations ===
+This initial Wilson cloud is distinct from the larger, more persistent structures that form later, such as the "cauliflower cloud" and the base surge, which are composed of water, spray, and radioactive particles from the explosion. However, condensation processes can also contribute to the visible characteristics of these later-stage clouds. The primary mushroom cloud from an air burst is formed by the rising column of hot, compressed gas and bomb debris, rather than being primarily a condensation phenomenon in the same way as the Wilson cloud.
+
+
+== See also ==
+Rope trick effect
+Contrail
+
+
+== References ==

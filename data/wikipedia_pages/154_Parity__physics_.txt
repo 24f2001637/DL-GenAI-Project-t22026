@@ -1,0 +1,1929 @@
+Wikipedia article: Parity (physics)
+Source: https://en.wikipedia.org/wiki/Parity_(physics)
+PageID: 1240666
+======================================================================
+
+In physics, a parity transformation (also called parity inversion) is the flip in the sign of one spatial coordinate. In three dimensions, it can also refer to the simultaneous flip in the sign of all three spatial coordinates (a point reflection or point inversion):
+
+  
+    
+      
+        
+          P
+        
+        :
+        
+          
+            (
+            
+              
+                
+                  x
+                
+              
+              
+                
+                  y
+                
+              
+              
+                
+                  z
+                
+              
+            
+            )
+          
+        
+        ↦
+        
+          
+            (
+            
+              
+                
+                  −
+                  x
+                
+              
+              
+                
+                  −
+                  y
+                
+              
+              
+                
+                  −
+                  z
+                
+              
+            
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle \mathbf {P} :{\begin{pmatrix}x\\y\\z\end{pmatrix}}\mapsto {\begin{pmatrix}-x\\-y\\-z\end{pmatrix}}.}
+  
+
+It can also be thought of as a test for chirality of a physical phenomenon, in that a parity inversion transforms a phenomenon into its mirror image.
+All fundamental interactions of elementary particles, with the exception of the weak interaction, are symmetric under parity transformation. As established by the Wu experiment conducted at the US National Bureau of Standards by Chinese-American scientist Chien-Shiung Wu, the weak interaction is chiral and thus provides a means for probing chirality in physics. In her experiment, Wu took advantage of the controlling role of weak interactions in radioactive decay of atomic isotopes to establish the chirality of the weak force. 
+By contrast, in interactions that are symmetric under parity, such as electromagnetism in atomic and molecular physics, parity serves as a powerful controlling principle underlying quantum transitions.
+A matrix representation of P (in any number of dimensions) has determinant equal to −1, and hence is distinct from a rotation, which has a determinant equal to 1. In a two-dimensional plane, a simultaneous flip of all coordinates in sign is not a parity transformation; it is the same as a 180° rotation.
+In quantum mechanics, wave functions that are unchanged by a parity transformation are described as even functions, while those that change sign under a parity transformation are odd functions.
+
+
+== Simple symmetry relations ==
+
+Under rotations, classical geometrical objects can be classified into scalars, vectors, and other tensors of rank 2 or higher. (Technically, scalars, such as electrical potential are tensors of rank 0; vectors are tensors of rank 1; tensors of rank 2 or higher are called "tensors" both in the generic sense, as are scalars and vectors, and in the specific sense of being order higher than vectors. At the low-energy quantum level, gravitational force is a second order tensor.) In classical physics, physical configurations need to transform under representations of every symmetry group.
+Quantum theory predicts that states in a Hilbert space do not need to transform under representations of the group of rotations, but only under projective representations. The word projective refers to the fact that if one projects out the phase of each state, where we recall that the overall phase of a quantum state is not observable, then a projective representation reduces to an ordinary representation.  All representations are also projective representations, but the converse is not true, therefore the projective representation condition on quantum states is weaker than the representation condition on classical states.
+The projective representations of any group are isomorphic to the ordinary representations of a central extension of the group.  For example, projective representations of the 3-dimensional rotation group, which is the special orthogonal group SO(3), are ordinary representations of the special unitary group SU(2). Projective representations of the rotation group that are not representations are called spinors and so quantum states may transform not only as tensors but also as spinors.
+If one adds to this a classification by parity, these can be extended, for example, into notions of
+
+scalars ( P = +1 ) and pseudoscalars ( P = −1 ) which are rotationally invariant.
+vectors ( P = −1 ) and axial vectors (also called pseudovectors) ( P = +1 ) which both transform as vectors under rotation.
+One can define reflections such as
+
+  
+    
+      
+        
+          V
+          
+            x
+          
+        
+        :
+        
+          
+            (
+            
+              
+                
+                   
+                   
+                  x
+                   
+                
+              
+              
+                
+                   
+                   
+                  y
+                   
+                
+              
+              
+                
+                   
+                   
+                  z
+                   
+                   
+                
+              
+            
+            )
+          
+        
+        ↦
+        
+          
+            (
+            
+              
+                
+                  −
+                  x
+                   
+                
+              
+              
+                
+                   
+                   
+                  y
+                   
+                
+              
+              
+                
+                   
+                   
+                  z
+                   
+                
+              
+            
+            )
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle V_{x}:{\begin{pmatrix}~~x~\\~~y~\\~~z~\ \end{pmatrix}}\mapsto {\begin{pmatrix}-x~\\~~y~\\~~z~\end{pmatrix}}\ ,}
+  
+
+which also have negative determinant and form a valid parity transformation. Then, combining them with rotations (or successively performing x-, y-, and z-reflections) one can recover the particular parity transformation defined earlier. The first parity transformation given does not work in an even number of dimensions, though, because it results in a positive determinant. In even dimensions only the latter example of a parity transformation (or any reflection of an odd number of coordinates) can be used.
+Parity forms the abelian group 
+  
+    
+      
+         
+        
+          
+            Z
+          
+          
+            2
+          
+        
+         
+      
+    
+    {\displaystyle \ \mathbb {Z} _{2}\ }
+  
+ due to the relation 
+  
+    
+      
+         
+        
+          
+            
+              
+                
+                  P
+                
+                ^
+              
+            
+          
+          
+            2
+          
+        
+        =
+        
+          
+            
+              1
+              ^
+            
+          
+        
+         
+        .
+      
+    
+    {\displaystyle \ {\hat {\mathcal {P}}}^{2}={\hat {1}}~.}
+  
+ All Abelian groups have only one-dimensional irreducible representations. For 
+  
+    
+      
+         
+        
+          
+            Z
+          
+          
+            2
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle \ \mathbb {Z} _{2}\ ,}
+  
+ there are two irreducible representations: one is even under parity, 
+  
+    
+      
+         
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+        ϕ
+        =
+        +
+        ϕ
+         
+        ,
+      
+    
+    {\displaystyle \ {\hat {\mathcal {P}}}\phi =+\phi \ ,}
+  
+ the other is odd, 
+  
+    
+      
+         
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+        ϕ
+        =
+        −
+        ϕ
+         
+        .
+      
+    
+    {\displaystyle \ {\hat {\mathcal {P}}}\phi =-\phi ~.}
+  
+ These are useful in quantum mechanics, however in quantum mechanics states need not transform under actual representations of parity; but only under their projective representations, so in principle a parity transformation may rotate a quantum state into any phase, as elaborated on below.
+
+
+=== Representations of O(3) ===
+An alternative way to write the above classification of scalars, pseudoscalars, vectors and pseudovectors is in terms of the representation space that each object transforms in. This can be given in terms of the group homomorphism 
+  
+    
+      
+         
+        ρ
+         
+      
+    
+    {\displaystyle \ \rho \ }
+  
+ which defines the representation. For a matrix 
+  
+    
+      
+         
+        R
+        ∈
+        
+          O
+        
+        (
+        3
+        )
+         
+        ,
+      
+    
+    {\displaystyle \ R\in {\text{O}}(3)\ ,}
+  
+
+When the representation is restricted to 
+  
+    
+      
+         
+        
+          
+            S
+            O
+          
+        
+        (
+        3
+        )
+         
+        ,
+      
+    
+    {\displaystyle \ {\mathsf {SO}}(3)\ ,}
+  
+ both scalars and pseudoscalars transform identically, as do vectors and pseudovectors.
+
+
+== Classical mechanics ==
+Newton's equation of motion 
+  
+    
+      
+         
+        
+          F
+        
+        =
+        m
+         
+        
+          a
+        
+         
+      
+    
+    {\displaystyle \ \mathbf {F} =m\ \mathbf {a} \ }
+  
+ (if the mass is constant) equates two vectors, and hence is invariant under parity. The law of gravity also involves only vectors and is also, therefore, invariant under parity.
+However, angular momentum 
+  
+    
+      
+         
+        
+          L
+        
+         
+      
+    
+    {\displaystyle \ \mathbf {L} \ }
+  
+ is an axial vector,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  L
+                
+              
+              
+                
+                =
+                
+                  r
+                
+                ×
+                
+                  p
+                
+              
+            
+            
+              
+                
+                  
+                    
+                      P
+                      ^
+                    
+                  
+                
+                
+                  (
+                  
+                    L
+                  
+                  )
+                
+              
+              
+                
+                =
+                (
+                −
+                
+                  r
+                
+                )
+                ×
+                (
+                −
+                
+                  p
+                
+                )
+                =
+                +
+                
+                  L
+                
+                 
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {L} &=\mathbf {r} \times \mathbf {p} \\{\hat {P}}\left(\mathbf {L} \right)&=(-\mathbf {r} )\times (-\mathbf {p} )=+\mathbf {L} ~.\end{aligned}}}
+  
+
+In classical electrodynamics, the charge density 
+  
+    
+      
+         
+        ρ
+         
+      
+    
+    {\displaystyle \ \rho \ }
+  
+ (not related to the same symbol, ρ, used above for a group homomorphism) is a scalar, the electric field, 
+  
+    
+      
+         
+        
+          E
+        
+         
+        ,
+      
+    
+    {\displaystyle \ \mathbf {E} \ ,}
+  
+ and current 
+  
+    
+      
+         
+        
+          j
+        
+         
+      
+    
+    {\displaystyle \ \mathbf {j} \ }
+  
+ are vectors, but the magnetic field, 
+  
+    
+      
+         
+        
+          B
+        
+         
+      
+    
+    {\displaystyle \ \mathbf {B} \ }
+  
+ is an axial vector. However, Maxwell's equations are invariant under parity because the curl of an axial vector is a vector.
+
+
+== Effect of spatial inversion on some variables of classical physics ==
+The two major divisions of classical physical variables have either even or odd parity. The way into which particular variables and vectors sort out into either category depends on whether the number of dimensions of space is either an odd or even number. The categories of odd or even given below for the parity transformation is a different, but intimately related  issue.
+The answers given below are correct for 3 spatial dimensions. In a 2 dimensional space, for example, when constrained to remain on the surface of a planet, some of the variables switch sides.
+
+
+=== Odd ===
+Classical variables whose signs flip under space inversion are predominantly vectors. They include:
+
+
+=== Even ===
+Classical variables, predominantly scalar quantities, which do not change upon spatial inversion include:
+
+
+== Quantum mechanics ==
+
+
+=== Possible eigenvalues ===
+
+In quantum mechanics, spacetime transformations act on quantum states. The parity transformation, 
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}}
+  
+, is a unitary operator, in general acting on a state 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+  
+ as follows: 
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+        
+        ψ
+        
+          
+            (
+            r
+            )
+          
+        
+        =
+        
+          e
+          
+            
+              i
+              ϕ
+            
+            
+              /
+            
+            
+              2
+            
+          
+        
+        ψ
+        
+          
+            (
+            
+              −
+              r
+            
+            )
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}\,\psi {\left(r\right)}=e^{{i\phi }/{2}}\psi {\left(-r\right)}}
+  
+.
+One must then have 
+  
+    
+      
+        
+          
+            
+              
+                
+                  P
+                
+                ^
+              
+            
+          
+          
+            2
+          
+        
+        
+        ψ
+        
+          
+            (
+            r
+            )
+          
+        
+        =
+        
+          e
+          
+            i
+            ϕ
+          
+        
+        ψ
+        
+          
+            (
+            r
+            )
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}^{2}\,\psi {\left(r\right)}=e^{i\phi }\psi {\left(r\right)}}
+  
+, since an overall phase is unobservable. The operator 
+  
+    
+      
+        
+          
+            
+              
+                
+                  P
+                
+                ^
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}^{2}}
+  
+, which reverses the parity of a state twice, leaves the spacetime invariant, and so is an internal symmetry which rotates its eigenstates by phases 
+  
+    
+      
+        
+          e
+          
+            i
+            ϕ
+          
+        
+      
+    
+    {\displaystyle e^{i\phi }}
+  
+.  If 
+  
+    
+      
+        
+          
+            
+              
+                
+                  P
+                
+                ^
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}^{2}}
+  
+ is an element 
+  
+    
+      
+        
+          e
+          
+            i
+            Q
+          
+        
+      
+    
+    {\displaystyle e^{iQ}}
+  
+ of a continuous U(1) symmetry group of phase rotations, then  
+  
+    
+      
+        
+          e
+          
+            −
+            i
+            Q
+          
+        
+      
+    
+    {\displaystyle e^{-iQ}}
+  
+ is part of this U(1) and so is also a symmetry.  In particular, we can define 
+  
+    
+      
+        
+          
+            
+              
+                
+                  P
+                
+                ^
+              
+            
+          
+          ′
+        
+        ≡
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+        
+        
+          e
+          
+            −
+            
+              i
+              Q
+            
+            
+              /
+            
+            
+              2
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}'\equiv {\hat {\mathcal {P}}}\,e^{-{iQ}/{2}}}
+  
+, which is also a symmetry, and so we can choose to call 
+  
+    
+      
+        
+          
+            
+              
+                
+                  P
+                
+                ^
+              
+            
+          
+          ′
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}'}
+  
+ our parity operator, instead of 
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}}
+  
+.  Note that 
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      P
+                    
+                    ^
+                  
+                
+              
+              ′
+            
+          
+          
+            2
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle {{\hat {\mathcal {P}}}'}^{2}=1}
+  
+ and so 
+  
+    
+      
+        
+          
+            
+              
+                
+                  P
+                
+                ^
+              
+            
+          
+          ′
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}'}
+  
+ has eigenvalues 
+  
+    
+      
+        ±
+        1
+      
+    
+    {\displaystyle \pm 1}
+  
+. Wave functions with eigenvalue 
+  
+    
+      
+        +
+        1
+      
+    
+    {\displaystyle +1}
+  
+ under a parity transformation are even functions, while eigenvalue 
+  
+    
+      
+        −
+        1
+      
+    
+    {\displaystyle -1}
+  
+ corresponds to odd functions. However, when no such symmetry group exists, it may be that all parity transformations have some eigenvalues which are phases other than 
+  
+    
+      
+        ±
+        1
+      
+    
+    {\displaystyle \pm 1}
+  
+.
+For electronic wavefunctions, even states are usually indicated by a subscript g for gerade (German: even) and odd states by a subscript u for ungerade (German: odd). For example, the lowest energy level of the hydrogen molecule ion (H+2) is labelled 
+  
+    
+      
+        1
+        
+          σ
+          
+            g
+          
+        
+      
+    
+    {\displaystyle 1\sigma _{g}}
+  
+ and the next-closest (higher) energy level is labelled 
+  
+    
+      
+        1
+        
+          σ
+          
+            u
+          
+        
+      
+    
+    {\displaystyle 1\sigma _{u}}
+  
+.
+The wave functions of a particle moving into an external potential, which is centrosymmetric (potential energy invariant with respect to a space inversion, symmetric to the origin), either remain invariable or change signs: these two possible states are called the even state or odd state of the wave functions.
+The law of conservation of parity of particles states that, if an isolated ensemble of particles has a definite parity, then the parity remains invariable in the process of ensemble evolution. However this is not true for the beta decay of nuclei, because the weak nuclear interaction violates parity.
+The parity of the states of a particle moving in a spherically symmetric external field is determined by the angular momentum, and the particle state is defined by three quantum numbers: total energy, angular momentum and the projection of angular momentum.
+
+
+=== Consequences of parity symmetry ===
+When parity generates the Abelian group 
+  
+    
+      
+        
+          
+            Z
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbb {Z} _{2}}
+  
+, one can always take linear combinations of quantum states such that they are either even or odd under parity (see the figure). Thus the parity of such states is ±1. The parity of a multiparticle state is the product of the parities of each state; in other words parity is a multiplicative quantum number.
+In quantum mechanics, Hamiltonians are invariant (symmetric) under a parity transformation if 
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}}
+  
+ commutes with the Hamiltonian. In non-relativistic quantum mechanics, this happens for any scalar potential, i.e., 
+  
+    
+      
+        V
+        =
+        V
+        
+          
+            (
+            r
+            )
+          
+        
+      
+    
+    {\displaystyle V=V{\left(r\right)}}
+  
+, hence the potential is spherically symmetric. The following facts can be easily proven:
+
+If 
+  
+    
+      
+        
+          |
+        
+        φ
+        ⟩
+      
+    
+    {\displaystyle |\varphi \rangle }
+  
+ and 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+  
+ have the same parity, then 
+  
+    
+      
+        ⟨
+        φ
+        
+          |
+        
+        
+          
+            
+              X
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        0
+      
+    
+    {\displaystyle \langle \varphi |{\hat {X}}|\psi \rangle =0}
+  
+ where 
+  
+    
+      
+        
+          
+            
+              X
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {X}}}
+  
+ is the position operator.
+For a state 
+  
+    
+      
+        
+          
+            |
+          
+        
+        
+          
+            
+              L
+              →
+            
+          
+        
+        ,
+        
+          L
+          
+            z
+          
+        
+        
+          
+            ⟩
+          
+        
+      
+    
+    {\displaystyle {\bigl |}{\vec {L}},L_{z}{\bigr \rangle }}
+  
+ of orbital angular momentum 
+  
+    
+      
+        
+          
+            
+              L
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {L}}}
+  
+ with z-axis projection 
+  
+    
+      
+        
+          L
+          
+            z
+          
+        
+      
+    
+    {\displaystyle L_{z}}
+  
+, then 
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+        
+          
+            |
+          
+        
+        
+          
+            
+              L
+              →
+            
+          
+        
+        ,
+        
+          L
+          
+            z
+          
+        
+        
+          
+            ⟩
+          
+        
+        =
+        
+          
+            (
+            
+              −
+              1
+            
+            )
+          
+          
+            L
+          
+        
+        
+          
+            |
+          
+        
+        
+          
+            
+              L
+              →
+            
+          
+        
+        ,
+        
+          L
+          
+            z
+          
+        
+        
+          
+            ⟩
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}{\bigl |}{\vec {L}},L_{z}{\bigr \rangle }=\left(-1\right)^{L}{\bigl |}{\vec {L}},L_{z}{\bigr \rangle }}
+  
+.
+If 
+  
+    
+      
+        
+          
+            [
+          
+        
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        ,
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+        
+          
+            ]
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle {\bigl [}{\hat {H}},{\hat {\mathcal {P}}}{\bigr ]}=0}
+  
+, then atomic dipole transitions only occur between states of opposite parity.
+If 
+  
+    
+      
+        
+          
+            [
+          
+        
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        ,
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+        
+          
+            ]
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle {\bigl [}{\hat {H}},{\hat {\mathcal {P}}}{\bigr ]}=0}
+  
+, then a non-degenerate eigenstate of 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+  
+ is also an eigenstate of the parity operator; i.e., a non-degenerate eigenfunction of 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+  
+ is either invariant to 
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}}
+  
+ or is changed in sign by 
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}}
+  
+.
+Some of the non-degenerate eigenfunctions of 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+  
+ are unaffected (invariant) by parity 
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}}
+  
+ and the others are merely reversed in sign when the Hamiltonian operator and the parity operator commute:
+
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        c
+        
+          |
+          ψ
+          ⟩
+        
+        ,
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}|\psi \rangle =c\left|\psi \right\rangle ,}
+  
+
+where 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  
+ is a constant, the eigenvalue of 
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}}
+  
+,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  P
+                
+                ^
+              
+            
+          
+          
+            2
+          
+        
+        
+          |
+          ψ
+          ⟩
+        
+        =
+        c
+        
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+        
+          |
+          ψ
+          ⟩
+        
+        .
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}^{2}\left|\psi \right\rangle =c\,{\hat {\mathcal {P}}}\left|\psi \right\rangle .}
+  
+
+
+== Many-particle systems: atoms, molecules, nuclei ==
+The overall parity of a many-particle system is the product of the parities of the one-particle states. It is −1 if an odd number of particles are in odd-parity states, and +1 otherwise. Different notations are in use to denote the parity of nuclei, atoms, and molecules.
+
+
+=== Atoms ===
+Atomic orbitals have parity (−1)ℓ, where the exponent ℓ is the azimuthal quantum number. The parity is odd for orbitals p, f, ... with ℓ = 1, 3, ..., and an atomic state has odd parity if an odd number of electrons occupy these orbitals. For example, the ground state of the nitrogen atom has the electron configuration 1s22s22p3, and is identified by the term symbol 4So, where the superscript o denotes odd parity. However the third excited term at about 83,300 cm−1 above the ground state has electron configuration 1s22s22p23s has even parity since there are only two 2p electrons, and its term symbol is 4P (without an o superscript).
+
+
+=== Molecules ===
+The complete (rotational-vibrational-electronic-nuclear spin) electromagnetic Hamiltonian of any molecule commutes with (or is invariant to) the parity operation P (or E*, in the notation introduced by Longuet-Higgins) and its eigenvalues can be given the parity symmetry label + or − as they are even or odd, respectively. The parity operation involves the inversion of electronic and nuclear spatial coordinates at the molecular center of mass.
+Centrosymmetric molecules at equilibrium have a centre of symmetry at their midpoint (the nuclear center of mass). This includes all homonuclear diatomic molecules as well as certain symmetric molecules such as ethylene,  benzene, xenon tetrafluoride and sulphur hexafluoride. For centrosymmetric molecules, the point group contains the operation i which is not to be confused with the parity operation. The operation i involves the inversion of the electronic and vibrational displacement coordinates at the nuclear centre of mass. For centrosymmetric molecules the operation i commutes with the rovibronic (rotation-vibration-electronic) Hamiltonian and can be used to label such states. Electronic and vibrational states of centrosymmetric molecules are either unchanged by the operation i, or they are changed in sign by i. The former are denoted by the subscript g and are called gerade, while the latter are denoted by the subscript u and are called ungerade. The complete electromagnetic Hamiltonian of a centrosymmetric molecule
+does not commute with the point group inversion operation i because of the effect of the nuclear hyperfine Hamiltonian. The nuclear hyperfine Hamiltonian can mix the rotational levels of g and u vibronic states (called ortho-para mixing) and give rise to ortho-para transitions
+
+
+=== Nuclei ===
+In atomic nuclei, the state of each nucleon (proton or neutron) has even or odd parity, and nucleon configurations can be predicted using the nuclear shell model. As for electrons in atoms, the nucleon state has odd overall parity if and only if the number of nucleons in odd-parity states is odd. The parity is usually written as a + (even) or − (odd) following the nuclear spin value. For example, the oxygen isotope 17O(5/2+) has spin ⁠5/2⁠ and even parity. The shell model explains this because the first 16 nucleons are paired so that each pair has spin zero and even parity, and the last nucleon is in the 1d5/2 shell, which has even parity since ℓ = 2 for a d orbital.
+
+
+== Quantum field theory ==
+If one can show that the vacuum state is invariant under parity, 
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+        
+          |
+          0
+          ⟩
+        
+        =
+        
+          |
+          0
+          ⟩
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {P}}}\left|0\right\rangle =\left|0\right\rangle }
+  
+, the Hamiltonian is parity invariant 
+  
+    
+      
+        
+          [
+          
+            
+              
+                
+                  H
+                  ^
+                
+              
+            
+            ,
+            
+              
+                
+                  
+                    P
+                  
+                  ^
+                
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle \left[{\hat {H}},{\hat {\mathcal {P}}}\right]}
+  
+ and the quantization conditions remain unchanged under parity, then it follows that every state has good parity, and this parity is conserved in any reaction.
+To show that quantum electrodynamics is invariant under parity, we have to prove that the action is invariant and the quantization is also invariant. For simplicity we will assume that canonical quantization is used; the vacuum state is then invariant under parity by construction. The invariance of the action follows from the classical invariance of Maxwell's equations. The invariance of the canonical quantization procedure can be worked out, and turns out to depend on the transformation of the annihilation operator:
+
+  
+    
+      
+        
+          P
+          a
+        
+        (
+        
+          p
+        
+        ,
+        ±
+        )
+        
+          
+            P
+          
+          
+            +
+          
+        
+        =
+        
+          a
+        
+        (
+        −
+        
+          p
+        
+        ,
+        ±
+        )
+      
+    
+    {\displaystyle \mathbf {Pa} (\mathbf {p} ,\pm )\mathbf {P} ^{+}=\mathbf {a} (-\mathbf {p} ,\pm )}
+  
+
+where 
+  
+    
+      
+        
+          p
+        
+      
+    
+    {\displaystyle \mathbf {p} }
+  
+ denotes the momentum of a photon and 
+  
+    
+      
+        ±
+      
+    
+    {\displaystyle \pm }
+  
+ refers to its polarization state. This is equivalent to the statement that the photon has odd intrinsic parity. Similarly all vector bosons can be shown to have odd intrinsic parity, and all axial-vectors to have even intrinsic parity.
+A straightforward extension of these arguments to scalar field theories shows that scalars have even parity. That is, 
+  
+    
+      
+        
+          
+            P
+          
+        
+        ϕ
+        (
+        −
+        
+          x
+        
+        ,
+        t
+        )
+        
+          
+            
+              P
+            
+          
+          
+            −
+            1
+          
+        
+        =
+        ϕ
+        (
+        
+          x
+        
+        ,
+        t
+        )
+      
+    
+    {\displaystyle {\mathsf {P}}\phi (-\mathbf {x} ,t){\mathsf {P}}^{-1}=\phi (\mathbf {x} ,t)}
+  
+, since
+
+  
+    
+      
+        
+          P
+          a
+        
+        (
+        
+          p
+        
+        )
+        
+          
+            P
+          
+          
+            +
+          
+        
+        =
+        
+          a
+        
+        (
+        −
+        
+          p
+        
+        )
+      
+    
+    {\displaystyle \mathbf {Pa} (\mathbf {p} )\mathbf {P} ^{+}=\mathbf {a} (-\mathbf {p} )}
+  
+
+This is true even for a complex scalar field. (Details of spinors are dealt with in the article on the Dirac equation, where it is shown that fermions and antifermions have opposite intrinsic parity.)
+With fermions, there is a slight complication because there is more than one spin group.
+
+
+== Parity in the Standard Model ==
+
+
+=== Fixing the global symmetries ===
+
+Applying the parity operator twice leaves the coordinates unchanged, meaning that P2 must act as one of the internal symmetries of the theory, at most changing the phase of a state. For example, the Standard Model has three global U(1) symmetries with charges equal to the baryon number B, the lepton number L, and the electric charge Q. Therefore, the parity operator satisfies P2 = eiαB+iβL+iγQ for some choice of α, β, and γ. This operator is also not unique in that a new parity operator P' can always be constructed by multiplying it by an internal symmetry such as P' = P eiαB for some α.
+To see if the parity operator can always be defined to satisfy P2 = 1, consider the general case when P2 = Q for some internal symmetry  Q present in the theory. The desired parity operator would be P' = PQ−1/2. If Q is part of a continuous symmetry group then Q−1/2 exists, but if it is part of a discrete symmetry then this element need not exist and such a redefinition may not be possible.
+The Standard Model exhibits a (−1)F symmetry, where F is the fermion number operator counting how many fermions are in a state. Since all particles in the Standard Model satisfy F = B + L, the discrete symmetry is also part of the eiα(B + L) continuous symmetry group. If the parity operator satisfied P2 = (−1)F, then it can be redefined to give a new parity operator satisfying P2 = 1. But if the Standard Model is extended by incorporating Majorana neutrinos, which have F = 1 and B + L = 0, then the discrete symmetry (−1)F is no longer part of the continuous symmetry group and the desired redefinition of the parity operator cannot be performed. Instead it satisfies P4 = 1 so the Majorana neutrinos would have intrinsic parities of ±i.
+
+
+=== Parity of the pion ===
+In 1954, a paper by William Chinowsky and Jack Steinberger demonstrated that the pion has negative parity.
+They studied the decay of an "atom" made from a deuteron (21H+) and a negatively charged pion (π− ) in a state with zero orbital angular momentum 
+  
+    
+      
+         
+        
+          L
+        
+        =
+        
+          0
+        
+         
+      
+    
+    {\displaystyle ~\mathbf {L} ={\boldsymbol {0}}~}
+  
+ into two neutrons (
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+).
+Neutrons are fermions and so obey Fermi–Dirac statistics, which implies that the final state is antisymmetric. Using the fact that the deuteron has spin one and the pion spin zero together with the antisymmetry of the final state they concluded that the two neutrons must have orbital angular momentum 
+  
+    
+      
+         
+        L
+        =
+        1
+         
+        .
+      
+    
+    {\displaystyle ~L=1~.}
+  
+ The total parity is the product of the intrinsic parities of the particles and the extrinsic parity of the spherical harmonic function 
+  
+    
+      
+         
+        
+          
+            (
+            
+              −
+              1
+            
+            )
+          
+          
+            L
+          
+        
+         
+        .
+      
+    
+    {\displaystyle ~\left(-1\right)^{L}~.}
+  
+ Since the orbital momentum changes from zero to one in this process, if the process is to conserve the total parity then the products of the intrinsic parities of the initial and final particles must have opposite sign. A deuteron nucleus is made from a proton and a neutron, and so using the aforementioned convention that protons and neutrons have intrinsic parities equal to 
+  
+    
+      
+         
+        +
+        1
+         
+      
+    
+    {\displaystyle ~+1~}
+  
+ they argued that the parity of the pion is equal to minus the product of the parities of the two neutrons divided by that of the proton and neutron in the deuteron, explicitly 
+  
+    
+      
+        
+          
+            
+              (
+              −
+              1
+              )
+              (
+              1
+              
+                )
+                
+                  2
+                
+              
+            
+            
+              (
+              1
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        −
+        1
+         
+        ,
+      
+    
+    {\textstyle {\frac {(-1)(1)^{2}}{(1)^{2}}}=-1~,}
+  
+ from which they concluded that the pion is a pseudoscalar particle.
+
+
+=== Parity violation ===
+
+Although parity is conserved in electromagnetism and gravity, it is violated in weak interactions, and perhaps, to some degree, in strong interactions. The Standard Model incorporates parity violation by expressing the weak interaction as a chiral gauge interaction. Only the left-handed components of particles and right-handed components of antiparticles participate in charged weak interactions in the Standard Model. This implies that parity is not a symmetry of our universe, unless a hidden mirror sector exists in which parity is violated in the opposite way.
+An obscure 1928 experiment, undertaken by R. T. Cox, G. C. McIlwraith, and B. Kurrelmeyer, had in effect reported parity violation in weak decays, but, since the appropriate concepts had not yet been developed, those results had no impact. In 1929, Hermann Weyl explored, without any evidence, the existence of a two-component massless particle of spin one-half. This idea was rejected by Pauli, because it implied parity violation.
+By the mid-20th century, it had been suggested by several scientists that parity might not be conserved (in different contexts), but without solid evidence these suggestions were not considered important. Then, in 1956, a careful review and analysis by theoretical physicists Tsung-Dao Lee and Chen-Ning Yang went further, showing that while parity conservation had been verified in decays by the strong or electromagnetic interactions, it was untested in the weak interaction. They proposed several possible direct experimental tests. They were mostly ignored, but Lee was able to convince his Columbia colleague Chien-Shiung Wu to try it. She needed special cryogenic facilities and expertise, so the experiment was done at the National Bureau of Standards.
+Wu, Ambler, Hayward, Hoppes, and Hudson (1957) found a clear violation of parity conservation in the beta decay of cobalt-60. As the experiment was winding down, with double-checking in progress, Wu informed Lee and Yang of their positive results, and saying the results need further examination, she asked them not to publicize the results first. However, Lee revealed the results to his Columbia colleagues on 4 January 1957 at a "Friday lunch" gathering of the Physics Department of Columbia. Three of them, R. L. Garwin, L. M. Lederman, and R. M. Weinrich, modified an existing cyclotron experiment, and immediately verified the parity violation. They delayed publication of their results until after Wu's group was ready, and the two papers appeared back-to-back in the same physics journal.
+The discovery of parity violation explained the outstanding τ–θ puzzle in the physics of kaons.
+In 2010, it was reported that physicists working with the Relativistic Heavy Ion Collider had created a short-lived parity symmetry-breaking bubble in quark–gluon plasmas. An experiment conducted by several physicists in the STAR collaboration, suggested that parity may also be violated in the strong interaction. It is predicted that this local parity violation manifests itself by the chiral magnetic effect.
+
+
+=== Intrinsic parity of hadrons ===
+To every particle one can assign an intrinsic parity as long as nature preserves parity. Although weak interactions do not, one can still assign a parity to any hadron by examining the strong interaction reaction that produces it, or through decays not involving the weak interaction, such as rho meson decay to pions.
+
+
+== See also ==
+C-symmetry
+CP violation
+Electroweak theory
+Mirror matter
+Molecular symmetry
+T-symmetry
+
+
+== References ==
+Footnotes
+
+Citations
+
+
+=== Sources ===
+Perkins, Donald H. (2000). Introduction to High Energy Physics. Cambridge University Press. ISBN 9780521621960.
+Sozzi, M. S. (2008). Discrete symmetries and CP violation. Oxford University Press. ISBN 978-0-19-929666-8.
+Bigi, I. I.; Sanda, A. I. (2000). CP Violation. Cambridge Monographs on Particle Physics, Nuclear Physics and Cosmology. Cambridge University Press. ISBN 0-521-44349-0.
+Weinberg, S. (1995). The Quantum Theory of Fields. Cambridge University Press. ISBN 0-521-67053-5.

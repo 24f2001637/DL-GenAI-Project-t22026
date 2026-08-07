@@ -1,0 +1,359 @@
+Wikipedia article: Relativity of simultaneity
+Source: https://en.wikipedia.org/wiki/Relativity_of_simultaneity
+PageID: 3406142
+======================================================================
+
+In physics, the relativity of simultaneity is the concept that distant simultaneity –  whether two spatially separated events occur at the same time –  is not absolute, but depends on the observer's reference frame. This possibility was raised by mathematician Henri Poincaré in 1900, and thereafter became a central idea in the special theory of relativity.
+According to the special theory of relativity introduced by Albert Einstein, it is impossible to say in an absolute sense that two distinct events occur at the same time if those events are separated in space. If one reference frame assigns precisely the same time to two events that are at different points in space, a reference frame that is moving relative to the first will generally assign different times to the two events (the only exception being when motion is exactly perpendicular to the line connecting the locations of both events).
+The relativity of simultaneity is the conceptual foundation from which time dilation and length contraction follow.
+
+
+== History ==
+
+In 1892 and 1895, Hendrik Lorentz used a mathematical method called "local time" t′ = t − v x/c2 for explaining the negative aether drift experiments. However, Lorentz gave no physical explanation of this effect. This was done by Henri Poincaré who already emphasized in 1898 the conventional nature of simultaneity and who argued that it is convenient to postulate the constancy of the speed of light in all directions. However, this paper did not contain any discussion of Lorentz's theory or the possible difference in defining simultaneity for observers in different states of motion.
+This was done in 1900, when Poincaré derived local time by assuming that the speed of light is invariant within the aether. Due to the "principle of relative motion", moving observers within the aether also assume that they are at rest and that the speed of light is constant in all directions (only to first order in v/c). Therefore, if they synchronize their clocks by using light signals, they will only consider the transit time for the signals, but not their motion in respect to the aether. So the moving clocks are not synchronous and do not indicate the "true" time. Poincaré calculated that this synchronization error corresponds to Lorentz's local time.
+In 1904, Poincaré emphasized the connection between the principle of relativity, "local time", and light speed invariance; however, the reasoning in that paper was presented in a qualitative and conjectural manner.
+Albert Einstein used a similar method in 1905 to derive the time transformation for all orders in v/c, i.e., the complete Lorentz transformation. Poincaré obtained the full transformation earlier in 1905 but in the papers of that year he did not mention his synchronization procedure. This derivation was completely based on light speed invariance and the relativity principle, so Einstein noted that for the electrodynamics of moving bodies the aether is superfluous. Thus, the separation into "true" and "local" times of Lorentz and Poincaré vanishes –  all times are equally valid and therefore the relativity of length and time is a natural consequence.
+In 1908, Hermann Minkowski introduced the concept of a world line of a particle in his model of the cosmos called Minkowski space. In Minkowski's view, the naïve notion of velocity is replaced with rapidity, and the ordinary sense of simultaneity becomes dependent on hyperbolic orthogonality of spatial directions to the worldline associated to the rapidity. Then every inertial frame of reference has a rapidity and a simultaneous hyperplane.
+In 1987, Robert Goldblatt published Orthogonality and Spacetime Geometry, directly addressing the structure Minkowski had put in place for simultaneity. In 2006, Max Jammer, through Project MUSE, published Concepts of Simultaneity: from antiquity to Einstein and beyond. The book culminates in chapter 6, "The transition to the relativistic conception of simultaneity". Jammer indicates that Ernst Mach demythologized the absolute time of Newtonian physics.
+Naturally the mathematical notions preceded physical interpretation. For instance, conjugate diameters of conjugate hyperbolas are related as space and time. The principle of relativity can be expressed as the arbitrariness of which pair are taken to represent space and time in a plane.
+
+
+== Simultaneity, measurement, and the meaning of time ==
+Einstein’s 1905 paper ("On the Electrodynamics of Moving Bodies") did not present relativity of simultaneity via the familiar train/embankment thought experiment. Instead, he derived it operationally from a close examination of how time is measured and how distant clocks are defined and synchronized within a given inertial frame. 
+
+
+=== What it means to assign a time to a distant event ===
+Newton believed in absolute time as a sort of flow progressing uniformly throughout the universe. Newton admitted, though, that absolute time was intrinsically imperceptible.  In contrast, Einstein pointed out that time is something that we assign to events following agreed-upon procedures within a reference frame using artifacts that we term "clocks". 
+"Local time" must be distinguished from "coordinate time". An isolated clock can only apply timestamps to events that it directly encounters. Local time refers to these local timestamps. Coordinate time refers to labels applied to events occurring elsewhere. To assign a time to a distant event, an observer must always apply some sort of convention that relates distant events to the local clock readings.
+
+
+=== Clock synchronization and invariant signal propagation ===
+Any procedure for assigning time to distant events must rely on the exchange of signals between the distant event and a local clock.
+In practice, light, or more generally, electromagnetic radiation, is used for the establishment of timing relations because light has the fastest observed speed of propagation. This propagation speed is empirically observed to be invariant across inertial frames.
+Synchronization of clocks is an operational task. In 1905, Einstein proposed a concrete set of steps for performing synchronization:
+
+At time 
+  
+    
+      
+        
+          τ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \tau _{1}}
+  
+, clock 1 sends a signal to clock 2 which is immediately reflected back. Its arrival time back at clock 1 is 
+  
+    
+      
+        
+          τ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \tau _{2}}
+  
+.
+The time which the signal reached clock 2, designated 
+  
+    
+      
+        
+          τ
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \tau _{3}}
+  
+, is defined to be
+
+  
+    
+      
+        
+          τ
+          
+            3
+          
+        
+        =
+        
+          τ
+          
+            1
+          
+        
+        +
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        
+          τ
+          
+            2
+          
+        
+        −
+        
+          τ
+          
+            1
+          
+        
+        )
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        
+          τ
+          
+            1
+          
+        
+        +
+        
+          τ
+          
+            2
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle \tau _{3}=\tau _{1}+{\tfrac {1}{2}}(\tau _{2}-\tau _{1})={\tfrac {1}{2}}(\tau _{1}+\tau _{2}).}
+  
+
+
+=== Why synchronization is not a purely local operation ===
+Even if clocks are perfect locally, synchronization depends on assumptions about distant physics which cannot be verified by local measurements alone. In particular, the validity of Einstein synchronisation depends on 
+
+isotropy of space,
+homogeneity of time,
+finite and invariant signal speed.
+Synchronization of clocks is therefore a matter of "convention", a procedure with unproven elements adopted because of its agreement with human intuitions about the physical world.
+
+
+=== Relativity of simultaneity - qualitative demonstration ===
+
+Einstein demonstrated relativity of simultaneity algebraically after first deriving the Lorentz transformation using his two postulates. We will not do this here. Instead, we illustrate relativity of simultaneity using  spacetime diagrams, which provide a graphical representation of the Lorentz transformation.
+Einstein's procedure for synchronizing separated clocks immediately leads to the observation that simultaneity cannot be absolute. In Fig. 4a, A and B are two observers at rest in reference frame S, while X is a light source  located midway between the two observers along the x-axis. The diagram illustrates a coordinate system where ct constitutes the vertical axis, where c, the speed of light, is a scaling factor so that distances in time have the same scale as distances in space. The three vertical lines, termed "world lines", illustrate the positions of A, X and B as a function of time. The world lines are vertical since A, X and B are stationary in this reference frame. Suppose that X emits a signal at ct = 0. It travels at speed c forwards and backwards along the x-axis. The signal is represented by two dashed lines of slope ±45° with respect to the x-axis. The arrival of the signal at the positions of A and B is simultaneous, since the intersections of the signal with observers A and B share the same value of ct.
+But now suppose that A, X, and B are all moving with respect to S at a constant speed v in the x-direction. Their world lines are tilted as shown in Fig. 4b, reflecting their uniform motion in this frame. Since the speed of light is invariant, the signal emitted by X continues to be represented by dashed lines of slope ±45°. The intersections of the signal with A and B are clearly no longer simultaneous as measured in frame S. In particular, the signal reaches A before it reaches B, because A is moving toward the incoming light pulse while B is moving away from it. However, observers comoving with A, X, and B do not agree with this conclusion. In their own rest frame, they have synchronized their clocks using Einstein’s procedure, so that the signals from X are required to reach A and B simultaneously. In Fig. 4b, the set of all events that are simultaneous in this moving frame must therefore include the two reception events at A and B. The straight line joining these events (line AB) represents “equal time” for the moving observers.
+
+
+== Thought experiments ==
+
+Relativity of simultaneity can be understood without spacetime diagrams using Einstein’s train thought experiment.
+
+
+=== Einstein's train ===
+
+Einstein's version of the experiment presumed that one observer was sitting midway inside a speeding traincar and another was standing on a platform as the train moved past. As measured by the standing observer, the train is struck by two bolts of lightning simultaneously, but at different positions along the axis of train movement (back and front of the train car). In the inertial frame of the standing observer, there are three events which are spatially dislocated, but simultaneous: standing observer facing the moving observer (i.e., the center of the train), lightning striking the front of the train car, and lightning striking the back of the car.
+Since the events are placed along the axis of train movement, their time coordinates become projected to different time coordinates in the moving train's inertial frame. Events which occurred at space coordinates in the direction of train movement happen earlier than events at coordinates opposite to the direction of train movement. In the moving train's inertial frame, this means that lightning will strike the front of the train car before the two observers align (face each other).
+
+
+=== The train-and-platform ===
+
+A popular picture for understanding this idea is provided by a thought experiment similar to those suggested by Daniel Frost Comstock in 1910. It also consists of one observer midway inside a speeding traincar and another observer standing on a platform as the train moves past. 
+A flash of light is given off at the center of the traincar just as the two observers pass each other. For the observer on board the train, the front and back of the traincar are at fixed distances from the light source and as such, according to this observer, the light will reach the front and back of the traincar at the same time.
+For the observer standing on the platform, on the other hand, the rear of the traincar is moving (catching up) toward the point at which the flash was given off, and the front of the traincar is moving away from it. As the speed of light is, according to the second postulate of special relativity, same in all directions for all observers, the light headed for the back of the train will have less distance to cover than the light headed for the front. Thus, the flashes of light will strike the ends of the traincar at different times.
+
+
+==== Spacetime diagrams ====
+It may be helpful to visualize this situation using spacetime diagrams.  For a given observer, the t-axis is defined to be a point traced out in time by the origin of the spatial coordinate x, and is drawn vertically.  The x-axis is defined as the set of all points in space at the time t = 0, and is drawn horizontally.  The statement that the speed of light is the same for all observers is represented by drawing a light ray as a 45° line, regardless of the speed of the source relative to the speed of the observer.
+In the Fig. 8, the two ends of the train are drawn as grey lines. Because the ends of the train are stationary with respect to the observer on the train, these lines are just vertical lines, showing their motion through time but not space. The flash of light is shown as the 45° red lines. The points at which the two light flashes hit the ends of the train are at the same level in the diagram. This means that the events are simultaneous.
+In the Fig. 9, the two ends of the train moving to the right, are shown by parallel lines. The flash of light is given off at a point exactly halfway between the two ends of the train, and again form two 45° lines, expressing the constancy of the speed of light.  In this picture, however, the points at which the light flashes hit the ends of the train are not at the same level; they are not simultaneous.
+
+
+== Lorentz transformation ==
+
+The relativity of simultaneity can be demonstrated using the Lorentz transformation, which relates the coordinates used by one observer to coordinates used by another in uniform relative motion with respect to the first.
+Assume that the first observer uses coordinates labeled t, x, y, and z, while the second observer uses coordinates labeled t′, x′, y′, and y′. Now suppose that the first observer sees the second observer moving in the x-direction at a velocity v. And suppose that the observers' coordinate axes are parallel and that they have the same origin. Then the Lorentz transformation expresses how the coordinates are related:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  t
+                  ′
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      t
+                      −
+                      
+                        v
+                        
+                        x
+                        
+                          /
+                        
+                        
+                          c
+                          
+                            2
+                          
+                        
+                      
+                    
+                    
+                      1
+                      −
+                      
+                        v
+                        
+                          2
+                        
+                      
+                      
+                        /
+                      
+                      
+                        c
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  x
+                  ′
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      x
+                      −
+                      v
+                      
+                      t
+                    
+                    
+                      1
+                      −
+                      
+                        v
+                        
+                          2
+                        
+                      
+                      
+                        /
+                      
+                      
+                        c
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  y
+                  ′
+                
+              
+              
+                
+                =
+                y
+                ,
+              
+            
+            
+              
+                
+                  z
+                  ′
+                
+              
+              
+                
+                =
+                z
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}t'&={\frac {t-{v\,x/c^{2}}}{\sqrt {1-v^{2}/c^{2}}}},\\x'&={\frac {x-v\,t}{\sqrt {1-v^{2}/c^{2}}}},\\y'&=y,\\z'&=z,\end{aligned}}}
+  
+
+where c is the speed of light.  If two events happen at the same time in the frame of the first observer, they will have identical values of the t-coordinate.  However, if they have different values of the x-coordinate (different positions in the x-direction), they will have different values of the t′ coordinate, so they will happen at different times in that frame. The term that accounts for the failure of absolute simultaneity is the vx/c2.
+
+The equation t′ = constant defines a "line of simultaneity" in the (x′, t′) coordinate system for the second (moving) observer, just as the equation t = constant defines the "line of simultaneity" for the first (stationary) observer in the (x, t) coordinate system. From the above equations for the Lorentz transform it can be seen that t′ is constant if and only if t − vx/c2 = constant. Thus the set of points that make t constant are different from the set of points that makes t′ constant. That is, the set of events which are regarded as simultaneous depends on the frame of reference used to make the comparison.
+Graphically, this can be represented on a spacetime diagram by the fact that a plot of the set of points regarded as simultaneous generates a line which depends on the observer.  In the spacetime diagram, the dashed line represents a set of points considered to be simultaneous with the origin by an observer moving with a velocity v of one-quarter of the speed of light.  The dotted horizontal line represents the set of points regarded as simultaneous with the origin by a stationary observer.  This diagram is drawn using the (x, t) coordinates of the stationary observer, and is scaled so that the speed of light is one, i.e., so that a ray of light would be represented by a line with a 45° angle from the x axis.  From our previous analysis, given that v = 0.25 and c = 1, the equation of the dashed line of simultaneity is t − 0.25x = 0 and with v = 0, the equation of the dotted line of simultaneity is t = 0.
+In general the second observer traces out a worldline in the spacetime of the first observer described by t = x/v, and the set of simultaneous events for the second observer (at the origin) is described by the line t = vx. Note the multiplicative inverse relation of the slopes of the worldline and simultaneous events, in accord with the principle of hyperbolic orthogonality.
+
+
+== Accelerated observers ==
+
+The Lorentz-transform calculation above uses a definition of extended-simultaneity (i.e. of when and where events occur at which you were not present) that might be referred to as the co-moving or "tangent free-float-frame" definition. This definition is naturally extrapolated to events in gravitationally-curved spacetimes, and to accelerated observers, through use of a radar-time/distance definition that (unlike the tangent free-float-frame definition for accelerated frames) assigns a unique time and position to any event.
+The radar-time definition of extended-simultaneity further facilitates visualization of the way that acceleration curves spacetime for travelers in the absence of any gravitating objects. This is illustrated in the figure at right, which shows radar time/position isocontours for events in flat spacetime as experienced by a traveler (red trajectory) taking a constant proper-acceleration roundtrip. One caveat of this approach is that the time and place of remote events are not fully defined until light from such an event is able to reach our traveler.
+
+
+== See also ==
+Andromeda paradox
+Causal structure
+Einstein's thought experiments
+Ehrenfest's paradox
+Einstein synchronisation
+
+
+== References ==
+
+
+== External links ==
+ Special relativity at Wikibooks

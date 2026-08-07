@@ -1,0 +1,57 @@
+Wikipedia article: Identity element
+Source: https://en.wikipedia.org/wiki/Identity_element
+PageID: 14962
+======================================================================
+
+In mathematics, an identity element or neutral element of a binary operation is an element that leaves unchanged every element when the operation is applied. For example, 0 is an identity element of the addition of real numbers. This concept is used in algebraic structures such as groups and rings. The term identity element is often shortened to identity (as in the case of additive identity and multiplicative identity) when there is no possibility of confusion, but the identity implicitly depends on the binary operation it is associated with.
+
+
+== Definitions ==
+Let (S, ∗) be a set S equipped with a binary operation ∗. Then an element e of S is called a left identity if e ∗ s = s for all s in S, and a right identity if s ∗ e = s for all s in S. If e is both a left identity and a right identity, then it is called a two-sided identity, or simply an identity.
+An identity with respect to addition is called an additive identity (often denoted as 0) and an identity with respect to multiplication is called a multiplicative identity (often denoted as 1). These need not be ordinary addition and multiplication—as the underlying operation could be rather arbitrary. In the case of a group for example, the identity element is sometimes simply denoted by the symbol 
+  
+    
+      
+        e
+      
+    
+    {\displaystyle e}
+  
+. The distinction between additive and multiplicative identity is used most often for sets that support both binary operations, such as rings, integral domains, and fields. The multiplicative identity is often called unity in the latter context (a ring with unity). This should not be confused with a unit in ring theory, which is any element having a multiplicative inverse. By its own definition, unity itself is necessarily a unit. The symbol e was chosen because it is the first letter in Einheit, the German for "unit" or "unity."
+
+
+== Examples ==
+
+
+== Properties ==
+In the example S = {e,f} with the equalities given, S is a semigroup. It demonstrates the possibility for (S, ∗) to have several left identities. In fact, every element can be a left identity. In a similar manner, there can be several right identities. But if there is both a right identity and a left identity, then they must be equal, resulting in a single two-sided identity. 
+To see this, note that if l is a left identity and r is a right identity, then l = l ∗ r = r. In particular, there can never be more than one two-sided identity: if there were two, say e and f, then e ∗ f would have to be equal to both e and f.
+It is also quite possible for (S, ∗) to have no identity element, such as the case of even integers under the multiplication operation. Another common example is the cross product of vectors, where the absence of an identity element is related to the fact that the direction of any nonzero cross product is always orthogonal to any element multiplied. That is, it is not possible to obtain a non-zero vector in the same direction as the original. Yet another example of structure without identity element involves the additive semigroup of positive natural numbers.
+
+
+== See also ==
+Absorbing element
+Additive inverse
+Generalized inverse
+Identity (equation)
+Identity function
+Inverse element
+Monoid
+Pseudo-ring
+Quasigroup
+Unital (disambiguation)
+
+
+== Notes and references ==
+
+
+== Bibliography ==
+Beauregard, Raymond A.; Fraleigh, John B. (1973), A First Course In Linear Algebra: with Optional Introduction to Groups, Rings, and Fields, Boston: Houghton Mifflin Company, ISBN 0-395-14017-X
+Fraleigh, John B. (1976), A First Course In Abstract Algebra (2nd ed.), Reading: Addison-Wesley, ISBN 0-201-01984-1
+Herstein, I. N. (1964), Topics In Algebra, Waltham: Blaisdell Publishing Company, ISBN 978-1114541016 {{citation}}: ISBN / Date incompatibility (help)
+McCoy, Neal H. (1973), Introduction To Modern Algebra, Revised Edition, Boston: Allyn and Bacon, LCCN 68015225
+Meyer, Wilhelm Franz (1904), Encyklopädie der mathematischen Wissenschaften, Leipzig: B. G. Teubner
+
+
+== Further reading ==
+M. Kilp, U. Knauer, A.V. Mikhalev, Monoids, Acts and Categories with Applications to Wreath Products and Graphs, De Gruyter Expositions in Mathematics vol. 29, Walter de Gruyter, 2000, ISBN 3-11-015248-7, p. 14–15

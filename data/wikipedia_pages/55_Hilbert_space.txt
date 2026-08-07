@@ -1,0 +1,7732 @@
+Wikipedia article: Hilbert space
+Source: https://en.wikipedia.org/wiki/Hilbert_space
+PageID: 20598932
+======================================================================
+
+The mathematical concept of a Hilbert space generalizes the notion of Euclidean space. It extends the methods of Euclidean geometry and calculus from the two-dimensional Euclidean plane and three-dimensional space to spaces of any finite or infinite dimension. A Hilbert space is an abstract vector space, and it has the additional structure of an inner product that allows length and angle to be measured. Finally, Hilbert spaces are required to be complete, a property that stipulates the existence of enough limits in the space to allow the techniques of calculus to be used.
+Hilbert spaces were studied beginning in the first decade of the 20th century by David Hilbert (after whom they are named), Erhard Schmidt, and Frigyes Riesz. They are indispensable tools in the theories of partial differential equations, quantum mechanics, Fourier analysis (which includes applications to signal processing and heat transfer), and ergodic theory (which forms the mathematical underpinning of thermodynamics). John von Neumann coined the term Hilbert space for the abstract concept that underlies many of these diverse applications. The success of Hilbert space methods ushered in a very fruitful era for functional analysis. Apart from the classical Euclidean vector spaces, examples of Hilbert spaces include spaces of square-integrable functions, spaces of sequences, Sobolev spaces consisting of generalized functions, and Hardy spaces of holomorphic functions.
+Geometric intuition plays an important role in many aspects of Hilbert space theory. Exact analogs of the Pythagorean theorem and parallelogram law hold in a Hilbert space. At a deeper level, perpendicular projection onto a linear subspace plays a significant role in optimization problems and other aspects of the theory. An element of a Hilbert space can be uniquely specified by its coordinates with respect to an orthonormal basis, in analogy with Cartesian coordinates in classical geometry. When this basis is countably infinite, it allows identifying the Hilbert space with the space of the infinite sequences that are square-summable. The latter space is often in the older literature referred to as the Hilbert space.
+
+
+== Definition and illustration ==
+
+
+=== Motivating example: Euclidean vector space ===
+One of the most familiar examples of a Hilbert space is the Euclidean vector space consisting of three-dimensional vectors, denoted by 
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbf {R} ^{3}}
+  
+, and equipped with the dot product. The dot product takes two vectors x and y, and produces a real number x ⋅ y. If x and y are represented in Cartesian coordinates, then the dot product is defined by:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    x
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        ⋅
+        
+          
+            (
+            
+              
+                
+                  
+                    y
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    y
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    y
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          x
+          
+            1
+          
+        
+        
+          y
+          
+            1
+          
+        
+        +
+        
+          x
+          
+            2
+          
+        
+        
+          y
+          
+            2
+          
+        
+        +
+        
+          x
+          
+            3
+          
+        
+        
+          y
+          
+            3
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\begin{pmatrix}x_{1}\\x_{2}\\x_{3}\end{pmatrix}}\cdot {\begin{pmatrix}y_{1}\\y_{2}\\y_{3}\end{pmatrix}}=x_{1}y_{1}+x_{2}y_{2}+x_{3}y_{3}\,.}
+  
+
+The dot product satisfies the properties:
+
+It is symmetric in x and y: x ⋅ y = y ⋅ x.
+It is linear in its first argument: (ax1 + bx2) ⋅ y = a(x1 ⋅ y) + b(x2 ⋅ y) for any scalars a, b, and vectors x1, x2, and y.
+It is positive definite: for all vectors x, x ⋅ x ≥ 0 , with equality if and only if x = 0.
+An operation on pairs of vectors that, like the dot product, satisfies these three properties is known as a (real) inner product. A vector space equipped with such an inner product is known as a (real) inner product space. Every finite-dimensional inner product space is also a Hilbert space. The basic feature of the dot product that connects it with Euclidean geometry is that it is related to both the length (or norm) of a vector, denoted ‖x‖, and to the angle θ between two vectors x and y by means of the formula
+
+  
+    
+      
+        
+          x
+        
+        ⋅
+        
+          y
+        
+        =
+        
+          ‖
+          
+            x
+          
+          ‖
+        
+        
+          ‖
+          
+            y
+          
+          ‖
+        
+        
+        cos
+        ⁡
+        θ
+        
+        .
+      
+    
+    {\displaystyle \mathbf {x} \cdot \mathbf {y} =\left\|\mathbf {x} \right\|\left\|\mathbf {y} \right\|\,\cos \theta \,.}
+  
+
+Multivariable calculus in Euclidean space relies on the ability to compute limits, and to have useful criteria for concluding that limits exist. A mathematical series
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            x
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \sum _{n=0}^{\infty }\mathbf {x} _{n}}
+  
+
+consisting of vectors in R3 is absolutely convergent provided that the sum of the lengths converges as an ordinary series of real numbers:
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        ‖
+        
+          
+            x
+          
+          
+            k
+          
+        
+        ‖
+        <
+        ∞
+        
+        .
+      
+    
+    {\displaystyle \sum _{k=0}^{\infty }\|\mathbf {x} _{k}\|<\infty \,.}
+  
+
+Just as with a series of scalars, a series of vectors that converges absolutely also converges to some limit vector L in the Euclidean space, in the sense that
+
+  
+    
+      
+        
+          lim
+          
+            N
+            →
+            ∞
+          
+        
+        
+          
+            ‖
+          
+        
+        
+          L
+        
+        −
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            N
+          
+        
+        
+          
+            x
+          
+          
+            k
+          
+        
+        
+          
+            ‖
+          
+        
+        =
+        0.
+      
+    
+    {\displaystyle \lim _{N\to \infty }{\Biggl \|}\mathbf {L} -\sum _{k=0}^{N}\mathbf {x} _{k}{\Biggr \|}=0.}
+  
+
+This property expresses the completeness of Euclidean space: that a series that converges absolutely also converges in the ordinary sense.
+Hilbert spaces are often taken over the complex numbers. The complex plane denoted by C is equipped with a notion of magnitude, the complex modulus |z|, which is defined as the square root of the product of z with its complex conjugate:
+
+  
+    
+      
+        
+          |
+        
+        z
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        z
+        
+          
+            z
+            ¯
+          
+        
+        
+        .
+      
+    
+    {\displaystyle |z|^{2}=z{\overline {z}}\,.}
+  
+
+If z = x + iy is a decomposition of z into its real and imaginary parts, then the modulus is the usual Euclidean two-dimensional length:
+
+  
+    
+      
+        
+          |
+        
+        z
+        
+          |
+        
+        =
+        
+          
+            
+              x
+              
+                2
+              
+            
+            +
+            
+              y
+              
+                2
+              
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle |z|={\sqrt {x^{2}+y^{2}}}\,.}
+  
+
+The inner product of a pair of complex numbers z and w is the product of z with the complex conjugate of w:
+
+  
+    
+      
+        ⟨
+        z
+        ,
+        w
+        ⟩
+        =
+        z
+        
+          
+            w
+            ¯
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \langle z,w\rangle =z{\overline {w}}\,.}
+  
+
+This is complex-valued. The real part of ⟨z, w⟩ gives the usual two-dimensional Euclidean dot product.
+A second example is the space C2 whose elements are pairs of complex numbers z = (z1, z2). Then an inner product of z with another such vector w = (w1, w2) is given by
+
+  
+    
+      
+        ⟨
+        z
+        ,
+        w
+        ⟩
+        =
+        
+          z
+          
+            1
+          
+        
+        
+          
+            
+              w
+              ¯
+            
+          
+          
+            1
+          
+        
+        +
+        
+          z
+          
+            2
+          
+        
+        
+          
+            
+              w
+              ¯
+            
+          
+          
+            2
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \langle z,w\rangle =z_{1}{\overline {w}}_{1}+z_{2}{\overline {w}}_{2}\,.}
+  
+
+The real part of ⟨z, w⟩ is then the four-dimensional Euclidean dot product. This inner product is Hermitian symmetric, which means that the result of interchanging z and w is the complex conjugate:
+
+  
+    
+      
+        ⟨
+        w
+        ,
+        z
+        ⟩
+        =
+        
+          
+            
+              ⟨
+              z
+              ,
+              w
+              ⟩
+            
+            ¯
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \langle w,z\rangle ={\overline {\langle z,w\rangle }}\,.}
+  
+
+
+=== Definition ===
+A Hilbert space is a real or complex inner product space that is also a complete metric space with respect to the distance function induced by the inner product.
+To say that a complex vector space H is a complex inner product space means that there is an inner product 
+  
+    
+      
+        ⟨
+        x
+        ,
+        y
+        ⟩
+      
+    
+    {\displaystyle \langle x,y\rangle }
+  
+ associating a complex number to each pair of elements 
+  
+    
+      
+        x
+        ,
+        y
+      
+    
+    {\displaystyle x,y}
+  
+ of H that satisfies the following properties:
+
+The inner product is conjugate symmetric; that is, the inner product of a pair of elements is equal to the complex conjugate of the inner product of the swapped elements: 
+  
+    
+      
+        ⟨
+        y
+        ,
+        x
+        ⟩
+        =
+        
+          
+            
+              ⟨
+              x
+              ,
+              y
+              ⟩
+            
+            ¯
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \langle y,x\rangle ={\overline {\langle x,y\rangle }}\,.}
+  
+ Importantly, this implies that 
+  
+    
+      
+        ⟨
+        x
+        ,
+        x
+        ⟩
+      
+    
+    {\displaystyle \langle x,x\rangle }
+  
+ is a real number.
+The inner product is linear in its first argument. For all complex numbers 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ and 
+  
+    
+      
+        b
+        ,
+      
+    
+    {\displaystyle b,}
+  
+ 
+  
+    
+      
+        ⟨
+        a
+        
+          x
+          
+            1
+          
+        
+        +
+        b
+        
+          x
+          
+            2
+          
+        
+        ,
+        y
+        ⟩
+        =
+        a
+        ⟨
+        
+          x
+          
+            1
+          
+        
+        ,
+        y
+        ⟩
+        +
+        b
+        ⟨
+        
+          x
+          
+            2
+          
+        
+        ,
+        y
+        ⟩
+        
+        .
+      
+    
+    {\displaystyle \langle ax_{1}+bx_{2},y\rangle =a\langle x_{1},y\rangle +b\langle x_{2},y\rangle \,.}
+  
+
+The inner product of an element with itself is positive definite: 
+  
+    
+      
+        
+          
+            
+              
+                ⟨
+                x
+                ,
+                x
+                ⟩
+                >
+                0
+              
+              
+                
+                
+                   if 
+                
+                x
+                ≠
+                0
+                ,
+              
+            
+            
+              
+                ⟨
+                x
+                ,
+                x
+                ⟩
+                =
+                0
+              
+              
+                
+                
+                   if 
+                
+                x
+                =
+                0
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{alignedat}{4}\langle x,x\rangle >0&\quad {\text{ if }}x\neq 0,\\\langle x,x\rangle =0&\quad {\text{ if }}x=0\,.\end{alignedat}}}
+  
+
+It follows from properties 1 and 2 that a complex inner product is antilinear, also called conjugate linear, in its second argument, meaning that
+
+  
+    
+      
+        ⟨
+        x
+        ,
+        a
+        
+          y
+          
+            1
+          
+        
+        +
+        b
+        
+          y
+          
+            2
+          
+        
+        ⟩
+        =
+        
+          
+            
+              a
+              ¯
+            
+          
+        
+        ⟨
+        x
+        ,
+        
+          y
+          
+            1
+          
+        
+        ⟩
+        +
+        
+          
+            
+              b
+              ¯
+            
+          
+        
+        ⟨
+        x
+        ,
+        
+          y
+          
+            2
+          
+        
+        ⟩
+        
+        .
+      
+    
+    {\displaystyle \langle x,ay_{1}+by_{2}\rangle ={\bar {a}}\langle x,y_{1}\rangle +{\bar {b}}\langle x,y_{2}\rangle \,.}
+  
+
+A real inner product space is defined in the same way, except that H is a real vector space and the inner product takes real values. Such an inner product will be a bilinear map and 
+  
+    
+      
+        (
+        H
+        ,
+        H
+        ,
+        ⟨
+        ⋅
+        ,
+        ⋅
+        ⟩
+        )
+      
+    
+    {\displaystyle (H,H,\langle \cdot ,\cdot \rangle )}
+  
+ will form a dual system.
+
+The norm is the real-valued function
+
+  
+    
+      
+        ‖
+        x
+        ‖
+        =
+        
+          
+            ⟨
+            x
+            ,
+            x
+            ⟩
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \|x\|={\sqrt {\langle x,x\rangle }}\,,}
+  
+
+and the distance 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  
+ between two points 
+  
+    
+      
+        x
+        ,
+        y
+      
+    
+    {\displaystyle x,y}
+  
+ in H is defined in terms of the norm by
+
+  
+    
+      
+        d
+        (
+        x
+        ,
+        y
+        )
+        =
+        ‖
+        x
+        −
+        y
+        ‖
+        =
+        
+          
+            ⟨
+            x
+            −
+            y
+            ,
+            x
+            −
+            y
+            ⟩
+          
+        
+        
+        .
+      
+    
+    {\displaystyle d(x,y)=\|x-y\|={\sqrt {\langle x-y,x-y\rangle }}\,.}
+  
+
+Here, 
+  
+    
+      
+        d
+        (
+        x
+        ,
+        y
+        )
+      
+    
+    {\displaystyle d(x,y)}
+  
+ is a distance function meaning firstly that it is symmetric in 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ and 
+  
+    
+      
+        y
+        ,
+      
+    
+    {\displaystyle y,}
+  
+ secondly that the distance between 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ and itself is zero, and otherwise the distance between 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ and 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+  
+ must be positive, and lastly that the triangle inequality holds, meaning that the length of one leg of a triangle xyz cannot exceed the sum of the lengths of the other two legs:
+
+  
+    
+      
+        d
+        (
+        x
+        ,
+        z
+        )
+        ≤
+        d
+        (
+        x
+        ,
+        y
+        )
+        +
+        d
+        (
+        y
+        ,
+        z
+        )
+        
+        .
+      
+    
+    {\displaystyle d(x,z)\leq d(x,y)+d(y,z)\,.}
+  
+
+This last property is ultimately a consequence of the more fundamental Cauchy–Schwarz inequality, which asserts
+
+  
+    
+      
+        
+          |
+          
+            ⟨
+            x
+            ,
+            y
+            ⟩
+          
+          |
+        
+        ≤
+        ‖
+        x
+        ‖
+        ‖
+        y
+        ‖
+      
+    
+    {\displaystyle \left|\langle x,y\rangle \right|\leq \|x\|\|y\|}
+  
+
+with equality if and only if 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ and 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+  
+ are linearly dependent.
+With a distance function defined in this way, any inner product space is a metric space. An inner product space is sometimes known as a pre-Hilbert space. Any pre-Hilbert space that is additionally also a complete space is a Hilbert space.
+The completeness of H is expressed using a form of the Cauchy criterion for sequences in H: a pre-Hilbert space H is complete if every Cauchy sequence converges with respect to this norm to an element in the space. Completeness can be characterized by the following equivalent condition: if a series of vectors
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          u
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \sum _{k=0}^{\infty }u_{k}}
+  
+
+converges absolutely in the sense that
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        ‖
+        
+          u
+          
+            k
+          
+        
+        ‖
+        <
+        ∞
+        
+        ,
+      
+    
+    {\displaystyle \sum _{k=0}^{\infty }\|u_{k}\|<\infty \,,}
+  
+
+then the series converges in H, in the sense that the partial sums converge to an element of H.
+As a complete normed space, Hilbert spaces are by definition also Banach spaces. As such they are topological vector spaces, in which topological notions like the openness and closedness of subsets are well defined. Of special importance is the notion of a closed linear subspace of a Hilbert space that, with the inner product induced by restriction, is also complete (being a closed set in a complete metric space) and therefore a Hilbert space in its own right.
+
+
+=== Second example: sequence spaces ===
+The sequence space 
+  
+    
+      
+        
+          ℓ
+          
+            2
+          
+        
+      
+    
+    {\textstyle \ell ^{2}}
+  
+ consists of all infinite sequences z = (z1, z2, ...) of complex numbers such that the series 
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          |
+        
+        
+          z
+          
+            n
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \sum _{n=1}^{\infty }|z_{n}|^{2}}
+  
+
+of its squared norms converges.
+The inner product on 
+  
+    
+      
+        
+          ℓ
+          
+            2
+          
+        
+      
+    
+    {\textstyle \ell ^{2}}
+  
+ is defined by
+
+  
+    
+      
+        ⟨
+        
+          z
+        
+        ,
+        
+          w
+        
+        ⟩
+        =
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          z
+          
+            n
+          
+        
+        
+          
+            
+              w
+              ¯
+            
+          
+          
+            n
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \langle \mathbf {z} ,\mathbf {w} \rangle =\sum _{n=1}^{\infty }z_{n}{\overline {w}}_{n}\,.}
+  
+
+The series for the inner product converges as a consequence of the Cauchy–Schwarz inequality and the assumed convergence of the two series of squared norms.
+Completeness of the space holds provided that whenever a series of elements from 
+  
+    
+      
+        
+          ℓ
+          
+            2
+          
+        
+      
+    
+    {\textstyle \ell ^{2}}
+  
+ converges absolutely (in norm), then it converges to an element of 
+  
+    
+      
+        
+          ℓ
+          
+            2
+          
+        
+      
+    
+    {\textstyle \ell ^{2}}
+  
+. The proof is basic in mathematical analysis, and permits mathematical series of elements of the space to be manipulated with the same ease as series of complex numbers (or vectors in a finite-dimensional Euclidean space).
+
+
+== History ==
+
+Prior to the development of Hilbert spaces, other generalizations of Euclidean spaces were known to mathematicians and physicists. In particular, the idea of an abstract linear space (vector space) had gained some traction towards the end of the 19th century: this is a space whose elements can be added together and multiplied by scalars (such as real or complex numbers) without necessarily identifying these elements with "geometric" vectors, such as position and momentum vectors in physical systems. Other objects studied at the turn of the 20th century, in particular spaces of sequences (including series) and spaces of functions, can naturally be thought of as linear spaces. Functions, for instance, can be added together or multiplied by constant scalars, and these operations obey the algebraic laws satisfied by addition and scalar multiplication of spatial vectors.
+In the first decade of the 20th century, parallel developments led to the introduction of Hilbert spaces. The first of these was the observation, which arose during David Hilbert and Erhard Schmidt's study of integral equations, that two square-integrable real-valued functions f and g on an interval [a, b] have an inner product
+
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        ⟩
+        =
+        
+          ∫
+          
+            a
+          
+          
+            b
+          
+        
+        f
+        (
+        x
+        )
+        g
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle \langle f,g\rangle =\int _{a}^{b}f(x)g(x)\,\mathrm {d} x}
+  
+
+that has many of the familiar properties of the Euclidean dot product. In particular, the idea of an orthogonal family of functions has meaning. Schmidt exploited the similarity of this inner product with the usual dot product to prove an analog of the spectral decomposition for an operator of the form
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        ↦
+        
+          ∫
+          
+            a
+          
+          
+            b
+          
+        
+        K
+        (
+        x
+        ,
+        y
+        )
+        f
+        (
+        y
+        )
+        
+        
+          d
+        
+        y
+      
+    
+    {\displaystyle f(x)\mapsto \int _{a}^{b}K(x,y)f(y)\,\mathrm {d} y}
+  
+
+where K is a continuous function symmetric in x and y. The resulting eigenfunction expansion expresses the function K as a series of the form
+
+  
+    
+      
+        K
+        (
+        x
+        ,
+        y
+        )
+        =
+        
+          ∑
+          
+            n
+          
+        
+        
+          λ
+          
+            n
+          
+        
+        
+          φ
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+          φ
+          
+            n
+          
+        
+        (
+        y
+        )
+      
+    
+    {\displaystyle K(x,y)=\sum _{n}\lambda _{n}\varphi _{n}(x)\varphi _{n}(y)}
+  
+
+where the functions φn are orthogonal in the sense that ⟨φn, φm⟩ = 0 for all n ≠ m. The individual terms in this series are sometimes referred to as elementary product solutions. However, there are eigenfunction expansions that fail to converge in a suitable sense to a square-integrable function: the missing ingredient, which ensures convergence, is completeness.
+The second development was the Lebesgue integral, an alternative to the Riemann integral introduced by Henri Lebesgue in 1904. The Lebesgue integral made it possible to integrate a much broader class of functions. In 1907, Frigyes Riesz and Ernst Sigismund Fischer independently proved that the space L2 of square Lebesgue-integrable functions is a complete metric space. As a consequence of the interplay between geometry and completeness, the 19th century results of Joseph Fourier, Friedrich Bessel and Marc-Antoine Parseval on trigonometric series easily carried over to these more general spaces, resulting in a geometrical and analytical apparatus now usually known as the Riesz–Fischer theorem.
+Further basic results were proved in the early 20th century. For example, the Riesz representation theorem was independently established by Maurice Fréchet and Frigyes Riesz in 1907. John von Neumann coined the term abstract Hilbert space in his work on unbounded Hermitian operators. Although other mathematicians such as Hermann Weyl and Norbert Wiener had already studied particular Hilbert spaces in great detail, often from a physically motivated point of view, von Neumann gave the first complete and axiomatic treatment of them. Von Neumann later used them in his seminal work on the foundations of quantum mechanics, and in his continued work with Eugene Wigner. The name "Hilbert space" was soon adopted by others, for example by Hermann Weyl in his book on quantum mechanics and the theory of groups.
+The significance of the concept of a Hilbert space was underlined with the realization that it offers one of the best mathematical formulations of quantum mechanics. In short, the states of a quantum mechanical system are vectors in a certain Hilbert space, the observables are hermitian operators on that space, the symmetries of the system are unitary operators, and measurements are orthogonal projections. The relation between quantum mechanical symmetries and unitary operators provided an impetus for the development of the unitary representation theory of groups, initiated in the 1928 work of Hermann Weyl. On the other hand, in the early 1930s it became clear that classical mechanics can be described in terms of Hilbert space (Koopman–von Neumann classical mechanics) and that certain properties of classical dynamical systems can be analyzed using Hilbert space techniques in the framework of ergodic theory.
+The algebra of observables in quantum mechanics is naturally an algebra of operators defined on a Hilbert space, according to Werner Heisenberg's matrix mechanics formulation of quantum theory. Von Neumann began investigating operator algebras in the 1930s, as rings of operators on a Hilbert space. Such algebras are now known as von Neumann algebras. In the 1940s, Israel Gelfand, Mark Naimark and Irving Segal gave a definition of a kind of operator algebras called C*-algebras that on the one hand made no reference to an underlying Hilbert space, and on the other extrapolated many of the useful features of the operator algebras that had previously been studied. The spectral theorem for self-adjoint operators in particular that underlies much of the existing Hilbert space theory was generalized to C*-algebras. These techniques are now basic in abstract harmonic analysis and representation theory.
+
+
+== Further examples ==
+
+
+=== Lebesgue spaces ===
+
+Lebesgue spaces are function spaces associated to measure spaces (X, M, μ), where X is a set, M is a σ-algebra of subsets of X, and μ is a countably additive measure on M. Let L2(X, μ) be the space of those complex-valued measurable functions on X for which the Lebesgue integral of the square of the absolute value of the function is finite, i.e., for a function f in L2(X, μ),
+
+  
+    
+      
+        
+          ∫
+          
+            X
+          
+        
+        
+          |
+        
+        f
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+        
+          d
+        
+        μ
+        <
+        ∞
+        
+        ,
+      
+    
+    {\displaystyle \int _{X}|f|^{2}\,\mathrm {d} \mu <\infty \,,}
+  
+
+and where functions are identified if and only if they differ only on a set of measure zero.
+The inner product of functions f and g in L2(X, μ) is then defined as
+
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        ⟩
+        =
+        
+          ∫
+          
+            X
+          
+        
+        f
+        (
+        t
+        )
+        
+          
+            
+              g
+              (
+              t
+              )
+            
+            ¯
+          
+        
+        
+        
+          d
+        
+        μ
+        (
+        t
+        )
+      
+    
+    {\displaystyle \langle f,g\rangle =\int _{X}f(t){\overline {g(t)}}\,\mathrm {d} \mu (t)}
+  
+ or 
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        ⟩
+        =
+        
+          ∫
+          
+            X
+          
+        
+        
+          
+            
+              f
+              (
+              t
+              )
+            
+            ¯
+          
+        
+        g
+        (
+        t
+        )
+        
+        
+          d
+        
+        μ
+        (
+        t
+        )
+        
+        ,
+      
+    
+    {\displaystyle \langle f,g\rangle =\int _{X}{\overline {f(t)}}g(t)\,\mathrm {d} \mu (t)\,,}
+  
+
+where the second form (conjugation of the first element) is commonly found in the theoretical physics literature. For f and g in L2, the integral exists because of the Cauchy–Schwarz inequality, and defines an inner product on the space. Equipped with this inner product, L2 is in fact complete. The Lebesgue integral is essential to ensure completeness: on domains of real numbers, for instance, not enough functions are Riemann integrable.
+The Lebesgue spaces appear in many natural settings. The spaces L2(R) and L2([0,1]) of square-integrable functions with respect to the Lebesgue measure on the real line and unit interval, respectively, are natural domains on which to define the Fourier transform and Fourier series. In other situations, the measure may be something other than the ordinary Lebesgue measure on the real line. For instance, if w is any positive measurable function, the space of all measurable functions f on the interval [0, 1] satisfying
+
+  
+    
+      
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        
+          
+            |
+          
+        
+        f
+        (
+        t
+        )
+        
+          
+            
+              |
+            
+          
+          
+            2
+          
+        
+        w
+        (
+        t
+        )
+        
+        
+          d
+        
+        t
+        <
+        ∞
+      
+    
+    {\displaystyle \int _{0}^{1}{\bigl |}f(t){\bigr |}^{2}w(t)\,\mathrm {d} t<\infty }
+  
+
+is called the weighted L2 space L2w([0, 1]), and w is called the weight function. The inner product is defined by
+
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        ⟩
+        =
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        f
+        (
+        t
+        )
+        
+          
+            
+              g
+              (
+              t
+              )
+            
+            ¯
+          
+        
+        w
+        (
+        t
+        )
+        
+        
+          d
+        
+        t
+        
+        .
+      
+    
+    {\displaystyle \langle f,g\rangle =\int _{0}^{1}f(t){\overline {g(t)}}w(t)\,\mathrm {d} t\,.}
+  
+
+The weighted space L2w([0, 1]) is identical with the Hilbert space L2([0, 1], μ) where the measure μ of a Lebesgue-measurable set A is defined by
+
+  
+    
+      
+        μ
+        (
+        A
+        )
+        =
+        
+          ∫
+          
+            A
+          
+        
+        w
+        (
+        t
+        )
+        
+        
+          d
+        
+        t
+        
+        .
+      
+    
+    {\displaystyle \mu (A)=\int _{A}w(t)\,\mathrm {d} t\,.}
+  
+
+Weighted L2 spaces like this are frequently used to study orthogonal polynomials, because different families of orthogonal polynomials are orthogonal with respect to different weighting functions.
+
+
+=== Sobolev spaces ===
+Sobolev spaces, denoted by Hs or Ws,2, are Hilbert spaces. These are a special kind of function space in which differentiation may be performed, but that (unlike other Banach spaces such as the Hölder spaces) support the structure of an inner product. Because differentiation is permitted, Sobolev spaces are a convenient setting for the theory of partial differential equations. They also form the basis of the theory of direct methods in the calculus of variations.
+For s a non-negative integer and Ω ⊂ Rn, the Sobolev space Hs(Ω) contains L2 functions whose weak derivatives of order up to s are also L2. The inner product in Hs(Ω) is
+
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        ⟩
+        =
+        
+          ∫
+          
+            Ω
+          
+        
+        f
+        (
+        x
+        )
+        
+          
+            
+              g
+              ¯
+            
+          
+        
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+        +
+        
+          ∫
+          
+            Ω
+          
+        
+        D
+        f
+        (
+        x
+        )
+        ⋅
+        D
+        
+          
+            
+              g
+              ¯
+            
+          
+        
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+        +
+        ⋯
+        +
+        
+          ∫
+          
+            Ω
+          
+        
+        
+          D
+          
+            s
+          
+        
+        f
+        (
+        x
+        )
+        ⋅
+        
+          D
+          
+            s
+          
+        
+        
+          
+            
+              g
+              ¯
+            
+          
+        
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle \langle f,g\rangle =\int _{\Omega }f(x){\bar {g}}(x)\,\mathrm {d} x+\int _{\Omega }Df(x)\cdot D{\bar {g}}(x)\,\mathrm {d} x+\cdots +\int _{\Omega }D^{s}f(x)\cdot D^{s}{\bar {g}}(x)\,\mathrm {d} x}
+  
+
+where the dot indicates the dot product in the Euclidean space of partial derivatives of each order. Sobolev spaces can also be defined when s is not an integer.
+Sobolev spaces are also studied from the point of view of spectral theory, relying more specifically on the Hilbert space structure. If Ω is a suitable domain, then one can define the Sobolev space Hs(Ω) as the space of Bessel potentials; roughly,
+
+  
+    
+      
+        
+          H
+          
+            s
+          
+        
+        (
+        Ω
+        )
+        =
+        
+          {
+          
+            (
+            1
+            −
+            Δ
+            
+              )
+              
+                −
+                s
+                
+                  /
+                
+                2
+              
+            
+            f
+            
+              
+                |
+              
+            
+            f
+            ∈
+            
+              L
+              
+                2
+              
+            
+            (
+            Ω
+            )
+          
+          }
+        
+        
+        .
+      
+    
+    {\displaystyle H^{s}(\Omega )=\left\{(1-\Delta )^{-s/2}f\mathrel {\Big |} f\in L^{2}(\Omega )\right\}\,.}
+  
+
+Here Δ is the Laplacian and (1 − Δ)−s / 2 is understood in terms of the spectral mapping theorem. Apart from providing a workable definition of Sobolev spaces for non-integer s, this definition also has particularly desirable properties under the Fourier transform that make it ideal for the study of pseudodifferential operators. Using these methods on a compact Riemannian manifold, one can obtain for instance the Hodge decomposition, which is the basis of Hodge theory.
+
+
+=== Spaces of holomorphic functions ===
+
+
+==== Hardy spaces ====
+The Hardy spaces are function spaces, arising in complex analysis and harmonic analysis, whose elements are certain holomorphic functions in a complex domain. Let U denote the unit disc in the complex plane. Then the Hardy space H2(U) is defined as the space of holomorphic functions f on U such that the means
+
+  
+    
+      
+        
+          M
+          
+            r
+          
+        
+        (
+        f
+        )
+        =
+        
+          
+            1
+            
+              2
+              π
+            
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            2
+            π
+          
+        
+        
+          
+            |
+            
+              f
+              
+                
+                  (
+                
+              
+              r
+              
+                e
+                
+                  i
+                  θ
+                
+              
+              
+                
+                  )
+                
+              
+            
+            |
+          
+          
+            2
+          
+        
+        
+        
+          d
+        
+        θ
+      
+    
+    {\displaystyle M_{r}(f)={\frac {1}{2\pi }}\int _{0}^{2\pi }\left|f{\bigl (}re^{i\theta }{\bigr )}\right|^{2}\,\mathrm {d} \theta }
+  
+
+remain bounded for r < 1. The norm on this Hardy space is defined by
+
+  
+    
+      
+        
+          
+            ‖
+            f
+            ‖
+          
+          
+            2
+          
+        
+        =
+        
+          lim
+          
+            r
+            →
+            1
+          
+        
+        
+          
+            
+              M
+              
+                r
+              
+            
+            (
+            f
+            )
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \left\|f\right\|_{2}=\lim _{r\to 1}{\sqrt {M_{r}(f)}}\,.}
+  
+
+Hardy spaces in the disc are related to Fourier series. A function f is in H2(U) if and only if
+
+  
+    
+      
+        f
+        (
+        z
+        )
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          a
+          
+            n
+          
+        
+        
+          z
+          
+            n
+          
+        
+      
+    
+    {\displaystyle f(z)=\sum _{n=0}^{\infty }a_{n}z^{n}}
+  
+
+where
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          |
+        
+        
+          a
+          
+            n
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        <
+        ∞
+        
+        .
+      
+    
+    {\displaystyle \sum _{n=0}^{\infty }|a_{n}|^{2}<\infty \,.}
+  
+
+Thus H2(U) consists of those functions that are L2 on the circle, and whose negative frequency Fourier coefficients vanish.
+
+
+==== Bergman spaces ====
+The Bergman spaces are another family of Hilbert spaces of holomorphic functions. Let D be a bounded open set in the complex plane (or a higher-dimensional complex space) and let L2, h(D) be the space of holomorphic functions f in D that are also in L2(D) in the sense that
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          ∫
+          
+            D
+          
+        
+        
+          |
+        
+        f
+        (
+        z
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+        
+          d
+        
+        μ
+        (
+        z
+        )
+        <
+        ∞
+        
+        ,
+      
+    
+    {\displaystyle \|f\|^{2}=\int _{D}|f(z)|^{2}\,\mathrm {d} \mu (z)<\infty \,,}
+  
+
+where the integral is taken with respect to the Lebesgue measure in D. Clearly L2, h(D) is a subspace of L2(D); in fact, it is a closed subspace, and so a Hilbert space in its own right. This is a consequence of the estimate, valid on compact subsets K of D, that
+
+  
+    
+      
+        
+          sup
+          
+            z
+            ∈
+            K
+          
+        
+        
+          |
+          
+            f
+            (
+            z
+            )
+          
+          |
+        
+        ≤
+        
+          C
+          
+            K
+          
+        
+        
+          
+            ‖
+            f
+            ‖
+          
+          
+            2
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \sup _{z\in K}\left|f(z)\right|\leq C_{K}\left\|f\right\|_{2}\,,}
+  
+
+which in turn follows from Cauchy's integral formula. Thus convergence of a sequence of holomorphic functions in L2(D) implies also compact convergence, and so the limit function is also holomorphic. Another consequence of this inequality is that the linear functional that evaluates a function f at a point of D is actually continuous on L2,h(D). The Riesz representation theorem implies that the evaluation functional can be represented as an element of L2,h(D). Thus, for every z ∈ D, there is a function ηz ∈ L2,h(D) such that
+
+  
+    
+      
+        f
+        (
+        z
+        )
+        =
+        
+          ∫
+          
+            D
+          
+        
+        f
+        (
+        ζ
+        )
+        
+          
+            
+              
+                η
+                
+                  z
+                
+              
+              (
+              ζ
+              )
+            
+            ¯
+          
+        
+        
+        
+          d
+        
+        μ
+        (
+        ζ
+        )
+      
+    
+    {\displaystyle f(z)=\int _{D}f(\zeta ){\overline {\eta _{z}(\zeta )}}\,\mathrm {d} \mu (\zeta )}
+  
+
+for all f ∈ L2,h(D). The integrand
+
+  
+    
+      
+        K
+        (
+        ζ
+        ,
+        z
+        )
+        =
+        
+          
+            
+              
+                η
+                
+                  z
+                
+              
+              (
+              ζ
+              )
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle K(\zeta ,z)={\overline {\eta _{z}(\zeta )}}}
+  
+
+is known as the Bergman kernel of D. This integral kernel satisfies a reproducing property
+
+  
+    
+      
+        f
+        (
+        z
+        )
+        =
+        
+          ∫
+          
+            D
+          
+        
+        f
+        (
+        ζ
+        )
+        K
+        (
+        ζ
+        ,
+        z
+        )
+        
+        
+          d
+        
+        μ
+        (
+        ζ
+        )
+        
+        .
+      
+    
+    {\displaystyle f(z)=\int _{D}f(\zeta )K(\zeta ,z)\,\mathrm {d} \mu (\zeta )\,.}
+  
+
+A Bergman space is an example of a reproducing kernel Hilbert space, which is a Hilbert space of functions along with a kernel K(ζ, z) that verifies a reproducing property analogous to this one. The Hardy space H2(D) also admits a reproducing kernel, known as the Szegő kernel. Reproducing kernels are common in other areas of mathematics as well. For instance, in harmonic analysis the Poisson kernel is a reproducing kernel for the Hilbert space of square-integrable harmonic functions in the unit ball. The latter is a Hilbert space because the mean theorem for harmonic functions implies 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L^{2}}
+  
+-bounded point evaluations, from which it follows that it is a closed subspace of 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L^{2}}
+  
+.
+
+
+== Applications ==
+Many of the applications of Hilbert spaces exploit the fact that Hilbert spaces support generalizations of simple geometric concepts like projection and change of basis from their usual finite dimensional setting. In particular, the spectral theory of continuous self-adjoint linear operators on a Hilbert space generalizes the usual spectral decomposition of a matrix, and this often plays a major role in applications of the theory to other areas of mathematics and physics.
+
+
+=== Sturm–Liouville theory ===
+
+In the theory of ordinary differential equations, spectral methods on a suitable Hilbert space are used to study the behavior of eigenvalues and eigenfunctions of differential equations. For example, the Sturm–Liouville problem arises in the study of the harmonics of waves in a violin string or a drum, and is a central problem in ordinary differential equations. The problem is a differential equation of the form
+
+  
+    
+      
+        −
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              x
+            
+          
+        
+        
+          [
+          
+            p
+            (
+            x
+            )
+            
+              
+                
+                  
+                    d
+                  
+                  y
+                
+                
+                  
+                    d
+                  
+                  x
+                
+              
+            
+          
+          ]
+        
+        +
+        q
+        (
+        x
+        )
+        y
+        =
+        λ
+        w
+        (
+        x
+        )
+        y
+      
+    
+    {\displaystyle -{\frac {\mathrm {d} }{\mathrm {d} x}}\left[p(x){\frac {\mathrm {d} y}{\mathrm {d} x}}\right]+q(x)y=\lambda w(x)y}
+  
+
+for an unknown function y on an interval [a, b], satisfying general homogeneous Robin boundary conditions
+
+  
+    
+      
+        
+          
+            {
+            
+              
+                
+                  α
+                  y
+                  (
+                  a
+                  )
+                  +
+                  
+                    α
+                    ′
+                  
+                  
+                    y
+                    ′
+                  
+                  (
+                  a
+                  )
+                
+                
+                  =
+                  0
+                
+              
+              
+                
+                  β
+                  y
+                  (
+                  b
+                  )
+                  +
+                  
+                    β
+                    ′
+                  
+                  
+                    y
+                    ′
+                  
+                  (
+                  b
+                  )
+                
+                
+                  =
+                  0
+                  
+                  .
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{cases}\alpha y(a)+\alpha 'y'(a)&=0\\\beta y(b)+\beta 'y'(b)&=0\,.\end{cases}}}
+  
+
+The functions p, q, and w are given in advance, and the problem is to find the function y and constants λ for which the equation has a solution. The problem only has solutions for certain values of λ, called eigenvalues of the system, and this is a consequence of the spectral theorem for compact operators applied to the integral operator defined by the Green's function for the system. Furthermore, another consequence of this general result is that the eigenvalues λ of the system can be arranged in an increasing sequence tending to infinity.
+
+
+=== Partial differential equations ===
+Hilbert spaces form a basic tool in the study of partial differential equations. For many classes of partial differential equations, such as linear elliptic equations, it is possible to consider a generalized solution (known as a weak solution) by enlarging the class of functions. Many weak formulations involve the class of Sobolev functions, which is a Hilbert space. A suitable weak formulation reduces to a geometrical problem, the analytic problem of finding a solution or, often what is more important, showing that a solution exists and is unique for given boundary data. For linear elliptic equations, one geometrical result that ensures unique solvability for a large class of problems is the Lax–Milgram theorem. This strategy forms the rudiment of the Galerkin method (a finite element method) for numerical solution of partial differential equations.
+An example is the Poisson equation −Δu = g with Dirichlet boundary conditions in a bounded domain Ω in R2. The weak formulation consists of finding a function u such that, for all continuously differentiable functions v in Ω vanishing on the boundary:
+
+  
+    
+      
+        
+          ∫
+          
+            Ω
+          
+        
+        ∇
+        u
+        ⋅
+        ∇
+        v
+        =
+        
+          ∫
+          
+            Ω
+          
+        
+        g
+        v
+        
+        .
+      
+    
+    {\displaystyle \int _{\Omega }\nabla u\cdot \nabla v=\int _{\Omega }gv\,.}
+  
+
+This can be recast in terms of the Hilbert space H10(Ω) consisting of functions u such that u, along with its weak partial derivatives, are square integrable on Ω, and vanish on the boundary. The question then reduces to finding u in this space such that for all v in this space
+
+  
+    
+      
+        a
+        (
+        u
+        ,
+        v
+        )
+        =
+        b
+        (
+        v
+        )
+      
+    
+    {\displaystyle a(u,v)=b(v)}
+  
+
+where a is a continuous bilinear form, and b is a continuous linear functional, given respectively by
+
+  
+    
+      
+        a
+        (
+        u
+        ,
+        v
+        )
+        =
+        
+          ∫
+          
+            Ω
+          
+        
+        ∇
+        u
+        ⋅
+        ∇
+        v
+        ,
+        
+        b
+        (
+        v
+        )
+        =
+        
+          ∫
+          
+            Ω
+          
+        
+        g
+        v
+        
+        .
+      
+    
+    {\displaystyle a(u,v)=\int _{\Omega }\nabla u\cdot \nabla v,\quad b(v)=\int _{\Omega }gv\,.}
+  
+
+Since the Poisson equation is elliptic, it follows from Poincaré's inequality that the bilinear form a is coercive. The Lax–Milgram theorem then ensures the existence and uniqueness of solutions of this equation.
+Hilbert spaces allow for many elliptic partial differential equations to be formulated in a similar way, and the Lax–Milgram theorem is then a basic tool in their analysis. With suitable modifications, similar techniques can be applied to parabolic partial differential equations and certain hyperbolic partial differential equations.
+
+
+=== Ergodic theory ===
+
+The field of ergodic theory is the study of the long-term behavior of chaotic dynamical systems. The protypical case of a field that ergodic theory applies to is thermodynamics, in which—though the microscopic state of a system is extremely complicated (it is impossible to understand the ensemble of individual collisions between particles of matter)—the average behavior over sufficiently long time intervals is tractable. The laws of thermodynamics are assertions about such average behavior. In particular, one formulation of the zeroth law of thermodynamics asserts that over sufficiently long timescales, the only functionally independent measurement that one can make of a thermodynamic system in equilibrium is its total energy, in the form of temperature.
+An ergodic dynamical system is one for which, apart from the energy—measured by the Hamiltonian—there are no other functionally independent conserved quantities on the phase space. More explicitly, suppose that the energy E is fixed, and let ΩE be the subset of the phase space consisting of all states of energy E (an energy surface), and let Tt denote the evolution operator on the phase space. The dynamical system is ergodic if every invariant measurable function on ΩE is constant almost everywhere. An invariant function f is one for which
+
+  
+    
+      
+        f
+        (
+        
+          T
+          
+            t
+          
+        
+        w
+        )
+        =
+        f
+        (
+        w
+        )
+      
+    
+    {\displaystyle f(T_{t}w)=f(w)}
+  
+
+for all w on ΩE and all time t. Liouville's theorem implies that there exists a measure μ on the energy surface that is invariant under the time translation. As a result, time translation is a unitary transformation of the Hilbert space L2(ΩE, μ) consisting of square-integrable functions on the energy surface ΩE with respect to the inner product
+
+  
+    
+      
+        
+          
+            ⟨
+            
+              f
+              ,
+              g
+            
+            ⟩
+          
+          
+            
+              L
+              
+                2
+              
+            
+            
+              (
+              
+                
+                  Ω
+                  
+                    E
+                  
+                
+                ,
+                μ
+              
+              )
+            
+          
+        
+        =
+        
+          ∫
+          
+            
+              Ω
+              
+                E
+              
+            
+          
+        
+        f
+        
+          
+            
+              g
+              ¯
+            
+          
+        
+        
+        
+          d
+        
+        μ
+        
+        .
+      
+    
+    {\displaystyle \left\langle f,g\right\rangle _{L^{2}\left(\Omega _{E},\mu \right)}=\int _{\Omega _{E}}f{\bar {g}}\,\mathrm {d} \mu \,.}
+  
+
+The von Neumann mean ergodic theorem states the following:
+
+If Ut is a (strongly continuous) one-parameter semigroup of unitary operators on a Hilbert space H, and P is the orthogonal projection onto the space of common fixed points of Ut, {x  ∈H | Utx = x, ∀t > 0}, then 
+  
+    
+      
+        P
+        x
+        =
+        
+          lim
+          
+            T
+            →
+            ∞
+          
+        
+        
+          
+            1
+            T
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            T
+          
+        
+        
+          U
+          
+            t
+          
+        
+        x
+        
+        
+          d
+        
+        t
+        
+        .
+      
+    
+    {\displaystyle Px=\lim _{T\to \infty }{\frac {1}{T}}\int _{0}^{T}U_{t}x\,\mathrm {d} t\,.}
+  
+
+For an ergodic system, the fixed set of the time evolution consists only of the constant functions, so the ergodic theorem implies the following: for any function f ∈ L2(ΩE, μ),
+
+  
+    
+      
+        
+          
+            
+              
+                L
+                
+                  2
+                
+              
+              −
+              lim
+            
+            
+              T
+              →
+              ∞
+            
+          
+        
+        
+          
+            1
+            T
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            T
+          
+        
+        f
+        (
+        
+          T
+          
+            t
+          
+        
+        w
+        )
+        
+        
+          d
+        
+        t
+        =
+        
+          ∫
+          
+            
+              Ω
+              
+                E
+              
+            
+          
+        
+        f
+        (
+        y
+        )
+        
+        
+          d
+        
+        μ
+        (
+        y
+        )
+        
+        .
+      
+    
+    {\displaystyle {\underset {T\to \infty }{L^{2}-\lim }}{\frac {1}{T}}\int _{0}^{T}f(T_{t}w)\,\mathrm {d} t=\int _{\Omega _{E}}f(y)\,\mathrm {d} \mu (y)\,.}
+  
+
+That is, the long time average of an observable f is equal to its expectation value over an energy surface.
+
+
+=== Fourier analysis ===
+
+One of the basic goals of Fourier analysis is to decompose a function into a (possibly infinite) linear combination of given basis functions: the associated Fourier series. The classical Fourier series associated to a function f defined on the interval [0, 1] is a series of the form
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        
+          a
+          
+            n
+          
+        
+        
+          e
+          
+            2
+            π
+            i
+            n
+            θ
+          
+        
+      
+    
+    {\displaystyle \sum _{n=-\infty }^{\infty }a_{n}e^{2\pi in\theta }}
+  
+
+where
+
+  
+    
+      
+        
+          a
+          
+            n
+          
+        
+        =
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        f
+        (
+        θ
+        )
+        
+        
+        
+          e
+          
+            −
+            2
+            π
+            i
+            n
+            θ
+          
+        
+        
+        
+          d
+        
+        θ
+        
+        .
+      
+    
+    {\displaystyle a_{n}=\int _{0}^{1}f(\theta )\;\!e^{-2\pi in\theta }\,\mathrm {d} \theta \,.}
+  
+
+The example of adding up the first few terms in a Fourier series for a sawtooth function is shown in the figure. The basis functions are sine waves with wavelengths ⁠λ/n⁠ (for integer n) shorter than the wavelength λ of the sawtooth itself (except for n = 1, the fundamental wave).
+A significant problem in classical Fourier series asks in what sense the Fourier series converges, if at all, to the function f. Hilbert space methods provide one possible answer to this question. The functions en(θ) = e2πinθ form an orthogonal basis of the Hilbert space L2([0, 1]). Consequently, any square-integrable function can be expressed as a series
+
+  
+    
+      
+        f
+        (
+        θ
+        )
+        =
+        
+          ∑
+          
+            n
+          
+        
+        
+          a
+          
+            n
+          
+        
+        
+          e
+          
+            n
+          
+        
+        (
+        θ
+        )
+        
+        ,
+        
+        
+          a
+          
+            n
+          
+        
+        =
+        ⟨
+        f
+        ,
+        
+          e
+          
+            n
+          
+        
+        ⟩
+      
+    
+    {\displaystyle f(\theta )=\sum _{n}a_{n}e_{n}(\theta )\,,\quad a_{n}=\langle f,e_{n}\rangle }
+  
+
+and, moreover, this series converges in the Hilbert space sense (that is, in the L2 mean).
+The problem can also be studied from the abstract point of view: every Hilbert space has an orthonormal basis, and every element of the Hilbert space can be written in a unique way as a sum of multiples of these basis elements. The coefficients appearing on these basis elements are sometimes known abstractly as the Fourier coefficients of the element of the space. The abstraction is especially useful when it is more natural to use different basis functions for a space such as L2([0, 1]). In many circumstances, it is desirable not to decompose a function into trigonometric functions, but rather into orthogonal polynomials or wavelets for instance, and in higher dimensions into spherical harmonics.
+For instance, if en are any orthonormal basis functions of L2[0, 1], then a given function in L2[0, 1] can be approximated as a finite linear combination
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        ≈
+        
+          f
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          a
+          
+            1
+          
+        
+        
+          e
+          
+            1
+          
+        
+        (
+        x
+        )
+        +
+        
+          a
+          
+            2
+          
+        
+        
+          e
+          
+            2
+          
+        
+        (
+        x
+        )
+        +
+        ⋯
+        +
+        
+          a
+          
+            n
+          
+        
+        
+          e
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+        .
+      
+    
+    {\displaystyle f(x)\approx f_{n}(x)=a_{1}e_{1}(x)+a_{2}e_{2}(x)+\cdots +a_{n}e_{n}(x)\,.}
+  
+
+The coefficients {aj} are selected to make the magnitude of the difference ‖f − fn‖2 as small as possible. Geometrically, the best approximation is the orthogonal projection of f onto the subspace consisting of all linear combinations of the {ej}, and can be calculated by
+
+  
+    
+      
+        
+          a
+          
+            j
+          
+        
+        =
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        
+          
+            
+              
+                e
+                
+                  j
+                
+              
+              (
+              x
+              )
+            
+            ¯
+          
+        
+        f
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+        
+        .
+      
+    
+    {\displaystyle a_{j}=\int _{0}^{1}{\overline {e_{j}(x)}}f(x)\,\mathrm {d} x\,.}
+  
+
+That this formula minimizes the difference ‖f − fn‖2 is a consequence of Bessel's inequality and Parseval's formula.
+In various applications to physical problems, a function can be decomposed into physically meaningful eigenfunctions of a differential operator (typically the Laplace operator): this forms the foundation for the spectral study of functions, in reference to the spectrum of the differential operator. A concrete physical application involves the problem of hearing the shape of a drum: given the fundamental modes of vibration that a drumhead is capable of producing, can one infer the shape of the drum itself? The mathematical formulation of this question involves the Dirichlet eigenvalues of the Laplace equation in the plane, that represent the fundamental modes of vibration in direct analogy with the integers that represent the fundamental modes of vibration of the violin string.
+Spectral theory also underlies certain aspects of the Fourier transform of a function. Whereas Fourier analysis decomposes a function defined on a compact set into the discrete spectrum of the Laplacian (which corresponds to the vibrations of a violin string or drum), the Fourier transform of a function is the decomposition of a function defined on all of Euclidean space into its components in the continuous spectrum of the Laplacian. The Fourier transformation is also geometrical, in a sense made precise by the Plancherel theorem, that asserts that it is an isometry of one Hilbert space (the "time domain") with another (the "frequency domain"). This isometry property of the Fourier transformation is a recurring theme in abstract harmonic analysis (since it reflects the conservation of energy for the continuous Fourier Transform), as evidenced for instance by the Plancherel theorem for spherical functions occurring in noncommutative harmonic analysis.
+
+
+=== Quantum mechanics ===
+
+In the mathematically rigorous formulation of quantum mechanics, developed by John von Neumann, the possible states (more precisely, the pure states) of a quantum mechanical system are represented by unit vectors (called state vectors) residing in a complex separable Hilbert space, known as the state space, well defined up to a complex number of norm 1 (the phase factor). In other words, the possible states are points in the projectivization of a Hilbert space, usually called the complex projective space. The exact nature of this Hilbert space is dependent on the system; for example, the position and momentum states for a single non-relativistic spin zero particle is the space of all square-integrable functions, while the states for the spin of a single proton are unit elements of the two-dimensional complex Hilbert space of spinors. Each observable is represented by a self-adjoint linear operator acting on the state space. Each eigenstate of an observable corresponds to an eigenvector of the operator, and the associated eigenvalue corresponds to the value of the observable in that eigenstate.
+The inner product between two state vectors is a complex number known as a probability amplitude. During an ideal measurement of a quantum mechanical system, the probability that a system collapses from a given initial state to a particular eigenstate is given by the square of the absolute value of the probability amplitudes between the initial and final states. The possible results of a measurement are the eigenvalues of the operator—which explains the choice of self-adjoint operators, for all the eigenvalues must be real. The probability distribution of an observable in a given state can be found by computing the spectral decomposition of the corresponding operator.
+For a general system, states are typically not pure, but instead are represented as statistical mixtures of pure states, or mixed states, given by density matrices: self-adjoint operators of trace one on a Hilbert space. Moreover, for general quantum mechanical systems, the effects of a single measurement can influence other parts of a system in a manner that is described instead by a positive operator valued measure. Thus the structure both of the states and observables in the general theory is considerably more complicated than the idealization for pure states.
+
+
+=== Probability theory ===
+In probability theory, Hilbert spaces also have diverse applications. Here a fundamental Hilbert space is the space of random variables on a given probability space, having class 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L^{2}}
+  
+ (finite first and second moments). A common operation in statistics is that of centering a random variable by subtracting its expectation. Thus if 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is a random variable, then 
+  
+    
+      
+        X
+        −
+        E
+        (
+        X
+        )
+      
+    
+    {\displaystyle X-E(X)}
+  
+ is its centering. In the Hilbert space view, this is the orthogonal projection of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ onto the kernel of the expectation operator, which a continuous linear functional on the Hilbert space (in fact, the inner product with the constant random variable 1), and so this kernel is a closed subspace.
+The conditional expectation has a natural interpretation in the Hilbert space. Suppose that a probability space 
+  
+    
+      
+        (
+        Ω
+        ,
+        P
+        ,
+        
+          
+            B
+          
+        
+        )
+      
+    
+    {\displaystyle (\Omega ,P,{\mathcal {B}})}
+  
+ is given, where 
+  
+    
+      
+        
+          
+            B
+          
+        
+      
+    
+    {\displaystyle {\mathcal {B}}}
+  
+ is a sigma algebra on the set 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+  
+, and 
+  
+    
+      
+        P
+      
+    
+    {\displaystyle P}
+  
+ is a probability measure on the measure space 
+  
+    
+      
+        (
+        Ω
+        ,
+        
+          
+            B
+          
+        
+        )
+      
+    
+    {\displaystyle (\Omega ,{\mathcal {B}})}
+  
+. If 
+  
+    
+      
+        
+          
+            F
+          
+        
+        ≤
+        
+          
+            B
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}\leq {\mathcal {B}}}
+  
+ is a sigma subalgebra of 
+  
+    
+      
+        
+          
+            B
+          
+        
+      
+    
+    {\displaystyle {\mathcal {B}}}
+  
+, then the conditional expectation 
+  
+    
+      
+        E
+        [
+        X
+        ∣
+        
+          
+            F
+          
+        
+        ]
+      
+    
+    {\displaystyle E[X\mid {\mathcal {F}}]}
+  
+ is the orthogonal projection of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ onto the subspace of 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        (
+        Ω
+        ,
+        P
+        )
+      
+    
+    {\displaystyle L^{2}(\Omega ,P)}
+  
+ consisting of the 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}}
+  
+-measurable functions. If the random variable 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ in 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        (
+        Ω
+        ,
+        P
+        )
+      
+    
+    {\displaystyle L^{2}(\Omega ,P)}
+  
+ is independent of the sigma algebra 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}}
+  
+ then conditional expectation 
+  
+    
+      
+        E
+        (
+        X
+        ∣
+        
+          
+            F
+          
+        
+        )
+        =
+        E
+        (
+        X
+        )
+      
+    
+    {\displaystyle E(X\mid {\mathcal {F}})=E(X)}
+  
+, i.e., its projection onto the 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}}
+  
+-measurable functions is constant. Equivalently, the projection of its centering is zero.
+In particular, if two random variables 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ (in 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        (
+        Ω
+        ,
+        P
+        )
+      
+    
+    {\displaystyle L^{2}(\Omega ,P)}
+  
+) are independent, then the centered random variables 
+  
+    
+      
+        X
+        −
+        E
+        (
+        X
+        )
+      
+    
+    {\displaystyle X-E(X)}
+  
+ and 
+  
+    
+      
+        Y
+        −
+        E
+        (
+        Y
+        )
+      
+    
+    {\displaystyle Y-E(Y)}
+  
+ are orthogonal. (This means that the two variables have zero covariance: they are uncorrelated.) In that case, the Pythagorean theorem in the kernel of the expectation operator implies that the variances of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ satisfy the identity:
+
+  
+    
+      
+        Var
+        ⁡
+        (
+        X
+        +
+        Y
+        )
+        =
+        Var
+        ⁡
+        (
+        X
+        )
+        +
+        Var
+        ⁡
+        (
+        Y
+        )
+        ,
+      
+    
+    {\displaystyle \operatorname {Var} (X+Y)=\operatorname {Var} (X)+\operatorname {Var} (Y),}
+  
+
+sometimes called the Pythagorean theorem of statistics, and is of importance in linear regression. The analysis of variance could use the Pythagorean Theorem so that the variance is viewed as the decomposition of the squared length of a vector into the sum of the squared lengths of several vectors.
+The theory of martingales can be formulated in Hilbert spaces. A martingale in a Hilbert space is a sequence 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        …
+      
+    
+    {\displaystyle x_{1},x_{2},\dots }
+  
+ of elements of a Hilbert space such that, for each n, 
+  
+    
+      
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle x_{n}}
+  
+ is the orthogonal projection of 
+  
+    
+      
+        
+          x
+          
+            n
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle x_{n+1}}
+  
+ onto the linear hull of 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle x_{1},\dots ,x_{n}}
+  
+. If the 
+  
+    
+      
+        
+          x
+          
+            k
+          
+        
+      
+    
+    {\displaystyle x_{k}}
+  
+ are random variables, this reproduces the usual definition of a (discrete) martingale: the expectation of 
+  
+    
+      
+        
+          x
+          
+            n
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle x_{n+1}}
+  
+, conditioned on 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle x_{1},\dots ,x_{n}}
+  
+, is equal to 
+  
+    
+      
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle x_{n}}
+  
+.
+Hilbert spaces are also used throughout the foundations of the Itô calculus. To any square-integrable martingale, it is possible to associate a Hilbert norm on the space of equivalence classes of progressively measurable processes with respect to the martingale (using the quadratic variation of the martingale as the measure). The Itô integral can be constructed by first defining it for simple processes, and then exploiting their density in the Hilbert space. A noteworthy result is then the Itô isometry, which attests that for any martingale M having quadratic variation measure 
+  
+    
+      
+        d
+        ⟨
+        M
+        
+          ⟩
+          
+            t
+          
+        
+      
+    
+    {\displaystyle d\langle M\rangle _{t}}
+  
+, and any progressively measurable process H:
+
+  
+    
+      
+        E
+        
+          
+            [
+          
+        
+        
+          
+            (
+            
+              
+                ∫
+                
+                  0
+                
+                
+                  t
+                
+              
+              
+                H
+                
+                  s
+                
+              
+              
+              d
+              
+                M
+                
+                  s
+                
+              
+            
+            )
+          
+          
+            
+              
+                
+                  
+                    
+                      
+                        
+                          )
+                        
+                      
+                      
+                        2
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              
+              2
+              
+            
+          
+        
+        
+          
+            ]
+          
+        
+        =
+        E
+        
+          [
+          
+            
+              ∫
+              
+                0
+              
+              
+                t
+              
+            
+            
+              H
+              
+                s
+              
+              
+                2
+              
+            
+            
+            d
+            ⟨
+            M
+            
+              ⟩
+              
+                s
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle E{\biggl [}{\left(\int _{0}^{t}H_{s}\,dM_{s}\right){\vphantom {{\Bigr )}^{2}}}^{\!\!2\,}}{\biggr ]}=E\left[\int _{0}^{t}H_{s}^{2}\,d\langle M\rangle _{s}\right]}
+  
+
+whenever the expectation on the right-hand side is finite.
+A deeper application of Hilbert spaces that is especially important in the theory of Gaussian processes is an attempt, due to Leonard Gross and others, to make sense of certain formal integrals over infinite dimensional spaces like the Feynman path integral from quantum field theory. The problem with integrals like this is that there is no infinite dimensional Lebesgue measure. The notion of an abstract Wiener space allows one to construct a measure on a Banach space B that contains a Hilbert space H, called the Cameron–Martin space, as a dense subset, out of a finitely additive cylinder set measure on H. The resulting measure on B is countably additive and invariant under translation by elements of H, and this provides a mathematically rigorous way of thinking of the Wiener measure as a Gaussian measure adapted to the Sobolev space 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+        (
+        [
+        0
+        ,
+        ∞
+        )
+        )
+      
+    
+    {\displaystyle H^{1}([0,\infty ))}
+  
+.
+
+
+=== Color perception ===
+
+Any true physical color can be represented by a combination of pure spectral colors. As physical colors can be composed of any number of spectral colors, the space of physical colors may aptly be represented by a Hilbert space over spectral colors. Humans have three types of cone cells for color perception, so the perceivable colors can be represented by 3-dimensional Euclidean space. The many-to-one linear mapping from the Hilbert space of physical colors to the Euclidean space of human perceivable colors explains why many distinct physical colors may be perceived by humans to be identical (e.g., pure yellow light versus a mix of red and green light, see Metamerism).
+
+
+== Properties ==
+
+
+=== Pythagorean identity ===
+Two vectors u and v in a Hilbert space H are orthogonal when ⟨u, v⟩ = 0. The notation for this is u ⊥ v. More generally, when S is a subset in H, the notation u ⊥ S means that u is orthogonal to every element from S.
+When u and v are orthogonal, one has
+
+  
+    
+      
+        ‖
+        u
+        +
+        v
+        
+          ‖
+          
+            2
+          
+        
+        =
+        ⟨
+        u
+        +
+        v
+        ,
+        u
+        +
+        v
+        ⟩
+        =
+        ⟨
+        u
+        ,
+        u
+        ⟩
+        +
+        2
+        
+        Re
+        ⁡
+        ⟨
+        u
+        ,
+        v
+        ⟩
+        +
+        ⟨
+        v
+        ,
+        v
+        ⟩
+        =
+        ‖
+        u
+        
+          ‖
+          
+            2
+          
+        
+        +
+        ‖
+        v
+        
+          ‖
+          
+            2
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \|u+v\|^{2}=\langle u+v,u+v\rangle =\langle u,u\rangle +2\,\operatorname {Re} \langle u,v\rangle +\langle v,v\rangle =\|u\|^{2}+\|v\|^{2}\,.}
+  
+
+By induction on n, this is extended to any family u1, ..., un of n orthogonal vectors,
+
+  
+    
+      
+        
+          
+            ‖
+            
+              
+                u
+                
+                  1
+                
+              
+              +
+              ⋯
+              +
+              
+                u
+                
+                  n
+                
+              
+            
+            ‖
+          
+          
+            2
+          
+        
+        =
+        
+          
+            ‖
+            
+              u
+              
+                1
+              
+            
+            ‖
+          
+          
+            2
+          
+        
+        +
+        ⋯
+        +
+        
+          
+            ‖
+            
+              u
+              
+                n
+              
+            
+            ‖
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle \left\|u_{1}+\cdots +u_{n}\right\|^{2}=\left\|u_{1}\right\|^{2}+\cdots +\left\|u_{n}\right\|^{2}.}
+  
+
+Whereas the Pythagorean identity as stated is valid in any inner product space, completeness is required for the extension of the Pythagorean identity to series. A series Σuk of orthogonal vectors converges in H if and only if the series of squares of norms converges, and
+
+  
+    
+      
+        
+          
+            ‖
+          
+        
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          u
+          
+            k
+          
+        
+        
+          
+            
+              ‖
+            
+          
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            ‖
+            
+              u
+              
+                k
+              
+            
+            ‖
+          
+          
+            2
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\Biggl \|}\sum _{k=0}^{\infty }u_{k}{\Biggr \|}^{2}=\sum _{k=0}^{\infty }\left\|u_{k}\right\|^{2}\,.}
+  
+
+Furthermore, the sum of a series of orthogonal vectors is independent of the order in which it is taken.
+
+
+=== Parallelogram identity and polarization ===
+
+By definition, every Hilbert space is also a Banach space. Furthermore, in every Hilbert space the following parallelogram identity holds:
+
+  
+    
+      
+        ‖
+        u
+        +
+        v
+        
+          ‖
+          
+            2
+          
+        
+        +
+        ‖
+        u
+        −
+        v
+        
+          ‖
+          
+            2
+          
+        
+        =
+        2
+        
+          
+            (
+          
+        
+        ‖
+        u
+        
+          ‖
+          
+            2
+          
+        
+        +
+        ‖
+        v
+        
+          ‖
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \|u+v\|^{2}+\|u-v\|^{2}=2{\bigl (}\|u\|^{2}+\|v\|^{2}{\bigr )}\,.}
+  
+
+Conversely, every Banach space in which the parallelogram identity holds is a Hilbert space, and the inner product is uniquely determined by the norm by the polarization identity. For real Hilbert spaces, the polarization identity is
+
+  
+    
+      
+        ⟨
+        u
+        ,
+        v
+        ⟩
+        =
+        
+          
+            
+              1
+              4
+            
+          
+        
+        
+          
+            (
+          
+        
+        ‖
+        u
+        +
+        v
+        
+          ‖
+          
+            2
+          
+        
+        −
+        ‖
+        u
+        −
+        v
+        
+          ‖
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \langle u,v\rangle ={\tfrac {1}{4}}{\bigl (}\|u+v\|^{2}-\|u-v\|^{2}{\bigr )}\,.}
+  
+
+For complex Hilbert spaces, it is
+
+  
+    
+      
+        ⟨
+        u
+        ,
+        v
+        ⟩
+        =
+        
+          
+            
+              1
+              4
+            
+          
+        
+        
+          
+            (
+          
+        
+        ‖
+        u
+        +
+        v
+        
+          ‖
+          
+            2
+          
+        
+        −
+        ‖
+        u
+        −
+        v
+        
+          ‖
+          
+            2
+          
+        
+        +
+        i
+        ‖
+        u
+        +
+        i
+        v
+        
+          ‖
+          
+            2
+          
+        
+        −
+        i
+        ‖
+        u
+        −
+        i
+        v
+        
+          ‖
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \langle u,v\rangle ={\tfrac {1}{4}}{\bigl (}\|u+v\|^{2}-\|u-v\|^{2}+i\|u+iv\|^{2}-i\|u-iv\|^{2}{\bigr )}\,.}
+  
+
+The parallelogram law implies that any Hilbert space is a uniformly convex Banach space.
+
+
+=== Best approximation ===
+This subsection employs the Hilbert projection theorem. If C is a non-empty closed convex subset of a Hilbert space H and x a point in H, there exists a unique point y ∈ C that minimizes the distance between x and points in C,
+
+  
+    
+      
+        y
+        ∈
+        C
+        
+        ,
+        
+        ‖
+        x
+        −
+        y
+        ‖
+        =
+        dist
+        ⁡
+        (
+        x
+        ,
+        C
+        )
+        =
+        min
+        
+          
+            {
+          
+        
+        ‖
+        x
+        −
+        z
+        ‖
+        
+          
+            |
+          
+        
+        z
+        ∈
+        C
+        
+          
+            }
+          
+        
+        
+        .
+      
+    
+    {\displaystyle y\in C\,,\quad \|x-y\|=\operatorname {dist} (x,C)=\min {\bigl \{}\|x-z\|\mathrel {\big |} z\in C{\bigr \}}\,.}
+  
+
+This is equivalent to saying that there is a point with minimal norm in the translated convex set D = C − x. The proof consists in showing that every minimizing sequence (dn) ⊂ D is Cauchy (using the parallelogram identity) hence converges (using completeness) to a point in D that has minimal norm. More generally, this holds in any uniformly convex Banach space.
+When this result is applied to a closed subspace F of H, it can be shown that the point y ∈ F closest to x is characterized by
+
+  
+    
+      
+        y
+        ∈
+        F
+        
+        ,
+        
+        x
+        −
+        y
+        ⊥
+        F
+        
+        .
+      
+    
+    {\displaystyle y\in F\,,\quad x-y\perp F\,.}
+  
+
+This point y is the orthogonal projection of x onto F, and the mapping PF : x → y is linear (see § Orthogonal complements and projections). This result is especially significant in applied mathematics, especially numerical analysis, where it forms the basis of least squares methods.
+In particular, when F is not equal to H, one can find a nonzero vector v orthogonal to F (select x ∉ F and v = x − y). A very useful criterion is obtained by applying this observation to the closed subspace F generated by a subset S of H.
+
+A subset S of H spans a dense vector subspace if (and only if) the vector 0 is the sole vector v ∈ H orthogonal to S.
+
+
+=== Duality ===
+The dual space H* is the space of all continuous linear functions from the space H into the base field. It carries a natural norm, defined by
+
+  
+    
+      
+        ‖
+        φ
+        ‖
+        =
+        
+          sup
+          
+            ‖
+            x
+            ‖
+            =
+            1
+            ,
+            x
+            ∈
+            H
+          
+        
+        
+          |
+        
+        φ
+        (
+        x
+        )
+        
+          |
+        
+        
+        .
+      
+    
+    {\displaystyle \|\varphi \|=\sup _{\|x\|=1,x\in H}|\varphi (x)|\,.}
+  
+
+This norm satisfies the parallelogram law, and so the dual space is also an inner product space where this inner product can be defined in terms of this dual norm by using the polarization identity. The dual space is also complete so it is a Hilbert space in its own right. 
+If e• = (ei)i ∈ I is a complete orthonormal basis for H then the inner product on the dual space of any two 
+  
+    
+      
+        f
+        ,
+        g
+        ∈
+        
+          H
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle f,g\in H^{*}}
+  
+ is
+
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        
+          ⟩
+          
+            
+              H
+              
+                ∗
+              
+            
+          
+        
+        =
+        
+          ∑
+          
+            i
+            ∈
+            I
+          
+        
+        f
+        (
+        
+          e
+          
+            i
+          
+        
+        )
+        
+          
+            
+              g
+              (
+              
+                e
+                
+                  i
+                
+              
+              )
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle \langle f,g\rangle _{H^{*}}=\sum _{i\in I}f(e_{i}){\overline {g(e_{i})}}}
+  
+
+where all but countably many of the terms in this series are zero.
+The Riesz representation theorem affords a convenient description of the dual space. To every element u of H, there is a unique element φu of H*, defined by
+
+  
+    
+      
+        
+          φ
+          
+            u
+          
+        
+        (
+        x
+        )
+        =
+        ⟨
+        x
+        ,
+        u
+        ⟩
+      
+    
+    {\displaystyle \varphi _{u}(x)=\langle x,u\rangle }
+  
+
+where moreover, 
+  
+    
+      
+        
+          ‖
+          
+            φ
+            
+              u
+            
+          
+          ‖
+        
+        =
+        
+          ‖
+          u
+          ‖
+        
+        .
+      
+    
+    {\displaystyle \left\|\varphi _{u}\right\|=\left\|u\right\|.}
+  
+
+The Riesz representation theorem states that the map from H to H* defined by u ↦ φu is surjective, which makes this map an isometric antilinear isomorphism. So to every element φ of the dual H* there exists one and only one uφ in H such that
+
+  
+    
+      
+        ⟨
+        x
+        ,
+        
+          u
+          
+            φ
+          
+        
+        ⟩
+        =
+        φ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \langle x,u_{\varphi }\rangle =\varphi (x)}
+  
+
+for all x ∈ H. The inner product on the dual space H* satisfies
+
+  
+    
+      
+        ⟨
+        φ
+        ,
+        ψ
+        ⟩
+        =
+        ⟨
+        
+          u
+          
+            ψ
+          
+        
+        ,
+        
+          u
+          
+            φ
+          
+        
+        ⟩
+        
+        .
+      
+    
+    {\displaystyle \langle \varphi ,\psi \rangle =\langle u_{\psi },u_{\varphi }\rangle \,.}
+  
+
+The reversal of order on the right-hand side restores linearity in φ from the antilinearity of uφ. In the real case, the antilinear isomorphism from H to its dual is actually an isomorphism, and so real Hilbert spaces are naturally isomorphic to their own duals.
+The representing vector uφ is obtained in the following way. When φ ≠ 0, the kernel F = Ker(φ) is a closed vector subspace of H, not equal to H, hence there exists a nonzero vector v orthogonal to F. The vector u is a suitable scalar multiple λv of v. The requirement that φ(v) = ⟨v, u⟩ yields
+
+  
+    
+      
+        u
+        =
+        ⟨
+        v
+        ,
+        v
+        
+          ⟩
+          
+            −
+            1
+          
+        
+        
+        
+          
+            
+              φ
+              (
+              v
+              )
+            
+            ¯
+          
+        
+        
+        v
+        
+        .
+      
+    
+    {\displaystyle u=\langle v,v\rangle ^{-1}\,{\overline {\varphi (v)}}\,v\,.}
+  
+
+This correspondence φ ↔ u is exploited by the bra–ket notation popular in physics. It is common in physics to assume that the inner product, denoted by ⟨x|y⟩, is linear on the right,
+
+  
+    
+      
+        ⟨
+        x
+        
+          |
+        
+        y
+        ⟩
+        =
+        ⟨
+        y
+        ,
+        x
+        ⟩
+        
+        .
+      
+    
+    {\displaystyle \langle x|y\rangle =\langle y,x\rangle \,.}
+  
+
+The result ⟨x|y⟩ can be seen as the action of the linear functional ⟨x| (the bra) on the vector |y⟩ (the ket).
+The Riesz representation theorem relies fundamentally not just on the presence of an inner product, but also on the completeness of the space. In fact, the theorem implies that the topological dual of any inner product space can be identified with its completion. An immediate consequence of the Riesz representation theorem is also that a Hilbert space H is reflexive, meaning that the natural map from H into its double dual space is an isomorphism.
+
+
+=== Weakly convergent sequences ===
+
+In a Hilbert space H, a sequence {xn} is weakly convergent to a vector x ∈ H when
+
+  
+    
+      
+        
+          lim
+          
+            n
+          
+        
+        ⟨
+        
+          x
+          
+            n
+          
+        
+        ,
+        v
+        ⟩
+        =
+        ⟨
+        x
+        ,
+        v
+        ⟩
+      
+    
+    {\displaystyle \lim _{n}\langle x_{n},v\rangle =\langle x,v\rangle }
+  
+
+for every v ∈ H.
+For example, any orthonormal sequence {fn} converges weakly to 0, as a consequence of Bessel's inequality. Every weakly convergent sequence {xn} is bounded, by the uniform boundedness principle.
+Conversely, every bounded sequence in a Hilbert space admits weakly convergent subsequences (Alaoglu's theorem). This fact may be used to prove minimization results for continuous convex functionals, in the same way that the Bolzano–Weierstrass theorem is used for continuous functions on Rd. Among several variants, one simple statement is as follows:
+
+If f : H → R is a convex continuous function such that f(x) tends to +∞ when ‖x‖ tends to ∞, then f admits a minimum at some point x0 ∈ H.
+This fact (and its various generalizations) are fundamental for direct methods in the calculus of variations. Minimization results for convex functionals are also a direct consequence of the slightly more abstract fact that closed bounded convex subsets in a Hilbert space H are weakly compact, since H is reflexive. The existence of weakly convergent subsequences is a special case of the Eberlein–Šmulian theorem.
+
+
+=== Banach space properties ===
+Any general property of Banach spaces continues to hold for Hilbert spaces. The open mapping theorem states that a continuous surjective linear transformation from one Banach space to another is an open mapping meaning that it sends open sets to open sets. A corollary is the bounded inverse theorem, that a continuous and bijective linear function from one Banach space to another is an isomorphism (that is, a continuous linear map whose inverse is also continuous). This theorem is considerably simpler to prove in the case of Hilbert spaces than in general Banach spaces. The open mapping theorem is equivalent to the closed graph theorem, which asserts that a linear function from one Banach space to another is continuous if and only if its graph is a closed set. In the case of Hilbert spaces, this is basic in the study of unbounded operators (see Closed operator).
+The (geometrical) Hahn–Banach theorem asserts that a closed convex set can be separated from any point outside it by means of a hyperplane of the Hilbert space. This is an immediate consequence of the best approximation property: if y is the element of a closed convex set F closest to x, then the separating hyperplane is the plane perpendicular to the segment xy passing through its midpoint.
+
+
+== Operators ==
+
+
+=== Bounded operators ===
+The continuous linear operators A : H1 → H2 from a Hilbert space H1 to a second Hilbert space H2 are bounded in the sense that they map bounded sets to bounded sets. Conversely, if an operator is bounded, then it is continuous. The space of such bounded linear operators has a norm, the operator norm given by
+
+  
+    
+      
+        ‖
+        A
+        ‖
+        =
+        sup
+        
+          
+            {
+          
+        
+        ‖
+        A
+        x
+        ‖
+        
+          
+            |
+          
+        
+        ‖
+        x
+        ‖
+        ≤
+        1
+        
+          
+            }
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \lVert A\rVert =\sup {\bigl \{}\|Ax\|\mathrel {\big |} \|x\|\leq 1{\bigr \}}\,.}
+  
+
+The sum and the composite of two bounded linear operators is again bounded and linear. For y in H2, the map that sends x ∈ H1 to ⟨Ax, y⟩ is linear and continuous, and according to the Riesz representation theorem can therefore be represented in the form
+
+  
+    
+      
+        
+          ⟨
+          
+            x
+            ,
+            
+              A
+              
+                ∗
+              
+            
+            y
+          
+          ⟩
+        
+        =
+        ⟨
+        A
+        x
+        ,
+        y
+        ⟩
+      
+    
+    {\displaystyle \left\langle x,A^{*}y\right\rangle =\langle Ax,y\rangle }
+  
+
+for some vector A*y in H1. This defines another bounded linear operator A* : H2 → H1, the adjoint of A. The adjoint satisfies A** = A. When the Riesz representation theorem is used to identify each Hilbert space with its continuous dual space, the adjoint of A can be shown to be identical to the transpose tA : H2* → H1* of A, which by definition sends 
+  
+    
+      
+        ψ
+        ∈
+        
+          H
+          
+            2
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle \psi \in H_{2}^{*}}
+  
+ to the functional 
+  
+    
+      
+        ψ
+        ∘
+        A
+        ∈
+        
+          H
+          
+            1
+          
+          
+            ∗
+          
+        
+        .
+      
+    
+    {\displaystyle \psi \circ A\in H_{1}^{*}.}
+  
+
+The set B(H) of all bounded linear operators on H (meaning operators H → H), together with the addition and composition operations, the norm and the adjoint operation, is a C*-algebra, which is a type of operator algebra.
+An element A of B(H) is called 'self-adjoint' or 'Hermitian' if A* = A. If A is Hermitian and ⟨Ax, x⟩ ≥ 0 for every x, then A is called positive, written A ≥ 0. The set of self adjoint operators admits a partial order, in which A ≥ B if A − B ≥ 0. If A has the form B*B for some B, then A is positive; if B is invertible, then A is strictly positive. A converse is also true in the sense that, for a positive operator A, there exists a unique non-negative square root B such that
+
+  
+    
+      
+        A
+        =
+        
+          B
+          
+            2
+          
+        
+        =
+        
+          B
+          
+            ∗
+          
+        
+        B
+        
+        .
+      
+    
+    {\displaystyle A=B^{2}=B^{*}B\,.}
+  
+
+The spectral theorem gives a precise sense in which self-adjoint operators play the role of real-valued functions: a bounded self-adjoint operator has real spectrum and can be represented, via functional calculus, by multiplication by a real-valued function. More generally, a normal operator is analogous to a complex-valued function. It decomposes into commuting self-adjoint real and imaginary parts,
+
+  
+    
+      
+        A
+        =
+        Re
+        ⁡
+        A
+        +
+        i
+        Im
+        ⁡
+        A
+        =
+        
+          
+            
+              A
+              +
+              
+                A
+                
+                  ∗
+                
+              
+            
+            2
+          
+        
+        +
+        i
+        
+          
+            
+              A
+              −
+              
+                A
+                
+                  ∗
+                
+              
+            
+            
+              2
+              i
+            
+          
+        
+        .
+      
+    
+    {\displaystyle A=\operatorname {Re} A+i\operatorname {Im} A={\frac {A+A^{*}}{2}}+i{\frac {A-A^{*}}{2i}}.}
+  
+
+Conversely, if two self-adjoint operators commute, their sum in this form is normal.
+An element U of B(H) is called unitary if U is invertible and its inverse is given by U*. This can also be expressed by requiring that U be onto and ⟨Ux, Uy⟩ = ⟨x, y⟩ for all x, y ∈ H. The unitary operators form a group under composition, which is the isometry group of H.
+An element of B(H) is compact if it sends bounded sets to relatively compact sets. Equivalently, a bounded operator T is compact if, for any bounded sequence {xk}, the sequence {Txk} has a convergent subsequence. Many integral operators are compact, and define a special class of operators known as Hilbert–Schmidt operators that are important in the study of integral equations.
+Fredholm operators are bounded operators that are invertible modulo compact operators. Thus an operator 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+  
+ is Fredholm if there is a bounded operator 
+  
+    
+      
+        
+          T
+          ′
+        
+      
+    
+    {\displaystyle T'}
+  
+, called a parametrix, such that 
+  
+    
+      
+        T
+        
+          T
+          ′
+        
+        −
+        I
+      
+    
+    {\displaystyle TT'-I}
+  
+ is compact (right-Fredholm) and 
+  
+    
+      
+        
+          T
+          ′
+        
+        T
+        −
+        I
+      
+    
+    {\displaystyle T'T-I}
+  
+ is compact (left-Fredholm). Fredholm operators are equivalently characterized as bounded operators with a finite dimensional kernel and closed range. Fredholm operators thus correspond to invertible elements of the Calkin algebra. Fredholm operators can be intuitively thought of as operators that are invertible modulo finite dimensional effects. The index of a Fredholm operator T is defined by
+
+  
+    
+      
+        index
+        ⁡
+        T
+        =
+        dim
+        ⁡
+        ker
+        ⁡
+        T
+        −
+        dim
+        ⁡
+        coker
+        ⁡
+        T
+        
+        .
+      
+    
+    {\displaystyle \operatorname {index} T=\dim \ker T-\dim \operatorname {coker} T\,.}
+  
+
+The index is homotopy invariant, and plays a deep role in differential geometry via the Atiyah–Singer index theorem.
+
+
+=== Unbounded operators ===
+Unbounded operators arise naturally in Hilbert spaces, especially in the study of differential operators and in the mathematical formulation of quantum mechanics. An unbounded operator on a Hilbert space H is a linear map
+
+  
+    
+      
+        T
+        :
+        D
+        (
+        T
+        )
+        →
+        H
+      
+    
+    {\displaystyle T:D(T)\to H}
+  
+
+whose domain D(T) is a linear subspace of H. Unlike bounded operators, an unbounded operator is usually not defined on all of H. If D(T) is dense in H, then T is called a densely defined operator.
+The domain of an unbounded operator is part of its definition. In particular, the same formula may define different operators when equipped with different domains. Operators used in analysis are often required to be closed, meaning that the graph is closed, or closable, meaning that the operator can be extended over a larger domain to an operator whose graph is closed. By the closed graph theorem, a closed operator defined on all of a Hilbert space is bounded; hence a genuinely unbounded closed operator must have a proper domain.
+If T is densely defined, its adjoint T* is defined as follows. A vector y ∈ H belongs to D(T*) if the map
+
+  
+    
+      
+        x
+        ↦
+        ⟨
+        T
+        x
+        ,
+        y
+        ⟩
+        ,
+        
+        x
+        ∈
+        D
+        (
+        T
+        )
+        ,
+      
+    
+    {\displaystyle x\mapsto \langle Tx,y\rangle ,\qquad x\in D(T),}
+  
+
+is bounded with respect to the Hilbert-space norm on D(T). In that case the Riesz representation theorem gives a unique vector T*y ∈ H such that
+
+  
+    
+      
+        ⟨
+        T
+        x
+        ,
+        y
+        ⟩
+        =
+        ⟨
+        x
+        ,
+        
+          T
+          
+            ∗
+          
+        
+        y
+        ⟩
+      
+    
+    {\displaystyle \langle Tx,y\rangle =\langle x,T^{*}y\rangle }
+  
+
+for all x ∈ D(T). A densely defined operator is called symmetric if T ⊂ T*, and self-adjoint if T = T*, including equality of domains.
+Self-adjoint unbounded operators play the role of observables in the Hilbert-space formulation of quantum mechanics. On L2(R), the position operator is the multiplication operator
+
+  
+    
+      
+        (
+        Q
+        f
+        )
+        (
+        x
+        )
+        =
+        x
+        f
+        (
+        x
+        )
+        ,
+      
+    
+    {\displaystyle (Qf)(x)=xf(x),}
+  
+
+with domain
+
+  
+    
+      
+        D
+        (
+        Q
+        )
+        =
+        {
+        f
+        ∈
+        
+          L
+          
+            2
+          
+        
+        (
+        
+          R
+        
+        )
+        :
+        x
+        f
+        (
+        x
+        )
+        ∈
+        
+          L
+          
+            2
+          
+        
+        (
+        
+          R
+        
+        )
+        }
+        .
+      
+    
+    {\displaystyle D(Q)=\{f\in L^{2}(\mathbf {R} ):xf(x)\in L^{2}(\mathbf {R} )\}.}
+  
+
+The momentum operator is the self-adjoint realization of
+
+  
+    
+      
+        (
+        P
+        f
+        )
+        (
+        x
+        )
+        =
+        −
+        i
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        f
+        (
+        x
+        )
+        ,
+      
+    
+    {\displaystyle (Pf)(x)=-i{\frac {d}{dx}}f(x),}
+  
+
+for example with domain the Sobolev space H1(R). Equivalently, it is the closure of this differential operator initially defined on compactly supported smooth functions. These operators are not defined on all of L2(R): for a general square-integrable function the derivative need not exist, and the product xf(x) need not be square integrable.
+
+
+== Constructions ==
+
+
+=== Direct sums ===
+Two Hilbert spaces H1 and H2 can be combined into another Hilbert space, called the (orthogonal) direct sum, and denoted
+
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+        ⊕
+        
+          H
+          
+            2
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle H_{1}\oplus H_{2}\,,}
+  
+
+consisting of the set of all ordered pairs (x1, x2) where xi ∈ Hi, i = 1, 2, and inner product defined by
+
+  
+    
+      
+        
+          
+            ⟨
+          
+        
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        )
+        ,
+        (
+        
+          y
+          
+            1
+          
+        
+        ,
+        
+          y
+          
+            2
+          
+        
+        )
+        
+          
+            
+              ⟩
+            
+          
+          
+            
+              H
+              
+                1
+              
+            
+            ⊕
+            
+              H
+              
+                2
+              
+            
+          
+        
+        =
+        
+          
+            ⟨
+            
+              
+                x
+                
+                  1
+                
+              
+              ,
+              
+                y
+                
+                  1
+                
+              
+            
+            ⟩
+          
+          
+            
+              H
+              
+                1
+              
+            
+          
+        
+        +
+        
+          
+            ⟨
+            
+              
+                x
+                
+                  2
+                
+              
+              ,
+              
+                y
+                
+                  2
+                
+              
+            
+            ⟩
+          
+          
+            
+              H
+              
+                2
+              
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\bigl \langle }(x_{1},x_{2}),(y_{1},y_{2}){\bigr \rangle }_{H_{1}\oplus H_{2}}=\left\langle x_{1},y_{1}\right\rangle _{H_{1}}+\left\langle x_{2},y_{2}\right\rangle _{H_{2}}\,.}
+  
+
+More generally, if Hi is a family of Hilbert spaces indexed by i ∈ I, then the direct sum of the Hi, denoted
+
+  
+    
+      
+        
+          ⨁
+          
+            i
+            ∈
+            I
+          
+        
+        
+          H
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \bigoplus _{i\in I}H_{i}}
+  
+
+consists of the set of all indexed families
+
+  
+    
+      
+        x
+        =
+        (
+        
+          x
+          
+            i
+          
+        
+        ∈
+        
+          H
+          
+            i
+          
+        
+        ∣
+        i
+        ∈
+        I
+        )
+        ∈
+        
+          ∏
+          
+            i
+            ∈
+            I
+          
+        
+        
+          H
+          
+            i
+          
+        
+      
+    
+    {\displaystyle x=(x_{i}\in H_{i}\mid i\in I)\in \prod _{i\in I}H_{i}}
+  
+
+in the Cartesian product of the Hi such that
+
+  
+    
+      
+        
+          ∑
+          
+            i
+            ∈
+            I
+          
+        
+        ‖
+        
+          x
+          
+            i
+          
+        
+        
+          ‖
+          
+            2
+          
+        
+        <
+        ∞
+        
+        .
+      
+    
+    {\displaystyle \sum _{i\in I}\|x_{i}\|^{2}<\infty \,.}
+  
+
+The inner product is defined by
+
+  
+    
+      
+        ⟨
+        x
+        ,
+        y
+        ⟩
+        =
+        
+          ∑
+          
+            i
+            ∈
+            I
+          
+        
+        
+          
+            ⟨
+            
+              
+                x
+                
+                  i
+                
+              
+              ,
+              
+                y
+                
+                  i
+                
+              
+            
+            ⟩
+          
+          
+            
+              H
+              
+                i
+              
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \langle x,y\rangle =\sum _{i\in I}\left\langle x_{i},y_{i}\right\rangle _{H_{i}}\,.}
+  
+
+Each of the Hi is included as a closed subspace in the direct sum of all of the Hi. Moreover, the Hi are pairwise orthogonal. Conversely, if there is a system of closed subspaces, Vi, i ∈ I, in a Hilbert space H, that are pairwise orthogonal and whose linear span is dense in H, then H is canonically isomorphic to the direct sum of Vi. In this case, H is called the internal direct sum of the Vi. A direct sum (internal or external) is also equipped with a family of orthogonal projections Ei onto the ith direct summand Hi. These projections are bounded, self-adjoint, idempotent operators that satisfy the orthogonality condition
+
+  
+    
+      
+        
+          E
+          
+            i
+          
+        
+        
+          E
+          
+            j
+          
+        
+        =
+        0
+        ,
+        
+        i
+        ≠
+        j
+        
+        .
+      
+    
+    {\displaystyle E_{i}E_{j}=0,\quad i\neq j\,.}
+  
+
+The spectral theorem for compact self-adjoint operators on a Hilbert space H states that H splits into the orthogonal direct sum of the eigenspaces of an operator, and also gives an explicit decomposition of the operator as a sum of projections onto the eigenspaces. The direct sum of Hilbert spaces also appears in quantum mechanics as the Fock space of a system containing a variable number of particles, where each Hilbert space in the direct sum corresponds to an additional degree of freedom for the quantum mechanical system. In representation theory, the Peter–Weyl theorem guarantees that any unitary representation of a compact group on a Hilbert space splits as the direct sum of finite-dimensional representations.
+
+
+=== Tensor products ===
+
+If 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          y
+          
+            1
+          
+        
+        ∈
+        
+          H
+          
+            1
+          
+        
+      
+    
+    {\displaystyle x_{1},y_{1}\in H_{1}}
+  
+ and 
+  
+    
+      
+        
+          x
+          
+            2
+          
+        
+        ,
+        
+          y
+          
+            2
+          
+        
+        ∈
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle x_{2},y_{2}\in H_{2}}
+  
+, then one defines an inner product on the (ordinary) tensor product as follows. On simple tensors, let
+
+  
+    
+      
+        ⟨
+        
+          x
+          
+            1
+          
+        
+        ⊗
+        
+          x
+          
+            2
+          
+        
+        ,
+        
+        
+          y
+          
+            1
+          
+        
+        ⊗
+        
+          y
+          
+            2
+          
+        
+        ⟩
+        =
+        ⟨
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          y
+          
+            1
+          
+        
+        ⟩
+        
+        ⟨
+        
+          x
+          
+            2
+          
+        
+        ,
+        
+          y
+          
+            2
+          
+        
+        ⟩
+        
+        .
+      
+    
+    {\displaystyle \langle x_{1}\otimes x_{2},\,y_{1}\otimes y_{2}\rangle =\langle x_{1},y_{1}\rangle \,\langle x_{2},y_{2}\rangle \,.}
+  
+
+This formula then extends by sesquilinearity to an inner product on 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+        ⊗
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{1}\otimes H_{2}}
+  
+. The Hilbertian tensor product of 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+      
+    
+    {\displaystyle H_{1}}
+  
+ and 
+  
+    
+      
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{2}}
+  
+, sometimes denoted by 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+        
+          
+            
+              ⊗
+              ^
+            
+          
+        
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{1}\mathbin {\widehat {\otimes }} H_{2}}
+  
+, is the Hilbert space obtained by completing 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+        ⊗
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{1}\otimes H_{2}}
+  
+ for the metric associated to this inner product.
+An example is provided by the Hilbert space 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        (
+        [
+        0
+        ,
+        1
+        ]
+        )
+        .
+      
+    
+    {\displaystyle L^{2}([0,1]).}
+  
+ The Hilbertian tensor product of two copies of 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        (
+        [
+        0
+        ,
+        1
+        ]
+        )
+      
+    
+    {\displaystyle L^{2}([0,1])}
+  
+ is isometrically and linearly isomorphic to the space 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        (
+        [
+        0
+        ,
+        1
+        
+          ]
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle L^{2}([0,1]^{2})}
+  
+ of square-integrable functions on the square 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        
+          ]
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle [0,1]^{2}.}
+  
+ This isomorphism sends a simple tensor 
+  
+    
+      
+        
+          f
+          
+            1
+          
+        
+        ⊗
+        
+          f
+          
+            2
+          
+        
+      
+    
+    {\displaystyle f_{1}\otimes f_{2}}
+  
+ to the function
+
+  
+    
+      
+        (
+        s
+        ,
+        t
+        )
+        ↦
+        
+          f
+          
+            1
+          
+        
+        (
+        s
+        )
+        
+        
+          f
+          
+            2
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle (s,t)\mapsto f_{1}(s)\,f_{2}(t)}
+  
+
+on the square.
+This example is typical in the following sense. Associated to every simple tensor product 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        ⊗
+        
+          x
+          
+            2
+          
+        
+      
+    
+    {\displaystyle x_{1}\otimes x_{2}}
+  
+ is the rank one operator from 
+  
+    
+      
+        
+          H
+          
+            1
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle H_{1}^{\ast }}
+  
+ to 
+  
+    
+      
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{2}}
+  
+ that maps a given 
+  
+    
+      
+        
+          x
+          
+            ∗
+          
+        
+        ∈
+        
+          H
+          
+            1
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle x^{\ast }\in H_{1}^{\ast }}
+  
+ as
+
+  
+    
+      
+        
+          x
+          
+            ∗
+          
+        
+        ↦
+        
+          x
+          
+            ∗
+          
+        
+        (
+        
+          x
+          
+            1
+          
+        
+        )
+        
+          x
+          
+            2
+          
+        
+        
+        .
+      
+    
+    {\displaystyle x^{*}\mapsto x^{*}(x_{1})x_{2}\,.}
+  
+
+This mapping defined on simple tensors extends to a linear identification between 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+        ⊗
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{1}\otimes H_{2}}
+  
+ and the space of finite rank operators from 
+  
+    
+      
+        
+          H
+          
+            1
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle H_{1}^{\ast }}
+  
+ to 
+  
+    
+      
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{2}}
+  
+. This extends to a linear isometry of the Hilbertian tensor product 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+        
+          
+            
+              ⊗
+              ^
+            
+          
+        
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{1}\mathbin {\widehat {\otimes }} H_{2}}
+  
+ with the Hilbert space 
+  
+    
+      
+        HS
+        ⁡
+        (
+        
+          H
+          
+            1
+          
+          
+            ∗
+          
+        
+        ,
+        
+          H
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle \operatorname {HS} (H_{1}^{\ast },H_{2})}
+  
+ of Hilbert–Schmidt operators from 
+  
+    
+      
+        
+          H
+          
+            1
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle H_{1}^{\ast }}
+  
+ to 
+  
+    
+      
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{2}}
+  
+.
+The identification of operators with tensor product spaces generalizes to other tensor norms. For example, the injective tensor product 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+        
+          
+            
+              
+                ⊗
+                ^
+              
+            
+          
+          
+            ε
+          
+        
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{1}\mathbin {\widehat {\otimes }} _{\varepsilon }H_{2}}
+  
+ can be isometrically identified with the compact operators from 
+  
+    
+      
+        
+          H
+          
+            1
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle H_{1}^{\ast }}
+  
+ to 
+  
+    
+      
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{2}}
+  
+, while the projective tensor product 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+        
+          
+            
+              
+                ⊗
+                ^
+              
+            
+          
+          
+            π
+          
+        
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{1}\mathbin {\widehat {\otimes }} _{\pi }H_{2}}
+  
+, can be isometrically identified with the trace class operators from 
+  
+    
+      
+        
+          H
+          
+            1
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle H_{1}^{\ast }}
+  
+ to 
+  
+    
+      
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{2}}
+  
+, both facts implied by the satisfaction of the approximation property by Hilbert spaces.
+
+
+== Orthonormal bases ==
+The notion of an orthonormal basis from linear algebra generalizes over to the case of Hilbert spaces. In a Hilbert space H, an orthonormal basis is a family {ek}k ∈ B of elements of H satisfying the conditions:
+
+Orthogonality: Every two different elements of B are orthogonal: ⟨ek, ej⟩ = 0 for all k, j ∈ B with k ≠ j.
+Normalization: Every element of the family has norm 1: ‖ek‖ = 1 for all k ∈ B.
+Completeness: The linear span of the family ek, k ∈ B, is dense in H.
+A system of vectors satisfying the first two conditions basis is called an orthonormal system or an orthonormal set (or an orthonormal sequence if B is countable). Such a system is always linearly independent.
+Despite the name, an orthonormal basis is not, in general, a basis in the sense of linear algebra (Hamel basis). More precisely, an orthonormal basis is a Hamel basis if and only if the Hilbert space is a finite-dimensional vector space.
+Completeness of an orthonormal system of vectors of a Hilbert space can be equivalently restated as:
+
+for every v ∈ H, if ⟨v, ek⟩ = 0 for all k ∈ B, then v = 0.
+This is related to the fact that the only vector orthogonal to a dense linear subspace is the zero vector, for if S is any orthonormal set and v is orthogonal to S, then v is orthogonal to the closure of the linear span of S, which is the whole space.
+Examples of orthonormal bases include:
+
+the set {(1, 0, 0), (0, 1, 0), (0, 0, 1)} forms an orthonormal basis of R3 with the dot product;
+the sequence { fn | n ∈ Z} with fn(x) = exp(2πinx) forms an orthonormal basis of the complex space L2([0, 1]);
+In the infinite-dimensional case, an orthonormal basis will not be a basis in the sense of linear algebra; to distinguish the two, the latter basis is also called a Hamel basis. That the span of the basis vectors is dense implies that every vector in the space can be written as the sum of an infinite series, and the orthogonality implies that this decomposition is unique.
+
+
+=== Sequence spaces ===
+The space 
+  
+    
+      
+        
+          ℓ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \ell _{2}}
+  
+ of square-summable sequences of complex numbers is the set of infinite sequences
+
+  
+    
+      
+        (
+        
+          c
+          
+            1
+          
+        
+        ,
+        
+          c
+          
+            2
+          
+        
+        ,
+        
+          c
+          
+            3
+          
+        
+        ,
+        …
+        )
+      
+    
+    {\displaystyle (c_{1},c_{2},c_{3},\dots )}
+  
+
+of real or complex numbers such that
+
+  
+    
+      
+        
+          
+            |
+            
+              c
+              
+                1
+              
+            
+            |
+          
+          
+            2
+          
+        
+        +
+        
+          
+            |
+            
+              c
+              
+                2
+              
+            
+            |
+          
+          
+            2
+          
+        
+        +
+        
+          
+            |
+            
+              c
+              
+                3
+              
+            
+            |
+          
+          
+            2
+          
+        
+        +
+        ⋯
+        <
+        ∞
+        
+        .
+      
+    
+    {\displaystyle \left|c_{1}\right|^{2}+\left|c_{2}\right|^{2}+\left|c_{3}\right|^{2}+\cdots <\infty \,.}
+  
+
+This space has an orthonormal basis:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  e
+                  
+                    1
+                  
+                
+              
+              
+                
+                =
+                (
+                1
+                ,
+                0
+                ,
+                0
+                ,
+                …
+                )
+              
+            
+            
+              
+                
+                  e
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                (
+                0
+                ,
+                1
+                ,
+                0
+                ,
+                …
+                )
+              
+            
+            
+              
+              
+                 
+                 
+                ⋮
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}e_{1}&=(1,0,0,\dots )\\e_{2}&=(0,1,0,\dots )\\&\ \ \vdots \end{aligned}}}
+  
+
+This space is the infinite-dimensional generalization of the 
+  
+    
+      
+        
+          ℓ
+          
+            2
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \ell _{2}^{n}}
+  
+ space of finite-dimensional vectors. It is usually the first example used to show that in infinite-dimensional spaces, a set that is closed and bounded is not necessarily (sequentially) compact (as is the case in all finite dimensional spaces). Indeed, the set of orthonormal vectors above shows this: It is an infinite sequence of vectors in the unit ball (i.e., the ball of points with norm less than or equal one). This set is clearly bounded and closed; yet, no subsequence of these vectors converges to anything and consequently the unit ball in 
+  
+    
+      
+        
+          ℓ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \ell _{2}}
+  
+ is not compact. Intuitively, this is because "there is always another coordinate direction" into which the next elements of the sequence can evade.
+One can generalize the space 
+  
+    
+      
+        
+          ℓ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \ell _{2}}
+  
+ in many ways. For example, if B is any set, then one can form a Hilbert space of sequences with index set B, defined by
+
+  
+    
+      
+        
+          ℓ
+          
+            2
+          
+        
+        (
+        B
+        )
+        =
+        
+          
+            {
+          
+        
+        x
+        :
+        B
+        
+          →
+          
+            x
+          
+        
+        
+          C
+        
+        
+          
+            |
+          
+        
+        
+          ∑
+          
+            b
+            ∈
+            B
+          
+        
+        
+          
+            |
+            
+              x
+              (
+              b
+              )
+            
+            |
+          
+          
+            2
+          
+        
+        <
+        ∞
+        
+          
+            }
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \ell ^{2}(B)={\biggl \{}x:B\xrightarrow {x} \mathbf {C} \mathrel {\bigg |} \sum _{b\in B}\left|x(b)\right|^{2}<\infty {\biggr \}}\,.}
+  
+
+The summation over B is here defined by
+
+  
+    
+      
+        
+          ∑
+          
+            b
+            ∈
+            B
+          
+        
+        
+          
+            |
+            
+              x
+              (
+              b
+              )
+            
+            |
+          
+          
+            2
+          
+        
+        =
+        sup
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          
+            |
+            
+              x
+              (
+              
+                b
+                
+                  n
+                
+              
+              )
+            
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \sum _{b\in B}\left|x(b)\right|^{2}=\sup \sum _{n=1}^{N}\left|x(b_{n})\right|^{2}}
+  
+
+the supremum being taken over all finite subsets of B. It follows that, for this sum to be finite, every element of l2(B) has only countably many nonzero terms. This space becomes a Hilbert space with the inner product
+
+  
+    
+      
+        ⟨
+        x
+        ,
+        y
+        ⟩
+        =
+        
+          ∑
+          
+            b
+            ∈
+            B
+          
+        
+        x
+        (
+        b
+        )
+        
+          
+            
+              y
+              (
+              b
+              )
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle \langle x,y\rangle =\sum _{b\in B}x(b){\overline {y(b)}}}
+  
+
+for all x, y ∈ l2(B). Here the sum also has only countably many nonzero terms, and is unconditionally convergent by the Cauchy–Schwarz inequality.
+An orthonormal basis of l2(B) is indexed by the set B, given by
+
+  
+    
+      
+        
+          e
+          
+            b
+          
+        
+        (
+        
+          b
+          ′
+        
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  1
+                
+                
+                  
+                    if 
+                  
+                  b
+                  =
+                  
+                    b
+                    ′
+                  
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    otherwise.
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle e_{b}(b')={\begin{cases}1&{\text{if }}b=b'\\0&{\text{otherwise.}}\end{cases}}}
+  
+
+
+=== Bessel's inequality and Parseval's formula ===
+Let f1, ..., fn be a finite orthonormal system in H. For an arbitrary vector x ∈ H, let
+
+  
+    
+      
+        y
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        ⟨
+        x
+        ,
+        
+          f
+          
+            j
+          
+        
+        ⟩
+        
+        
+          f
+          
+            j
+          
+        
+        
+        .
+      
+    
+    {\displaystyle y=\sum _{j=1}^{n}\langle x,f_{j}\rangle \,f_{j}\,.}
+  
+
+Then ⟨x, fk⟩ = ⟨y, fk⟩ for every k = 1, ..., n. It follows that x − y is orthogonal to each fk, hence x − y is orthogonal to y. Using the Pythagorean identity twice, it follows that
+
+  
+    
+      
+        ‖
+        x
+        
+          ‖
+          
+            2
+          
+        
+        =
+        ‖
+        x
+        −
+        y
+        
+          ‖
+          
+            2
+          
+        
+        +
+        ‖
+        y
+        
+          ‖
+          
+            2
+          
+        
+        ≥
+        ‖
+        y
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            |
+          
+        
+        ⟨
+        x
+        ,
+        
+          f
+          
+            j
+          
+        
+        ⟩
+        
+          
+            
+              |
+            
+          
+          
+            2
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \|x\|^{2}=\|x-y\|^{2}+\|y\|^{2}\geq \|y\|^{2}=\sum _{j=1}^{n}{\bigl |}\langle x,f_{j}\rangle {\bigr |}^{2}\,.}
+  
+
+Let {fi}, i ∈ I, be an arbitrary orthonormal system in H. Applying the preceding inequality to every finite subset J of I gives Bessel's inequality:
+
+  
+    
+      
+        
+          ∑
+          
+            i
+            ∈
+            I
+          
+        
+        
+          
+            |
+          
+        
+        ⟨
+        x
+        ,
+        
+          f
+          
+            i
+          
+        
+        ⟩
+        
+          
+            
+              |
+            
+          
+          
+            2
+          
+        
+        ≤
+        ‖
+        x
+        
+          ‖
+          
+            2
+          
+        
+        ,
+        
+        x
+        ∈
+        H
+      
+    
+    {\displaystyle \sum _{i\in I}{\bigl |}\langle x,f_{i}\rangle {\bigr |}^{2}\leq \|x\|^{2},\quad x\in H}
+  
+
+(according to the definition of the sum of an arbitrary family of non-negative real numbers).
+Geometrically, Bessel's inequality implies that the orthogonal projection of x onto the linear subspace spanned by the fi has norm that does not exceed that of x. In two dimensions, this is the assertion that the length of the leg of a right triangle may not exceed the length of the hypotenuse.
+Bessel's inequality is a stepping stone to the stronger result called Parseval's identity, which governs the case when Bessel's inequality is actually an equality. By definition, if {ek}k ∈ B is an orthonormal basis of H, then every element x of H may be written as
+
+  
+    
+      
+        x
+        =
+        
+          ∑
+          
+            k
+            ∈
+            B
+          
+        
+        
+          ⟨
+          
+            x
+            ,
+            
+              e
+              
+                k
+              
+            
+          
+          ⟩
+        
+        
+        
+          e
+          
+            k
+          
+        
+        
+        .
+      
+    
+    {\displaystyle x=\sum _{k\in B}\left\langle x,e_{k}\right\rangle \,e_{k}\,.}
+  
+
+Even if B is uncountable, Bessel's inequality guarantees that the expression is well-defined and consists only of countably many nonzero terms. This sum is called the Fourier expansion of x, and the individual coefficients ⟨x, ek⟩ are the Fourier coefficients of x. Parseval's identity then asserts that
+
+  
+    
+      
+        ‖
+        x
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            k
+            ∈
+            B
+          
+        
+        
+          |
+        
+        ⟨
+        x
+        ,
+        
+          e
+          
+            k
+          
+        
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \|x\|^{2}=\sum _{k\in B}|\langle x,e_{k}\rangle |^{2}\,.}
+  
+
+Conversely, if {ek} is an orthonormal set such that Parseval's identity holds for every x, then {ek} is an orthonormal basis.
+
+
+=== Hilbert dimension ===
+As a consequence of Zorn's lemma, every Hilbert space admits an orthonormal basis; furthermore, any two orthonormal bases of the same space have the same cardinality, called the Hilbert dimension of the space. For instance, since l2(B) has an orthonormal basis indexed by B, its Hilbert dimension is the cardinality of B (which may be a finite integer, or a countable or uncountable cardinal number).
+The Hilbert dimension is not greater than the Hamel dimension (the usual dimension of a vector space).
+As a consequence of Parseval's identity, if {ek}k ∈ B is an orthonormal basis of H, then the map Φ : H → l2(B) defined by Φ(x) = ⟨x, ek⟩k∈B is an isometric isomorphism of Hilbert spaces: it is a bijective linear mapping such that
+
+  
+    
+      
+        
+          
+            ⟨
+          
+        
+        Φ
+        (
+        x
+        )
+        ,
+        Φ
+        (
+        y
+        )
+        
+          
+            
+              ⟩
+            
+          
+          
+            
+              l
+              
+                2
+              
+            
+            (
+            B
+            )
+          
+        
+        =
+        
+          
+            ⟨
+            
+              x
+              ,
+              y
+            
+            ⟩
+          
+          
+            H
+          
+        
+      
+    
+    {\displaystyle {\bigl \langle }\Phi (x),\Phi (y){\bigr \rangle }_{l^{2}(B)}=\left\langle x,y\right\rangle _{H}}
+  
+
+for all x, y ∈ H. The cardinal number of B is the Hilbert dimension of H. Thus every Hilbert space is isometrically isomorphic to a sequence space l2(B) for some set B.
+
+
+=== Separable spaces ===
+By definition, a Hilbert space is separable provided it contains a dense countable subset. Along with Zorn's lemma, this means a Hilbert space is separable if and only if it admits a countable orthonormal basis. All infinite-dimensional separable Hilbert spaces are therefore isometrically isomorphic to the square-summable sequence space, 
+  
+    
+      
+        
+          ℓ
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle \ell ^{2}.}
+  
+ Separability was originally part of the definition of Hilbert space (von Neumann 1955), and it is still assumed in physical treatments. For instance, Dirac (1974) refers to a separable infinite-dimensional Hilbert space as "the Hilbert space" and describes it informally as the limit of an 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+-dimensional coordinate space as 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ tends to infinity.
+
+
+==== In quantum field theory ====
+Most spaces used in physics are separable, and since these are all isomorphic to each other, one often refers to any infinite-dimensional separable Hilbert space as "the Hilbert space" or just "Hilbert space". In the Wightman formulation of relativistic quantum field theory, the state space is likewise assumed to be a separable complex Hilbert space.
+However, it is sometimes argued that non-separable Hilbert spaces are also important in quantum field theory, roughly because the systems in the theory possess an infinite number of degrees of freedom. Care is needed here: the full infinite Hilbert tensor product of countably many Hilbert spaces of dimension greater than one is generally non-separable, whereas the incomplete infinite tensor product formed with respect to a chosen reference vector is separable when the factors are separable and countably many. For instance, a bosonic field can be naturally thought of as arising from a tensor-product construction whose factors represent harmonic oscillators at each point of space. From this perspective, a non-separable full tensor product may appear naturally, although in physical applications one usually works in a distinguished separable subspace or representation on which the observables are defined.
+
+
+== Orthogonal complements and projections ==
+
+If S is a subset of a Hilbert space H, the set of vectors orthogonal to S is defined by
+
+  
+    
+      
+        
+          S
+          
+            ⊥
+          
+        
+        =
+        
+          {
+          
+            x
+            ∈
+            H
+            ∣
+            ⟨
+            x
+            ,
+            s
+            ⟩
+            =
+            0
+             
+            
+               for all 
+            
+            s
+            ∈
+            S
+          
+          }
+        
+        
+        .
+      
+    
+    {\displaystyle S^{\perp }=\left\{x\in H\mid \langle x,s\rangle =0\ {\text{ for all }}s\in S\right\}\,.}
+  
+
+The set S⊥ is a closed subspace of H (can be proved easily using the linearity and continuity of the inner product) and so forms itself a Hilbert space. If V is a closed subspace of H, then V⊥ is called the orthogonal complement of V. In fact, every x ∈ H can then be written uniquely as x = v + w, with v ∈ V and w ∈ V⊥. Therefore, H is the internal Hilbert direct sum of V and V⊥.
+The linear operator PV : H → H that maps x to v is called the orthogonal projection onto V. There is a natural one-to-one correspondence between the set of all closed subspaces of H and the set of all bounded self-adjoint operators P such that P2 = P. Specifically,
+
+This provides the geometrical interpretation of PV(x): it is the best approximation to x by elements of V.
+Projections PU and PV are called mutually orthogonal if PUPV = 0. This is equivalent to U and V being orthogonal as subspaces of H. The sum of the two projections PU and PV is a projection only if U and V are orthogonal to each other, and in that case PU + PV = PU+V. The composite PUPV is generally not a projection; in fact, the composite is a projection if and only if the two projections commute, and in that case PUPV = PU∩V.
+By restricting the codomain to the Hilbert space V, the orthogonal projection PV gives rise to a projection mapping π : H → V; it is the adjoint of the inclusion mapping
+
+  
+    
+      
+        i
+        :
+        V
+        →
+        H
+        
+        ,
+      
+    
+    {\displaystyle i:V\to H\,,}
+  
+
+meaning that
+
+  
+    
+      
+        
+          
+            ⟨
+            
+              i
+              x
+              ,
+              y
+            
+            ⟩
+          
+          
+            H
+          
+        
+        =
+        
+          
+            ⟨
+            
+              x
+              ,
+              π
+              y
+            
+            ⟩
+          
+          
+            V
+          
+        
+      
+    
+    {\displaystyle \left\langle ix,y\right\rangle _{H}=\left\langle x,\pi y\right\rangle _{V}}
+  
+
+for all x ∈ V and y ∈ H.
+The operator norm of the orthogonal projection PV onto a nonzero closed subspace V is equal to 1:
+
+  
+    
+      
+        ‖
+        
+          P
+          
+            V
+          
+        
+        ‖
+        =
+        
+          sup
+          
+            x
+            ∈
+            H
+            ,
+            x
+            ≠
+            0
+          
+        
+        
+          
+            
+              ‖
+              
+                P
+                
+                  V
+                
+              
+              x
+              ‖
+            
+            
+              ‖
+              x
+              ‖
+            
+          
+        
+        =
+        1
+        
+        .
+      
+    
+    {\displaystyle \|P_{V}\|=\sup _{x\in H,x\neq 0}{\frac {\|P_{V}x\|}{\|x\|}}=1\,.}
+  
+
+Every closed subspace V of a Hilbert space is therefore the image of an operator P of norm one such that P2 = P. The property of possessing appropriate projection operators characterizes Hilbert spaces:
+
+A Banach space of dimension higher than 2 is (isometrically) a Hilbert space if and only if, for every closed subspace V, there is an operator PV of norm one whose image is V such that P2V = PV.
+While this result characterizes the metric structure of a Hilbert space, the structure of a Hilbert space as a topological vector space can itself be characterized in terms of the presence of complementary subspaces:
+
+A Banach space X is topologically and linearly isomorphic to a Hilbert space if and only if, to every closed subspace V, there is a closed subspace W such that X is equal to the internal direct sum V ⊕ W.
+The orthogonal complement satisfies some more elementary results. It is a monotone function in the sense that if U ⊂ V, then V⊥ ⊆ U⊥ with equality holding if and only if V is contained in the closure of U. This result is a special case of the Hahn–Banach theorem. The closure of a subspace can be completely characterized in terms of the orthogonal complement: if V is a subspace of H, then the closure of V is equal to V⊥⊥. The orthogonal complement is thus a Galois connection on the partial order of subspaces of a Hilbert space. In general, the orthogonal complement of a sum of subspaces is the intersection of the orthogonal complements:
+
+  
+    
+      
+        
+          
+            (
+          
+        
+        
+          ∑
+          
+            i
+          
+        
+        
+          V
+          
+            i
+          
+        
+        
+          
+            
+              )
+            
+          
+          
+            ⊥
+          
+        
+        =
+        
+          ⋂
+          
+            i
+          
+        
+        
+          V
+          
+            i
+          
+          
+            ⊥
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\biggl (}\sum _{i}V_{i}{\biggr )}^{\perp }=\bigcap _{i}V_{i}^{\perp }\,.}
+  
+
+If the Vi are in addition closed, then
+
+  
+    
+      
+        
+          
+            
+              
+                ∑
+                
+                  i
+                
+              
+              
+                V
+                
+                  i
+                
+                
+                  ⊥
+                
+              
+              
+                
+                  
+                    
+                      
+                        |
+                      
+                    
+                  
+                
+              
+            
+            ¯
+          
+        
+        =
+        
+          
+            (
+          
+        
+        
+          ⋂
+          
+            i
+          
+        
+        
+          V
+          
+            i
+          
+        
+        
+          
+            
+              )
+            
+          
+          
+            ⊥
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\overline {\sum _{i}V_{i}^{\perp }{\vphantom {\Big |}}}}={\biggl (}\bigcap _{i}V_{i}{\biggr )}^{\perp }\,.}
+  
+
+
+== Spectral theory ==
+Spectral theory, for self-adjoint operators in a Hilbert space, is roughly analogous to the study of symmetric matrices over the reals or self-adjoint matrices over the complex numbers. In the same sense, one can obtain a "diagonalization" of a self-adjoint operator as a suitable sum (actually an integral) of orthogonal projection operators.
+The spectrum of an operator T, denoted σ(T), is the set of complex numbers λ such that T − λ lacks a continuous inverse. If T is bounded, then the spectrum is always a compact set in the complex plane, and lies inside the disc |z| ≤ ‖T‖. If T is self-adjoint, then the spectrum is real. In fact, it is contained in the interval [m, M] where
+
+  
+    
+      
+        m
+        =
+        
+          inf
+          
+            ‖
+            x
+            ‖
+            =
+            1
+          
+        
+        ⟨
+        T
+        x
+        ,
+        x
+        ⟩
+        
+        ,
+        
+        M
+        =
+        
+          sup
+          
+            ‖
+            x
+            ‖
+            =
+            1
+          
+        
+        ⟨
+        T
+        x
+        ,
+        x
+        ⟩
+        
+        .
+      
+    
+    {\displaystyle m=\inf _{\|x\|=1}\langle Tx,x\rangle \,,\quad M=\sup _{\|x\|=1}\langle Tx,x\rangle \,.}
+  
+
+Moreover, m and M are both contained within the spectrum.
+The eigenspaces of an operator T are given by
+
+  
+    
+      
+        
+          H
+          
+            λ
+          
+        
+        =
+        ker
+        ⁡
+        (
+        T
+        −
+        λ
+        )
+        
+        .
+      
+    
+    {\displaystyle H_{\lambda }=\ker(T-\lambda )\,.}
+  
+
+Unlike with finite matrices, not every element of the spectrum of T must be an eigenvalue: the linear operator T − λ may only lack an inverse because it is not surjective. Elements of the spectrum of an operator in the general sense are known as spectral values. Since spectral values need not be eigenvalues, the spectral decomposition is often more subtle than in finite dimensions.
+However, the spectral theorem of a self-adjoint operator T takes a particularly simple form if, in addition, T is assumed to be a compact operator. The spectral theorem for compact self-adjoint operators states:
+
+A compact self-adjoint operator T has only countably (or finitely) many spectral values. The spectrum of T has no limit point in the complex plane except possibly zero. The eigenspaces of T decompose H into an orthogonal direct sum: 
+  
+    
+      
+        H
+        =
+        
+          ⨁
+          
+            λ
+            ∈
+            σ
+            (
+            T
+            )
+          
+        
+        
+          H
+          
+            λ
+          
+        
+        
+        .
+      
+    
+    {\displaystyle H=\bigoplus _{\lambda \in \sigma (T)}H_{\lambda }\,.}
+  
+ Moreover, if Eλ denotes the orthogonal projection onto the eigenspace Hλ, then 
+  
+    
+      
+        T
+        =
+        
+          ∑
+          
+            λ
+            ∈
+            σ
+            (
+            T
+            )
+          
+        
+        λ
+        
+          E
+          
+            λ
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle T=\sum _{\lambda \in \sigma (T)}\lambda E_{\lambda }\,,}
+  
+ where the sum converges with respect to the norm on B(H).
+This theorem is especially important for integral operators on L2 with square-integrable kernels, since these operators are Hilbert–Schmidt and hence compact.
+The general spectral theorem for self-adjoint operators involves a kind of operator-valued Riemann–Stieltjes integral, rather than an infinite summation. The spectral family associated to T associates to each real number λ an operator Eλ, which is the projection onto the nullspace of the operator (T − λ)+, where the positive part of a self-adjoint operator is defined by
+
+  
+    
+      
+        
+          A
+          
+            +
+          
+        
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        
+          
+            (
+          
+        
+        
+          
+            
+              A
+              
+                2
+              
+            
+          
+        
+        +
+        A
+        
+          
+            )
+          
+        
+        
+        .
+      
+    
+    {\displaystyle A^{+}={\tfrac {1}{2}}{\Bigl (}{\sqrt {A^{2}}}+A{\Bigr )}\,.}
+  
+
+The operators Eλ are monotone increasing relative to the partial order defined on self-adjoint operators; the eigenvalues correspond precisely to the jump discontinuities. One has the spectral theorem, which asserts
+
+  
+    
+      
+        T
+        =
+        
+          ∫
+          
+            
+              R
+            
+          
+        
+        λ
+        
+        
+          d
+        
+        
+          E
+          
+            λ
+          
+        
+        
+        .
+      
+    
+    {\displaystyle T=\int _{\mathbf {R} }\lambda \,\mathrm {d} E_{\lambda }\,.}
+  
+
+The integral is understood as a Riemann–Stieltjes integral, convergent with respect to the norm on B(H). In particular, one has the ordinary scalar-valued integral representation
+
+  
+    
+      
+        ⟨
+        T
+        x
+        ,
+        y
+        ⟩
+        =
+        
+          ∫
+          
+            
+              R
+            
+          
+        
+        λ
+        
+        
+          d
+        
+        ⟨
+        
+          E
+          
+            λ
+          
+        
+        x
+        ,
+        y
+        ⟩
+        
+        .
+      
+    
+    {\displaystyle \langle Tx,y\rangle =\int _{\mathbf {R} }\lambda \,\mathrm {d} \langle E_{\lambda }x,y\rangle \,.}
+  
+
+A somewhat similar spectral decomposition holds for normal operators, although because the spectrum may now contain non-real complex numbers, the operator-valued Stieltjes measure dEλ must instead be replaced by a resolution of the identity.
+A major application of spectral methods is the spectral mapping theorem, which allows one to apply to a self-adjoint operator T any continuous complex function f defined on the spectrum of T by forming the integral
+
+  
+    
+      
+        f
+        (
+        T
+        )
+        =
+        
+          ∫
+          
+            σ
+            (
+            T
+            )
+          
+        
+        f
+        (
+        λ
+        )
+        
+        
+          d
+        
+        
+          E
+          
+            λ
+          
+        
+        
+        .
+      
+    
+    {\displaystyle f(T)=\int _{\sigma (T)}f(\lambda )\,\mathrm {d} E_{\lambda }\,.}
+  
+
+The resulting continuous functional calculus has applications in particular to pseudodifferential operators.
+The spectral theory of unbounded self-adjoint operators is only marginally more difficult than for bounded operators. The spectrum of an unbounded operator is defined in precisely the same way as for bounded operators: λ is a spectral value if the resolvent operator
+
+  
+    
+      
+        
+          R
+          
+            λ
+          
+        
+        =
+        (
+        T
+        −
+        λ
+        
+          )
+          
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle R_{\lambda }=(T-\lambda )^{-1}}
+  
+
+fails to be a well-defined continuous operator. The self-adjointness of T still guarantees that the spectrum is real. Thus the essential idea of working with unbounded operators is to look instead at the resolvent Rλ where λ is nonreal. This is a bounded normal operator, which admits a spectral representation that can then be transferred to a spectral representation of T itself. Thus the essential idea of working with unbounded operators is to study the resolvent Rλ = (T − λ)−1 on the resolvent set, since it is a bounded operator and can be analyzed by bounded spectral theory.
+A precise version of the spectral theorem in this case is:
+
+There is also a version of the spectral theorem that applies to unbounded normal operators.
+
+
+== In popular culture ==
+In Gravity's Rainbow (1973), a novel by Thomas Pynchon, one of the characters is called "Sammy Hilbert-Spaess", a pun on "Hilbert Space".
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Sources ==
+
+
+== External links ==
+
+"Hilbert space", Encyclopedia of Mathematics, EMS Press, 2001 [1994]
+Hilbert space at Mathworld
+245B, notes 5: Hilbert spaces by Terence Tao

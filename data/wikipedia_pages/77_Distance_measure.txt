@@ -1,0 +1,1639 @@
+Wikipedia article: Distance measure
+Source: https://en.wikipedia.org/wiki/Distance_measure
+PageID: 8065677
+======================================================================
+
+Distance measures are used in physical cosmology to generalize the concept of distance between two objects or events in an expanding universe.  They may be used to tie some observable quantity (such as the luminosity of a distant quasar, the redshift of a distant galaxy, or the angular size of the acoustic peaks in the cosmic microwave background (CMB) power spectrum) to another quantity that is not directly observable, but is more convenient for calculations (such as the comoving coordinates of the quasar, galaxy, etc.). The distance measures discussed here all reduce to the common notion of Euclidean distance at low redshift.
+In accord with our present understanding of cosmology, these measures are calculated within the context of general relativity, where the Friedmann–Lemaître–Robertson–Walker solution is used to describe the universe.
+
+
+== Overview ==
+There are a few different definitions of "distance" in cosmology which are all asymptotic one to another for small redshifts. The expressions for these distances are most practical when written as functions of redshift 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  
+, since redshift is always the observable. They can also be written as functions of scale factor 
+  
+    
+      
+        a
+        =
+        1
+        
+          /
+        
+        (
+        1
+        +
+        z
+        )
+        .
+      
+    
+    {\displaystyle a=1/(1+z).}
+  
+
+In the remainder of this article, the peculiar velocity is assumed to be negligible unless specified otherwise.
+We first give formulas for several distance measures, and then describe them in more detail further down. Defining the "Hubble distance" as
+
+  
+    
+      
+        
+          d
+          
+            H
+          
+        
+        =
+        
+          
+            c
+            
+              H
+              
+                0
+              
+            
+          
+        
+        ≈
+        3000
+        
+          h
+          
+            −
+            1
+          
+        
+        
+          Mpc
+        
+        ≈
+        9.26
+        ⋅
+        
+          10
+          
+            25
+          
+        
+        
+          h
+          
+            −
+            1
+          
+        
+        
+          m
+        
+      
+    
+    {\displaystyle d_{H}={\frac {c}{H_{0}}}\approx 3000h^{-1}{\text{Mpc}}\approx 9.26\cdot 10^{25}h^{-1}{\text{m}}}
+  
+
+where 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  
+ is the speed of light, 
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+  
+ is the Hubble parameter today, and h is the dimensionless Hubble constant, all the distances are asymptotic to 
+  
+    
+      
+        z
+        ⋅
+        
+          d
+          
+            H
+          
+        
+      
+    
+    {\displaystyle z\cdot d_{H}}
+  
+ for small z.
+According to the Friedmann equations, we also define a dimensionless Hubble parameter:
+
+  
+    
+      
+        E
+        (
+        z
+        )
+        =
+        
+          
+            
+              H
+              (
+              z
+              )
+            
+            
+              H
+              
+                0
+              
+            
+          
+        
+        =
+        
+          
+            
+              Ω
+              
+                r
+              
+            
+            (
+            1
+            +
+            z
+            
+              )
+              
+                4
+              
+            
+            +
+            
+              Ω
+              
+                m
+              
+            
+            (
+            1
+            +
+            z
+            
+              )
+              
+                3
+              
+            
+            +
+            
+              Ω
+              
+                k
+              
+            
+            (
+            1
+            +
+            z
+            
+              )
+              
+                2
+              
+            
+            +
+            
+              Ω
+              
+                Λ
+              
+            
+          
+        
+      
+    
+    {\displaystyle E(z)={\frac {H(z)}{H_{0}}}={\sqrt {\Omega _{r}(1+z)^{4}+\Omega _{m}(1+z)^{3}+\Omega _{k}(1+z)^{2}+\Omega _{\Lambda }}}}
+  
+
+Here, 
+  
+    
+      
+        
+          Ω
+          
+            r
+          
+        
+        ,
+        
+          Ω
+          
+            m
+          
+        
+        ,
+      
+    
+    {\displaystyle \Omega _{r},\Omega _{m},}
+  
+ and 
+  
+    
+      
+        
+          Ω
+          
+            Λ
+          
+        
+      
+    
+    {\displaystyle \Omega _{\Lambda }}
+  
+ are normalized values of the present radiation energy density, matter density, and "dark energy density", respectively (the latter representing the cosmological constant), and 
+  
+    
+      
+        
+          Ω
+          
+            k
+          
+        
+        =
+        1
+        −
+        
+          Ω
+          
+            r
+          
+        
+        −
+        
+          Ω
+          
+            m
+          
+        
+        −
+        
+          Ω
+          
+            Λ
+          
+        
+      
+    
+    {\displaystyle \Omega _{k}=1-\Omega _{r}-\Omega _{m}-\Omega _{\Lambda }}
+  
+ determines the curvature. The Hubble parameter at a given redshift is then 
+  
+    
+      
+        H
+        (
+        z
+        )
+        =
+        
+          H
+          
+            0
+          
+        
+        E
+        (
+        z
+        )
+      
+    
+    {\displaystyle H(z)=H_{0}E(z)}
+  
+.
+The formula for comoving distance, which serves as the basis for most of the other formulas, involves an integral. Although for some limited choices of parameters (see below) the comoving distance integral has a closed analytic form, in general—and specifically for the parameters of our universe—we can only find a solution numerically. Cosmologists commonly use the following measures for distances from the observer to an object at redshift 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  
+ along the line of sight (LOS):
+
+Comoving distance: 
+  
+    
+      
+        
+          d
+          
+            C
+          
+        
+        (
+        z
+        )
+        =
+        
+          d
+          
+            H
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            z
+          
+        
+        
+          
+            
+              d
+              
+                z
+                ′
+              
+            
+            
+              E
+              (
+              
+                z
+                ′
+              
+              )
+            
+          
+        
+      
+    
+    {\displaystyle d_{C}(z)=d_{H}\int _{0}^{z}{\frac {dz'}{E(z')}}}
+  
+
+Transverse comoving distance: 
+  
+    
+      
+        
+          d
+          
+            M
+          
+        
+        (
+        z
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    
+                      
+                        d
+                        
+                          H
+                        
+                      
+                      
+                        
+                          Ω
+                          
+                            k
+                          
+                        
+                      
+                    
+                  
+                  sinh
+                  ⁡
+                  
+                    (
+                    
+                      
+                        
+                          
+                            
+                              
+                                Ω
+                                
+                                  k
+                                
+                              
+                            
+                          
+                          
+                            d
+                            
+                              C
+                            
+                          
+                          (
+                          z
+                          )
+                        
+                        
+                          d
+                          
+                            H
+                          
+                        
+                      
+                    
+                    )
+                  
+                
+                
+                  
+                    Ω
+                    
+                      k
+                    
+                  
+                  >
+                  0
+                
+              
+              
+                
+                  
+                    d
+                    
+                      C
+                    
+                  
+                  (
+                  z
+                  )
+                
+                
+                  
+                    Ω
+                    
+                      k
+                    
+                  
+                  =
+                  0
+                
+              
+              
+                
+                  
+                    
+                      
+                        d
+                        
+                          H
+                        
+                      
+                      
+                        
+                          |
+                        
+                        
+                          Ω
+                          
+                            k
+                          
+                        
+                        
+                          |
+                        
+                      
+                    
+                  
+                  sin
+                  ⁡
+                  
+                    (
+                    
+                      
+                        
+                          
+                            
+                              
+                                |
+                              
+                              
+                                Ω
+                                
+                                  k
+                                
+                              
+                              
+                                |
+                              
+                            
+                          
+                          
+                            d
+                            
+                              C
+                            
+                          
+                          (
+                          z
+                          )
+                        
+                        
+                          d
+                          
+                            H
+                          
+                        
+                      
+                    
+                    )
+                  
+                
+                
+                  
+                    Ω
+                    
+                      k
+                    
+                  
+                  <
+                  0
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle d_{M}(z)={\begin{cases}{\frac {d_{H}}{\sqrt {\Omega _{k}}}}\sinh \left({\frac {{\sqrt {\Omega _{k}}}d_{C}(z)}{d_{H}}}\right)&\Omega _{k}>0\\d_{C}(z)&\Omega _{k}=0\\{\frac {d_{H}}{\sqrt {|\Omega _{k}|}}}\sin \left({\frac {{\sqrt {|\Omega _{k}|}}d_{C}(z)}{d_{H}}}\right)&\Omega _{k}<0\end{cases}}}
+  
+
+Angular diameter distance: 
+  
+    
+      
+        
+          d
+          
+            A
+          
+        
+        (
+        z
+        )
+        =
+        
+          
+            
+              
+                d
+                
+                  M
+                
+              
+              (
+              z
+              )
+            
+            
+              1
+              +
+              z
+            
+          
+        
+      
+    
+    {\displaystyle d_{A}(z)={\frac {d_{M}(z)}{1+z}}}
+  
+
+Luminosity distance: 
+  
+    
+      
+        
+          d
+          
+            L
+          
+        
+        (
+        z
+        )
+        =
+        (
+        1
+        +
+        z
+        )
+        
+          d
+          
+            M
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle d_{L}(z)=(1+z)d_{M}(z)}
+  
+
+Light-travel distance: 
+  
+    
+      
+        
+          d
+          
+            T
+          
+        
+        (
+        z
+        )
+        =
+        
+          d
+          
+            H
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            z
+          
+        
+        
+          
+            
+              d
+              
+                z
+                ′
+              
+            
+            
+              (
+              1
+              +
+              
+                z
+                ′
+              
+              )
+              E
+              (
+              
+                z
+                ′
+              
+              )
+            
+          
+        
+      
+    
+    {\displaystyle d_{T}(z)=d_{H}\int _{0}^{z}{\frac {dz'}{(1+z')E(z')}}}
+  
+
+
+== Details ==
+
+
+=== Peculiar velocity ===
+In real observations, the movement of the Earth with respect to the Hubble flow has an effect on the observed redshift.
+There are actually two notions of redshift. One is the redshift that would be observed if both the Earth and the object were not moving with respect to the "comoving" surroundings (the Hubble flow), defined by the cosmic microwave background. The other is the actual redshift measured, which depends both on the peculiar velocity of the object observed and on their peculiar velocity. Since the Solar System is moving at around 370 km/s in a direction between Leo and Crater, this decreases 
+  
+    
+      
+        1
+        +
+        z
+      
+    
+    {\displaystyle 1+z}
+  
+ for distant objects in that direction by a factor of about 1.0012 and increases it by the same factor for distant objects in the opposite direction. (The speed of the motion of the Earth around the Sun is only 30 km/s.)
+
+
+=== Comoving distance ===
+
+The comoving distance 
+  
+    
+      
+        
+          d
+          
+            C
+          
+        
+      
+    
+    {\displaystyle d_{C}}
+  
+ between fundamental observers, i.e. observers that are both moving with the Hubble flow, does not change with time, as comoving distance accounts for the expansion of the universe. Comoving distance is obtained by integrating the proper distances of nearby fundamental observers along the line of sight (LOS), whereas the proper distance is what a measurement at constant cosmic time would yield.
+In standard cosmology, comoving distance and proper distance are two closely related distance measures used by cosmologists to measure distances between objects; the comoving distance is the proper distance at the present time.
+The comoving distance (with a small correction for our own motion) is the distance that would be obtained from parallax, because the parallax in degrees equals the ratio of an astronomical unit to the circumference of a circle at the present time going through the sun and centred on the distant object, multiplied by 360°. However, objects beyond a megaparsec have parallax too small to be measured (the Gaia space telescope measures the parallax of the brightest stars with a precision of 7 microarcseconds), so the parallax of galaxies outside our Local Group is too small to be measured.
+There is a closed-form expression for the integral in the definition of the comoving distance if 
+  
+    
+      
+        
+          Ω
+          
+            r
+          
+        
+        =
+        
+          Ω
+          
+            m
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \Omega _{r}=\Omega _{m}=0}
+  
+ or, by substituting the scale factor 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ for 
+  
+    
+      
+        1
+        
+          /
+        
+        (
+        1
+        +
+        z
+        )
+      
+    
+    {\displaystyle 1/(1+z)}
+  
+, if 
+  
+    
+      
+        
+          Ω
+          
+            Λ
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \Omega _{\Lambda }=0}
+  
+. Our universe now seems to be closely represented by 
+  
+    
+      
+        
+          Ω
+          
+            r
+          
+        
+        =
+        
+          Ω
+          
+            k
+          
+        
+        =
+        0.
+      
+    
+    {\displaystyle \Omega _{r}=\Omega _{k}=0.}
+  
+ In this case, we have:
+
+  
+    
+      
+        
+          d
+          
+            C
+          
+        
+        (
+        z
+        )
+        =
+        
+          d
+          
+            H
+          
+        
+        
+          Ω
+          
+            m
+          
+          
+            −
+            1
+            
+              /
+            
+            3
+          
+        
+        
+          Ω
+          
+            Λ
+          
+          
+            −
+            1
+            
+              /
+            
+            6
+          
+        
+        [
+        f
+        (
+        (
+        1
+        +
+        z
+        )
+        (
+        
+          Ω
+          
+            m
+          
+        
+        
+          /
+        
+        
+          Ω
+          
+            Λ
+          
+        
+        
+          )
+          
+            1
+            
+              /
+            
+            3
+          
+        
+        )
+        −
+        f
+        (
+        (
+        
+          Ω
+          
+            m
+          
+        
+        
+          /
+        
+        
+          Ω
+          
+            Λ
+          
+        
+        
+          )
+          
+            1
+            
+              /
+            
+            3
+          
+        
+        )
+        ]
+      
+    
+    {\displaystyle d_{C}(z)=d_{H}\Omega _{m}^{-1/3}\Omega _{\Lambda }^{-1/6}[f((1+z)(\Omega _{m}/\Omega _{\Lambda })^{1/3})-f((\Omega _{m}/\Omega _{\Lambda })^{1/3})]}
+  
+
+where
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        ≡
+        
+          ∫
+          
+            0
+          
+          
+            x
+          
+        
+        
+          
+            
+              d
+              x
+            
+            
+              
+                x
+                
+                  3
+                
+              
+              +
+              1
+            
+          
+        
+      
+    
+    {\displaystyle f(x)\equiv \int _{0}^{x}{\frac {dx}{\sqrt {x^{3}+1}}}}
+  
+
+The comoving distance should be calculated using the value of z that would pertain if neither the object nor we had a peculiar velocity.
+Together with the scale factor it gives the proper distance of the object when the light we see now was emitted by the it, and set off on its journey to us:
+
+  
+    
+      
+        d
+        =
+        a
+        
+          d
+          
+            C
+          
+        
+      
+    
+    {\displaystyle d=ad_{C}}
+  
+
+
+=== Proper distance ===
+Proper distance roughly corresponds to where a distant object would be at a specific moment of cosmological time, which can change over time due to the expansion of the universe. Comoving distance factors out the expansion of the universe, which gives a distance that does not change in time due to the expansion of space (though this may change due to other, local factors, such as the motion of a galaxy within a cluster); the comoving distance is the proper distance at the present time.
+
+
+=== Transverse comoving distance ===
+Two comoving objects at constant redshift 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  
+ that are separated by an angle 
+  
+    
+      
+        δ
+        θ
+      
+    
+    {\displaystyle \delta \theta }
+  
+ on the sky are said to have the distance 
+  
+    
+      
+        δ
+        θ
+        
+          d
+          
+            M
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle \delta \theta d_{M}(z)}
+  
+, where the transverse comoving distance 
+  
+    
+      
+        
+          d
+          
+            M
+          
+        
+      
+    
+    {\displaystyle d_{M}}
+  
+ is defined appropriately.
+(Peebles confusingly  calls the transverse comoving distance the "angular size distance", which is not the angular diameter distance.)
+
+
+=== Angular diameter distance ===
+
+An object of size 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ at redshift 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  
+ that appears to have angular size 
+  
+    
+      
+        δ
+        θ
+      
+    
+    {\displaystyle \delta \theta }
+  
+ has the angular diameter distance of 
+  
+    
+      
+        
+          d
+          
+            A
+          
+        
+        (
+        z
+        )
+        =
+        x
+        
+          /
+        
+        δ
+        θ
+      
+    
+    {\displaystyle d_{A}(z)=x/\delta \theta }
+  
+. This is commonly used to observe so called standard rulers, for example in the context of baryon acoustic oscillations.
+When accounting for the earth's peculiar velocity, the redshift that would pertain in that case should be used but 
+  
+    
+      
+        
+          d
+          
+            A
+          
+        
+      
+    
+    {\displaystyle d_{A}}
+  
+ should be corrected for the motion of the solar system by a factor between 0.99867 and 1.00133, depending on the direction. (If one starts to move with velocity v towards an object, at any distance, the angular diameter of that object decreases by a factor of 
+  
+    
+      
+        
+          
+            1
+            −
+            
+              β
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\textstyle {\sqrt {1-\beta ^{2}}}}
+  
+, where 
+  
+    
+      
+        β
+        =
+        v
+        
+          /
+        
+        c
+      
+    
+    {\textstyle \beta =v/c}
+  
+.)
+
+
+=== Luminosity distance ===
+
+If the intrinsic luminosity 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+  
+ of a distant object is known, we can calculate its luminosity distance by measuring the flux 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ and determine 
+  
+    
+      
+        
+          d
+          
+            L
+          
+        
+        (
+        z
+        )
+        =
+        
+          
+            L
+            
+              /
+            
+            4
+            π
+            S
+          
+        
+      
+    
+    {\textstyle d_{L}(z)={\sqrt {L/4\pi S}}}
+  
+, which turns out to be equivalent to the expression above for 
+  
+    
+      
+        
+          d
+          
+            L
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle d_{L}(z)}
+  
+. This quantity is important for measurements of standard candles like type Ia supernovae, which were first used to discover the acceleration of the expansion of the universe.
+When accounting for the earth's peculiar velocity, the redshift that would pertain in that case should be used for 
+  
+    
+      
+        
+          d
+          
+            M
+          
+        
+        ,
+      
+    
+    {\displaystyle d_{M},}
+  
+ but the factor 
+  
+    
+      
+        (
+        1
+        +
+        z
+        )
+      
+    
+    {\displaystyle (1+z)}
+  
+ should use the measured redshift, and another correction should be made for the peculiar velocity of the object by multiplying by 
+  
+    
+      
+        
+          
+            (
+            1
+            +
+            v
+            
+              /
+            
+            c
+            )
+            
+              /
+            
+            (
+            1
+            −
+            v
+            
+              /
+            
+            c
+            )
+          
+        
+        ,
+      
+    
+    {\textstyle {\sqrt {(1+v/c)/(1-v/c)}},}
+  
+ where now 
+  
+    
+      
+        v
+      
+    
+    {\displaystyle v}
+  
+ is the component of the object's peculiar velocity away from us. In this way, the luminosity distance will be equal to the angular diameter distance multiplied by 
+  
+    
+      
+        (
+        1
+        +
+        z
+        
+          )
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle (1+z)^{2},}
+  
+ where 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  
+ is the measured redshift, in accordance with Etherington's reciprocity theorem (see below).
+
+
+=== Light-travel distance ===
+
+(also known as "lookback time" or "lookback distance")
+This distance 
+  
+    
+      
+        
+          d
+          
+            T
+          
+        
+      
+    
+    {\displaystyle d_{T}}
+  
+ is the time that it took light to reach the observer from the object multiplied by the speed of light. For instance, the radius of the observable universe in this distance measure becomes the age of the universe multiplied by the speed of light (1 light year/year), i.e. approximately 13.8 billion light years according to current models.
+There is a closed-form solution of the light-travel distance if 
+  
+    
+      
+        
+          Ω
+          
+            r
+          
+        
+        =
+        
+          Ω
+          
+            m
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \Omega _{r}=\Omega _{m}=0}
+  
+ involving the inverse hyperbolic functions 
+  
+    
+      
+        
+          arcosh
+        
+      
+    
+    {\displaystyle {\text{arcosh}}}
+  
+ or 
+  
+    
+      
+        
+          arsinh
+        
+      
+    
+    {\displaystyle {\text{arsinh}}}
+  
+ (or involving inverse trigonometric functions if the cosmological constant has the other sign). If 
+  
+    
+      
+        
+          Ω
+          
+            r
+          
+        
+        =
+        
+          Ω
+          
+            Λ
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \Omega _{r}=\Omega _{\Lambda }=0}
+  
+ then there is a closed-form solution for 
+  
+    
+      
+        
+          d
+          
+            T
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle d_{T}(z)}
+  
+ but not for 
+  
+    
+      
+        z
+        (
+        
+          d
+          
+            T
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle z(d_{T}).}
+  
+
+Note that the comoving distance is recovered from the transverse comoving distance by taking the limit 
+  
+    
+      
+        
+          Ω
+          
+            k
+          
+        
+        →
+        0
+      
+    
+    {\displaystyle \Omega _{k}\to 0}
+  
+, such that the two distance measures are equivalent in a flat universe.
+There are websites for calculating light-travel distance from redshift.
+The age of the universe then becomes 
+  
+    
+      
+        
+          lim
+          
+            z
+            →
+            ∞
+          
+        
+        
+          d
+          
+            T
+          
+        
+        (
+        z
+        )
+        
+          /
+        
+        c
+      
+    
+    {\displaystyle \lim _{z\to \infty }d_{T}(z)/c}
+  
+, and the time elapsed since redshift 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  
+ until now is: 
+  
+    
+      
+        t
+        (
+        z
+        )
+        =
+        
+          d
+          
+            T
+          
+        
+        (
+        z
+        )
+        
+          /
+        
+        c
+        .
+      
+    
+    {\displaystyle t(z)=d_{T}(z)/c.}
+  
+
+
+=== Etherington's distance duality ===
+
+The Etherington's distance-duality equation is the relationship between the luminosity distance of standard candles and the angular-diameter distance. It is expressed as follows: 
+  
+    
+      
+        
+          d
+          
+            L
+          
+        
+        =
+        (
+        1
+        +
+        z
+        
+          )
+          
+            2
+          
+        
+        
+          d
+          
+            A
+          
+        
+      
+    
+    {\displaystyle d_{L}=(1+z)^{2}d_{A}}
+  
+
+
+== See also ==
+
+Big Bang
+Comoving and proper distances
+Friedmann equations
+Parsec
+Physical cosmology
+Cosmic distance ladder
+Friedmann–Lemaître–Robertson–Walker metric
+Subatomic scale
+
+
+== References ==
+
+Scott Dodelson, Modern Cosmology. Academic Press (2003).
+
+
+== External links ==
+'The Distance Scale of the Universe' compares different cosmological distance measures.
+'Distance measures in cosmology' explains in detail how to calculate the different distance measures as a function of world model and redshift.
+iCosmos: Cosmology Calculator (With Graph Generation ) calculates the different distance measures as a function of cosmological model and redshift, and generates plots for the model from redshift 0 to 20.

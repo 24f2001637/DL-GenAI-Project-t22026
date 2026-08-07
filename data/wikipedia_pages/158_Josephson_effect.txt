@@ -1,0 +1,3157 @@
+Wikipedia article: Josephson effect
+Source: https://en.wikipedia.org/wiki/Josephson_effect
+PageID: 446712
+======================================================================
+
+The Josephson effect is a phenomenon that occurs when two superconductors are placed in proximity, with some barrier or restriction between them. The effect is named after the British physicist Brian Josephson, who predicted in 1962 the mathematical relationships for the current and voltage across the weak link. It is an example of a macroscopic quantum phenomenon, where the effects of quantum mechanics are observable at ordinary, rather than atomic, scale. The Josephson effect has many practical applications because it exhibits a precise relationship between different physical measures, such as voltage and frequency, facilitating highly accurate measurements.
+The Josephson effect produces a current, known as a supercurrent, that flows continuously without any voltage applied, across a device known as a Josephson junction (JJ). This consists of two or more superconductors coupled by a weak link. The weak link can be a thin insulating barrier (known as a superconductor–insulator–superconductor junction, or S-I-S), a short section of non-superconducting metal (S-N-S), or a physical constriction that weakens the superconductivity at the point of contact (S-c-S).
+Josephson junctions have important applications in quantum-mechanical circuits, such as SQUIDs, superconducting qubits, and RSFQ digital electronics. The NIST standard for one volt is achieved by an array of 20,208 Josephson junctions in series.
+
+
+== History ==
+
+The DC Josephson effect had been seen in experiments prior to 1962, but had been attributed to "super-shorts" or breaches in the insulating barrier leading to the direct conduction of electrons between the superconductors.
+In 1962, Brian Josephson became interested in superconducting tunneling. He was then 23 years old and a second-year graduate student of Brian Pippard at the Mond Laboratory of the University of Cambridge. That year, Josephson took a many-body theory course with Philip W. Anderson, a Bell Labs employee on sabbatical leave for the 1961–1962 academic year. The course introduced 
+Josephson to the idea of broken symmetry in superconductors, and he "was fascinated by the idea of broken symmetry, and wondered whether there could be any way of observing it experimentally". Josephson studied the experiments by Ivar Giaever and Hans Meissner, and theoretical work by Robert Parmenter. Pippard initially believed that the tunneling effect was possible but that it would be too small to be noticeable, but Josephson did not agree, especially after Anderson introduced him to a preprint of "Superconductive Tunneling" by Marvin L. Cohen, Leopoldo Máximo Falicov, and James Charles Phillips about the superconductor-barrier-normal metal system.
+Josephson and his colleagues were initially unsure about the validity of Josephson's calculations. Anderson later remembered:
+
+We were all—Josephson, Pippard and myself, as well as various other people who also habitually sat at the Mond tea and participated in the discussions of the next few weeks—very much puzzled by the meaning of the fact that the current depends on the phase.
+
+After further review, they concluded that Josephson's results were valid. Josephson then submitted "Possible new effects in superconductive tunnelling" to Physics Letters in June 1962. The newer journal Physics Letters was chosen instead of the better established Physical Review Letters due to their uncertainty about the results. John Bardeen, by then already Nobel Prize winner, was initially publicly skeptical of Josephson's theory in 1962, but came to accept it after further experiments and theoretical clarifications. See also: John Bardeen § Josephson effect controversy.
+In January 1963, Anderson and his Bell Labs colleague John Rowell submitted the first paper to Physical Review Letters to claim the experimental observation of Josephson's effect "Probable Observation of the Josephson Superconducting Tunneling Effect". These authors were awarded patents on the effects that were never enforced, but never challenged.
+Before Josephson's prediction, it was only known that single (i.e., non-paired) electrons can flow through an insulating barrier, by means of quantum tunneling. Josephson was the first to predict the tunneling of superconducting Cooper pairs. For this work, Josephson received the Nobel Prize in Physics in 1973. Bardeen was one of the nominators.
+British physicist John Clarke, also a student of Pippard, says his work was heavily inspired by Brian Josepshon. In 1985, John Clarke's team, including Michel Devoret and John M. Martinis cooled a Josephson junction below 50 mK and demonstrated its macroscopic quantum behaviour described by a single phase. Using microwave pulses, they demonstrated that at zero bias the energy was quantized.  This discovery was later used to develop superconducting qubits. Clarke, Devoret and Martinis were awarded the Nobel Prize in Physics in 2025 for this discovery.
+
+
+== Applications ==
+ Types of Josephson junction include the φ Josephson junction (of which π Josephson junction is a special example), long Josephson junction, and superconducting tunnel junction. Other uses include:
+A "Dayem bridge" is a thin-film Josephson junction where the weak link comprises a superconducting wire measuring a few micrometres or less.
+Josephson junction count is a proxy variable for the complexity of a superconductor electronic circuit
+SQUIDs, or superconducting quantum interference devices, are very sensitive magnetometers that operate via the Josephson effect
+Superfluid helium quantum interference devices (SHeQUIDs) are the superfluid helium analog of a dc-SQUID
+In precision metrology, the Josephson effect is a reproducible conversion between frequency and voltage. The Josephson voltage standard takes the caesium standard definition of frequency and gives the standard representation of a volt
+Single-electron transistors are often made from superconducting materials and called "superconducting single-electron transistors".
+Elementary charge is most precisely measured in terms of the Josephson constant and the von Klitzing constant which is related to the quantum Hall effect
+RSFQ digital electronics are based on shunted Josephson junctions. Junction switching emits one magnetic flux quantum 
+  
+    
+      
+        
+          
+            
+              1
+              
+                2
+                e
+              
+            
+          
+          h
+        
+      
+    
+    {\displaystyle \scriptstyle {\frac {1}{2e}}h}
+  
+. Its presence and absence represents binary 1 and 0.
+Superconducting quantum computing uses Josephson junctions as nonlinear inductive elements in qubits such as in a transmon or flux qubit or other schemes where the phase and charge are conjugate variables.
+Superconducting tunnel junction detectors are used in superconducting cameras
+
+
+== Materials ==
+A Josephson junction consists of a barrier material sandwiched between two superconducting electrodes, where the barrier acts as a weak link between the superconductors. Depending on its nature, this weak link can be an insulating layer, a normal metal, or a narrow constriction, giving rise to different classes of Josephson junctions (SIS, SNS, or constriction junctions). Over the years, a wide variety of materials have been explored for both the electrodes and the barrier in order to optimize junction performance for specific applications.
+Material selection in Josephson junctions is governed by several factors, including dielectric loss, structural and chemical stability, aging behavior, superconducting transition temperature, ease of fabrication, interface uniformity and roughness, and the presence of two-level systems [TLS]. Among the many material systems investigated, aluminum-based Al|AlOx|Al junctions have emerged as the state of the art for many superconducting qubit architectures due to their reproducibility and low microwave loss.
+
+
+=== Electrode materials ===
+The choice of electrode material depends on the intended application such as transmon qubits, SQUIDs, or detectors as well as fabrication compatibility. A key requirement for superconducting electrodes is a sufficiently high superconducting transition temperature, which sets the superconducting energy gap and directly influences the current voltage characteristics of the Josephson junction. Aluminum is the most widely used electrode material in state-of-the-art qubits due to its ease of fabrication and the high quality of its native oxide barrier. Niobium and tantalum are also commonly employed, offering higher transition temperatures and improved robustness, while materials such as niobium nitride (NbN) provide even higher Tc values for specialized high-frequency or detector applications.
+Aluminium (Al) is the most widely used electrode material in state-of-the-art superconducting qubits due to its ease of fabrication and compatibility with high-quality tunnel barriers.
+Niobium (Nb) is also widely used, with pure Nb exhibiting a superconducting transition temperature of approximately 9.3 K. Nb/Al–AlOx/Nb junctions are employed in many superconducting qubits and integrated circuits. However, Nb is sensitive to atmospheric oxygen and readily forms a native oxide, which can reduce the effective superconducting transition temperature; disordered Nb films have reported Tc values around 5.7 K.
+Tantalum (Ta) has recently emerged as a promising electrode material for low-loss quantum circuits. The superconducting α-Ta phase has a transition temperature of approximately 4.4 K and has been used in conjunction with Nb in Josephson junctions and superconducting resonators. In contrast, the β-Ta phase becomes superconducting only below 1 K. The crystalline phase and electrical properties of Ta films depend strongly on growth conditions and substrate choice, requiring careful control of deposition parameters.
+Niobium nitride (NbN) has attracted increasing interest due to its high superconducting transition temperature, which can reach values up to approximately 17 K in the cubic δ-NbN phase. NbN thin films have been grown using several deposition techniques, including sputtering and molecular beam epitaxy, with high-Tc films reported at nanometer-scale thicknesses. However, the short coherence length of NbN places stringent requirements on interface quality and uniformity in Josephson junction trilayers. Niobium nitride (NbN) crystallizes primarily in cubic rock-salt (δ-NbN) and hexagonal wurtzite-related structures, with superconducting properties strongly dependent on crystal phase. The cubic δ-NbN phase exhibits the highest superconducting transition temperature, typically in the range of 11–17 K, whereas the hexagonal phases show significantly lower Tc values, often below 1 K. Control of growth parameters, particularly substrate temperature, enables stabilization of the cubic phase, making NbN attractive for high-Tc Josephson junctions and superconducting devices.
+
+
+=== Barrier materials ===
+Barrier materials in Josephson junctions are primarily selected to minimize dielectric loss while providing a reproducible and well-controlled tunneling interface. Because these layers are typically only a few nanometers thick, their structural disorder and defect density can strongly influence junction performance, with two-level systems (TLS) often dominating loss mechanisms. The thickness of the barrier is particularly critical, as the tunneling current depends exponentially on barrier thickness.
+Aluminum oxide (AlOx) is the most widely used tunnel barrier in state-of-the-art superconducting qubits, forming the basis of Al|AlOx|Al Josephson junctions. AlOx grows naturally as an amorphous oxide containing oxygen vacancies, which contribute to TLS-related dielectric loss and qubit decoherence.
+Despite this limitation, AlOx remains dominant due to its self-limiting growth on aluminum, allowing reliable control of barrier thickness in the 1–2 nm range and reproducible tuning of junction resistance. Attempts to incorporate AlOx into Nb-based junctions have been limited by oxygen diffusion into Nb, leading to the formation of defective NbOx at the interface and increased loss.
+Tantalum oxide (TaOx) has attracted interest as an alternative barrier material due to its chemical stability and compatibility with tantalum and niobium electrodes. TaOx can be grown in situ without breaking vacuum and generally exhibits lower defect density than NbOx, contributing to reduced TLS losses. Structurally, TaOx consists of amorphous or nanocrystalline phases derived from tantalum pentoxide (Ta2O5), which exhibits multiple crystalline polymorphs built from distorted TaO6 and TaO7 polyhedra. In practical devices, TaOx barriers are typically amorphous with locally varying coordination environments, and their relatively high resistivity limits achievable current densities.
+
+Niobium oxide (NbOx) generally performs poorly as a tunnel barrier in Josephson junctions due to its complex, non-stoichiometric chemistry and structural inhomogeneity. The native oxide on Nb is a mixture of NbO, NbO2, and Nb2O5, corresponding to metallic, semiconducting, and insulating phases, respectively. This coexistence leads to nonuniform barrier properties, including filamentary conduction paths, pinholes, and poor junction reproducibility. Unlike AlOx, NbOx does not exhibit self-limited growth, with thickness strongly dependent on environmental and surface conditions. Oxidized Nb surfaces therefore form a heterogeneous oxide stack with an unavoidable NbO interfacial layer, contributing to increased loss and reduced coherence in superconducting qubit devices.
+
+Zirconium oxide (ZrOx) has emerged as a promising barrier material due to its high oxygen affinity and improved chemical stability compared with AlOx. The thermodynamically stable phase of ZrO2 at room temperature is monoclinic, although recent studies have demonstrated that crystalline tetragonal ZrOx can be stabilized in thin films grown by sputtering at room temperature. These properties make ZrOx an attractive candidate for engineered tunnel barriers with improved structural uniformity.
+Metallic barriers are used in superconductor–normal metal–superconductor (SNS) Josephson junctions, where a thin normal metal layer provides the weak link between superconductors. In such junctions, superconducting correlations are mediated through the proximity effect, with Andreev reflections playing a central role in transport. While metals such as aluminum have been explored as barriers in Nb-based SNS junctions, interface stability and thickness control present significant challenges, limiting their use in low-loss qubit applications.
+
+
+== Josephson equations ==
+
+The Josephson effect can be calculated using the laws of quantum mechanics. A diagram of a single Josephson junction is shown at right. Assume that superconductor A has Ginzburg–Landau order parameter 
+  
+    
+      
+        
+          ψ
+          
+            A
+          
+        
+        =
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                A
+              
+            
+          
+        
+      
+    
+    {\displaystyle \psi _{A}={\sqrt {n_{A}}}e^{i\phi _{A}}}
+  
+, and superconductor B 
+  
+    
+      
+        
+          ψ
+          
+            B
+          
+        
+        =
+        
+          
+            
+              n
+              
+                B
+              
+            
+          
+        
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                B
+              
+            
+          
+        
+      
+    
+    {\displaystyle \psi _{B}={\sqrt {n_{B}}}e^{i\phi _{B}}}
+  
+, which can be interpreted as the wave functions of Cooper pairs in the two superconductors. If the electric potential difference across the junction is 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+  
+, then the energy difference between the two superconductors is 
+  
+    
+      
+        2
+        e
+        V
+      
+    
+    {\displaystyle 2eV}
+  
+, since each Cooper pair has twice the charge of one electron. The Schrödinger equation for this two-state quantum system is therefore:
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    
+                      
+                        n
+                        
+                          A
+                        
+                      
+                    
+                  
+                  
+                    e
+                    
+                      i
+                      
+                        ϕ
+                        
+                          A
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      
+                        n
+                        
+                          B
+                        
+                      
+                    
+                  
+                  
+                    e
+                    
+                      i
+                      
+                        ϕ
+                        
+                          B
+                        
+                      
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  e
+                  V
+                
+                
+                  K
+                
+              
+              
+                
+                  K
+                
+                
+                  −
+                  e
+                  V
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    
+                      
+                        n
+                        
+                          A
+                        
+                      
+                    
+                  
+                  
+                    e
+                    
+                      i
+                      
+                        ϕ
+                        
+                          A
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      
+                        n
+                        
+                          B
+                        
+                      
+                    
+                  
+                  
+                    e
+                    
+                      i
+                      
+                        ϕ
+                        
+                          B
+                        
+                      
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        ,
+      
+    
+    {\displaystyle i\hbar {\frac {\partial }{\partial t}}{\begin{pmatrix}{\sqrt {n_{A}}}e^{i\phi _{A}}\\{\sqrt {n_{B}}}e^{i\phi _{B}}\end{pmatrix}}={\begin{pmatrix}eV&K\\K&-eV\end{pmatrix}}{\begin{pmatrix}{\sqrt {n_{A}}}e^{i\phi _{A}}\\{\sqrt {n_{B}}}e^{i\phi _{B}}\end{pmatrix}},}
+  
+
+where the constant 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+  
+ is a characteristic of the junction. To solve the above equation, first calculate the time derivative of the order parameter in superconductor A:
+
+  
+    
+      
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        (
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                A
+              
+            
+          
+        
+        )
+        =
+        
+          
+            
+              
+                
+                  n
+                  
+                    A
+                  
+                
+              
+              ˙
+            
+          
+        
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                A
+              
+            
+          
+        
+        +
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        (
+        i
+        
+          
+            
+              
+                ϕ
+                ˙
+              
+            
+          
+          
+            A
+          
+        
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                A
+              
+            
+          
+        
+        )
+        =
+        (
+        
+          
+            
+              
+                
+                  n
+                  
+                    A
+                  
+                
+              
+              ˙
+            
+          
+        
+        +
+        i
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        
+          
+            
+              
+                ϕ
+                ˙
+              
+            
+          
+          
+            A
+          
+        
+        )
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                A
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\frac {\partial }{\partial t}}({\sqrt {n_{A}}}e^{i\phi _{A}})={\dot {\sqrt {n_{A}}}}e^{i\phi _{A}}+{\sqrt {n_{A}}}(i{\dot {\phi }}_{A}e^{i\phi _{A}})=({\dot {\sqrt {n_{A}}}}+i{\sqrt {n_{A}}}{\dot {\phi }}_{A})e^{i\phi _{A}},}
+  
+
+and therefore the Schrödinger equation gives:
+
+  
+    
+      
+        (
+        
+          
+            
+              
+                
+                  n
+                  
+                    A
+                  
+                
+              
+              ˙
+            
+          
+        
+        +
+        i
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        
+          
+            
+              
+                ϕ
+                ˙
+              
+            
+          
+          
+            A
+          
+        
+        )
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                A
+              
+            
+          
+        
+        =
+        
+          
+            1
+            
+              i
+              ℏ
+            
+          
+        
+        (
+        e
+        V
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                A
+              
+            
+          
+        
+        +
+        K
+        
+          
+            
+              n
+              
+                B
+              
+            
+          
+        
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                B
+              
+            
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle ({\dot {\sqrt {n_{A}}}}+i{\sqrt {n_{A}}}{\dot {\phi }}_{A})e^{i\phi _{A}}={\frac {1}{i\hbar }}(eV{\sqrt {n_{A}}}e^{i\phi _{A}}+K{\sqrt {n_{B}}}e^{i\phi _{B}}).}
+  
+
+The phase difference of Ginzburg–Landau order parameters across the junction is called the Josephson phase:
+
+  
+    
+      
+        φ
+        =
+        
+          ϕ
+          
+            B
+          
+        
+        −
+        
+          ϕ
+          
+            A
+          
+        
+        .
+      
+    
+    {\displaystyle \varphi =\phi _{B}-\phi _{A}.}
+  
+The Schrödinger equation can therefore be rewritten as:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  n
+                  
+                    A
+                  
+                
+              
+              ˙
+            
+          
+        
+        +
+        i
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        
+          
+            
+              
+                ϕ
+                ˙
+              
+            
+          
+          
+            A
+          
+        
+        =
+        
+          
+            1
+            
+              i
+              ℏ
+            
+          
+        
+        (
+        e
+        V
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        +
+        K
+        
+          
+            
+              n
+              
+                B
+              
+            
+          
+        
+        
+          e
+          
+            i
+            φ
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle {\dot {\sqrt {n_{A}}}}+i{\sqrt {n_{A}}}{\dot {\phi }}_{A}={\frac {1}{i\hbar }}(eV{\sqrt {n_{A}}}+K{\sqrt {n_{B}}}e^{i\varphi }),}
+  
+
+and its complex conjugate equation is:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  n
+                  
+                    A
+                  
+                
+              
+              ˙
+            
+          
+        
+        −
+        i
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        
+          
+            
+              
+                ϕ
+                ˙
+              
+            
+          
+          
+            A
+          
+        
+        =
+        
+          
+            1
+            
+              −
+              i
+              ℏ
+            
+          
+        
+        (
+        e
+        V
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        +
+        K
+        
+          
+            
+              n
+              
+                B
+              
+            
+          
+        
+        
+          e
+          
+            −
+            i
+            φ
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle {\dot {\sqrt {n_{A}}}}-i{\sqrt {n_{A}}}{\dot {\phi }}_{A}={\frac {1}{-i\hbar }}(eV{\sqrt {n_{A}}}+K{\sqrt {n_{B}}}e^{-i\varphi }).}
+  
+
+Add the two conjugate equations together to eliminate 
+  
+    
+      
+        
+          
+            
+              
+                ϕ
+                ˙
+              
+            
+          
+          
+            A
+          
+        
+      
+    
+    {\displaystyle {\dot {\phi }}_{A}}
+  
+:
+
+  
+    
+      
+        2
+        
+          
+            
+              
+                
+                  n
+                  
+                    A
+                  
+                
+              
+              ˙
+            
+          
+        
+        =
+        
+          
+            1
+            
+              i
+              ℏ
+            
+          
+        
+        (
+        K
+        
+          
+            
+              n
+              
+                B
+              
+            
+          
+        
+        
+          e
+          
+            i
+            φ
+          
+        
+        −
+        K
+        
+          
+            
+              n
+              
+                B
+              
+            
+          
+        
+        
+          e
+          
+            −
+            i
+            φ
+          
+        
+        )
+        =
+        
+          
+            
+              K
+              
+                
+                  
+                    n
+                    
+                      B
+                    
+                  
+                
+              
+            
+            ℏ
+          
+        
+        ⋅
+        2
+        sin
+        ⁡
+        φ
+        .
+      
+    
+    {\displaystyle 2{\dot {\sqrt {n_{A}}}}={\frac {1}{i\hbar }}(K{\sqrt {n_{B}}}e^{i\varphi }-K{\sqrt {n_{B}}}e^{-i\varphi })={\frac {K{\sqrt {n_{B}}}}{\hbar }}\cdot 2\sin \varphi .}
+  
+
+Since 
+  
+    
+      
+        
+          
+            
+              
+                
+                  n
+                  
+                    A
+                  
+                
+              
+              ˙
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  
+                    n
+                    ˙
+                  
+                
+              
+              
+                A
+              
+            
+            
+              2
+              
+                
+                  
+                    n
+                    
+                      A
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\dot {\sqrt {n_{A}}}}={\frac {{\dot {n}}_{A}}{2{\sqrt {n_{A}}}}}}
+  
+, we have:
+
+  
+    
+      
+        
+          
+            
+              
+                n
+                ˙
+              
+            
+          
+          
+            A
+          
+        
+        =
+        
+          
+            
+              2
+              K
+              
+                
+                  
+                    n
+                    
+                      A
+                    
+                  
+                  
+                    n
+                    
+                      B
+                    
+                  
+                
+              
+            
+            ℏ
+          
+        
+        sin
+        ⁡
+        φ
+        .
+      
+    
+    {\displaystyle {\dot {n}}_{A}={\frac {2K{\sqrt {n_{A}n_{B}}}}{\hbar }}\sin \varphi .}
+  
+
+Now, subtract the two conjugate equations to eliminate 
+  
+    
+      
+        
+          
+            
+              
+                
+                  n
+                  
+                    A
+                  
+                
+              
+              ˙
+            
+          
+        
+      
+    
+    {\displaystyle {\dot {\sqrt {n_{A}}}}}
+  
+:
+
+  
+    
+      
+        2
+        i
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        
+          
+            
+              
+                ϕ
+                ˙
+              
+            
+          
+          
+            A
+          
+        
+        =
+        
+          
+            1
+            
+              i
+              ℏ
+            
+          
+        
+        (
+        2
+        e
+        V
+        
+          
+            
+              n
+              
+                A
+              
+            
+          
+        
+        +
+        K
+        
+          
+            
+              n
+              
+                B
+              
+            
+          
+        
+        
+          e
+          
+            i
+            φ
+          
+        
+        +
+        K
+        
+          
+            
+              n
+              
+                B
+              
+            
+          
+        
+        
+          e
+          
+            −
+            i
+            φ
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle 2i{\sqrt {n_{A}}}{\dot {\phi }}_{A}={\frac {1}{i\hbar }}(2eV{\sqrt {n_{A}}}+K{\sqrt {n_{B}}}e^{i\varphi }+K{\sqrt {n_{B}}}e^{-i\varphi }),}
+  
+
+which gives:
+
+  
+    
+      
+        
+          
+            
+              
+                ϕ
+                ˙
+              
+            
+          
+          
+            A
+          
+        
+        =
+        −
+        
+          
+            1
+            ℏ
+          
+        
+        (
+        e
+        V
+        +
+        K
+        
+          
+            
+              
+                n
+                
+                  B
+                
+              
+              
+                n
+                
+                  A
+                
+              
+            
+          
+        
+        cos
+        ⁡
+        φ
+        )
+        .
+      
+    
+    {\displaystyle {\dot {\phi }}_{A}=-{\frac {1}{\hbar }}(eV+K{\sqrt {\frac {n_{B}}{n_{A}}}}\cos \varphi ).}
+  
+
+Similarly, for superconductor B we can derive that:
+
+  
+    
+      
+        
+          
+            
+              
+                n
+                ˙
+              
+            
+          
+          
+            B
+          
+        
+        =
+        −
+        
+          
+            
+              2
+              K
+              
+                
+                  
+                    n
+                    
+                      A
+                    
+                  
+                  
+                    n
+                    
+                      B
+                    
+                  
+                
+              
+            
+            ℏ
+          
+        
+        sin
+        ⁡
+        φ
+        ,
+        
+        
+          
+            
+              
+                ϕ
+                ˙
+              
+            
+          
+          
+            B
+          
+        
+        =
+        
+          
+            1
+            ℏ
+          
+        
+        (
+        e
+        V
+        −
+        K
+        
+          
+            
+              
+                n
+                
+                  A
+                
+              
+              
+                n
+                
+                  B
+                
+              
+            
+          
+        
+        cos
+        ⁡
+        φ
+        )
+        .
+      
+    
+    {\displaystyle {\dot {n}}_{B}=-{\frac {2K{\sqrt {n_{A}n_{B}}}}{\hbar }}\sin \varphi ,\,{\dot {\phi }}_{B}={\frac {1}{\hbar }}(eV-K{\sqrt {\frac {n_{A}}{n_{B}}}}\cos \varphi ).}
+  
+
+Noting that the evolution of Josephson phase is 
+  
+    
+      
+        
+          
+            
+              φ
+              ˙
+            
+          
+        
+        =
+        
+          
+            
+              
+                ϕ
+                ˙
+              
+            
+          
+          
+            B
+          
+        
+        −
+        
+          
+            
+              
+                ϕ
+                ˙
+              
+            
+          
+          
+            A
+          
+        
+      
+    
+    {\displaystyle {\dot {\varphi }}={\dot {\phi }}_{B}-{\dot {\phi }}_{A}}
+  
+ and the time derivative of charge carrier density 
+  
+    
+      
+        
+          
+            
+              
+                n
+                ˙
+              
+            
+          
+          
+            A
+          
+        
+      
+    
+    {\displaystyle {\dot {n}}_{A}}
+  
+ is proportional to current 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+  
+, when 
+  
+    
+      
+        
+          n
+          
+            A
+          
+        
+        ≈
+        
+          n
+          
+            B
+          
+        
+      
+    
+    {\displaystyle n_{A}\approx n_{B}}
+  
+, the above solution yields the Josephson equations:
+
+  
+    
+      
+        I
+        (
+        t
+        )
+        =
+        
+          I
+          
+            c
+          
+        
+        sin
+        ⁡
+        (
+        φ
+        (
+        t
+        )
+        )
+      
+    
+    {\displaystyle I(t)=I_{c}\sin(\varphi (t))}
+  
+
+(1)
+
+  
+    
+      
+        
+          
+            
+              ∂
+              φ
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        
+          
+            
+              2
+              e
+              V
+              (
+              t
+              )
+            
+            ℏ
+          
+        
+      
+    
+    {\displaystyle {\frac {\partial \varphi }{\partial t}}={\frac {2eV(t)}{\hbar }}}
+  
+
+(2)
+
+where 
+  
+    
+      
+        V
+        (
+        t
+        )
+      
+    
+    {\displaystyle V(t)}
+  
+ and 
+  
+    
+      
+        I
+        (
+        t
+        )
+      
+    
+    {\displaystyle I(t)}
+  
+ are the voltage across and the current through the Josephson junction, and 
+  
+    
+      
+        
+          I
+          
+            c
+          
+        
+      
+    
+    {\displaystyle I_{c}}
+  
+ is a parameter of the junction named the critical current. Equation (1) is called the first Josephson relation or weak-link current-phase relation, and equation (2) is called the second Josephson relation or superconducting phase evolution equation. The critical current of the Josephson junction depends on the properties of the superconductors, and can also be affected by environmental factors like temperature and externally applied magnetic field.
+The Josephson constant is defined as:
+
+  
+    
+      
+        
+          K
+          
+            J
+          
+        
+        =
+        
+          
+            
+              2
+              e
+            
+            h
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle K_{J}={\frac {2e}{h}}\,,}
+  
+
+and its inverse is the magnetic flux quantum:
+
+  
+    
+      
+        
+          Φ
+          
+            0
+          
+        
+        =
+        
+          
+            h
+            
+              2
+              e
+            
+          
+        
+        =
+        2
+        π
+        
+          
+            ℏ
+            
+              2
+              e
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \Phi _{0}={\frac {h}{2e}}=2\pi {\frac {\hbar }{2e}}\,.}
+  
+
+The superconducting phase evolution equation can be reexpressed as:
+
+  
+    
+      
+        
+          
+            
+              ∂
+              φ
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        2
+        π
+        [
+        
+          K
+          
+            J
+          
+        
+        V
+        (
+        t
+        )
+        ]
+        =
+        
+          
+            
+              2
+              π
+            
+            
+              Φ
+              
+                0
+              
+            
+          
+        
+        V
+        (
+        t
+        )
+        
+        .
+      
+    
+    {\displaystyle {\frac {\partial \varphi }{\partial t}}=2\pi [K_{J}V(t)]={\frac {2\pi }{\Phi _{0}}}V(t)\,.}
+  
+
+If we define:
+
+  
+    
+      
+        Φ
+        =
+        
+          Φ
+          
+            0
+          
+        
+        
+          
+            φ
+            
+              2
+              π
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \Phi =\Phi _{0}{\frac {\varphi }{2\pi }}\,,}
+  
+
+then the voltage across the junction is:
+
+  
+    
+      
+        V
+        =
+        
+          
+            
+              Φ
+              
+                0
+              
+            
+            
+              2
+              π
+            
+          
+        
+        
+          
+            
+              ∂
+              φ
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        
+          
+            
+              d
+              Φ
+            
+            
+              d
+              t
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle V={\frac {\Phi _{0}}{2\pi }}{\frac {\partial \varphi }{\partial t}}={\frac {d\Phi }{dt}}\,,}
+  
+
+which is very similar to Faraday's law of induction. But note that this voltage does not come from magnetic energy, since there is no magnetic field in the superconductors; Instead, this voltage comes from the kinetic energy of the carriers (i.e. the Cooper pairs). This phenomenon is also known as kinetic inductance.
+
+
+== Three main effects ==
+
+There are three main effects predicted by Josephson that follow directly from the Josephson equations:
+
+
+=== DC Josephson effect ===
+The DC Josephson effect is a direct current crossing the insulator in the absence of any external electromagnetic field, owing to tunneling. This DC Josephson current is proportional to the sine of the Josephson phase (phase difference across the insulator, which stays constant over time), and may take values between 
+  
+    
+      
+        −
+        
+          I
+          
+            c
+          
+        
+      
+    
+    {\displaystyle -I_{c}}
+  
+ and 
+  
+    
+      
+        
+          I
+          
+            c
+          
+        
+      
+    
+    {\displaystyle I_{c}}
+  
+.
+
+
+=== AC Josephson effect ===
+With a fixed voltage 
+  
+    
+      
+        
+          V
+          
+            D
+            C
+          
+        
+      
+    
+    {\displaystyle V_{DC}}
+  
+ across the junction, the phase will vary linearly with time and the current will be a sinusoidal AC (alternating current) with amplitude 
+  
+    
+      
+        
+          I
+          
+            c
+          
+        
+      
+    
+    {\displaystyle I_{c}}
+  
+ and frequency 
+  
+    
+      
+        
+          K
+          
+            J
+          
+        
+        
+          V
+          
+            D
+            C
+          
+        
+      
+    
+    {\displaystyle K_{J}V_{DC}}
+  
+. This means a Josephson junction can act as a perfect voltage-to-frequency converter.
+
+
+=== Inverse AC Josephson effect ===
+Microwave radiation of a single (angular) frequency 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+  
+ can induce quantized DC voltages across the Josephson junction, in which case the Josephson phase takes the form 
+  
+    
+      
+        φ
+        (
+        t
+        )
+        =
+        
+          φ
+          
+            0
+          
+        
+        +
+        n
+        ω
+        t
+        +
+        a
+        sin
+        ⁡
+        (
+        ω
+        t
+        )
+      
+    
+    {\displaystyle \varphi (t)=\varphi _{0}+n\omega t+a\sin(\omega t)}
+  
+, and the voltage and current across the junction will be:
+
+  
+    
+      
+        V
+        (
+        t
+        )
+        =
+        
+          
+            ℏ
+            
+              2
+              e
+            
+          
+        
+        ω
+        (
+        n
+        +
+        a
+        cos
+        ⁡
+        (
+        ω
+        t
+        )
+        )
+        ,
+        
+           and 
+        
+        I
+        (
+        t
+        )
+        =
+        
+          I
+          
+            c
+          
+        
+        
+          ∑
+          
+            m
+            =
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        
+          J
+          
+            m
+          
+        
+        (
+        a
+        )
+        sin
+        ⁡
+        (
+        
+          φ
+          
+            0
+          
+        
+        +
+        (
+        n
+        +
+        m
+        )
+        ω
+        t
+        )
+        ,
+      
+    
+    {\displaystyle V(t)={\frac {\hbar }{2e}}\omega (n+a\cos(\omega t)),{\text{ and }}I(t)=I_{c}\sum _{m=-\infty }^{\infty }J_{m}(a)\sin(\varphi _{0}+(n+m)\omega t),}
+  
+
+The DC components are:
+
+  
+    
+      
+        
+          V
+          
+            DC
+          
+        
+        =
+        n
+        
+          
+            ℏ
+            
+              2
+              e
+            
+          
+        
+        ω
+        ,
+        
+           and 
+        
+        
+          I
+          
+            DC
+          
+        
+        =
+        
+          I
+          
+            c
+          
+        
+        
+          J
+          
+            −
+            n
+          
+        
+        (
+        a
+        )
+        sin
+        ⁡
+        
+          φ
+          
+            0
+          
+        
+        .
+      
+    
+    {\displaystyle V_{\text{DC}}=n{\frac {\hbar }{2e}}\omega ,{\text{ and }}I_{\text{DC}}=I_{c}J_{-n}(a)\sin \varphi _{0}.}
+  
+
+This means a Josephson junction can act like a perfect frequency-to-voltage converter, which is the theoretical basis for the Josephson voltage standard.
+
+
+== Josephson inductance ==
+When the current and Josephson phase varies over time, the voltage drop across the junction will also vary accordingly. As shown in derivation below, the Josephson relations determine that this behavior can be modeled by a kinetic inductance named Josephson inductance.
+Rewrite the Josephson relations as:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      ∂
+                      I
+                    
+                    
+                      ∂
+                      φ
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  I
+                  
+                    c
+                  
+                
+                cos
+                ⁡
+                φ
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      ∂
+                      φ
+                    
+                    
+                      ∂
+                      t
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      2
+                      π
+                    
+                    
+                      Φ
+                      
+                        0
+                      
+                    
+                  
+                
+                V
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {\partial I}{\partial \varphi }}&=I_{c}\cos \varphi ,\\{\frac {\partial \varphi }{\partial t}}&={\frac {2\pi }{\Phi _{0}}}V.\end{aligned}}}
+  
+
+Now, apply the chain rule to calculate the time derivative of the current:
+
+  
+    
+      
+        
+          
+            
+              ∂
+              I
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        
+          
+            
+              ∂
+              I
+            
+            
+              ∂
+              φ
+            
+          
+        
+        
+          
+            
+              ∂
+              φ
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        
+          I
+          
+            c
+          
+        
+        cos
+        ⁡
+        φ
+        ⋅
+        
+          
+            
+              2
+              π
+            
+            
+              Φ
+              
+                0
+              
+            
+          
+        
+        V
+        ,
+      
+    
+    {\displaystyle {\frac {\partial I}{\partial t}}={\frac {\partial I}{\partial \varphi }}{\frac {\partial \varphi }{\partial t}}=I_{c}\cos \varphi \cdot {\frac {2\pi }{\Phi _{0}}}V,}
+  
+
+Rearrange the above result in the form of the current–voltage characteristic of an inductor:
+
+  
+    
+      
+        V
+        =
+        
+          
+            
+              Φ
+              
+                0
+              
+            
+            
+              2
+              π
+              
+                I
+                
+                  c
+                
+              
+              cos
+              ⁡
+              φ
+            
+          
+        
+        
+          
+            
+              ∂
+              I
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        L
+        (
+        φ
+        )
+        
+          
+            
+              ∂
+              I
+            
+            
+              ∂
+              t
+            
+          
+        
+        .
+      
+    
+    {\displaystyle V={\frac {\Phi _{0}}{2\pi I_{c}\cos \varphi }}{\frac {\partial I}{\partial t}}=L(\varphi ){\frac {\partial I}{\partial t}}.}
+  
+
+This gives the expression for the kinetic inductance as a function of the Josephson phase:
+
+  
+    
+      
+        L
+        (
+        φ
+        )
+        =
+        
+          
+            
+              Φ
+              
+                0
+              
+            
+            
+              2
+              π
+              
+                I
+                
+                  c
+                
+              
+              cos
+              ⁡
+              φ
+            
+          
+        
+        =
+        
+          
+            
+              L
+              
+                J
+              
+            
+            
+              cos
+              ⁡
+              φ
+            
+          
+        
+        .
+      
+    
+    {\displaystyle L(\varphi )={\frac {\Phi _{0}}{2\pi I_{c}\cos \varphi }}={\frac {L_{J}}{\cos \varphi }}.}
+  
+
+Here, 
+  
+    
+      
+        
+          L
+          
+            J
+          
+        
+        =
+        L
+        (
+        0
+        )
+        =
+        
+          
+            
+              Φ
+              
+                0
+              
+            
+            
+              2
+              π
+              
+                I
+                
+                  c
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle L_{J}=L(0)={\frac {\Phi _{0}}{2\pi I_{c}}}}
+  
+ is a characteristic parameter of the Josephson junction, named the Josephson inductance.
+Note that although the kinetic behavior of the Josephson junction is similar to that of an inductor, there is no associated magnetic field. This behaviour is derived from the kinetic energy of the charge carriers, instead of the energy in a magnetic field.
+
+
+== Josephson energy ==
+Based on the similarity of the Josephson junction to a non-linear inductor, the energy stored in a Josephson junction when a supercurrent flows through it can be calculated.
+The supercurrent flowing through the junction is related to the Josephson phase by the current-phase relation (CPR):
+
+  
+    
+      
+        I
+        =
+        
+          I
+          
+            c
+          
+        
+        sin
+        ⁡
+        φ
+        .
+      
+    
+    {\displaystyle I=I_{c}\sin \varphi .}
+  
+
+The superconducting phase evolution equation is analogous to Faraday's law:
+
+  
+    
+      
+        V
+        =
+        d
+        
+        Φ
+        
+          /
+        
+        d
+        
+        t
+        
+        .
+      
+    
+    {\displaystyle V=\operatorname {d} \!\Phi /\operatorname {d} \!t\,.}
+  
+
+Assume that at time 
+  
+    
+      
+        
+          t
+          
+            1
+          
+        
+      
+    
+    {\displaystyle t_{1}}
+  
+, the Josephson phase is 
+  
+    
+      
+        
+          φ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \varphi _{1}}
+  
+; At a later time 
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+      
+    
+    {\displaystyle t_{2}}
+  
+, the Josephson phase evolved to 
+  
+    
+      
+        
+          φ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \varphi _{2}}
+  
+. The energy increase in the junction is equal to the work done on the junction:
+
+  
+    
+      
+        Δ
+        E
+        =
+        
+          ∫
+          
+            1
+          
+          
+            2
+          
+        
+        I
+        V
+        d
+        
+        
+          t
+        
+        =
+        
+          ∫
+          
+            1
+          
+          
+            2
+          
+        
+        I
+        d
+        
+        Φ
+        =
+        
+          ∫
+          
+            
+              φ
+              
+                1
+              
+            
+          
+          
+            
+              φ
+              
+                2
+              
+            
+          
+        
+        
+          I
+          
+            c
+          
+        
+        sin
+        ⁡
+        φ
+        d
+        
+        
+          (
+          
+            
+              Φ
+              
+                0
+              
+            
+            
+              
+                φ
+                
+                  2
+                  π
+                
+              
+            
+          
+          )
+        
+        =
+        −
+        
+          
+            
+              
+                Φ
+                
+                  0
+                
+              
+              
+                I
+                
+                  c
+                
+              
+            
+            
+              2
+              π
+            
+          
+        
+        cos
+        ⁡
+        Δ
+        φ
+        
+        .
+      
+    
+    {\displaystyle \Delta E=\int _{1}^{2}IV\operatorname {d} \!{t}=\int _{1}^{2}I\operatorname {d} \!\Phi =\int _{\varphi _{1}}^{\varphi _{2}}I_{c}\sin \varphi \operatorname {d} \!\left(\Phi _{0}{\frac {\varphi }{2\pi }}\right)=-{\frac {\Phi _{0}I_{c}}{2\pi }}\cos \Delta \varphi \,.}
+  
+
+This shows that the change of energy in the Josephson junction depends only on the initial and final state of the junction and not the path. Therefore, the energy stored in a Josephson junction is a state function, which can be defined as:
+
+  
+    
+      
+        E
+        (
+        φ
+        )
+        =
+        −
+        
+          
+            
+              
+                Φ
+                
+                  0
+                
+              
+              
+                I
+                
+                  c
+                
+              
+            
+            
+              2
+              π
+            
+          
+        
+        cos
+        ⁡
+        φ
+        =
+        −
+        
+          E
+          
+            J
+          
+        
+        cos
+        ⁡
+        φ
+        
+        .
+      
+    
+    {\displaystyle E(\varphi )=-{\frac {\Phi _{0}I_{c}}{2\pi }}\cos \varphi =-E_{J}\cos \varphi \,.}
+  
+
+Here 
+  
+    
+      
+        
+          E
+          
+            J
+          
+        
+        =
+        
+          |
+        
+        E
+        (
+        0
+        )
+        
+          |
+        
+        =
+        
+          
+            
+              
+                Φ
+                
+                  0
+                
+              
+              
+                I
+                
+                  c
+                
+              
+            
+            
+              2
+              π
+            
+          
+        
+      
+    
+    {\displaystyle E_{J}=|E(0)|={\frac {\Phi _{0}I_{c}}{2\pi }}}
+  
+ is a characteristic parameter of the Josephson junction, named the Josephson energy. It is related to the Josephson inductance by 
+  
+    
+      
+        
+          E
+          
+            J
+          
+        
+        =
+        
+          L
+          
+            J
+          
+        
+        
+          I
+          
+            c
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle E_{J}=L_{J}I_{c}^{2}}
+  
+. An alternative but equivalent definition 
+  
+    
+      
+        E
+        (
+        φ
+        )
+        =
+        
+          E
+          
+            J
+          
+        
+        (
+        1
+        −
+        cos
+        ⁡
+        φ
+        )
+      
+    
+    {\displaystyle E(\varphi )=E_{J}(1-\cos \varphi )}
+  
+ is also often used.
+Again, note that a non-linear magnetic coil inductor accumulates potential energy in its magnetic field when a current passes through it; However, in the case of Josephson junction, no magnetic field is created by a supercurrent — the stored energy comes from the kinetic energy of the charge carriers instead.
+
+
+== RCSJ model ==
+The resistively capacitance shunted junction (RCSJ) model, or simply shunted junction model, includes the effect of AC impedance of an actual Josephson junction on top of the two basic Josephson relations stated above.
+As per Thévenin's theorem, the AC impedance of the junction can be represented by a capacitor and a shunt resistor, both parallel to the ideal Josephson Junction. The complete expression for the current drive 
+  
+    
+      
+        
+          I
+          
+            ext
+          
+        
+      
+    
+    {\displaystyle I_{\text{ext}}}
+  
+ becomes:
+
+  
+    
+      
+        
+          I
+          
+            ext
+          
+        
+        =
+        
+          C
+          
+            J
+          
+        
+        
+          
+            
+              d
+              
+              V
+            
+            
+              d
+              
+              t
+            
+          
+        
+        +
+        
+          I
+          
+            c
+          
+        
+        sin
+        ⁡
+        φ
+        +
+        
+          
+            V
+            R
+          
+        
+        ,
+      
+    
+    {\displaystyle I_{\text{ext}}=C_{J}{\frac {\operatorname {d} \!V}{\operatorname {d} \!t}}+I_{c}\sin \varphi +{\frac {V}{R}},}
+  
+
+where the first term is displacement current with 
+  
+    
+      
+        
+          C
+          
+            J
+          
+        
+      
+    
+    {\displaystyle C_{J}}
+  
+ – effective capacitance, and the third is normal current with 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ – effective resistance of the junction.
+
+
+== Josephson penetration depth ==
+The Josephson penetration depth characterizes the typical length on which an externally applied magnetic field penetrates into the long Josephson junction. It is usually denoted as 
+  
+    
+      
+        
+          λ
+          
+            J
+          
+        
+      
+    
+    {\displaystyle \lambda _{J}}
+  
+ and is given by the following expression (in SI):
+
+  
+    
+      
+        
+          λ
+          
+            J
+          
+        
+        =
+        
+          
+            
+              
+                Φ
+                
+                  0
+                
+              
+              
+                2
+                π
+                
+                  μ
+                  
+                    0
+                  
+                
+                
+                  d
+                  ′
+                
+                
+                  j
+                  
+                    c
+                  
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \lambda _{J}={\sqrt {\frac {\Phi _{0}}{2\pi \mu _{0}d'j_{c}}}},}
+  
+
+where 
+  
+    
+      
+        
+          Φ
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \Phi _{0}}
+  
+ is the magnetic flux quantum, 
+  
+    
+      
+        
+          j
+          
+            c
+          
+        
+      
+    
+    {\displaystyle j_{c}}
+  
+ is the critical supercurrent density (A/m2), and 
+  
+    
+      
+        
+          d
+          ′
+        
+      
+    
+    {\displaystyle d'}
+  
+ characterizes the inductance of the superconducting electrodes
+
+  
+    
+      
+        
+          d
+          ′
+        
+        =
+        
+          d
+          
+            I
+          
+        
+        +
+        
+          λ
+          
+            1
+          
+        
+        tanh
+        ⁡
+        
+          (
+          
+            
+              
+                d
+                
+                  1
+                
+              
+              
+                2
+                
+                  λ
+                  
+                    1
+                  
+                
+              
+            
+          
+          )
+        
+        +
+        
+          λ
+          
+            2
+          
+        
+        tanh
+        ⁡
+        
+          (
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              
+                2
+                
+                  λ
+                  
+                    2
+                  
+                
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle d'=d_{I}+\lambda _{1}\tanh \left({\frac {d_{1}}{2\lambda _{1}}}\right)+\lambda _{2}\tanh \left({\frac {d_{2}}{2\lambda _{2}}}\right),}
+  
+
+where 
+  
+    
+      
+        
+          d
+          
+            I
+          
+        
+      
+    
+    {\displaystyle d_{I}}
+  
+ is the thickness of the Josephson barrier (usually insulator), 
+  
+    
+      
+        
+          d
+          
+            1
+          
+        
+      
+    
+    {\displaystyle d_{1}}
+  
+ and 
+  
+    
+      
+        
+          d
+          
+            2
+          
+        
+      
+    
+    {\displaystyle d_{2}}
+  
+ are the thicknesses of superconducting electrodes, and 
+  
+    
+      
+        
+          λ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \lambda _{1}}
+  
+ and 
+  
+    
+      
+        
+          λ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \lambda _{2}}
+  
+ are their London penetration depths. The Josephson penetration depth usually ranges from a few μm to several mm if the critical current density is very low.
+
+
+== See also ==
+
+
+== References ==

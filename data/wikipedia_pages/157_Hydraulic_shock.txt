@@ -1,0 +1,640 @@
+Wikipedia article: Hydraulic shock
+Source: https://en.wikipedia.org/wiki/Hydraulic_shock
+PageID: 427992
+======================================================================
+
+Hydraulic shock (colloquial: water hammer; fluid hammer) is a pressure surge or wave caused when a fluid in motion is forced to stop or change direction suddenly: a momentum change. It is usually observed in a liquid but gases can also be affected. This phenomenon commonly occurs when a valve closes suddenly at an end of a pipeline system and a pressure wave propagates in the pipe.
+This pressure wave can cause major problems, from noise and vibration to pipe rupture and collapse. It is possible to reduce the effects of the water hammer pulses with accumulators, expansion tanks, surge tanks, blowoff valves, and other features. The effects can be avoided by ensuring that no valves will close too quickly with significant flow, but there are many situations that can cause the effect.
+Rough calculations can be made using the Zhukovsky (Joukowsky) equation, or more accurate ones using the method of characteristics.
+
+
+== History ==
+In the 1st century B.C., Marcus Vitruvius Pollio described the effect of water hammer in lead pipes and stone tubes of the Roman public water supply.
+In 1772, Englishman John Whitehurst built a hydraulic ram for a home in Cheshire, England. In  1796, French inventor Joseph Michel Montgolfier (1740–1810) built a hydraulic ram for his paper mill in Voiron.  In French and Italian, the terms for "water hammer" come from the hydraulic ram:  coup de bélier (French) and colpo d'ariete (Italian) both mean "blow of the ram".  As the 19th century witnessed the installation of municipal water supplies, water hammer became a concern to civil engineers.  Water hammer also interested physiologists who were studying the circulatory system.
+Although it was prefigured in work by Thomas Young, the theory of water hammer is generally considered to have begun in 1883 with the work of German physiologist Johannes von Kries (1853–1928), who was investigating the pulse in blood vessels.  However, his findings went unnoticed by civil engineers.  Kries's findings were subsequently derived independently in 1898 by the Russian fluid dynamicist Nikolay Yegorovich Zhukovsky (1847–1921), in 1898 by the American civil engineer Joseph Palmer Frizell (1832–1910), and in 1902 by the Italian engineer Lorenzo Allievi (1856–1941).
+
+
+== Cause and effect ==
+Water flowing through a pipe has momentum. If the moving water is suddenly stopped, such as by closing a valve downstream of the flowing water, the pressure can rise suddenly with a resulting shock wave. In domestic plumbing, this shock wave is experienced as a loud banging resembling a hammering noise. Water hammer can cause pipelines to break if the pressure is sufficiently high. Air traps or stand pipes (open at the top) are sometimes added as dampers to water systems to absorb the potentially damaging forces caused by the moving water.
+For example, the water traveling along a tunnel or pipeline to a turbine in a hydroelectric generating station may be slowed suddenly if a valve in the path is closed too quickly. If there is 14 km (8.7 mi) of tunnel of 7.7 m (25 ft) diameter full of water travelling at 3.75 m/s (8.4 mph), that represents approximately 8,000 megajoules (2,200 kWh) of kinetic energy. This energy can be dissipated by a vertical surge shaft, open at the top, into which the water flows. As the water rises up the shaft, its kinetic energy is converted into potential energy, avoiding sudden high pressure. At some hydroelectric power stations, such as the Saxon Falls Hydro Power Plant in Michigan, what looks like a water tower is in fact a surge drum.
+In residential plumbing systems, water hammer may occur when a dishwasher, washing machine, or toilet suddenly shuts off water flow. The result may be heard as a loud bang, repetitive banging (as the shock wave travels back and forth in the plumbing system), or as some shuddering.
+Other potential causes of water hammer:
+
+A pump stopping
+A check valve which closes quickly (i.e., "check valve slam") due to the flow in a pipe reversing direction on loss of motive power, such as a pump stopping. "Non-slam" check valves can be used to reduce the pressure surge.
+Filling an empty pipe that has a restriction, such as a partially open valve or an orifice that allows air to pass easily as the pipe rapidly fills, but with the pressure increasing once full, the water encounters the restriction.
+
+
+=== Related phenomena ===
+
+Steam hammer can occur in steam systems when some of the steam condenses into water in a horizontal section of the piping. The steam forcing the liquid water along the pipe forms a "slug" which impacts a valve or pipe fitting, creating a loud hammering noise and high pressure. Vacuum caused by condensation from thermal shock can also cause a steam hammer. Steam hammer or steam condensation induced water hammer (CIWH) has been exhaustively investigated both experimentally and theoretically due to the negative effects on nuclear power plants. It is possible to theoretically explain the 2 millisecond duration 130 bar overpressure peaks with a special 6 equation multiphase thermohydraulic model, similar to RELAP.
+A steam hammer can be minimized by using sloped pipes and installing steam traps.
+On turbocharged internal combustion engines, a "gas hammer" can take place when the throttle is closed while the turbocharger is forcing air into the engine. There is no shockwave, but the pressure can still rapidly increase to damaging levels or cause compressor surge. A pressure relief valve placed before the throttle prevents the air from surging against the throttle body by diverting it elsewhere, thus protecting the turbocharger from pressure damage. This valve can either recirculate the air into the turbocharger's intake (recirculation valve) or it can blow the air into the atmosphere and produce the distinctive hiss-flutter of an aftermarket turbocharger (blowoff valve).
+
+
+== Mitigation measures ==
+
+Water hammers have caused accidents and fatalities, but usually, damage is limited to the breakage of pipes or appendages. An engineer should always assess the risk of a pipeline burst. Pipelines transporting hazardous liquids or gases warrant special care in design, construction, and operation. Hydroelectric power plants, especially, must be carefully designed and maintained because the water hammer can cause water pipes to fail catastrophically.
+The following characteristics may reduce or eliminate water hammer:
+
+Reduce the pressure of the water supply to the building by fitting a regulator.
+Lower fluid velocities. To keep water hammer low, pipe-sizing charts for some applications recommend flow velocity at or below 1.5 m/s (4.9 ft/s).
+Fit slowly closing valves. Toilet fill valves are available in a quiet fill type that closes quietly.
+Non-slam check valves do not rely on fluid flow to close and will do so before the water flow reaches significant velocity.
+High pipeline pressure rating (does not reduce the effect but protects against damage).
+Good pipeline control (start-up and shut-down procedures).
+Water towers (used in many drinking water systems) or surge tanks help maintain steady flow rates and trap large pressure fluctuations.
+Air vessels such as expansion tanks and some types of hydraulic accumulators work in much the same way as water towers, but are pressurized. They typically have an air cushion above the fluid level in the vessel, which may be regulated or separated by a bladder. The sizes of air vessels may be up to hundreds of cubic meters on large pipelines. They come in many shapes, sizes and configurations. Such vessels are often called accumulators or expansion tanks.
+A hydropneumatic device similar in principle to a shock absorber called a 'Water Hammer Arrestor' can be installed between the water pipe and the machine, to absorb the shock and stop the banging.
+Air valves often remediate low pressures at high points in the pipeline. Though effective, sometimes large numbers of air valves need to be installed. These valves also allow air into the system, which is often unwanted. Blowoff valves may be used as an alternative.
+Shorter branch pipe lengths.
+Shorter lengths of straight pipe, i.e., add elbows, expansion loops. Water hammer is related to the speed of sound in the fluid, and elbows reduce the influence of pressure waves.
+Arranging the larger piping in loops that supply shorter, smaller run-out pipe branches. With looped piping, lower velocity flows from both sides of a loop can serve a branch.
+Flywheel on a pump.
+Pumping station bypass.
+
+
+== Magnitude of the pulse ==
+
+One of the first to successfully investigate the water hammer problem was the Italian engineer Lorenzo Allievi.
+Water hammer can be analyzed by two different approaches—rigid column theory, which ignores compressibility of the fluid and elasticity of the walls of the pipe, or by a full analysis that includes elasticity.  When the time it takes a valve to close is long compared to the propagation time for a pressure wave to travel the length of the pipe, then rigid column theory is appropriate; otherwise, considering elasticity may be necessary.
+Below are two approximations for the peak pressure, one that considers elasticity, but assumes the valve closes instantaneously, and a second that neglects elasticity but includes a finite time for the valve to close.
+
+
+=== Instant valve closure; compressible fluid ===
+The pressure profile of the water hammer pulse can be calculated from the Joukowsky equation
+
+  
+    
+      
+        
+          
+            
+              ∂
+              P
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        ρ
+        a
+        
+          
+            
+              ∂
+              v
+            
+            
+              ∂
+              t
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {\partial P}{\partial t}}=\rho a{\frac {\partial v}{\partial t}}.}
+  
+
+So for a valve closing instantaneously, the maximal magnitude of the water hammer pulse is
+
+  
+    
+      
+        Δ
+        P
+        =
+        ρ
+        
+          a
+          
+            0
+          
+        
+        Δ
+        v
+        ,
+      
+    
+    {\displaystyle \Delta P=\rho a_{0}\Delta v,}
+  
+
+where ΔP is the magnitude of the pressure wave (Pa), ρ is the density of the fluid (kg/m3), a0 is the speed of sound in the fluid (m/s), and Δv is the change in the fluid's velocity (m/s). The pulse comes about due to Newton's laws of motion and the continuity equation applied to the deceleration of a fluid element.
+
+
+==== Equation for wave speed ====
+As the speed of sound in a fluid is 
+  
+    
+      
+        a
+        =
+        
+          
+            
+              B
+              ρ
+            
+          
+        
+      
+    
+    {\displaystyle a={\sqrt {\frac {B}{\rho }}}}
+  
+, the peak pressure depends on the fluid compressibility if the valve is closed abruptly.
+
+  
+    
+      
+        B
+        =
+        
+          
+            K
+            
+              (
+              1
+              +
+              
+                
+                  V
+                  a
+                
+              
+              )
+              (
+              1
+              +
+              c
+              
+                
+                  
+                    K
+                    D
+                  
+                  
+                    E
+                    t
+                  
+                
+              
+              )
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle B={\frac {K}{(1+{\frac {V}{a}})(1+c{\frac {KD}{Et}})}},}
+  
+
+where
+
+a = wave speed,
+B = equivalent bulk modulus of elasticity of the system fluid–pipe,
+ρ = density of the fluid,
+K = bulk modulus of elasticity of the fluid,
+E = elastic modulus of the pipe,
+D = internal pipe diameter,
+t = pipe wall thickness,
+c = dimensionless parameter due to system pipe-constraint condition on wave speed.
+
+
+=== Slow valve closure; incompressible fluid ===
+When the valve is closed slowly compared to the transit time for a pressure wave to travel the length of the pipe, the elasticity can be neglected, and the phenomenon can be described in terms of inertance or rigid column theory:
+
+  
+    
+      
+        F
+        =
+        m
+        a
+        =
+        P
+        A
+        =
+        ρ
+        L
+        A
+        
+          
+            
+              d
+              v
+            
+            
+              d
+              t
+            
+          
+        
+        .
+      
+    
+    {\displaystyle F=ma=PA=\rho LA{dv \over dt}.}
+  
+
+Assuming constant deceleration of the water column (dv/dt = v/t), this gives
+
+  
+    
+      
+        P
+        =
+        ρ
+        L
+        v
+        
+          /
+        
+        t
+        .
+      
+    
+    {\displaystyle P=\rho Lv/t.}
+  
+
+where:
+
+F = force [N],
+m = mass of the fluid column [kg],
+a = acceleration [m/s2],
+P = pressure [Pa],
+A = pipe cross-section [m2],
+ρ = fluid density [kg/m3],
+L = pipe length [m],
+v = flow velocity [m/s],
+t = valve closure time [s].
+The above formula becomes, for water and with imperial unit,
+
+  
+    
+      
+        P
+        =
+        0.0135
+        
+        V
+        L
+        
+          /
+        
+        t
+        .
+      
+    
+    {\displaystyle P=0.0135\,VL/t.}
+  
+
+For practical application, a safety factor of about 5 is recommended:
+
+  
+    
+      
+        P
+        =
+        0.07
+        
+        V
+        L
+        
+          /
+        
+        t
+        +
+        
+          P
+          
+            1
+          
+        
+        ,
+      
+    
+    {\displaystyle P=0.07\,VL/t+P_{1},}
+  
+
+where P1 is the inlet pressure in psi, V is the flow velocity in ft/s, t is the valve closing time in seconds, and L is the upstream pipe length in feet.
+Hence, we can say that the magnitude of the water hammer largely depends upon the time of closure, the elastic components of the pipe & fluid properties.
+
+
+== Expression for the excess pressure due to water hammer ==
+When a valve with a volumetric flow rate Q is closed, an excess pressure ΔP is created upstream of the valve, whose value is given by the Joukowsky equation:
+
+  
+    
+      
+        Δ
+        P
+        =
+        Z
+        Q
+        .
+      
+    
+    {\displaystyle \Delta P=ZQ.}
+  
+
+In this expression:
+
+ΔP is the overpressurization in Pa;
+Q is the volumetric flow in m3/s;
+Z is the hydraulic impedance, expressed in kg/m4/s.
+The hydraulic impedance Z of the pipeline determines the magnitude of the water hammer pulse. It is itself defined by
+
+  
+    
+      
+        Z
+        =
+        
+          
+            
+              ρ
+              B
+            
+            A
+          
+        
+        ,
+      
+    
+    {\displaystyle Z={\frac {\sqrt {\rho B}}{A}},}
+  
+
+where
+
+ρ the density of the liquid, expressed in kg/m3;
+A cross sectional area of the pipe, m2;
+B equivalent modulus of compressibility of the liquid in the pipe, expressed in Pa.
+The latter follows from a series of hydraulic concepts:
+
+compressibility of the liquid, defined by its adiabatic compressibility modulus Bl, resulting from the equation of state of the liquid generally available from thermodynamic tables;
+the elasticity of the walls of the pipe, which defines an equivalent bulk modulus of compressibility for the solid Bs. In the case of a pipe of circular cross-section whose thickness t is small compared to the diameter D, the equivalent modulus of compressibility is given by the formula 
+  
+    
+      
+        B
+        =
+        
+          
+            t
+            D
+          
+        
+        E
+      
+    
+    {\displaystyle B={\frac {t}{D}}E}
+  
+, in which E is the Young's modulus (in Pa) of the material of the pipe;
+possibly compressibility Bg of gas dissolved in the liquid, defined by 
+  
+    
+      
+        
+          B
+          
+            g
+          
+        
+        =
+        
+          
+            γ
+            α
+          
+        
+        P
+        ,
+      
+    
+    {\displaystyle B_{\text{g}}={\frac {\gamma }{\alpha }}P,}
+  
+
+γ being the specific heat ratio of the gas,
+α the rate of ventilation (the volume fraction of undissolved gas),
+and P the pressure (in Pa).
+Thus, the equivalent elasticity is the sum of the original elasticities:
+
+  
+    
+      
+        
+          
+            1
+            B
+          
+        
+        =
+        
+          
+            1
+            
+              B
+              
+                l
+              
+            
+          
+        
+        +
+        
+          
+            1
+            
+              B
+              
+                s
+              
+            
+          
+        
+        +
+        
+          
+            1
+            
+              B
+              
+                g
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {1}{B}}={\frac {1}{B_{\text{l}}}}+{\frac {1}{B_{\text{s}}}}+{\frac {1}{B_{\text{g}}}}.}
+  
+
+As a result, we see that we can reduce the water hammer by:
+
+increasing the pipe diameter at constant flow, which reduces the flow velocity and hence the deceleration of the liquid column;
+employing the solid material as tight as possible with respect to the internal fluid bulk (solid Young modulus low with respect to fluid bulk modulus);
+introducing a device that increases the flexibility of the entire hydraulic system, such as a hydraulic accumulator;
+where possible, increasing the fraction of undissolved gases in the liquid.
+
+
+== Dynamic equations ==
+The water hammer effect can be simulated by solving the following partial differential equations.
+
+  
+    
+      
+        
+          
+            
+              ∂
+              V
+            
+            
+              ∂
+              x
+            
+          
+        
+        +
+        
+          
+            1
+            B
+          
+        
+        
+          
+            
+              d
+              P
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        0
+        ,
+      
+    
+    {\displaystyle {\frac {\partial V}{\partial x}}+{\frac {1}{B}}{\frac {dP}{dt}}=0,}
+  
+
+  
+    
+      
+        
+          
+            
+              d
+              V
+            
+            
+              d
+              t
+            
+          
+        
+        +
+        
+          
+            1
+            ρ
+          
+        
+        
+          
+            
+              ∂
+              P
+            
+            
+              ∂
+              x
+            
+          
+        
+        +
+        
+          
+            f
+            
+              2
+              D
+            
+          
+        
+        V
+        
+          |
+        
+        V
+        
+          |
+        
+        =
+        0
+        ,
+      
+    
+    {\displaystyle {\frac {dV}{dt}}+{\frac {1}{\rho }}{\frac {\partial P}{\partial x}}+{\frac {f}{2D}}V|V|=0,}
+  
+
+where V is the fluid velocity inside pipe, 
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+  
+ is the fluid density, B is the equivalent bulk modulus, and f is the Darcy–Weisbach friction factor.
+
+
+== Column separation ==
+Column separation is a phenomenon that can occur during a water-hammer event.  If the pressure in a pipeline drops below the vapor pressure of the liquid, cavitation will occur (some of the liquid vaporizes, forming a bubble in the pipeline, keeping the pressure close to the vapor pressure).  This is most likely to occur at specific locations such as closed ends, high points or knees (changes in pipe slope).  When subcooled liquid flows into the space previously occupied by vapor the area of contact between the vapor and the liquid increases.  This causes the vapor to condense into the liquid reducing the pressure in the vapor space.  The liquid on either side of the vapor space is then accelerated into this space by the pressure difference.  The collision of the two columns of liquid (or of one liquid column if at a closed end) causes a large and nearly instantaneous rise in pressure.  This pressure rise can damage hydraulic machinery, individual pipes and supporting structures.  Many repetitions of cavity formation and collapse may occur in a single water-hammer event.
+
+
+== Simulation software ==
+Most water hammer software packages use the method of characteristics to solve the differential equations involved. This method works well if the wave speed does not vary in time due to either air or gas entrainment in a pipeline. The wave method (WM) is also used in various software packages. WM lets operators analyze large networks efficiently. Many commercial and non-commercial packages are available.
+Software packages vary in complexity, dependent on the processes modeled. The more sophisticated packages may have any of the following features:
+
+Multiphase flow capabilities.
+An algorithm for cavitation growth and collapse.
+Unsteady friction: the pressure waves dampen as turbulence is generated and due to variations in the flow velocity distribution.
+Varying bulk modulus for higher pressures (water becomes less compressible).
+Fluid structure interaction: the pipeline reacts on the varying pressures and causes pressure waves itself.
+
+
+== Applications ==
+The water hammer principle can be used to create a simple water pump called a hydraulic ram.
+Leaks can sometimes be detected using water hammer.
+Enclosed air pockets can be detected in pipelines.
+The water hammer from a liquid jet created by a collapsing microcavity is studied for potential applications noninvasive transdermal drug delivery.
+
+
+== See also ==
+Blood hammer
+Cavitation
+Fluid dynamics
+Hydraulophone – musical instruments employing water and other fluids
+Impact force
+Recoil (fluid behavior)
+Transient (civil engineering)
+Watson's water hammer pulse
+
+
+== References ==
+
+
+== External links ==
+What Is Water Hammer/Steam Hammer?
+"Water hammer"—YouTube (animation)
+"Water Hammer Theory Explained"—YouTube; with examples

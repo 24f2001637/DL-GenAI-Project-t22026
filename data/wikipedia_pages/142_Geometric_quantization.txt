@@ -1,0 +1,633 @@
+Wikipedia article: Geometric quantization
+Source: https://en.wikipedia.org/wiki/Geometric_quantization
+PageID: 1146267
+======================================================================
+
+In mathematical physics, geometric quantization is a mathematical approach to defining a quantum theory corresponding to a given classical theory. It attempts to carry out quantization, for which there is in general no exact recipe, in such a way that certain analogies between the classical theory and the quantum theory remain manifest. For example, the similarity between the Heisenberg equation in the Heisenberg picture of quantum mechanics and the Hamilton equation in classical physics should be built in.
+
+
+== Origins ==
+One of the earliest attempts at a natural quantization was Weyl quantization, proposed by Hermann Weyl in 1927. Here, an attempt is made to associate a quantum-mechanical observable (a self-adjoint operator on a Hilbert space) with a real-valued function on classical phase space. The position and momentum in this phase space are mapped to the generators of the Heisenberg group, and the Hilbert space appears as a group representation of the Heisenberg group.  In 1946, H. J. Groenewold considered the product of a pair of such observables and asked what the corresponding function would be on the classical phase space. This led him to discover the phase-space star-product of a pair of functions.
+The modern theory of geometric quantization was developed by Bertram Kostant and Jean-Marie Souriau in the 1970s. One of the motivations of the theory was to understand and generalize Alexandre Kirillov's orbit method in representation theory.
+
+
+== Types ==
+The geometric quantization procedure falls into the following three steps: prequantization, polarization, and metaplectic correction. Prequantization produces a natural Hilbert space together with a quantization procedure for observables that exactly transforms Poisson brackets on the classical side into commutators on the quantum side. Nevertheless, the prequantum Hilbert space is generally understood to be "too big". The idea is that one should then select a Poisson-commuting set of n variables on the 2n-dimensional phase space and consider functions (or, more properly, sections) that depend only on these n variables. The n variables can be either real-valued, resulting in a position-style Hilbert space, or complex analytic, producing something like the Segal–Bargmann space.
+A polarization is a coordinate-independent description of such a choice of n Poisson-commuting functions. The metaplectic correction (also known as the half-form correction) is a technical modification of the above procedure that is necessary in the case of real polarizations and often convenient for complex polarizations.
+
+
+=== Prequantization ===
+Suppose 
+  
+    
+      
+        (
+        M
+        ,
+        ω
+        )
+      
+    
+    {\displaystyle (M,\omega )}
+  
+ is a symplectic manifold with symplectic form 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+  
+. Suppose at first that 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+  
+ is exact, meaning that there is a globally defined symplectic potential 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ with 
+  
+    
+      
+        d
+        θ
+        =
+        ω
+      
+    
+    {\displaystyle d\theta =\omega }
+  
+. We can consider the "prequantum Hilbert space" of square-integrable functions on 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+ (with respect to the Liouville volume measure). For each smooth function 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ on 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+, we can define the Kostant–Souriau prequantum operator
+
+  
+    
+      
+        Q
+        (
+        f
+        )
+        :=
+        −
+        i
+        ℏ
+        
+          (
+          
+            
+              X
+              
+                f
+              
+            
+            +
+            
+              
+                1
+                
+                  i
+                  ℏ
+                
+              
+            
+            θ
+            (
+            
+              X
+              
+                f
+              
+            
+            )
+          
+          )
+        
+        +
+        f
+        .
+      
+    
+    {\displaystyle Q(f):=-i\hbar \left(X_{f}+{\frac {1}{i\hbar }}\theta (X_{f})\right)+f.}
+  
+
+where 
+  
+    
+      
+        
+          X
+          
+            f
+          
+        
+      
+    
+    {\displaystyle X_{f}}
+  
+ is the Hamiltonian vector field associated to 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+.
+More generally, suppose 
+  
+    
+      
+        (
+        M
+        ,
+        ω
+        )
+      
+    
+    {\displaystyle (M,\omega )}
+  
+ has the property that the integral of 
+  
+    
+      
+        ω
+        
+          /
+        
+        (
+        2
+        π
+        ℏ
+        )
+      
+    
+    {\displaystyle \omega /(2\pi \hbar )}
+  
+ over any closed surface is an integer. Then we can construct a line bundle 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+  
+ with connection whose curvature 2-form is 
+  
+    
+      
+        ω
+        
+          /
+        
+        ℏ
+      
+    
+    {\displaystyle \omega /\hbar }
+  
+. In that case, the prequantum Hilbert space is the space of square-integrable sections of 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+  
+, and we replace the formula for 
+  
+    
+      
+        Q
+        (
+        f
+        )
+      
+    
+    {\displaystyle Q(f)}
+  
+ above with
+
+  
+    
+      
+        Q
+        (
+        f
+        )
+        =
+        −
+        i
+        ℏ
+        
+          ∇
+          
+            
+              X
+              
+                f
+              
+            
+          
+        
+        +
+        f
+        ,
+      
+    
+    {\displaystyle Q(f)=-i\hbar \nabla _{X_{f}}+f,}
+  
+
+with 
+  
+    
+      
+        ∇
+      
+    
+    {\displaystyle \nabla }
+  
+ the connection.
+The prequantum operators satisfy
+
+  
+    
+      
+        [
+        Q
+        (
+        f
+        )
+        ,
+        Q
+        (
+        g
+        )
+        ]
+        =
+        i
+        ℏ
+        Q
+        (
+        {
+        f
+        ,
+        g
+        }
+        )
+      
+    
+    {\displaystyle [Q(f),Q(g)]=i\hbar Q(\{f,g\})}
+  
+
+for all smooth functions 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ and 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  
+.
+The construction of the preceding Hilbert space and the operators 
+  
+    
+      
+        Q
+        (
+        f
+        )
+      
+    
+    {\displaystyle Q(f)}
+  
+ is known as prequantization.
+
+
+=== Polarization ===
+The next step in the process of geometric quantization is the choice of a polarization. A polarization is a choice at each point in 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+ a Lagrangian subspace of the complexified tangent space of 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+. The subspaces should form an integrable distribution, meaning that the commutator of two vector fields lying in the subspace at each point should also lie in the subspace at each point. The quantum (as opposed to prequantum) Hilbert space is the space of sections of 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+  
+ that are covariantly constant in the direction of the polarization.
+The idea is that in the quantum Hilbert space, the sections should be functions of only 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ variables on the 
+  
+    
+      
+        2
+        n
+      
+    
+    {\displaystyle 2n}
+  
+-dimensional classical phase space.
+If 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ is a function for which the associated Hamiltonian flow preserves the polarization, then 
+  
+    
+      
+        Q
+        (
+        f
+        )
+      
+    
+    {\displaystyle Q(f)}
+  
+ will preserve the quantum Hilbert space.
+The assumption that the flow of 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ preserve the polarization is a strong one. Typically, not very many functions will satisfy this assumption.
+
+
+=== Half-form correction ===
+The half-form correction—also known as the metaplectic correction—is a technical modification to the above procedure that is necessary in the case of real polarizations to obtain a nonzero quantum Hilbert space; it is also often useful in the complex case. The line bundle 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+  
+ is replaced by the tensor product of 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+  
+ with the square root of the canonical bundle of the polarization. In the case of the vertical polarization, for example, instead of considering functions 
+  
+    
+      
+        f
+        (
+        x
+        )
+      
+    
+    {\displaystyle f(x)}
+  
+ of 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ that are independent of 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+, one considers objects of the form 
+  
+    
+      
+        f
+        (
+        x
+        )
+        
+          
+            d
+            x
+          
+        
+      
+    
+    {\displaystyle f(x){\sqrt {dx}}}
+  
+. The formula for 
+  
+    
+      
+        Q
+        (
+        f
+        )
+      
+    
+    {\displaystyle Q(f)}
+  
+ must then be supplemented by an additional Lie derivative term.
+In the case of a complex polarization on the plane, for example, the half-form correction allows the quantization of the harmonic oscillator to reproduce the standard quantum mechanical formula for the energies, 
+  
+    
+      
+        (
+        n
+        +
+        1
+        
+          /
+        
+        2
+        )
+        ℏ
+        ω
+      
+    
+    {\displaystyle (n+1/2)\hbar \omega }
+  
+, with the "
+  
+    
+      
+        +
+        1
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle +1/2}
+  
+" coming courtesy of the half-forms.
+
+
+=== Poisson manifolds ===
+Geometric quantization of Poisson manifolds and symplectic foliations also is developed. For instance, this is the case of partially integrable and superintegrable Hamiltonian systems and non-autonomous mechanics.
+
+
+== Example ==
+In the case that the symplectic manifold is the 2-sphere, it can be realized as a coadjoint orbit in 
+  
+    
+      
+        
+          
+            s
+            u
+          
+        
+        (
+        2
+        
+          )
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle {\mathfrak {su}}(2)^{*}}
+  
+. Assuming that the area of the sphere is an integer multiple of 
+  
+    
+      
+        2
+        π
+        ℏ
+      
+    
+    {\displaystyle 2\pi \hbar }
+  
+, we can perform geometric quantization and the resulting Hilbert space carries an irreducible representation of SU(2). In the case that the area of the sphere is 
+  
+    
+      
+        2
+        π
+        ℏ
+      
+    
+    {\displaystyle 2\pi \hbar }
+  
+, we obtain the two-dimensional spin-1/2 representation.
+
+
+== Generalization ==
+More generally, this technique leads to deformation quantization, where the ★-product is taken to be a deformation of the algebra of functions on a symplectic manifold or Poisson manifold. However, as a natural quantization scheme (a functor), Weyl's map is not satisfactory. For example, the Weyl map of the classical angular-momentum-squared is not just the quantum angular momentum squared operator, but it further contains a constant term 3ħ2/2. (This extra term is actually physically significant, since it accounts for the nonvanishing angular momentum of the ground-state Bohr orbit in the hydrogen atom.) As a mere representation change, however, Weyl's map underlies the alternate phase-space formulation of conventional quantum mechanics.
+
+
+== See also ==
+Half-form
+Lagrangian foliation
+Kirillov orbit method
+Quantization commutes with reduction
+
+
+== Notes ==
+
+
+== Citations ==
+
+
+== Sources ==
+
+
+== External links ==
+William Ritter's review of Geometric Quantization presents a general framework for all problems in physics and fits geometric quantization into this framework arXiv:math-ph/0208008
+John Baez's review of Geometric Quantization, by John Baez is short and pedagogical
+Matthias Blau's primer on Geometric Quantization, one of the very few good primers
+A. Echeverria-Enriquez, M. Munoz-Lecanda, N. Roman-Roy, Mathematical foundations of geometric quantization, arXiv:math-ph/9904008.
+G. Sardanashvily, Geometric quantization of symplectic foliations, arXiv:math/0110196.
+Geometric Quantization and Applications to Fields and Fluids

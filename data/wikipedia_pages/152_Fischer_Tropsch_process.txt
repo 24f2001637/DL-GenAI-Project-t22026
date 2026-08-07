@@ -1,0 +1,448 @@
+Wikipedia article: Fischer–Tropsch process
+Source: https://en.wikipedia.org/wiki/Fischer–Tropsch_process
+PageID: 1284762
+======================================================================
+
+The Fischer–Tropsch process (FT) is a collection of chemical reactions that converts a mixture of carbon monoxide and hydrogen, known as syngas, into liquid hydrocarbons. These reactions occur in the presence of metal catalysts, typically at temperatures of 150–300 °C (302–572 °F) and pressures of one to several tens of atmospheres. The Fischer–Tropsch process is an important reaction in both coal liquefaction and gas to liquids technology for producing liquid hydrocarbons.
+In the usual implementation, carbon monoxide and hydrogen, the feedstocks for FT, are produced from coal, natural gas, or biomass in a process known as gasification. The process then converts these gases into synthetic lubrication oil and synthetic fuel. This process has received intermittent attention as a source of low-sulfur diesel fuel and to address the supply or cost of petroleum-derived hydrocarbons. Fischer–Tropsch process is discussed as a step of producing carbon-neutral liquid hydrocarbon fuels from CO2 and hydrogen.
+The process was first developed by Franz Fischer and Hans Tropsch at the Kaiser Wilhelm Institute for Coal Research in Mülheim an der Ruhr, Germany, in 1925.
+
+
+== Reaction mechanism ==
+
+The Fischer–Tropsch process involves a series of chemical reactions that produce a variety of hydrocarbons, ideally having the formula (CnH2n+2). The more useful reactions produce alkanes as follows:
+
+(2n + 1) H2 + n CO → CnH2n+2 + n H2O
+where n is typically 10–20, resulting mostly in the formation of higher alkanes. The formation of methane (n = 1) is unwanted. Most of the alkanes produced tend to be straight-chain, suitable as diesel fuel. In addition to alkane formation, competing reactions give small amounts of alkenes, as well as alcohols and other oxygenated hydrocarbons.
+The reaction is a highly exothermic reaction due to a standard reaction enthalpy (ΔrH) of −165 kJ/mol CO combined.
+
+
+=== Fischer–Tropsch intermediates and elemental reactions ===
+Converting a mixture of H2 and CO into aliphatic products is a multi-step reaction with several intermediate compounds. The growth of the hydrocarbon chain may be visualized as involving a repeated sequence in which hydrogen atoms are added to carbon and oxygen, the C–O bond is split and a new C–C bond is formed.
+For one –CH2– group produced by CO + 2 H2 → (CH2) + H2O, several reactions are necessary:
+
+Associative adsorption of CO
+Splitting of the C–O bond
+Dissociative adsorption of 2 H2
+Transfer of 2 H to the oxygen to yield H2O
+Desorption of H2O
+Transfer of 2 H to the carbon to yield CH2
+The conversion of CO to alkanes involves hydrogenation of CO, the hydrogenolysis (cleavage with H2) of C–O bonds, and the formation of C–C bonds. Such reactions are assumed to proceed via initial formation of surface-bound metal carbonyls. The CO ligand is speculated to undergo dissociation, possibly into oxide and carbide ligands. Other potential intermediates are various C1 fragments including formyl (CHO), hydroxycarbene (HCOH), hydroxymethyl (CH2OH), methyl (CH3), methylene (CH2), methylidyne (CH), and hydroxymethylidyne (COH). Furthermore, and critical to the production of liquid fuels, are reactions that form C–C bonds, such as migratory insertion. Many related stoichiometric reactions have been simulated on discrete metal clusters, but homogeneous Fischer–Tropsch catalysts are of no commercial importance.
+Addition of isotopically labelled alcohol to the feed stream results in incorporation of alcohols into product. This observation establishes the facility of C–O bond scission. Using 14C-labelled ethylene and propene over cobalt catalysts results in incorporation of these olefins into the growing chain. Chain growth reaction thus appears to involve both 'olefin insertion' as well as 'CO-insertion'.
+
+  
+    
+      
+        
+          8
+          
+          CO
+          +
+          17
+          
+          
+            H
+            
+              2
+            
+            
+              
+            
+          
+          ⟶
+          
+            C
+            
+              8
+            
+            
+              
+            
+          
+          
+            H
+            
+              18
+            
+            
+              
+            
+          
+          +
+          8
+          
+          
+            H
+            
+              2
+            
+            
+              
+            
+          
+          O
+        
+      
+    
+    {\displaystyle {\ce {8 CO + 17 H2 -> C8H18 + 8 H2O}}}
+  
+
+
+== Feedstocks: carbon dioxide ==
+Carbon dioxide has emerged as an important carbon source for replacement of chemicals and fuels derived from fossil fuels. Based on the pioneering work of Sasol in South Africa using gasification to produce syngas, an entire slate of downstream chemicals and fuels can be manufactured. Fischer-Tropsch using high-temperature iron-based catalysts yields a wide array of short-chain paraffins, olefins, and aromatics. Low-temperature cobalt-based catalysts produce a majority of longer-chain n-paraffin species, mainly as liquids and waxes. These can be processed into a multitude of products such as zero-sulfur sustainable aviation fuel, diesel, base oils, and naphtha feedstock that can be catalytically reformed for BTX production of polymer precursors. By substituting carbon dioxide as the carbon source, entire fossil fuel supply chains can be replaced with Fischer-Tropsch products. Production of a Syngas feedstock made from carbon dioxide can use the following catalyzed chemical reactions:
+
+Reverse Water Gas Shift reaction:     
+  
+    
+      
+        
+          
+            CO
+            
+              2
+            
+            
+              
+            
+          
+          +
+          
+            H
+            
+              2
+            
+            
+              
+            
+          
+          ⟶
+          CO
+          +
+          
+            H
+            
+              2
+            
+            
+              
+            
+          
+          O
+        
+      
+    
+    {\displaystyle {\ce {CO2 + H2 -> CO + H2O}}}
+  
+
+Dry Methane Reforming:       
+  
+    
+      
+        
+          
+            CO
+            
+              2
+            
+            
+              
+            
+          
+          +
+          
+            CH
+            
+              4
+            
+            
+              
+            
+          
+          ⟶
+          2
+          
+          CO
+          +
+          2
+          
+          
+            H
+            
+              2
+            
+            
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\ce {CO2 + CH4 -> 2 CO + 2 H2}}}
+  
+
+The reverse water gas shift reaction uses carbon dioxide and an excess of hydrogen such as from water electrolysis (green hydrogen) to yield a Syngas mixture of carbon monoxide (CO) and hydrogen (H2) with the desired H2:CO Syngas ratio for a downstream Fischer-Tropsch catalyst; a commercial catalytic process that has been pioneered by Dimensional Energy. Dry methane reforming utilizes CO and methane (CH4) to yield a 1:1 H2-to-CO Syngas mixture that can be augmented with an external source of hydrogen or by the water-gas shift reaction to achieve the desired Syngas ratio. Commercial dry methane Reforming catalysts are available from HYCO1 and BASF.  
+Carbon dioxide is not a typical direct feedstock for FT catalysis. Hydrogen and carbon dioxide react over a cobalt-based catalyst, producing methane. With iron-based catalysts unsaturated short-chain hydrocarbons are also produced. Upon introduction to the catalyst's support, ceria functions as a reverse water-gas shift catalyst, further increasing the yield of the reaction. The short-chain hydrocarbons were upgraded to liquid fuels over solid acid catalysts, such as zeolites.
+
+
+== Feedstocks: gasification ==
+
+Fischer–Tropsch plants associated with biomass or coal or related solid feedstocks (sources of carbon) must first convert the solid fuel into gases. These gases include CO, H2, and alkanes. This conversion is called gasification. Synthesis gas ("syngas")  obtained from biomass/coal gasification is a mixture of hydrogen and carbon monoxide. The H2:CO ratio is adjusted using the water-gas shift reaction. Coal-based FT plants produce varying amounts of CO2, depending upon the energy source of the gasification process. However, most coal-based plants rely on the feed coal to supply all the energy requirements of the process.
+
+
+=== Feedstocks: GTL ===
+Carbon monoxide for FT catalysis is derived from hydrocarbons. In gas to liquids (GTL) technology, the hydrocarbons are low molecular weight materials that often would be discarded or flared. Stranded gas provides relatively cheap gas. For GTL to be commercially viable, gas must remain relatively cheaper than oil.
+Several reactions are required to obtain the gaseous reactants required for FT catalysis. First, reactant gases entering a reactor must be desulfurized. Otherwise, sulfur-containing impurities deactivate ("poison") the catalysts required for FT reactions.
+Several reactions are employed to adjust the H2:CO ratio. Most important is the water-gas shift reaction, which provides a source of hydrogen at the expense of carbon monoxide:
+
+  
+    
+      
+        
+          
+            H
+            
+              2
+            
+            
+              
+            
+          
+          O
+          +
+          CO
+          ⟶
+          
+            H
+            
+              2
+            
+            
+              
+            
+          
+          +
+          
+            CO
+            
+              2
+            
+            
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\ce {H2O + CO -> H2 + CO2}}}
+  
+
+For FT plants that use methane as the feedstock, another important reaction is dry reforming, which converts the methane into CO and H2:
+
+  
+    
+      
+        
+          
+            CH
+            
+              4
+            
+            
+              
+            
+          
+          +
+          
+            CO
+            
+              2
+            
+            
+              
+            
+          
+          ⟶
+          2
+          
+          CO
+          +
+          2
+          
+          
+            H
+            
+              2
+            
+            
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\ce {CH4 + CO2 -> 2CO + 2H2}}}
+  
+
+
+=== Process conditions ===
+
+Generally, the Fischer–Tropsch process is operated in the temperature range of 150–300 °C (302–572 °F). Higher temperatures lead to faster reactions and higher conversion rates but also tend to favor methane production. For this reason, the temperature is usually maintained at the low to middle part of the range. Increasing the pressure leads to higher conversion rates and also favors the formation of long-chained alkanes, both of which are desirable. Typical pressures range from one to several tens of atmospheres. Even higher pressures would be favorable, but the benefits may not justify the additional costs of high-pressure equipment, and higher pressures can deactivate the catalyst via coke formation.
+A variety of synthesis-gas compositions can be used. For cobalt-based catalysts the optimal H2:CO ratio is around 1.8–2.1. Iron-based catalysts can tolerate lower ratios, due to their intrinsic water-gas shift reaction activity. This reactivity can be important for synthesis gas derived from coal or biomass, which tend to have relatively low H2:CO ratios (< 1).
+
+
+=== Design of the Fischer–Tropsch process reactor ===
+Efficient removal of heat from the reactor is the basic need of FT reactors since these reactions are characterized by high exothermicity. Four types of reactors are discussed:
+
+
+==== Multi tubular fixed-bed reactor ====
+
+This type of reactor contains several tubes with small diameters. These tubes contain catalysts and are surrounded by cooling water which removes the heat of the reaction. A fixed-bed reactor is suitable for operation at low temperatures and has an upper-temperature limit of 257 °C (530 K). Excess temperature leads to carbon deposition and hence blockage of the reactor. Since large amounts of the products formed are in liquid state, this type of reactor can also be referred to as a trickle flow reactor system.
+
+
+==== Entrained flow reactor ====
+This type of reactor contains two banks of heat exchangers which remove heat; the remainder of which is removed by the products and recycled in the system. The formation of heavy waxes should be avoided, since they condense on the catalyst and form agglomerations. This leads to fluidization. Hence, risers are operated over 297 °C (570 K).
+
+
+==== Slurry reactors ====
+Heat removal is done by internal cooling coils. The synthesis gas is bubbled through the waxy products and finely-divided catalyst which is suspended in the liquid medium. This also provides agitation of the contents of the reactor. The catalyst particle size reduces diffusional heat and mass transfer limitations. A lower temperature in the reactor leads to a more viscous product and a higher temperature (> 297 °C, 570 K) gives an undesirable product spectrum. Also, separation of the product from the catalyst is a problem.
+
+
+==== Fluid-bed and circulating catalyst (riser) reactors ====
+These are used for high-temperature FT synthesis (nearly 340 °C) to produce low-molecular-weight unsaturated hydrocarbons on alkalized fused iron catalysts. The fluid-bed technology (as adapted from the catalytic cracking of heavy petroleum distillates) was introduced by Hydrocarbon Research in 1946–50 and named the 'Hydrocol' process. A large scale Fischer–Tropsch Hydrocol plant (350,000 tons per annum) operated during 1951–57 in Brownsville, Texas. Due to technical problems, and impractical economics due to increasing petroleum availability, this development was discontinued. Fluid-bed FT synthesis has been reinvestigated by Sasol. One reactor with a capacity of 500,000 tons per annum is in operation. The process has been used for C2 and C7 alkene production. A high-temperature process with a circulating iron catalyst ('circulating fluid bed', 'riser reactor', 'entrained catalyst process') was introduced by the Kellogg Company and a respective plant built at Sasolburg, South Africa, in 1956. It was improved by Sasol for successful operation. At Secunda, South Africa, Sasol operated 16 advanced reactors of this type with a capacity of approximately 330,000 tons per annum each. The circulating catalyst process can be replaced by fluid-bed technology. Early experiments with cobalt catalyst particles suspended in oil have been performed by Fischer. The bubble column reactor with a powdered iron slurry catalyst and a CO-rich syngas was particularly developed to pilot plant scale by Kölbel at the Rheinpreuben Company in 1953. Since 1990, low-temperature FT slurry processes are under investigation for the use of iron and cobalt catalysts, particularly for the production of a hydrocarbon wax, or to be hydrocracked and isomerized to produce diesel fuel, by Exxon and Sasol. Slurry-phase (bubble column) low-temperature FT synthesis is efficient. This technology is also under development by the Statoil Company (Norway) for use on a vessel to convert associated gas at offshore oil fields into a hydrocarbon liquid.
+
+
+=== Product distribution ===
+In general the product distribution of hydrocarbons formed during the Fischer–Tropsch process follows an Anderson–Schulz–Flory distribution, which can be expressed as:
+
+⁠Wn/n⁠ = (1 − α)2αn−1
+where Wn is the weight fraction of hydrocarbons containing n carbon atoms, and α is the chain growth probability or the probability that a molecule will continue reacting to form a longer chain. In general, α is largely determined by the catalyst and the specific process conditions.
+Examination of the above equation reveals that methane will always be the largest single product so long as α is less than 0.5; however, by increasing α close to one, the total amount of methane formed can be minimized compared to the sum of all of the various long-chained products. Increasing α increases the formation of long-chained hydrocarbons. The very long-chained hydrocarbons are waxes, which are solid at room temperature. Therefore, for production of liquid transportation fuels it may be necessary to crack some of the FT products. In order to avoid this, some researchers have proposed using zeolites or other catalyst substrates with fixed sized pores that can restrict the formation of hydrocarbons longer than some characteristic size (usually n < 10). This way they can drive the reaction so as to minimize methane formation without producing many long-chained hydrocarbons. Such efforts have had only limited success.
+
+
+== Catalysts ==
+
+Four metals are active as catalysts for the Fischer–Tropsch process: iron, cobalt, nickel, and ruthenium. Since FT process typically transforms inexpensive precursors into complex mixtures that require further refining, FT catalysts are based on inexpensive metals, especially iron and cobalt. Nickel generates too much methane, so it is not used.
+Typically, such heterogeneous catalysts are obtained through precipitation from iron nitrate solutions. Such solutions can be used to deposit the metal salt onto the catalyst support (see below). Such treated materials transform into active catalysts by heating under CO, H2 or with the feedstock to be treated, i.e., the catalysts are generated in situ. Owing to the multistep nature of the FT process, analysis of the catalytically active species is challenging. Furthermore, as is known for iron catalysts, a number of phases may coexist and may participate in diverse steps in the reaction. Such phases include various oxides and carbides as well as polymorphs of the metals. Control of these constituents may be relevant to product distributions. Aside from iron and cobalt, nickel and ruthenium are active for converting the CO/H2 mixture to hydrocarbons. Although expensive, ruthenium is the most active of the Fischer–Tropsch catalysts in the sense that It works at the lowest reaction temperatures and produces higher molecular weight hydrocarbons. Ruthenium catalysts consist of the metal, without any promoters, thus providing relatively simple system suitable for mechanistic analysis. Its high price preclude industrial applications. Cobalt catalysts are more active for FT synthesis when the feedstock is natural gas. Natural gas has a high hydrogen to carbon ratio, so the water-gas shift is not needed for cobalt catalysts. Cobalt-based catalysts are more sensitive than their iron counterparts.
+Illustrative of real world catalyst selection, high-temperature Fischer–Tropsch (HTFT), which operates at 330–350 °C, uses an iron-based catalyst. This process was used extensively by Sasol in their coal-to-liquid plants (CTL). Low-temperature Fischer–Tropsch (LTFT) uses an iron- or cobalt-based catalyst. This process is best known for being used in the first integrated GTL-plant operated and built by Shell in Bintulu, Malaysia.
+
+
+=== Promoters and supports ===
+In addition to the active metal (usually Fe or Co), two other components comprise the catalyst: promoters and the catalyst support. Promoters are additives that enhance the behavior of the catalyst. For F-T catalysts, typical promoters including potassium and copper, which are usually added as salts. The choice of promoters depends on the primary metal, iron vs cobalt. Iron catalysts need alkali promotion to attain high activity and stability (e.g. 0.5 wt% K2O). Potassium-doped α-Fe2O3 are synthesized under variable calcination temperatures (400–800 °C). Addition of Cu for reduction promotion, addition of SiO2, Al2O3 for structural promotion and maybe some manganese can be applied for selectivity control (e.g. high olefinicity). The choice of promoters depends on the primary metal, i.e., iron vs cobalt. While group 1 alkali metals (e.g., potassium), help iron catalysts, they poison cobalt catalysts.
+Catalysts are supported on high-surface-area binders/supports such as silica, alumina, or zeolites.
+
+
+== History ==
+
+The F-T process attracted attention as a means of Nazi Germany to produce liquid hydrocarbons. The original process was developed by Franz Fischer and Hans Tropsch, working at the Kaiser-Wilhelm-Institut for Chemistry in 1926. They filed a number of patents, e.g., U.S. patent 1,746,464, applied 1926, published 1930. It was commercialized by Brabag in Germany in 1936. Being petroleum-poor but coal-rich, Germany used the process during World War II to produce ersatz (replacement) fuels. FT production accounted for an estimated 9% of German war production of fuels and 25% of the automobile fuel. Many refinements and adjustments have been made to the process since Fischer and Tropsch's time.
+The United States Bureau of Mines, in a program initiated by the Synthetic Liquid Fuels Act, employed seven Operation Paperclip synthetic fuel scientists in a Fischer–Tropsch plant in Louisiana, Missouri in 1946.
+In Britain, Alfred August Aicher obtained several patents for improvements to the process in the 1930s and 1940s. Aicher's company was named Synthetic Oils Ltd (not related to a company of the same name in Canada).
+Around the 1930s and 1940s, Arthur Imhausen developed and implemented an industrial process for producing edible fats from these synthetic oils through oxidation. The products were fractionally distilled and the edible fats were obtained from the C9-C16 fraction which were reacted with glycerol such as that synthesized from propylene. "Coal butter" margarine made from synthetic oils was found to be nutritious and of agreeable taste, and it was incorporated into diets contributing as much as 700 calories per day. The process required at least 60 kg of coal per kg of synthetic butter.
+
+
+== Commercialization ==
+
+
+=== Sasol ===
+
+The world's largest scale implementation of Fischer–Tropsch technology is a series of plants operated by Sasol in South Africa, a country with large coal reserves, but little oil. With a capacity of 165000 Bpd at its Secunda CTL plant. The first commercial plant opened in 1952. Sasol uses coal and natural gas as feedstocks and produces a variety of synthetic petroleum products, including most of the country's diesel fuel.
+
+
+=== Dimensional Energy ===
+Using a pathway originating from carbon dioxide, Dimensional Energy has designed, built, and operated two Fischer Tropsch demo/pilot plants in Tucson, AZ, USA and Richmond, BC, Canada. The unit in Richmond was the world's first demonstration of an integrated plant at a cement point-source CO2 site in 2024. The project brought together the cement manufacturer Amrize (previously LaFarge-Holcim), carbon capture leader Svante,  and Dimensional Energy to prove the capture and utilization pathway as a transferrable use-case to any site emitting CO2. Dimensional Energy utilized tandem reactors with their Reverse Water-Gas Shift and FT catalysts. The nominal design was for 1000 kg CO2 input per day for production of mainly n-paraffin liquids and waxes.
+
+
+=== Ras Laffan, Qatar ===
+
+The LTFT facility Pearl GTL at Ras Laffan, Qatar, is the second largest FT plant in the world after Sasol's Secunda plant in South Africa. It uses cobalt catalysts at 230 °C, converting natural gas to petroleum liquids at a rate of 140,000 barrels per day (22,000 m3/d), with additional production of 120,000 barrels (19,000 m3) of oil equivalent in natural gas liquids and ethane.
+Another plant in Ras Laffan, called Oryx GTL, has been commissioned in 2007 with a capacity of 34,000 barrels per day (5,400 m3/d). The plant utilizes the Sasol slurry phase distillate process, which uses a cobalt catalyst. Oryx GTL is a joint venture between QatarEnergy and Sasol.
+
+
+=== PetroSA ===
+PetroSA, another South African company, operates a refinery with a 36,000 barrels a day plant that completed semi-commercial demonstration in 2011, paving the way to begin commercial preparation. The technology can be used to convert natural gas, biomass or coal into synthetic fuels.
+
+
+=== Shell middle distillate synthesis ===
+One of the largest implementations of Fischer–Tropsch technology is in Bintulu, Malaysia. This Shell facility converts natural gas into low-sulfur Diesel fuels and food-grade wax. The scale is 12,000 barrels per day (1,900 m3/d).
+
+
+=== Arcadia eFuels ===
+Texas based Arcadia eFuels in conjunction with Sasol and Topsoe is developing a sustainable aviation fuel plant in Vordingborg, Denmark that will use Fischer-Tropsch process to convert syngas derived from water electrolysis and carbon capture into an e-diesel fuel for aviation. The plant is targeting production in 2028 with additional plants in development in Teesside, United Kingdom and the United States.
+
+
+=== Velocys ===
+Velocys operated a demonstration plant with Envia in Oklahoma City during 2017 and 2018.  The Joint Venture was closed down and reactors returned to Velocys after the site was sold to another joint venture partner for $4.15 million.
+The company's Fischer-Tropsch reactors were used by TOYO Engineering Corporation to produce sustainable aviation fuel (SAF) from woodchips at its demonstration plant in Nagoya, Japan in 2020. The produced fuel was used in flight JL 515 from Tokyo to Sapporo on June 17, 2021, marking the first time aviation fuel derived from gasified woodchips and synthesized into SAF was used in a commercial flight.
+
+
+=== SGCE ===
+Starting as a biomass technology licensor  In Summer of 2012 SGC Energia (SGCE) successfully commissioned a pilot multi tubular Fischer–Tropsch process unit and associated product upgrading units at the Pasadena, Texas Technology Center. The technology center focused on the development and operations of their XTLH solution which optimized processing of low value carbon waste streams into advanced fuels and wax products. This unit also serves as an operations training environment for the 1100 BPD Juniper GTL facility constructed in Westlake LA.
+
+
+=== Uzbekistan GTL ===
+
+
+=== Rentech ===
+A demonstration-scale Fischer–Tropsch plant was built and operated by Rentech, Inc., in partnership with ClearFuels, a company specializing in biomass gasification. Located in Commerce City CO, the facility produces about 10 barrels per day (1.6 m3/d) of fuels from natural gas. Commercial-scale facilities were planned for Rialto, California; Natchez, Mississippi; Port St. Joe, Florida; and White River, Ontario. Rentech closed down their pilot plant in 2013, and abandoned work on their FT process as well as the proposed commercial facilities.
+
+
+=== INFRA GTL Technology ===
+
+In 2010, INFRA built a compact Pilot Plant for conversion of natural gas into synthetic oil. The plant modeled the full cycle of the GTL chemical process including the intake of pipeline gas, sulfur removal, steam methane reforming, syngas conditioning, and Fischer–Tropsch synthesis. In 2013 the first pilot plant was acquired by VNIIGAZ Gazprom LLC. In 2014 INFRA commissioned and operated on a continuous basis a new, larger scale full cycle Pilot Plant. It represents the second generation of INFRA's testing facility and is differentiated by a high degree of automation and extensive data gathering system. In 2015, INFRA built its own catalyst factory in Troitsk (Moscow, Russia). The catalyst factory has a capacity of over 15 tons per year, and produces the unique proprietary Fischer–Tropsch catalysts developed by the company's R&D division. In 2016, INFRA designed and built a modular, transportable GTL (gas-to-liquid) M100 plant for processing natural and associated gas into synthetic crude oil in Wharton TX. The M100 plant is operating as a technology demonstration unit, R&D platform for catalyst refinement, and economic model to scale the Infra GTL process into larger and more efficient plants.
+
+
+=== BP-JM FT CANS technology ===
+British Petroleum and Johnson Matthey co-licence a modified tubular fixed-bed FT technology called "FT CANS". The technology allows gas flow through the catalyst, followed by high-velocity annular heat transfer down the outside of the tube. This allows the use of very small catalyst particles with the benefits of a fixed bed. The technology was first demonstrated at the Fulcrum Biofuels Sierra site in Nevada, USA. 
+
+
+=== Twelve ===
+US company Twelve, as of mid-2026, is commissioning a "Power to Liquid" Sustainable Aviation Fuel project at Moses Lake in Washington State that uses Fischer-Tropsch and Upgrading technology licensed from Emerging Fuels Technology.  
+
+
+=== Other ===
+In the United States and India, some coal-producing states have invested in Fischer–Tropsch plants. In Pennsylvania, Waste Management and Processors, Inc. was funded by the state to implement FT technology licensed from Shell and Sasol to convert so-called waste coal (leftovers from the mining process) into low-sulfur diesel fuel.
+
+
+== Research developments ==
+Choren Industries has built a plant in Germany that converts biomass to syngas and fuels using the Shell FT process structure. The company went bankrupt in 2011 due to impracticalities in the process.
+Biomass gasification (BG) and Fischer–Tropsch (FT) synthesis can in principle be combined to produce renewable transportation fuels (biofuels).
+In partnership with Sunfire, Audi produces E-diesel in small scale with two steps, the second one being FT.
+
+
+=== U.S. Air Force testing ===
+Syntroleum, formerly a publicly traded United States company, has produced over 400,000 U.S. gallons (1,500,000 L) of diesel and jet fuel from the Fischer–Tropsch process using natural gas at its demonstration plant near Tulsa, Oklahoma. Using natural gas as a feedstock, the ultra-clean, low sulfur fuel has been tested extensively by the United States Department of Energy and the United States Department of Transportation. Syntroleum worked to develop a synthetic jet fuel blend that will help the Air Force to reduce its dependence on imported petroleum. The Air Force, which is the United States military's largest user of fuel, began exploring alternative fuel sources in 1999. On December 15, 2006, a B-52 took off from Edwards Air Force Base, California for the first time powered solely by a 50–50 blend of JP-8 and Syntroleum's FT fuel. The seven-hour flight test was considered a success. The goal of the flight test program is to qualify the fuel blend for fleet use on the service's B-52s, and then flight test and qualification on other aircraft. The test program concluded in 2007. This program was part of the Department of Defense Assured Fuel Initiative, an effort to develop secure domestic sources for the military energy needs. The Pentagon had hoped to reduce its use of crude oil from foreign producers and obtain about half of its aviation fuel from alternative sources by 2016. More recently in 2021, another batch of synthetic jet fuel was manufactured for the Air Force by Twelve and Emerging Fuels Technology - the latter being Syntroleum's successor company which was established by the founders and management team of Syntroleum and having bought its laboratory in Tulsa.
+
+
+== Process efficiency ==
+Using conventional FT technology the process ranges in carbon efficiency from 25 to 50 percent and a thermal efficiency of about 50% for CTL facilities idealised at 60% with GTL facilities at about 60% efficiency idealised to 80% efficiency.
+
+
+== Fischer–Tropsch in nature ==
+A Fischer–Tropsch-type process has also been suggested to have produced a few of the building blocks of DNA and RNA within asteroids. Similarly, the hypothetical abiogenic petroleum formation requires some naturally occurring FT-like processes.
+Biological Fischer-Tropsch-type chemistry can be carried out by the enzyme nitrogenase at ambient conditions.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+de Klerk, Arno (2011). Fischer–Tropsch refining (1st ed.). Weinheim, Germany: Wiley-VCH. ISBN 978-3-527-32605-1.
+de Klerk, Arno; Furimsky, Edward (15 Dec 2010). Catalysis in the refining of Fischer–Tropsch syncrude. Cambridge: Royal Society of Chemistry. doi:10.1039/9781849732017. ISBN 978-1-84973-080-8. S2CID 101325929.
+Anderson, H. C.; Wiley, J. L.; Newell, A. (1954). Bibliography of the Fischer-Tropsch Synthesis and Related Processes. Vol. 1.
+Anderson, H. C.; Wiley, J. L.; Newell, A. (1955). Bibliography of the Fischer-Tropsch Synthesis and Related Processes. Vol. 2.
+
+
+== External links ==
+Modeling and Integration of Green-Hydrogen-Assisted Carbon Dioxide Utilization for Hydrocarbon Manufacturing [2]
+Fischer–Tropsch archives
+Fischer–Tropsch fuels from coal and biomass
+Abiogenic gas debate (AAPG Explorer Nov. 2002)
+Gas origin theories to be studied (AAPG Explorer Nov. 2002)
+Unconventional ideas about unconventional gas (Society of Petroleum Engineers)
+Process of synthesis of liquid hydrocarbons – Great Britain patent GB309002 – Hermann Plauson
+Clean diesel from coal by Kevin Bullis
+Implementing the "Hydrogen Economy" with Synfuels (pdf)
+Carbon-to-liquids research
+Effect of alkali metals on cobalt catalysts

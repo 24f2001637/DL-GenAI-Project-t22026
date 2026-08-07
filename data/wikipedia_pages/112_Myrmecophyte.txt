@@ -1,0 +1,72 @@
+Wikipedia article: Myrmecophyte
+Source: https://en.wikipedia.org/wiki/Myrmecophyte
+PageID: 2349217
+======================================================================
+
+Myrmecophytes (; literally "ant-plant") are plants that live in a mutualistic association with a colony of ants. There are over 100 different genera of myrmecophytes. These plants possess structural adaptations in the form of domatia where ants can shelter, and food bodies and extrafloral nectaries that provide ants with food. In exchange for these resources, ants aid the myrmecophyte in pollination, seed dispersal, gathering of essential nutrients, and defense. Domatia adapted specifically to ants may be called myrmecodomatia.
+
+
+== Mutualism ==
+
+Myrmecophytes share a mutualistic relationship with ants, benefiting both the plants and ants. This association may be either facultative or obligate.
+
+
+=== Obligate ===
+In obligate mutualisms, the organisms involved are interdependent; they cannot survive on their own. An example of this type of mutualism can be found in the plant genus Macaranga. All species of this genus provide food for ants in various forms, but only the obligate species produce domatia. Some of the most common species of myrmecophytic Macaranga interact with ants in the genus Crematogaster. C. borneensis have been found to be completely dependent on its partner plant, not being able to survive without the provided nesting spaces and food bodies. In laboratory tests, the worker ants did not survive away from the plants, and in their natural habitat they were never found anywhere else.
+
+
+=== Facultative ===
+In facultative mutualism, the survival of the parties (plant and ants, in this instance) does not depend upon the interaction. Facultative mutualisms most often occur in plants that have extrafloral nectaries but no other specialized structures for the ants. These non-exclusive nectaries allow a variety of animal species to interact with the plant. Facultative relationships can also develop between non-native plant and ant species, where co-evolution has not occurred. For example, Old World legumes that were introduced to North America can be protected by ants that originated from the plants' regions of origin.
+
+
+== Structural adaptations ==
+
+
+=== Domatia ===
+
+Domatia are internal plant structures that appear to be specifically adapted for habitation by ants. These cavities are found primarily in the stems, leaves, and spines of plants. Many different genera of plants offer domatia. Plants of the genus Acacia have some of the most widely recognized forms of domatia and offer some of the best examples of ant-plant obligate mutualism. Different Acacia species provide a variety of resources needed for their codependent counterparts. One of these resources is the need for shelter. Acacia have enlarged thorns on their stems that are excavated by ants for use as housing structures. Since the tree contains their nest, these aggressive ants react strongly to any disturbance of the tree, providing the myrmecophyte with defense from grazing herbivores and encroaching vines.
+Domatia can also be found within the tubers of certain plants. Tubers form when the hypocotyls of a seedling swells to form a hollow, chambered structure that can become inhabited by ants. The plant family Rubiaceae contains the most commonly known tuberous myrmecophyte, Myrmecodia.
+
+
+=== Food bodies ===
+
+Some plants produce food bodies for use by other organisms. These small epidermal structures contain a variety of nutrients that are removed and consumed by foragers. Food bodies are identified by the main nutrient they contain and by the genus of plant producing them. Beltian bodies are found on the leaflet tips of Acacia plants and have relatively high protein content. Beccarian bodies are found on young leaves of the genus Macaranga and are especially rich in lipids. Lipids are also the main nutrient found in pearl bodies, found on the leaves and stems of Ochroma plants. Most ant inhabitants of Cecropia plants harvest Müllerian bodies, as their primary food source. Remarkably these Müllerian bodies, found on the stalk of the leaf, are primarily glycogen. Glycogen is the principal storage carbohydrate found in animals and is extremely rare in plants.
+
+
+=== Extrafloral nectaries ===
+
+Extrafloral nectaries are sugar-producing glands found outside the flower structures of plants. They occur in many different plant species around the world and are most commonly associated with vegetative structures that normally do not have nectaries, such as leaves, stems, and twigs. These secreting structures are often non-exclusive in that nectar can be taken by a variety of animals; however, in some obligate myrmecophyte plants such as Acacia collinsii, extrafloral nectar is modified to be attractive only to the ant partners in the symbiosis. The nectar thus provided feeds ants, which in turn protect these myrmecophytes from herbivorous activity. A species of deciduous tree that displays extrafloral nectaries, Catalpa speciosa, shows a decreased loss of leaf tissue on branches protected by ants, and an increase in number of seeds produced.
+
+
+== Ant-plant interactions ==
+
+
+=== Ants as pollinators ===
+
+Unlike their bee relatives, ants rarely pollinate plants. Various suggestions have been made as to why ants are poor pollinators, although none have been verified: a) ants do not fly, limiting their transport of pollen far enough to effect cross-pollination, b) ants do not systematically forage as bees do, and c) ants are not hairy, and clean themselves too frequently to allow pollen to be carried to other plants. In most cases of ant pollination, the ants are one of multiple pollinators, meaning that the plants are not completely dependent on ants for pollination. However, the orchid Leporella fimbriata can only be pollinated by its winged male ant partner (Myrmecia urens).
+
+
+=== Ants and seed dispersal ===
+
+Myrmecochory, "ant-dispersal," is the collection and dispersal of seeds by ants. Ants disperse more than 30% of the spring-flowering herbaceous plants in eastern North America. Both the plant and the ant benefit in this scenario. The ants are provided with an elaiosome, a detachable food body found on the surface of the seed. Elaiosomes have diverse compositions, usually high in lipids and fatty acids, but also containing amino acids, sugars, and protein. The ants remove the elaiosome once the seed has been transported to the colony. As a result, the seeds are safely placed in nutrient-rich substrate protected from predators, benefiting the plant with optimum establishment conditions for its seed.
+
+
+=== Ants feeding plants ===
+
+Myrmecotrophy, meaning "ant-fed," is the ability of plants to absorb nutrients from debris piles left by ant nests or, in the case of Nepenthes bicalcarata, from ant egesta. The tropical tree Cecropia peltata obtains 98% of its nitrogen from the waste deposited by its ant counterparts.
+A 2014 study by Chanam et al. showed how domatia could evolve without a specialised protection-based symbiosis. Nutritional benefits can be provided by multiple species of ant (including protective, non-protective and even plant-damaging species) and other invertebrates. The myrmecophyte Humboldtia brunonis sometimes bears domatia, whereas all individuals produce extrafloral nectar. Domatia-bearing H. brunonis plants have greater fruit set and hence greater reproductive success, than those without domatia. Plant tissues near domatia received additional nitrogen compounds from the harboured species.
+
+
+=== Ants as defense ===
+Since plants provide essential resources for ants, the need to protect the plant and those resources is extremely important. Many myrmecophytes are defended from both herbivores and other competing plants by their ant symbionts. Acacia cornigera, for example, is thoroughly guarded by its obligate ant partner, Pseudomyrmex ferruginea. A single colony of P. ferruginea may contain more than 30,000 ants, and can tend multiple Acacia trees. The soldier ants are extremely aggressive, patrolling the trees twenty-four hours a day. Any disturbance to the tree alerts ants, who then recruit more workers from inside the horn domatia. These ants defend the Acacia by biting, violently stinging, and pruning any trespassers. The ants keep the plant free from other insects, vertebrate herbivores, invading fungi, and other plants.
+
+
+== See also ==
+Ant garden
+List of symbiotic relationships
+
+
+== References ==
+
+
+== Sources ==

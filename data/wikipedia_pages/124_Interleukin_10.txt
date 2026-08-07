@@ -1,0 +1,60 @@
+Wikipedia article: Interleukin 10
+Source: https://en.wikipedia.org/wiki/Interleukin_10
+PageID: 1050201
+======================================================================
+
+Interleukin 10 (IL-10), also known as human cytokine synthesis inhibitory factor (CSIF), is an anti-inflammatory cytokine. In humans, interleukin 10 is encoded by the IL10 gene. IL-10 signals through a receptor complex consisting of two IL-10 receptor-1 and two IL-10 receptor-2 proteins. Consequently, the functional receptor consists of four IL-10 receptor molecules. IL-10 binding induces STAT3 signalling via the phosphorylation of the cytoplasmic tails of IL-10 receptor 1 + IL-10 receptor 2 by JAK1 and TYK2 respectively.
+
+
+== Gene and protein structure ==
+The IL-10 protein is a homodimer; each of its subunits is 178-amino-acid long.
+IL-10 is classified as a class-2 cytokine, a set of cytokines including IL-19, IL-20, IL-22, IL-24 (Mda-7), IL-26 and interferons type-I (IFN-alpha, -beta, -epsilon, -kappa, -omega), type-II (IFN-gamma) and type-III (IFN-lambda, including IL-28A, IL-28B,  IL-29, and IFNL4).
+
+
+== Expression and synthesis ==
+In humans, IL-10 is encoded by the IL10 gene, which is located on chromosome 1 and comprises five exons, and is primarily produced by monocytes and, to a lesser extent, lymphocytes, namely type-II T helper cells (TH2), mast cells, CD4+CD25+Foxp3+ regulatory T cells, and in a certain subset of activated T cells and B cells. IL-10 can be produced by monocytes upon PD-1 triggering in these cells. IL-10 upregulation is also mediated by GPCRs, such as beta-2 adrenergic and type 2 cannabinoid receptors. The expression of IL-10 is minimal in unstimulated tissues and seems to require triggering by commensal or pathogenic flora. IL-10 expression is tightly regulated at the transcriptional and post-transcriptional level. Extensive IL-10 locus remodeling is observed in monocytes upon stimulation of TLR or Fc receptor pathways. IL-10 induction involves ERK1/2, p38 and NF-κB signalling and transcriptional activation via promoter binding of the transcription factors NF-κB and AP-1. IL-10 transcription may be further potentiated by STAT3 binding to a distal enhancer within the IL10 locus that overlaps a SNP rs3024505 associated with autoimmune diseases. IL-10 may autoregulate its expression via a negative feed-back loop involving autocrine stimulation of the IL-10 receptor and inhibition of the p38 signaling pathway. Additionally, IL-10 expression is extensively regulated at the post-transcriptional level, which may involve control of mRNA stability via AU-rich elements and by microRNAs such as let-7 or miR-106.
+
+
+== Function ==
+IL-10 is a cytokine with multiple, pleiotropic, effects in immunoregulation and inflammation. It downregulates the expression of Th1 cytokines, MHC class II antigens, and co-stimulatory molecules on macrophages. It also enhances B cell survival, proliferation, and antibody production. IL-10 can block NF-κB activity, and is involved in the regulation of the JAK-STAT signaling pathway.
+Discovered in 1991, IL-10 was initially reported to suppress cytokine secretion, antigen presentation and CD4+ T cell activation. Further investigation has shown that IL-10 predominantly inhibits lipopolysaccharide (LPS) and bacterial product mediated induction of the pro-inflammatory cytokines TNFα, IL-1β, IL-12, and IFNγ secretion from toll-like receptor (TLR) triggered myeloid lineage cells.
+
+
+=== Effect on tumors ===
+Over time a more nuanced picture of IL-10's function has emerged as treatment of tumor-bearing mice has been shown to inhibit tumor metastasis. Additional investigation by multiple laboratories has generated data that further supports IL-10's immunostimulatory capacity in an immunoncology context. Expression of IL-10 from transfected tumor cell lines in IL-10 transgenic mice or dosing with IL-10 leads to control of primary tumor growth and decreased metastatic burden. More recently, PEGylated recombinant murine IL-10 (PEG-rMuIL-10) has been shown to induce IFNγ and CD8+ T cell dependent anti-tumor immunity. More specifically, PEGylated recombinant human IL-10 (PEG-rHuIL-10) has been shown to enhance CD8+ T cell secretion of the cytotoxic molecules Granzyme  B and Perforin and potentiate T cell receptor dependent IFNγ secretion.
+
+
+== Role in disease ==
+A study in mice has shown that IL-10 is also produced by mast cells, counteracting the inflammatory effect that these cells have at the site of an allergic reaction.
+IL-10 is capable of inhibiting synthesis of pro-inflammatory cytokines such as IFN-γ, IL-2, IL-3, TNFα and GM-CSF made by cells such as macrophages and Th1 T cells. It also displays a potent ability to suppress the antigen-presentation capacity of antigen presenting cells; however, it is also stimulatory towards certain T cells (Th2) and mast cells and stimulates B cell maturation and antibody production.
+IL-10 checks the inducible form of Cyclo-oxygenase, Cyclo-oxygenase-2 (COX-2). Lack of IL-10 has been shown to cause COX activation and resultant Thromboxane receptor activation to cause vascular endothelial and cardiac dysfunctions in mice.  Interleukin 10 knockout frail mice develop cardiac and vascular dysfunction with increased age.
+IL-10 is linked to the myokines, as exercise provokes an increase in circulating levels of IL-1ra, IL-10, and sTNF-R, suggesting that physical exercise fosters an environment of anti-inflammatory cytokines.
+Lower levels of IL-10 have been observed in individuals diagnosed with multiple sclerosis when compared to healthy individuals. Due to a decrease in IL-10 levels, TNFα levels are not regulated effectively as IL-10 regulates the TNF-α-converting enzyme. As a result, TNFα levels rise and result in inflammation. TNFα itself induces demyelination of the oligodendroglial via TNF receptor 1, while chronic inflammation has been linked to demyelination of neurons.
+In melanoma cell lines, IL-10 modulates the surface expression of NKG2D ligands.
+In addition, Forkhead box protein 3 (Foxp3) as a transcription factor is an essential molecular marker of regulatory T (Treg) cells. Foxp3 polymorphism (rs3761548) might be involved in cancer progression like gastric cancer through influencing Tregs function and the secretion of immunomodulatory cytokines such as IL-10, IL-35, and TGF-β.
+A recent mouse study indicates that IL-10 regulates CD36, a key phagocytosis effector, promoting hematoma clearance after intracerebral hemorrhage. IL-10 deficiency aggravates traumatic brain injury in male but not female mice. 
+
+
+=== Clinical use or trials ===
+Knockout studies in mice suggested the function of this cytokine as an essential immunoregulator in the intestinal tract. and, indeed, patients with Crohn's disease react favorably towards treatment with recombinant interleukin-10-producing bacteria, demonstrating the importance of IL-10 for counteracting the hyperactive immune response in the human body.
+Due to the data, thousands of patients with a variety of autoimmune diseases were treated with recombinant human IL-10 (rHuIL-10) in clinical trials. Contrary to expectations, rHuIL-10 treatment did not significantly impact disease in patients with Crohn's disease or rheumatoid arthritis. rHuIL-10 treatment initially exhibited promising clinical data in psoriasis, but failed to achieve clinical significance in a randomized, double blind, placebo controlled Phase II trial. Further investigation of rHuIL-10's effects in humans suggests that rather than inhibiting inflammation, rHuIL-10 is capable of exerting pro-inflammatory effects.
+
+
+==== PEGylated forms ====
+Further to these data, a Phase I immunoncology clinical trial is currently being conducted to assess the therapeutic capacity of PEGylated recombinant human IL-10 (PEG-rHuIL-10, AM0010).  Consistent with preclinical immunoncology data, investigators report substantial anti-tumor efficacy. Contrary to the reported immunosuppressive effects of IL-10 generated in vitro and in vivo, treatment of cancer patients with PEG-rHuIL-10 elicits a dose titratable induction of the immune stimulatory cytokines IFNγ, IL-18, IL-7, GM-CSF and IL-4. Furthermore, treated patients exhibit fold increases of peripheral CD8+ T cells expressing markers of activation, such as programmed death 1 (PD1)+, lymphocyte activation gene 3 (LAG3)+  and increased Fas Ligand (FasL) and a decrease in serum TGFβ. These findings are consistent with the published preclinical immunoncology reports using PEG-rMuIL-10 and with previous findings treating humans with rHuIL-10.  These data suggest that while IL-10 can exert immunosuppressive effects in context of bacterial product stimulated myeloid cells, rHuIL-10/PEG-rHuIL-10 treatment of humans is predominantly immunostimulatory. As of 2018 AM0010 (aka pegilodecakin) is in phase 3 clinical trials.
+
+
+=== Interactions ===
+IL-10 has been shown to interact with Interleukin 10 receptor, alpha subunit.
+The receptor complex for IL-10 also requires the IL10R2 chain to initiate signalling. This ligand–receptor combination is found in birds and frogs, and is also likely to exist in bony fish.
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+ Media related to Interferons or interleukin-10 (IL-10) at Wikimedia Commons
+Interleukin-10 at the U.S. National Library of Medicine Medical Subject Headings (MeSH)

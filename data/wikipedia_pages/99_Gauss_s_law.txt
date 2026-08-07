@@ -1,0 +1,573 @@
+Wikipedia article: Gauss's law
+Source: https://en.wikipedia.org/wiki/Gauss's_law
+PageID: 74964
+======================================================================
+
+In electromagnetism, Gauss's law, also known as Gauss's flux theorem or sometimes Gauss's theorem, is one of Maxwell's equations. It is an application of the divergence theorem, and it relates the distribution of electric charge to the resulting electric field.
+
+
+== Definition ==
+In its integral form, it states that the flux of the electric field out of an arbitrary closed surface is proportional to the electric charge enclosed by the surface, irrespective of how that charge is distributed. Even though the law alone is insufficient to determine the electric field across a surface enclosing any charge distribution, this may be possible in cases where symmetry mandates uniformity of the field. Where no such symmetry exists, Gauss's law can be used in its differential form, which states that the divergence of the electric field is proportional to the local density of charge.
+The law was first formulated by Joseph-Louis Lagrange in 1773, followed by Carl Friedrich Gauss in 1835, both in the context of the attraction of ellipsoids. It is one of Maxwell's equations, which forms the basis of classical electrodynamics. Gauss's law can be used to derive Coulomb's law, and vice versa.
+
+
+== Qualitative description ==
+In words, Gauss's law states:
+
+The net electric flux through any hypothetical closed surface is equal to 1/ε0 times the net electric charge enclosed within that closed surface. The closed surface is also referred to as Gaussian surface.
+Gauss's law has a close mathematical similarity with a number of laws in other areas of physics, such as Gauss's law for magnetism and Gauss's law for gravity. In fact, any inverse-square law can be formulated in a way similar to Gauss's law: for example, Gauss's law itself is essentially equivalent to Coulomb's law, and Gauss's law for gravity is essentially equivalent to Newton's law of gravity, both of which are inverse-square laws.
+The law can be expressed mathematically using vector calculus in integral form and differential form; both are equivalent since they are related by the divergence theorem, also called Gauss's theorem. Each of these forms in turn can also be expressed two ways: In terms of a relation between the electric field E and the total electric charge, or in terms of the electric displacement field D and the free electric charge.
+
+
+== Equation involving the E field ==
+Gauss's law can be stated using either the electric field E or the electric displacement field D. This section shows some of the forms with E; the form with D is below, as are other forms with E.
+
+
+=== Integral form ===
+
+Gauss's law may be expressed as:
+
+  
+    
+      
+        
+          Φ
+          
+            E
+          
+        
+        =
+        
+          
+            Q
+            
+              ε
+              
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle \Phi _{E}={\frac {Q}{\varepsilon _{0}}}}
+  
+
+where ΦE is the electric flux through a closed surface S enclosing any volume V, Q is the total charge enclosed within V, and ε0 is the electric constant. The electric flux ΦE is defined as a surface integral of the electric field:
+
+  
+    
+      
+        
+          Φ
+          
+            E
+          
+        
+        =
+      
+    
+    {\displaystyle \Phi _{E}=}
+  
+ 
+  
+    
+      
+        
+          
+            
+            
+              S
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle _{S}}
+  
+ 
+  
+    
+      
+        
+          E
+        
+        ⋅
+        
+          d
+        
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {E} \cdot \mathrm {d} \mathbf {A} }
+  
+
+where E is the electric field, dA is a vector representing an infinitesimal element of area of the surface, and · represents the dot product of two vectors.
+In a curved spacetime, the flux of an electromagnetic field through a closed surface is expressed as
+
+  
+    
+      
+        
+          Φ
+          
+            E
+          
+        
+        =
+        c
+      
+    
+    {\displaystyle \Phi _{E}=c}
+  
+ 
+  
+    
+      
+        
+          
+            
+            
+              S
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle _{S}}
+  
+ 
+  
+    
+      
+        
+          F
+          
+            κ
+            0
+          
+        
+        
+          
+            −
+            g
+          
+        
+        
+        
+          d
+        
+        
+          S
+          
+            κ
+          
+        
+      
+    
+    {\displaystyle F^{\kappa 0}{\sqrt {-g}}\,\mathrm {d} S_{\kappa }}
+  
+
+where 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  
+ is the speed of light; 
+  
+    
+      
+        
+          F
+          
+            κ
+            0
+          
+        
+      
+    
+    {\displaystyle F^{\kappa 0}}
+  
+ denotes the time components of the electromagnetic tensor; 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  
+ is the determinant of metric tensor; 
+  
+    
+      
+        
+          d
+        
+        
+          S
+          
+            κ
+          
+        
+        =
+        
+          d
+        
+        
+          S
+          
+            i
+            j
+          
+        
+        =
+        
+          d
+        
+        
+          x
+          
+            i
+          
+        
+        
+          d
+        
+        
+          x
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \mathrm {d} S_{\kappa }=\mathrm {d} S^{ij}=\mathrm {d} x^{i}\mathrm {d} x^{j}}
+  
+ is an orthonormal element of the two-dimensional surface surrounding the charge 
+  
+    
+      
+        Q
+      
+    
+    {\displaystyle Q}
+  
+; indices 
+  
+    
+      
+        i
+        ,
+        j
+        ,
+        κ
+        =
+        1
+        ,
+        2
+        ,
+        3
+      
+    
+    {\displaystyle i,j,\kappa =1,2,3}
+  
+ and do not match each other.
+Since the flux is defined as an integral of the electric field, this expression of Gauss's law is called the integral form.
+
+In problems involving conductors set at known potentials, the potential away from them is obtained by solving Laplace's equation, either analytically or numerically. The electric field is then  calculated as the potential's negative gradient. Gauss's law makes it possible to find the distribution of electric charge: The charge in any given region of the conductor can be deduced by integrating the electric field to find the flux through a small box whose sides are perpendicular to the conductor's surface and by noting that the electric field is perpendicular to the surface, and zero inside the conductor.
+The reverse problem, when the electric charge distribution is known and the electric field must be computed, is much more difficult.  The total flux through a given surface gives little information about the electric field, and can go in and out of the surface in arbitrarily complicated patterns.
+An exception is if there is some symmetry in the problem, which mandates that the electric field passes through the surface in a uniform way. Then, if the total flux is known, the field itself can be deduced at every point. Common examples of symmetries which lend themselves to Gauss's law include: cylindrical symmetry, planar symmetry, and spherical symmetry. See the article Gaussian surface for examples where these symmetries are exploited to compute electric fields.
+
+
+=== Differential form ===
+By the divergence theorem, Gauss's law can alternatively be written in the differential form:
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          E
+        
+        =
+        
+          
+            ρ
+            
+              ε
+              
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle \nabla \cdot \mathbf {E} ={\frac {\rho }{\varepsilon _{0}}}}
+  
+
+where ∇ · E is the divergence of the electric field, ε0 is the vacuum permittivity and ρ is the total volume charge density (charge per unit volume).
+
+
+=== Equivalence of integral and differential forms ===
+
+The integral and differential forms are mathematically equivalent, by the divergence theorem. Here is the argument more specifically.
+
+
+== Equation involving the D field ==
+
+
+=== Free, bound, and total charge ===
+
+The electric charge that arises in the simplest textbook situations would be classified as "free charge"—for example, the charge which is transferred in static electricity, or the charge on a capacitor plate. In contrast, "bound charge" arises only in the context of dielectric (polarizable) materials. (All materials are polarizable to some extent.) When such materials are placed in an external electric field, the electrons remain bound to their respective atoms, but shift a microscopic distance in response to the field, so that they're more on one side of the atom than the other. All these microscopic displacements add up to give a macroscopic net charge distribution, and this constitutes the "bound charge".
+Although microscopically all charge is fundamentally the same, there are often practical reasons for wanting to treat bound charge differently from free charge. The result is that the more fundamental Gauss's law, in terms of E (above), is sometimes put into the equivalent form below, which is in terms of D and the free charge only.
+
+
+=== Integral form ===
+This formulation of Gauss's law states the total charge form:
+
+  
+    
+      
+        
+          Φ
+          
+            D
+          
+        
+        =
+        
+          Q
+          
+            
+              f
+              r
+              e
+              e
+            
+          
+        
+      
+    
+    {\displaystyle \Phi _{D}=Q_{\mathrm {free} }}
+  
+
+where ΦD is the D-field flux through a surface S which encloses a volume V, and Qfree is the free charge contained in V. The flux ΦD is defined analogously to the flux ΦE of the electric field E through S:
+
+  
+    
+      
+        
+          Φ
+          
+            D
+          
+        
+        =
+      
+    
+    {\displaystyle \Phi _{D}=}
+  
+ 
+  
+    
+      
+        
+          
+            
+              
+              
+                S
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\scriptstyle _{S}}}
+  
+ 
+  
+    
+      
+        
+          D
+        
+        ⋅
+        
+          d
+        
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {D} \cdot \mathrm {d} \mathbf {A} }
+  
+
+
+=== Differential form ===
+The differential form of Gauss's law, involving free charge only, states:
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          D
+        
+        =
+        
+          ρ
+          
+            
+              f
+              r
+              e
+              e
+            
+          
+        
+      
+    
+    {\displaystyle \nabla \cdot \mathbf {D} =\rho _{\mathrm {free} }}
+  
+
+where ∇ · D is the divergence of the electric displacement field, and ρfree is the free electric charge density.
+
+
+== Equivalence of total and free charge statements ==
+
+
+== Equation for linear materials ==
+In homogeneous, isotropic, nondispersive, linear materials, there is a simple relationship between E and D:
+
+  
+    
+      
+        
+          D
+        
+        =
+        ε
+        
+          E
+        
+      
+    
+    {\displaystyle \mathbf {D} =\varepsilon \mathbf {E} }
+  
+
+where ε is the permittivity of the material. For the case of vacuum (aka free space), ε = ε0. Under these circumstances, Gauss's law modifies to
+
+  
+    
+      
+        
+          Φ
+          
+            E
+          
+        
+        =
+        
+          
+            
+              Q
+              
+                
+                  f
+                  r
+                  e
+                  e
+                
+              
+            
+            ε
+          
+        
+      
+    
+    {\displaystyle \Phi _{E}={\frac {Q_{\mathrm {free} }}{\varepsilon }}}
+  
+
+for the integral form, and
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          E
+        
+        =
+        
+          
+            
+              ρ
+              
+                
+                  f
+                  r
+                  e
+                  e
+                
+              
+            
+            ε
+          
+        
+      
+    
+    {\displaystyle \nabla \cdot \mathbf {E} ={\frac {\rho _{\mathrm {free} }}{\varepsilon }}}
+  
+
+for the differential form.
+
+
+== Relation to Coulomb's law ==
+
+
+=== Deriving Gauss's law from Coulomb's law ===
+Strictly speaking, Gauss's law cannot be derived from Coulomb's law alone, since Coulomb's law gives the electric field due to an individual, electrostatic point charge only. However, Gauss's law can be proven from Coulomb's law if it is assumed, in addition, that the electric field obeys the superposition principle. The superposition principle states that the resulting field is the vector sum of fields generated by each particle (or the integral, if the charges are distributed smoothly in space).
+
+Since Coulomb's law only applies to stationary charges, there is no reason to expect Gauss's law to hold for moving charges based on this derivation alone. In fact, Gauss's law does hold for moving charges, and, in this respect, Gauss's law is more general than Coulomb's law.
+
+
+=== Deriving Coulomb's law from Gauss's law ===
+Strictly speaking, Coulomb's law cannot be derived from Gauss's law alone, since Gauss's law does not give any information regarding the curl of E (see Helmholtz decomposition and Faraday's law). However, Coulomb's law can be proven from Gauss's law if it is assumed, in addition, that the electric field from a point charge is spherically symmetric (this assumption, like Coulomb's law itself, is exactly true if the charge is stationary, and approximately true if the charge is in motion).
+
+
+== See also ==
+Method of image charges
+Uniqueness theorem for Poisson's equation
+List of examples of Stigler's law
+
+
+== Notes ==
+
+
+== Citations ==
+
+
+== References ==
+Gauss, Carl Friedrich (1867). Werke Band 5. Digital version
+Jackson, John David (1998). Classical Electrodynamics (3rd ed.). New York: Wiley. ISBN 0-471-30932-X. David J. Griffiths (6th ed.)
+
+
+== External links ==
+ Media related to Gauss' Law at Wikimedia Commons
+MIT Video Lecture Series (30 x 50 minute lectures)- Electricity and Magnetism Taught by Professor Walter Lewin.
+section on Gauss's law in an online textbook Archived 2010-05-27 at the Wayback Machine
+MISN-0-132 Gauss's Law for Spherical Symmetry (PDF file) by Peter Signell for Project PHYSNET.
+MISN-0-133 Gauss's Law Applied to Cylindrical and Planar Charge Distributions (PDF file) by Peter Signell for Project PHYSNET.

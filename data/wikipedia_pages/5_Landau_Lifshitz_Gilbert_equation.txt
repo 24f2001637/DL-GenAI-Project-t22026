@@ -1,0 +1,886 @@
+Wikipedia article: Landau–Lifshitz–Gilbert equation
+Source: https://en.wikipedia.org/wiki/Landau–Lifshitz–Gilbert_equation
+PageID: 16568967
+======================================================================
+
+In physics, the Landau–Lifshitz–Gilbert equation (usually abbreviated as LLG equation), named for Lev Landau, Evgeny Lifshitz, and Thomas L. Gilbert, is a name used for a differential equation describing the dynamics (typically the precessional motion) of magnetization M in a solid. It is a modified version by Gilbert of the original equation of Landau and Lifshitz. The LLG equation is similar to the Bloch equation, but they differ in the form of the damping term. The LLG equation describes a more general scenario of magnetization dynamics beyond the simple Larmor precession. In particular, the effective field driving the precessional motion of M is not restricted to real magnetic fields; it incorporates a wide range of mechanisms including magnetic anisotropy, exchange interaction, and so on.
+The various forms of the LLG equation are commonly used in micromagnetics to model the effects of a magnetic field and other magnetic interactions on ferromagnetic materials. It provides a practical way to model the time-domain behavior of magnetic elements. Recent developments generalizes the LLG equation to include the influence of spin-polarized currents in the form of spin-transfer torque.
+
+
+== Landau–Lifshitz equation ==
+
+In a ferromagnet, the magnitude of the magnetization M at each spacetime point is approximated by the saturation magnetization Ms (although it can be smaller when averaged over a chunk of volume). The LLG equation describes the rotation of the magnetization in response to the effective field Heff and accounts for not only a real magnetic field but also internal magnetic interactions such as exchange and anisotropy. An earlier, but equivalent, equation (the Landau–Lifshitz equation) was introduced by Landau & Lifshitz (1935):
+
+where γ is the electron gyromagnetic ratio and λ is a phenomenological damping parameter, often replaced by
+
+  
+    
+      
+        λ
+        =
+        α
+        
+          
+            γ
+            
+              M
+              
+                
+                  s
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \lambda =\alpha {\frac {\gamma }{M_{\mathrm {s} }}},}
+  
+
+where α is a dimensionless constant called the damping factor. The effective field Heff is a combination of the external magnetic field, the demagnetizing field, and various internal magnetic interactions involving quantum mechanical effects, which is typically defined as the functional derivative of the magnetic free energy with respect to the local magnetization M. To solve this equation, additional conditions for the demagnetizing field must be included to accommodate the geometry of the material.
+
+
+== Landau–Lifshitz–Gilbert equation ==
+In 1955  Gilbert replaced the damping term in the Landau–Lifshitz (LL) equation by one that depends on the time derivative of the magnetization:
+
+This is the Landau–Lifshitz–Gilbert (LLG) equation, where η is the damping parameter, which is characteristic of the material. It can be transformed into the Landau–Lifshitz equation:
+
+where
+
+  
+    
+      
+        
+          γ
+          ′
+        
+        =
+        
+          
+            γ
+            
+              1
+              +
+              
+                γ
+                
+                  2
+                
+              
+              
+                η
+                
+                  2
+                
+              
+              
+                M
+                
+                  s
+                
+                
+                  2
+                
+              
+            
+          
+        
+        
+        
+          and
+        
+        
+        λ
+        =
+        
+          
+            
+              
+                γ
+                
+                  2
+                
+              
+              η
+            
+            
+              1
+              +
+              
+                γ
+                
+                  2
+                
+              
+              
+                η
+                
+                  2
+                
+              
+              
+                M
+                
+                  s
+                
+                
+                  2
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \gamma '={\frac {\gamma }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}\qquad {\text{and}}\qquad \lambda ={\frac {\gamma ^{2}\eta }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}.}
+  
+
+In this form of the LL equation, the precessional term γ' depends on the damping term. This better represents the behavior of real ferromagnets when the damping is large.
+
+
+== Landau–Lifshitz–Gilbert–Slonczewski equation ==
+In 1996 John Slonczewski expanded the model to account for the spin-transfer torque, i.e. the torque induced upon the magnetization by spin-polarized current flowing through the ferromagnet.  This is commonly written in terms of the unit moment defined by m = M / MS:
+
+  
+    
+      
+        
+          
+            
+              
+                m
+              
+              ˙
+            
+          
+        
+        =
+        −
+        γ
+        
+          m
+        
+        ×
+        
+          
+            H
+          
+          
+            
+              e
+              f
+              f
+            
+          
+        
+        +
+        α
+        
+          m
+        
+        ×
+        
+          
+            
+              
+                m
+              
+              ˙
+            
+          
+        
+        +
+        
+          τ
+          
+            ∥
+          
+        
+        
+          
+            
+              
+                m
+              
+              ×
+              (
+              
+                x
+              
+              ×
+              
+                m
+              
+              )
+            
+            
+              |
+              
+                
+                  x
+                
+                ×
+                
+                  m
+                
+              
+              |
+            
+          
+        
+        +
+        
+          τ
+          
+            ⊥
+          
+        
+        
+          
+            
+              
+                x
+              
+              ×
+              
+                m
+              
+            
+            
+              |
+              
+                
+                  x
+                
+                ×
+                
+                  m
+                
+              
+              |
+            
+          
+        
+      
+    
+    {\displaystyle {\dot {\mathbf {m} }}=-\gamma \mathbf {m} \times \mathbf {H} _{\mathrm {eff} }+\alpha \mathbf {m} \times {\dot {\mathbf {m} }}+\tau _{\parallel }{\frac {\mathbf {m} \times (\mathbf {x} \times \mathbf {m} )}{\left|\mathbf {x} \times \mathbf {m} \right|}}+\tau _{\perp }{\frac {\mathbf {x} \times \mathbf {m} }{\left|\mathbf {x} \times \mathbf {m} \right|}}}
+  
+
+where 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ is the dimensionless damping parameter, 
+  
+    
+      
+        
+          τ
+          
+            ⊥
+          
+        
+      
+    
+    {\displaystyle \tau _{\perp }}
+  
+ and 
+  
+    
+      
+        
+          τ
+          
+            ∥
+          
+        
+      
+    
+    {\displaystyle \tau _{\parallel }}
+  
+ are driving torques, and x is the unit vector along the polarization of the current.
+
+
+== Application to magnetic resonance ==
+The response of a magnetic material to an oscillating magnetic field (e.g. the magnetic component of an electromagnetic wave) can be found using the LLG equation.
+Without loss of generality, the magnetization equilibrium magnetization vector 
+  
+    
+      
+        
+          
+            M
+          
+          
+            s
+          
+        
+      
+    
+    {\displaystyle \mathbf {M} _{s}}
+  
+, which is aligned with the static magnetic field 
+  
+    
+      
+        
+          
+            H
+          
+          
+            s
+          
+        
+      
+    
+    {\displaystyle \mathbf {H} _{s}}
+  
+ can be taken to be in the z-direction. One can then consider a small oscillating magnetic field 
+  
+    
+      
+        
+          h
+        
+        ∝
+        
+          e
+          
+            i
+            ω
+            t
+          
+        
+      
+    
+    {\displaystyle \mathbf {h} \propto e^{i\omega t}}
+  
+, which causes a small change in the magnetization 
+  
+    
+      
+        
+          
+            m
+          
+        
+      
+    
+    {\displaystyle {\textbf {m}}}
+  
+. Thus, the total magnetization reads 
+  
+    
+      
+        
+          M
+        
+        =
+        
+          
+            M
+          
+          
+            s
+          
+        
+        +
+        
+          m
+        
+      
+    
+    {\displaystyle \mathbf {M} =\mathbf {M} _{s}+\mathbf {m} }
+  
+, and the total magnetic field is 
+  
+    
+      
+        
+          H
+        
+        =
+        
+          
+            H
+          
+          
+            s
+          
+        
+        +
+        
+          h
+        
+      
+    
+    {\displaystyle \mathbf {H} =\mathbf {H} _{s}+\mathbf {h} }
+  
+. 
+Filling this in to the LLG equation (neglecting the damping terms) gives
+
+  
+    
+      
+        
+          
+            d
+            
+              d
+              t
+            
+          
+        
+        
+          (
+          
+            
+              
+                M
+              
+              
+                s
+              
+            
+            +
+            
+              m
+            
+          
+          )
+        
+        =
+        γ
+        (
+        
+          
+            M
+          
+          
+            s
+          
+        
+        +
+        
+          m
+        
+        )
+        ×
+        (
+        
+          
+            H
+          
+          
+            s
+          
+        
+        +
+        
+          h
+        
+        )
+      
+    
+    {\displaystyle {\frac {d}{dt}}\left(\mathbf {M} _{s}+\mathbf {m} \right)=\gamma (\mathbf {M} _{s}+\mathbf {m} )\times (\mathbf {H} _{s}+\mathbf {h} )}
+  
+.
+The equilibrium magnetization does not vary over time. Additionally, the 
+  
+    
+      
+        
+          
+            M
+          
+          
+            s
+          
+        
+        ×
+        
+          
+            H
+          
+          
+            s
+          
+        
+      
+    
+    {\displaystyle \mathbf {M} _{s}\times \mathbf {H} _{s}}
+  
+ term is zero because they are parallel. Finally, the equation is considered in leading order, so the 
+  
+    
+      
+        
+          m
+        
+        ×
+        
+          h
+        
+      
+    
+    {\displaystyle \mathbf {m} \times \mathbf {h} }
+  
+ term is neglected because it is the product of two small terms. Thus, the equation becomes
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                m
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        γ
+        (
+        
+          m
+        
+        ×
+        
+          
+            H
+          
+          
+            s
+          
+        
+        +
+        
+          
+            M
+          
+          
+            s
+          
+        
+        ×
+        
+          h
+        
+        )
+        .
+      
+    
+    {\displaystyle {\frac {d\mathbf {m} }{dt}}=\gamma (\mathbf {m} \times \mathbf {H} _{s}+\mathbf {M} _{s}\times \mathbf {h} ).}
+  
+
+The z-component of this equation is zero, meaning that the magnetization does not respond to an magnetic field oscillating in the z-direction. Assuming that 
+  
+    
+      
+        
+          m
+        
+      
+    
+    {\displaystyle \mathbf {m} }
+  
+ oscillates together with 
+  
+    
+      
+        
+          h
+        
+      
+    
+    {\displaystyle \mathbf {h} }
+  
+, the time derivative turns into 
+  
+    
+      
+        i
+        ω
+      
+    
+    {\displaystyle i\omega }
+  
+. The x- and y-components can then be written in matrix form as
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  γ
+                  
+                    H
+                    
+                      s
+                    
+                  
+                
+                
+                  i
+                  ω
+                
+              
+              
+                
+                  −
+                  i
+                  ω
+                
+                
+                  γ
+                  
+                    H
+                    
+                      s
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    m
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    m
+                    
+                      y
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        −
+        γ
+        
+          M
+          
+            s
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    h
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    h
+                    
+                      y
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle {\begin{pmatrix}\gamma H_{s}&i\omega \\-i\omega &\gamma H_{s}\end{pmatrix}}{\begin{pmatrix}m_{x}\\m_{y}\end{pmatrix}}=-\gamma M_{s}{\begin{pmatrix}h_{x}\\h_{y}\end{pmatrix}}.}
+  
+
+Inverting this matrix gives the  permeability tensor
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    m
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    m
+                    
+                      y
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            
+              γ
+              
+                M
+                
+                  s
+                
+              
+            
+            
+              
+                γ
+                
+                  2
+                
+              
+              
+                H
+                
+                  s
+                
+                
+                  2
+                
+              
+              −
+              
+                ω
+                
+                  2
+                
+              
+            
+          
+        
+        
+          
+            (
+            
+              
+                
+                  γ
+                  
+                    H
+                    
+                      s
+                    
+                  
+                
+                
+                  −
+                  i
+                  ω
+                
+              
+              
+                
+                  i
+                  ω
+                
+                
+                  γ
+                  
+                    H
+                    
+                      s
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    h
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    h
+                    
+                      y
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle {\begin{pmatrix}m_{x}\\m_{y}\end{pmatrix}}={\frac {\gamma M_{s}}{\gamma ^{2}H_{s}^{2}-\omega ^{2}}}{\begin{pmatrix}\gamma H_{s}&-i\omega \\i\omega &\gamma H_{s}\end{pmatrix}}{\begin{pmatrix}h_{x}\\h_{y}\end{pmatrix}}.}
+  
+
+Thus, there is a resonance at the ferromagnetic resonance frequency.
+
+
+== References and footnotes ==
+
+
+== Further reading ==

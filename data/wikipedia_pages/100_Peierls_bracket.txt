@@ -1,0 +1,59 @@
+Wikipedia article: Peierls bracket
+Source: https://en.wikipedia.org/wiki/Peierls_bracket
+PageID: 1191117
+======================================================================
+
+In theoretical physics, the Peierls bracket is an equivalent description of the Poisson bracket. It can be defined directly from the action and does not require the canonical coordinates and their canonical momenta to be defined in advance.
+The bracket
+
+  
+    
+      
+        [
+        A
+        ,
+        B
+        ]
+      
+    
+    {\displaystyle [A,B]}
+  
+
+is defined as
+
+  
+    
+      
+        
+          D
+          
+            A
+          
+        
+        (
+        B
+        )
+        −
+        
+          D
+          
+            B
+          
+        
+        (
+        A
+        )
+      
+    
+    {\displaystyle D_{A}(B)-D_{B}(A)}
+  
+,
+as the difference between some kind of action of one quantity on the other, minus the flipped term.
+In quantum mechanics, the Peierls bracket becomes a commutator i.e. a Lie bracket.
+
+
+== References ==
+This article incorporates material from the Citizendium article "Peierls bracket", which is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License but not under the GFDL.
+
+Peierls, R. "The Commutation Laws of Relativistic Field Theory,"
+Proc. R. Soc. Lond. August 21, 1952 214 1117 143-157.

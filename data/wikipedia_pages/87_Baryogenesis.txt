@@ -1,0 +1,567 @@
+Wikipedia article: Baryogenesis
+Source: https://en.wikipedia.org/wiki/Baryogenesis
+PageID: 462396
+======================================================================
+
+In physical cosmology, baryogenesis (also known as baryosynthesis) is the physical process that is hypothesized to have taken place during the early universe to produce baryonic asymmetry, the observation that only matter (baryons) and not antimatter (antibaryons) is detected in the universe (other than in cosmic ray collisions).
+Since it is assumed in cosmology that the particles we see were created using the same physics we measure today, and in particle physics experiments today matter and antimatter are always symmetric, the dominance of matter over antimatter is unexplained. 
+A number of theoretical mechanisms are proposed to account for this discrepancy, namely identifying conditions that favour symmetry breaking and the creation of normal matter (as opposed to antimatter). This imbalance has to be exceptionally small, on the order of 1 in every 1630000000 (≈2×109) particles a small fraction of a second after the Big Bang. After most of the matter and antimatter was annihilated, what remained was all the baryonic matter in the current universe, along with a much greater number of bosons. Experiments reported in 2010 at Fermilab, however, seem to show that this imbalance is much greater than previously assumed. These experiments involved a series of particle collisions and found that the amount of generated matter was approximately 1% larger than the amount of generated antimatter. The reason for this discrepancy is not yet known.
+Most grand unified theories explicitly break the baryon number symmetry, which would account for this discrepancy, typically invoking reactions mediated by very massive X bosons (X) or massive Higgs bosons (H0). The rate at which these events occur is governed largely by the mass of the intermediate X or H0 particles, so by assuming these reactions are responsible for the majority of the baryon number seen today, a maximum mass can be calculated above which the rate would be too slow to explain the presence of matter today. These estimates predict that a large volume of material will occasionally exhibit a spontaneous proton decay, which has not been observed. Therefore, the imbalance between matter and antimatter remains a mystery.
+Baryogenesis theories are based on different descriptions of the interaction between fundamental particles. Two main theories are electroweak baryogenesis, which would occur during the electroweak phase transition, and the GUT baryogenesis, which would occur during or shortly after the grand unification epoch. Quantum field theory and statistical physics are used to describe such possible mechanisms.
+Baryogenesis is followed by primordial nucleosynthesis, when atomic nuclei began to form.
+
+
+== Background ==
+The majority of ordinary matter in the universe is found in atomic nuclei, which are made of neutrons and protons. There is no evidence of primordial antimatter. In the universe about 1 in 10,000 protons are antiprotons, consistent with ongoing production due to cosmic rays. Possible domains of antimatter in other parts of the universe is inconsistent with the lack of measurable of gamma radiation background. 
+Furthermore, accurate predictions of Big Bang nucleosynthesis depend upon the value of the baryon asymmetry factor (see § Relation to Big Bang nucleosynthesis).
+The match between the predictions and observations of the nucleosynthesis model constrains the value of this baryon asymmetry factor. In particular, if the model is computed with equal amounts of baryons and antibaryons, they annihilate each other so completely that not enough baryons are left to create nucleons.
+There are two main interpretations for this disparity: either the universe began with a small preference for matter (total baryonic number of the universe different from zero), or the universe was originally perfectly symmetric, but somehow a set of particle physics phenomena contributed over time to a small imbalance in favour of matter. The goal of cosmological theories of baryogenesis is to explain the baryon asymmetry factor using quantum field theory of elementary particles.
+
+
+== Sakharov conditions ==
+
+In 1967, Andrei Sakharov proposed a set of three necessary conditions that a baryon-generating interaction must satisfy to produce matter and antimatter at different rates. These conditions were inspired by the recent discoveries of the cosmic microwave background and CP-violation in the neutral kaon system. The three necessary "Sakharov conditions" are:
+
+Baryon number 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ violation.
+C-symmetry and CP-symmetry violation.
+Interactions out of thermal equilibrium.
+Baryon number violation is a necessary condition to produce an excess of baryons over anti-baryons. But C-symmetry violation is also needed so that the interactions which produce more baryons than anti-baryons will not be counterbalanced by interactions which produce more anti-baryons than baryons. CP-symmetry violation is similarly required because otherwise equal numbers of left-handed  baryons and right-handed anti-baryons would be produced, as well as equal numbers of left-handed anti-baryons and right-handed baryons. Finally, the interactions that produce asymmetry must occur before thermal equilibrium because the thermal average of the standard model baryon asymmetry is zero.
+
+
+== In the Standard Model ==
+The Standard Model can incorporate baryogenesis, though the amount of net baryons (and leptons) thus created may not be sufficient to account for the present baryon asymmetry. There is a required one excess quark per billion quark-antiquark pairs in the early universe in order to provide all the observed matter in the universe. This insufficiency has not yet been explained, theoretically or otherwise.
+Baryogenesis within the Standard Model requires the electroweak symmetry breaking to be a first-order cosmological phase transition, since otherwise sphalerons wipe out any baryon asymmetry that happened up to the phase transition. Beyond this, the remaining amount of baryon non-conserving interactions is negligible.
+The phase transition domain wall breaks the P-symmetry spontaneously, allowing for CP-symmetry violating interactions to break C-symmetry on both its sides. Quarks tend to accumulate on the broken phase side of the domain wall, while anti-quarks tend to accumulate on its unbroken phase side. Due to CP-symmetry violating electroweak interactions, some amplitudes involving quarks are not equal to the corresponding amplitudes involving anti-quarks, but rather have opposite phase (see CKM matrix and Kaon); since time reversal takes an amplitude to its complex conjugate, CPT-symmetry is conserved in this entire process.
+Though some of their amplitudes have opposite phases, both quarks and anti-quarks have positive energy, and hence acquire the same phase as they move in space-time. This phase also depends on their mass, which is identical but depends both on flavor and on the Higgs VEV which changes along the domain wall. Thus certain sums of amplitudes for quarks have different absolute values compared to those of anti-quarks. In all, quarks and anti-quarks may have different reflection and transmission probabilities through the domain wall, and it turns out that more quarks coming from the unbroken phase are transmitted compared to anti-quarks.
+Thus there is a net baryonic flux through the domain wall. Due to sphaleron transitions, which are abundant in the unbroken phase, the net anti-baryonic content of the unbroken phase is wiped out as anti-baryons are transformed into leptons. However, sphalerons are rare enough in the broken phase as not to wipe out the excess of baryons there. In total, there is net creation of baryons (as well as leptons).
+In this scenario, non-perturbative electroweak interactions (i.e. the sphaleron) are responsible for the B-violation, the perturbative electroweak Lagrangian is responsible for the CP-violation, and the domain wall is responsible for the lack of thermal equilibrium and the P-violation; together with the CP-violation it also creates a C-violation in each of its sides.
+
+
+== Relation to Big Bang nucleosynthesis ==
+The central question to baryogenesis is what causes the preference for matter over antimatter in the universe, as well as the magnitude of this asymmetry. An important quantifier is the asymmetry parameter, given by
+
+  
+    
+      
+        η
+        =
+        
+          
+            
+              
+                n
+                
+                  B
+                
+              
+              −
+              
+                n
+                
+                  
+                    
+                      B
+                      ¯
+                    
+                  
+                
+              
+            
+            
+              n
+              
+                γ
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \eta ={\frac {n_{\text{B}}-n_{\bar {\text{B}}}}{n_{\gamma }}},}
+  
+
+where nB and nB refer to the number density of baryons and antibaryons respectively and nγ is the number density of cosmic background radiation photons.
+According to the Big Bang model, matter decoupled from the cosmic background radiation (CBR) at a temperature of roughly 3000 kelvin, corresponding to an average kinetic energy of 3000 K / (10.08×103 K/eV) = 0.3 eV. After the decoupling, the total number of CBR photons remains constant. Therefore, due to space-time expansion, the photon density decreases. The photon density at equilibrium temperature T is given by
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  n
+                  
+                    γ
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      π
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      (
+                      
+                        
+                          
+                            
+                              k
+                              
+                                B
+                              
+                            
+                            T
+                          
+                          
+                            ℏ
+                            c
+                          
+                        
+                      
+                      )
+                    
+                  
+                  
+                    3
+                  
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      x
+                      
+                        2
+                      
+                    
+                    
+                      
+                        e
+                        
+                          x
+                        
+                      
+                      −
+                      1
+                    
+                  
+                
+                d
+                x
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      2
+                      ζ
+                      (
+                      3
+                      )
+                    
+                    
+                      π
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      (
+                      
+                        
+                          
+                            
+                              k
+                              
+                                B
+                              
+                            
+                            T
+                          
+                          
+                            ℏ
+                            c
+                          
+                        
+                      
+                      )
+                    
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+              
+                
+                ≈
+                20.3
+                
+                  
+                    (
+                    
+                      
+                        T
+                        
+                          1
+                          
+                          K
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+                
+                  
+                    cm
+                  
+                  
+                    −
+                    3
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}n_{\gamma }&={\frac {1}{\pi ^{2}}}{\left({\frac {k_{\text{B}}T}{\hbar c}}\right)}^{3}\int _{0}^{\infty }{\frac {x^{2}}{e^{x}-1}}dx\\[2pt]&={\frac {2\zeta (3)}{\pi ^{2}}}{\left({\frac {k_{\text{B}}T}{\hbar c}}\right)}^{3}\\[2pt]&\approx 20.3\left({\frac {T}{\mathrm {1\,K} }}\right)^{3}{\text{cm}}^{-3},\end{aligned}}}
+  
+
+with kB as the Boltzmann constant, ħ as the Planck constant divided by 2π and c as the speed of light in vacuum, and ζ(3) as Apéry's constant. At the current CBR photon temperature of 2.725 K, this corresponds to a photon density nγ of around 411 CBR photons per cubic centimeter.
+Therefore, the asymmetry parameter η, as defined above, is not the "best" parameter. Instead, the preferred asymmetry parameter uses the entropy density s,
+
+  
+    
+      
+        
+          η
+          
+            s
+          
+        
+        =
+        
+          
+            
+              
+                n
+                
+                  B
+                
+              
+              −
+              
+                n
+                
+                  
+                    
+                      B
+                      ¯
+                    
+                  
+                
+              
+            
+            s
+          
+        
+      
+    
+    {\displaystyle \eta _{s}={\frac {n_{\text{B}}-n_{\bar {\text{B}}}}{s}}}
+  
+
+because the entropy density of the universe remained reasonably constant throughout most of its evolution. The entropy density is
+
+  
+    
+      
+        s
+         
+        
+          
+            
+              
+                =
+              
+              
+                
+                  d
+                  e
+                  f
+                
+              
+            
+          
+        
+         
+        
+          
+            
+              e
+              n
+              t
+              r
+              o
+              p
+              y
+            
+            
+              v
+              o
+              l
+              u
+              m
+              e
+            
+          
+        
+        =
+        
+          
+            
+              p
+              +
+              ρ
+            
+            T
+          
+        
+        =
+        
+          
+            
+              2
+              
+                π
+                
+                  2
+                
+              
+            
+            45
+          
+        
+        
+          g
+          
+            ⁎
+          
+        
+        (
+        T
+        )
+        
+          T
+          
+            3
+          
+        
+        ,
+      
+    
+    {\displaystyle s\ {\stackrel {\mathrm {def} }{=}}\ {\frac {\mathrm {entropy} }{\mathrm {volume} }}={\frac {p+\rho }{T}}={\frac {2\pi ^{2}}{45}}g_{\text{⁎}}(T)T^{3},}
+  
+
+with p and ρ as the pressure and density from the energy density tensor Tμν, and g⁎ as the effective number of degrees of freedom for "massless" particles at temperature T (in so far as mc2 ≪ kBT holds),
+
+  
+    
+      
+        
+          g
+          
+            ⁎
+          
+        
+        (
+        T
+        )
+        =
+        
+          ∑
+          
+            i
+            =
+            
+              b
+              o
+              s
+              o
+              n
+              s
+            
+          
+        
+        
+          g
+          
+            i
+          
+        
+        
+          
+            
+              (
+              
+                
+                  
+                    T
+                    
+                      i
+                    
+                  
+                  T
+                
+              
+              )
+            
+          
+          
+            3
+          
+        
+        +
+        
+          
+            7
+            8
+          
+        
+        
+          ∑
+          
+            j
+            =
+            
+              f
+              e
+              r
+              m
+              i
+              o
+              n
+              s
+            
+          
+        
+        
+          g
+          
+            j
+          
+        
+        
+          
+            
+              (
+              
+                
+                  
+                    T
+                    
+                      j
+                    
+                  
+                  T
+                
+              
+              )
+            
+          
+          
+            3
+          
+        
+        ,
+      
+    
+    {\displaystyle g_{\text{⁎}}(T)=\sum _{i=\mathrm {bosons} }g_{i}{\left({\frac {T_{i}}{T}}\right)}^{3}+{\frac {7}{8}}\sum _{j=\mathrm {fermions} }g_{j}{\left({\frac {T_{j}}{T}}\right)}^{3},}
+  
+
+for bosons and fermions with gi and gj degrees of freedom at temperatures Ti and Tj respectively. At the present epoch, s = 7.04 nγ.
+
+
+== Other models ==
+
+
+=== B-meson decay ===
+Another possible explanation for the cause of baryogenesis is the decay reaction of B-mesogenesis. This phenomenon suggests that in the early universe, particles such as the B-meson decay into a visible Standard Model baryon as well as a dark antibaryon that is invisible to current observation techniques. 
+
+
+=== Asymmetric dark matter ===
+The asymmetric dark matter proposal investigates mechanisms that would explain the abundance of dark matter but lack of dark antimatter as the consequence of the same effect as would explain baryogenesis.
+
+
+== See also ==
+Affleck–Dine mechanism
+Anthropic principle
+Big Bang
+Chronology of the universe
+CP violation
+Leptogenesis (physics)
+Lepton
+
+
+== References ==
+
+
+=== Articles ===
+
+
+=== Textbooks ===
+E. W. Kolb & M. S. Turner (1994). The Early Universe. Perseus Publishing. ISBN 978-0-201-62674-2.
+
+
+=== Preprints ===
+A. D. Dolgov (1997). "Baryogenesis, 30 Years After". Surveys in High Energy Physics. 13 (1–3): 83–117. arXiv:hep-ph/9707419. Bibcode:1998SHEP...13...83D. doi:10.1080/01422419808240874. S2CID 119499400.

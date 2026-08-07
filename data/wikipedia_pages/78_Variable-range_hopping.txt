@@ -1,0 +1,918 @@
+Wikipedia article: Variable-range hopping
+Source: https://en.wikipedia.org/wiki/Variable-range_hopping
+PageID: 9367435
+======================================================================
+
+Variable-range hopping is a model used to describe carrier transport in a disordered semiconductor or in amorphous solid by hopping in an extended temperature range. It has a characteristic temperature dependence of
+
+  
+    
+      
+        σ
+        =
+        
+          σ
+          
+            0
+          
+        
+        
+          e
+          
+            −
+            (
+            
+              T
+              
+                0
+              
+            
+            
+              /
+            
+            T
+            
+              )
+              
+                β
+              
+            
+          
+        
+      
+    
+    {\displaystyle \sigma =\sigma _{0}e^{-(T_{0}/T)^{\beta }}}
+  
+
+where 
+  
+    
+      
+        σ
+      
+    
+    {\displaystyle \sigma }
+  
+ is the conductivity and 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  
+ is a parameter dependent on the model under consideration.
+
+
+== Mott variable-range hopping ==
+The Mott variable-range hopping describes low-temperature conduction in strongly disordered systems with localized charge-carrier states and has a characteristic temperature dependence of
+
+  
+    
+      
+        σ
+        =
+        
+          σ
+          
+            0
+          
+        
+        
+          e
+          
+            −
+            (
+            
+              T
+              
+                0
+              
+            
+            
+              /
+            
+            T
+            
+              )
+              
+                1
+                
+                  /
+                
+                4
+              
+            
+          
+        
+      
+    
+    {\displaystyle \sigma =\sigma _{0}e^{-(T_{0}/T)^{1/4}}}
+  
+
+for three-dimensional conductance (with 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  
+ = 1/4), and is generalized to d-dimensions
+
+  
+    
+      
+        σ
+        =
+        
+          σ
+          
+            0
+          
+        
+        
+          e
+          
+            −
+            (
+            
+              T
+              
+                0
+              
+            
+            
+              /
+            
+            T
+            
+              )
+              
+                1
+                
+                  /
+                
+                (
+                d
+                +
+                1
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle \sigma =\sigma _{0}e^{-(T_{0}/T)^{1/(d+1)}}}
+  
+.
+Hopping conduction at low temperatures is of great interest because of the savings the semiconductor industry could achieve if they were able to replace single-crystal devices with glass layers.
+
+
+=== Derivation ===
+The original Mott paper introduced a simplifying assumption that the hopping energy depends inversely on the cube of the hopping distance (in the three-dimensional case). Later it was shown that this assumption was unnecessary, and this proof is followed here.  In the original paper, the hopping probability at a given temperature was seen to depend on two parameters, R the spatial separation of the sites, and W, their energy separation.  Apsley and Hughes noted that in a truly amorphous system, these variables are random and independent and so can be combined into a single parameter, the range 
+  
+    
+      
+        
+          
+            
+              R
+            
+          
+        
+      
+    
+    {\displaystyle \textstyle {\mathcal {R}}}
+  
+ between two sites, which determines the probability of hopping between them.
+Mott showed that the probability of hopping between two states of spatial separation 
+  
+    
+      
+        
+          R
+        
+      
+    
+    {\displaystyle \textstyle R}
+  
+ and energy separation W has the form:
+
+  
+    
+      
+        P
+        ∼
+        exp
+        ⁡
+        
+          [
+          
+            −
+            2
+            α
+            R
+            −
+            
+              
+                W
+                
+                  k
+                  T
+                
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle P\sim \exp \left[-2\alpha R-{\frac {W}{kT}}\right]}
+  
+
+where α−1 is the attenuation length for a hydrogen-like localised wave-function. This assumes that hopping to a state with a higher energy is the rate limiting process.
+We now define 
+  
+    
+      
+        
+          
+            
+              R
+            
+          
+          =
+          2
+          α
+          R
+          +
+          W
+          
+            /
+          
+          k
+          T
+        
+      
+    
+    {\displaystyle \textstyle {\mathcal {R}}=2\alpha R+W/kT}
+  
+, the range between two states, so 
+  
+    
+      
+        
+          P
+          ∼
+          exp
+          ⁡
+          (
+          −
+          
+            
+              R
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \textstyle P\sim \exp(-{\mathcal {R}})}
+  
+.  The states may be regarded as points in a four-dimensional random array (three spatial coordinates and one energy coordinate), with the "distance" between them given by the range 
+  
+    
+      
+        
+          
+            
+              R
+            
+          
+        
+      
+    
+    {\displaystyle \textstyle {\mathcal {R}}}
+  
+.
+Conduction is the result of many series of hops through this four-dimensional array and as short-range hops are favoured, it is the average nearest-neighbour "distance" between states which determines the overall conductivity.  Thus the conductivity has the form
+
+  
+    
+      
+        σ
+        ∼
+        exp
+        ⁡
+        (
+        −
+        
+          
+            
+              
+                R
+              
+              ¯
+            
+          
+          
+            n
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle \sigma \sim \exp(-{\overline {\mathcal {R}}}_{nn})}
+  
+
+where 
+  
+    
+      
+        
+          
+            
+              
+                
+                  R
+                
+                ¯
+              
+            
+            
+              n
+              n
+            
+          
+        
+      
+    
+    {\displaystyle \textstyle {\overline {\mathcal {R}}}_{nn}}
+  
+ is the average nearest-neighbour range. The problem is therefore to calculate this quantity.
+The first step is to obtain 
+  
+    
+      
+        
+          
+            
+              N
+            
+          
+          (
+          
+            
+              R
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \textstyle {\mathcal {N}}({\mathcal {R}})}
+  
+, the total number of states within a range 
+  
+    
+      
+        
+          
+            
+              R
+            
+          
+        
+      
+    
+    {\displaystyle \textstyle {\mathcal {R}}}
+  
+ of some initial state at the Fermi level. For d-dimensions, and under particular assumptions this turns out to be
+
+  
+    
+      
+        
+          
+            N
+          
+        
+        (
+        
+          
+            R
+          
+        
+        )
+        =
+        K
+        
+          
+            
+              R
+            
+          
+          
+            d
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle {\mathcal {N}}({\mathcal {R}})=K{\mathcal {R}}^{d+1}}
+  
+
+where 
+  
+    
+      
+        
+          K
+          =
+          
+            
+              
+                N
+                π
+                k
+                T
+              
+              
+                3
+                ×
+                
+                  2
+                  
+                    d
+                  
+                
+                
+                  α
+                  
+                    d
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \textstyle K={\frac {N\pi kT}{3\times 2^{d}\alpha ^{d}}}}
+  
+.
+The particular assumptions are simply that 
+  
+    
+      
+        
+          
+            
+              
+                
+                  R
+                
+                ¯
+              
+            
+            
+              n
+              n
+            
+          
+        
+      
+    
+    {\displaystyle \textstyle {\overline {\mathcal {R}}}_{nn}}
+  
+ is well less than the band-width and comfortably bigger than the interatomic spacing.
+Then the probability that a state with range 
+  
+    
+      
+        
+          
+            
+              R
+            
+          
+        
+      
+    
+    {\displaystyle \textstyle {\mathcal {R}}}
+  
+ is the nearest neighbour in the four-dimensional space (or in general the (d+1)-dimensional space) is
+
+  
+    
+      
+        
+          P
+          
+            n
+            n
+          
+        
+        (
+        
+          
+            R
+          
+        
+        )
+        =
+        
+          
+            
+              ∂
+              
+                
+                  N
+                
+              
+              (
+              
+                
+                  R
+                
+              
+              )
+            
+            
+              ∂
+              
+                
+                  R
+                
+              
+            
+          
+        
+        exp
+        ⁡
+        [
+        −
+        
+          
+            N
+          
+        
+        (
+        
+          
+            R
+          
+        
+        )
+        ]
+      
+    
+    {\displaystyle P_{nn}({\mathcal {R}})={\frac {\partial {\mathcal {N}}({\mathcal {R}})}{\partial {\mathcal {R}}}}\exp[-{\mathcal {N}}({\mathcal {R}})]}
+  
+
+the nearest-neighbour distribution.
+For the d-dimensional case then
+
+  
+    
+      
+        
+          
+            
+              
+                R
+              
+              ¯
+            
+          
+          
+            n
+            n
+          
+        
+        =
+        
+          ∫
+          
+            0
+          
+          
+            ∞
+          
+        
+        (
+        d
+        +
+        1
+        )
+        K
+        
+          
+            
+              R
+            
+          
+          
+            d
+            +
+            1
+          
+        
+        exp
+        ⁡
+        (
+        −
+        K
+        
+          
+            
+              R
+            
+          
+          
+            d
+            +
+            1
+          
+        
+        )
+        d
+        
+          
+            R
+          
+        
+      
+    
+    {\displaystyle {\overline {\mathcal {R}}}_{nn}=\int _{0}^{\infty }(d+1)K{\mathcal {R}}^{d+1}\exp(-K{\mathcal {R}}^{d+1})d{\mathcal {R}}}
+  
+.
+This can be evaluated by making a simple substitution of 
+  
+    
+      
+        
+          t
+          =
+          K
+          
+            
+              
+                R
+              
+            
+            
+              d
+              +
+              1
+            
+          
+        
+      
+    
+    {\displaystyle \textstyle t=K{\mathcal {R}}^{d+1}}
+  
+ into the gamma function, 
+  
+    
+      
+        
+          Γ
+          (
+          z
+          )
+          =
+          
+            ∫
+            
+              0
+            
+            
+              ∞
+            
+          
+          
+            t
+            
+              z
+              −
+              1
+            
+          
+          
+            e
+            
+              −
+              t
+            
+          
+          
+          
+            d
+          
+          t
+        
+      
+    
+    {\displaystyle \textstyle \Gamma (z)=\int _{0}^{\infty }t^{z-1}e^{-t}\,\mathrm {d} t}
+  
+
+After some algebra this gives
+
+  
+    
+      
+        
+          
+            
+              
+                R
+              
+              ¯
+            
+          
+          
+            n
+            n
+          
+        
+        =
+        
+          
+            
+              Γ
+              (
+              
+                
+                  
+                    d
+                    +
+                    2
+                  
+                  
+                    d
+                    +
+                    1
+                  
+                
+              
+              )
+            
+            
+              K
+              
+                
+                  1
+                  
+                    d
+                    +
+                    1
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\overline {\mathcal {R}}}_{nn}={\frac {\Gamma ({\frac {d+2}{d+1}})}{K^{\frac {1}{d+1}}}}}
+  
+
+and hence that
+
+  
+    
+      
+        σ
+        ∝
+        exp
+        ⁡
+        
+          (
+          
+            −
+            (
+            
+              T
+              
+                0
+              
+            
+            
+              /
+            
+            T
+            
+              )
+              
+                
+                  1
+                  
+                    d
+                    +
+                    1
+                  
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \sigma \propto \exp \left(-(T_{0}/T)^{\frac {1}{d+1}}\right)}
+  
+
+with a suitable defined temperature scale 
+  
+    
+      
+        
+          T
+          
+            0
+          
+        
+      
+    
+    {\displaystyle T_{0}}
+  
+.
+
+
+=== Non-constant density of states ===
+When the density of states is not constant (odd power law N(E)), the Mott conductivity is also recovered, as shown in this article.
+
+
+== Efros–Shklovskii variable-range hopping ==
+
+The Efros–Shklovskii (ES) variable-range hopping is a conduction model which accounts for the Coulomb gap, a small jump in the density of states near the Fermi level due to interactions between localized electrons. It was named after Alexei L. Efros and Boris Shklovskii who proposed it in 1975.
+The consideration of the Coulomb gap changes the temperature dependence to
+
+  
+    
+      
+        σ
+        =
+        
+          σ
+          
+            0
+          
+        
+        
+          e
+          
+            −
+            (
+            
+              T
+              
+                0
+              
+            
+            
+              /
+            
+            T
+            
+              )
+              
+                1
+                
+                  /
+                
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \sigma =\sigma _{0}e^{-(T_{0}/T)^{1/2}}}
+  
+
+for all dimensions (i.e. 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  
+ = 1/2).
+
+
+== See also ==
+
+Mobility edge
+
+
+== Notes ==

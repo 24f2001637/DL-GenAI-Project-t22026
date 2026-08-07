@@ -1,0 +1,37 @@
+Wikipedia article: Reciprocal length
+Source: https://en.wikipedia.org/wiki/Reciprocal_length
+PageID: 26791258
+======================================================================
+
+Reciprocal length or inverse length is a quantity or measurement used in several branches of science and mathematics, defined as the reciprocal of length.
+Common units used for this measurement include the reciprocal metre or inverse metre (symbol: m−1), and the reciprocal centimetre or inverse centimetre (symbol: cm−1).
+In optics, the dioptre is a unit equivalent to reciprocal metre.
+
+
+== List of quantities ==
+Quantities measured in reciprocal length include:
+
+absorption coefficient or attenuation coefficient, in materials science
+curvature of a line, in mathematics
+gain, in laser physics
+magnitude of vectors in reciprocal space, in crystallography
+more generally any spatial frequency e.g. in cycles per unit length
+optical power of a lens, in optics
+rotational constant of a rigid rotor, in quantum mechanics
+wavenumber, or magnitude of a wavevector, in spectroscopy
+density of a linear feature in hydrology and other fields; see kilometre per square kilometre
+surface area to volume ratio
+
+
+== Measure of energy ==
+In some branches of physics, a set of natural units is adopted, such that the universal constants c, the speed of light, and ħ, the reduced Planck constant, are treated as being unity (i.e. that c = ħ = 1), which leads to mass, energy, momentum, frequency and reciprocal length all having the same unit. As a result, reciprocal length is used as a measure of energy. The frequency of a photon yields a certain photon energy, according to the Planck–Einstein relation, and the frequency of a photon is related to its spatial frequency via the speed of light. Spatial frequency is a reciprocal length, which can thus be used as a measure of energy, usually of a particle. For example, the reciprocal centimetre, cm−1, is an energy unit equal to the energy of a photon with a wavelength of 1 cm. That energy amounts to approximately 1.24×10−4 eV or 1.986×10−23 J.
+The energy is inversely proportional to the size of the unit of which the reciprocal is used, and is proportional to the number of reciprocal length units. For example, in terms of energy, one reciprocal metre equals 10−2 (one hundredth) as much as a reciprocal centimetre. Five reciprocal metres are five times as much energy as one reciprocal metre.
+
+
+== See also ==
+Lineic quantity
+Reciprocal second
+
+
+== Further reading ==
+Barrett, A. J. (11 July 1983). "A two-parameter perturbation series for the reciprocal length of polymer chains and subchains". Journal of Physics A: Mathematical and General. 16 (10): 2321–2330. Bibcode:1983JPhA...16.2321B. doi:10.1088/0305-4470/16/10/027.

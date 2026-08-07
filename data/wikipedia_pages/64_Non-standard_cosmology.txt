@@ -1,0 +1,129 @@
+Wikipedia article: Non-standard cosmology
+Source: https://en.wikipedia.org/wiki/Non-standard_cosmology
+PageID: 208656
+======================================================================
+
+A non-standard cosmology is any physical cosmological model of the universe that was, or still is, proposed as an alternative to the then-current standard model of cosmology. The term non-standard is applied to any theory that does not conform to the scientific consensus. Because the term depends on the prevailing consensus, the meaning of the term changes over time. For example, hot dark matter would not have been considered non-standard in 1990, but would have been in 2010. Conversely, a non-zero cosmological constant resulting in an accelerating universe would have been considered non-standard in 1990, but is part of the standard cosmology in 2010.
+
+Several major cosmological disputes have occurred throughout the history of cosmology. One of the earliest was the Copernican Revolution, which established the heliocentric model of the Solar System. More recent was the Great Debate of 1920, in the aftermath of which the Milky Way's status as but one of the Universe's many galaxies was established. From the 1940s to the 1960s, the astrophysical community was equally divided between supporters of the Big Bang theory and supporters of a rival steady state universe; this is currently decided in favour of the Big Bang theory by advances in observational cosmology in the late 1960s. Nevertheless, there remained vocal detractors of the Big Bang theory including Fred Hoyle, Jayant Narlikar, Halton Arp, and Hannes Alfvén, whose cosmologies were relegated to the fringes of astronomical research. The few Big Bang opponents still active today often ignore well-established evidence from newer research, and as a consequence, today non-standard cosmologies that reject the Big Bang entirely are rarely published in peer-reviewed science journals but appear online in marginal journals and private websites.
+The current standard model of cosmology is the Lambda-CDM model, wherein the Universe is governed by general relativity, began with a Big Bang and today is a nearly-flat universe that consists of approximately 5% baryons, 27% cold dark matter, and 68% dark energy. Lambda-CDM has been a successful model, but recent observational evidence seem to indicate significant tensions in Lambda-CDM, such as the Hubble tension, the KBC void, the dwarf galaxy problem, ultra-large structures, et cetera. Research on extensions or modifications to Lambda-CDM, as well as fundamentally different models, is ongoing. Topics investigated include quintessence, Modified Newtonian Dynamics (MOND) and its relativistic generalization TeVeS, and warm dark matter.
+
+
+== History ==
+Modern physical cosmology as it is currently studied first emerged as a scientific discipline in the period after the Shapley–Curtis debate and discoveries by Edwin Hubble of a cosmic distance ladder when astronomers and physicists had to come to terms with a universe that was of a much larger scale than the previously assumed galactic size. Theorists who successfully developed cosmologies applicable to the larger-scale universe are remembered today as the founders of modern cosmology. Among these scientists are Arthur Milne, Willem de Sitter, Alexander Friedman, Georges Lemaître, and Albert Einstein himself.
+After confirmation of the Hubble's law by observation, the two most popular cosmological theories became the steady-state model of Fred Hoyle, Thomas Gold and Hermann Bondi, and the Big Bang theory of Ralph Alpher, George Gamow, and Robert Dicke with a small number of supporters of a smattering of alternatives. One of the major successes of the Big Bang theory compared to its competitor was its prediction for the abundance of light elements in the universe that corresponds with the observed abundances of light elements. Alternative theories do not have a means to explain these abundances.
+Theories which assert that the universe has an infinite age with no beginning have trouble accounting for the abundance of deuterium in the cosmos, because deuterium easily undergoes nuclear fusion in stars and there are no known astrophysical processes other than the Big Bang itself that can produce it in large quantities. Hence the fact that deuterium is not an extremely rare component of the universe suggests both that the universe has a finite age and that there was a process that created deuterium in the past that no longer occurs.
+Theories which assert that the universe has a finite life, but that the Big Bang did not happen, have problems with the abundance of helium-4. The observed amount of 4He is far larger than the amount that should have been created via stars or any other known process. By contrast, the abundance of 4He in Big Bang models is very insensitive to assumptions about baryon density, changing only a few percent as the baryon density changes by several orders of magnitude. The observed value of 4He is within the range calculated.
+Still, it was not until the discovery of the Cosmic microwave background radiation (CMB) by Arno Penzias and Robert Wilson in 1965, that most cosmologists finally concluded that observations were best explained by the Big Bang model. Steady state theorists and other non-standard cosmologies were then tasked with providing an explanation for the phenomenon if they were to remain plausible. This led to original approaches including integrated starlight and cosmic iron whiskers, which were meant to provide a source for a pervasive, all-sky microwave background that was not due to an early universe phase transition.
+
+Scepticism about the non-standard cosmologies' ability to explain the CMB caused interest in the subject to wane since then, however, there have been two periods in which interest in non-standard cosmology has increased due to observational data which posed difficulties for the Big Bang. The first occurred in the late 1970s when there were a number of unsolved problems, such as the horizon problem, the flatness problem, and the lack of magnetic monopoles, which challenged the Big Bang model. These issues were eventually resolved by cosmic inflation in the 1980s. This idea subsequently became part of the understanding of the Big Bang, although alternatives have been proposed from time to time. The second occurred in the mid-1990s when observations of the ages of globular clusters and the primordial helium abundance, apparently disagreed with the Big Bang. However, by the late 1990s, most astronomers had concluded that these observations did not challenge the big bang and additional data from COBE and the WMAP, provided detailed quantitative measures which were consistent with standard cosmology.
+Today, heterodox non-standard cosmologies are generally considered unworthy of consideration by cosmologists while many of the historically significant nonstandard cosmologies are considered to have been falsified. The essentials of the Big Bang theory have been confirmed by a wide range of complementary and detailed observations, and no non-standard cosmologies have reproduced the range of successes of the Big Bang model. Speculations about alternatives are not normally part of research or pedagogical discussions, except as object lessons or for their historical importance. An open letter started by some remaining advocates of non-standard cosmology has affirmed that: "today, virtually all financial and experimental resources in cosmology are devoted to big bang studies...."
+
+In the 1990s, a dawning of a "golden age of cosmology" was accompanied by a startling discovery that the expansion of the universe was, in fact, accelerating. Previous to this, it had been assumed that matter either in its visible or invisible dark matter form was the dominant energy density in the universe. This "classical" Big Bang cosmology was overthrown when it was discovered that nearly 70% of the energy in the universe was attributable to the cosmological constant, often referred to as "dark energy". This has led to the development of a so-called concordance ΛCDM model which combines detailed data obtained with new telescopes and techniques in observational astrophysics with an expanding, density-changing universe. Today, it is more common to find in the scientific literature proposals for "non-standard cosmologies" that actually accept the basic tenets of the Big Bang cosmology, while modifying parts of the concordance model. Such theories include alternative models of dark energy, such as quintessence, phantom energy and some ideas in brane cosmology; alternative models of dark matter, such as modified Newtonian dynamics; alternatives or extensions to inflation such as chaotic inflation and the ekpyrotic model; and proposals to supplement the universe with a first cause, such as the Hartle–Hawking boundary condition, the cyclic model, and the string landscape. There is no consensus about these ideas amongst cosmologists, but they are nonetheless active fields of academic inquiry.
+
+
+== Alternatives to Big Bang cosmologies ==
+Before observational evidence was gathered, theorists developed frameworks based on what they understood to be the most general features of physics and philosophical assumptions about the universe. When Albert Einstein developed his general theory of relativity in 1915, this was used as a mathematical starting point for most cosmological theories. In order to arrive at a cosmological model, however, theoreticians needed to make assumptions about the nature of the largest scales of the universe. The assumptions that the current standard model of cosmology relies upon are:
+
+the universality of physical laws – that the laws of physics do not change from one place and time to another,
+the cosmological principle – that the universe is roughly homogeneous and isotropic in space though not necessarily in time, and
+the Copernican principle – that we are not observing the universe from a preferred locale.
+
+These assumptions when combined with General Relativity result in a universe that is governed by the Friedmann–Robertson–Walker metric (FRW metric). The FRW metric allows for a universe that is either expanding or contracting (as well as stationary but unstable universes). When Hubble's law was discovered, most astronomers interpreted the law as a sign the universe is expanding. This implies the universe was smaller in the past, and therefore led to the following conclusions:
+
+the universe emerged from a hot, dense state at a finite time in the past,
+because the universe heats up as it contracts and cools as it expands, in the first minutes that time existed as we know it, the temperatures were high enough for Big Bang nucleosynthesis to occur, and
+a cosmic microwave background pervading the entire universe should exist, which is a record of a phase transition that occurred when the atoms of the universe first formed.
+These features were derived by numerous individuals over a period of years; indeed it was not until the middle of the twentieth century that accurate predictions of the last feature and observations confirming its existence were made. Non-standard theories developed either by starting from different assumptions or by contradicting the features predicted by the prevailing standard model of cosmology.
+
+
+=== Steady-state theories ===
+
+The steady-state model extends the homogeneity assumption of the cosmological principle to reflect a homogeneity in time as well as in space. This "perfect cosmological principle" as it would come to be called asserted that the universe looks the same everywhere (on the large scale), the same as it always has and always will. This is in contrast to Lambda-CDM, in which the universe looked very different in the past and will look very different in the future. Steady-state theory was proposed in 1948 by Fred Hoyle, Thomas Gold, Hermann Bondi and others. In order to maintain the perfect cosmological principle in an expanding universe, steady state cosmology had to posit a "matter-creation field" (the so-called C-field) that would insert matter into the universe in order to maintain a constant density.
+The debate between the Big Bang and the steady-state models would happen for 15 years with camps roughly evenly divided until the discovery of the cosmic microwave background (CMB) radiation. This radiation is a natural feature of the Big Bang model which demands a "time of last scattering" where photons decouple with baryonic matter. The steady-state model proposed that this radiation could be accounted for by so-called "integrated starlight" which was a background caused in part by Olbers' paradox in an infinite universe. In order to account for the uniformity of the background, steady-state proponents posited a fog effect associated with microscopic iron particles that would scatter radio waves in such a manner as to produce an isotropic CMB. The proposed phenomena was whimsically named "cosmic iron whiskers" and served as the thermalization mechanism. The steady-state theory did not have the horizon problem of the Big Bang because it assumed an infinite amount of time was available for thermalizing the background.
+As more cosmological data began to be collected, cosmologists began to realize that the Big Bang correctly predicted the abundance of light elements observed in the cosmos. What was a coincidental ratio of hydrogen to deuterium and helium in the steady-state model was a feature of the Big Bang model. Additionally, detailed measurements of the CMB since the 1990s with the COBE, WMAP and Planck observations indicated that the spectrum of the background was closer to a blackbody than any other source in nature. The best integrated starlight models could predict was a thermalization to the level of 10% while the COBE satellite measured the deviation at one part in 105. After this dramatic discovery, the majority of cosmologists became convinced that the steady-state theory could not explain the observed CMB properties.
+Although the original steady-state model is now considered to be contrary to observations (particularly the CMB) even by its one-time supporters, modifications of the steady-state model have been proposed, including a model that envisions the universe as originating through many little bangs rather than one big bang (the so-called "quasi-steady state cosmology"). It supposes that the universe goes through periodic expansion and contraction phases, with a soft "rebound" in place of the Big Bang. Thus the Hubble law is explained by the fact that the universe is currently in an expansion phase. Work continues on this model (most notably by Jayant V. Narlikar), although it has not gained widespread mainstream acceptance.
+
+
+== Alternatives and extensions to Lambda-CDM ==
+The standard model of cosmology today, the Lambda-CDM model, has been extremely successful at providing a theoretical framework for structure formation, the anisotropies in the cosmic microwave background, and the accelerating expansion of the universe. However, it is not without its problems. There are many proposals today that challenge various aspects of the Lambda-CDM model. These proposals typically modify some of the main features of Lambda-CDM, but do not reject the Big Bang.
+
+
+=== Anisotropic universe ===
+
+Isotropicity – the idea that the universe looks the same in all directions – is one of the core assumptions that enters into the Friedmann equations. In 2008 however, scientists working on the Wilkinson Microwave Anisotropy Probe data claimed to have detected a 600–1000 km/s flow of clusters toward a 20-degree patch of sky between the constellations of Centaurus and Vela. They suggested that the motion may be a remnant of the influence of no-longer-visible regions of the universe prior to inflation. The detection is controversial, and other scientists have found that the universe is isotropic to a great degree.
+
+
+=== Massive compact halo object (MACHO) ===
+
+Solitary black holes, neutron stars, burnt-out dwarf stars, and other massive objects that are hard to detect are collectively known as MACHOs; some scientists initially hoped that baryonic MACHOs could account for and explain all the dark matter. However, evidence has accumulated that these objects cannot explain a large fraction of the dark matter mass.
+
+
+=== Exotic dark matter ===
+
+In Lambda-CDM, dark matter is a form of matter that interacts with both ordinary matter and light only through gravitational effects. To produce the large-scale structure we see today, dark matter is "cold" (the 'C' in Lambda-CDM), i.e. non-relativistic. Dark matter has not been conclusively identified, and its exact nature is the subject of intense study. Hypothetical weakly interacting massive particles (WIMPs), axions and primordial black holes are the leading dark matter candidates but there are a variety of other proposals, e.g.:
+
+Self-interacting dark matter, wherein dark matter particles interact with themselves.
+Warm dark matter, which are more relativistic than cold dark matter, but less relativistic than the observationally-excluded hot dark matter.
+Fuzzy cold dark matter, which have particles much lighter than axions – in the 10−22 eV range.
+Yet other theories attempt to explain dark matter and dark energy as different facets of the same underlying fluid (see dark fluid), or hypothesize that dark matter could decay into dark energy.
+
+
+=== Exotic dark energy ===
+
+In Lambda-CDM, dark energy is an unknown form of energy that tends to accelerate the expansion of the universe. It is less well-understood than dark matter, and similarly mysterious. The simplest explanation of dark energy is the cosmological constant (the 'Lambda' in Lambda-CDM). This is a simple constant added to the Einstein field equations to provide a repulsive force. Thus far observations are fully consistent with the cosmological constant, but leave room for a plethora of alternatives, e.g.:
+
+Quintessence, which is a scalar field similar to the one that drove cosmic inflation shortly after the Big Bang. In quintessence, dark energy will usually vary over time (as opposed to the cosmological constant, which remains a constant).
+Inhomogeneous cosmology. One of the fundamental assumptions of Lambda-CDM is that the universe is homogeneous – that is, it looks broadly the same regardless of where the observer is. In the inhomogeneous universe scenario, the observed dark energy is a measurement artefact caused by us being located at an emptier-than-average region of space.
+Variable dark energy, which is similar to quintessence in that the properties of dark energy vary over time (see figure), but different in that dark energy is not due to a scalar field.
+
+
+== Alternatives to general relativity ==
+
+General relativity, upon which the FRW metric is based, is an extremely successful theory which has met every observational test so far. However, at a fundamental level it is incompatible with quantum mechanics, and by predicting singularities, it also predicts its own breakdown. Any alternative theory of gravity would immediately imply an alternative cosmological theory since Lambda-CDM is dependent on general relativity as a framework assumption. There are many different motivations to modify general relativity, such as to eliminate the need for dark matter or dark energy, or to avoid such paradoxes as the firewall.
+There are very many modified gravity theories, none of which have gained widespread acceptance, although it remains an active field of research. Some of the more notable theories are below.
+
+
+=== Machian universe ===
+
+Ernst Mach developed a kind of extension to general relativity which proposed that inertia was due to gravitational effects of the mass distribution of the universe. This led naturally to speculation about the cosmological implications for such a proposal. Carl Brans and Robert Dicke were able to incorporate Mach's principle into general relativity which admitted for cosmological solutions that would imply a variable mass. The homogeneously distributed mass of the universe would result in a roughly scalar field that permeated the universe and would serve as a source for Newton's gravitational constant; creating a theory of quantum gravity.
+
+
+=== MOND ===
+
+Modified Newtonian Dynamics (MOND) is a relatively modern proposal to explain the galaxy rotation problem based on a variation of Newton's universal theory of gravity at low accelerations. A modification of Newton's theory would also imply a modification of general relativistic cosmology in as much as Newtonian cosmology is the limit of Friedman cosmology. While almost all astrophysicists today reject MOND in favor of dark matter, a small number of researchers continue to enhance it, recently incorporating Brans–Dicke theories into treatments that attempt to account for cosmological observations.
+Tensor–vector–scalar gravity (TeVeS) is a proposed relativistic theory that is equivalent to Modified Newtonian dynamics (MOND) in the non-relativistic limit, which purports to explain the galaxy rotation problem without invoking dark matter. Originated by Jacob Bekenstein in 2004, it incorporates various dynamical and non-dynamical tensor fields, vector fields and scalar fields.
+
+The break-through of TeVeS over MOND is that it can explain the phenomenon of gravitational lensing, a cosmic optical illusion in which matter bends light, which has been confirmed many times. A recent preliminary finding is that it can explain structure formation without CDM, but requiring a ~2eV massive neutrino (they are also required to fit some Clusters of galaxies, including the Bullet Cluster). However, other authors (see Slosar, Melchiorri and Silk) argue that TeVeS can not explain cosmic microwave background anisotropies and structure formation at the same time, i.e. ruling out those models at high significance.
+
+
+=== f(R) gravity ===
+
+f(R) gravity is a family of theories that modify general relativity by defining a different function of the Ricci scalar (R). The simplest case is just the function being equal to the scalar; this is general relativity. As a consequence of introducing an arbitrary function, there may be freedom to explain the accelerated expansion and structure formation of the Universe without adding unknown forms of dark energy or dark matter. Some functional forms may be inspired by corrections arising from a quantum theory of gravity. f(R) gravity was first proposed in 1970 by Hans Adolph Buchdahl (although φ was used rather than f for the name of the arbitrary function). It has become an active field of research following work by Starobinsky on cosmic inflation. A wide range of phenomena can be produced from this theory by adopting different functions, f; however, many functional forms can now be ruled out on observational grounds, or because of pathological theoretical problems.
+
+
+=== Other alternatives ===
+Kaluza–Klein theory, which posits an extra spatial dimension, thereby making our universe 5D instead of the 4D of General Relativity. The DGP model is one of the models in this category, claimed to be able to explain dark energy without invoking a cosmological constant.
+Entropic gravity, which describes gravity as an entropic force with macro-scale homogeneity but which is subject to quantum-level disorder. The theory claims to be able to remove the need for dark matter, as well as provide a natural explanation for dark energy.
+The GRSI model modifies General Relativity by adding self-interaction terms similar to those in quantum chromodynamics, leading to an effect similar to quark confinement in gravity. It is claimed to be able to explain observations without needing dark matter or dark energy.
+Shockwave cosmology, proposed by Joel Smoller and Blake Temple in 2003, has the "big bang" as an explosion inside a black hole, producing the expanding volume of space and matter that includes the observable universe. This black hole eventually becomes a white hole as the matter density reduces with the expansion. A related theory proposes that the acceleration of the expansion of the observable universe, normally attributed to dark energy, may be caused by an effect of the shockwave.
+
+
+== See also ==
+Quantum cosmology
+
+
+== Notes ==
+
+
+== Bibliography ==
+Arp, Halton, Seeing Red. Apeiron, Montreal, Canada. 1998. ISBN 0-9683689-0-5
+Hannes, Alfvén D., Cosmic Plasma. Reidel Publishing Company, 1981. ISBN 90-277-1151-8
+Hoyle, Fred; Geoffrey Burbidge, and Jayant V. Narlikar, A Different Approach to Cosmology: From a Static Universe through the Big Bang towards Reality. Cambridge University Press. 2000. ISBN 0-521-66223-0
+Lerner, Eric J., Big Bang Never Happened, Vintage Books, 1992. ISBN 0-679-74049-X
+Narlikar, Jayant Vishnu, Introduction to Cosmology. Jones & Bartlett Pub. 2nd edition, 1993. ISBN 9780521412506
+
+
+== External links and references ==
+Narlikar, Jayant V. and T. Padmanabhan, "Standard Cosmology and Alternatives: A Critical Appraisal". Annual Review of Astronomy and Astrophysics, Vol. 39, pp. 211–248 (2001)
+Wright, Edward L. "Cosmological Fads and Fallacies:" Errors in some popular attacks on the Big Bang

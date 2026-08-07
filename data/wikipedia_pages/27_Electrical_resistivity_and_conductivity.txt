@@ -1,0 +1,2746 @@
+Wikipedia article: Electrical resistivity and conductivity
+Source: https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity
+PageID: 61580
+======================================================================
+
+Electrical resistivity (also called volume resistivity or specific electrical resistance) is a fundamental specific property of a material that measures its electrical resistance or how strongly it resists electric current. A low resistivity indicates a material that readily allows electric current. Resistivity is commonly represented by the Greek letter ρ (rho). The SI unit of electrical resistivity is the ohm-metre (Ω⋅m). For example, if a 1 m3 solid cube of material has sheet contacts on two opposite faces, and the resistance between these contacts is 1 Ω, then the resistivity of the material is 1 Ω⋅m.
+Electrical conductivity (or specific conductance) is the reciprocal of electrical resistivity. It represents a material's ability to conduct electric current. It is commonly signified by the Greek letter σ (sigma), but κ (kappa) (especially in electrical engineering) and γ (gamma) are sometimes used. The SI unit of electrical conductivity is siemens per metre (S/m). Resistivity and conductivity are intensive properties of materials, giving the opposition of a standard cube of material to current. Electrical resistance and conductance are corresponding extensive properties that give the opposition of a specific object to electric current.
+
+
+== Definition ==
+
+
+=== Ideal case ===
+
+In an ideal case, cross-section and physical composition of the examined material are uniform across the sample, and the electric field and current density are both parallel and constant everywhere. Many resistors and conductors do in fact have a uniform cross section with a uniform flow of electric current, and are made of a single material, so that this is a good model. (See the adjacent diagram.) When this is the case, the resistance of the conductor is directly proportional to its length and inversely proportional to its cross-sectional area, where the electrical resistivity ρ (Greek: rho) is the constant of proportionality. This is written as:
+
+  
+    
+      
+        R
+        ∝
+        
+          
+            ℓ
+            A
+          
+        
+      
+    
+    {\displaystyle R\propto {\frac {\ell }{A}}}
+  
+
+  
+    
+      
+        
+          
+            
+              
+                R
+              
+              
+                
+                =
+                ρ
+                
+                  
+                    ℓ
+                    A
+                  
+                
+              
+            
+            
+              
+                
+
+                
+                ⇔
+                ρ
+              
+              
+                
+                =
+                R
+                
+                  
+                    A
+                    ℓ
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}R&=\rho {\frac {\ell }{A}}\\[3pt]{}\Leftrightarrow \rho &=R{\frac {A}{\ell }},\end{aligned}}}
+  
+
+where
+
+The resistivity can be expressed using the SI unit ohm metre (Ω⋅m)—i.e. ohms multiplied by square metres (for the cross-sectional area) then divided by metres (for the length).
+Both resistance and resistivity describe how difficult it is to make electrical current flow through a material, but unlike resistance, resistivity is an intrinsic property and does not depend on geometric properties of a material. This means that all pure copper (Cu) wires (which have not been subjected to distortion of their crystalline structure etc.), irrespective of their shape and size, have the same resistivity, but a long, thin copper wire has a much larger resistance than a thick, short copper wire. Every material has its own characteristic resistivity. For example, rubber has a far larger resistivity than copper.
+In a hydraulic analogy, passing current through a high-resistivity material is like pushing water through a pipe full of sand - while passing current through a low-resistivity material is like pushing water through an empty pipe. If the pipes are the same size and shape, the pipe full of sand has higher resistance to flow. Resistance, however, is not solely determined by the presence or absence of sand. It also depends on the length and width of the pipe: short or wide pipes have lower resistance than narrow or long pipes.
+ 
+The above equation can be transposed to get Pouillet's law (named after Claude Pouillet):
+
+  
+    
+      
+        R
+        =
+        ρ
+        
+          
+            ℓ
+            A
+          
+        
+        .
+      
+    
+    {\displaystyle R=\rho {\frac {\ell }{A}}.}
+  
+ The resistance of a given element is proportional to the length, but inversely proportional to the cross-sectional area. For example, if A = 1 m2, 
+  
+    
+      
+        ℓ
+      
+    
+    {\displaystyle \ell }
+  
+ = 1 m (forming a cube with perfectly conductive contacts on opposite faces), then the resistance of this element in ohms is numerically equal to the resistivity of the material it is made of in Ω⋅m.
+Conductivity, σ, is the inverse of resistivity:
+
+  
+    
+      
+        σ
+        =
+        
+          
+            1
+            ρ
+          
+        
+        .
+      
+    
+    {\displaystyle \sigma ={\frac {1}{\rho }}.}
+  
+
+Conductivity has SI units of siemens per metre (S/m).
+Conductivity, 
+  
+    
+      
+        σ
+      
+    
+    {\displaystyle \sigma }
+  
+, is directly proportional to 
+  
+    
+      
+        n
+        
+          μ
+          
+            n
+          
+        
+        +
+        p
+        
+          μ
+          
+            p
+          
+        
+      
+    
+    {\displaystyle n\mu _{n}+p\mu _{p}}
+  
+
+  
+    
+      
+        σ
+        =
+        q
+        (
+        n
+        
+          μ
+          
+            n
+          
+        
+        +
+        p
+        
+          μ
+          
+            p
+          
+        
+        )
+      
+    
+    {\displaystyle \sigma =q(n\mu _{n}+p\mu _{p})}
+  
+
+Where: 
+  
+    
+      
+        q
+      
+    
+    {\displaystyle q}
+  
+ = electron charge, 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ = electron concentration, 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ = hole concentration, 
+  
+    
+      
+        
+          μ
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mu _{n}}
+  
+ = electron mobility, 
+  
+    
+      
+        
+          μ
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \mu _{p}}
+  
+ = hole mobility.
+
+
+=== General scalar quantities ===
+If the geometry is more complicated, or if the resistivity varies from point to point within the material, the current and electric field will be functions of position. Then it is necessary to use a more general expression in which the resistivity at a particular point is defined as the ratio of the electric field to the density of the current it creates at that point:
+
+  
+    
+      
+        ρ
+        (
+        x
+        )
+        =
+        
+          
+            
+              E
+              (
+              x
+              )
+            
+            
+              J
+              (
+              x
+              )
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \rho (x)={\frac {E(x)}{J(x)}},}
+  
+
+where
+
+The current density is parallel to the electric field by necessity.
+Conductivity is the inverse (reciprocal) of resistivity. Here, it is given by:
+
+  
+    
+      
+        σ
+        (
+        x
+        )
+        =
+        
+          
+            1
+            
+              ρ
+              (
+              x
+              )
+            
+          
+        
+        =
+        
+          
+            
+              J
+              (
+              x
+              )
+            
+            
+              E
+              (
+              x
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \sigma (x)={\frac {1}{\rho (x)}}={\frac {J(x)}{E(x)}}.}
+  
+
+For example, rubber is a material with large ρ and small σ — because even a very large electric field in rubber makes almost no current flow through it. On the other hand, copper is a material with small ρ and large σ — because even a small electric field pulls a lot of current through it.
+This expression simplifies to the formula given above under "ideal case" when the resistivity is constant in the material and the geometry has a uniform cross-section. In this case, the electric field and current density are constant and parallel.
+
+
+=== Tensor resistivity ===
+When the resistivity of a material has a directional component, the most general definition of resistivity must be used. It starts from the tensor-vector form of Ohm's law, which relates the electric field inside a material to the electric current flow. This equation is completely general, meaning it is valid in all cases, including those mentioned above. However, this definition is the most complicated, so it is only directly used in anisotropic cases, where the more simple definitions cannot be applied. If the material is isotropic, it is safe to ignore the tensor-vector definition, and use a simpler expression instead.
+Here, anisotropic means that the material has different properties in different directions. For example, a crystal of graphite consists microscopically of a stack of sheets, and current flows very easily through each sheet, but much less easily from one sheet to the adjacent one. In such cases, the current does not flow in exactly the same direction as the electric field. Thus, the appropriate equations are generalised to the three-dimensional tensor form:
+
+  
+    
+      
+        
+          J
+        
+        =
+        
+          σ
+        
+        
+          E
+        
+        
+        
+        ⇌
+        
+        
+        
+          E
+        
+        =
+        
+          ρ
+        
+        
+          J
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {J} ={\boldsymbol {\sigma }}\mathbf {E} \,\,\rightleftharpoons \,\,\mathbf {E} ={\boldsymbol {\rho }}\mathbf {J} ,}
+  
+
+where the conductivity σ and resistivity ρ are rank-2 tensors, and electric field E and current density J are vectors. These tensors can be represented by 3×3 matrices, the vectors with 3×1 matrices, with matrix multiplication used on the right side of these equations. In matrix form, the resistivity relation is given by:
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    E
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    E
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    E
+                    
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    ρ
+                    
+                      x
+                      x
+                    
+                  
+                
+                
+                  
+                    ρ
+                    
+                      x
+                      y
+                    
+                  
+                
+                
+                  
+                    ρ
+                    
+                      x
+                      z
+                    
+                  
+                
+              
+              
+                
+                  
+                    ρ
+                    
+                      y
+                      x
+                    
+                  
+                
+                
+                  
+                    ρ
+                    
+                      y
+                      y
+                    
+                  
+                
+                
+                  
+                    ρ
+                    
+                      y
+                      z
+                    
+                  
+                
+              
+              
+                
+                  
+                    ρ
+                    
+                      z
+                      x
+                    
+                  
+                
+                
+                  
+                    ρ
+                    
+                      z
+                      y
+                    
+                  
+                
+                
+                  
+                    ρ
+                    
+                      z
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  
+                    J
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    J
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    J
+                    
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        ,
+      
+    
+    {\displaystyle {\begin{bmatrix}E_{x}\\E_{y}\\E_{z}\end{bmatrix}}={\begin{bmatrix}\rho _{xx}&\rho _{xy}&\rho _{xz}\\\rho _{yx}&\rho _{yy}&\rho _{yz}\\\rho _{zx}&\rho _{zy}&\rho _{zz}\end{bmatrix}}{\begin{bmatrix}J_{x}\\J_{y}\\J_{z}\end{bmatrix}},}
+  
+
+where
+
+Equivalently, resistivity can be given in the more compact Einstein notation:
+
+  
+    
+      
+        
+          
+            E
+          
+          
+            i
+          
+        
+        =
+        
+          
+            ρ
+          
+          
+            i
+            j
+          
+        
+        
+          
+            J
+          
+          
+            j
+          
+        
+         
+        .
+      
+    
+    {\displaystyle \mathbf {E} _{i}={\boldsymbol {\rho }}_{ij}\mathbf {J} _{j}~.}
+  
+
+In either case, the resulting expression for each electric field component is:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  E
+                  
+                    x
+                  
+                
+              
+              
+                
+                =
+                
+                  ρ
+                  
+                    x
+                    x
+                  
+                
+                
+                  J
+                  
+                    x
+                  
+                
+                +
+                
+                  ρ
+                  
+                    x
+                    y
+                  
+                
+                
+                  J
+                  
+                    y
+                  
+                
+                +
+                
+                  ρ
+                  
+                    x
+                    z
+                  
+                
+                
+                  J
+                  
+                    z
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  E
+                  
+                    y
+                  
+                
+              
+              
+                
+                =
+                
+                  ρ
+                  
+                    y
+                    x
+                  
+                
+                
+                  J
+                  
+                    x
+                  
+                
+                +
+                
+                  ρ
+                  
+                    y
+                    y
+                  
+                
+                
+                  J
+                  
+                    y
+                  
+                
+                +
+                
+                  ρ
+                  
+                    y
+                    z
+                  
+                
+                
+                  J
+                  
+                    z
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  E
+                  
+                    z
+                  
+                
+              
+              
+                
+                =
+                
+                  ρ
+                  
+                    z
+                    x
+                  
+                
+                
+                  J
+                  
+                    x
+                  
+                
+                +
+                
+                  ρ
+                  
+                    z
+                    y
+                  
+                
+                
+                  J
+                  
+                    y
+                  
+                
+                +
+                
+                  ρ
+                  
+                    z
+                    z
+                  
+                
+                
+                  J
+                  
+                    z
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}E_{x}&=\rho _{xx}J_{x}+\rho _{xy}J_{y}+\rho _{xz}J_{z},\\E_{y}&=\rho _{yx}J_{x}+\rho _{yy}J_{y}+\rho _{yz}J_{z},\\E_{z}&=\rho _{zx}J_{x}+\rho _{zy}J_{y}+\rho _{zz}J_{z}.\end{aligned}}}
+  
+
+Since the choice of the coordinate system is free, the usual convention is to simplify the expression by choosing an x-axis parallel to the current direction, so Jy = Jz = 0. This leaves:
+
+  
+    
+      
+        
+          ρ
+          
+            x
+            x
+          
+        
+        =
+        
+          
+            
+              E
+              
+                x
+              
+            
+            
+              J
+              
+                x
+              
+            
+          
+        
+        ,
+        
+        
+          ρ
+          
+            y
+            x
+          
+        
+        =
+        
+          
+            
+              E
+              
+                y
+              
+            
+            
+              J
+              
+                x
+              
+            
+          
+        
+        ,
+        
+           and 
+        
+        
+          ρ
+          
+            z
+            x
+          
+        
+        =
+        
+          
+            
+              E
+              
+                z
+              
+            
+            
+              J
+              
+                x
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \rho _{xx}={\frac {E_{x}}{J_{x}}},\quad \rho _{yx}={\frac {E_{y}}{J_{x}}},{\text{ and }}\rho _{zx}={\frac {E_{z}}{J_{x}}}.}
+  
+
+Conductivity is defined similarly:
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    J
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    J
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    J
+                    
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    σ
+                    
+                      x
+                      x
+                    
+                  
+                
+                
+                  
+                    σ
+                    
+                      x
+                      y
+                    
+                  
+                
+                
+                  
+                    σ
+                    
+                      x
+                      z
+                    
+                  
+                
+              
+              
+                
+                  
+                    σ
+                    
+                      y
+                      x
+                    
+                  
+                
+                
+                  
+                    σ
+                    
+                      y
+                      y
+                    
+                  
+                
+                
+                  
+                    σ
+                    
+                      y
+                      z
+                    
+                  
+                
+              
+              
+                
+                  
+                    σ
+                    
+                      z
+                      x
+                    
+                  
+                
+                
+                  
+                    σ
+                    
+                      z
+                      y
+                    
+                  
+                
+                
+                  
+                    σ
+                    
+                      z
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  
+                    E
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    E
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    E
+                    
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle {\begin{bmatrix}J_{x}\\J_{y}\\J_{z}\end{bmatrix}}={\begin{bmatrix}\sigma _{xx}&\sigma _{xy}&\sigma _{xz}\\\sigma _{yx}&\sigma _{yy}&\sigma _{yz}\\\sigma _{zx}&\sigma _{zy}&\sigma _{zz}\end{bmatrix}}{\begin{bmatrix}E_{x}\\E_{y}\\E_{z}\end{bmatrix}}}
+  
+
+or
+
+  
+    
+      
+        
+          
+            J
+          
+          
+            i
+          
+        
+        =
+        
+          
+            σ
+          
+          
+            i
+            j
+          
+        
+        
+          
+            E
+          
+          
+            j
+          
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {J} _{i}={\boldsymbol {\sigma }}_{ij}\mathbf {E} _{j},}
+  
+
+both resulting in:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  J
+                  
+                    x
+                  
+                
+              
+              
+                
+                =
+                
+                  σ
+                  
+                    x
+                    x
+                  
+                
+                
+                  E
+                  
+                    x
+                  
+                
+                +
+                
+                  σ
+                  
+                    x
+                    y
+                  
+                
+                
+                  E
+                  
+                    y
+                  
+                
+                +
+                
+                  σ
+                  
+                    x
+                    z
+                  
+                
+                
+                  E
+                  
+                    z
+                  
+                
+              
+            
+            
+              
+                
+                  J
+                  
+                    y
+                  
+                
+              
+              
+                
+                =
+                
+                  σ
+                  
+                    y
+                    x
+                  
+                
+                
+                  E
+                  
+                    x
+                  
+                
+                +
+                
+                  σ
+                  
+                    y
+                    y
+                  
+                
+                
+                  E
+                  
+                    y
+                  
+                
+                +
+                
+                  σ
+                  
+                    y
+                    z
+                  
+                
+                
+                  E
+                  
+                    z
+                  
+                
+              
+            
+            
+              
+                
+                  J
+                  
+                    z
+                  
+                
+              
+              
+                
+                =
+                
+                  σ
+                  
+                    z
+                    x
+                  
+                
+                
+                  E
+                  
+                    x
+                  
+                
+                +
+                
+                  σ
+                  
+                    z
+                    y
+                  
+                
+                
+                  E
+                  
+                    y
+                  
+                
+                +
+                
+                  σ
+                  
+                    z
+                    z
+                  
+                
+                
+                  E
+                  
+                    z
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\begin{aligned}J_{x}&=\sigma _{xx}E_{x}+\sigma _{xy}E_{y}+\sigma _{xz}E_{z}\\J_{y}&=\sigma _{yx}E_{x}+\sigma _{yy}E_{y}+\sigma _{yz}E_{z}\\J_{z}&=\sigma _{zx}E_{x}+\sigma _{zy}E_{y}+\sigma _{zz}E_{z}\end{aligned}}.}
+  
+
+Looking at the two expressions, 
+  
+    
+      
+        
+          ρ
+        
+      
+    
+    {\displaystyle {\boldsymbol {\rho }}}
+  
+ and 
+  
+    
+      
+        
+          σ
+        
+      
+    
+    {\displaystyle {\boldsymbol {\sigma }}}
+  
+ are the matrix inverse of each other. However, in the most general case, the individual matrix elements are not necessarily reciprocals of one another; for example, σxx may not be equal to 1/ρxx. This can be seen in the Hall effect, where 
+  
+    
+      
+        
+          ρ
+          
+            x
+            y
+          
+        
+      
+    
+    {\displaystyle \rho _{xy}}
+  
+ is nonzero. In the Hall effect, due to rotational invariance about the z-axis, 
+  
+    
+      
+        
+          ρ
+          
+            y
+            y
+          
+        
+        =
+        
+          ρ
+          
+            x
+            x
+          
+        
+      
+    
+    {\displaystyle \rho _{yy}=\rho _{xx}}
+  
+ and 
+  
+    
+      
+        
+          ρ
+          
+            y
+            x
+          
+        
+        =
+        −
+        
+          ρ
+          
+            x
+            y
+          
+        
+      
+    
+    {\displaystyle \rho _{yx}=-\rho _{xy}}
+  
+, so the relation between resistivity and conductivity simplifies to:
+
+  
+    
+      
+        
+          σ
+          
+            x
+            x
+          
+        
+        =
+        
+          
+            
+              ρ
+              
+                x
+                x
+              
+            
+            
+              
+                ρ
+                
+                  x
+                  x
+                
+                
+                  2
+                
+              
+              +
+              
+                ρ
+                
+                  x
+                  y
+                
+                
+                  2
+                
+              
+            
+          
+        
+        ,
+        
+        
+          σ
+          
+            x
+            y
+          
+        
+        =
+        
+          
+            
+              −
+              
+                ρ
+                
+                  x
+                  y
+                
+              
+            
+            
+              
+                ρ
+                
+                  x
+                  x
+                
+                
+                  2
+                
+              
+              +
+              
+                ρ
+                
+                  x
+                  y
+                
+                
+                  2
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \sigma _{xx}={\frac {\rho _{xx}}{\rho _{xx}^{2}+\rho _{xy}^{2}}},\quad \sigma _{xy}={\frac {-\rho _{xy}}{\rho _{xx}^{2}+\rho _{xy}^{2}}}.}
+  
+
+If the electric field is parallel to the applied current, 
+  
+    
+      
+        
+          ρ
+          
+            x
+            y
+          
+        
+      
+    
+    {\displaystyle \rho _{xy}}
+  
+ and 
+  
+    
+      
+        
+          ρ
+          
+            x
+            z
+          
+        
+      
+    
+    {\displaystyle \rho _{xz}}
+  
+ are zero. When they are zero, one number, 
+  
+    
+      
+        
+          ρ
+          
+            x
+            x
+          
+        
+      
+    
+    {\displaystyle \rho _{xx}}
+  
+, is enough to describe the electrical resistivity. It is then written as simply 
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+  
+, and this reduces to the simpler expression.
+
+
+== Causes of conductivity ==
+Electric current is the ordered movement of electrically-charged particles. Specifically, the relation between current density and charged-particle velocity is governed by the equation 
+  
+    
+      
+        
+          
+            
+              J
+              →
+            
+          
+        
+        =
+        q
+        n
+        
+          
+            
+              
+                v
+                →
+              
+            
+          
+          
+            d
+          
+        
+      
+    
+    {\displaystyle {\vec {J}}=qn{\vec {v}}_{d}}
+  
+ where 
+  
+    
+      
+        
+          
+            
+              J
+              →
+            
+          
+        
+      
+    
+    {\textstyle {\vec {J}}}
+  
+ is the current density, 
+  
+    
+      
+        q
+      
+    
+    {\textstyle q}
+  
+ is the charge of the carrier, 
+  
+    
+      
+        n
+      
+    
+    {\textstyle n}
+  
+ is the density of the particles, and 
+  
+    
+      
+        
+          
+            
+              
+                v
+                →
+              
+            
+          
+          
+            d
+          
+        
+      
+    
+    {\textstyle {\vec {v}}_{d}}
+  
+ their drift velocity, a time-averaged measure of their long-term motion.
+
+
+=== Band theory simplified ===
+
+According to elementary quantum mechanics, an electron in an atom or crystal can only have certain precise energy levels; energies between these levels are impossible. When a large number of such allowed levels have close-spaced energy values—i.e. have energies that differ only minutely—those close energy levels in combination are called an "energy band". There can be many such energy bands in a material, depending on the atomic number of the constituent atoms and their distribution within the crystal.
+The material's electrons seek to minimise the total energy in the material by settling into low energy states; however, the Pauli exclusion principle means that only one can exist in each such state. So the electrons "fill up" the band structure starting from the bottom. The characteristic energy level up to which the electrons have filled is called the Fermi level. The position of the Fermi level with respect to the band structure is very important for electrical conduction: Only electrons in energy levels near or above the Fermi level are free to move within the broader material structure, since the electrons can easily jump among the partially occupied states in that region. In contrast, the low energy states are completely filled with a fixed limit on the number of electrons at all times, and the high energy states are empty of electrons at all times.
+Electric current consists of a flow of electrons. In metals there are many electron energy levels near the Fermi level, so there are many electrons available to move. This is what causes the high electronic conductivity of metals.
+An important part of band theory is that there may be forbidden bands of energy: energy intervals that contain no energy levels. In insulators and semiconductors, the number of electrons is just the right amount to fill a certain integer number of low energy bands, exactly to the boundary. In this case, the Fermi level falls within a band gap. Since there are no available states near the Fermi level, and the electrons are not freely movable, the electronic conductivity is very low.
+
+
+=== In metals ===
+
+A metal consists of a lattice of atoms, each with an outer shell of electrons that freely dissociate from their parent atoms and travel through the lattice. This is also known as a positive ionic lattice. This 'sea' of dissociable electrons allows the metal to conduct electric current. When an electrical potential difference (a voltage) is applied across the metal, the resulting electric field causes electrons to drift towards the positive terminal. The actual drift velocity of electrons is typically small, on the order of magnitude of metres per hour. However, due to the sheer number of moving electrons, even a slow drift velocity results in a large current density. The mechanism is similar to transfer of momentum of balls in a Newton's cradle but the rapid propagation of an electric energy along a wire is not due to the mechanical forces, but the propagation of an energy-carrying electromagnetic field guided by the wire.
+Metals have a non-zero electrical resistance but it is significantly smaller than that of semiconductors and insulators. In simpler models (non quantum mechanical models) this can be explained by replacing electrons and the crystal lattice by a wave-like structure. When the electron wave travels through the lattice, the waves interfere, which causes resistance. The more regular the lattice is, the less disturbance happens and thus the less resistance. The amount of resistance is thus mainly caused by two factors. First, it is caused by the temperature and thus amount of vibration of the crystal lattice. Higher temperatures cause bigger vibrations, which act as irregularities in the lattice. Second, the purity of the metal is relevant as a mixture of different ions is also an irregularity. The small decrease in conductivity on melting of pure metals is due to the loss of long range crystalline order. The short range order remains and strong correlation between positions of ions results in coherence between waves diffracted by adjacent ions.
+
+
+=== In semiconductors and insulators ===
+
+In metals, the Fermi level lies in the conduction band (see Band Theory, above) giving rise to free conduction electrons. However, in semiconductors the position of the Fermi level is within the band gap, about halfway between the conduction band minimum (the bottom of the first band of unfilled electron energy levels) and the valence band maximum (the top of the band below the conduction band, of filled electron energy levels). That applies for intrinsic (undoped) semiconductors. This means that at absolute zero temperature, there would be no free conduction electrons, and the resistance is infinite. However, the resistance decreases as the charge carrier density (i.e., without introducing further complications, the density of electrons) in the conduction band increases. In extrinsic (doped) semiconductors, dopant atoms increase the majority charge carrier concentration by donating electrons to the conduction band or producing holes in the valence band. (A "hole" is a position where an electron is missing; such holes can behave in a similar way to electrons.) For both types of donor or acceptor atoms, increasing dopant density reduces resistance. Hence, highly doped semiconductors behave metallically. At very high temperatures, the contribution of thermally generated carriers dominates over the contribution from dopant atoms, and the resistance decreases exponentially with temperature.
+
+
+=== In ionic liquids/electrolytes ===
+
+In electrolytes, electrical conduction happens not by band electrons or holes, but by full atomic species (ions) travelling, each carrying an electrical charge. The resistivity of ionic solutions (electrolytes) varies tremendously with concentration – while distilled water is almost an insulator, salt water is a reasonable electrical conductor. Conduction in ionic liquids is also controlled by the movement of ions, but here we are talking about molten salts rather than solvated ions. In biological membranes, currents are carried by ionic salts. Small holes in cell membranes, called ion channels, are selective to specific ions and determine the membrane resistance.
+The concentration of ions in a liquid (e.g., in an aqueous solution) depends on the degree of dissociation of the dissolved substance, characterised by a dissociation coefficient 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+, which is the ratio of the concentration of ions 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ to the concentration of molecules of the dissolved substance 
+  
+    
+      
+        
+          N
+          
+            0
+          
+        
+      
+    
+    {\displaystyle N_{0}}
+  
+:
+
+  
+    
+      
+        N
+        =
+        α
+        
+          N
+          
+            0
+          
+        
+         
+        .
+      
+    
+    {\displaystyle N=\alpha N_{0}~.}
+  
+
+The specific electrical conductivity (
+  
+    
+      
+        σ
+      
+    
+    {\displaystyle \sigma }
+  
+) of a solution is equal to:
+
+  
+    
+      
+        σ
+        =
+        q
+        
+          (
+          
+            
+              b
+              
+                +
+              
+            
+            +
+            
+              b
+              
+                −
+              
+            
+          
+          )
+        
+        α
+        
+          N
+          
+            0
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle \sigma =q\left(b^{+}+b^{-}\right)\alpha N_{0}~,}
+  
+
+where 
+  
+    
+      
+        q
+      
+    
+    {\displaystyle q}
+  
+: module of the ion charge, 
+  
+    
+      
+        
+          b
+          
+            +
+          
+        
+      
+    
+    {\displaystyle b^{+}}
+  
+ and 
+  
+    
+      
+        
+          b
+          
+            −
+          
+        
+      
+    
+    {\displaystyle b^{-}}
+  
+: mobility of positively and negatively charged ions, 
+  
+    
+      
+        
+          N
+          
+            0
+          
+        
+      
+    
+    {\displaystyle N_{0}}
+  
+: concentration of molecules of the dissolved substance, 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+: the coefficient of dissociation.
+
+
+=== Superconductivity ===
+
+The electrical resistivity of a metallic conductor decreases gradually as temperature is lowered. In normal (that is, non-superconducting) conductors, such as copper or silver, this decrease is limited by impurities and other defects. Even near absolute zero, a real sample of a normal conductor shows some resistance. In a superconductor, the resistance drops abruptly to zero when the material is cooled below its critical temperature. In a normal conductor, the current is driven by a voltage gradient, whereas in a superconductor, there is no voltage gradient and the current is instead related to the phase gradient of the superconducting order parameter. A consequence of this is that an electric current flowing in a loop of superconducting wire can persist indefinitely with no power source.
+In a class of superconductors known as type II superconductors, including all known high-temperature superconductors, an extremely low but nonzero resistivity appears at temperatures not too far below the nominal superconducting transition when an electric current is applied in conjunction with a strong magnetic field, which may be caused by the electric current. This is due to the motion of magnetic vortices in the electronic superfluid, which dissipates some of the energy carried by the current. The resistance due to this effect is tiny compared with that of non-superconducting materials, but must be taken into account in sensitive experiments. However, as the temperature decreases far enough below the nominal superconducting transition, these vortices can become frozen so that the resistance of the material becomes truly zero.
+
+
+=== Plasma ===
+
+Plasmas are very good conductors and electric potentials play an important role.
+The potential as it exists on average in the space between charged particles, independent of the question of how it can be measured, is called the plasma potential, or space potential. If an electrode is inserted into a plasma, its potential generally lies considerably below the plasma potential, due to what is termed a Debye sheath. The good electrical conductivity of plasmas makes their electric fields very small. This results in the important concept of quasineutrality, which says the density of negative charges is approximately equal to the density of positive charges over large volumes of the plasma (ne = ⟨Z⟩ > ni), but on the scale of the Debye length there can be charge imbalance. In the special case that double layers are formed, the charge separation can extend some tens of Debye lengths.
+The magnitude of the potentials and electric fields must be determined by means other than simply finding the net charge density. A common example is to assume that the electrons satisfy the Boltzmann relation:
+
+  
+    
+      
+        
+          n
+          
+            e
+          
+        
+        ∝
+        exp
+        ⁡
+        
+          (
+          
+            e
+            Φ
+            
+              /
+            
+            
+              k
+              
+                B
+              
+            
+            
+              T
+              
+                e
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle n_{\text{e}}\propto \exp \left(e\Phi /k_{\text{B}}T_{\text{e}}\right).}
+  
+
+Differentiating this relation provides a means to calculate the electric field from the density:
+
+  
+    
+      
+        
+          E
+        
+        =
+        −
+        
+          
+            
+              
+                k
+                
+                  B
+                
+              
+              
+                T
+                
+                  e
+                
+              
+            
+            e
+          
+        
+        
+          
+            
+              ∇
+              
+                n
+                
+                  e
+                
+              
+            
+            
+              n
+              
+                e
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \mathbf {E} =-{\frac {k_{\text{B}}T_{\text{e}}}{e}}{\frac {\nabla n_{\text{e}}}{n_{\text{e}}}}.}
+  
+
+(∇ is the vector gradient operator; see nabla symbol and gradient for more information.)
+It is possible to produce a plasma that is not quasineutral. An electron beam, for example, has only negative charges. The density of a non-neutral plasma must generally be very low, or it must be very small. Otherwise, the repulsive electrostatic force dissipates it.
+In astrophysical plasmas, Debye screening prevents electric fields from directly affecting the plasma over large distances, i.e., greater than the Debye length. However, the existence of charged particles causes the plasma to generate, and be affected by, magnetic fields. This can and does cause extremely complex behaviour, such as the generation of plasma double layers, an object that separates charge over a few tens of Debye lengths. The dynamics of plasmas interacting with external and self-generated magnetic fields are studied in the academic discipline of magnetohydrodynamics.
+Plasma is often called the fourth state of matter after solid, liquids and gases. It is distinct from these and other lower-energy states of matter. Although it is closely related to the gas phase in that it also has no definite form or volume, it differs in a number of ways, including the following:
+
+
+== Resistivity and conductivity of various materials ==
+
+A conductor such as a metal has high conductivity and a low resistivity.
+An insulator such as glass has low conductivity and a high resistivity.
+The conductivity of a semiconductor is generally intermediate, but varies widely under different conditions, such as exposure of the material to electric fields or specific frequencies of light, and, most important, with temperature and composition of the semiconductor material.
+The degree of semiconductors doping makes a large difference in conductivity. To a point, more doping leads to higher conductivity. The conductivity of a water/aqueous solution is highly dependent on its concentration of dissolved salts and other chemical species that ionise in the solution. Electrical conductivity of water samples is used as an indicator of how salt-free, ion-free, or impurity-free the sample is; the purer the water, the lower the conductivity (the higher the resistivity). Conductivity measurements in water are often reported as specific conductance, relative to the conductivity of pure water at 25 °C. An EC meter is normally used to measure conductivity in a solution. A rough summary is as follows:
+
+
+=== Table ===
+This table shows the resistivity (ρ), conductivity and temperature coefficient of various materials at 20 °C (68 °F; 293 K).
+
+The effective temperature coefficient varies with temperature and purity level of the material. The 20 °C value is only an approximation when used at other temperatures. For example, the coefficient becomes lower at higher temperatures for copper, and the value 0.00427 is commonly specified at 0 °C.
+The extremely low resistivity (high conductivity) of silver is characteristic of metals. George Gamow tidily summed up the nature of the metals' dealings with electrons in his popular science book One, Two, Three...Infinity (1947):
+
+The metallic substances differ from all other materials by the fact that the outer shells of their atoms are bound rather loosely, and often let one of their electrons go free. Thus the interior of a metal is filled up with a large number of unattached electrons that travel aimlessly around like a crowd of displaced persons. When a metal wire is subjected to electric force applied on its opposite ends, these free electrons rush in the direction of the force, thus forming what we call an electric current.
+More technically, the free electron model gives a basic description of electron flow in metals.
+Wood is widely regarded as an extremely good insulator, but its resistivity is sensitively dependent on moisture content, with damp wood being a factor of at least 1010 worse insulator than oven-dry. In any case, a sufficiently high voltage – such as that in lightning strikes or some high-voltage power lines – can lead to insulation breakdown and electrocution risk even with apparently dry wood.
+
+
+== Temperature dependence ==
+
+
+=== Linear approximation ===
+The electrical resistivity of most materials changes with temperature. If the temperature T does not vary too much, a linear approximation is typically used:
+
+  
+    
+      
+        ρ
+        (
+        T
+        )
+        =
+        
+          ρ
+          
+            0
+          
+        
+        [
+        1
+        +
+        α
+        (
+        T
+        −
+        
+          T
+          
+            0
+          
+        
+        )
+        ]
+        ,
+      
+    
+    {\displaystyle \rho (T)=\rho _{0}[1+\alpha (T-T_{0})],}
+  
+
+where 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ is called the temperature coefficient of resistivity, 
+  
+    
+      
+        
+          T
+          
+            0
+          
+        
+      
+    
+    {\displaystyle T_{0}}
+  
+ is a fixed reference temperature (usually room temperature), and 
+  
+    
+      
+        
+          ρ
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \rho _{0}}
+  
+ is the resistivity at temperature 
+  
+    
+      
+        
+          T
+          
+            0
+          
+        
+      
+    
+    {\displaystyle T_{0}}
+  
+. The parameter 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ is an empirical parameter fitted from measurement data, equal to 1/
+  
+    
+      
+        κ
+      
+    
+    {\displaystyle \kappa }
+  
+. Because the linear approximation is only an approximation, 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ is different for different reference temperatures. For this reason it is usual to specify the temperature that 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ was measured at with a suffix, such as 
+  
+    
+      
+        
+          α
+          
+            15
+          
+        
+      
+    
+    {\displaystyle \alpha _{15}}
+  
+, and the relationship only holds in a range of temperatures around the reference. When the temperature varies over a large temperature range, the linear approximation is inadequate and a more detailed analysis and understanding should be used.
+
+
+=== Metals ===
+
+In general, electrical resistivity of metals increases with temperature. Electron–phonon interactions can play a key role. At high temperatures, the resistance of a metal increases linearly with temperature. As the temperature of a metal is reduced, the temperature dependence of resistivity follows a power law function of temperature. Mathematically the temperature dependence of the resistivity ρ of a metal can be approximated through the Bloch–Grüneisen formula:
+
+  
+    
+      
+        ρ
+        (
+        T
+        )
+        =
+        ρ
+        (
+        0
+        )
+        +
+        A
+        
+          
+            (
+            
+              
+                T
+                
+                  Θ
+                  
+                    R
+                  
+                
+              
+            
+            )
+          
+          
+            n
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            
+              Θ
+              
+                R
+              
+            
+            
+              /
+            
+            T
+          
+        
+        
+          
+            
+              x
+              
+                n
+              
+            
+            
+              (
+              
+                e
+                
+                  x
+                
+              
+              −
+              1
+              )
+              (
+              1
+              −
+              
+                e
+                
+                  −
+                  x
+                
+              
+              )
+            
+          
+        
+        
+        d
+        x
+        ,
+      
+    
+    {\displaystyle \rho (T)=\rho (0)+A\left({\frac {T}{\Theta _{R}}}\right)^{n}\int _{0}^{\Theta _{R}/T}{\frac {x^{n}}{(e^{x}-1)(1-e^{-x})}}\,dx,}
+  
+
+where 
+  
+    
+      
+        ρ
+        (
+        0
+        )
+      
+    
+    {\displaystyle \rho (0)}
+  
+ is the residual resistivity due to defect scattering, A is a constant that depends on the velocity of electrons at the Fermi surface, the Debye radius and the number density of electrons in the metal. 
+  
+    
+      
+        
+          Θ
+          
+            R
+          
+        
+      
+    
+    {\displaystyle \Theta _{R}}
+  
+ is the Debye temperature as obtained from resistivity measurements and matches very closely with the values of Debye temperature obtained from specific heat measurements. n is an integer that depends upon the nature of interaction:
+
+n = 5 implies that the resistance is due to scattering of electrons by phonons (as it is for simple metals)
+n = 3 implies that the resistance is due to s-d electron scattering (as is the case for transition metals)
+n = 2 implies that the resistance is due to electron–electron interaction.
+The Bloch–Grüneisen formula is an approximation obtained assuming that the studied metal has spherical Fermi surface inscribed within the first Brillouin zone and a Debye phonon spectrum.
+If more than one source of scattering is simultaneously present, Matthiessen's rule (first formulated by Augustus Matthiessen in the 1860s) states that the total resistance can be approximated by adding up several different terms, each with the appropriate value of n.
+As the temperature of the metal is sufficiently reduced (so as to 'freeze' all the phonons), the resistivity usually reaches a constant value, known as the residual resistivity. This value depends not only on the type of metal, but on its purity and thermal history. The value of the residual resistivity of a metal is decided by its impurity concentration. Some materials lose all electrical resistivity at sufficiently low temperatures, due to an effect known as superconductivity.
+An investigation of the low-temperature resistivity of metals was the motivation to Heike Kamerlingh Onnes's experiments that led in 1911 to discovery of superconductivity. For details see History of superconductivity.
+
+
+==== Wiedemann–Franz law ====
+The Wiedemann–Franz law states that for materials where heat and charge transport is dominated by electrons, the ratio of thermal to electrical conductivity is proportional to the temperature:
+
+  
+    
+      
+        
+          
+            κ
+            σ
+          
+        
+        =
+        
+          
+            
+              π
+              
+                2
+              
+            
+            3
+          
+        
+        
+          
+            (
+            
+              
+                k
+                e
+              
+            
+            )
+          
+          
+            2
+          
+        
+        T
+        ,
+      
+    
+    {\displaystyle {\kappa  \over \sigma }={\pi ^{2} \over 3}\left({\frac {k}{e}}\right)^{2}T,}
+  
+
+where 
+  
+    
+      
+        κ
+      
+    
+    {\displaystyle \kappa }
+  
+ is the thermal conductivity, 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  
+ is the Boltzmann constant, 
+  
+    
+      
+        e
+      
+    
+    {\displaystyle e}
+  
+ is the electron charge, 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+  
+ is temperature, and 
+  
+    
+      
+        σ
+      
+    
+    {\displaystyle \sigma }
+  
+ is the electric conductivity. The ratio on the rhs is called the Lorenz number.
+
+
+=== Semiconductors ===
+In general, intrinsic semiconductor resistivity decreases with increasing temperature. The electrons are bumped to the conduction energy band by thermal energy, where they flow freely, and in doing so leave behind holes in the valence band, which also flow freely. The electric resistance of a typical intrinsic (non doped) semiconductor decreases exponentially with temperature following an Arrhenius model:
+
+  
+    
+      
+        ρ
+        =
+        
+          ρ
+          
+            0
+          
+        
+        
+          e
+          
+            
+              
+                E
+                
+                  A
+                
+              
+              
+                
+                  k
+                  
+                    B
+                  
+                
+                T
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \rho =\rho _{0}e^{\frac {E_{A}}{k_{B}T}}.}
+  
+
+An even better approximation of the temperature dependence of the resistivity of a semiconductor is given by the Steinhart–Hart equation:
+
+  
+    
+      
+        
+          
+            1
+            T
+          
+        
+        =
+        A
+        +
+        B
+        ln
+        ⁡
+        ρ
+        +
+        C
+        (
+        ln
+        ⁡
+        ρ
+        
+          )
+          
+            3
+          
+        
+        ,
+      
+    
+    {\displaystyle {\frac {1}{T}}=A+B\ln \rho +C(\ln \rho )^{3},}
+  
+
+where A, B and C are the so-called Steinhart–Hart coefficients.
+This equation is used to calibrate thermistors.
+Extrinsic (doped) semiconductors have a far more complicated temperature profile. As temperature increases starting from absolute zero they first decrease steeply in resistance as the carriers leave the donors or acceptors. After most of the donors or acceptors have lost their carriers, the resistance starts to increase again slightly due to the reducing mobility of carriers (much as in a metal). At higher temperatures, they behave like intrinsic semiconductors as the carriers from the donors/acceptors become insignificant compared to the thermally generated carriers.
+In non-crystalline semiconductors, conduction can occur by charges quantum tunnelling from one localised site to another. This is known as variable range hopping and has the characteristic form of
+
+  
+    
+      
+        ρ
+        =
+        A
+        exp
+        ⁡
+        
+          (
+          
+            (
+            
+              T
+              
+                0
+              
+            
+            
+              /
+            
+            T
+            
+              )
+              
+                1
+                
+                  /
+                
+                n
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle \rho =A\exp \left((T_{0}/T)^{1/n}\right),}
+  
+
+where n = 2, 3, 4, depending on the dimensionality of the system, and 
+  
+    
+      
+        
+          T
+          
+            0
+          
+        
+      
+    
+    {\displaystyle T_{0}}
+  
+ is a characteristic temperature scale.
+
+
+=== Kondo insulators ===
+Kondo insulators are materials where the resistivity follows the formula
+
+  
+    
+      
+        ρ
+        (
+        T
+        )
+        =
+        
+          ρ
+          
+            0
+          
+        
+        +
+        a
+        
+          T
+          
+            2
+          
+        
+        +
+        b
+        
+          T
+          
+            5
+          
+        
+        +
+        
+          c
+          
+            m
+          
+        
+        ln
+        ⁡
+        
+          
+            μ
+            T
+          
+        
+      
+    
+    {\displaystyle \rho (T)=\rho _{0}+aT^{2}+bT^{5}+c_{m}\ln {\frac {\mu }{T}}}
+  
+
+where 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+, 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+  
+, 
+  
+    
+      
+        
+          c
+          
+            m
+          
+        
+      
+    
+    {\displaystyle c_{m}}
+  
+ and 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+ are constant parameters, 
+  
+    
+      
+        
+          ρ
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \rho _{0}}
+  
+ the residual resistivity, 
+  
+    
+      
+        
+          T
+          
+            2
+          
+        
+      
+    
+    {\displaystyle T^{2}}
+  
+ the Fermi liquid contribution, 
+  
+    
+      
+        
+          T
+          
+            5
+          
+        
+      
+    
+    {\displaystyle T^{5}}
+  
+ a lattice vibrations term and 
+  
+    
+      
+        ln
+        ⁡
+        
+          
+            1
+            T
+          
+        
+      
+    
+    {\displaystyle \ln {\frac {1}{T}}}
+  
+ the Kondo effect.
+
+
+== Complex resistivity and conductivity ==
+When analysing the response of materials to alternating electric fields (dielectric spectroscopy), in applications such as electrical impedance tomography, it is convenient to replace resistivity with a complex quantity called impedivity  (in analogy to electrical impedance). Impedivity is the sum of a real component, the resistivity, and an imaginary component, the reactivity (in analogy to reactance). The magnitude of impedivity is the square root of sum of squares of magnitudes of resistivity and reactivity.
+Conversely, in such cases the conductivity must be expressed as a complex number (or even as a matrix of complex numbers, in the case of anisotropic materials) called the admittivity. Admittivity is the sum of a real component called the conductivity and an imaginary component called the susceptivity.
+An alternative description of the response to alternating currents uses a real (but frequency-dependent) conductivity, along with a real permittivity. The larger the conductivity is, the more quickly the alternating-current signal is absorbed by the material (i.e., the more opaque the material is). For details, see Mathematical descriptions of opacity.
+
+
+== Resistance versus resistivity in complicated geometries ==
+Even if the material's resistivity is known, calculating the resistance of something made from it may, in some cases, be much more complicated than the formula 
+  
+    
+      
+        R
+        =
+        ρ
+        ℓ
+        
+          /
+        
+        A
+      
+    
+    {\displaystyle R=\rho \ell /A}
+  
+ above. One example is spreading resistance profiling, where the material is inhomogeneous (different resistivity in different places), and the exact paths of current flow are not obvious.
+In cases like this, the formulas
+
+  
+    
+      
+        J
+        =
+        σ
+        E
+        
+        
+        ⇌
+        
+        
+        E
+        =
+        ρ
+        J
+      
+    
+    {\displaystyle J=\sigma E\,\,\rightleftharpoons \,\,E=\rho J}
+  
+
+must be replaced with
+
+  
+    
+      
+        
+          J
+        
+        (
+        
+          r
+        
+        )
+        =
+        σ
+        (
+        
+          r
+        
+        )
+        
+          E
+        
+        (
+        
+          r
+        
+        )
+        
+        
+        ⇌
+        
+        
+        
+          E
+        
+        (
+        
+          r
+        
+        )
+        =
+        ρ
+        (
+        
+          r
+        
+        )
+        
+          J
+        
+        (
+        
+          r
+        
+        )
+        ,
+      
+    
+    {\displaystyle \mathbf {J} (\mathbf {r} )=\sigma (\mathbf {r} )\mathbf {E} (\mathbf {r} )\,\,\rightleftharpoons \,\,\mathbf {E} (\mathbf {r} )=\rho (\mathbf {r} )\mathbf {J} (\mathbf {r} ),}
+  
+
+where E and J are now vector fields. This equation, along with the continuity equation for J and the Poisson's equation for E, form a set of partial differential equations. In special cases, an exact or approximate solution to these equations can be worked out by hand, but for very accurate answers in complex cases, computer methods like finite element analysis may be required.
+
+
+== Resistivity-density product ==
+In some applications where the weight of an item is very important, the product of resistivity and density is more important than absolute low resistivity –  it is often possible to make the conductor thicker to make up for a higher resistivity; and then a material with a low resistivity–density product (or equivalently a high conductivity/density ratio) is desirable. For example, for long-distance overhead power lines, aluminium is frequently used rather than copper (Cu) because it is lighter for the same conductance.
+Silver, although it is the least resistive metal known, has a high density and performs similarly to copper by this measure, but is much more expensive. Calcium and the alkali metals have the best resistivity-density products, but are rarely used for conductors due to their high reactivity with water and oxygen, and lack of physical strength. Aluminium is far more stable. Toxicity excludes the choice of beryllium; pure beryllium is also brittle. Thus, aluminium is usually the metal of choice when the weight or cost of a conductor is the driving consideration.
+
+
+== History ==
+
+
+=== John Walsh and the conductivity of a vacuum ===
+In a 1774 letter to Dutch-born British scientist Jan Ingenhousz, Benjamin Franklin relates an experiment by another British scientist, John Walsh, that purportedly showed this astonishing fact: Although rarified air conducts electricity better than common air, a vacuum does not conduct electricity at all.
+
+Mr. Walsh ... has just made a curious Discovery in Electricity. You know we find that in rarify’d Air it would pass more freely, and leap thro’ greater Spaces than in dense Air; and thence it was concluded that in a perfect Vacuum it would pass any distance without the least Obstruction. But having made a perfect Vacuum by means of boil’d Mercury in a long Torricellian bent Tube, its Ends immers’d in Cups full of Mercury, he finds that the Vacuum will not conduct at all, but resists the Passage of the Electric Fluid absolutely.
+However, to this statement a note (based on modern knowledge) was added by the editors—at the American Philosophical Society and Yale University—of the webpage hosting the letter:
+
+We can only assume that something was wrong with Walsh’s findings. ... Although the conductivity of a gas, as it approaches a vacuum, increases up to a point and then decreases, that point is far beyond what the technique described might have been expected to reach. Boiling replaced the air with mercury vapor, which as it cooled created a vacuum that could scarcely have been complete enough to decrease, let alone eliminate, the vapor’s conductivity.
+Barlow's law was published in 1825.
+Ohm's law was published in 1827.
+Both were empirical fits to measured data.
+The first scientific explanation of why electrons behave in this way is the Drude model, first proposed in 1900.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Paul Tipler (2004). Physics for Scientists and Engineers: Electricity, Magnetism, Light, and Elementary Modern Physics (5th ed.). W. H. Freeman. ISBN 978-0-7167-0810-0.
+Measuring Electrical Resistivity and Conductivity
+
+
+== External links ==
+
+"Electrical Conductivity". Sixty Symbols. Brady Haran for the University of Nottingham. 2010.
+Comparison of the electrical conductivity of various elements in WolframAlpha
+Partial and total conductivity. "Electrical conductivity" (PDF). Archived from the original (PDF) on 17 April 2020. Retrieved 21 December 2019.
+
+https://edu-physics.com/2021/01/07/resistivity-of-the-material-of-a-wire-physics-practical/

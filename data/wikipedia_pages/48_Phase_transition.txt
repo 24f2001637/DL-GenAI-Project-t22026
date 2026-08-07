@@ -1,0 +1,292 @@
+Wikipedia article: Phase transition
+Source: https://en.wikipedia.org/wiki/Phase_transition
+PageID: 54423
+======================================================================
+
+In physics, chemistry and biology, a phase transition (or phase change) is the physical process of transition between one state of a medium and another. Commonly the term is used to refer to changes among the basic states of matter: solid, liquid, and gas, and in rare cases, plasma. A phase of a thermodynamic system and the states of matter have uniform physical properties. During a phase transition of a given medium, certain properties of the medium change as a result of the change of external conditions, such as temperature or pressure. This can be a discontinuous change; for example, a liquid may become gas upon heating to its boiling point, resulting in an abrupt change in volume. The identification of the external conditions at which a transformation occurs defines the phase transition point.
+
+
+== Types ==
+
+
+=== States of matter ===
+
+Phase transitions commonly refer to when a substance transforms between one of the four states of matter to another. At the phase transition point for a substance, for instance the boiling point, the two phases involved - liquid and vapor, have identical free energies and therefore are equally likely to exist. Below the boiling point, the liquid is the more stable state of the two, whereas above the boiling point the gaseous form is the more stable. 
+Common transitions between the solid, liquid, and gaseous phases of a single component, due to the effects of temperature and/or pressure are identified in the following table:
+
+For a single component, the most stable phase at different temperatures and pressures can be shown on a phase diagram. Such a diagram usually depicts states in equilibrium. A phase transition usually occurs when the pressure or temperature changes and the system crosses from one region to another, like water turning from liquid to solid as soon as the temperature drops below the freezing point. In exception to the usual case, it is sometimes possible to change the state of a system diabatically (as opposed to adiabatically) in such a way that it can be brought past a phase transition point without undergoing a phase transition. The resulting state is metastable, i.e., less stable than the phase to which the transition would have occurred, but not unstable either. This occurs in superheating and supercooling, for example. Metastable states do not appear on usual phase diagrams.
+
+
+=== Structural ===
+
+Phase transitions can also occur when a solid changes to a different structure without changing its chemical makeup. In elements, this is known as allotropy, whereas in compounds it is known as polymorphism. The change from one crystal structure to another, from a crystalline solid to an amorphous solid, or from one amorphous structure to another (polyamorphs) are all examples of solid to solid phase transitions.
+The martensitic transformation occurs as one of the many phase transformations in carbon steel and stands as a model for displacive phase transformations. Order-disorder transitions such as in alpha-titanium aluminides. As with states of matter, there is also a metastable to equilibrium phase transformation for structural phase transitions. A metastable polymorph which forms rapidly due to lower surface energy will transform to an equilibrium phase given sufficient thermal input to overcome an energetic barrier.
+Many dynamic, or soft, microporous materials exhibit structural phase transitions between closed and open forms. Metal–organic frameworks, in particular, have been extensively studied for this behavior. The phase landscape can be more complex, with intermediate phases discovered. Further examples show that guest molecules can stabilize specific phases, resulting in crystal configurations that depend on the composition of the surrounding atmosphere.
+
+
+=== Magnetic ===
+
+Phase transitions can also describe the change between different kinds of magnetic ordering. The most well-known is the transition between the ferromagnetic and paramagnetic phases of magnetic materials, which occurs at what is called the Curie point. Another example is the transition between differently ordered, commensurate or incommensurate, magnetic structures, such as in cerium antimonide. A simplified but highly useful model of magnetic phase transitions is provided by the Ising model.
+
+
+=== Mixtures ===
+
+Phase transitions involving solutions and mixtures are more complicated than transitions involving a single compound. While chemically pure compounds exhibit a single temperature melting point between solid and liquid phases, mixtures can either have a single melting point, known as congruent melting, or they have different liquidus and solidus temperatures resulting in a temperature span where solid and liquid coexist in equilibrium. This is often the case in solid solutions, where the two components are isostructural.
+There are also a number of phase transitions involving three phases: a eutectic transformation, in which a two-component single-phase liquid is cooled and transforms into two solid phases. The same process, but beginning with a solid instead of a liquid is called a eutectoid transformation. A peritectic transformation, in which a two-component single-phase solid is heated and transforms into a solid phase and a liquid phase. A peritectoid reaction is a peritectoid reaction, except involving only solid phases. A monotectic reaction consists of change from a liquid and to a combination of a solid and a second liquid, where the two liquids display a miscibility gap.
+Separation into multiple phases can occur via spinodal decomposition, in which a single phase is cooled and separates into two different compositions.
+Non-equilibrium mixtures can occur, such as in supersaturation.
+
+
+=== Other examples ===
+
+Other phase changes include:
+
+Transition to a mesophase between solid and liquid, such as one of the "liquid crystal" phases.
+The dependence of the adsorption geometry on coverage and temperature, such as for hydrogen on iron (110).
+The emergence of superconductivity in certain metals and ceramics when cooled below a critical temperature.
+The emergence of metamaterial properties in artificial photonic media as their parameters are varied.
+Quantum condensation of bosonic fluids (Bose–Einstein condensation). The superfluid transition in liquid helium is an example of this.
+The breaking of symmetries in the laws of physics during the early history of the universe as its temperature cooled.
+Isotope fractionation occurs during a phase transition, the ratio of light to heavy isotopes in the involved molecules changes. When water vapor condenses (an equilibrium fractionation), the heavier water isotopes (18O and 2H) become enriched in the liquid phase while the lighter isotopes (16O and 1H) tend toward the vapor phase.
+Phase transitions occur when the thermodynamic free energy of a system is non-analytic for some choice of thermodynamic variables (cf. phases). This condition generally stems from the interactions of a large number of particles in a system, and does not appear in systems that are small. Phase transitions can occur for non-thermodynamic systems, where temperature is not a parameter. Examples include: quantum phase transitions, dynamic phase transitions, and topological (structural) phase transitions. In these types of systems other parameters take the place of temperature. For instance, connection probability replaces temperature for percolating networks.
+
+
+== Classifications ==
+
+
+=== Ehrenfest classification ===
+
+Paul Ehrenfest classified phase transitions based on the behavior of the thermodynamic free energy as a function of other thermodynamic variables. The Ehrenfest classification allows for both phase transitions whose lowest derivative of the free energy is discontinuous at the transition, as well as for continuous phase transformations, where the bonding character of a material changes, but there is no discontinuity in any free energy derivative.
+
+Under the Ehrenfest scheme, discontinuous phase transitions are labeled by the lowest derivative of the free energy that is discontinuous at the transition: e.g., first-order phase transitions exhibit a discontinuity in the first derivative of the free energy with respect to some thermodynamic variable. The various solid/liquid/gas transitions are classified as first-order transitions because they involve a discontinuous change in density, which is the (inverse of the) first derivative of the free energy with respect to pressure. Second-order phase transitions are continuous in the first derivative (the order parameter, which is the first derivative of the free energy with respect to the external field, is continuous across the transition) but exhibit discontinuity in a second derivative of the free energy. These include the ferromagnetic phase transition in materials such as iron, where the magnetization, which is the first derivative of the free energy with respect to the applied magnetic field strength, increases continuously from zero as the temperature is lowered below the Curie temperature; the magnetic susceptibility, the second derivative of the free energy with the field, changes discontinuously.
+Under the Ehrenfest scheme, there could in principle be third, fourth, and higher-order phase transitions, but in practice, only first- and second-order phase transitions are generally observed.  Examples of exceptions to this include the Gross–Witten–Wadia phase transition in 2-D lattice quantum chromodynamics, which is a third-order phase transition, and the Tracy–Widom distribution, which can be interpreted as a third-order transition. The Curie points of many ferromagnetics are also comsidered third-order transitions, as shown by their specific heat having a sudden change in slope.
+The concept of the second-order phase transition, was for a while, controversial, as it seemed to require two "sheets" of the Gibbs free energy to osculate exactly, which was considered so unlikely as to likely never occur. Cornelis Gorter replied the criticism, pointing out that the Gibbs free energy surface might have two sheets on one side, but only one sheet on the other side, creating a forked appearance.
+The first example of a phase transition discovered that did not fit into the Ehrenfest classification was the exact solution of the Ising model, discovered in 1944 by Lars Onsager. The exact specific heat differed from the earlier mean-field approximations, which had predicted that it has a simple discontinuity at critical temperature; instead, the exact specific heat diverged logarithmically at the critical temperature. In the following decades, the Ehrenfest classification was replaced by a simplified scheme that is able to incorporate such transitions.
+
+
+=== Modern classifications ===
+
+In the modern classification scheme, phase transitions are divided into two broad categories, named similarly to the Ehrenfest classes:
+First-order phase transitions are those that involve a latent heat. During such a transition, a system either absorbs or releases a fixed (and typically large) amount of energy per volume. During this process, the temperature of the system will stay constant as heat is added: the system is in a "mixed-phase regime" in which some parts of the system have completed the transition and others have not. Familiar examples are the melting of ice or the boiling of water. (Water does not instantly turn into vapor, but forms a turbulent mixture of liquid water and vapor bubbles.)
+Related primary research reports have suggested that quenched disorder can broaden a first-order transition: that while transformation is completed over a finite range of temperatures, phenomena like supercooling and superheating survive, and hysteresis is observed on thermal cycling.
+Second-order phase transitions, also called "continuous phase transitions", are characterized by a divergent susceptibility—the change of an extensive property under variation of an intensive property), an infinite correlation length, and a power law decay of correlations near criticality. Examples of second-order phase transitions are the ferromagnetic transition, the superconducting transition, and the superfluid transition. Lev Landau has presented a phenomenological theory of second-order phase transitions.
+In contrast to viscosity, thermal expansion and heat capacity of amorphous materials show a relatively sudden change at the glass transition temperature, a change that enables accurate detection using differential scanning calorimetry measurements.  
+Several transitions are known as infinite-order phase transitions. They are continuous but break no symmetries. The most famous example is the Kosterlitz–Thouless transition in the two-dimensional XY model. Many quantum phase transitions, e.g., in two-dimensional electron gases, belong to this class.
+Apart from isolated, simple phase transitions, there exist transition lines as well as multicritical points, when varying external parameters like the magnetic field or composition.
+
+
+==== The liquid–glass transition ====
+
+The liquid–glass transition is observed in many polymers and other liquids that can be supercooled far below the melting point of the crystalline phase. This is atypical in several respects. It is not a transition between thermodynamic ground states: it is widely believed that the true ground state is always crystalline. Glass is a quenched disorder state, and its entropy, density, and so on, depend on the thermal history. Therefore, the glass transition is primarily a dynamic phenomenon: on cooling a liquid, internal degrees of freedom successively fall out of equilibrium. Some theoretical methods predict an underlying phase transition in the hypothetical limit of infinitely long relaxation times. No direct experimental evidence supports the existence of these transitions.
+
+
+== Characteristic properties ==
+
+
+=== Phase coexistence ===
+A disorder-broadened  first-order transition occurs over a finite range of temperatures where the fraction of the low-temperature equilibrium phase grows from zero to one (100%) as the temperature is lowered. This continuous variation of the coexisting fractions with temperature raised interesting possibilities. On cooling, some liquids vitrify into a glass rather than transform to the equilibrium crystal phase. This happens if the cooling rate is faster than a critical cooling rate, and is attributed to the molecular motions becoming so slow that the molecules cannot rearrange into the crystal positions. This slowing down happens below a glass-formation temperature Tg, which may depend on the applied pressure. If the first-order freezing transition occurs over a range of temperatures, and Tg falls within this range, then there is an interesting possibility that the transition is arrested when it is partial and incomplete. Extending these ideas to first-order magnetic transitions being arrested at low temperatures, resulted in the observation of incomplete magnetic transitions, with two magnetic phases coexisting, down to the lowest temperature. First reported in the case of a ferromagnetic to anti-ferromagnetic transition, such persistent phase coexistence has now been reported across a variety of first-order magnetic transitions. These include colossal-magnetoresistance manganite materials, magnetocaloric materials, magnetic shape memory materials, and other materials.
+The interesting feature of these observations of Tg falling within the temperature range over which the transition occurs is that the first-order magnetic transition is influenced by magnetic field, just like the structural transition is influenced by pressure. The relative ease with which magnetic fields can be controlled, in contrast to pressure, raises the possibility that one can study the interplay between Tg and Tc in an exhaustive way. Phase coexistence across first-order magnetic transitions will then enable the resolution of outstanding issues in understanding glasses.
+
+
+=== Critical points ===
+In any system containing liquid and gaseous phases, there exists a special combination of pressure and temperature, known as the critical point, at which the transition between liquid and gas becomes a second-order transition. Near the critical point, the fluid is sufficiently hot and compressed that the distinction between the liquid and gaseous phases is almost non-existent. This is associated with the phenomenon of critical opalescence, a milky appearance of the liquid due to density fluctuations at all possible wavelengths (including those of visible light).
+
+
+=== Symmetry ===
+Phase transitions often involve a symmetry breaking process. For instance, the cooling of a fluid into a crystalline solid breaks continuous translation symmetry: each point in the fluid has the same properties, but each point in a crystal does not have the same properties (unless the points are chosen from the lattice points of the crystal lattice). Typically, the high-temperature phase contains more symmetries than the low-temperature phase due to spontaneous symmetry breaking, with the exception of certain accidental symmetries (e.g. the formation of heavy virtual particles, which only occurs at low temperatures).
+
+
+=== Order parameters ===
+An order parameter is a measure of the degree of order across the boundaries in a phase transition system; it normally takes on the value of zero in one phase (usually above the critical point) and nonzero in the other. At the critical point, the order parameter susceptibility (the change of an extensive property under variation of an intensive property) will usually diverge.
+An example of an order parameter is the net magnetization in a ferromagnetic system undergoing a phase transition. For liquid/gas transitions, the order parameter is the difference of the densities.
+From a theoretical perspective, order parameters arise from symmetry breaking. When this happens, one needs to introduce one or more extra variables to describe the state of the system. For example, in the ferromagnetic phase, one must provide the net magnetization, whose direction was spontaneously chosen when the system cooled below the Curie point. However, note that order parameters can also be defined for non-symmetry-breaking transitions.
+Some phase transitions, such as superconducting and ferromagnetic, can have order parameters for more than one degree of freedom. In such phases, the order parameter may take the form of a complex number, a vector, or even a tensor, the magnitude of which goes to zero at the phase transition.
+There also exist dual descriptions of phase transitions in terms of disorder parameters. These indicate the presence of line-like excitations such as vortex- or defect lines.
+
+
+=== Relevance in cosmology ===
+Symmetry-breaking phase transitions play an important role in cosmology. As the universe expanded and cooled, the vacuum underwent a series of symmetry-breaking phase transitions. For example, the electroweak transition broke the SU(2)×U(1) symmetry of the electroweak field into the U(1) symmetry of the present-day electromagnetic field. This transition is important to explain the asymmetry between the amount of matter and antimatter in the present-day universe, according to  electroweak baryogenesis theory.
+Progressive phase transitions in an expanding universe are implicated in the development of order in the universe, as is illustrated by the work of Eric Chaisson and David Layzer.
+See also relational order theories and order and disorder.
+
+
+=== Critical exponents and universality classes ===
+
+Continuous phase transitions are easier to study than first-order transitions due to the absence of latent heat, and they have been discovered to have many interesting properties. The phenomena associated with continuous phase transitions are called critical phenomena, due to their association with critical points.
+Continuous phase transitions can be characterized by parameters known as critical exponents. The most important one is perhaps the exponent describing the divergence of the thermal correlation length by approaching the transition. For instance, let us examine the behavior of the heat capacity near such a transition. We vary the temperature T of the system while keeping all the other thermodynamic variables fixed and find that the transition occurs at some critical temperature Tc. When T is near Tc, the heat capacity C typically has a power law behavior:
+
+  
+    
+      
+        C
+        ∝
+        
+          |
+        
+        
+          T
+          
+            c
+          
+        
+        −
+        T
+        
+          
+            |
+          
+          
+            −
+            α
+          
+        
+        .
+      
+    
+    {\displaystyle C\propto |T_{\text{c}}-T|^{-\alpha }.}
+  
+
+The heat capacity of amorphous materials has such a behaviour near the glass transition temperature where the universal critical exponent α = 0.59 A similar behavior, but with the exponent ν instead of α, applies for the correlation length.
+The critical exponents are not necessarily the same above and below the critical temperature. When a continuous symmetry is explicitly broken down to a discrete symmetry by irrelevant (in the renormalization group sense) anisotropies, then some exponents (such as 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+  
+, the exponent of the susceptibility) are not identical.
+For 
+  
+    
+      
+        α
+        <
+        −
+        1
+      
+    
+    {\displaystyle \alpha <-1}
+  
+, the heat capacity remains differentiable at the transition temperature, although discontinuities appear at higher-order derivatives.
+For 
+  
+    
+      
+        −
+        1
+        ≤
+        α
+        <
+        0
+      
+    
+    {\displaystyle -1\leq \alpha <0}
+  
+, the heat capacity has a "kink" at the transition temperature. This is the behavior of liquid helium at the lambda transition from a normal state to the superfluid state, for which experiments have found α = −0.013 ± 0.003.
+At least one experiment was performed in the zero-gravity conditions of an orbiting satellite to minimize pressure differences in the sample. This experimental value of α agrees with theoretical predictions based on variational perturbation theory.
+For 0 < α < 1, the heat capacity diverges at the transition temperature (though, since α < 1, the enthalpy stays finite). An example of such behavior is the 3D ferromagnetic phase transition. In the three-dimensional Ising model for uniaxial magnets, detailed theoretical studies have yielded the exponent α ≈ +0.110.
+Some model systems do not obey a power-law behavior. For example, mean field theory predicts a finite discontinuity of the heat capacity at the transition temperature, and the two-dimensional Ising model has a logarithmic divergence. However, these systems are limiting cases and an exception to the rule. Real phase transitions exhibit power-law behavior.
+Several other critical exponents, β, γ, δ, ν, and η, are defined, examining the power law behavior of a measurable physical quantity near the phase transition. Exponents are related by scaling relations, such as
+
+  
+    
+      
+        β
+        =
+        γ
+        
+          /
+        
+        (
+        δ
+        −
+        1
+        )
+        ,
+        
+        ν
+        =
+        γ
+        
+          /
+        
+        (
+        2
+        −
+        η
+        )
+        .
+      
+    
+    {\displaystyle \beta =\gamma /(\delta -1),\quad \nu =\gamma /(2-\eta ).}
+  
+
+It can be shown that there are only two independent exponents, e.g. ν and η.
+It is a remarkable fact that phase transitions arising in different systems often possess the same set of critical exponents. This phenomenon is known as universality. For example, the critical exponents at the liquid–gas critical point have been found to be independent of the chemical composition of the fluid.
+More impressively, but understandably from above, they are an exact match for the critical exponents of the ferromagnetic phase transition in uniaxial magnets. Such systems are said to be in the same universality class. Universality is a prediction of the renormalization group theory of phase transitions, which states that the thermodynamic properties of a system near a phase transition depend only on a small number of features, such as dimensionality and symmetry, and are insensitive to the underlying microscopic properties of the system. Again, the divergence of the correlation length is the essential point.
+
+
+=== Critical phenomena ===
+There are also other critical phenomena; e.g., besides static functions there is also critical dynamics. As a consequence, at a phase transition one may observe critical slowing down or speeding up. Connected to the previous phenomenon is also the phenomenon of enhanced fluctuations before the phase transition, as a consequence of lower degree of stability of the initial phase of the system. The large static universality classes of a continuous phase transition split into smaller dynamic universality classes. In addition to the critical exponents, there are also universal relations for certain static or dynamic functions of the magnetic fields and temperature differences from the critical value.
+
+
+== Experimental ==
+A variety of methods are applied for studying the various effects. Selected examples are:
+
+Hall effect (measurement of magnetic transitions)
+Mössbauer spectroscopy (simultaneous measurement of magnetic and non-magnetic transitions. Limited up to about 800–1000 °C)
+Neutron diffraction
+Perturbed angular correlation (simultaneous measurement of magnetic and non-magnetic transitions. No temperature limits. Over 2000 °C already performed, theoretical possible up to the highest crystal material, such as tantalum hafnium carbide 4215 °C.)
+Raman Spectroscopy
+SQUID (measurement of magnetic transitions)
+Thermogravimetry (very common)
+X-ray diffraction
+
+
+== In other systems ==
+
+
+=== Phase transitions in biology ===
+Phase transitions play many important roles in biological systems. Examples include the lipid bilayer formation, the coil-globule transition in the process of protein folding and DNA melting, liquid crystal-like transitions in the process of DNA condensation, cooperative ligand binding to DNA and proteins with the character of phase transition or the change in the process of genetic expression at the onset of eukaryotes, marked by an algorithmic phase transition.
+In biological membranes, gel to liquid crystalline phase transitions play a critical role in physiological functioning of biomembranes. In gel phase, due to low fluidity of membrane lipid fatty-acyl chains, membrane proteins have restricted movement and thus are restrained in exercise of their physiological role. Plants depend critically on photosynthesis by chloroplast thylakoid membranes which are exposed cold environmental temperatures. Thylakoid membranes retain innate fluidity even at relatively low temperatures because of high degree of fatty-acyl disorder allowed by their high content of linolenic acid, 18-carbon chain with 3-double bonds. Gel-to-liquid crystalline phase transition temperature of biological membranes can be determined by many techniques including calorimetry, fluorescence, spin label electron paramagnetic resonance and NMR by recording measurements of the concerned parameter by at series of sample temperatures. A simple method for its determination from 13-C NMR line intensities has also been proposed.
+It has been proposed that some biological systems might lie near critical points. Examples include neural networks in the salamander retina, bird flocks, gene expression networks in Drosophila, and protein folding. However, it is not clear whether or not alternative reasons could explain some of the phenomena supporting arguments for criticality. It has also been suggested that biological organisms share two key properties of phase transitions: the change of macroscopic behavior and the coherence of a system at a critical point. Phase transitions are prominent feature of motor behavior in biological systems. Spontaneous gait transitions, as well as fatigue-induced motor task disengagements, show typical critical behavior as an intimation of the sudden qualitative change of the previously stable motor behavioral pattern.
+The characteristic feature of second order phase transitions is the appearance of fractals in some scale-free properties.  It has long been known that protein globules are shaped by interactions with water.  There are 20 amino acids that form side groups on protein peptide chains range from hydrophilic to hydrophobic, causing the former to lie near the globular surface, while the latter lie closer to the globular center.  Twenty fractals were discovered in solvent associated surface areas of > 5000 protein segments.  The existence of these fractals proves that proteins function near critical points of second-order phase transitions. 
+In groups of organisms in stress (when approaching critical transitions), correlations tend to increase, while at the same time, fluctuations also increase. This effect is supported by many experiments and observations of groups of people, mice, trees, and grassy plants.
+
+
+=== Phase transitions in social systems ===
+
+Phase transitions have been hypothesised to occur in social systems viewed as dynamical systems. A hypothesis proposed in the 1990s and 2000s in the context of peace and armed conflict is that when a conflict that is non-violent shifts to a phase of armed conflict, this is a phase transition from latent to manifest phases within the dynamical system.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Nishimori, Hidetoshi; Ortiz, Gerardo (2010). Elements of Phase Transitions and Critical Phenomena. Oxford University Press. ISBN 9780191722943.
+Faghri, A., and Zhang, Y., Fundamentals of Multiphase Heat Transfer and Flow Archived 14 June 2021 at the Wayback Machine, Springer Nature Switzerland AG, 2020.
+Fisher, M.E. (1974). "The renormalization group in the theory of critical behavior". Rev. Mod. Phys. 46 (4): 597–616. Bibcode:1974RvMP...46..597F. doi:10.1103/revmodphys.46.597.
+Goldenfeld, N., Lectures on Phase Transitions and the Renormalization Group, Perseus Publishing (1992).
+Ivancevic, Vladimir G; Ivancevic, Tijana T (2008), Chaos, Phase Transitions, Topology Change and Path Integrals, Berlin: Springer, ISBN 978-3-540-79356-4, retrieved 14 March 2013
+M.R. Khoshbin-e-Khoshnazar, Ice Phase Transition as a sample of finite system phase transition, (Physics Education (India) Volume 32. No. 2, Apr - Jun 2016)  Archived 29 April 2025 at the Wayback Machine
+Kleinert, H., Gauge Fields in Condensed Matter, Vol. I, "Superfluidity and Vortex lines; Disorder Fields, Phase Transitions", pp. 1–742, World Scientific (Singapore, 1989); Paperback ISBN 9971-5-0210-0 (physik.fu-berlin.de readable online Archived 27 May 2008 at the Wayback Machine)
+Kleinert, Hagen; Verena Schulte-Frohlinde (2001). Critical Properties of φ4-Theories. World Scientific. ISBN 981-02-4659-5. Archived from the original on 26 February 2008. (readable online Archived 29 June 2008 at the Wayback Machine).
+Kogut, J.; Wilson, K (1974). "The Renormalization Group and the epsilon-Expansion". Phys. Rep. 12 (2): 75–199. Bibcode:1974PhR....12...75W. doi:10.1016/0370-1573(74)90023-4.
+Krieger, Martin H., Constitutions of matter : mathematically modelling the most everyday of physical phenomena, University of Chicago Press, 1996. Contains a detailed pedagogical discussion of Onsager's solution of the 2-D Ising Model.
+Landau, L.D. and Lifshitz, E.M., Statistical Physics Part 1, vol. 5 of Course of Theoretical Physics, Pergamon Press, 3rd Ed. (1994).
+Mussardo G., "Statistical Field Theory. An Introduction to Exactly Solved Models of Statistical Physics", Oxford University Press, 2010.
+Schroeder, Manfred R., Fractals, chaos, power laws : minutes from an infinite paradise, New York: W. H. Freeman, 1991.  Very well-written book in "semi-popular" style—not a textbook—aimed at an audience with some training in mathematics and the physical sciences.  Explains what scaling in phase transitions is all about, among other things.
+H. E. Stanley, Introduction to Phase Transitions and Critical Phenomena (Oxford University Press, Oxford and New York 1971).
+Yeomans J. M., Statistical Mechanics of Phase Transitions, Oxford University Press, 1992.
+
+
+== External links ==
+ Media related to Phase changes at Wikimedia Commons
+
+Interactive Phase Transitions on lattices Archived 5 July 2025 at the Wayback Machine with Java applets
+Universality classes from Sklogwiki

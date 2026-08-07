@@ -1,0 +1,21 @@
+Wikipedia article: Ramsauer–Townsend effect
+Source: https://en.wikipedia.org/wiki/Ramsauer–Townsend_effect
+PageID: 1494813
+======================================================================
+
+The Ramsauer–Townsend effect, also sometimes called the Ramsauer effect or the Townsend effect, is a physical phenomenon involving the scattering of low-energy electrons by atoms of a noble gas. This effect is a result of quantum mechanics. The effect is named for Carl Ramsauer and John Sealy Townsend, who each independently studied the collisions between atoms and low-energy electrons in 1921.
+
+
+== Definitions ==
+When an electron moves through a gas, its interactions with the gas atoms cause scattering to occur. These interactions are classified as inelastic if they cause excitation or ionization of the atom to occur or elastic if they do not.
+The probability of scattering in such a system is defined as the number of electrons scattered, per unit electron current, per unit path length, per unit pressure at 0 °C, per unit solid angle. The number of collisions equals the total number of electrons scattered elastically and inelastically in all angles, and the probability of collision is the total number of collisions, per unit electron current, per unit path length, per unit pressure at 0 °C.
+Because noble gas atoms have a relatively high first ionization energy and the electrons do not carry enough energy to cause excited electronic states, ionization and excitation of the atom are unlikely, and the probability of elastic scattering over all angles is approximately equal to the probability of collision.
+
+
+== Description ==
+If one tries to predict the probability of collision with a classical model that treats the electron and atom as hard spheres, one finds that the probability of collision should be independent of the incident electron energy. However, Ramsauer and Townsend, independently observed that for slow-moving electrons in argon, krypton, or xenon, the probability of collision between the electrons and gas atoms obtains a minimum value for electrons with a certain amount of kinetic energy (about 1 electron volts for xenon gas).
+No good explanation for the phenomenon existed until the introduction of quantum mechanics, which explains that the effect results from the wave-like properties of the electron. A simple model of the collision that makes use of wave theory can predict the existence of the Ramsauer–Townsend minimum. Niels Bohr presented a simple model for the phenomenon that considers the atom as a finite square potential well.
+Predicting from theory the kinetic energy that will produce a Ramsauer–Townsend minimum is quite complicated since the problem involves understanding the wave nature of particles. However, the problem has been extensively investigated both experimentally and theoretically and is well understood.
+
+
+== References ==

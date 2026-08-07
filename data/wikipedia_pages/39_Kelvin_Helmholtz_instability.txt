@@ -1,0 +1,238 @@
+Wikipedia article: Kelvin–Helmholtz instability
+Source: https://en.wikipedia.org/wiki/Kelvin–Helmholtz_instability
+PageID: 567946
+======================================================================
+
+The Kelvin–Helmholtz instability (after Lord Kelvin and Hermann von Helmholtz) is a fluid instability that occurs when there is velocity shear in a single continuous fluid or a velocity difference across the interface between two fluids. Kelvin-Helmholtz instabilities are visible in the atmospheres of planets and moons, such as in cloud formations on Earth or the Red Spot on Jupiter, and the atmosphere of the Sun.
+
+
+== Theory overview and mathematical concepts ==
+
+Fluid dynamics predicts the onset of instability and transition to turbulent flow within fluids of different densities moving at different speeds. If surface tension is ignored, two fluids in parallel motion with different velocities and densities yield an interface that is unstable to short-wavelength perturbations for all speeds. However, surface tension is able to stabilize the short wavelength instability up to a threshold velocity.
+If the density and velocity vary continuously in space (with the lighter layers uppermost, so that the fluid is RT-stable), the dynamics of the Kelvin-Helmholtz instability is described by the Taylor–Goldstein equation: 
+
+  
+    
+      
+        (
+        U
+        −
+        c
+        
+          )
+          
+            2
+          
+        
+        
+          (
+          
+            
+              
+                
+                  
+                    d
+                    
+                      2
+                    
+                  
+                  
+                    
+                      
+                        ϕ
+                        ~
+                      
+                    
+                  
+                
+                
+                  d
+                  
+                    z
+                    
+                      2
+                    
+                  
+                
+              
+            
+            −
+            
+              k
+              
+                2
+              
+            
+            
+              
+                
+                  ϕ
+                  ~
+                
+              
+            
+          
+          )
+        
+        +
+        
+          [
+          
+            
+              N
+              
+                2
+              
+            
+            −
+            (
+            U
+            −
+            c
+            )
+            
+              
+                
+                  
+                    d
+                    
+                      2
+                    
+                  
+                  U
+                
+                
+                  d
+                  
+                    z
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+          ]
+        
+        
+          
+            
+              ϕ
+              ~
+            
+          
+        
+        =
+        0
+        ,
+      
+    
+    {\displaystyle (U-c)^{2}\left({d^{2}{\tilde {\phi }} \over dz^{2}}-k^{2}{\tilde {\phi }}\right)+\left[N^{2}-(U-c){d^{2}U \over dz^{2}}\right]{\tilde {\phi }}=0,}
+  
+ where 
+  
+    
+      
+        N
+        =
+        
+          
+            g
+            
+              /
+            
+            
+              L
+              
+                ρ
+              
+            
+          
+        
+      
+    
+    {\textstyle N={\sqrt {g/L_{\rho }}}}
+  
+ denotes the Brunt–Väisälä frequency, U is the horizontal parallel velocity, k is the wave number, c is the eigenvalue parameter of the problem, 
+  
+    
+      
+        
+          
+            
+              ϕ
+              ~
+            
+          
+        
+      
+    
+    {\displaystyle {\tilde {\phi }}}
+  
+ is complex amplitude of the stream function. Its onset is given by the Richardson number 
+  
+    
+      
+        
+          R
+          i
+        
+      
+    
+    {\displaystyle \mathrm {Ri} }
+  
+. Typically the layer is unstable for 
+  
+    
+      
+        
+          R
+          i
+        
+        <
+        0.25
+      
+    
+    {\displaystyle \mathrm {Ri} <0.25}
+  
+. These effects are common in cloud layers. The study of this instability is applicable in plasma physics, for example in inertial confinement fusion and the plasma–beryllium interface. In situations where there is a state of static stability (where there is a continuous density gradient), the Rayleigh–Taylor instability is often insignificant compared to the magnitude of the Kelvin–Helmholtz instability.
+Numerically, the Kelvin–Helmholtz instability is simulated in a temporal or a spatial approach. In the temporal approach, the flow is considered in a periodic (cyclic) box "moving" at mean speed (absolute instability). In the spatial approach, simulations mimic a lab experiment with natural inlet and outlet conditions (convective instability).
+
+
+== Discovery and history ==
+The existence of the Kelvin-Helmholtz instability was first discovered by German physiologist and physicist Hermann von Helmholtz in 1868. Helmholtz identified that "every perfect geometrically sharp edge by which a fluid flows must tear it asunder and establish a surface of separation". Following that work, in 1871, collaborator William Thomson (later Lord Kelvin), developed a mathematical solution of linear instability whilst attempting to model the formation of ocean wind waves.
+Throughout the early 20th Century, the ideas of Kelvin-Helmholtz instabilities were applied to a range of stratified fluid applications. In the early 1920s, Lewis Fry Richardson developed the concept that such shear instability would only form where shear overcame static stability due to stratification, encapsulated in the Richardson Number. 
+Geophysical observations of the Kelvin-Helmholtz instability were made through the late 1960s/early 1970s, for clouds, and later the ocean.
+
+
+== See also ==
+Fluid dynamics
+Fluid mechanics
+Kármán vortex street
+Mushroom cloud
+Plateau–Rayleigh instability
+Rayleigh–Taylor instability
+Reynolds number
+Richtmyer–Meshkov instability
+Taylor–Couette flow
+Turbulence
+
+
+== Notes ==
+
+
+== References ==
+Lord Kelvin (William Thomson) (1871). "Hydrokinetic solutions and observations". Philosophical Magazine. 42: 362–377.
+Hermann von Helmholtz (1868). "Über discontinuierliche Flüssigkeits-Bewegungen [On the discontinuous movements of fluids]". Monatsberichte der Königlichen Preussische Akademie der Wissenschaften zu Berlin. 23: 215–228.
+Article describing discovery of K-H waves in deep ocean: Broad, William J. (April 19, 2010). "In Deep Sea, Waves With a Familiar Curl". New York Times. Retrieved April 23, 2010.
+
+
+== External links ==
+
+Hwang, K.-J.; Goldstein; Kuznetsova; Wang; Viñas; Sibeck (2012). "The first in situ observation of Kelvin-Helmholtz waves at high-latitude magnetopause during strongly dawnward interplanetary magnetic field conditions". J. Geophys. Res. 117 (A08233) 2011JA017256: n/a. Bibcode:2012JGRA..117.8233H. doi:10.1029/2011JA017256. hdl:2060/20140009615.
+Giant Tsunami-Shaped Clouds Roll Across Alabama Sky - Natalie Wolchover, Livescience via Yahoo.com
+Tsunami Cloud Hits Florida Coastline
+Vortex formation in free jet - YouTube video showing Kelvin Helmholtz waves on the edge of a free jet visualised in a scientific experiment.
+Wave clouds over Christchurch City
+Kelvin-Helmholtz clouds, in Barmouth, Gwynedd, on 18 February 2017

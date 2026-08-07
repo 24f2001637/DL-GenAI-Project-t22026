@@ -1,0 +1,37 @@
+Wikipedia article: Spin valve
+Source: https://en.wikipedia.org/wiki/Spin_valve
+PageID: 2623096
+======================================================================
+
+A spin valve is a device, consisting of two or more conducting magnetic materials, whose electrical resistance can change between two values depending on the relative alignment of the magnetization in the layers. The resistance change is a result of the giant magnetoresistive effect.  The magnetic layers of the device align "up" or "down" depending on an external magnetic field.  In the simplest case, a spin valve consists of a non-magnetic material sandwiched between two ferromagnets, one of which is fixed (pinned) by an antiferromagnet which acts to raise its magnetic coercivity and behaves as a "hard" layer, while the other is free (unpinned) and behaves as a "soft" layer. Due to the difference in coercivity, the soft layer changes polarity at lower applied magnetic field strength than the hard one. Upon application of a magnetic field of appropriate strength, the soft layer switches polarity, producing two distinct states: a parallel, low-resistance state, and an antiparallel, high-resistance state. The invention of spin valves is credited to Dr. Stuart Parkin and his team at IBM Almaden Research Centre. Dr. Parkin is now serving as the Managing Director of the Max Planck Institute of Microstructure Physics in Halle, Germany.
+
+
+== How it works ==
+Spin valves work because of a quantum property of electrons (and other particles) called spin.  Due to a split in the density of states of electrons at the Fermi energy in ferromagnets, there is a net spin polarisation. An electric current passing through a ferromagnet therefore carries both charge and a spin component. In comparison, a normal metal has an equal number of electrons with up and down spins so, in equilibrium situations, such materials can sustain a charge current with a zero net spin component. However, by passing a current from a ferromagnet into a normal metal it is possible for spin to be transferred. A normal metal can thus transfer spin between separate ferromagnets, subject to a long enough spin diffusion length.
+Spin transmission depends on the alignment of magnetic moments in the ferromagnets. If a current is passing into a ferromagnet whose majority spin is spin up, for example, then electrons with spin up will pass through relatively unhindered, while electrons with spin down will either 'reflect' or spin flip scatter to spin up upon encountering the ferromagnet to find an empty energy state in the new material. Thus if both the fixed and free layers are polarised in the same direction, the device has relatively low electrical resistance, whereas if the applied magnetic field is reversed and the free layer's polarity also reverses, then the device has a higher resistance due to the extra energy required for spin flip scattering.
+
+
+=== Antiferromagnetic and non-magnetic layers ===
+An antiferromagnetic layer is required to pin one of the ferromagnetic layers (i.e., make it fixed or magnetically hard). This results from a large negative exchange coupling energy between ferromagnets and antiferromagnets in contact.
+The non-magnetic layer is required to decouple the two ferromagnetic layers so that at least one of them remains free (magnetically soft).
+
+
+=== Pseudo spin valves ===
+The basic operating principles of a pseudo spin valve are identical to that of an ordinary spin valve, but instead of changing the magnetic coercivity of the different ferromagnetic layers by pinning one with an antiferromagnetic layer, the two layers are made of different ferromagnets with different coercivities e.g., NiFe and Co. Note that coercivities are largely an extrinsic property of materials and thus determined by processing conditions.
+
+
+== Applications ==
+Spin valves are used in magnetic sensors and hard disk read heads. They are also used in magnetic random access memories (MRAM).
+
+
+== See also ==
+Spin-transfer torque
+Magnetic tunnel junction
+RKKY interaction
+
+
+== External links ==
+The Spin Valve - Condensed Matter Physics Group
+
+
+== References ==

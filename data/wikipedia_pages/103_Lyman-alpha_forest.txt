@@ -1,0 +1,41 @@
+Wikipedia article: Lyman-alpha forest
+Source: https://en.wikipedia.org/wiki/Lyman-alpha_forest
+PageID: 554088
+======================================================================
+
+In astronomical spectroscopy, the Lyman-alpha forest is a series of absorption lines in the spectra of distant galaxies and quasars arising from the Lyman-alpha electron transition of the neutral hydrogen atom.  As the light travels through multiple gas clouds with different redshifts, multiple sets of absorption lines are formed.
+The "forest" of absorption lines appears as a result of the wide frequency range at which quasars emit on the electromagnetic spectrum.
+
+
+== History ==
+The Lyman-alpha forest was first discovered in 1970 by astronomer Roger Lynds in an observation of the quasar 4C 05.34. Quasar 4C 05.34 was the farthest object observed to that date, and Lynds noted an unusually large number of absorption lines in its spectrum and suggested that most of the absorption lines were all due to the same Lyman-alpha transition. Follow-up observations by John Bahcall and Samuel Goldsmith confirmed the presence of the unusual absorption lines, though they were less conclusive about the origin of the lines. Subsequently, the spectra of many other high-redshift quasars were observed to have the same system of narrow absorption lines. Lynds was the first to describe them as the "Lyman-alpha forest". Jan Oort argued that the absorption features are due not to any physical interactions within the quasars themselves, but to absorption inside clouds of intergalactic gas in superclusters.
+
+
+== Physical background ==
+
+For a neutral hydrogen atom, spectral lines are formed when an electron transitions between energy levels. The Lyman series of spectral lines are produced by electrons transitioning between the ground state and higher energy levels (excited states). The Lyman-alpha transition corresponds to an electron transitioning between the ground state (n = 1) and the first excited state (n = 2). The Lyman-alpha spectral line has a laboratory wavelength (or rest wavelength) of 1216 Å, which is in the ultraviolet portion of the electromagnetic spectrum.
+The Lyman-alpha absorption lines in the quasar spectra result from intergalactic gas through which the galaxy or quasar's light has traveled. Since neutral hydrogen clouds in the intergalactic medium are at different degrees of redshift (due to their varying distance from Earth), their absorption lines are observed at a range of wavelengths. Each individual cloud leaves its fingerprint as an absorption line at a different position in the observed spectrum.
+
+
+== Use as a tool in astrophysics ==
+The Lyman-alpha forest is an important probe of the intergalactic medium and can be used to determine the frequency and density of clouds containing neutral hydrogen, as well as their temperature. Searching for lines from other elements like helium, carbon and silicon (matching in redshift), the abundance of heavier elements in the clouds can also be studied. A cloud with a high column density of neutral hydrogen will show typical damping wings around the line and is referred to as a damped Lyman-alpha system.
+For quasars at higher redshift the number of lines in the forest is higher, until at a redshift of about 6, where there is so much neutral hydrogen in the intergalactic medium that the forest turns into a Gunn–Peterson trough. This shows the end of the reionization of the universe.
+The Lyman-alpha forest observations can be used to constrain cosmological models. They can also be used to constrain the properties of dark matter, such as the dark matter free streaming scale, which for thermal relic dark matter models is closely related to the dark matter particle mass.
+With regard to galaxy formation models, the Lyman-alpha forest flux can be affected by galactic winds from galaxy formation.Additionally, analyzing the Lyman alpha forest can provide information about when Helium(II) was re-ionized in the universe.
+When analyzing  Lyman alpha forest data,  Damped Lyman-Alpha Absorption (DLA) and Broad Absorption Lines (BAL) can interfere when fitting the data to a continuum.  Galaxies with a great deal of Hydrogen(I) create interfering absorption features (DLA)  in the spectra which can then inhibit identifying the correct profile.  Ionized plasma streams from a quasar's accretion disk is believed to be the cause of the Broad Absorption Line (BAL) features.
+
+
+== See also ==
+Lyman-alpha blob
+Lyman break galaxy
+Lyman alpha emitter
+Lyman continuum photons
+
+
+== References ==
+
+
+== External links ==
+Rauch, Michael. "The Lyman Alpha Forest in the Spectra of QSOS". Retrieved 2009-03-30.
+Liske, J; Webb, J. K; Carswell, R. F (1998). "Large-scale structure in the Lyman-α forest: a new technique". Monthly Notices of the Royal Astronomical Society. 301 (3): 787–796. arXiv:astro-ph/9808082. Bibcode:1998MNRAS.301..787L. doi:10.1046/j.1365-8711.1998.02048.x. S2CID 119377250.
+"Lyman alpha systems and cosmology". Retrieved 2009-03-30.

@@ -1,0 +1,91 @@
+Wikipedia article: Crystallographic point group
+Source: https://en.wikipedia.org/wiki/Crystallographic_point_group
+PageID: 663786
+======================================================================
+
+In crystallography, a crystallographic point group is a three-dimensional point group whose symmetry operations are compatible with the translational symmetry of three-dimensional crystallographic lattices. According to the crystallographic restriction it may only contain one-, two-, three-, four- and sixfold rotations or rotoinversions (Note that inversion centers and mirror planes are included as equivalent operations to one-fold and two-fold rotoinversions). This reduces the number of crystallographic point groups to 32 (from an infinity of general point groups). These 32 groups are the same as the 32 types of morphological (external) crystalline symmetries derived in 1830 by Johann Friedrich Christian Hessel from a consideration of observed crystal forms. In 1867 Axel Gadolin, who was unaware of the previous work of Hessel, found the crystallographic point groups independently using stereographic projection to represent the symmetry elements of the 32 groups.
+In the classification of crystals, to each space group is associated a crystallographic point group by "forgetting" the translational components of the symmetry operations, that is, by turning screw rotations into rotations, glide reflections into reflections and moving all symmetry elements into the origin. Each crystallographic point group defines the (geometric) crystal class of the crystal.
+The point group of a crystal determines, among other things, the directional variation of physical properties that arise from its structure, including optical properties such as birefringency, or electro-optical features such as the Pockels effect.
+
+
+== Notation ==
+The point groups are named according to their component symmetries. There are several standard notations used by crystallographers, mineralogists, and physicists.
+For the correspondence of the two systems below, see crystal system.
+
+
+=== Schoenflies notation ===
+
+In Schoenflies notation, point groups are denoted by a letter symbol with a subscript. The symbols used in crystallography mean the following:
+
+Cn (for cyclic) indicates that the group has an n-fold rotation axis. Cnh is Cn with the addition of a mirror (reflection) plane perpendicular to the axis of rotation. Cnv is Cn with the addition of n mirror planes parallel to the axis of rotation.
+S2n (for Spiegel, German for mirror) denotes a group with only a 2n-fold rotation-reflection axis.
+Dn (for dihedral, or two-sided) indicates that the group has an n-fold rotation axis plus n twofold axes perpendicular to that axis. Dnh has, in addition, a mirror plane perpendicular to the n-fold axis. Dnd has, in addition to the elements of Dn, mirror planes parallel to the n-fold axis.
+The letter T (for tetrahedron) indicates that the group has the symmetry of a tetrahedron. Td includes improper rotation operations, T excludes improper rotation operations, and Th is T with the addition of an inversion.
+The letter O (for octahedron) indicates that the group has the symmetry of an octahedron, with (Oh) or without (O) improper operations (those that change handedness).
+Due to the crystallographic restriction theorem, n = 1, 2, 3, 4, or 6 in 2- or 3-dimensional space.
+
+D4d and D6d are actually forbidden because they contain improper rotations with n=8 and 12 respectively. The 27 point groups in the table plus T, Td, Th, O and Oh constitute 32 crystallographic point groups.
+
+
+=== Hermann–Mauguin notation ===
+
+An abbreviated form of the Hermann–Mauguin notation commonly used for space groups also serves to describe crystallographic point groups. Group names are
+
+
+=== The correspondence between different notations ===
+
+
+== Graphical representations ==
+
+It is common to display point groups graphically to develop an intuitive understanding of their symmetry.  Typically stereographic projections are used as they preserve angular relations.  Two types of projections can be made.  The first, shown here, is a projection of the symmetry elements, to display their angular relations with respect to one another.  In this case, each symmetry element is represented by a symbol shown in the table below.  Thin lines are used to demarcate the sphere of the stereographic projection, and axes of rotation or rotoinversion where they do not intersect with a mirror plane.  Mirror planes are represented by bold lines.  The second type of projection, is of a general point, and all the additional points generated from that initial point using the symmetry elements of the point group.
+
+
+== Isomorphisms ==
+
+Two groups are said to be isomorphic if there exists a bijective and homomorphic mapping between the two groups. That is to say that simply renaming the elements of one group with the elements of the second group in the right manner will give you the second group and visa versa. Many of the crystallographic point groups share the same internal structure in this sense. For example, the point groups 1, 2, and m contain different geometric symmetry operations, (inversion, rotation, and reflection, respectively) but all share the structure of the cyclic group C2. All isomorphic groups are of the same order, but not all groups of the same order are isomorphic. The point groups which are isomorphic are shown in the following table:
+
+This table makes use of cyclic groups (C1, C2, C3, C4, C6), dihedral groups (D2, D3, D4, D6), one of the alternating groups (A4), and one of the symmetric groups (S4). Here the symbol " × " indicates a direct product.
+
+
+== Deriving the crystallographic point group (crystal class) from the space group ==
+Leave out the Bravais lattice type.
+Convert all symmetry elements with translational components into their respective symmetry elements without translation symmetry. (Glide planes are converted into simple mirror planes; screw axes are converted into simple axes of rotation.)
+Axes of rotation, rotoinversion axes, and mirror planes remain unchanged.
+
+
+== Symmetry in understanding crystal properties ==
+The symmetry of a material can have profound effects on what properties are 'allowed' to be displayed by that crystal.  These influences are summarized in Von Neumann's principle and more generally by the Curie Law's. These laws state that the symmetry of a crystals physical properties must be at least as symmetric as the crystal itself.  A common example given is in piezoelectricity and pyroelectricity.  These properties generate an electric dipole in a crystal under strain or thermal changes.  An electric dipole is directional and as such cannot exist in crystals with inversion symmetry.  The converse, however, is not true.  Crystals without inversion symmetry do not necessarily display piezo- or pyro-electricity.
+
+
+=== Symmetry in Polycrystals ===
+Polycrystals contain many small crystals of different orientations.  In an idealized case, with sufficiently small crystals in a sufficiently large sample, every orientation is represented, leading to an approximately isotropic material.  In effect, this allows a polycrystal to display properties of a higher symmetry than the individual crystals composing it.  For example, an ideal polycrystal or pyroelectric crystallites will display electric dipoles in every direction, which cancel out, giving the polycrystal a net zero polarization.
+An extension of the crystallographic point groups known as the Curie groups allows us to describe the symmetry of the polycrystal by the symmetry of the orientations of each crystallite. In an ideal polycrystal, every orientation is identical, which may be though of as having infinite rotational symmetry in all direction given by ∞∞, representing two perpendicular rotational axis.  This gives two groups ∞∞ if the polycrystal has a net chirality, and ∞∞m if there is no net chirality.  The remaining curie groups may be derived from the ideal symmetries using the Curie's principle. Curie's principle states that the symmetry of a (poly)crystal under a stimulus is the intersection of the symmetry of the stimulus and the symmetry of the (poly)crystal.  Below is a table displaying the 7 curie groups along with mmm, and 222 resulting from an ideal polycrystal exposed to different stimuli in order to generate different symmetries.
+
+This extension of symmetry to polycrystals is of significant value to manufacturing, as it allows for generating polycrystal samples that can display low symmetry properties rather than needing pure single crystals.  Additionally, it allows the properties to be oriented by the manufacturing process rather than careful orientation of the single crystal.  For example, if a pyroelectric is needed, a polycrystal of a suitable material may be made and then exposed to a strong electric field to reorient the dipoles of each crystallite with that electric field.  The resulting polycrystal then displays pyroelectricity along the direction the electric field was applied.
+
+
+=== Magnetic Point Groups ===
+
+Some material properties, such as magnetism, display an additional form of symmetry commonly called, anti-symmetry, magnetic symmetry, time-reversal symmetry, or dichromatic symmetry.  This new symmetry flips a binary state, such as spin, and is attached to other symmetry elements.  Regardless of the property under consideration, the binary state at a given point is typically represented by either a black or white point, hence the name 'dichromatic symmetry'.
+Example: 
+A classical model for magnetism considers the spin of electrons as current loops generating a magnetic dipole, which can be represented as a pseudo-vector.  If acted upon by a mirror plane perpendicular to the dipole, the current loop (spin) remains in its original state, leading to the same dipole.  If acted upon by a mirror plane parallel to the dipole, the current loop (spin) flips, leading to the opposite dipole. For either of these cases, anti-symmetry may be added to the mirror plane.  The spatial effect of the mirror is unchanged, but its influence on the binary state is flipped; ie, if the regular mirror flipped the spin, the anti-symmetric mirror does not.
+By adding anti-symmetry to the crystallographic point groups, 122 magnetic groups are generated.  Of these 122, 32 are the original crystallographic point groups and 32 are so called grey groups, in which the black and white state of the property overlap on the same points. The remaining 58 groups are capable of displaying dichroic properties such as magnetism.
+
+
+== See also ==
+Molecular symmetry
+Point group
+Space group
+Point groups in three dimensions
+Crystal system
+Geometrical crystallography before X-rays
+
+
+== References ==
+
+
+== External links ==
+Point-group symbols in International Tables for Crystallography (2006). Vol. A, ch. 12.1, pp. 818-820
+Names and symbols of the 32 crystal classes in International Tables for Crystallography (2006). Vol. A, ch. 10.1, p. 794
+Pictorial overview of the 32 groups
+Kostov, R. I. 2024. Colour Table of the 32 Classes of Symmetry with statistics of minerals among crystal systems. – Symmetry: Culture and Science (Symmetry Festival 2024. July 17-20, 2024, Pisa, Italy. “Leaning” Symmetry. Conference Proceedings; Eds. S. Brasili, J. Gielis), Single Volume, 91-94. https://doi.org/10.26830/symmetryfestival2024_24

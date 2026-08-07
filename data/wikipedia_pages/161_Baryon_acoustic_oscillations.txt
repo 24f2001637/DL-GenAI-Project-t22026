@@ -1,0 +1,918 @@
+Wikipedia article: Baryon acoustic oscillations
+Source: https://en.wikipedia.org/wiki/Baryon_acoustic_oscillations
+PageID: 22719936
+======================================================================
+
+In cosmology, baryon acoustic oscillations (BAO) are fluctuations in the density of the visible baryonic matter (normal matter) of the universe, caused by acoustic density waves in the primordial plasma of the early universe.  In the same way that supernovae provide a "standard candle" for astronomical observations, BAO matter clustering provides a "standard ruler" for length scale in cosmology. 
+The length of this standard ruler is given by the maximum distance the acoustic waves could travel in the primordial plasma before the plasma cooled to the point where it became neutral atoms (the epoch of recombination), which stopped the expansion of the plasma density waves, "freezing" them into place. The length of this standard ruler (≈490 million light years in today's universe) can be measured by looking at the large scale structure of matter using astronomical surveys.  BAO measurements help cosmologists understand more about the nature of dark energy (which causes the accelerating expansion of the universe) by constraining cosmological parameters.
+
+
+== Early universe ==
+The early universe consisted of a hot, dense plasma of electrons and baryons (which include protons and neutrons). Photons (light particles) travelling in this universe were essentially trapped, unable to travel for any considerable distance before interacting with the plasma via Thomson scattering. The average distance which a photon could travel before interacting with the plasma is known as the mean free path of the photon. As the universe expanded, the plasma cooled to below 3000 K—a low enough energy such that the electrons and protons in the plasma could combine to form neutral hydrogen atoms. This recombination happened when the universe was around 379,000 years old, or at a redshift of z = 1089. At this age, the size of BAO bubbles were 450,000 light-years (0.14 Mpc) in radius (490 million light-years today divided by z = 1089). Photons interact to a much lesser degree with neutral matter, and therefore at recombination the universe became transparent to photons, allowing them to decouple from the matter and free-stream through the universe. The cosmic microwave background (CMB) radiation is light that was scattered just before, and emitted by, recombination, now seen with our telescopes as radio waves all over the sky since it is red-shifted. Therefore, when looking at, for example, Wilkinson Microwave Anisotropy Probe (WMAP) data, one is basically looking back in time to see an image of the universe when it was only 379,000 years old.
+
+WMAP indicates (Figure 1) a smooth, homogeneous universe with density anisotropies of 10 parts per million. However, there are large structures and density fluctuations in the present universe.  Galaxies, for instance, are a million times more dense than the universe's mean density. The current belief is that the universe was built in a bottom-up fashion, meaning that the small anisotropies of the early universe acted as gravitational seeds for the structure observed today. Overdense regions attract more matter, whereas underdense regions attract less, and thus these small anisotropies, seen in the CMB, became the large scale structures in the universe today.
+
+
+== Cosmic sound ==
+Imagine an overdense region of the primordial plasma.  While this region of overdensity gravitationally attracts matter towards it, the heat of photon-matter interactions creates a large amount of outward pressure.  These counteracting forces of gravity and pressure created oscillations, comparable to sound waves created in air by pressure differences.
+This overdense region contains dark matter, baryons and photons.  The pressure results in spherical sound waves of both baryons and photons moving with a speed slightly over half the speed of light outwards from the overdensity.  The dark matter interacts only gravitationally, and so it stays at the center of the sound wave, the origin of the overdensity.  Before decoupling, the photons and baryons moved outwards together.  After decoupling, the photons were no longer interacting with the baryonic matter and they diffused away.  That relieved the pressure on the system, leaving behind shells of baryonic matter.  Out of all those shells, representing different sound waves wavelengths, the resonant shell corresponds to the first one as it is that shell that travels the same distance for all overdensities before decoupling. This radius is often referred to as the sound horizon.  
+Without the photo-baryon pressure driving the system outwards, the only remaining force on the baryons was gravitational.  Therefore, the baryons and dark matter (left behind at the center of the perturbation) formed a configuration which included overdensities of matter both at the original site of the anisotropy and in the shell at the sound horizon for that anisotropy. Such anisotropies eventually became the ripples in matter density that would form galaxies. 
+Therefore, one would expect to see a greater number of galaxy pairs separated by the sound horizon distance scale than by other length scales.  This particular configuration of matter occurred at each anisotropy in the early universe, and therefore the universe is not composed of one sound ripple, but many overlapping ripples.  As an analogy, imagine dropping many pebbles into a pond and watching the resulting wave patterns in the water.  It is not possible to observe this preferred separation of galaxies on the sound horizon scale by eye, but one can measure this artifact statistically by looking at the separations of large numbers of galaxies.
+
+
+== Standard ruler ==
+The physics of the propagation of the baryon waves in the early universe is fairly simple; as a result cosmologists can predict the size of the sound horizon at the time of recombination.  In addition the CMB provides a measurement of this scale to high accuracy.  However, in the time between recombination and present day, the universe has been expanding.  This expansion is well supported by observations and is one of the foundations of the Big Bang Model.  In the late 1990s, observations of supernovae determined that not only is the universe expanding, it is expanding at an increasing rate.  A better understanding of the acceleration of the universe, or dark energy, has become one of the most important questions in cosmology today.  In order to understand the nature of the dark energy, it is important to have a variety of ways of measuring the acceleration.  BAO can add to the body of knowledge about this acceleration by comparing observations of the sound horizon today (using clustering of galaxies) to that of the sound horizon at the time of recombination (using the CMB).  Thus BAO provides a measuring stick with which to better understand the nature of the acceleration, completely independent from the supernova technique.
+
+
+== BAO signal in the Sloan Digital Sky Survey ==
+The Sloan Digital Sky Survey (SDSS) is a major multi-spectral imaging and spectroscopic redshift survey using the dedicated 2.5-metre wide-angle SDSS optical telescope at Apache Point Observatory in New Mexico. The goal of this five-year survey was to take images and spectra of millions of celestial objects.  The result of compiling the SDSS data is a three-dimensional map of objects in the nearby universe: the SDSS catalog.  The SDSS catalog provides a picture of the distribution of matter in a large enough portion of the universe that one can search for a BAO signal by noting whether there is a statistically significant overabundance of galaxies separated by the predicted sound horizon distance.
+The SDSS team looked at a sample of 46,748 luminous red galaxies (LRGs), over 3,816 square-degrees of sky (approximately five billion light years in diameter) and out to a redshift of z = 0.47.  They analyzed the clustering of these galaxies by calculating a two-point correlation function on the data.  The correlation function (ξ) is a function of comoving galaxy separation distance (s) and describes the probability that one galaxy will be found within a given distance of another. 
+One would expect a high correlation of galaxies at small separation distances (due to the clumpy nature of galaxy formation) and a low correlation at large separation distances.  The BAO signal would show up as a bump in the correlation function at a comoving separation equal to the sound horizon.  This signal was detected by the SDSS team in 2005. SDSS confirmed the WMAP results that the sound horizon is ~150 Mpc in today's universe.
+In 2023 astronomers using the SDSS catalog as well as the cosmicflow-4 catalog claimed to have found evidence of an individual BAO bubble with a 
+  
+    
+      
+        155
+         
+        
+          h
+          
+            75
+          
+          
+            −
+            1
+          
+        
+        M
+        p
+        c
+      
+    
+    {\displaystyle 155\ h_{75}^{-1}Mpc}
+  
+ radius containing some of largest structures known – the Boötes supercluster, the Sloan Great Wall, CfA2 Great Wall, and the Hercules Superclusters- which they named Ho'oleilana.
+
+
+== Detection in other galaxy surveys ==
+The 2dFGRS collaboration and the SDSS collaboration reported a detection of the BAO signal in the power spectrum at around the same time in 2005. Both teams are credited and recognized for the discovery by the community as evidenced by the 2014 Shaw Prize in Astronomy which was awarded to both groups. Since then, further detections have been reported in the 6dF Galaxy Survey (6dFGS) in 2011,  WiggleZ in 2011 and BOSS in 2012.
+
+
+== Dark energy formalism ==
+
+
+=== BAO constraints on dark energy parameters ===
+The BAO in the radial and transverse directions provide measurements of the Hubble parameter and angular diameter distance, respectively. The angular diameter distance and Hubble parameter can include different functions that explain dark energy behavior. These functions have two parameters w0 and w1 and one can constrain them with a chi-square technique.
+
+
+=== General relativity and dark energy ===
+In general relativity, the expansion of the universe is parametrized by a scale factor 
+  
+    
+      
+        a
+        (
+        t
+        )
+      
+    
+    {\displaystyle a(t)}
+  
+ which is related to redshift:
+
+  
+    
+      
+        a
+        (
+        t
+        )
+        ≡
+        (
+        1
+        +
+        z
+        (
+        t
+        )
+        
+          )
+          
+            −
+            1
+          
+        
+        
+      
+    
+    {\displaystyle a(t)\equiv (1+z(t))^{-1}\!}
+  
+
+The Hubble parameter, 
+  
+    
+      
+        H
+        (
+        z
+        )
+      
+    
+    {\displaystyle H(z)}
+  
+, in terms of the scale factor is:
+
+  
+    
+      
+        H
+        (
+        t
+        )
+        ≡
+        
+          
+            
+              
+                a
+                ˙
+              
+            
+            a
+          
+        
+        
+      
+    
+    {\displaystyle H(t)\equiv {\frac {\dot {a}}{a}}\!}
+  
+
+where 
+  
+    
+      
+        
+          
+            
+              a
+              ˙
+            
+          
+        
+      
+    
+    {\displaystyle {\dot {a}}}
+  
+ is the time-derivative of the scale factor.  The Friedmann equations express the expansion of the universe in terms of Newton's gravitational constant, 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+  
+, the mean gauge pressure, 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+, the Universe's density 
+  
+    
+      
+        ρ
+        
+      
+    
+    {\displaystyle \rho \!}
+  
+, the curvature, 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  
+, and the cosmological constant, 
+  
+    
+      
+        Λ
+        
+      
+    
+    {\displaystyle \Lambda \!}
+  
+:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  H
+                  
+                    2
+                  
+                
+                =
+              
+              
+                
+                  
+                    (
+                    
+                      
+                        
+                          
+                            a
+                            ˙
+                          
+                        
+                        a
+                      
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+              
+              
+                =
+              
+              
+                
+                  
+                    
+                      8
+                      π
+                      G
+                    
+                    3
+                  
+                
+                ρ
+                −
+                
+                  
+                    
+                      k
+                      
+                        c
+                        
+                          2
+                        
+                      
+                    
+                    
+                      a
+                      
+                        2
+                      
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      Λ
+                      
+                        c
+                        
+                          2
+                        
+                      
+                    
+                    3
+                  
+                
+              
+            
+            
+              
+                
+                  
+                    
+                      H
+                      ˙
+                    
+                  
+                
+                +
+                
+                  H
+                  
+                    2
+                  
+                
+                =
+              
+              
+                
+                  
+                    
+                      
+                        a
+                        ¨
+                      
+                    
+                    a
+                  
+                
+              
+              
+                =
+              
+              
+                −
+                
+                  
+                    
+                      4
+                      π
+                      G
+                    
+                    3
+                  
+                
+                
+                  (
+                  
+                    ρ
+                    +
+                    
+                      
+                        
+                          3
+                          p
+                        
+                        
+                          c
+                          
+                            2
+                          
+                        
+                      
+                    
+                  
+                  )
+                
+                +
+                
+                  
+                    
+                      Λ
+                      
+                        c
+                        
+                          2
+                        
+                      
+                    
+                    3
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{array}{rccl}H^{2}=&\left({\frac {\dot {a}}{a}}\right)^{2}&=&{\frac {8\pi G}{3}}\rho -{\frac {kc^{2}}{a^{2}}}+{\frac {\Lambda c^{2}}{3}}\\{\dot {H}}+H^{2}=&{\frac {\ddot {a}}{a}}&=&-{\frac {4\pi G}{3}}\left(\rho +{\frac {3p}{c^{2}}}\right)+{\frac {\Lambda c^{2}}{3}}\end{array}}}
+  
+
+Observational evidence of the acceleration of the universe implies that (at present time) 
+  
+    
+      
+        
+          
+            
+              a
+              ¨
+            
+          
+        
+        >
+        0
+      
+    
+    {\displaystyle {\ddot {a}}>0}
+  
+. Therefore, the following are possible explanations:
+
+The universe is dominated by some field or particle that has negative pressure such that the equation of state:
+  
+    
+      
+        w
+        =
+        
+          
+            p
+            ρ
+          
+        
+        <
+        −
+        1
+        
+          /
+        
+        3
+        
+      
+    
+    {\displaystyle w={\frac {p}{\rho }}<-1/3\!}
+  
+
+There is a non-zero cosmological constant, 
+  
+    
+      
+        Λ
+        
+      
+    
+    {\displaystyle \Lambda \!}
+  
+.
+The Friedmann equations are incorrect since they contain oversimplifications in order to make the general relativistic field equations easier to compute.
+In order to differentiate between these scenarios, precise measurements of the Hubble parameter as a function of redshift are needed.
+
+
+=== Measured observables of dark energy ===
+The density parameter, 
+  
+    
+      
+        Ω
+        
+      
+    
+    {\displaystyle \Omega \!}
+  
+, of various components, 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+, of the universe can be expressed as ratios of the density of 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ to the critical density, 
+  
+    
+      
+        
+          ρ
+          
+            c
+          
+        
+        
+      
+    
+    {\displaystyle \rho _{c}\!}
+  
+:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ρ
+                  
+                    c
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      3
+                      
+                        H
+                        
+                          2
+                        
+                      
+                    
+                    
+                      8
+                      π
+                      G
+                    
+                  
+                
+              
+            
+            
+              
+                
+                  Ω
+                  
+                    x
+                  
+                
+                ≡
+                
+                  
+                    
+                      ρ
+                      
+                        x
+                      
+                    
+                    
+                      ρ
+                      
+                        c
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      8
+                      π
+                      G
+                      
+                        ρ
+                        
+                          x
+                        
+                      
+                    
+                    
+                      3
+                      
+                        H
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\rho _{c}&={\frac {3H^{2}}{8\pi G}}\\\Omega _{x}\equiv {\frac {\rho _{x}}{\rho _{c}}}&={\frac {8\pi G\rho _{x}}{3H^{2}}}\end{aligned}}}
+  
+
+The Friedman equation can be rewritten in terms of the density parameter. For the current prevailing model of the universe, ΛCDM, this equation is as follows:
+
+  
+    
+      
+        
+          H
+          
+            2
+          
+        
+        (
+        a
+        )
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    a
+                    ˙
+                  
+                
+                a
+              
+            
+            )
+          
+          
+            2
+          
+        
+        =
+        
+          H
+          
+            0
+          
+          
+            2
+          
+        
+        
+          [
+          
+            
+              Ω
+              
+                m
+              
+            
+            
+              a
+              
+                −
+                3
+              
+            
+            +
+            
+              Ω
+              
+                r
+              
+            
+            
+              a
+              
+                −
+                4
+              
+            
+            +
+            
+              Ω
+              
+                k
+              
+            
+            
+              a
+              
+                −
+                2
+              
+            
+            +
+            
+              Ω
+              
+                Λ
+              
+            
+            
+              a
+              
+                −
+                3
+                (
+                1
+                +
+                w
+                )
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle H^{2}(a)=\left({\frac {\dot {a}}{a}}\right)^{2}=H_{0}^{2}\left[\Omega _{m}a^{-3}+\Omega _{r}a^{-4}+\Omega _{k}a^{-2}+\Omega _{\Lambda }a^{-3(1+w)}\right]}
+  
+
+where m is matter, r is radiation, k is curvature, Λ is dark energy, and w is the equation of state.  Measurements of the CMB from WMAP put tight constraints on many of these parameters; however it is important to confirm and further constrain them using an independent method with different systematics.
+The BAO signal is a standard ruler such that the length of the sound horizon can be measured as a function of cosmic time. This measures two cosmological distances: the Hubble parameter, 
+  
+    
+      
+        H
+        (
+        z
+        )
+      
+    
+    {\displaystyle H(z)}
+  
+, and the angular diameter distance, 
+  
+    
+      
+        
+          d
+          
+            A
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle d_{A}(z)}
+  
+, as a function of redshift 
+  
+    
+      
+        (
+        z
+        )
+      
+    
+    {\displaystyle (z)}
+  
+. By measuring the subtended angle, 
+  
+    
+      
+        Δ
+        θ
+      
+    
+    {\displaystyle \Delta \theta }
+  
+, of the ruler of length 
+  
+    
+      
+        Δ
+        χ
+      
+    
+    {\displaystyle \Delta \chi }
+  
+, these parameters are determined as follows:
+
+  
+    
+      
+        
+          
+            
+              
+                Δ
+                θ
+              
+              
+                
+                =
+                
+                  
+                    
+                      Δ
+                      χ
+                    
+                    
+                      
+                        d
+                        
+                          A
+                        
+                      
+                      (
+                      z
+                      )
+                    
+                  
+                
+                
+              
+            
+            
+              
+                
+                  d
+                  
+                    A
+                  
+                
+                (
+                z
+                )
+              
+              
+                
+                ∝
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    z
+                  
+                
+                
+                  
+                    
+                      d
+                      
+                        z
+                        ′
+                      
+                    
+                    
+                      H
+                      (
+                      
+                        z
+                        ′
+                      
+                      )
+                    
+                  
+                
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\Delta \theta &={\frac {\Delta \chi }{d_{A}(z)}}\!\\d_{A}(z)&\propto \int _{0}^{z}{\frac {dz'}{H(z')}}\!\end{aligned}}}
+  
+
+the redshift interval, 
+  
+    
+      
+        Δ
+        z
+      
+    
+    {\displaystyle \Delta z}
+  
+, can be measured from the data and thus determining the Hubble parameter as a function of redshift:
+
+  
+    
+      
+        c
+        Δ
+        z
+        =
+        H
+        (
+        z
+        )
+        Δ
+        χ
+        
+      
+    
+    {\displaystyle c\Delta z=H(z)\Delta \chi \!}
+  
+
+Therefore, the BAO technique helps constrain cosmological parameters and provide further insight into the nature of dark energy.
+
+
+== See also ==
+Baryon Oscillation Spectroscopic Survey
+Dark Energy Spectroscopic Instrument (DESI)
+BINGO (telescope)
+Euclid (spacecraft)
+
+
+== References ==
+
+
+== External links ==
+"Baryon acoustic oscillations and dark energy". Martin White. Archived from the original on Jun 8, 2023.
+"Detection of the Baryon Acoustic Peak in the Large-Scale Correlation Function of SDSS Luminous Red Galaxies". 5 March 2012.
+Bassett, Bruce A.; Hlozek, Renée (2009). "Baryon Acoustic Oscillations". arXiv:0910.5224 [astro-ph.CO].
+"The cosmic yardstick — Sloan Digital Sky Survey astronomers measure role of dark matter, dark energy and gravity in the distribution of galaxies". Sloan Digital Sky Survey. January 11, 2005. Archived from the original on Dec 3, 2013.

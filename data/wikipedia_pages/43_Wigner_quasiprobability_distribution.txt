@@ -1,0 +1,2371 @@
+Wikipedia article: Wigner quasiprobability distribution
+Source: https://en.wikipedia.org/wiki/Wigner_quasiprobability_distribution
+PageID: 1884336
+======================================================================
+
+The Wigner quasiprobability distribution, also called the Wigner function or the Wigner–Ville distribution, after Eugene Wigner and Jean-André Ville, is a quasiprobability distribution, similar to the Margenau-Hill quasiprobability distribution and the Kirkwood–Dirac quasiprobability distribution. It was introduced by Eugene Wigner in 1932 to study quantum corrections to classical statistical mechanics. The goal was to link the wavefunction that appears in the Schrödinger equation to a probability distribution in phase space.
+It is a generating function for all spatial autocorrelation functions of a given quantum-mechanical wavefunction ψ(x).
+Thus, it maps on the quantum density matrix in the map between real phase-space functions and Hermitian operators introduced by Hermann Weyl in 1927, in a context related to representation theory in mathematics (see Weyl quantization). In effect, it is the Wigner–Weyl transform of the density matrix, so the realization of that operator in phase space.
+It has applications in statistical mechanics, quantum chemistry, quantum optics, classical optics and signal analysis in diverse fields, such as electrical engineering, seismology, time–frequency analysis for music signals, spectrograms in biology and speech processing, and engine design.
+
+
+== Relation to classical mechanics ==
+A classical particle has a definite position and momentum, and hence it is represented by a point in phase space. Given a collection (ensemble) of particles, the probability of finding a particle at a certain position in phase space is specified by a probability distribution, the Liouville density. This strict interpretation fails
+for a quantum particle, due to the uncertainty principle. Instead, the above quasiprobability Wigner distribution plays an analogous role, but does not satisfy all the properties of a conventional probability distribution; and, conversely, satisfies boundedness properties unavailable to classical distributions.
+For instance, the Wigner distribution can and normally does take on negative values for states which have no classical model—and is a convenient indicator of quantum-mechanical interference. (See below for a characterization of pure states whose Wigner functions are non-negative.)
+Smoothing the Wigner distribution through a filter of size larger than ħ (e.g., convolving with a phase-space Gaussian, a Weierstrass transform, to yield the Husimi representation, below), results in a positive-semidefinite function, i.e., it may be thought to have been coarsened to a semi-classical one.
+Regions of such negative value are provable (by convolving them with a small Gaussian) to be "small": they cannot extend to compact regions larger than a few ħ, and hence disappear in the classical limit. They are shielded by the uncertainty principle, which does not allow precise location within phase-space regions smaller than ħ, and thus renders such "negative probabilities" less paradoxical.
+
+
+== Definition and meaning ==
+The Wigner distribution W(x,p) of a pure state is defined as
+
+where ψ is the wavefunction, and x and p are position and momentum, but could be any conjugate variable pair (e.g. real and imaginary parts of the electric field or frequency and time of a signal). Note that it may have support in x even in regions where ψ has no support in x ("beats").
+It is symmetric in x and p:
+
+  
+    
+      
+        W
+        (
+        x
+        ,
+        p
+        )
+        =
+        
+          
+            1
+            
+              π
+              ℏ
+            
+          
+        
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        
+          φ
+          
+            ∗
+          
+        
+        (
+        p
+        +
+        q
+        )
+        φ
+        (
+        p
+        −
+        q
+        )
+        
+          e
+          
+            −
+            2
+            i
+            x
+            q
+            
+              /
+            
+            ℏ
+          
+        
+        
+        d
+        q
+        ,
+      
+    
+    {\displaystyle W(x,p)={\frac {1}{\pi \hbar }}\int _{-\infty }^{\infty }\varphi ^{*}(p+q)\varphi (p-q)e^{-2ixq/\hbar }\,dq,}
+  
+
+where 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  
+ is the normalized momentum-space wave function, proportional to the Fourier transform of ψ.
+In 3D,
+
+  
+    
+      
+        W
+        (
+        
+          r
+        
+        ,
+        
+          p
+        
+        )
+        =
+        
+          
+            1
+            
+              (
+              2
+              π
+              
+                )
+                
+                  3
+                
+              
+            
+          
+        
+        ∫
+        
+          ψ
+          
+            ∗
+          
+        
+        
+          
+          
+            (
+            
+              
+                r
+              
+              +
+              
+                
+                  
+                    ℏ
+                    2
+                  
+                
+              
+              
+                s
+              
+            
+            )
+          
+        
+        ψ
+        
+          
+            (
+            
+              
+                r
+              
+              −
+              
+                
+                  
+                    ℏ
+                    2
+                  
+                
+              
+              
+                s
+              
+            
+            )
+          
+        
+        
+          e
+          
+            i
+            
+              p
+            
+            ⋅
+            
+              s
+            
+          
+        
+        
+        
+          d
+          
+            3
+          
+        
+        s
+        .
+      
+    
+    {\displaystyle W(\mathbf {r} ,\mathbf {p} )={\frac {1}{(2\pi )^{3}}}\int \psi ^{*}{\!\left(\mathbf {r} +{\tfrac {\hbar }{2}}\mathbf {s} \right)}\psi {\left(\mathbf {r} -{\tfrac {\hbar }{2}}\mathbf {s} \right)}e^{i\mathbf {p} \cdot \mathbf {s} }\,d^{3}s.}
+  
+
+In the general case, which includes mixed states, it is the Wigner transform of the density matrix:
+
+  
+    
+      
+        W
+        (
+        x
+        ,
+        p
+        )
+        =
+        
+          
+            1
+            
+              π
+              ℏ
+            
+          
+        
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        ⟨
+        x
+        −
+        y
+        
+          |
+        
+        
+          
+            
+              ρ
+              ^
+            
+          
+        
+        
+          |
+        
+        x
+        +
+        y
+        ⟩
+        
+          e
+          
+            2
+            i
+            p
+            y
+            
+              /
+            
+            ℏ
+          
+        
+        
+        d
+        y
+        ,
+      
+    
+    {\displaystyle W(x,p)={\frac {1}{\pi \hbar }}\int _{-\infty }^{\infty }\langle x-y|{\hat {\rho }}|x+y\rangle e^{2ipy/\hbar }\,dy,}
+  
+
+where ⟨x|ψ⟩ = ψ(x). This Wigner transformation (or map) is the inverse of the Weyl transform, which maps phase-space functions to Hilbert-space operators, in Weyl quantization. Thus, the Wigner function is the cornerstone of quantum mechanics in phase space.
+In second quantization the phase-space operators are 
+  
+    
+      
+        x
+        =
+        (
+        a
+        +
+        
+          a
+          
+            †
+          
+        
+        )
+        
+          /
+        
+        
+          
+            2
+          
+        
+      
+    
+    {\displaystyle x=(a+a^{\dagger })/{\sqrt {2}}}
+  
+ and 
+  
+    
+      
+        p
+        =
+        −
+        i
+        (
+        a
+        −
+        
+          a
+          
+            †
+          
+        
+        )
+        
+          /
+        
+        
+          
+            2
+          
+        
+      
+    
+    {\displaystyle p=-i(a-a^{\dagger })/{\sqrt {2}}}
+  
+ where the Wigner function is 
+
+  
+    
+      
+        W
+        (
+        x
+        ,
+        p
+        )
+        =
+        
+          
+            1
+            
+              π
+              ℏ
+            
+          
+        
+        
+          T
+          r
+        
+        [
+        ρ
+        D
+        (
+        α
+        )
+        Π
+        
+          D
+          
+            †
+          
+        
+        (
+        α
+        )
+        ]
+      
+    
+    {\displaystyle W(x,p)={\frac {1}{\pi \hbar }}\mathrm {Tr} [\rho D(\alpha )\Pi D^{\dagger }(\alpha )]}
+  
+
+for parity operator 
+  
+    
+      
+        Π
+        =
+        
+          e
+          
+            i
+            π
+            
+              a
+              
+                †
+              
+            
+            a
+          
+        
+      
+    
+    {\displaystyle \Pi =e^{i\pi a^{\dagger }a}}
+  
+ and displacement operator 
+  
+    
+      
+        D
+        (
+        α
+        )
+        =
+        
+          e
+          
+            α
+            
+              a
+              
+                †
+              
+            
+            −
+            
+              α
+              
+                ∗
+              
+            
+            a
+          
+        
+      
+    
+    {\displaystyle D(\alpha )=e^{\alpha a^{\dagger }-\alpha ^{*}a}}
+  
+ with 
+  
+    
+      
+        α
+        =
+        (
+        x
+        +
+        i
+        p
+        )
+        
+          /
+        
+        
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \alpha =(x+ip)/{\sqrt {2}}}
+  
+.
+In 1949, José Enrique Moyal elucidated how the Wigner function provides the integration measure (analogous to a probability density function) in phase space, to yield expectation values from phase-space c-number functions g(x, p) uniquely associated to suitably ordered operators Ĝ through Weyl's transform (see Wigner–Weyl transform and property 7 below), in a manner evocative of classical probability theory.
+Specifically, an operator's Ĝ expectation value is a "phase-space average" of the Wigner transform of that operator:
+
+  
+    
+      
+        ⟨
+        
+          
+            
+              G
+              ^
+            
+          
+        
+        ⟩
+        =
+        ∫
+        d
+        x
+        
+        d
+        p
+        
+        W
+        (
+        x
+        ,
+        p
+        )
+        g
+        (
+        x
+        ,
+        p
+        )
+        .
+      
+    
+    {\displaystyle \langle {\hat {G}}\rangle =\int dx\,dp\,W(x,p)g(x,p).}
+  
+
+
+== Mathematical properties ==
+
+W(x, p) is a real-valued function.
+The x and p probability distributions are given by the marginals: 
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        p
+        
+        W
+        (
+        x
+        ,
+        p
+        )
+        =
+        ⟨
+        x
+        
+          |
+        
+        
+          
+            
+              ρ
+              ^
+            
+          
+        
+        
+          |
+        
+        x
+        ⟩
+        .
+      
+    
+    {\displaystyle \int _{-\infty }^{\infty }dp\,W(x,p)=\langle x|{\hat {\rho }}|x\rangle .}
+  
+
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        x
+        
+        W
+        (
+        x
+        ,
+        p
+        )
+        =
+        ⟨
+        p
+        
+          |
+        
+        
+          
+            
+              ρ
+              ^
+            
+          
+        
+        
+          |
+        
+        p
+        ⟩
+        .
+      
+    
+    {\displaystyle \int _{-\infty }^{\infty }dx\,W(x,p)=\langle p|{\hat {\rho }}|p\rangle .}
+  
+ If the system can be described by a pure state, one gets 
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        p
+        
+        W
+        (
+        x
+        ,
+        p
+        )
+        =
+        
+          |
+        
+        ψ
+        (
+        x
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\textstyle \int _{-\infty }^{\infty }dp\,W(x,p)=|\psi (x)|^{2}}
+  
+ and 
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        x
+        
+        W
+        (
+        x
+        ,
+        p
+        )
+        =
+        
+          |
+        
+        φ
+        (
+        p
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\textstyle \int _{-\infty }^{\infty }dx\,W(x,p)=|\varphi (p)|^{2}.}
+  
+  
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        x
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        p
+        
+        W
+        (
+        x
+        ,
+        p
+        )
+        =
+        Tr
+        ⁡
+        (
+        
+          
+            
+              ρ
+              ^
+            
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle \int _{-\infty }^{\infty }dx\int _{-\infty }^{\infty }dp\,W(x,p)=\operatorname {Tr} ({\hat {\rho }}).}
+  
+ Typically the trace of the density matrix 
+  
+    
+      
+        
+          
+            
+              ρ
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\rho }}}
+  
+ is equal to 1.
+W(x, p) has the following reflection symmetries:
+Time symmetry: 
+  
+    
+      
+        ψ
+        (
+        x
+        )
+        →
+        ψ
+        (
+        x
+        
+          )
+          
+            ∗
+          
+        
+        ⇒
+        W
+        (
+        x
+        ,
+        p
+        )
+        →
+        W
+        (
+        x
+        ,
+        −
+        p
+        )
+        .
+      
+    
+    {\displaystyle \psi (x)\to \psi (x)^{*}\Rightarrow W(x,p)\to W(x,-p).}
+  
+
+Space symmetry: 
+  
+    
+      
+        ψ
+        (
+        x
+        )
+        →
+        ψ
+        (
+        −
+        x
+        )
+        ⇒
+        W
+        (
+        x
+        ,
+        p
+        )
+        →
+        W
+        (
+        −
+        x
+        ,
+        −
+        p
+        )
+        .
+      
+    
+    {\displaystyle \psi (x)\to \psi (-x)\Rightarrow W(x,p)\to W(-x,-p).}
+  
+
+W(x, p) is Galilei-covariant: 
+  
+    
+      
+        ψ
+        (
+        x
+        )
+        →
+        ψ
+        (
+        x
+        +
+        y
+        )
+        ⇒
+        W
+        (
+        x
+        ,
+        p
+        )
+        →
+        W
+        (
+        x
+        +
+        y
+        ,
+        p
+        )
+        .
+      
+    
+    {\displaystyle \psi (x)\to \psi (x+y)\Rightarrow W(x,p)\to W(x+y,p).}
+  
+ It is not Lorentz-covariant.
+The equation of motion for each point in the phase space is classical in the absence of forces: 
+  
+    
+      
+        
+          
+            
+              ∂
+              W
+              (
+              x
+              ,
+              p
+              )
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        
+          
+            
+              −
+              p
+            
+            m
+          
+        
+        
+          
+            
+              ∂
+              W
+              (
+              x
+              ,
+              p
+              )
+            
+            
+              ∂
+              x
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {\partial W(x,p)}{\partial t}}={\frac {-p}{m}}{\frac {\partial W(x,p)}{\partial x}}.}
+  
+ In fact, it is classical even in the presence of harmonic forces.
+State overlap is calculated as 
+  
+    
+      
+        
+          |
+        
+        ⟨
+        ψ
+        
+          |
+        
+        θ
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        2
+        π
+        ℏ
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        x
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        p
+        
+        
+          W
+          
+            ψ
+          
+        
+        (
+        x
+        ,
+        p
+        )
+        
+          W
+          
+            θ
+          
+        
+        (
+        x
+        ,
+        p
+        )
+        .
+      
+    
+    {\displaystyle |\langle \psi |\theta \rangle |^{2}=2\pi \hbar \int _{-\infty }^{\infty }dx\int _{-\infty }^{\infty }dp\,W_{\psi }(x,p)W_{\theta }(x,p).}
+  
+
+Operator expectation values (averages) are calculated as phase-space averages of the respective Wigner transforms: 
+  
+    
+      
+        g
+        (
+        x
+        ,
+        p
+        )
+        ≡
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        y
+        
+        
+          ⟨
+          
+            x
+            −
+            
+              
+                y
+                2
+              
+            
+          
+          |
+        
+        
+          
+            
+              G
+              ^
+            
+          
+        
+        
+          |
+          
+            x
+            +
+            
+              
+                y
+                2
+              
+            
+          
+          ⟩
+        
+        
+          e
+          
+            i
+            p
+            y
+            
+              /
+            
+            ℏ
+          
+        
+        ,
+      
+    
+    {\displaystyle g(x,p)\equiv \int _{-\infty }^{\infty }dy\,\left\langle x-{\frac {y}{2}}\right|{\hat {G}}\left|x+{\frac {y}{2}}\right\rangle e^{ipy/\hbar },}
+  
+ 
+  
+    
+      
+        ⟨
+        ψ
+        
+          |
+        
+        
+          
+            
+              G
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        Tr
+        ⁡
+        (
+        
+          
+            
+              ρ
+              ^
+            
+          
+        
+        
+          
+            
+              G
+              ^
+            
+          
+        
+        )
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        x
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        p
+        
+        W
+        (
+        x
+        ,
+        p
+        )
+        g
+        (
+        x
+        ,
+        p
+        )
+        .
+      
+    
+    {\displaystyle \langle \psi |{\hat {G}}|\psi \rangle =\operatorname {Tr} ({\hat {\rho }}{\hat {G}})=\int _{-\infty }^{\infty }dx\int _{-\infty }^{\infty }dp\,W(x,p)g(x,p).}
+  
+
+For W(x, p) to represent physical (positive) density matrices, it must satisfy 
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        x
+        
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        p
+        
+        W
+        (
+        x
+        ,
+        p
+        )
+        
+          W
+          
+            θ
+          
+        
+        (
+        x
+        ,
+        p
+        )
+        ≥
+        0
+      
+    
+    {\displaystyle \int _{-\infty }^{\infty }dx\,\int _{-\infty }^{\infty }dp\,W(x,p)W_{\theta }(x,p)\geq 0}
+  
+ for all pure states |θ⟩.
+By virtue of the Cauchy–Schwarz inequality, for a pure state, it is constrained to be bounded: 
+  
+    
+      
+        −
+        
+          
+            2
+            h
+          
+        
+        ≤
+        W
+        (
+        x
+        ,
+        p
+        )
+        ≤
+        
+          
+            2
+            h
+          
+        
+        .
+      
+    
+    {\displaystyle -{\frac {2}{h}}\leq W(x,p)\leq {\frac {2}{h}}.}
+  
+ This bound disappears in the classical limit, ħ → 0.  In this limit, W(x, p) reduces to the probability density in coordinate space x, usually highly localized, multiplied by δ-functions in momentum: the classical limit is "spiky".  Thus, this quantum-mechanical bound precludes a Wigner function which is a perfectly localized δ-function in phase space, as a reflection of the uncertainty principle.
+The Wigner transformation is simply the Fourier transform of the antidiagonals of the density matrix, when that matrix is expressed in a position basis.
+
+
+== Examples ==
+
+Let 
+  
+    
+      
+        
+          |
+        
+        m
+        ⟩
+        ≡
+        
+          
+            
+              a
+              
+                †
+                m
+              
+            
+            
+              m
+              !
+            
+          
+        
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |m\rangle \equiv {\frac {a^{\dagger m}}{\sqrt {m!}}}|0\rangle }
+  
+ be the 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+-th Fock state of a quantum harmonic oscillator. Groenewold (1946) discovered its associated Wigner function, in dimensionless variables:
+
+  
+    
+      
+        
+          W
+          
+            
+              |
+            
+            m
+            ⟩
+          
+        
+        (
+        x
+        ,
+        p
+        )
+        =
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  m
+                
+              
+            
+            π
+          
+        
+        
+          e
+          
+            −
+            (
+            
+              x
+              
+                2
+              
+            
+            +
+            
+              p
+              
+                2
+              
+            
+            )
+          
+        
+        
+          L
+          
+            m
+          
+        
+        
+          
+            (
+          
+        
+        2
+        (
+        
+          p
+          
+            2
+          
+        
+        +
+        
+          x
+          
+            2
+          
+        
+        )
+        
+          
+            )
+          
+        
+        ,
+      
+    
+    {\displaystyle W_{|m\rangle }(x,p)={\frac {(-1)^{m}}{\pi }}e^{-(x^{2}+p^{2})}L_{m}{\big (}2(p^{2}+x^{2}){\big )},}
+  
+
+where 
+  
+    
+      
+        
+          L
+          
+            m
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle L_{m}(x)}
+  
+ denotes the 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+-th Laguerre polynomial.
+This may follow from the expression for the static eigenstate wavefunctions,
+
+  
+    
+      
+        
+          u
+          
+            m
+          
+        
+        (
+        x
+        )
+        =
+        
+          π
+          
+            −
+            1
+            
+              /
+            
+            4
+          
+        
+        
+          H
+          
+            m
+          
+        
+        (
+        x
+        )
+        
+          e
+          
+            −
+            
+              x
+              
+                2
+              
+            
+            
+              /
+            
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle u_{m}(x)=\pi ^{-1/4}H_{m}(x)e^{-x^{2}/2},}
+  
+
+where 
+  
+    
+      
+        
+          H
+          
+            m
+          
+        
+      
+    
+    {\displaystyle H_{m}}
+  
+ is the 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+-th Hermite polynomial. From the above definition of the Wigner function, upon a change of integration variables,
+
+  
+    
+      
+        
+          W
+          
+            
+              |
+            
+            m
+            ⟩
+          
+        
+        (
+        x
+        ,
+        p
+        )
+        =
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  m
+                
+              
+            
+            
+              
+                π
+                
+                  3
+                  
+                    /
+                  
+                  2
+                
+              
+              
+                2
+                
+                  m
+                
+              
+              m
+              !
+            
+          
+        
+        
+          e
+          
+            −
+            
+              x
+              
+                2
+              
+            
+            −
+            
+              p
+              
+                2
+              
+            
+          
+        
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        ζ
+        
+        
+          e
+          
+            −
+            
+              ζ
+              
+                2
+              
+            
+          
+        
+        
+          H
+          
+            m
+          
+        
+        (
+        ζ
+        −
+        i
+        p
+        +
+        x
+        )
+        
+          H
+          
+            m
+          
+        
+        (
+        ζ
+        −
+        i
+        p
+        −
+        x
+        )
+        .
+      
+    
+    {\displaystyle W_{|m\rangle }(x,p)={\frac {(-1)^{m}}{\pi ^{3/2}2^{m}m!}}e^{-x^{2}-p^{2}}\int _{-\infty }^{\infty }d\zeta \,e^{-\zeta ^{2}}H_{m}(\zeta -ip+x)H_{m}(\zeta -ip-x).}
+  
+
+The expression then follows from the integral relation between Hermite and Laguerre polynomials.
+
+
+== Evolution equation ==
+
+The Wigner transformation is a general invertible transformation of an operator Ĝ on a Hilbert space to a function g(x, p) on phase space and is given by
+
+  
+    
+      
+        g
+        (
+        x
+        ,
+        p
+        )
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        d
+        s
+        
+        
+          e
+          
+            i
+            p
+            s
+            
+              /
+            
+            ℏ
+          
+        
+        
+          ⟨
+          
+            x
+            −
+            
+              
+                
+                  s
+                  2
+                
+              
+            
+          
+          |
+        
+        
+          
+            
+              G
+              ^
+            
+          
+        
+        
+          |
+          
+            x
+            +
+            
+              
+                
+                  s
+                  2
+                
+              
+            
+          
+          ⟩
+        
+        .
+      
+    
+    {\displaystyle g(x,p)=\int _{-\infty }^{\infty }ds\,e^{ips/\hbar }\left\langle x-{\tfrac {s}{2}}\right|{\hat {G}}\left|x+{\tfrac {s}{2}}\right\rangle .}
+  
+
+Hermitian operators map to real functions. The inverse of this transformation, from phase space to Hilbert space, is called the Weyl transformation:
+
+  
+    
+      
+        ⟨
+        x
+        
+          |
+        
+        
+          
+            
+              G
+              ^
+            
+          
+        
+        
+          |
+        
+        y
+        ⟩
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              d
+              p
+            
+            h
+          
+        
+        
+          e
+          
+            i
+            p
+            (
+            x
+            −
+            y
+            )
+            
+              /
+            
+            ℏ
+          
+        
+        g
+        
+          
+            (
+            
+              
+                
+                  
+                    x
+                    +
+                    y
+                  
+                  2
+                
+              
+              ,
+              p
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \langle x|{\hat {G}}|y\rangle =\int _{-\infty }^{\infty }{\frac {dp}{h}}e^{ip(x-y)/\hbar }g{\left({\frac {x+y}{2}},p\right)}}
+  
+
+(not to be confused with the distinct Weyl transformation in differential geometry).
+The Wigner function W(x, p) discussed here is thus seen to be the Wigner transform of the density matrix operator ρ̂. Thus the trace of an operator with the density matrix Wigner-transforms to the equivalent phase-space integral overlap of g(x, p) with the Wigner function.
+The Wigner transform of the von Neumann evolution equation of the density matrix in the Schrödinger picture is Moyal's evolution equation for the Wigner function:
+
+where H(x, p) is the Hamiltonian, and {{⋅, ⋅}} is the Moyal bracket. In the classical limit, ħ → 0, the Moyal bracket reduces to the Poisson bracket, while this evolution equation reduces to the Liouville equation of classical statistical mechanics.
+Formally, the classical Liouville equation can be solved in terms of the phase-space particle trajectories which are solutions of the classical Hamilton equations. This technique of solving partial differential equations is known as the method of characteristics. This method transfers to quantum systems, where the characteristics' "trajectories" now determine the evolution of Wigner functions. The solution of the Moyal evolution equation for the Wigner function is represented formally as
+
+  
+    
+      
+        W
+        (
+        x
+        ,
+        p
+        ,
+        t
+        )
+        =
+        W
+        
+          
+            (
+          
+        
+        ⋆
+        
+          
+            (
+          
+        
+        
+          x
+          
+            −
+            t
+          
+        
+        (
+        x
+        ,
+        p
+        )
+        ,
+        
+          p
+          
+            −
+            t
+          
+        
+        (
+        x
+        ,
+        p
+        )
+        
+          
+            )
+          
+        
+        ,
+        0
+        
+          
+            )
+          
+        
+        ,
+      
+    
+    {\displaystyle W(x,p,t)=W{\big (}\star {\big (}x_{-t}(x,p),p_{-t}(x,p){\big )},0{\big )},}
+  
+
+where 
+  
+    
+      
+        
+          x
+          
+            t
+          
+        
+        (
+        x
+        ,
+        p
+        )
+      
+    
+    {\displaystyle x_{t}(x,p)}
+  
+ and 
+  
+    
+      
+        
+          p
+          
+            t
+          
+        
+        (
+        x
+        ,
+        p
+        )
+      
+    
+    {\displaystyle p_{t}(x,p)}
+  
+ are the characteristic trajectories subject to the quantum Hamilton equations with initial conditions 
+  
+    
+      
+        
+          x
+          
+            t
+            =
+            0
+          
+        
+        (
+        x
+        ,
+        p
+        )
+        =
+        x
+      
+    
+    {\displaystyle x_{t=0}(x,p)=x}
+  
+ and 
+  
+    
+      
+        
+          p
+          
+            t
+            =
+            0
+          
+        
+        (
+        x
+        ,
+        p
+        )
+        =
+        p
+      
+    
+    {\displaystyle p_{t=0}(x,p)=p}
+  
+, and where 
+  
+    
+      
+        ⋆
+      
+    
+    {\displaystyle \star }
+  
+-product composition is understood for all argument functions.
+Since 
+  
+    
+      
+        ⋆
+      
+    
+    {\displaystyle \star }
+  
+-composition of functions is thoroughly nonlocal (the "quantum probability fluid" diffuses, as observed by Moyal), vestiges of local trajectories in quantum systems are barely discernible in the evolution of the Wigner distribution function. In the integral representation of 
+  
+    
+      
+        ⋆
+      
+    
+    {\displaystyle \star }
+  
+-products, successive operations by them have been adapted to a phase-space path integral, to solve the evolution equation for the Wigner function (see also ). This non-local feature of Moyal time evolution is illustrated in the gallery below, for Hamiltonians more complex than the harmonic oscillator. In the classical limit, the trajectory nature of the time evolution of Wigner functions becomes more and more distinct. At ħ = 0, the characteristics' trajectories reduce to the classical trajectories of particles in phase space.
+
+
+=== Harmonic-oscillator time evolution ===
+In the special case of the quantum harmonic oscillator, however, the evolution is simple and appears identical to the classical motion: a rigid rotation in phase space with a frequency given by the oscillator frequency. This is illustrated in the gallery below. This same time evolution occurs with quantum states of light modes, which are harmonic oscillators.
+
+
+== Classical limit ==
+The Wigner function allows one to study the classical limit, offering a comparison of the classical and quantum dynamics in phase space.
+It has been suggested that the Wigner function approach can be viewed as a quantum analogy to the operatorial formulation of classical mechanics introduced in 1932 by Bernard Koopman and John von Neumann: the time evolution of the Wigner function approaches, in the limit ħ → 0, the time evolution of the Koopman–von Neumann wavefunction of a classical particle.
+Moments of the Wigner function generate symmetrized operator averages, in contrast to the normal order and antinormal order generated by the Glauber–Sudarshan P representation and Husimi Q representation respectively. The Wigner representation is thus very well suited for making semi-classical approximations in quantum optics and field theory of Bose-Einstein condensates where high mode occupation approaches a semiclassical limit.
+
+
+== Positivity of the function ==
+As already noted, the Wigner function of quantum state typically takes some negative values. Indeed, for a pure state in one variable, if 
+  
+    
+      
+        W
+        (
+        x
+        ,
+        p
+        )
+        ≥
+        0
+      
+    
+    {\displaystyle W(x,p)\geq 0}
+  
+ for all 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ and 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+, then the wave function must have the form
+
+  
+    
+      
+        ψ
+        (
+        x
+        )
+        =
+        
+          e
+          
+            −
+            a
+            
+              x
+              
+                2
+              
+            
+            +
+            b
+            x
+            +
+            c
+          
+        
+      
+    
+    {\displaystyle \psi (x)=e^{-ax^{2}+bx+c}}
+  
+
+for some complex numbers 
+  
+    
+      
+        a
+        ,
+        b
+        ,
+        c
+      
+    
+    {\displaystyle a,b,c}
+  
+ with 
+  
+    
+      
+        Re
+        ⁡
+        (
+        a
+        )
+        >
+        0
+      
+    
+    {\displaystyle \operatorname {Re} (a)>0}
+  
+ (Hudson's theorem). Note that 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ is allowed to be complex. In other words, it is a one-dimensional gaussian wave packet. Thus, pure states with non-negative Wigner functions are not necessarily minimum-uncertainty states in the sense of the Heisenberg uncertainty formula; rather, they give equality in the Schrödinger uncertainty formula, which includes an anticommutator term in addition to the commutator term. (With careful definition of the respective variances, all pure-state Wigner functions lead to Heisenberg's inequality all the same.)
+In higher dimensions, the characterization of pure states with non-negative Wigner functions is similar; the wave function must have the form
+
+  
+    
+      
+        ψ
+        (
+        x
+        )
+        =
+        
+          e
+          
+            −
+            (
+            x
+            ,
+            A
+            x
+            )
+            +
+            b
+            ⋅
+            x
+            +
+            c
+          
+        
+        ,
+      
+    
+    {\displaystyle \psi (x)=e^{-(x,Ax)+b\cdot x+c},}
+  
+
+where 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ is a symmetric complex matrix whose real part is positive-definite, 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+  
+ is a complex vector, and c is a complex number. The Wigner function of any such state is a Gaussian distribution on phase space.
+Francisco Soto and Pierre Claverie give an elegant proof of this characterization, using the Segal–Bargmann transform. The reasoning is as follows. The Husimi Q function of 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+  
+ may be computed as the squared magnitude of the Segal–Bargmann transform of 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+  
+, multiplied by a Gaussian. Meanwhile, the Husimi Q function is the convolution of the Wigner function with a Gaussian. If the Wigner function of 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+  
+ is non-negative everywhere on phase space, then the Husimi Q function will be strictly positive everywhere on phase space. Thus, the Segal–Bargmann transform 
+  
+    
+      
+        F
+        (
+        x
+        +
+        i
+        p
+        )
+      
+    
+    {\displaystyle F(x+ip)}
+  
+ of 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+  
+ will be nowhere zero. Thus, by a standard result from complex analysis, we have
+
+  
+    
+      
+        F
+        (
+        x
+        +
+        i
+        p
+        )
+        =
+        
+          e
+          
+            g
+            (
+            x
+            +
+            i
+            p
+            )
+          
+        
+      
+    
+    {\displaystyle F(x+ip)=e^{g(x+ip)}}
+  
+
+for some holomorphic function 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  
+. But in order for 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+  
+ to belong to the Segal–Bargmann space—that is, for 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+  
+ to be square-integrable with respect to a Gaussian measure—
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  
+ must have at most quadratic growth at infinity. From this, elementary complex analysis can be used to show that 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  
+ must actually be a quadratic polynomial. Thus, we obtain an explicit form of the Segal–Bargmann transform of any pure state whose Wigner function is non-negative. We can then invert the Segal–Bargmann transform to obtain the claimed form of the position wave function.
+There does not appear to be any simple characterization of mixed states with non-negative Wigner functions.
+
+
+== Interpretations of quantum mechanics ==
+It has been shown that the Wigner quasiprobability distribution function can be regarded as an ħ-deformation of another phase-space distribution function that describes an ensemble of de Broglie–Bohm causal trajectories. Basil Hiley has shown that the quasi-probability distribution may be understood as the density matrix re-expressed in terms of a mean position and momentum of a "cell" in phase space, and the de Broglie–Bohm interpretation allows one to describe the dynamics of the centers of such "cells".
+There is a close connection between the description of quantum states in terms of the Wigner function and a method of quantum states reconstruction in terms of mutually unbiased bases.
+
+
+== Use outside quantum mechanics ==
+
+In the modelling of optical systems such as telescopes or fibre telecommunications devices, the Wigner function is used to bridge the gap between simple ray tracing and the full wave analysis of the system. Here p/ħ is replaced with k = |k| sin θ ≈ |k|θ in the small-angle (paraxial) approximation. In this context, the Wigner function is the closest one can get to describing the system in terms of rays at position x and angle θ while still including the effects of interference. If it becomes negative at any point, then simple ray tracing will not suffice to model the system. That is to say, negative values of this function are a symptom of the Gabor limit of the classical light signal and not of quantum features of light associated with ħ.
+In signal analysis, a time-varying electrical signal, mechanical vibration, or sound wave are represented by a Wigner function. Here, x is replaced with the time, and p/ħ is replaced with the angular frequency ω = 2πf, where f is the regular frequency.
+In ultrafast optics, short laser pulses are characterized with the Wigner function using the same f and t substitutions as above. Pulse defects such as chirp (the change in frequency with time) can be visualized with the Wigner function. See adjacent figure.
+In quantum optics, x and p/ħ are replaced with the X and P quadratures, the real and imaginary components of the electric field (see coherent state).
+
+
+== Characterization methods ==
+Quantum tomography
+Frequency-resolved optical gating
+
+
+== Other related quasiprobability distributions ==
+
+The Wigner distribution was the first quasiprobability distribution to be formulated, but many more followed, formally equivalent and transformable to and from it (see Transformation between distributions in time–frequency analysis). As in the case of coordinate systems, on account of varying properties, several such have with various advantages for specific applications:
+
+Glauber P representation
+Husimi Q representation
+Nevertheless, in some sense, the Wigner distribution holds a privileged position among all these distributions, since it is the only one whose requisite star-product drops out (integrates out by parts to effective unity) in the evaluation of expectation values, as illustrated above, and so can be visualized as a quasiprobability measure analogous to the classical ones.
+
+
+== History ==
+
+The Wigner function was independently derived several times in different contexts. It was introduced by Eugene Wigner in 1932. Eugene Wigner was unaware that even within the context of quantum theory, it had been introduced a couple of years before by Werner Heisenberg and Paul Dirac, albeit purely formally: these two missed its significance, and that of its negative values, as they merely considered it as an approximation to the full quantum description of a system such as the atom.
+It was later rederived by Jean Ville in 1948 as a quadratic (in signal) representation of the local time-frequency energy of a signal, effectively a spectrogram.
+In 1949, José Enrique Moyal, who had derived it independently, recognized it as the quantum moment-generating functional, and thus as the basis of an elegant encoding of all quantum expectation values, and hence quantum mechanics, in phase space (see Phase-space formulation).
+In most of his correspondence with Moyal in the mid-1940s, Dirac was unaware that Moyal's quantum-moment generating function was effectively the Wigner function, and it was Moyal who finally brought it to his attention.
+
+
+== See also ==
+
+
+== Footnotes ==
+
+
+== References ==
+
+
+== Further reading ==
+M. Levanda and V. Fleurov, "Wigner quasi-distribution function for charged particles in classical electromagnetic fields", Annals of Physics, 292, 199–231 (2001). arXiv:cond-mat/0105137.
+
+
+== External links ==
+wigner Archived 2017-08-21 at the Wayback Machine Wigner function implementation in QuTiP.
+Quantum Optics Gallery.
+Sonogram Visible Speech GPL-licensed freeware for the Wigner quasiprobability distribution of signal files.

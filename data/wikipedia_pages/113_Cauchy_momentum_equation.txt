@@ -1,0 +1,5408 @@
+Wikipedia article: Cauchy momentum equation
+Source: https://en.wikipedia.org/wiki/Cauchy_momentum_equation
+PageID: 16408009
+======================================================================
+
+The Cauchy momentum equation is a vector partial differential equation put forth by Augustin-Louis Cauchy that describes the non-relativistic momentum transport in any continuum.
+
+
+== Main equation ==
+In convective (or Lagrangian) form the Cauchy momentum equation is written as:
+
+  
+    
+      
+        
+          
+            
+              D
+              
+                u
+              
+            
+            
+              D
+              t
+            
+          
+        
+        =
+        
+          
+            1
+            ρ
+          
+        
+        ∇
+        ⋅
+        
+          σ
+        
+        +
+        
+          a
+        
+      
+    
+    {\displaystyle {\frac {D\mathbf {u} }{Dt}}={\frac {1}{\rho }}\nabla \cdot {\boldsymbol {\sigma }}+\mathbf {a} }
+  
+
+where 
+
+  
+    
+      
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} }
+  
+ is the flow velocity vector field, which depends on time and space, (unit: 
+  
+    
+      
+        
+          m
+          
+            /
+          
+          s
+        
+      
+    
+    {\displaystyle \mathrm {m/s} }
+  
+)
+
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+ is time, (unit: 
+  
+    
+      
+        
+          s
+        
+      
+    
+    {\displaystyle \mathrm {s} }
+  
+)
+
+  
+    
+      
+        
+          
+            
+              D
+              
+                u
+              
+            
+            
+              D
+              t
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {D\mathbf {u} }{Dt}}}
+  
+ is the material derivative of 
+  
+    
+      
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} }
+  
+, equal to 
+  
+    
+      
+        
+          ∂
+          
+            t
+          
+        
+        
+          u
+        
+        +
+        
+          u
+        
+        ⋅
+        ∇
+        
+          u
+        
+      
+    
+    {\displaystyle \partial _{t}\mathbf {u} +\mathbf {u} \cdot \nabla \mathbf {u} }
+  
+, (unit: 
+  
+    
+      
+        
+          m
+          
+            /
+          
+          
+            s
+            
+              2
+            
+          
+        
+      
+    
+    {\displaystyle \mathrm {m/s^{2}} }
+  
+)
+
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+  
+ is the density at a given point of the continuum (for which the continuity equation holds), (unit: 
+  
+    
+      
+        
+          k
+          g
+          
+            /
+          
+          
+            m
+            
+              3
+            
+          
+        
+      
+    
+    {\displaystyle \mathrm {kg/m^{3}} }
+  
+)
+
+  
+    
+      
+        
+          σ
+        
+      
+    
+    {\displaystyle {\boldsymbol {\sigma }}}
+  
+ is the stress tensor, (unit: 
+  
+    
+      
+        
+          P
+          a
+          =
+          N
+          
+            /
+          
+          
+            m
+            
+              2
+            
+          
+          =
+          k
+          g
+          ⋅
+          
+            m
+            
+              −
+              1
+            
+          
+          ⋅
+          
+            s
+            
+              −
+              2
+            
+          
+        
+      
+    
+    {\displaystyle \mathrm {Pa=N/m^{2}=kg\cdot m^{-1}\cdot s^{-2}} }
+  
+)
+
+  
+    
+      
+        
+          a
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    f
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    f
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    f
+                    
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \mathbf {a} ={\begin{bmatrix}f_{x}\\f_{y}\\f_{z}\end{bmatrix}}}
+  
+ is a vector containing all of the body accelerations (sometimes simply gravitational acceleration), (unit: 
+  
+    
+      
+        
+          m
+          
+            /
+          
+          
+            s
+            
+              2
+            
+          
+        
+      
+    
+    {\displaystyle \mathrm {m/s^{2}} }
+  
+)
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          σ
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              x
+                              x
+                            
+                          
+                        
+                        
+                          ∂
+                          x
+                        
+                      
+                    
+                  
+                  +
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              y
+                              x
+                            
+                          
+                        
+                        
+                          ∂
+                          y
+                        
+                      
+                    
+                  
+                  +
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              z
+                              x
+                            
+                          
+                        
+                        
+                          ∂
+                          z
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              x
+                              y
+                            
+                          
+                        
+                        
+                          ∂
+                          x
+                        
+                      
+                    
+                  
+                  +
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              y
+                              y
+                            
+                          
+                        
+                        
+                          ∂
+                          y
+                        
+                      
+                    
+                  
+                  +
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              z
+                              y
+                            
+                          
+                        
+                        
+                          ∂
+                          z
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              x
+                              z
+                            
+                          
+                        
+                        
+                          ∂
+                          x
+                        
+                      
+                    
+                  
+                  +
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              y
+                              z
+                            
+                          
+                        
+                        
+                          ∂
+                          y
+                        
+                      
+                    
+                  
+                  +
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              z
+                              z
+                            
+                          
+                        
+                        
+                          ∂
+                          z
+                        
+                      
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \nabla \cdot {\boldsymbol {\sigma }}={\begin{bmatrix}{\dfrac {\partial \sigma _{xx}}{\partial x}}+{\dfrac {\partial \sigma _{yx}}{\partial y}}+{\dfrac {\partial \sigma _{zx}}{\partial z}}\\{\dfrac {\partial \sigma _{xy}}{\partial x}}+{\dfrac {\partial \sigma _{yy}}{\partial y}}+{\dfrac {\partial \sigma _{zy}}{\partial z}}\\{\dfrac {\partial \sigma _{xz}}{\partial x}}+{\dfrac {\partial \sigma _{yz}}{\partial y}}+{\dfrac {\partial \sigma _{zz}}{\partial z}}\\\end{bmatrix}}}
+  
+ is the divergence of stress tensor. (unit: 
+  
+    
+      
+        
+          P
+          a
+          
+            /
+          
+          m
+          =
+          k
+          g
+          ⋅
+          
+            m
+            
+              −
+              2
+            
+          
+          ⋅
+          
+            s
+            
+              −
+              2
+            
+          
+        
+      
+    
+    {\displaystyle \mathrm {Pa/m=kg\cdot m^{-2}\cdot s^{-2}} }
+  
+)
+Commonly used SI units are given in parentheses although the equations are general in nature and other units can be entered into them or units can be removed at all by nondimensionalization.
+Note that only we use column vectors (in the Cartesian coordinate system) above for clarity, but the equation is written using physical components (which are neither covariants ("column") nor contravariants ("row") ). However, if we chose a non-orthogonal curvilinear coordinate system, then we should calculate and write equations in covariant ("row vectors") or contravariant ("column vectors") form.
+After an appropriate change of variables, it can also be written in conservation form:
+
+  
+    
+      
+        
+          
+            
+              ∂
+              
+                j
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        +
+        ∇
+        ⋅
+        
+          F
+        
+        =
+        
+          f
+        
+      
+    
+    {\displaystyle {\frac {\partial \mathbf {j} }{\partial t}}+\nabla \cdot \mathbf {F} =\mathbf {f} }
+  
+
+where j is the momentum density at a given space-time point, F is the flux associated to the momentum density, and f contains all of the body forces per unit volume.
+
+
+== Differential derivation ==
+Let us start with the generalized momentum conservation principle which can be written as follows: "The change in system momentum is proportional to the resulting force acting on this system". It is expressed by the formula:
+
+  
+    
+      
+        
+          p
+        
+        (
+        t
+        +
+        Δ
+        t
+        )
+        −
+        
+          p
+        
+        (
+        t
+        )
+        =
+        Δ
+        t
+        
+          
+            
+              
+                F
+              
+              ¯
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {p} (t+\Delta t)-\mathbf {p} (t)=\Delta t{\bar {\mathbf {F} }}}
+  
+
+where 
+  
+    
+      
+        
+          p
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle \mathbf {p} (t)}
+  
+ is momentum at time t, and 
+  
+    
+      
+        
+          
+            
+              
+                F
+              
+              ¯
+            
+          
+        
+      
+    
+    {\displaystyle {\bar {\mathbf {F} }}}
+  
+ is force averaged over 
+  
+    
+      
+        Δ
+        t
+      
+    
+    {\displaystyle \Delta t}
+  
+. After dividing by 
+  
+    
+      
+        Δ
+        t
+      
+    
+    {\displaystyle \Delta t}
+  
+ and passing to the limit 
+  
+    
+      
+        Δ
+        t
+        →
+        0
+      
+    
+    {\displaystyle \Delta t\to 0}
+  
+ we get (derivative):
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                p
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        
+          F
+        
+      
+    
+    {\displaystyle {\frac {d\mathbf {p} }{dt}}=\mathbf {F} }
+  
+
+Let us analyse each side of the equation above.
+
+
+=== Right side ===
+
+We split the forces into body forces 
+  
+    
+      
+        
+          
+            F
+          
+          
+            m
+          
+        
+      
+    
+    {\displaystyle \mathbf {F} _{m}}
+  
+ and surface forces 
+  
+    
+      
+        
+          
+            F
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \mathbf {F} _{p}}
+  
+
+  
+    
+      
+        
+          F
+        
+        =
+        
+          
+            F
+          
+          
+            p
+          
+        
+        +
+        
+          
+            F
+          
+          
+            m
+          
+        
+      
+    
+    {\displaystyle \mathbf {F} =\mathbf {F} _{p}+\mathbf {F} _{m}}
+  
+
+Surface forces act on walls of the cubic fluid element. For each wall, the X component of these forces was marked in the figure with a cubic element (in the form of a product of stress and surface area e.g. 
+  
+    
+      
+        −
+        
+          σ
+          
+            x
+            x
+          
+        
+        
+        d
+        y
+        
+        d
+        z
+      
+    
+    {\displaystyle -\sigma _{xx}\,dy\,dz}
+  
+ with units 
+  
+    
+      
+        
+          P
+          a
+          ⋅
+          m
+          ⋅
+          m
+          =
+          
+            
+              N
+              
+                m
+                
+                  2
+                
+              
+            
+          
+          ⋅
+          
+            m
+            
+              2
+            
+          
+          =
+          N
+        
+      
+    
+    {\textstyle \mathrm {Pa\cdot m\cdot m={\frac {N}{m^{2}}}\cdot m^{2}=N} }
+  
+).
+
+Adding forces (their X components) acting on each of the cube walls, we get:
+
+  
+    
+      
+        
+          F
+          
+            p
+          
+          
+            x
+          
+        
+        =
+        
+          (
+          
+            
+              σ
+              
+                x
+                x
+              
+            
+            +
+            
+              
+                
+                  ∂
+                  
+                    σ
+                    
+                      x
+                      x
+                    
+                  
+                
+                
+                  ∂
+                  x
+                
+              
+            
+            d
+            x
+          
+          )
+        
+        d
+        y
+        
+        d
+        z
+        −
+        
+          σ
+          
+            x
+            x
+          
+        
+        d
+        y
+        
+        d
+        z
+        +
+        
+          (
+          
+            
+              σ
+              
+                y
+                x
+              
+            
+            +
+            
+              
+                
+                  ∂
+                  
+                    σ
+                    
+                      y
+                      x
+                    
+                  
+                
+                
+                  ∂
+                  y
+                
+              
+            
+            d
+            y
+          
+          )
+        
+        d
+        x
+        
+        d
+        z
+        −
+        
+          σ
+          
+            y
+            x
+          
+        
+        d
+        x
+        
+        d
+        z
+        +
+        
+          (
+          
+            
+              σ
+              
+                z
+                x
+              
+            
+            +
+            
+              
+                
+                  ∂
+                  
+                    σ
+                    
+                      z
+                      x
+                    
+                  
+                
+                
+                  ∂
+                  z
+                
+              
+            
+            d
+            z
+          
+          )
+        
+        d
+        x
+        
+        d
+        y
+        −
+        
+          σ
+          
+            z
+            x
+          
+        
+        d
+        x
+        
+        d
+        y
+      
+    
+    {\displaystyle F_{p}^{x}=\left(\sigma _{xx}+{\frac {\partial \sigma _{xx}}{\partial x}}dx\right)dy\,dz-\sigma _{xx}dy\,dz+\left(\sigma _{yx}+{\frac {\partial \sigma _{yx}}{\partial y}}dy\right)dx\,dz-\sigma _{yx}dx\,dz+\left(\sigma _{zx}+{\frac {\partial \sigma _{zx}}{\partial z}}dz\right)dx\,dy-\sigma _{zx}dx\,dy}
+  
+
+After ordering 
+  
+    
+      
+        
+          F
+          
+            p
+          
+          
+            x
+          
+        
+      
+    
+    {\displaystyle F_{p}^{x}}
+  
+ and performing similar reasoning for components 
+  
+    
+      
+        
+          F
+          
+            p
+          
+          
+            y
+          
+        
+        ,
+        
+          F
+          
+            p
+          
+          
+            z
+          
+        
+      
+    
+    {\displaystyle F_{p}^{y},F_{p}^{z}}
+  
+ (they have not been shown in the figure, but these would be vectors parallel to the Y and Z axes, respectively) we get:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  F
+                  
+                    p
+                  
+                  
+                    x
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      ∂
+                      
+                        σ
+                        
+                          x
+                          x
+                        
+                      
+                    
+                    
+                      ∂
+                      x
+                    
+                  
+                
+                
+                d
+                x
+                
+                d
+                y
+                
+                d
+                z
+                +
+                
+                  
+                    
+                      ∂
+                      
+                        σ
+                        
+                          y
+                          x
+                        
+                      
+                    
+                    
+                      ∂
+                      y
+                    
+                  
+                
+                
+                d
+                y
+                
+                d
+                x
+                
+                d
+                z
+                +
+                
+                  
+                    
+                      ∂
+                      
+                        σ
+                        
+                          z
+                          x
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+                
+                d
+                z
+                
+                d
+                x
+                
+                d
+                y
+              
+            
+            
+              
+                
+                  F
+                  
+                    p
+                  
+                  
+                    y
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      ∂
+                      
+                        σ
+                        
+                          x
+                          y
+                        
+                      
+                    
+                    
+                      ∂
+                      x
+                    
+                  
+                
+                
+                d
+                x
+                
+                d
+                y
+                
+                d
+                z
+                +
+                
+                  
+                    
+                      ∂
+                      
+                        σ
+                        
+                          y
+                          y
+                        
+                      
+                    
+                    
+                      ∂
+                      y
+                    
+                  
+                
+                
+                d
+                y
+                
+                d
+                x
+                
+                d
+                z
+                +
+                
+                  
+                    
+                      ∂
+                      
+                        σ
+                        
+                          z
+                          y
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+                
+                d
+                z
+                
+                d
+                x
+                
+                d
+                y
+              
+            
+            
+              
+                
+                  F
+                  
+                    p
+                  
+                  
+                    z
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      ∂
+                      
+                        σ
+                        
+                          x
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      x
+                    
+                  
+                
+                
+                d
+                x
+                
+                d
+                y
+                
+                d
+                z
+                +
+                
+                  
+                    
+                      ∂
+                      
+                        σ
+                        
+                          y
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      y
+                    
+                  
+                
+                
+                d
+                y
+                
+                d
+                x
+                
+                d
+                z
+                +
+                
+                  
+                    
+                      ∂
+                      
+                        σ
+                        
+                          z
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+                
+                d
+                z
+                
+                d
+                x
+                
+                d
+                y
+                
+                  
+                    
+                      
+                        
+                          
+                            
+                          
+                          
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}F_{p}^{x}&={\frac {\partial \sigma _{xx}}{\partial x}}\,dx\,dy\,dz+{\frac {\partial \sigma _{yx}}{\partial y}}\,dy\,dx\,dz+{\frac {\partial \sigma _{zx}}{\partial z}}\,dz\,dx\,dy\\[6pt]F_{p}^{y}&={\frac {\partial \sigma _{xy}}{\partial x}}\,dx\,dy\,dz+{\frac {\partial \sigma _{yy}}{\partial y}}\,dy\,dx\,dz+{\frac {\partial \sigma _{zy}}{\partial z}}\,dz\,dx\,dy\\[6pt]F_{p}^{z}&={\frac {\partial \sigma _{xz}}{\partial x}}\,dx\,dy\,dz+{\frac {\partial \sigma _{yz}}{\partial y}}\,dy\,dx\,dz+{\frac {\partial \sigma _{zz}}{\partial z}}\,dz\,dx\,dy{\vphantom {\begin{matrix}\\\\\end{matrix}}}\end{aligned}}}
+  
+
+We can then write it in the symbolic operational form:
+
+  
+    
+      
+        
+          
+            F
+          
+          
+            p
+          
+        
+        =
+        (
+        ∇
+        ⋅
+        
+          σ
+        
+        )
+        
+        d
+        x
+        
+        d
+        y
+        
+        d
+        z
+      
+    
+    {\displaystyle \mathbf {F} _{p}=(\nabla \cdot {\boldsymbol {\sigma }})\,dx\,dy\,dz}
+  
+
+There are mass forces acting on the inside of the control volume. We can write them using the body force field 
+  
+    
+      
+        
+          f
+        
+      
+    
+    {\displaystyle \mathbf {f} }
+  
+ (e.g. gravitational acceleration):
+
+  
+    
+      
+        
+          
+            F
+          
+          
+            m
+          
+        
+        =
+        ρ
+        
+          a
+        
+        
+        d
+        x
+        
+        d
+        y
+        
+        d
+        z
+      
+    
+    {\displaystyle \mathbf {F} _{m}=\rho \mathbf {a} \,dx\,dy\,dz}
+  
+
+
+=== Left side ===
+Let us calculate momentum of the cube:
+
+  
+    
+      
+        
+          p
+        
+        =
+        
+          u
+        
+        m
+        =
+        
+          u
+        
+        ρ
+        
+        d
+        x
+        
+        d
+        y
+        
+        d
+        z
+      
+    
+    {\displaystyle \mathbf {p} =\mathbf {u} m=\mathbf {u} \rho \,dx\,dy\,dz}
+  
+
+Because we assume that tested mass (cube) 
+  
+    
+      
+        m
+        =
+        ρ
+        
+        d
+        x
+        
+        d
+        y
+        
+        d
+        z
+      
+    
+    {\displaystyle m=\rho \,dx\,dy\,dz}
+  
+ is constant in time, so
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                p
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        
+          
+            
+              d
+              
+                u
+              
+            
+            
+              d
+              t
+            
+          
+        
+        ρ
+        
+        d
+        x
+        
+        d
+        y
+        
+        d
+        z
+      
+    
+    {\displaystyle {\frac {d\mathbf {p} }{dt}}={\frac {d\mathbf {u} }{dt}}\rho \,dx\,dy\,dz}
+  
+
+
+=== Left and right side comparison ===
+We have
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                p
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        
+          F
+        
+      
+    
+    {\displaystyle {\frac {d\mathbf {p} }{dt}}=\mathbf {F} }
+  
+
+then
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                p
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        
+          
+            F
+          
+          
+            p
+          
+        
+        +
+        
+          
+            F
+          
+          
+            m
+          
+        
+      
+    
+    {\displaystyle {\frac {d\mathbf {p} }{dt}}=\mathbf {F} _{p}+\mathbf {F} _{m}}
+  
+
+then
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                u
+              
+            
+            
+              d
+              t
+            
+          
+        
+        ρ
+        
+        d
+        x
+        
+        d
+        y
+        
+        d
+        z
+        =
+        (
+        ∇
+        ⋅
+        
+          σ
+        
+        )
+        d
+        x
+        
+        d
+        y
+        
+        d
+        z
+        +
+        
+          f
+        
+        
+        d
+        x
+        
+        d
+        y
+        
+        d
+        z
+      
+    
+    {\displaystyle {\frac {d\mathbf {u} }{dt}}\rho \,dx\,dy\,dz=(\nabla \cdot {\boldsymbol {\sigma }})dx\,dy\,dz+\mathbf {f} \,dx\,dy\,dz}
+  
+
+Divide both sides by 
+  
+    
+      
+        ρ
+        
+        d
+        x
+        
+        d
+        y
+        
+        d
+        z
+      
+    
+    {\displaystyle \rho \,dx\,dy\,dz}
+  
+, and because 
+  
+    
+      
+        
+          
+            
+              d
+              
+                u
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        
+          
+            
+              D
+              
+                u
+              
+            
+            
+              D
+              t
+            
+          
+        
+      
+    
+    {\textstyle {\frac {d\mathbf {u} }{dt}}={\frac {D\mathbf {u} }{Dt}}}
+  
+ we get:
+
+  
+    
+      
+        
+          
+            
+              D
+              
+                u
+              
+            
+            
+              D
+              t
+            
+          
+        
+        =
+        
+          
+            1
+            ρ
+          
+        
+        ∇
+        ⋅
+        
+          σ
+        
+        +
+        
+          a
+        
+      
+    
+    {\displaystyle {\frac {D\mathbf {u} }{Dt}}={\frac {1}{\rho }}\nabla \cdot {\boldsymbol {\sigma }}+\mathbf {a} }
+  
+
+which finishes the derivation.
+
+
+== Integral derivation ==
+Applying Newton's second law (ith component) to a control volume in the continuum being modeled gives:
+
+  
+    
+      
+        m
+        
+          a
+          
+            i
+          
+        
+        =
+        
+          F
+          
+            i
+          
+        
+      
+    
+    {\displaystyle ma_{i}=F_{i}}
+  
+
+Then, based on the Reynolds transport theorem and using material derivative notation, one can write
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ∫
+                  
+                    Ω
+                  
+                
+                ρ
+                
+                  
+                    
+                      D
+                      
+                        u
+                        
+                          i
+                        
+                      
+                    
+                    
+                      D
+                      t
+                    
+                  
+                
+                
+                d
+                V
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    Ω
+                  
+                
+                
+                  ∇
+                  
+                    j
+                  
+                
+                
+                  σ
+                  
+                    i
+                  
+                  
+                    j
+                  
+                
+                
+                d
+                V
+                +
+                
+                  ∫
+                  
+                    Ω
+                  
+                
+                
+                  f
+                  
+                    i
+                  
+                
+                
+                d
+                V
+              
+            
+            
+              
+                
+                  ∫
+                  
+                    Ω
+                  
+                
+                
+                  (
+                  
+                    ρ
+                    
+                      
+                        
+                          D
+                          
+                            u
+                            
+                              i
+                            
+                          
+                        
+                        
+                          D
+                          t
+                        
+                      
+                    
+                    −
+                    
+                      ∇
+                      
+                        j
+                      
+                    
+                    
+                      σ
+                      
+                        i
+                      
+                      
+                        j
+                      
+                    
+                    −
+                    
+                      f
+                      
+                        i
+                      
+                    
+                  
+                  )
+                
+                
+                d
+                V
+              
+              
+                
+                =
+                0
+              
+            
+            
+              
+                ρ
+                
+                  
+                    
+                      D
+                      
+                        u
+                        
+                          i
+                        
+                      
+                    
+                    
+                      D
+                      t
+                    
+                  
+                
+                −
+                
+                  ∇
+                  
+                    j
+                  
+                
+                
+                  σ
+                  
+                    i
+                  
+                  
+                    j
+                  
+                
+                −
+                
+                  f
+                  
+                    i
+                  
+                
+              
+              
+                
+                =
+                0
+              
+            
+            
+              
+                
+                  
+                    
+                      D
+                      
+                        u
+                        
+                          i
+                        
+                      
+                    
+                    
+                      D
+                      t
+                    
+                  
+                
+                −
+                
+                  
+                    
+                      
+                        ∇
+                        
+                          j
+                        
+                      
+                      
+                        σ
+                        
+                          i
+                        
+                        
+                          j
+                        
+                      
+                    
+                    ρ
+                  
+                
+                −
+                
+                  
+                    
+                      f
+                      
+                        i
+                      
+                    
+                    ρ
+                  
+                
+              
+              
+                
+                =
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\int _{\Omega }\rho {\frac {Du_{i}}{Dt}}\,dV&=\int _{\Omega }\nabla _{j}\sigma _{i}^{j}\,dV+\int _{\Omega }f_{i}\,dV\\\int _{\Omega }\left(\rho {\frac {Du_{i}}{Dt}}-\nabla _{j}\sigma _{i}^{j}-f_{i}\right)\,dV&=0\\\rho {\frac {Du_{i}}{Dt}}-\nabla _{j}\sigma _{i}^{j}-f_{i}&=0\\{\frac {Du_{i}}{Dt}}-{\frac {\nabla _{j}\sigma _{i}^{j}}{\rho }}-{\frac {f_{i}}{\rho }}&=0\end{aligned}}}
+  
+
+where Ω represents the control volume. Since this equation must hold for any control volume, it must be true that the integrand is zero, from this the Cauchy momentum equation follows. The main step (not done above) in deriving this equation is establishing that the derivative of the stress tensor is one of the forces that constitutes Fi.
+
+
+== Conservation form ==
+
+The Cauchy momentum equation can also be put in the following form:
+
+simply by defining:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    j
+                  
+                
+              
+              
+                
+                =
+                ρ
+                
+                  u
+                
+              
+            
+            
+              
+                
+                  
+                    F
+                  
+                
+              
+              
+                
+                =
+                ρ
+                
+                  u
+                
+                ⊗
+                
+                  u
+                
+                −
+                
+                  σ
+                
+              
+            
+            
+              
+                
+                  
+                    f
+                  
+                
+              
+              
+                
+                =
+                ρ
+                
+                  a
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\mathbf {j} }&=\rho \mathbf {u} \\{\mathbf {F} }&=\rho \mathbf {u} \otimes \mathbf {u} -{\boldsymbol {\sigma }}\\{\mathbf {f} }&=\rho \mathbf {a} \end{aligned}}}
+  
+
+where j is the momentum density at the point considered in the continuum (for which the continuity equation holds), F is the flux associated to the momentum density, and f contains all of the body forces per unit volume. u ⊗ u is the outer product of the velocity with itself.
+Here j and f have same number of dimensions N as the flow speed and the body acceleration, while F, being a tensor, has N2.
+In the Eulerian forms it is apparent that the assumption of no deviatoric stress brings Cauchy equations to the Euler equations.
+
+
+== Convective acceleration ==
+
+A significant feature of the Navier–Stokes equations is the presence of convective acceleration: the effect of time-independent acceleration of a flow with respect to space. While individual continuum particles indeed experience time dependent acceleration, the convective acceleration of the flow field is a spatial effect, one example being fluid speeding up in a nozzle.
+Regardless of what kind of continuum is being dealt with, convective acceleration is a nonlinear effect. Convective acceleration is present in most flows (exceptions include one-dimensional incompressible flow), but its dynamic effect is disregarded in creeping flow (also called Stokes flow). Convective acceleration is represented by the nonlinear quantity u ⋅ ∇u, which may be interpreted either as (u ⋅ ∇)u or as u ⋅ (∇u), with ∇u the tensor derivative of the velocity vector u. Both interpretations give the same result.
+
+
+=== Advection operator vs tensor derivative ===
+The convective acceleration (u ⋅ ∇)u can be thought of as the advection operator u ⋅ ∇ acting on the velocity field u. This contrasts with the expression in terms of tensor derivative ∇u, which is the component-wise derivative of the velocity vector defined by [∇u]mi = ∂m vi, so that
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                u
+              
+              ⋅
+              
+                (
+                
+                  ∇
+                  
+                    u
+                  
+                
+                )
+              
+            
+            ]
+          
+          
+            i
+          
+        
+        =
+        
+          ∑
+          
+            m
+          
+        
+        
+          v
+          
+            m
+          
+        
+        
+          ∂
+          
+            m
+          
+        
+        
+          v
+          
+            i
+          
+        
+        =
+        
+          
+            [
+            
+              (
+              
+                u
+              
+              ⋅
+              ∇
+              )
+              
+                u
+              
+            
+            ]
+          
+          
+            i
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \left[\mathbf {u} \cdot \left(\nabla \mathbf {u} \right)\right]_{i}=\sum _{m}v_{m}\partial _{m}v_{i}=\left[(\mathbf {u} \cdot \nabla )\mathbf {u} \right]_{i}\,.}
+  
+
+
+=== Lamb form ===
+The vector calculus identity of the cross product of a curl holds:
+
+  
+    
+      
+        
+          v
+        
+        ×
+        
+          (
+          
+            ∇
+            ×
+            
+              a
+            
+          
+          )
+        
+        =
+        
+          ∇
+          
+            a
+          
+        
+        
+          (
+          
+            
+              v
+            
+            ⋅
+            
+              a
+            
+          
+          )
+        
+        −
+        
+          v
+        
+        ⋅
+        ∇
+        
+          a
+        
+      
+    
+    {\displaystyle \mathbf {v} \times \left(\nabla \times \mathbf {a} \right)=\nabla _{a}\left(\mathbf {v} \cdot \mathbf {a} \right)-\mathbf {v} \cdot \nabla \mathbf {a} }
+  
+
+where the Feynman subscript notation ∇a is used, which means the subscripted gradient operates only on the factor a.
+Lamb in his famous classical book Hydrodynamics (1895), used this identity to change the convective term of the flow velocity in rotational form, i.e. without a tensor derivative:
+
+  
+    
+      
+        
+          u
+        
+        ⋅
+        ∇
+        
+          u
+        
+        =
+        ∇
+        
+          (
+          
+            
+              
+                ‖
+                
+                  u
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+              
+              2
+            
+          
+          )
+        
+        +
+        
+          (
+          
+            ∇
+            ×
+            
+              u
+            
+          
+          )
+        
+        ×
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} \cdot \nabla \mathbf {u} =\nabla \left({\frac {\|\mathbf {u} \|^{2}}{2}}\right)+\left(\nabla \times \mathbf {u} \right)\times \mathbf {u} }
+  
+
+where the vector 
+  
+    
+      
+        
+          l
+        
+        =
+        
+          u
+        
+        ×
+        
+          (
+          
+            ∇
+            ×
+            
+              u
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {l} =\mathbf {u} \times \left(\nabla \times \mathbf {u} \right)}
+  
+ is called the Lamb vector. The Cauchy momentum equation becomes:
+
+  
+    
+      
+        
+          
+            
+              ∂
+              
+                u
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        +
+        
+          
+            1
+            2
+          
+        
+        ∇
+        
+          (
+          
+            u
+            
+              2
+            
+          
+          )
+        
+        +
+        (
+        ∇
+        ×
+        
+          u
+        
+        )
+        ×
+        
+          u
+        
+        =
+        
+          
+            1
+            ρ
+          
+        
+        ∇
+        ⋅
+        
+          σ
+        
+        +
+        
+          a
+        
+      
+    
+    {\displaystyle {\frac {\partial \mathbf {u} }{\partial t}}+{\frac {1}{2}}\nabla \left(u^{2}\right)+(\nabla \times \mathbf {u} )\times \mathbf {u} ={\frac {1}{\rho }}\nabla \cdot {\boldsymbol {\sigma }}+\mathbf {a} }
+  
+
+Using the identity:
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          (
+          
+            
+              σ
+              ρ
+            
+          
+          )
+        
+        =
+        
+          
+            1
+            ρ
+          
+        
+        ∇
+        ⋅
+        
+          σ
+        
+        −
+        
+          
+            1
+            
+              ρ
+              
+                2
+              
+            
+          
+        
+        
+          σ
+        
+        ⋅
+        ∇
+        ρ
+      
+    
+    {\displaystyle \nabla \cdot \left({\frac {\boldsymbol {\sigma }}{\rho }}\right)={\frac {1}{\rho }}\nabla \cdot {\boldsymbol {\sigma }}-{\frac {1}{\rho ^{2}}}{\boldsymbol {\sigma }}\cdot \nabla \rho }
+  
+
+the Cauchy equation becomes:
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          (
+          
+            
+              
+                1
+                2
+              
+            
+            
+              u
+              
+                2
+              
+            
+            −
+            
+              
+                σ
+                ρ
+              
+            
+          
+          )
+        
+        −
+        
+          a
+        
+        =
+        
+          
+            1
+            
+              ρ
+              
+                2
+              
+            
+          
+        
+        
+          σ
+        
+        ⋅
+        ∇
+        ρ
+        +
+        
+          u
+        
+        ×
+        (
+        ∇
+        ×
+        
+          u
+        
+        )
+        −
+        
+          
+            
+              ∂
+              
+                u
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+      
+    
+    {\displaystyle \nabla \cdot \left({\frac {1}{2}}u^{2}-{\frac {\boldsymbol {\sigma }}{\rho }}\right)-\mathbf {a} ={\frac {1}{\rho ^{2}}}{\boldsymbol {\sigma }}\cdot \nabla \rho +\mathbf {u} \times (\nabla \times \mathbf {u} )-{\frac {\partial \mathbf {u} }{\partial t}}}
+  
+
+In fact, in case of an external conservative field, by defining its potential φ:
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          (
+          
+            
+              
+                1
+                2
+              
+            
+            
+              u
+              
+                2
+              
+            
+            +
+            ϕ
+            −
+            
+              
+                σ
+                ρ
+              
+            
+          
+          )
+        
+        =
+        
+          
+            1
+            
+              ρ
+              
+                2
+              
+            
+          
+        
+        
+          σ
+        
+        ⋅
+        ∇
+        ρ
+        +
+        
+          u
+        
+        ×
+        (
+        ∇
+        ×
+        
+          u
+        
+        )
+        −
+        
+          
+            
+              ∂
+              
+                u
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+      
+    
+    {\displaystyle \nabla \cdot \left({\frac {1}{2}}u^{2}+\phi -{\frac {\boldsymbol {\sigma }}{\rho }}\right)={\frac {1}{\rho ^{2}}}{\boldsymbol {\sigma }}\cdot \nabla \rho +\mathbf {u} \times (\nabla \times \mathbf {u} )-{\frac {\partial \mathbf {u} }{\partial t}}}
+  
+
+In case of a steady flow the time derivative of the flow velocity disappears, so the momentum equation becomes:
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          (
+          
+            
+              
+                1
+                2
+              
+            
+            
+              u
+              
+                2
+              
+            
+            +
+            ϕ
+            −
+            
+              
+                σ
+                ρ
+              
+            
+          
+          )
+        
+        =
+        
+          
+            1
+            
+              ρ
+              
+                2
+              
+            
+          
+        
+        
+          σ
+        
+        ⋅
+        ∇
+        ρ
+        +
+        
+          u
+        
+        ×
+        (
+        ∇
+        ×
+        
+          u
+        
+        )
+      
+    
+    {\displaystyle \nabla \cdot \left({\frac {1}{2}}u^{2}+\phi -{\frac {\boldsymbol {\sigma }}{\rho }}\right)={\frac {1}{\rho ^{2}}}{\boldsymbol {\sigma }}\cdot \nabla \rho +\mathbf {u} \times (\nabla \times \mathbf {u} )}
+  
+
+And by projecting the momentum equation on the flow direction, i.e. along a streamline, the cross product disappears due to a vector calculus identity of the triple scalar product:
+
+  
+    
+      
+        
+          u
+        
+        ⋅
+        ∇
+        ⋅
+        
+          (
+          
+            
+              
+                1
+                2
+              
+            
+            
+              u
+              
+                2
+              
+            
+            +
+            ϕ
+            −
+            
+              
+                σ
+                ρ
+              
+            
+          
+          )
+        
+        =
+        
+          
+            1
+            
+              ρ
+              
+                2
+              
+            
+          
+        
+        
+          u
+        
+        ⋅
+        (
+        
+          σ
+        
+        ⋅
+        ∇
+        ρ
+        )
+      
+    
+    {\displaystyle \mathbf {u} \cdot \nabla \cdot \left({\frac {1}{2}}u^{2}+\phi -{\frac {\boldsymbol {\sigma }}{\rho }}\right)={\frac {1}{\rho ^{2}}}\mathbf {u} \cdot ({\boldsymbol {\sigma }}\cdot \nabla \rho )}
+  
+
+If the stress tensor is isotropic, then only the pressure enters: 
+  
+    
+      
+        
+          σ
+        
+        =
+        −
+        p
+        
+          I
+        
+      
+    
+    {\displaystyle {\boldsymbol {\sigma }}=-p\mathbf {I} }
+  
+ (where I is the identity tensor), and the Euler momentum equation in the steady incompressible case becomes:
+
+  
+    
+      
+        
+          u
+        
+        ⋅
+        ∇
+        
+          (
+          
+            
+              
+                1
+                2
+              
+            
+            
+              u
+              
+                2
+              
+            
+            +
+            ϕ
+            +
+            
+              
+                p
+                ρ
+              
+            
+          
+          )
+        
+        +
+        
+          
+            p
+            
+              ρ
+              
+                2
+              
+            
+          
+        
+        
+          u
+        
+        ⋅
+        ∇
+        ρ
+        =
+        0
+      
+    
+    {\displaystyle \mathbf {u} \cdot \nabla \left({\frac {1}{2}}u^{2}+\phi +{\frac {p}{\rho }}\right)+{\frac {p}{\rho ^{2}}}\mathbf {u} \cdot \nabla \rho =0}
+  
+
+In the steady incompressible case the mass equation is simply:
+
+  
+    
+      
+        
+          u
+        
+        ⋅
+        ∇
+        ρ
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {u} \cdot \nabla \rho =0\,,}
+  
+
+that is, the mass conservation for a steady incompressible flow states that the density along a streamline is constant. This leads to a considerable simplification of the Euler momentum equation:
+
+  
+    
+      
+        
+          u
+        
+        ⋅
+        ∇
+        
+          (
+          
+            
+              
+                1
+                2
+              
+            
+            
+              u
+              
+                2
+              
+            
+            +
+            ϕ
+            +
+            
+              
+                p
+                ρ
+              
+            
+          
+          )
+        
+        =
+        0
+      
+    
+    {\displaystyle \mathbf {u} \cdot \nabla \left({\frac {1}{2}}u^{2}+\phi +{\frac {p}{\rho }}\right)=0}
+  
+
+The convenience of defining the total head for an inviscid liquid flow is now apparent:
+
+  
+    
+      
+        
+          b
+          
+            l
+          
+        
+        ≡
+        
+          
+            1
+            2
+          
+        
+        
+          u
+          
+            2
+          
+        
+        +
+        ϕ
+        +
+        
+          
+            p
+            ρ
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle b_{l}\equiv {\frac {1}{2}}u^{2}+\phi +{\frac {p}{\rho }}\,,}
+  
+
+in fact, the above equation can be simply written as:
+
+  
+    
+      
+        
+          u
+        
+        ⋅
+        ∇
+        
+          b
+          
+            l
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \mathbf {u} \cdot \nabla b_{l}=0}
+  
+
+That is, the momentum balance for a steady inviscid and incompressible flow in an external conservative field states that the total head along a streamline is constant.
+
+
+=== Irrotational flows ===
+The Lamb form is also useful in irrotational flow, where the curl of the velocity (called vorticity) ω = ∇ × u is equal to zero. In that case, the convection term in 
+  
+    
+      
+        D
+        
+          u
+        
+        
+          /
+        
+        D
+        t
+      
+    
+    {\displaystyle D\mathbf {u} /Dt}
+  
+ reduces to
+
+  
+    
+      
+        
+          u
+        
+        ⋅
+        ∇
+        
+          u
+        
+        =
+        ∇
+        
+          (
+          
+            
+              
+                ‖
+                
+                  u
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+              
+              2
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle \mathbf {u} \cdot \nabla \mathbf {u} =\nabla \left({\frac {\|\mathbf {u} \|^{2}}{2}}\right).}
+  
+
+
+== Stresses ==
+The effect of stress in the continuum flow is represented by the ∇p and ∇ ⋅ τ terms; these are gradients of surface forces, analogous to stresses in a solid. Here ∇p is the pressure gradient and arises from the isotropic part of the Cauchy stress tensor. This part is given by the normal stresses that occur in almost all situations. The anisotropic part of the stress tensor gives rise to ∇ ⋅ τ, which usually describes viscous forces; for incompressible flow, this is only a shear effect. Thus, τ is the deviatoric stress tensor, and the stress tensor is equal to:
+
+  
+    
+      
+        
+          σ
+        
+        =
+        −
+        p
+        
+          I
+        
+        +
+        
+          τ
+        
+      
+    
+    {\displaystyle {\boldsymbol {\sigma }}=-p\mathbf {I} +{\boldsymbol {\tau }}}
+  
+
+where I is the identity matrix in the space considered and τ the shear tensor.
+All non-relativistic momentum conservation equations, such as the Navier–Stokes equation, can be derived by beginning with the Cauchy momentum equation and specifying the stress tensor through a constitutive relation. By expressing the shear tensor in terms of viscosity and fluid velocity, and assuming constant density and viscosity, the Cauchy momentum equation will lead to the Navier–Stokes equations. By assuming inviscid flow, the Navier–Stokes equations can further simplify to the Euler equations.
+The divergence of the stress tensor can be written as
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          σ
+        
+        =
+        −
+        ∇
+        p
+        +
+        ∇
+        ⋅
+        
+          τ
+        
+        .
+      
+    
+    {\displaystyle \nabla \cdot {\boldsymbol {\sigma }}=-\nabla p+\nabla \cdot {\boldsymbol {\tau }}.}
+  
+
+The effect of the pressure gradient on the flow is to accelerate the flow in the direction from high pressure to low pressure.
+As written in the Cauchy momentum equation, the stress terms p and τ are yet unknown, so this equation alone cannot be used to solve problems. Besides the equations of motion—Newton's second law—a force model is needed relating the stresses to the flow motion.  For this reason, assumptions based on natural observations are often applied to specify the stresses in terms of the other flow variables, such as velocity and density.
+
+
+== External forces ==
+The vector field a represents body forces per unit mass. Typically, these consist of only gravity acceleration, but may include others, such as electromagnetic forces. In non-inertial coordinate frames, other "inertial accelerations" associated with rotating coordinates may arise.
+Often, these forces may be represented as the gradient of some scalar quantity χ, with a = ∇χ in which case they are called conservative forces. Gravity in the z direction, for example, is the gradient of −ρgz. Because pressure from such gravitation arises only as a gradient, we may include it in the pressure term as a body force h = p − χ. The pressure and force terms on the right-hand side of the Navier–Stokes equation become
+
+  
+    
+      
+        −
+        ∇
+        p
+        +
+        
+          a
+        
+        =
+        −
+        ∇
+        p
+        +
+        ∇
+        χ
+        =
+        −
+        ∇
+        
+          (
+          
+            p
+            −
+            χ
+          
+          )
+        
+        =
+        −
+        ∇
+        h
+        .
+      
+    
+    {\displaystyle -\nabla p+\mathbf {a} =-\nabla p+\nabla \chi =-\nabla \left(p-\chi \right)=-\nabla h.}
+  
+
+It is also possible to include external influences into the stress term 
+  
+    
+      
+        
+          σ
+        
+      
+    
+    {\displaystyle {\boldsymbol {\sigma }}}
+  
+ rather than the body force term. This may even include antisymmetric stresses (inputs of angular momentum), in contrast to the usually symmetrical internal contributions to the stress tensor.
+
+
+== Nondimensionalisation ==
+In order to make the equations dimensionless, a characteristic length r0 and a characteristic velocity u0 need to be defined. These should be chosen such that the dimensionless variables are all of order one. The following dimensionless variables are thus obtained:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ρ
+                  
+                    ∗
+                  
+                
+              
+              
+                
+                ≡
+                
+                  
+                    ρ
+                    
+                      ρ
+                      
+                        0
+                      
+                    
+                  
+                
+              
+              
+                
+                  u
+                  
+                    ∗
+                  
+                
+              
+              
+                
+                ≡
+                
+                  
+                    u
+                    
+                      u
+                      
+                        0
+                      
+                    
+                  
+                
+              
+              
+                
+                  r
+                  
+                    ∗
+                  
+                
+              
+              
+                
+                ≡
+                
+                  
+                    r
+                    
+                      r
+                      
+                        0
+                      
+                    
+                  
+                
+              
+              
+                
+                  t
+                  
+                    ∗
+                  
+                
+              
+              
+                
+                ≡
+                
+                  
+                    
+                      u
+                      
+                        0
+                      
+                    
+                    
+                      r
+                      
+                        0
+                      
+                    
+                  
+                
+                t
+              
+            
+            
+              
+                
+                  ∇
+                  
+                    ∗
+                  
+                
+              
+              
+                
+                ≡
+                
+                  r
+                  
+                    0
+                  
+                
+                ∇
+              
+              
+                
+                  
+                    a
+                  
+                  
+                    ∗
+                  
+                
+              
+              
+                
+                ≡
+                
+                  
+                    
+                      a
+                    
+                    
+                      a
+                      
+                        0
+                      
+                    
+                  
+                
+              
+              
+                
+                  p
+                  
+                    ∗
+                  
+                
+              
+              
+                
+                ≡
+                
+                  
+                    p
+                    
+                      p
+                      
+                        0
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    τ
+                  
+                  
+                    ∗
+                  
+                
+              
+              
+                
+                ≡
+                
+                  
+                    τ
+                    
+                      τ
+                      
+                        0
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\rho ^{*}&\equiv {\frac {\rho }{\rho _{0}}}&u^{*}&\equiv {\frac {u}{u_{0}}}&r^{*}&\equiv {\frac {r}{r_{0}}}&t^{*}&\equiv {\frac {u_{0}}{r_{0}}}t\\[6pt]\nabla ^{*}&\equiv r_{0}\nabla &\mathbf {a} ^{*}&\equiv {\frac {\mathbf {a} }{a_{0}}}&p^{*}&\equiv {\frac {p}{p_{0}}}&{\boldsymbol {\tau }}^{*}&\equiv {\frac {\boldsymbol {\tau }}{\tau _{0}}}\end{aligned}}}
+  
+
+Substitution of these inverted relations in the Euler momentum equations yields:
+
+  
+    
+      
+        
+          
+            
+              
+                ρ
+                
+                  0
+                
+              
+              
+                u
+                
+                  0
+                
+                
+                  2
+                
+              
+            
+            
+              r
+              
+                0
+              
+            
+          
+        
+        
+          
+            
+              ∂
+              
+                ρ
+                
+                  ∗
+                
+              
+              
+                
+                  u
+                
+                
+                  ∗
+                
+              
+            
+            
+              ∂
+              
+                t
+                
+                  ∗
+                
+              
+            
+          
+        
+        +
+        
+          
+            
+              ∇
+              
+                ∗
+              
+            
+            
+              r
+              
+                0
+              
+            
+          
+        
+        ⋅
+        
+          (
+          
+            
+              ρ
+              
+                0
+              
+            
+            
+              u
+              
+                0
+              
+              
+                2
+              
+            
+            
+              ρ
+              
+                ∗
+              
+            
+            
+              
+                u
+              
+              
+                ∗
+              
+            
+            ⊗
+            
+              
+                u
+              
+              
+                ∗
+              
+            
+            +
+            
+              p
+              
+                0
+              
+            
+            
+              p
+              
+                ∗
+              
+            
+          
+          )
+        
+        =
+        −
+        
+          
+            
+              τ
+              
+                0
+              
+            
+            
+              r
+              
+                0
+              
+            
+          
+        
+        
+          ∇
+          
+            ∗
+          
+        
+        ⋅
+        
+          
+            τ
+          
+          
+            ∗
+          
+        
+        +
+        
+          a
+          
+            0
+          
+        
+        
+          
+            a
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle {\frac {\rho _{0}u_{0}^{2}}{r_{0}}}{\frac {\partial \rho ^{*}\mathbf {u} ^{*}}{\partial t^{*}}}+{\frac {\nabla ^{*}}{r_{0}}}\cdot \left(\rho _{0}u_{0}^{2}\rho ^{*}\mathbf {u} ^{*}\otimes \mathbf {u} ^{*}+p_{0}p^{*}\right)=-{\frac {\tau _{0}}{r_{0}}}\nabla ^{*}\cdot {\boldsymbol {\tau }}^{*}+a_{0}\mathbf {a} ^{*}}
+  
+
+and by dividing for the first coefficient:
+
+  
+    
+      
+        
+          
+            
+              ∂
+              
+                
+                  ρ
+                
+                
+                  ∗
+                
+              
+              
+                u
+                
+                  ∗
+                
+              
+            
+            
+              ∂
+              
+                t
+                
+                  ∗
+                
+              
+            
+          
+        
+        +
+        
+          ∇
+          
+            ∗
+          
+        
+        ⋅
+        
+          (
+          
+            
+              ρ
+              
+                ∗
+              
+            
+            
+              
+                u
+              
+              
+                ∗
+              
+            
+            ⊗
+            
+              
+                u
+              
+              
+                ∗
+              
+            
+            +
+            
+              
+                
+                  p
+                  
+                    0
+                  
+                
+                
+                  
+                    ρ
+                    
+                      0
+                    
+                  
+                  
+                    u
+                    
+                      0
+                    
+                    
+                      2
+                    
+                  
+                
+              
+            
+            
+              p
+              
+                ∗
+              
+            
+          
+          )
+        
+        =
+        −
+        
+          
+            
+              τ
+              
+                0
+              
+            
+            
+              
+                ρ
+                
+                  0
+                
+              
+              
+                u
+                
+                  0
+                
+                
+                  2
+                
+              
+            
+          
+        
+        
+          ∇
+          
+            ∗
+          
+        
+        ⋅
+        
+          
+            τ
+          
+          
+            ∗
+          
+        
+        +
+        
+          
+            
+              
+                a
+                
+                  0
+                
+              
+              
+                r
+                
+                  0
+                
+              
+            
+            
+              u
+              
+                0
+              
+              
+                2
+              
+            
+          
+        
+        
+          
+            a
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle {\frac {\partial \mathbf {\rho } ^{*}u^{*}}{\partial t^{*}}}+\nabla ^{*}\cdot \left(\rho ^{*}\mathbf {u} ^{*}\otimes \mathbf {u} ^{*}+{\frac {p_{0}}{\rho _{0}u_{0}^{2}}}p^{*}\right)=-{\frac {\tau _{0}}{\rho _{0}u_{0}^{2}}}\nabla ^{*}\cdot {\boldsymbol {\tau }}^{*}+{\frac {a_{0}r_{0}}{u_{0}^{2}}}\mathbf {a} ^{*}}
+  
+
+Now defining the Froude number:
+
+  
+    
+      
+        
+          F
+          r
+        
+        =
+        
+          
+            
+              u
+              
+                0
+              
+              
+                2
+              
+            
+            
+              
+                a
+                
+                  0
+                
+              
+              
+                r
+                
+                  0
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \mathrm {Fr} ={\frac {u_{0}^{2}}{a_{0}r_{0}}},}
+  
+
+the Euler number:
+
+  
+    
+      
+        
+          E
+          u
+        
+        =
+        
+          
+            
+              p
+              
+                0
+              
+            
+            
+              
+                ρ
+                
+                  0
+                
+              
+              
+                u
+                
+                  0
+                
+                
+                  2
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \mathrm {Eu} ={\frac {p_{0}}{\rho _{0}u_{0}^{2}}},}
+  
+
+and the coefficient of skin-friction or the one usually referred as 'drag coefficient' in the field of aerodynamics:
+
+  
+    
+      
+        
+          C
+          
+            
+              f
+            
+          
+        
+        =
+        
+          
+            
+              2
+              
+                τ
+                
+                  0
+                
+              
+            
+            
+              
+                ρ
+                
+                  0
+                
+              
+              
+                u
+                
+                  0
+                
+                
+                  2
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle C_{\mathrm {f} }={\frac {2\tau _{0}}{\rho _{0}u_{0}^{2}}},}
+  
+
+by passing respectively to the conservative variables, i.e. the momentum density and the force density:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  j
+                
+              
+              
+                
+                =
+                ρ
+                
+                  u
+                
+              
+            
+            
+              
+                
+                  f
+                
+              
+              
+                
+                =
+                ρ
+                
+                  a
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {j} &=\rho \mathbf {u} \\\mathbf {f} &=\rho \mathbf {a} \end{aligned}}}
+  
+
+the equations are finally expressed (now omitting the indexes):
+
+Cauchy equations in the Froude limit Fr → ∞ (corresponding to negligible external field) are named free Cauchy equations:
+
+and can be eventually conservation equations. The limit of high Froude numbers (low external field) is thus notable for such equations and is studied with perturbation theory.
+Finally in convective form the equations are:
+
+
+== 3D explicit convective forms ==
+
+
+=== Cartesian 3D coordinates ===
+For asymmetric stress tensors, equations in general take the following forms:
+
+  
+    
+      
+        
+          
+            
+              
+                x
+              
+              
+                
+                :
+              
+              
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          x
+                        
+                      
+                    
+                    
+                      ∂
+                      t
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    x
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          x
+                        
+                      
+                    
+                    
+                      ∂
+                      x
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    y
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          x
+                        
+                      
+                    
+                    
+                      ∂
+                      y
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    z
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          x
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    1
+                    ρ
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              x
+                              x
+                            
+                          
+                        
+                        
+                          ∂
+                          x
+                        
+                      
+                    
+                    +
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              y
+                              x
+                            
+                          
+                        
+                        
+                          ∂
+                          y
+                        
+                      
+                    
+                    +
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              z
+                              x
+                            
+                          
+                        
+                        
+                          ∂
+                          z
+                        
+                      
+                    
+                  
+                  )
+                
+                +
+                
+                  a
+                  
+                    x
+                  
+                
+              
+            
+            
+              
+                y
+              
+              
+                
+                :
+              
+              
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          y
+                        
+                      
+                    
+                    
+                      ∂
+                      t
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    x
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          y
+                        
+                      
+                    
+                    
+                      ∂
+                      x
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    y
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          y
+                        
+                      
+                    
+                    
+                      ∂
+                      y
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    z
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          y
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    1
+                    ρ
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              x
+                              y
+                            
+                          
+                        
+                        
+                          ∂
+                          x
+                        
+                      
+                    
+                    +
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              y
+                              y
+                            
+                          
+                        
+                        
+                          ∂
+                          y
+                        
+                      
+                    
+                    +
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              z
+                              y
+                            
+                          
+                        
+                        
+                          ∂
+                          z
+                        
+                      
+                    
+                  
+                  )
+                
+                +
+                
+                  a
+                  
+                    y
+                  
+                
+              
+            
+            
+              
+                z
+              
+              
+                
+                :
+              
+              
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      t
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    x
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      x
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    y
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      y
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    z
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    1
+                    ρ
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              x
+                              z
+                            
+                          
+                        
+                        
+                          ∂
+                          x
+                        
+                      
+                    
+                    +
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              y
+                              z
+                            
+                          
+                        
+                        
+                          ∂
+                          y
+                        
+                      
+                    
+                    +
+                    
+                      
+                        
+                          ∂
+                          
+                            σ
+                            
+                              z
+                              z
+                            
+                          
+                        
+                        
+                          ∂
+                          z
+                        
+                      
+                    
+                  
+                  )
+                
+                +
+                
+                  a
+                  
+                    z
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}x&:&{\frac {\partial u_{x}}{\partial t}}+u_{x}{\frac {\partial u_{x}}{\partial x}}+u_{y}{\frac {\partial u_{x}}{\partial y}}+u_{z}{\frac {\partial u_{x}}{\partial z}}&={\frac {1}{\rho }}\left({\frac {\partial \sigma _{xx}}{\partial x}}+{\frac {\partial \sigma _{yx}}{\partial y}}+{\frac {\partial \sigma _{zx}}{\partial z}}\right)+a_{x}\\[8pt]y&:&{\frac {\partial u_{y}}{\partial t}}+u_{x}{\frac {\partial u_{y}}{\partial x}}+u_{y}{\frac {\partial u_{y}}{\partial y}}+u_{z}{\frac {\partial u_{y}}{\partial z}}&={\frac {1}{\rho }}\left({\frac {\partial \sigma _{xy}}{\partial x}}+{\frac {\partial \sigma _{yy}}{\partial y}}+{\frac {\partial \sigma _{zy}}{\partial z}}\right)+a_{y}\\[8pt]z&:&{\frac {\partial u_{z}}{\partial t}}+u_{x}{\frac {\partial u_{z}}{\partial x}}+u_{y}{\frac {\partial u_{z}}{\partial y}}+u_{z}{\frac {\partial u_{z}}{\partial z}}&={\frac {1}{\rho }}\left({\frac {\partial \sigma _{xz}}{\partial x}}+{\frac {\partial \sigma _{yz}}{\partial y}}+{\frac {\partial \sigma _{zz}}{\partial z}}\right)+a_{z}\end{aligned}}}
+  
+
+
+=== Cylindrical 3D coordinates ===
+Below, we write the main equation in pressure-tau form assuming that the stress tensor is symmetrical (
+  
+    
+      
+        
+          σ
+          
+            i
+            j
+          
+        
+        =
+        
+          σ
+          
+            j
+            i
+          
+        
+        ⟹
+        
+          τ
+          
+            i
+            j
+          
+        
+        =
+        
+          τ
+          
+            j
+            i
+          
+        
+      
+    
+    {\displaystyle \sigma _{ij}=\sigma _{ji}\Longrightarrow \tau _{ij}=\tau _{ji}}
+  
+):
+
+  
+    
+      
+        
+          
+            
+              
+                r
+              
+              
+                
+                :
+              
+              
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          r
+                        
+                      
+                    
+                    
+                      ∂
+                      t
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    r
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          r
+                        
+                      
+                    
+                    
+                      ∂
+                      r
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      u
+                      
+                        ϕ
+                      
+                    
+                    r
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          r
+                        
+                      
+                    
+                    
+                      ∂
+                      ϕ
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    z
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          r
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+                −
+                
+                  
+                    
+                      u
+                      
+                        ϕ
+                      
+                      
+                        2
+                      
+                    
+                    r
+                  
+                
+              
+              
+                
+                =
+                −
+                
+                  
+                    1
+                    ρ
+                  
+                
+                
+                  
+                    
+                      ∂
+                      P
+                    
+                    
+                      ∂
+                      r
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      r
+                      ρ
+                    
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        (
+                        
+                          r
+                          
+                            τ
+                            
+                              r
+                              r
+                            
+                          
+                        
+                        )
+                      
+                    
+                    
+                      ∂
+                      r
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      r
+                      ρ
+                    
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        τ
+                        
+                          ϕ
+                          r
+                        
+                      
+                    
+                    
+                      ∂
+                      ϕ
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    ρ
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        τ
+                        
+                          z
+                          r
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+                −
+                
+                  
+                    
+                      τ
+                      
+                        ϕ
+                        ϕ
+                      
+                    
+                    
+                      r
+                      ρ
+                    
+                  
+                
+                +
+                
+                  a
+                  
+                    r
+                  
+                
+              
+            
+            
+              
+                ϕ
+              
+              
+                
+                :
+              
+              
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          ϕ
+                        
+                      
+                    
+                    
+                      ∂
+                      t
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    r
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          ϕ
+                        
+                      
+                    
+                    
+                      ∂
+                      r
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      u
+                      
+                        ϕ
+                      
+                    
+                    r
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          ϕ
+                        
+                      
+                    
+                    
+                      ∂
+                      ϕ
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    z
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          ϕ
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      
+                        u
+                        
+                          r
+                        
+                      
+                      
+                        u
+                        
+                          ϕ
+                        
+                      
+                    
+                    r
+                  
+                
+              
+              
+                
+                =
+                −
+                
+                  
+                    1
+                    
+                      r
+                      ρ
+                    
+                  
+                
+                
+                  
+                    
+                      ∂
+                      P
+                    
+                    
+                      ∂
+                      ϕ
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      r
+                      ρ
+                    
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        τ
+                        
+                          ϕ
+                          ϕ
+                        
+                      
+                    
+                    
+                      ∂
+                      ϕ
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      
+                        r
+                        
+                          2
+                        
+                      
+                      ρ
+                    
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        (
+                        
+                          
+                            r
+                            
+                              2
+                            
+                          
+                          
+                            τ
+                            
+                              r
+                              ϕ
+                            
+                          
+                        
+                        )
+                      
+                    
+                    
+                      ∂
+                      r
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    ρ
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        τ
+                        
+                          z
+                          ϕ
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+                +
+                
+                  a
+                  
+                    ϕ
+                  
+                
+              
+            
+            
+              
+                z
+              
+              
+                
+                :
+              
+              
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      t
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    r
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      r
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      u
+                      
+                        ϕ
+                      
+                    
+                    r
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      ϕ
+                    
+                  
+                
+                +
+                
+                  u
+                  
+                    z
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        u
+                        
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+              
+              
+                
+                =
+                −
+                
+                  
+                    1
+                    ρ
+                  
+                
+                
+                  
+                    
+                      ∂
+                      P
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    ρ
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        τ
+                        
+                          z
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      r
+                      ρ
+                    
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        τ
+                        
+                          ϕ
+                          z
+                        
+                      
+                    
+                    
+                      ∂
+                      ϕ
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      r
+                      ρ
+                    
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        (
+                        
+                          r
+                          
+                            τ
+                            
+                              r
+                              z
+                            
+                          
+                        
+                        )
+                      
+                    
+                    
+                      ∂
+                      r
+                    
+                  
+                
+                +
+                
+                  a
+                  
+                    z
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}r&:&{\frac {\partial u_{r}}{\partial t}}+u_{r}{\frac {\partial u_{r}}{\partial r}}+{\frac {u_{\phi }}{r}}{\frac {\partial u_{r}}{\partial \phi }}+u_{z}{\frac {\partial u_{r}}{\partial z}}-{\frac {u_{\phi }^{2}}{r}}&=-{\frac {1}{\rho }}{\frac {\partial P}{\partial r}}+{\frac {1}{r\rho }}{\frac {\partial \left(r\tau _{rr}\right)}{\partial r}}+{\frac {1}{r\rho }}{\frac {\partial \tau _{\phi r}}{\partial \phi }}+{\frac {1}{\rho }}{\frac {\partial \tau _{zr}}{\partial z}}-{\frac {\tau _{\phi \phi }}{r\rho }}+a_{r}\\[8pt]\phi &:&{\frac {\partial u_{\phi }}{\partial t}}+u_{r}{\frac {\partial u_{\phi }}{\partial r}}+{\frac {u_{\phi }}{r}}{\frac {\partial u_{\phi }}{\partial \phi }}+u_{z}{\frac {\partial u_{\phi }}{\partial z}}+{\frac {u_{r}u_{\phi }}{r}}&=-{\frac {1}{r\rho }}{\frac {\partial P}{\partial \phi }}+{\frac {1}{r\rho }}{\frac {\partial \tau _{\phi \phi }}{\partial \phi }}+{\frac {1}{r^{2}\rho }}{\frac {\partial \left(r^{2}\tau _{r\phi }\right)}{\partial r}}+{\frac {1}{\rho }}{\frac {\partial \tau _{z\phi }}{\partial z}}+a_{\phi }\\[8pt]z&:&{\frac {\partial u_{z}}{\partial t}}+u_{r}{\frac {\partial u_{z}}{\partial r}}+{\frac {u_{\phi }}{r}}{\frac {\partial u_{z}}{\partial \phi }}+u_{z}{\frac {\partial u_{z}}{\partial z}}&=-{\frac {1}{\rho }}{\frac {\partial P}{\partial z}}+{\frac {1}{\rho }}{\frac {\partial \tau _{zz}}{\partial z}}+{\frac {1}{r\rho }}{\frac {\partial \tau _{\phi z}}{\partial \phi }}+{\frac {1}{r\rho }}{\frac {\partial \left(r\tau _{rz}\right)}{\partial r}}+a_{z}\end{aligned}}}
+  
+
+
+== See also ==
+Euler equations (fluid dynamics)
+Navier–Stokes equations
+Burnett equations
+Chapman–Enskog expansion
+
+
+== Notes ==
+
+
+== References ==

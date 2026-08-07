@@ -1,0 +1,35 @@
+Wikipedia article: Coffee ring effect
+Source: https://en.wikipedia.org/wiki/Coffee_ring_effect
+PageID: 3697368
+======================================================================
+
+In physics, a "coffee ring" is a pattern left by a puddle of particle-laden liquid after it evaporates. The phenomenon is named for the characteristic ring-like deposit along the perimeter of a spill of coffee. It is also commonly seen after spilling red wine. The mechanism behind the formation of these and similar rings is known as the coffee ring effect or in some instances, the coffee stain effect, or simply ring stain.
+
+
+== Flow mechanism ==
+The coffee-ring pattern originates from the capillary flow induced by the evaporation of the drop: liquid evaporating from the edge is replenished by liquid from the interior. The resulting current can carry nearly all the dispersed material to the edge. As a function of time, this process exhibits a "rush-hour" effect, that is, a rapid acceleration of the flow towards the edge at the final stage of the drying process.
+Evaporation induces a Marangoni flow inside a droplet.  The flow, if strong, redistributes particles back to the center of the droplet.  Thus, for particles to accumulate at the edges, the liquid must have a weak Marangoni flow, or something must occur to disrupt the flow.  For example, surfactants can be added to reduce the liquid's surface tension gradient, disrupting the induced flow.  Water has a weak Marangoni flow to begin with, which is then reduced significantly by natural surfactants.
+Interaction of the particles suspended in a droplet with the free surface of the droplet is important in creating a coffee ring. "When the drop evaporates, the free surface collapses and traps the suspended particles ... eventually all the particles are captured by the free surface and stay there for the rest of their trip towards the edge of the drop." This result means that surfactants can be used to manipulate the motion of the solute particles by changing the surface tension of the drop, rather than trying to control the bulk flow inside the drop. A number of unique morphologies of the deposited particles can result.  For example, an enantiopure poly (isocyanate) derivative has been shown to form ordered arrays of squashed donut structures.
+
+
+== Suppression ==
+
+The coffee-ring pattern is detrimental when uniform application of a dried deposit is required, such as in printed electronics. It can be suppressed by adding elongated particles, such as cellulose fibers, to the spherical particles that cause the coffee-ring effect. The size and weight fraction of added particles may be smaller than those of the primary ones.
+It is also reported that controlling flow inside a droplet is a powerful way to generate a uniform film; for example, by harnessing solutal Marangoni flows occurring during evaporation.
+Mixtures of low boiling point and high boiling point solvents were shown to suppress the coffee ring effect, changing the shape of a deposited solute from a ring-like to a dot-like shape.
+Control of the substrate temperature was shown to be an effective way to suppress the coffee ring formed by droplets of water-based PEDOT:PSS solution. On a heated hydrophilic or hydrophobic substrate, a thinner ring with an inner deposit forms, which is attributed to Marangoni convection.
+Control of the substrate wetting properties on slippery surfaces can prevent the pinning of the drop contact line, which will, therefore, suppress the coffee ring effect by reducing the number of particles deposited at the contact line. Drops on superhydrophobic or liquid impregnated surfaces are less likely to have a pinned contact line and will suppress ring formation. Drops with an oil ring formed at the drop contact line have high mobility and can avoid the ring formation on hydrophobic surfaces. 
+Alternating voltage electrowetting may suppress coffee stains without the need to add surface-active materials. Reverse particle motion may also reduce the coffee-ring effect because of the capillary force near the contact line. The reversal takes place when the capillary force prevails over the outward coffee-ring flow by the geometric constraints.
+
+
+== Determinants of size and pattern ==
+The lower-limit size of a coffee ring depends on the time scale competition between the liquid evaporation and the movement of suspended particles.  When the liquid evaporates much faster than the particle movement near a three-phase contact line, a coffee ring cannot be formed successfully.  Instead, these particles will disperse uniformly on a surface upon complete liquid evaporation.  For suspended particles of size 100 nm, the minimum diameter of the coffee ring structure is found to be 10 μm, or about 10 times smaller than the width of human hair.  The shape of particles in the liquid is responsible for coffee ring effect. On porous substrates, the competition among infiltration, particle motion and evaporation of the solvent governs the final deposition morphology.
+The pH of the solution of the drop influences the final deposit pattern. The transition between these patterns is explained by considering how DLVO interactions such as the electrostatic and Van der Waals forces modify the particle deposition process.
+
+
+== Applications ==
+The coffee ring effect is utilized in convective deposition by researchers wanting to order particles on a substrate using capillary-driven assembly, replacing a stationary droplet with an advancing meniscus drawn across the substrate.  This process differs from dip-coating in that evaporation drives flow along the substrate as opposed to gravity.
+Convective deposition can control particle orientation, resulting in the formation of crystalline monolayer films from nonspherical particles such as hemispherical, dimer, and dumbbell shaped particles. Orientation is afforded by the system trying to reach a state of maximum packing of the particles in the thin meniscus layer over which evaporation occurs. They showed that tuning the volume fraction of particles in solution will control the specific location along the varying meniscus thickness at which assembly occurs. Particles will align with their long axis in- or out-of-plane depending on whether or not their longer dimension of the particle was equal to the thickness of the wetting layer at the meniscus location. Such thickness transitions were established with spherical particles as well. It was later shown that convective assembly could control particle orientation in assembling multi-layers, resulting in long-range 3D colloidal crystals from dumbbell shaped particles. These finds were attractive for the self-assembled of colloidal crystal films for applications such as photonics. Recent advances have increased the application of coffee-ring assembly from colloidal particles to organized patterns of inorganic crystals.
+
+
+== References ==

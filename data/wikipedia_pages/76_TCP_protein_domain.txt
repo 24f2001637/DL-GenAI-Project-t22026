@@ -1,0 +1,25 @@
+Wikipedia article: TCP protein domain
+Source: https://en.wikipedia.org/wiki/TCP_protein_domain
+PageID: 36522889
+======================================================================
+
+In molecular biology, the protein domain TCP is actually a family of transcription factors  named after: teosinte branched 1 (tb1, Zea mays (Maize)), cycloidea (cyc) (Antirrhinum majus) (Garden snapdragon) and PCF in rice (Oryza sativa).
+
+
+== Function ==
+Members of the TCP protein domain family appear to be involved in cell proliferation. It may also have a role in signalling pathways since it has three phosphorylation sites. The TCP domain is necessary for specific binding to promoter elements of the Proliferating cell nuclear antigen (PCNA) gene and also in DNA binding.
+
+
+== Evolution ==
+This family of transcription factors are exclusive to vascular plants. They can be divided into two groups, TCP-C and TCP-P, that appear to have separated following an early gene duplication event. This duplication event may have led to functional divergence and it has been proposed that the TCP-P subfamily are transcriptional repressors, while the TPC-C subfamily are transcription activators.
+
+
+== Structure ==
+The TCP proteins code for structurally related proteins implicated in the evolution of key morphological traits. However, the biochemical function of CYC and TB1 proteins remains to be demonstrated. One of the conserved regions is predicted to form a non-canonical basic-Helix-Loop-Helix (bHLH) structure. This domain is also found in two rice DNA-binding proteins, PCF1 and PCF2, where it has been shown to be involved in DNA-binding and dimerization.
+
+
+== References ==
+
+
+== External links ==
+TCP family Archived 2013-12-07 at the Wayback Machine at PlantTFDB: Plant Transcription Factor Database

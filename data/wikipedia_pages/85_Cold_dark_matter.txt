@@ -1,0 +1,81 @@
+Wikipedia article: Cold dark matter
+Source: https://en.wikipedia.org/wiki/Cold_dark_matter
+PageID: 183999
+======================================================================
+
+In cosmology and physics, cold dark matter (CDM) is a hypothetical type of dark matter. According to the current standard model of cosmology, the Lambda-CDM model, approximately 27% of the universe is dark matter and 68% is dark energy, with only a small fraction being the ordinary baryonic matter that composes stars, planets, and living organisms. Cold refers to the dark matter moving slowly compared to the speed of light, giving it a vanishing equation of state. Dark indicates that it interacts very weakly with ordinary matter and electromagnetic radiation.  Proposed candidates for CDM include weakly interacting massive particles, primordial black holes, and axions, as well as most flavors of neutrinos.
+
+
+== History ==
+The theory of cold dark matter was originally published in 1982 by James Peebles; while the warm dark matter picture was proposed independently at the same time by J. Richard Bond, Alex Szalay, and Michael Turner; and George Blumenthal, H. Pagels, and Joel Primack.
+A review article in 1984 by Blumenthal, Sandra Moore Faber, Primack, and Martin Rees developed the details of the theory of cold dark matter.
+
+
+== Structure formation ==
+In the cold dark matter theory, structure grows hierarchically, with small objects collapsing under their self-gravity first and merging in a continuous hierarchy to form larger and more massive objects.  Predictions of the cold dark matter paradigm are in general agreement with observations of cosmological large-scale structure. 
+In the hot dark matter paradigm, popular in the early 1980s but less so in the 1990s, structure does not form hierarchically (bottom-up), but forms by fragmentation (top-down), with the largest superclusters forming first in flat pancake-like sheets and subsequently fragmenting into smaller pieces like our galaxy the Milky Way.
+Since the late 1980s or 1990s, most cosmologists favor the cold dark matter theory (specifically the modern Lambda-CDM model) as a description of how the universe went from a smooth initial state at early times (as shown by the cosmic microwave background radiation) to the lumpy distribution of galaxies and their clusters we see today—the large-scale structure of the universe. Dwarf galaxies are crucial to this theory; having been created by small-scale density fluctuations in the early universe, they became natural building blocks that form larger structures.
+
+
+== Composition ==
+Dark matter is detected through its gravitational interactions with ordinary matter and radiation. As such, it is very difficult to determine what the constituents of cold dark matter are. The candidates fall roughly into three categories:
+
+Axions, very light particles with a specific type of self-interaction that makes them a suitable CDM candidate. Since the late 2010s, axions have become one of the most promising candidates for dark matter. Axions have the theoretical advantage that their existence solves the strong CP problem in quantum chromodynamics, but axion particles have only been theorized and never detected. Axions are an example of a more general category of particle called a WISP (weakly interacting "slender" or "slim" particle), which are the low-mass counterparts of WIMPs.
+Massive compact halo objects (MACHOs), large, condensed objects such as black holes, neutron stars, white dwarfs, very faint stars, or non-luminous objects like planets. The search for these objects consists of using gravitational lensing to detect the effects of these objects on background galaxies. Most experts believe that the constraints from those searches rule out MACHOs as a viable dark matter candidate.
+Weakly interacting massive particles (WIMPs). There is no currently known particle with the required properties, but many extensions of the Standard Model of particle physics predict such particles. The search for WIMPs involves attempts at direct detection by highly sensitive detectors, as well as attempts at production of WIMPs by particle accelerators. Historically, WIMPs were regarded as one of the most promising candidates for the composition of dark matter, but since the late 2010s, WIMPs have been supplanted by axions with the non-detection of WIMPs in experiments. The DAMA/NaI experiment and its successor DAMA/LIBRA have claimed to have directly detected dark matter particles passing through the Earth, but many scientists remain skeptical because no results from similar experiments seem compatible with the DAMA results.
+
+
+== Challenges ==
+
+Several discrepancies between the predictions of cold dark matter in the ΛCDM model and observations of galaxies and their clustering have arisen. Some of these problems have proposed solutions, but it remains unclear whether they can be solved without abandoning the ΛCDM model.
+
+
+=== Cuspy halo problem ===
+
+The density distributions of dark matter halos in cold dark matter simulations (at least those that do not include the impact of baryonic feedback) are much more peaked than what is observed in galaxies by investigating their rotation curves.
+
+
+=== Dwarf galaxy problem ===
+ 
+Cold dark matter simulations predict large numbers of small clumps in dark matter halos, consequently many dwarf galaxies clustered around spiral and elliptical galaxies – more numerous than the number of small dwarf galaxies that are observed around large galaxies like the Milky Way.
+
+
+=== Satellite disk problem ===
+Dwarf galaxies around the Milky Way and Andromeda galaxies are observed to be orbiting in thin, planar structures whereas the simulations predict that they should be distributed randomly, in a roughly spherical halos about their parent galaxies, similar to the orbits observed for globular clusters.
+
+
+=== High-velocity galaxy problem ===
+Galaxies in the NGC 3109 association are moving away too rapidly to be consistent with expectations in the ΛCDM model. In this framework, NGC 3109 is too massive and distant from the Local Group for it to have been flung out in a three-body interaction involving the Milky Way or Andromeda Galaxy.
+
+
+=== Galaxy morphology problem ===
+If galaxies grew hierarchically, then massive galaxies required many mergers. Major mergers inevitably create a classical bulge. On the contrary, about 80% of observed galaxies give evidence of no such bulges, and giant pure-disc galaxies are commonplace. The tension can be quantified by comparing the observed distribution of galaxy shapes today with predictions from high-resolution hydrodynamical cosmological simulations in the ΛCDM framework, revealing a highly significant problem that is unlikely to be solved by improving the resolution of the simulations. The high bulgeless fraction was nearly constant for 8 billion years.
+
+
+=== Fast galaxy bar problem ===
+If galaxies were embedded within massive halos of cold dark matter, then the bars that often develop in their central regions would be slowed down by dynamical friction with the halo. This is in serious tension with the fact that observed galaxy bars are typically fast.
+
+
+=== Small-scale crisis ===
+Comparison of the model with observations may have some problems on sub-galaxy scales, possibly predicting too many dwarf galaxies and too much dark matter in the innermost regions of galaxies. This problem is called the "small scale crisis".  These small scales are harder to resolve in computer simulations, so it is not yet clear whether the problem is the simulations, non-standard properties of dark matter, or a more radical error in the model.
+
+
+=== High redshift galaxies ===
+Observations from the James Webb Space Telescope have resulted in various galaxies confirmed by spectroscopy at high redshift, such as JADES-GS-z13-0 at cosmological redshift of 13.2 or JADES-GS-z14-0 at cosmological redshift of 14.32. Such a high rate of large galaxy formation in the early universe appears to contradict the rates of galaxy formation allowed in the existing Lambda CDM model via dark matter halos, as even if galaxy formation were 100% efficient and all mass were allowed to turn into stars in Lambda CDM, it wouldn't be enough to create such large galaxies. However, this depends upon assuming a stellar initial mass function. If early star formation favored massive stars, this could explain the tension.
+
+
+== See also ==
+Fuzzy cold dark matter
+Hot dark matter
+Meta-cold dark matter
+Modified Newtonian dynamics
+Self-interacting dark matter
+Warm dark matter
+2CDM model of dark matter
+
+
+== References ==
+
+
+== Further reading ==
+Bertone, Gianfranco (2010). Particle Dark Matter: Observations, Models and Searches. Cambridge University Press. p. 762. ISBN 978-0-521-76368-4.

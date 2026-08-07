@@ -1,0 +1,25 @@
+Wikipedia article: CEERS-93316
+Source: https://en.wikipedia.org/wiki/CEERS-93316
+PageID: 71452673
+======================================================================
+
+CEERS-93316 is a high-redshift galaxy with a spectroscopic redshift z=4.9. 
+Significantly, the redshift that was initially reported was photometric (z = 16.4) and would have made CEERS-93316 the earliest and most distant known galaxy observed.
+CEERS-93316 has a light-travel distance (lookback time) of 12.6 billion years, and, due to the expansion of the universe, a present proper distance of 25.7 billion light-years.
+
+
+== Discovery ==
+The candidate high-redshift galaxy CEERS-93316 (RA:14:19:39.48 DEC:+52:56:34.92), in the Boötes constellation, was discovered by the CEERS imaging observing program using the Near Infrared Camera of the James Webb Space Telescope (JWST) in July 2022. CEERS stands for "Cosmic Evolution Early Release Science Survey", and is a deep- and wide-field sky survey program developed specifically for JWST image studies, and is conducted by the CEERS Collaboration.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+CEERS WebSite
+IMAGE: CEERS-93316 galaxy (1 Aug 2022)
+Video (23:16): CEERS Program on YouTube
+Video (01:29): CEERS-93316 galaxy on YouTube

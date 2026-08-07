@@ -1,0 +1,699 @@
+Wikipedia article: Mass-to-charge ratio
+Source: https://en.wikipedia.org/wiki/Mass-to-charge_ratio
+PageID: 3957360
+======================================================================
+
+The mass-to-charge ratio (m/Q) is a physical quantity relating the mass (quantity of matter) and the electric charge of a given particle, expressed in units of kilograms per coulomb (kg/C). It is most widely used in the electrodynamics of charged particles, e.g. in electron optics and ion optics.
+It appears in the scientific fields of electron microscopy, cathode ray tubes, accelerator physics, nuclear physics, Auger electron spectroscopy, cosmology and mass spectrometry.  The importance of the mass-to-charge ratio, according to classical electrodynamics, is that two particles with the same mass-to-charge ratio move in the same path in a vacuum, when subjected to the same electric and magnetic fields.
+Some disciplines use the charge-to-mass ratio (Q/m) instead, which is the multiplicative inverse of the mass-to-charge ratio.  The CODATA recommended value for an electron is ⁠Q/m⁠ = −1.75882000838(55)×1011 C⋅kg−1.
+
+
+== Origin ==
+When charged particles move in electric and magnetic fields the following two laws apply:
+
+Lorentz force law: 
+  
+    
+      
+        
+          F
+        
+        =
+        Q
+        (
+        
+          E
+        
+        +
+        
+          v
+        
+        ×
+        
+          B
+        
+        )
+        ,
+      
+    
+    {\displaystyle \mathbf {F} =Q(\mathbf {E} +\mathbf {v} \times \mathbf {B} ),}
+  
+
+Newton's second law of motion:
+  
+    
+      
+        
+          F
+        
+        =
+        m
+        
+          a
+        
+        =
+        m
+        
+          
+            
+              
+                d
+              
+              
+                v
+              
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {F} =m\mathbf {a} =m{\frac {\mathrm {d} \mathbf {v} }{\mathrm {d} t}}}
+  
+
+where F is the force applied to the ion, m is the mass of the particle, a is the acceleration, Q is the electric charge, E is the electric field, and v × B is the cross product of the ion's velocity and the magnetic flux density.
+This differential equation is the classic equation of motion for charged particles. Together with the particle's initial conditions, it completely determines the particle's motion in space and time in terms of m/Q. Thus mass spectrometers could be thought of as "mass-to-charge spectrometers". When presenting data in a mass spectrum, it is common to use the dimensionless m/z, which denotes the dimensionless quantity formed by dividing the mass number of the ion by its charge number.
+Combining the two previous equations yields:
+
+  
+    
+      
+        
+          (
+          
+            
+              m
+              Q
+            
+          
+          )
+        
+        
+          a
+        
+        =
+        
+          E
+        
+        +
+        
+          v
+        
+        ×
+        
+          B
+        
+        .
+      
+    
+    {\displaystyle \left({\frac {m}{Q}}\right)\mathbf {a} =\mathbf {E} +\mathbf {v} \times \mathbf {B} .}
+  
+
+This differential equation is the classic equation of motion of a charged particle in a vacuum. Together with the particle's initial conditions, it determines the particle's motion in space and time.  It immediately reveals that two particles with the same m/Q ratio behave in the same way. This is why the mass-to-charge ratio is an important physical quantity in those scientific fields where charged particles interact with magnetic or electric fields.
+
+
+=== Exceptions ===
+There are non-classical effects that derive from quantum mechanics, such as the Stern–Gerlach effect that can diverge the path of ions of identical m/Q.
+
+
+== Symbols and units ==
+The IUPAC-recommended symbols for mass and charge are m and Q, respectively, however using a lowercase q for charge is also very common. Charge is a scalar property, meaning that it can be either positive (+) or negative (−). The Coulomb (C) is the SI unit of charge; however, other units can be used, such as expressing charge in terms of the elementary charge (e). The SI unit of the physical quantity m/Q is kilogram per coulomb.
+
+
+=== Mass spectrometry and m/z ===
+
+The units and notation above are used when dealing with the physics of mass spectrometry; however, the m/z notation is used for the independent variable in a mass spectrum. This notation eases data interpretation since it is numerically more related to the dalton. For example, if an ion carries one charge the m/z is numerically equivalent to the molecular or atomic mass of the ion in daltons (Da), where the numerical value of m/Q is abstruse. The m refers to the molecular or atomic mass number (number of nucleons) and z to the charge number of the ion; however, the quantity of m/z is dimensionless by definition. An ion with a mass of 100 Da (daltons) (m = 100) carrying two charges (z = 2) will be observed at m/z  50. However, the empirical observation m/z  50 is one equation with two unknowns and could have arisen from other ions, such as an ion of mass 50 Da carrying one charge. Thus, the m/z of an ion alone neither infers mass nor the number of charges. Additional information, such as the mass spacing between mass isotopomers or the relationship between multiple charge states, is required to assign the charge state and infer the mass of the ion from the m/z. This additional information is often but not always available. Thus, the m/z is primarily used to report an empirical observation in mass spectrometry. This observation may be used in conjunction with other lines of evidence to subsequently infer the physical attributes of the ion, such as mass and charge. On rare occasions, the thomson has been used as a unit of the x-axis of a mass spectrum.
+
+
+== History ==
+In the 19th century, the mass-to-charge ratios of some ions were measured by electrochemical methods.
+The first attempt to measure the mass-to-charge ratio of cathode ray particles, assuming them to be ions, was made in 1884-1890 by German-born British physicist Arthur Schuster. He put an upper limit of 10^10 coul/kg, but even that resulted in much greater value than expected, so little credence was given to his calculations at the time.
+In 1897, the mass-to-charge ratio of the electron was first measured by J. J. Thomson. By doing this, he showed that the electron was in fact a particle with a mass and a charge, and that its mass-to-charge ratio was much smaller than that of the hydrogen ion H+. In 1898, Wilhelm Wien separated ions (canal rays) according to their mass-to-charge ratio with an ion optical device with superimposed electric and magnetic fields (Wien filter). In 1901 Walter Kaufman measured the increase of electromagnetic mass of fast electrons (Kaufmann–Bucherer–Neumann experiments), or relativistic mass increase in modern terms. In 1913, Thomson measured the mass-to-charge ratio of ions with an instrument he called a parabola spectrograph. Today, an instrument that measures the mass-to-charge ratio of charged particles is called a mass spectrometer.
+
+
+== Charge-to-mass ratio ==
+
+The charge-to-mass ratio (Q/m) of an object is, as its name implies, the charge of an object divided by the mass of the same object.  This quantity is generally useful only for objects that may be treated as particles.  For extended objects, total charge, charge density, total mass, and mass density are often more useful.
+Derivation:
+
+  
+    
+      
+        q
+        v
+        B
+        =
+        m
+        v
+        
+          
+            v
+            r
+          
+        
+      
+    
+    {\displaystyle qvB=mv{\frac {v}{r}}}
+  
+ or
+
+Since 
+  
+    
+      
+        
+          F
+          
+            electric
+          
+        
+        =
+        
+          F
+          
+            magnetic
+          
+        
+      
+    
+    {\displaystyle F_{\text{electric}}=F_{\text{magnetic}}}
+  
+, 
+
+  
+    
+      
+        E
+        q
+        =
+        B
+        q
+        v
+      
+    
+    {\displaystyle Eq=Bqv}
+  
+ or
+
+Equations (1) and (2) yield
+
+  
+    
+      
+        
+          
+            q
+            m
+          
+        
+        =
+        
+          
+            E
+            
+              
+                B
+                
+                  2
+                
+              
+              r
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {q}{m}}={\frac {E}{B^{2}r}}}
+  
+
+
+=== Significance ===
+In some experiments, the charge-to-mass ratio is the only quantity that can be measured directly.  Often, the charge can be inferred from theoretical considerations, so the charge-to-mass ratio provides a way to calculate the mass of a particle.
+Often, the charge-to-mass ratio can be determined by observing the deflection of a charged particle in an external magnetic field.  The cyclotron equation, combined with other information such as the kinetic energy of the particle, will give the charge-to-mass ratio. One application of this principle is the mass spectrometer.  The same principle can be used to extract information in experiments involving the cloud chamber.
+The ratio of electrostatic to gravitational forces between two particles will be proportional to the product of their charge-to-mass ratios.  It turns out that gravitational forces are negligible on the subatomic level, due to the extremely small masses of subatomic particles.
+
+
+=== Electron ===
+The electron charge-to-mass quotient, 
+  
+    
+      
+        −
+        e
+        
+          /
+        
+        
+          m
+          
+            e
+          
+        
+      
+    
+    {\displaystyle -e/m_{e}}
+  
+, is a quantity that may be measured in experimental physics.  It bears significance because the electron mass me is difficult to measure directly, and is instead derived from measurements of the elementary charge e and 
+  
+    
+      
+        e
+        
+          /
+        
+        
+          m
+          
+            e
+          
+        
+      
+    
+    {\displaystyle e/m_{e}}
+  
+.  It also has historical significance; the Q/m ratio of the electron was successfully calculated by J. J. Thomson in 1897—and more successfully by Dunnington, which involves the angular momentum and deflection due to a perpendicular magnetic field. Thomson's measurement convinced him that cathode rays were particles, which were later identified as electrons, and he is generally credited with their discovery.
+The CODATA recommended value is −e/⁠me = −1.75882000838(55)×1011 C⋅kg−1. CODATA refers to this as the electron charge-to-mass quotient, but ratio is still commonly used.
+There are two other common ways of measuring the charge-to-mass ratio of an electron, apart from Thomson and Dunnington's methods.
+
+The magnetron method: Using a GRD7 Valve (Ferranti valve), electrons are expelled from a hot tungsten-wire filament towards an anode. The electron is then deflected using a solenoid. From the current in the solenoid and the current in the Ferranti Valve, e/m can be calculated.
+Fine beam tube method: A heater heats a cathode, which emits electrons.  The electrons are accelerated through a known potential, so the velocity of the electrons is known.  The beam path can be seen when the electrons are accelerated through a helium (He) gas.  The collisions between the electrons and the helium gas produce a visible trail.  A pair of Helmholtz coils produces a uniform and measurable magnetic field at right angles to the electron beam.  This magnetic field deflects the electron beam in a circular path.  By measuring the accelerating potential (volts), the current (amps) to the Helmholtz coils, and the radius of the electron beam, e/m can be calculated.
+
+
+=== Zeeman effect ===
+The charge-to-mass ratio of an electron may also be measured with the Zeeman effect, which gives rise to energy splittings in the presence of a magnetic field B:
+
+  
+    
+      
+        Δ
+        E
+        =
+        
+          
+            
+              e
+              ℏ
+              B
+            
+            
+              2
+              m
+            
+          
+        
+        (
+        
+          m
+          
+            j
+            ,
+            f
+          
+        
+        
+          g
+          
+            J
+            ,
+            f
+          
+        
+        −
+        
+          m
+          
+            j
+            ,
+            i
+          
+        
+        
+          g
+          
+            J
+            ,
+            i
+          
+        
+        )
+      
+    
+    {\displaystyle \Delta E={\frac {e\hbar B}{2m}}(m_{j,f}g_{J,f}-m_{j,i}g_{J,i})}
+  
+
+Here mj are quantum integer values ranging from −j to j, with j as the eigenvalue of the total angular momentum operator J, with
+
+  
+    
+      
+        
+          J
+        
+        =
+        
+          L
+        
+        +
+        
+          S
+        
+      
+    
+    {\displaystyle \mathbf {J} =\mathbf {L} +\mathbf {S} }
+  
+
+where S is the spin operator with eigenvalue s and L is  the angular momentum operator with eigenvalue l. gJ is the Landé g-factor, calculated as
+
+  
+    
+      
+        
+          g
+          
+            J
+          
+        
+        =
+        1
+        +
+        
+          
+            
+              j
+              (
+              j
+              +
+              1
+              )
+              +
+              s
+              (
+              s
+              +
+              1
+              )
+              −
+              l
+              (
+              l
+              +
+              1
+              )
+            
+            
+              2
+              j
+              (
+              j
+              +
+              1
+              )
+            
+          
+        
+      
+    
+    {\displaystyle g_{J}=1+{\frac {j(j+1)+s(s+1)-l(l+1)}{2j(j+1)}}}
+  
+
+The shift in energy is also given in terms of frequency υ and wavelength λ as
+
+  
+    
+      
+        Δ
+        E
+        =
+        h
+        Δ
+        ν
+        =
+        h
+        c
+        Δ
+        
+          (
+          
+            
+              1
+              λ
+            
+          
+          )
+        
+        =
+        h
+        c
+        
+          
+            
+              Δ
+              λ
+            
+            
+              λ
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \Delta E=h\Delta \nu =hc\Delta \left({\frac {1}{\lambda }}\right)=hc{\frac {\Delta \lambda }{\lambda ^{2}}}}
+  
+
+Measurements of the Zeeman effect commonly involve the use of a Fabry–Pérot interferometer, with light from a source (placed in a magnetic field) being passed between two mirrors of the interferometer. If δD is the change in mirror separation required to bring the mth-order ring of wavelength λ + Δλ into coincidence with that of wavelength λ, and ΔD brings the (m + 1)th ring of wavelength λ into coincidence with the mth-order ring, then
+
+  
+    
+      
+        Δ
+        λ
+        =
+        
+          λ
+          
+            2
+          
+        
+        
+          
+            
+              δ
+              D
+            
+            
+              2
+              D
+              Δ
+              D
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \Delta \lambda =\lambda ^{2}{\frac {\delta D}{2D\Delta D}}.}
+  
+
+It follows then that
+
+  
+    
+      
+        h
+        c
+        
+          
+            
+              Δ
+              λ
+            
+            
+              λ
+              
+                2
+              
+            
+          
+        
+        =
+        h
+        c
+        
+          
+            
+              δ
+              D
+            
+            
+              2
+              D
+              Δ
+              D
+            
+          
+        
+        =
+        
+          
+            
+              e
+              ℏ
+              B
+            
+            
+              2
+              m
+            
+          
+        
+        (
+        
+          m
+          
+            j
+            ,
+            f
+          
+        
+        
+          g
+          
+            J
+            ,
+            f
+          
+        
+        −
+        
+          m
+          
+            j
+            ,
+            i
+          
+        
+        
+          g
+          
+            J
+            ,
+            i
+          
+        
+        )
+        
+        .
+      
+    
+    {\displaystyle hc{\frac {\Delta \lambda }{\lambda ^{2}}}=hc{\frac {\delta D}{2D\Delta D}}={\frac {e\hbar B}{2m}}(m_{j,f}g_{J,f}-m_{j,i}g_{J,i})\,.}
+  
+
+Rearranging, it is possible to solve for the charge-to-mass ratio of an electron as
+
+  
+    
+      
+        
+          
+            e
+            m
+          
+        
+        =
+        
+          
+            
+              4
+              π
+              c
+            
+            
+              B
+              (
+              
+                m
+                
+                  j
+                  ,
+                  f
+                
+              
+              
+                g
+                
+                  J
+                  ,
+                  f
+                
+              
+              −
+              
+                m
+                
+                  j
+                  ,
+                  i
+                
+              
+              
+                g
+                
+                  J
+                  ,
+                  i
+                
+              
+              )
+            
+          
+        
+        
+          
+            
+              δ
+              D
+            
+            
+              D
+              Δ
+              D
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\frac {e}{m}}={\frac {4\pi c}{B(m_{j,f}g_{J,f}-m_{j,i}g_{J,i})}}{\frac {\delta D}{D\Delta D}}\,.}
+  
+
+
+== See also ==
+Gyromagnetic ratio
+Thomson (unit)
+
+
+== References ==
+
+
+== Bibliography ==
+Szilágyi, Miklós (1988). Electron and ion optics. New York: Plenum Press. ISBN 978-0-306-42717-6.
+Septier, Albert L. (1980). Applied charged particle optics. Boston: Academic Press. ISBN 978-0-12-014574-4.
+International vocabulary of basic and general terms in metrology =: Vocabulaire international des termes fondamentaux et généraux de métrologie. International Organization for Standardization. 1993. ISBN 978-92-67-01075-5.
+IUPAP Red Book SUNAMCO 87-1 "Symbols, Units, Nomenclature and Fundamental Constants in Physics" (does not have an online version)
+Symbols Units and Nomenclature in Physics IUPAP-25, E.R. Cohen & P. Giacomo, Physics 146A (1987) 1–68
+
+
+== External links ==
+BIPM SI brochure
+AIP style manual
+NIST on units and manuscript check list
+Physics Today's instructions on quantities and units

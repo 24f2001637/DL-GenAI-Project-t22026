@@ -1,0 +1,53 @@
+Wikipedia article: Carbocation
+Source: https://en.wikipedia.org/wiki/Carbocation
+PageID: 241767
+======================================================================
+
+Carbocation is a general term for ions with a positively charged carbon atom. In the present-day definition given by the IUPAC, a carbocation is any even-electron cation with significant partial positive charge on a carbon atom.  They are further classified in two main categories according to the coordination number of the charged carbon: three in the carbenium ions and five in the carbonium ions. Among the simplest carbocations are the methenium CH+3 (a carbenium ion),  methanium CH+5  (a carbonium ion), acylium ions RCO+, and vinyl C2H+3 cations.
+Until the early 1970s, carbocations were called carbonium ions. This nomenclature was proposed by G. A. Olah. Carbonium ions, as originally defined by Olah, are characterized by a three-center two-electron delocalized bonding scheme and are essentially synonymous with so-called 'non-classical carbocations', which are carbocations that contain bridging C–C or C–H σ-bonds.  However, others have more narrowly defined the term 'carbonium ion' as formally protonated or alkylated alkanes (CR+5, where R is H or alkyl), to the exclusion of non-classical carbocations like the 2-norbornyl cation.
+
+
+== Definitions ==
+According to the IUPAC, a carbocation is any cation containing an even number of electrons in which a significant portion of the positive charge resides on a carbon atom.  Prior to the observation of five-coordinate carbocations by Olah and coworkers, carbocation and carbonium ion were used interchangeably.  Olah proposed a redefinition of carbonium ion as a carbocation featuring any type of three-center two-electron bonding, while a carbenium ion was newly coined to refer to a carbocation containing only two-center two-electron bonds with a three-coordinate positive carbon.  Subsequently, others have used the term carbonium ion more narrowly to refer to species that are derived (at least formally) from electrophilic attack of H+ or R+ on an alkane, in analogy to other main group onium species, while a carbocation that contains any type of three-centered bonding is referred to as a non-classical carbocation.  In this usage, 2-norbornyl cation is not a carbonium ion, because it is formally derived from protonation of an alkene (norbornene) rather than an alkane, although it is a non-classical carbocation due to its bridged structure.  The IUPAC acknowledges the three divergent definitions of carbonium ion and urges care in the usage of this term.  For the remainder of this article, the term carbonium ion will be used in this latter restricted sense, while non-classical carbocation will be used to refer to any carbocation with C–C and/or C–H σ-bonds delocalized by bridging.
+
+
+== Structure and properties ==
+
+
+=== Carbonium ions ===
+
+Carbonium ions can be thought of as protonated or alkylated alkanes, bearing the general formula CR5+ (R = alkyl or H).  A typical example is the methanium ion, CH5+, which is formed by protonation of methane using a superacid.  By necessity of having five bonds on carbon but only four valence electron pairs available for bonding, they feature delocalized 3c-2e σ bonding and are thus regarded as type of non-classical carbocation.  Like carbenium ions, carbonium ions are often invoked as intermediates in the upgrading of hydrocarbons in refineries.  They are generally fleeting intermediates with fluxional structures that are challenging to observe and interpret spectroscopically.  They can undergo decomposition by expulsion of a proton or alkyl group, or by loss of H2 to give a carbenium ion.
+
+
+=== Carbenium ions ===
+At least in a formal sense, carbenium ions (CR3+) are derived from the protonation (addition of H+) or alkylation (addition of R+) of a carbene or alkene.  They admit a resonance depiction in which one carbon atom bears a formal positive charge and is surrounded by six valence electrons instead of the usual octet. Therefore, carbenium ions (and carbocations in general) are often reactive, seeking to fill the valence octet and regain a neutral charge.
+In accord with VSEPR and Bent's rule, unless geometrically constrained to be pyramidal (e.g., 1-adamantyl cation), 3-coordinate carbon in carbenium ions are usually trigonal planar and sp2 hybridized; the lowest unoccupied molecular orbital is an empty pure p orbital pointing out-of-plane.  A prototypical example is the t-butyl cation, CMe+3.  Although classical carbenium ions have a structure that corresponds to a non-bridging Lewis structure, donation of electron density from neighboring C–H or C–C bonds into the "empty" p orbital, known as hyperconjugation, is still an important stabilizing factor, and these bonds have a tendency to "lean" towards the carbocationic center to improve orbital overlap.
+There is, in fact, an entire spectrum of bonding scenarios between a slight lean due to hyperconjugation to a fully symmetric bridging structure featuring 3c2e bonding.  Consequently, there is no firm dividing line between "classical" and the so-called "non-classical" structures. 
+
+
+==== Non-classical carbenium ions ====
+Non-classical carbenium ions feature also σ delocalization (3c2e bonds) in their bonding but have the general formula CR3+ (R = alkyl or H).  Thus, in principle, one can propose non-bridged, classical structures for these cations, as well as a bridged non-classical structure.  Because of the subtle differences in the expected behavior of a non-classical carbenium ions compared to the alternative hypothesis of two rapidly equilibrating classical structures, a lively and often acrimonious debate took place over several decades regarding the merits of each model. For a detailed history of this dispute, see the article on the 2-norbornyl cation. Currently, there is overwhelming evidence that, at least in some cases (notably the extremely well-studied 2-norbornyl cation), the equilibrium structure of a carbenium ion is non-classical, although even minor changes in structure could result in a classical structure being favored.
+
+
+== History ==
+The history of carbocations dates back to 1891 when G. Merling reported that he added bromine to tropylidene (cycloheptatriene) and then heated the product to obtain a crystalline, water-soluble material, C7H7Br. He did not suggest a structure for it; however, Doering and Knox convincingly showed that it was tropylium (cycloheptatrienylium) bromide. This ion is predicted to be aromatic by Hückel's rule.
+In 1902, Norris and Kehrman independently discovered that colorless triphenylmethanol gives deep-yellow solutions in concentrated sulfuric acid. Triphenylmethyl chloride similarly formed orange complexes when treated with aluminium and tin chlorides. In 1902, Adolf von Baeyer recognized the salt-like character of the compounds formed. He dubbed the relationship between color and salt formation halochromy, of which malachite green is a prime example. The trityl carbocation (shown below) is indeed a stable carbocationic system, for example in the form of trityl hexafluorophosphate.
+
+Carbocations are reactive intermediates in many organic reactions. This idea, first proposed by Julius Stieglitz in 1899, was further developed by Hans Meerwein in his 1922 study of the Wagner–Meerwein rearrangement. Carbocations were also found to be involved in the SN1 reaction, the E1 reaction, and in rearrangement reactions such as the Whitmore 1,2 shift. The chemical establishment was reluctant to accept the notion of a carbocation and for a long time the Journal of the American Chemical Society refused articles that mentioned them.
+An NMR spectrum of a carbocation was first reported by Doering et al. in 1958. It was the heptamethylbenzenium ion, made by treating hexamethylbenzene with methyl chloride and aluminium chloride. The stable 7-norbornadienyl cation was prepared by Story et al. in 1960 by reacting norbornadienyl chloride with silver tetrafluoroborate in sulfur dioxide at −80 °C. The NMR spectrum established that it was non-classically bridged (the first stable non-classical ion observed).
+In 1962, Olah directly observed the tert-butyl carbocation by nuclear magnetic resonance as a stable species on dissolving tert-butyl fluoride in magic acid. The NMR spectrum of the norbornyl cation was reported by Schleyer et al. It was shown to rapidly undergo proton-scrambling.
+
+
+== See also ==
+Armilenium
+Carbanion
+Carbene
+Oxocarbenium
+
+
+== References ==
+
+
+== External links ==
+ Media related to Carbocations at Wikimedia Commons
+Press Release The 1994 Nobel Prize in Chemistry". Nobelprize.org. 9 Jun 2010

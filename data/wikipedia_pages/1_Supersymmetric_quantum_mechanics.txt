@@ -1,0 +1,3113 @@
+Wikipedia article: Supersymmetric quantum mechanics
+Source: https://en.wikipedia.org/wiki/Supersymmetric_quantum_mechanics
+PageID: 1157887
+======================================================================
+
+In theoretical physics, supersymmetric quantum mechanics is an area of research where supersymmetry are applied to the simpler setting of plain quantum mechanics, rather than quantum field theory. Supersymmetric quantum mechanics has found applications outside of high-energy physics, such as providing new methods to solve quantum mechanical problems, providing useful extensions to the WKB approximation, and statistical mechanics.
+
+
+== Introduction ==
+Understanding the consequences of supersymmetry (SUSY) has proven mathematically daunting, and it has likewise been difficult to develop theories that could account for symmetry breaking, i.e., the lack of observed partner particles of equal mass.  To make progress on these problems, physicists developed supersymmetric quantum mechanics, an application of the supersymmetry superalgebra to quantum mechanics as opposed to quantum field theory. It was hoped that studying SUSY's consequences in this simpler setting would lead to new understanding; remarkably, the effort created new areas of research in quantum mechanics itself.
+For example, students are typically taught to "solve" the hydrogen atom by a process that begins by inserting the Coulomb potential into the Schrödinger equation.  Following use of multiple differential equations, the analysis produces a recursion relation for the Laguerre polynomials.  The outcome is the spectrum of hydrogen-atom energy states (labeled by quantum numbers n and l).  Using ideas drawn from SUSY, the final result can be derived with greater ease, in much the same way that operator methods are used to solve the harmonic oscillator. A similar supersymmetric approach can also be used to more accurately find the hydrogen spectrum using the Dirac equation. Oddly enough, this approach is analogous to the way Erwin Schrödinger first solved the hydrogen atom.  He did not call his solution supersymmetric, as SUSY was thirty years in the future.
+The SUSY solution of the hydrogen atom is only one example of the very general class of solutions which SUSY provides to shape-invariant potentials, a category which includes most potentials taught in introductory quantum mechanics courses.
+SUSY quantum mechanics involves pairs of Hamiltonians which share a particular mathematical relationship, which are called partner Hamiltonians. (The potential energy terms which occur in the Hamiltonians are then called partner potentials.) An introductory theorem shows that for every eigenstate of one Hamiltonian, its partner Hamiltonian has a corresponding eigenstate with the same energy (except possibly for zero energy eigenstates).  This fact can be exploited to deduce many properties of the eigenstate spectrum. It is analogous to the original description of SUSY, which referred to bosons and fermions.  We can imagine a "bosonic Hamiltonian", whose eigenstates are the various bosons of our theory. The SUSY partner of this Hamiltonian would be "fermionic", and its eigenstates would be the theory's fermions.  Each boson would have a fermionic partner of equal energy—but, in the relativistic world, energy and mass are interchangeable, so we can just as easily say that the partner particles have equal mass.
+SUSY concepts have provided useful extensions to the WKB approximation in the form of a modified version of the Bohr-Sommerfeld quantization condition. In addition, SUSY has been applied to non-quantum statistical mechanics through the Fokker–Planck equation, showing that even if the original inspiration in high-energy particle physics turns out to be a blind alley, its investigation has brought about many useful benefits.
+
+
+== Example: the harmonic oscillator ==
+The Schrödinger equation for the harmonic oscillator takes the form
+
+  
+    
+      
+        
+          H
+          
+            
+              H
+              O
+            
+          
+        
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            (
+          
+        
+        
+          
+            
+              −
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            
+              d
+              
+                2
+              
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        
+          
+            
+              m
+              
+                ω
+                
+                  2
+                
+              
+            
+            2
+          
+        
+        
+          x
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          E
+          
+            n
+          
+          
+            
+              H
+              O
+            
+          
+        
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        ,
+      
+    
+    {\displaystyle H^{\rm {HO}}\psi _{n}(x)={\bigg (}{\frac {-\hbar ^{2}}{2m}}{\frac {d^{2}}{dx^{2}}}+{\frac {m\omega ^{2}}{2}}x^{2}{\bigg )}\psi _{n}(x)=E_{n}^{\rm {HO}}\psi _{n}(x),}
+  
+
+where 
+  
+    
+      
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \psi _{n}(x)}
+  
+ is the 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+th energy eigenstate of 
+  
+    
+      
+        
+          H
+          
+            HO
+          
+        
+      
+    
+    {\displaystyle H^{\text{HO}}}
+  
+ with energy 
+  
+    
+      
+        
+          E
+          
+            n
+          
+          
+            HO
+          
+        
+      
+    
+    {\displaystyle E_{n}^{\text{HO}}}
+  
+. We want to find an expression for 
+  
+    
+      
+        
+          E
+          
+            n
+          
+          
+            
+              H
+              O
+            
+          
+        
+      
+    
+    {\displaystyle E_{n}^{\rm {HO}}}
+  
+ in terms of 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+. We define the operators
+
+  
+    
+      
+        A
+        =
+        
+          
+            ℏ
+            
+              2
+              m
+            
+          
+        
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        +
+        W
+        (
+        x
+        )
+      
+    
+    {\displaystyle A={\frac {\hbar }{\sqrt {2m}}}{\frac {d}{dx}}+W(x)}
+  
+
+and
+
+  
+    
+      
+        
+          A
+          
+            †
+          
+        
+        =
+        −
+        
+          
+            ℏ
+            
+              2
+              m
+            
+          
+        
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        +
+        W
+        (
+        x
+        )
+        ,
+      
+    
+    {\displaystyle A^{\dagger }=-{\frac {\hbar }{\sqrt {2m}}}{\frac {d}{dx}}+W(x),}
+  
+
+where 
+  
+    
+      
+        W
+        (
+        x
+        )
+      
+    
+    {\displaystyle W(x)}
+  
+, which we need to choose, is called the superpotential of 
+  
+    
+      
+        
+          H
+          
+            
+              H
+              O
+            
+          
+        
+      
+    
+    {\displaystyle H^{\rm {HO}}}
+  
+. We also define the aforementioned partner Hamiltonians 
+  
+    
+      
+        
+          H
+          
+            (
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle H^{(1)}}
+  
+ and 
+  
+    
+      
+        
+          H
+          
+            (
+            2
+            )
+          
+        
+      
+    
+    {\displaystyle H^{(2)}}
+  
+ as
+
+  
+    
+      
+        
+          H
+          
+            (
+            1
+            )
+          
+        
+        =
+        
+          A
+          
+            †
+          
+        
+        A
+        =
+        
+          
+            
+              −
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            
+              d
+              
+                2
+              
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        −
+        
+          
+            ℏ
+            
+              2
+              m
+            
+          
+        
+        
+          W
+          
+            ′
+          
+        
+        (
+        x
+        )
+        +
+        
+          W
+          
+            2
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle H^{(1)}=A^{\dagger }A={\frac {-\hbar ^{2}}{2m}}{\frac {d^{2}}{dx^{2}}}-{\frac {\hbar }{\sqrt {2m}}}W^{\prime }(x)+W^{2}(x)}
+  
+
+  
+    
+      
+        
+          H
+          
+            (
+            2
+            )
+          
+        
+        =
+        A
+        
+          A
+          
+            †
+          
+        
+        =
+        
+          
+            
+              −
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            
+              d
+              
+                2
+              
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        
+          
+            ℏ
+            
+              2
+              m
+            
+          
+        
+        
+          W
+          
+            ′
+          
+        
+        (
+        x
+        )
+        +
+        
+          W
+          
+            2
+          
+        
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle H^{(2)}=AA^{\dagger }={\frac {-\hbar ^{2}}{2m}}{\frac {d^{2}}{dx^{2}}}+{\frac {\hbar }{\sqrt {2m}}}W^{\prime }(x)+W^{2}(x).}
+  
+
+A zero energy ground state 
+  
+    
+      
+        
+          ψ
+          
+            0
+          
+          
+            (
+            1
+            )
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \psi _{0}^{(1)}(x)}
+  
+ of 
+  
+    
+      
+        
+          H
+          
+            (
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle H^{(1)}}
+  
+ would satisfy the equation
+
+  
+    
+      
+        
+          H
+          
+            (
+            1
+            )
+          
+        
+        
+          ψ
+          
+            0
+          
+          
+            (
+            1
+            )
+          
+        
+        (
+        x
+        )
+        =
+        
+          A
+          
+            †
+          
+        
+        A
+        
+          ψ
+          
+            0
+          
+          
+            (
+            1
+            )
+          
+        
+        (
+        x
+        )
+        =
+        
+          A
+          
+            †
+          
+        
+        
+          
+            (
+          
+        
+        
+          
+            ℏ
+            
+              2
+              m
+            
+          
+        
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        +
+        W
+        (
+        x
+        )
+        
+          
+            )
+          
+        
+        
+          ψ
+          
+            0
+          
+          
+            (
+            1
+            )
+          
+        
+        (
+        x
+        )
+        =
+        0.
+      
+    
+    {\displaystyle H^{(1)}\psi _{0}^{(1)}(x)=A^{\dagger }A\psi _{0}^{(1)}(x)=A^{\dagger }{\bigg (}{\frac {\hbar }{\sqrt {2m}}}{\frac {d}{dx}}+W(x){\bigg )}\psi _{0}^{(1)}(x)=0.}
+  
+
+Assuming that we know the ground state of the harmonic oscillator 
+  
+    
+      
+        
+          ψ
+          
+            0
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \psi _{0}(x)}
+  
+, we can solve for 
+  
+    
+      
+        W
+        (
+        x
+        )
+      
+    
+    {\displaystyle W(x)}
+  
+ as
+
+  
+    
+      
+        W
+        (
+        x
+        )
+        =
+        
+          
+            
+              −
+              ℏ
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            (
+          
+        
+        
+          
+            
+              
+                ψ
+                
+                  0
+                
+                
+                  ′
+                
+              
+              (
+              x
+              )
+            
+            
+              
+                ψ
+                
+                  0
+                
+              
+              (
+              x
+              )
+            
+          
+        
+        
+          
+            )
+          
+        
+        =
+        x
+        
+          
+            m
+            
+              ω
+              
+                2
+              
+            
+            
+              /
+            
+            2
+          
+        
+      
+    
+    {\displaystyle W(x)={\frac {-\hbar }{\sqrt {2m}}}{\bigg (}{\frac {\psi _{0}^{\prime }(x)}{\psi _{0}(x)}}{\bigg )}=x{\sqrt {m\omega ^{2}/2}}}
+  
+
+We then find that
+
+  
+    
+      
+        
+          H
+          
+            (
+            1
+            )
+          
+        
+        =
+        
+          
+            
+              −
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            
+              d
+              
+                2
+              
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        
+          
+            
+              m
+              
+                ω
+                
+                  2
+                
+              
+            
+            2
+          
+        
+        
+          x
+          
+            2
+          
+        
+        −
+        
+          
+            
+              ℏ
+              ω
+            
+            2
+          
+        
+      
+    
+    {\displaystyle H^{(1)}={\frac {-\hbar ^{2}}{2m}}{\frac {d^{2}}{dx^{2}}}+{\frac {m\omega ^{2}}{2}}x^{2}-{\frac {\hbar \omega }{2}}}
+  
+
+  
+    
+      
+        
+          H
+          
+            (
+            2
+            )
+          
+        
+        =
+        
+          
+            
+              −
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            
+              d
+              
+                2
+              
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        
+          
+            
+              m
+              
+                ω
+                
+                  2
+                
+              
+            
+            2
+          
+        
+        
+          x
+          
+            2
+          
+        
+        +
+        
+          
+            
+              ℏ
+              ω
+            
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle H^{(2)}={\frac {-\hbar ^{2}}{2m}}{\frac {d^{2}}{dx^{2}}}+{\frac {m\omega ^{2}}{2}}x^{2}+{\frac {\hbar \omega }{2}}.}
+  
+
+We can now see that
+
+  
+    
+      
+        
+          H
+          
+            (
+            1
+            )
+          
+        
+        =
+        
+          H
+          
+            (
+            2
+            )
+          
+        
+        −
+        ℏ
+        ω
+        =
+        
+          H
+          
+            
+              H
+              O
+            
+          
+        
+        −
+        
+          
+            
+              ℏ
+              ω
+            
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle H^{(1)}=H^{(2)}-\hbar \omega =H^{\rm {HO}}-{\frac {\hbar \omega }{2}}.}
+  
+
+This is a special case of shape invariance, discussed below. Taking without proof the introductory theorem mentioned above, it is apparent that the spectrum of 
+  
+    
+      
+        
+          H
+          
+            (
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle H^{(1)}}
+  
+ will start with 
+  
+    
+      
+        
+          E
+          
+            0
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle E_{0}=0}
+  
+ and continue upwards in steps of 
+  
+    
+      
+        ℏ
+        ω
+        .
+      
+    
+    {\displaystyle \hbar \omega .}
+  
+ The spectra of 
+  
+    
+      
+        
+          H
+          
+            (
+            2
+            )
+          
+        
+      
+    
+    {\displaystyle H^{(2)}}
+  
+ and 
+  
+    
+      
+        
+          H
+          
+            
+              H
+              O
+            
+          
+        
+      
+    
+    {\displaystyle H^{\rm {HO}}}
+  
+ will have the same even spacing, but will be shifted up by amounts 
+  
+    
+      
+        ℏ
+        ω
+      
+    
+    {\displaystyle \hbar \omega }
+  
+ and 
+  
+    
+      
+        ℏ
+        ω
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \hbar \omega /2}
+  
+, respectively. It follows that the spectrum of 
+  
+    
+      
+        
+          H
+          
+            
+              H
+              O
+            
+          
+        
+      
+    
+    {\displaystyle H^{\rm {HO}}}
+  
+ is therefore the familiar 
+  
+    
+      
+        
+          E
+          
+            n
+          
+          
+            
+              H
+              O
+            
+          
+        
+        =
+        ℏ
+        ω
+        (
+        n
+        +
+        1
+        
+          /
+        
+        2
+        )
+      
+    
+    {\displaystyle E_{n}^{\rm {HO}}=\hbar \omega (n+1/2)}
+  
+.
+
+
+== SUSY QM superalgebra ==
+In fundamental quantum mechanics, we learn that an algebra of operators is defined by commutation relations among those operators.  For example, the canonical operators of position and momentum have the commutator 
+  
+    
+      
+        [
+        x
+        ,
+        p
+        ]
+        =
+        i
+      
+    
+    {\displaystyle [x,p]=i}
+  
+. (Here, we use "natural units" where the Planck constant is set equal to 1.)  A more intricate case is the algebra of angular momentum operators; these quantities are closely connected to the rotational symmetries of three-dimensional space.  To generalize this concept, we define an anticommutator, which relates operators the same way as an ordinary commutator, but with the opposite sign:
+
+  
+    
+      
+        {
+        A
+        ,
+        B
+        }
+        =
+        A
+        B
+        +
+        B
+        A
+        .
+      
+    
+    {\displaystyle \{A,B\}=AB+BA.}
+  
+
+If operators are related by anticommutators as well as commutators, we say they are part of a Lie superalgebra.  Let's say we have a quantum system described by a Hamiltonian 
+  
+    
+      
+        
+          
+            H
+          
+        
+      
+    
+    {\displaystyle {\mathcal {H}}}
+  
+ and a set of 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ operators 
+  
+    
+      
+        
+          Q
+          
+            i
+          
+        
+      
+    
+    {\displaystyle Q_{i}}
+  
+.  We shall call this system supersymmetric if the following anticommutation relation is valid for all 
+  
+    
+      
+        i
+        ,
+        j
+        =
+        1
+        ,
+        …
+        ,
+        N
+      
+    
+    {\displaystyle i,j=1,\ldots ,N}
+  
+:
+
+  
+    
+      
+        {
+        
+          Q
+          
+            i
+          
+        
+        ,
+        
+          Q
+          
+            j
+          
+          
+            †
+          
+        
+        }
+        =
+        
+          
+            H
+          
+        
+        
+          δ
+          
+            i
+            j
+          
+        
+        .
+      
+    
+    {\displaystyle \{Q_{i},Q_{j}^{\dagger }\}={\mathcal {H}}\delta _{ij}.}
+  
+
+If this is the case, then we call 
+  
+    
+      
+        
+          Q
+          
+            i
+          
+        
+      
+    
+    {\displaystyle Q_{i}}
+  
+ the system's supercharges.
+
+
+== Example ==
+Let's look at the example of a one-dimensional nonrelativistic particle with a 2D (i.e., two states) internal degree of freedom called "spin" (it's not really spin because "real" spin is a property of 3D particles). Let 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+  
+ be an operator which transforms a "spin up" particle into a "spin down" particle. Its adjoint 
+  
+    
+      
+        
+          b
+          
+            †
+          
+        
+      
+    
+    {\displaystyle b^{\dagger }}
+  
+ then transforms a spin down particle into a spin up particle; the operators are normalized such that the anticommutator 
+  
+    
+      
+        {
+        b
+        ,
+        
+          b
+          
+            †
+          
+        
+        }
+        =
+        1
+      
+    
+    {\displaystyle \{b,b^{\dagger }\}=1}
+  
+. And 
+  
+    
+      
+        
+          b
+          
+            2
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle b^{2}=0}
+  
+. Let 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ be the momentum of the particle and 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ be its position with 
+  
+    
+      
+        [
+        x
+        ,
+        p
+        ]
+        =
+        i
+      
+    
+    {\displaystyle [x,p]=i}
+  
+.  Let 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  
+ (the "superpotential") be an arbitrary complex analytic function of 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ and define the supersymmetric operators
+
+  
+    
+      
+        
+          Q
+          
+            1
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        
+          [
+          
+            (
+            p
+            −
+            i
+            W
+            )
+            b
+            +
+            (
+            p
+            +
+            i
+            
+              W
+              
+                †
+              
+            
+            )
+            
+              b
+              
+                †
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle Q_{1}={\frac {1}{2}}\left[(p-iW)b+(p+iW^{\dagger })b^{\dagger }\right]}
+  
+
+  
+    
+      
+        
+          Q
+          
+            2
+          
+        
+        =
+        
+          
+            i
+            2
+          
+        
+        
+          [
+          
+            (
+            p
+            −
+            i
+            W
+            )
+            b
+            −
+            (
+            p
+            +
+            i
+            
+              W
+              
+                †
+              
+            
+            )
+            
+              b
+              
+                †
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle Q_{2}={\frac {i}{2}}\left[(p-iW)b-(p+iW^{\dagger })b^{\dagger }\right]}
+  
+
+Note that 
+  
+    
+      
+        
+          Q
+          
+            1
+          
+        
+      
+    
+    {\displaystyle Q_{1}}
+  
+ and 
+  
+    
+      
+        
+          Q
+          
+            2
+          
+        
+      
+    
+    {\displaystyle Q_{2}}
+  
+ are self-adjoint. Let the Hamiltonian
+
+  
+    
+      
+        H
+        =
+        {
+        
+          Q
+          
+            1
+          
+        
+        ,
+        
+          Q
+          
+            1
+          
+        
+        }
+        =
+        {
+        
+          Q
+          
+            2
+          
+        
+        ,
+        
+          Q
+          
+            2
+          
+        
+        }
+        =
+        
+          
+            
+              (
+              p
+              +
+              ℑ
+              {
+              W
+              }
+              
+                )
+                
+                  2
+                
+              
+            
+            2
+          
+        
+        +
+        
+          
+            
+              
+                ℜ
+                {
+                W
+                }
+              
+              
+                2
+              
+            
+            2
+          
+        
+        +
+        
+          
+            
+              ℜ
+              {
+              W
+              
+                }
+                ′
+              
+            
+            2
+          
+        
+        (
+        b
+        
+          b
+          
+            †
+          
+        
+        −
+        
+          b
+          
+            †
+          
+        
+        b
+        )
+      
+    
+    {\displaystyle H=\{Q_{1},Q_{1}\}=\{Q_{2},Q_{2}\}={\frac {(p+\Im \{W\})^{2}}{2}}+{\frac {{\Re \{W\}}^{2}}{2}}+{\frac {\Re \{W\}'}{2}}(bb^{\dagger }-b^{\dagger }b)}
+  
+
+where W′ is the derivative of W. Also note that {Q1, Q2} = 0. This is nothing other than N = 2 supersymmetry. Note that 
+  
+    
+      
+        ℑ
+        {
+        W
+        }
+      
+    
+    {\displaystyle \Im \{W\}}
+  
+ acts like an electromagnetic vector potential.
+Let's also call the spin down state "bosonic" and the spin up state "fermionic". This is only in analogy to quantum field theory and should not be taken literally. Then, Q1 and Q2 maps "bosonic" states into "fermionic" states and vice versa.
+Reformulating this a bit:
+Define
+
+  
+    
+      
+        Q
+        =
+        (
+        p
+        −
+        i
+        W
+        )
+        b
+      
+    
+    {\displaystyle Q=(p-iW)b}
+  
+
+and,
+
+  
+    
+      
+        
+          Q
+          
+            †
+          
+        
+        =
+        (
+        p
+        +
+        i
+        
+          W
+          
+            †
+          
+        
+        )
+        
+          b
+          
+            †
+          
+        
+      
+    
+    {\displaystyle Q^{\dagger }=(p+iW^{\dagger })b^{\dagger }}
+  
+
+  
+    
+      
+        {
+        Q
+        ,
+        Q
+        }
+        =
+        {
+        
+          Q
+          
+            †
+          
+        
+        ,
+        
+          Q
+          
+            †
+          
+        
+        }
+        =
+        0
+      
+    
+    {\displaystyle \{Q,Q\}=\{Q^{\dagger },Q^{\dagger }\}=0}
+  
+
+and
+
+  
+    
+      
+        {
+        
+          Q
+          
+            †
+          
+        
+        ,
+        Q
+        }
+        =
+        2
+        H
+      
+    
+    {\displaystyle \{Q^{\dagger },Q\}=2H}
+  
+
+An operator is "bosonic" if it maps "bosonic" states to "bosonic" states and "fermionic" states to "fermionic" states. An operator is "fermionic" if it maps "bosonic" states to "fermionic" states and vice versa. Any operator can be expressed uniquely as the sum of a bosonic operator and a fermionic operator. Define the supercommutator [,} as follows: Between two bosonic operators or a bosonic and a fermionic operator, it is none other than the commutator but between two fermionic operators, it is an anticommutator.
+Then, x and p are bosonic operators and b, 
+  
+    
+      
+        
+          b
+          
+            †
+          
+        
+      
+    
+    {\displaystyle b^{\dagger }}
+  
+, Q and 
+  
+    
+      
+        
+          Q
+          
+            †
+          
+        
+      
+    
+    {\displaystyle Q^{\dagger }}
+  
+ are fermionic operators.
+Let's work in the Heisenberg picture where x, b and 
+  
+    
+      
+        
+          b
+          
+            †
+          
+        
+      
+    
+    {\displaystyle b^{\dagger }}
+  
+ are functions of time.
+Then,
+
+  
+    
+      
+        [
+        Q
+        ,
+        x
+        }
+        =
+        −
+        i
+        b
+      
+    
+    {\displaystyle [Q,x\}=-ib}
+  
+
+  
+    
+      
+        [
+        Q
+        ,
+        b
+        }
+        =
+        0
+      
+    
+    {\displaystyle [Q,b\}=0}
+  
+
+  
+    
+      
+        [
+        Q
+        ,
+        
+          b
+          
+            †
+          
+        
+        }
+        =
+        
+          
+            
+              d
+              x
+            
+            
+              d
+              t
+            
+          
+        
+        −
+        i
+        ℜ
+        {
+        W
+        }
+      
+    
+    {\displaystyle [Q,b^{\dagger }\}={\frac {dx}{dt}}-i\Re \{W\}}
+  
+
+  
+    
+      
+        [
+        
+          Q
+          
+            †
+          
+        
+        ,
+        x
+        }
+        =
+        i
+        
+          b
+          
+            †
+          
+        
+      
+    
+    {\displaystyle [Q^{\dagger },x\}=ib^{\dagger }}
+  
+
+  
+    
+      
+        [
+        
+          Q
+          
+            †
+          
+        
+        ,
+        b
+        }
+        =
+        
+          
+            
+              d
+              x
+            
+            
+              d
+              t
+            
+          
+        
+        +
+        i
+        ℜ
+        {
+        W
+        }
+      
+    
+    {\displaystyle [Q^{\dagger },b\}={\frac {dx}{dt}}+i\Re \{W\}}
+  
+
+  
+    
+      
+        [
+        
+          Q
+          
+            †
+          
+        
+        ,
+        
+          b
+          
+            †
+          
+        
+        }
+        =
+        0
+      
+    
+    {\displaystyle [Q^{\dagger },b^{\dagger }\}=0}
+  
+
+This is nonlinear in general: i.e., x(t), b(t) and 
+  
+    
+      
+        
+          b
+          
+            †
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle b^{\dagger }(t)}
+  
+ do not form a linear SUSY representation because 
+  
+    
+      
+        ℜ
+        {
+        W
+        }
+      
+    
+    {\displaystyle \Re \{W\}}
+  
+ isn't necessarily linear in x.  To avoid this problem, define the self-adjoint operator 
+  
+    
+      
+        F
+        =
+        ℜ
+        {
+        W
+        }
+      
+    
+    {\displaystyle F=\Re \{W\}}
+  
+. Then,
+
+  
+    
+      
+        [
+        Q
+        ,
+        x
+        }
+        =
+        −
+        i
+        b
+      
+    
+    {\displaystyle [Q,x\}=-ib}
+  
+
+  
+    
+      
+        [
+        Q
+        ,
+        b
+        }
+        =
+        0
+      
+    
+    {\displaystyle [Q,b\}=0}
+  
+
+  
+    
+      
+        [
+        Q
+        ,
+        
+          b
+          
+            †
+          
+        
+        }
+        =
+        
+          
+            
+              d
+              x
+            
+            
+              d
+              t
+            
+          
+        
+        −
+        i
+        F
+      
+    
+    {\displaystyle [Q,b^{\dagger }\}={\frac {dx}{dt}}-iF}
+  
+
+  
+    
+      
+        [
+        Q
+        ,
+        F
+        }
+        =
+        −
+        
+          
+            
+              d
+              b
+            
+            
+              d
+              t
+            
+          
+        
+      
+    
+    {\displaystyle [Q,F\}=-{\frac {db}{dt}}}
+  
+
+  
+    
+      
+        [
+        
+          Q
+          
+            †
+          
+        
+        ,
+        x
+        }
+        =
+        i
+        
+          b
+          
+            †
+          
+        
+      
+    
+    {\displaystyle [Q^{\dagger },x\}=ib^{\dagger }}
+  
+
+  
+    
+      
+        [
+        
+          Q
+          
+            †
+          
+        
+        ,
+        b
+        }
+        =
+        
+          
+            
+              d
+              x
+            
+            
+              d
+              t
+            
+          
+        
+        +
+        i
+        F
+      
+    
+    {\displaystyle [Q^{\dagger },b\}={\frac {dx}{dt}}+iF}
+  
+
+  
+    
+      
+        [
+        
+          Q
+          
+            †
+          
+        
+        ,
+        
+          b
+          
+            †
+          
+        
+        }
+        =
+        0
+      
+    
+    {\displaystyle [Q^{\dagger },b^{\dagger }\}=0}
+  
+
+  
+    
+      
+        [
+        
+          Q
+          
+            †
+          
+        
+        ,
+        F
+        }
+        =
+        
+          
+            
+              d
+              
+                b
+                
+                  †
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+      
+    
+    {\displaystyle [Q^{\dagger },F\}={\frac {db^{\dagger }}{dt}}}
+  
+
+and we see that we have a linear SUSY representation.
+Now let's introduce two "formal" quantities, 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+; and 
+  
+    
+      
+        
+          
+            
+              θ
+              ¯
+            
+          
+        
+      
+    
+    {\displaystyle {\bar {\theta }}}
+  
+ with the latter being the adjoint of the former such that
+
+  
+    
+      
+        {
+        θ
+        ,
+        θ
+        }
+        =
+        {
+        
+          
+            
+              θ
+              ¯
+            
+          
+        
+        ,
+        
+          
+            
+              θ
+              ¯
+            
+          
+        
+        }
+        =
+        {
+        
+          
+            
+              θ
+              ¯
+            
+          
+        
+        ,
+        θ
+        }
+        =
+        0
+      
+    
+    {\displaystyle \{\theta ,\theta \}=\{{\bar {\theta }},{\bar {\theta }}\}=\{{\bar {\theta }},\theta \}=0}
+  
+
+and both of them commute with bosonic operators but anticommute with fermionic ones.
+Next, we define a construct called a superfield:
+
+  
+    
+      
+        f
+        (
+        t
+        ,
+        
+          
+            
+              θ
+              ¯
+            
+          
+        
+        ,
+        θ
+        )
+        =
+        x
+        (
+        t
+        )
+        −
+        i
+        θ
+        b
+        (
+        t
+        )
+        −
+        i
+        
+          
+            
+              θ
+              ¯
+            
+          
+        
+        
+          b
+          
+            †
+          
+        
+        (
+        t
+        )
+        +
+        
+          
+            
+              θ
+              ¯
+            
+          
+        
+        θ
+        F
+        (
+        t
+        )
+      
+    
+    {\displaystyle f(t,{\bar {\theta }},\theta )=x(t)-i\theta b(t)-i{\bar {\theta }}b^{\dagger }(t)+{\bar {\theta }}\theta F(t)}
+  
+
+f is self-adjoint.  Then,
+
+  
+    
+      
+        [
+        Q
+        ,
+        f
+        }
+        =
+        
+          
+            ∂
+            
+              ∂
+              θ
+            
+          
+        
+        f
+        −
+        i
+        
+          
+            
+              θ
+              ¯
+            
+          
+        
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        f
+        ,
+      
+    
+    {\displaystyle [Q,f\}={\frac {\partial }{\partial \theta }}f-i{\bar {\theta }}{\frac {\partial }{\partial t}}f,}
+  
+
+  
+    
+      
+        [
+        
+          Q
+          
+            †
+          
+        
+        ,
+        f
+        }
+        =
+        
+          
+            ∂
+            
+              ∂
+              
+                
+                  
+                    θ
+                    ¯
+                  
+                
+              
+            
+          
+        
+        f
+        −
+        i
+        θ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        f
+        .
+      
+    
+    {\displaystyle [Q^{\dagger },f\}={\frac {\partial }{\partial {\bar {\theta }}}}f-i\theta {\frac {\partial }{\partial t}}f.}
+  
+
+Incidentally, there's also a U(1)R symmetry, with p and x and W having zero R-charges and 
+  
+    
+      
+        
+          b
+          
+            †
+          
+        
+      
+    
+    {\displaystyle b^{\dagger }}
+  
+ having an R-charge of 1 and b having an R-charge of −1.
+
+
+== Shape invariance ==
+Suppose 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  
+ is real for all real 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+. Then we can simplify the expression for the Hamiltonian to
+
+  
+    
+      
+        H
+        =
+        
+          
+            
+              (
+              p
+              
+                )
+                
+                  2
+                
+              
+            
+            2
+          
+        
+        +
+        
+          
+            
+              
+                W
+              
+              
+                2
+              
+            
+            2
+          
+        
+        +
+        
+          
+            
+              W
+              ′
+            
+            2
+          
+        
+        (
+        b
+        
+          b
+          
+            †
+          
+        
+        −
+        
+          b
+          
+            †
+          
+        
+        b
+        )
+      
+    
+    {\displaystyle H={\frac {(p)^{2}}{2}}+{\frac {{W}^{2}}{2}}+{\frac {W'}{2}}(bb^{\dagger }-b^{\dagger }b)}
+  
+
+There are certain classes of superpotentials such that both the bosonic and fermionic Hamiltonians have similar forms. Specifically
+
+  
+    
+      
+        
+          V
+          
+            +
+          
+        
+        (
+        x
+        ,
+        
+          a
+          
+            1
+          
+        
+        )
+        =
+        
+          V
+          
+            −
+          
+        
+        (
+        x
+        ,
+        
+          a
+          
+            2
+          
+        
+        )
+        +
+        R
+        (
+        
+          a
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle V_{+}(x,a_{1})=V_{-}(x,a_{2})+R(a_{1})}
+  
+
+where the 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+'s are parameters. For example, the hydrogen atom potential with angular momentum 
+  
+    
+      
+        l
+      
+    
+    {\displaystyle l}
+  
+ can be written this way.
+
+  
+    
+      
+        
+          
+            
+              −
+              
+                e
+                
+                  2
+                
+              
+            
+            
+              4
+              π
+              
+                ϵ
+                
+                  0
+                
+              
+            
+          
+        
+        
+          
+            1
+            r
+          
+        
+        +
+        
+          
+            
+              
+                h
+                
+                  2
+                
+              
+              l
+              (
+              l
+              +
+              1
+              )
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            1
+            
+              r
+              
+                2
+              
+            
+          
+        
+        −
+        
+          E
+          
+            0
+          
+        
+      
+    
+    {\displaystyle {\frac {-e^{2}}{4\pi \epsilon _{0}}}{\frac {1}{r}}+{\frac {h^{2}l(l+1)}{2m}}{\frac {1}{r^{2}}}-E_{0}}
+  
+
+This corresponds to 
+  
+    
+      
+        
+          V
+          
+            −
+          
+        
+      
+    
+    {\displaystyle V_{-}}
+  
+ for the superpotential
+
+  
+    
+      
+        W
+        =
+        
+          
+            
+              2
+              m
+            
+            h
+          
+        
+        
+          
+            
+              e
+              
+                2
+              
+            
+            
+              24
+              π
+              
+                ϵ
+                
+                  0
+                
+              
+              (
+              l
+              +
+              1
+              )
+            
+          
+        
+        −
+        
+          
+            
+              h
+              (
+              l
+              +
+              1
+              )
+            
+            
+              r
+              
+                
+                  2
+                  m
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle W={\frac {\sqrt {2m}}{h}}{\frac {e^{2}}{24\pi \epsilon _{0}(l+1)}}-{\frac {h(l+1)}{r{\sqrt {2m}}}}}
+  
+
+  
+    
+      
+        
+          V
+          
+            +
+          
+        
+        =
+        
+          
+            
+              −
+              
+                e
+                
+                  2
+                
+              
+            
+            
+              4
+              π
+              
+                ϵ
+                
+                  0
+                
+              
+            
+          
+        
+        
+          
+            1
+            r
+          
+        
+        +
+        
+          
+            
+              
+                h
+                
+                  2
+                
+              
+              (
+              l
+              +
+              1
+              )
+              (
+              l
+              +
+              2
+              )
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            1
+            
+              r
+              
+                2
+              
+            
+          
+        
+        +
+        
+          
+            
+              
+                e
+                
+                  4
+                
+              
+              m
+            
+            
+              32
+              
+                π
+                
+                  2
+                
+              
+              
+                h
+                
+                  2
+                
+              
+              
+                ϵ
+                
+                  0
+                
+                
+                  2
+                
+              
+              (
+              l
+              +
+              1
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle V_{+}={\frac {-e^{2}}{4\pi \epsilon _{0}}}{\frac {1}{r}}+{\frac {h^{2}(l+1)(l+2)}{2m}}{\frac {1}{r^{2}}}+{\frac {e^{4}m}{32\pi ^{2}h^{2}\epsilon _{0}^{2}(l+1)^{2}}}}
+  
+
+This is the potential for 
+  
+    
+      
+        l
+        +
+        1
+      
+    
+    {\displaystyle l+1}
+  
+ angular momentum shifted by a constant. After solving the 
+  
+    
+      
+        l
+        =
+        0
+      
+    
+    {\displaystyle l=0}
+  
+ ground state, the supersymmetric operators can be used to construct the rest of the bound state spectrum.
+In general, since 
+  
+    
+      
+        
+          V
+          
+            −
+          
+        
+      
+    
+    {\displaystyle V_{-}}
+  
+ and 
+  
+    
+      
+        
+          V
+          
+            +
+          
+        
+      
+    
+    {\displaystyle V_{+}}
+  
+ are partner potentials, they share the same energy spectrum except the one extra ground energy. We can continue this process of finding partner potentials with the shape invariance condition, giving the following formula for the energy levels in terms of the parameters of the potential
+
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        R
+        (
+        
+          a
+          
+            i
+          
+        
+        )
+      
+    
+    {\displaystyle E_{n}=\sum \limits _{i=1}^{n}R(a_{i})}
+  
+
+where 
+  
+    
+      
+        
+          a
+          
+            i
+          
+        
+      
+    
+    {\displaystyle a_{i}}
+  
+ are the parameters for the multiple partnered potentials.
+
+
+== See also ==
+Supersymmetry algebra
+Superalgebra
+Supersymmetric gauge theory
+
+
+== References ==
+
+
+== Further reading ==
+F. Cooper, A. Khare and U. Sukhatme, "Supersymmetry and Quantum Mechanics", Phys.Rept.251:267–385, 1995.
+D.S. Kulshreshtha, J.Q. Liang and H.J.W. Muller-Kirsten, "Fluctuation equations about classical field configurations and supersymmetric quantum mechanics", Annals Phys. 225:191-211, 1993.
+G. Junker, "Supersymmetric Methods in Quantum and Statistical Physics", Springer-Verlag, Berlin, 1996
+B. Mielnik and O. Rosas-Ortiz, "Factorization: Little or great algorithm?", J. Phys. A: Math. Gen. 37: 10007–10035, 2004
+
+
+== External links ==
+References from INSPIRE-HEP

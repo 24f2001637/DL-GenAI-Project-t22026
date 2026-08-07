@@ -1,0 +1,68 @@
+Wikipedia article: Corpuscular theory of light
+Source: https://en.wikipedia.org/wiki/Corpuscular_theory_of_light
+PageID: 2783196
+======================================================================
+
+In optics, the corpuscular theory of light states that light is made up of small discrete particles called "corpuscles" (little particles) which travel in a straight line with a finite velocity and possess impetus (kinetic energy) . This notion was based on an alternate description of atomism of the time period.
+Isaac Newton laid the foundations for this theory through his work in optics. This early conception of the particle theory of light was an early forerunner to the modern understanding of the photon. This theory came to dominate the conceptions of light in the eighteenth century, displacing the previously prominent vibration theories, where light was viewed as "pressure" of the medium between the source and the receiver, first championed by René Descartes, and later in a more refined form by Christiaan Huygens. In part correct, being able to successfully explain refraction, reflection, rectilinear propagation and to a lesser extent diffraction, the theory would fall out of favor in the early nineteenth century, as the wave theory of light amassed new experimental evidence. The modern understanding of light is the concept of wave-particle duality.
+
+
+== Corpuscular theory of matter ==
+
+
+=== Mechanical philosophy ===
+
+In the early 17th century, natural philosophers began to develop new ways to understand nature gradually replacing Aristotelianism, which had been for centuries the dominant scientific theory, during the process known as the Scientific Revolution. Various European philosophers adopted what came to be known as mechanical philosophy sometime between around 1610 to 1650, which described the universe and its contents as a kind of large-scale mechanism, a philosophy that explained the universe is made with matter and motion. This mechanical philosophy was based on Epicureanism, and the work of Leucippus and his pupil Democritus and their atomism, in which everything in the universe, including a person's body, mind, soul and even thoughts, was made of atoms; very small particles of moving matter. During the early part of the 17th century, the atomistic portion of mechanical philosophy was largely developed by Gassendi, René Descartes and other atomists.
+
+
+=== Pierre Gassendi's atomist matter theory ===
+The core of Pierre Gassendi's philosophy is his atomist matter theory. In his work, Syntagma Philosophicum, ("Philosophical Treatise"), published posthumously in 1658, Gassendi tried to explain aspects of matter and natural phenomena of the world in terms of atoms and the void. He took Epicurean atomism and modified it to be compatible with Christian theology, by suggesting God created a finite number of indivisible and moving atoms, and has a continuing divine relationship to creation (of matter).
+Gassendi thought that atoms move in an empty space, classically known as the void, which contradicts the Aristotelian view that the universe is fully made of matter. Gassendi also suggests that information gathered by the human senses has a material form, especially in the case of vision.
+Corpuscular theories, or corpuscularianism, are similar to the theories of atomism, except that in atomism the atoms were supposed to be indivisible, whereas corpuscles could in principle be divided. Corpuscles are single, infinitesimally small, particles that have shape, size, color, and other physical properties that alter their functions and effects in phenomena in the mechanical and biological sciences. This later led to the modern idea that compounds have secondary properties different from the elements of those compounds. Gassendi asserts that corpuscles are particles that carry other substances and are of different types. These corpuscles are also emissions from various sources such as solar entities, animals, or plants. Robert Boyle was a strong proponent of corpuscularianism and used the theory to exemplify the differences between a vacuum and a plenum, by which he aimed to further support his mechanical philosophy and overall atomist theory. About a half-century after Gassendi, Isaac Newton used existing corpuscular theories to develop his particle theory of the physics of light.
+
+
+== Newtonian theory of light ==
+Isaac Newton worked on optics throughout his research career, conducting various experiments and developing hypotheses to explain his results.  He dismissed Descartes' theory of light because he rejected Descartes’ understanding of space, which derived from it. With the publication of Opticks in 1704, Newton for the first time took a clear position supporting a corpuscular interpretation, though it would fall on his followers to systemise the theory.
+In the 1718 edition of Opticks, Newton added several uncertain hypotheses about the nature of light, formulated as queries. In query (Qu.) 16, he wondered whether the way a quavering motion of a finger pressing against the bottom of the eye causes the sensation of circles of colour is similar to how light affects the retina, and whether the independent continuation of the induced sensation for about a second indicates a vibrating nature of the motions in the eye. In Qu. 17, Newton compared the vibrations to the waves propagating in concentric circles after a stone has been thrown in water, and to "the Vibrations or Tremors excited in the Air by percussion". He therefore proposed that light rays would similarly excite waves of vibrations in a reflecting or refracting medium, which in turn could overtake the rays of light and alternately accelerate and retard them. Newton then suggested in Qu. 18 and Qu. 19 that light propagates through vacuum via a very subtle "Aethereal Medium", just like heat was thought to spread. 
+Although the previous hypotheses describe wave-like aspects of light, Newton still believed in particle-like properties. In Qu. 28, he asked: "Are not all Hypotheses erroneous in which Light is supposed to consist in Pression or Motion propagated through a fluid Medium." He did not believe the arguments explained the proposed new modifications of rays, and stressed how pression and motion would not propagate through fluid in straight lines beyond obstacles as light rays do. In Qu. 29, he wondered: "Are not the Rays of Light very small Bodies emitted from shining Substances? For such Bodies will pass through uniform Mediums in right Lines without bending into the Shadow, which is the Nature of the Rays of Light. They will also be capable of several Properties, and be able to conserve their Properties unchanged in passing through several Mediums, which is another Condition of the Rays of Light." He connected these properties to several effects of the interaction of light rays with matter and vacuum. 
+Newton's corpuscular theory was an elaboration of his view of reality as interactions of material points through forces. Note Albert Einstein's description of Newton's conception of physical reality:
+
+[Newton's] physical reality is characterised by concepts of space, time, the material point and force (interaction between material points).  Physical events are to be thought of as movements according to the law of material points in space. The material point is the only representative of reality in so far as it is subject to change. The concept of the material point is obviously due to observable bodies; one conceived of the material point on the analogy of movable bodies by omitting characteristics of extension, form, spatial locality, and all their 'inner' qualities, retaining only inertia, translation, and the additional concept of force.
+
+
+== Polarization ==
+The fact that light could be polarized was for the first time qualitatively explained by Newton using the particle theory. Étienne-Louis Malus in 1810 created a mathematical particle theory of polarization. Jean-Baptiste Biot in 1812 showed that this theory explained all known phenomena of light polarization. At that time polarization was considered proof of the particle theory. Nowadays, polarisation is considered a property of waves and may only manifest in transverse waves. Longitudinal waves may not be polarised.
+
+
+== End of corpuscular theory ==
+The dominance of Newtonian natural philosophy in the eighteenth century was one of the decisive factors ensuring the prevalence of the corpuscular theory of light. Newtonians maintained that the corpuscles of light were projectiles that travelled from the source to the receiver with a finite speed. In this description, the propagation of light is transportation of matter. 
+However by the turn of the century, beginning with Thomas Young's double-slit experiment in 1801, more evidence in the form of novel experiments on diffraction, interference, and polarization showcased issues with the theory. A wave theory based on Young, Augustin-Jean Fresnel and François Arago's work would materialise in a novel wave theory of light.
+
+
+== Quantum mechanics ==
+The notions of light as a particle resurfaced in the 20th century with the photoelectric effect. In 1905, Albert Einstein explained this effect by introducing the concept of light quanta or photons. Quantum particles are considered to have wave–particle duality. 
+Some authors consider that Newtonian theory of light, where corpuscles interact with the luminiferous aether, established a predecessor to the pilot wave theory, which is one of the interpretations of quantum mechanics.
+In quantum field theory, photons are explained as excitations of the electromagnetic field using second quantization.
+
+
+== See also ==
+Corpuscularianism
+Speed of gravity
+Photon
+Philosophy of physics
+Opticks by Isaac Newton
+The Skeptical Chemist by Robert Boyle
+
+
+== References ==
+
+
+== External links ==
+Observing the quantum behavior of light in an undergraduate laboratory JJ Thorn et al.: Am. J. Phys. 72, 1210-1219 (2004)
+Opticks, or, a Treatise of the Reflections, Refractions, Inflections, and Colours of Light. Sir Isaack Newton. 1704. Project Gutenberg book released 23 August 2010.
+Pierre Gassendi. Fisher, Saul. 2009. Stanford Encyclopedia of Philosophy.
+Isaac Newton. Smith, George. 2007. Stanford Encyclopedia of Philosophy.
+Robert Boyle. MacIntosh, J.J. 2010. Stanford Encyclopedia of Philosophy.
+YouTube video. Physics - Newton's corpuscular theory of light - Science. elearnin. Uploaded 5 Jan 2013.
+Robert Hooke's Critique of Newton's Theory of Light and Colors (delivered 1672) Robert Hooke. Thomas Birch, The History of the Royal Society, vol. 3 (London: 1757), pp. 10–15. Newton Project, University of Sussex.
+Corpuscule or Wave. Arman Kashef. 2022. Xaporia: The Free and Independent Blog.

@@ -1,0 +1,99 @@
+Wikipedia article: Convection (heat transfer)
+Source: https://en.wikipedia.org/wiki/Convection_(heat_transfer)
+PageID: 9662955
+======================================================================
+
+Convection (or convective heat transfer) is the transfer of heat from one place to another due to the movement of fluid. Although often discussed as a distinct method of heat transfer, convective heat transfer involves the combined processes of conduction (heat diffusion) and advection (heat transfer by bulk fluid flow). Convection is usually the dominant form of heat transfer in liquids and gases.
+Note that this definition of convection is only applicable in Heat transfer and thermodynamic contexts. It should not be confused with the dynamic fluid phenomenon of convection, which is typically referred to as Natural Convection in thermodynamic contexts in order to distinguish the two.
+
+
+== Overview ==
+Convection can be "forced" by movement of a fluid by means other than buoyancy forces (for example, a water pump in an automobile engine). Thermal expansion of fluids may also force convection. In other cases, natural buoyancy forces alone are entirely responsible for fluid motion when the fluid is heated, and this process is called "natural convection". An example is the draft in a chimney or around any fire. In natural convection, an increase in temperature produces a reduction in density, which in turn causes fluid motion due to pressures and forces when the fluids of different densities are affected by gravity (or any g-force). For example, when water is heated on a stove, hot water from the bottom of the pan is displaced (or forced up) by the colder denser liquid, which falls. After heating has stopped, mixing and conduction from this natural convection eventually result in a nearly homogeneous density, and even temperature. Without the presence of gravity (or conditions that cause a g-force of any type), natural convection does not occur, and only forced-convection modes operate.
+The convection heat transfer mode comprises two mechanisms. In addition to energy transfer due to specific molecular motion (diffusion), energy is transferred by bulk, or macroscopic, motion of the fluid. This motion is associated with the fact that, at any instant, large numbers of molecules are moving collectively or as aggregates. Such motion, in the presence of a temperature gradient, contributes to heat transfer. Because the molecules in aggregate retain their random motion, the total heat transfer is then due to the superposition of energy transport by random motion of the molecules and by the bulk motion of the fluid. It is customary to use the term convection when referring to this cumulative transport and the term advection when referring to the transport due to bulk fluid motion.
+
+
+== Types ==
+
+Two types of convective heat transfer may be distinguished:
+
+Free or natural convection: when fluid motion is caused by buoyancy forces that result from the density variations due to variations of thermal ±temperature in the fluid.  In the absence of an internal source, when the fluid is in contact with a hot surface, its molecules separate and scatter, causing the fluid to be less dense. As a consequence, the fluid is displaced while the cooler fluid gets denser and the fluid sinks.  Thus, the hotter volume transfers heat towards the cooler volume of that fluid. Familiar examples are the upward flow of air due to a fire or hot object and the circulation of water in a pot that is heated from below.
+Forced convection: when a fluid is forced to flow over the surface by an internal source such as fans, by stirring, and pumps, creating an artificially induced convection current.
+In many real-life applications (e.g. heat losses at solar central receivers or cooling of photovoltaic panels), natural and forced convection occur at the same time (mixed convection).
+Internal and external flow can also classify convection.  Internal flow occurs when a fluid is enclosed by a solid boundary such as when flowing through a pipe.  An external flow occurs when a fluid extends indefinitely without encountering a solid surface.  Both of these types of convection, either natural or forced, can be internal or external because they are independent of each other.  The bulk temperature, or the average fluid temperature, is a convenient reference point for evaluating properties related to convective heat transfer, particularly in applications related to flow in pipes and ducts.
+Further classification can be made depending on the smoothness and undulations of the solid surfaces.  Not all surfaces are smooth, though a bulk of the available information deals with smooth surfaces. Wavy irregular surfaces are commonly encountered in heat transfer devices which include solar collectors, regenerative heat exchangers, and underground energy storage systems. They have a significant role to play in the heat transfer processes in these applications. Since they bring in an added complexity due to the undulations in the surfaces, they need to be tackled with mathematical finesse through elegant simplification techniques. Also, they do affect the flow and heat transfer characteristics, thereby behaving differently from straight smooth surfaces.
+For a visual experience of natural convection, a glass filled with hot water and some red food dye may be placed inside a fish tank with cold, clear water. The convection currents of the red liquid may be seen to rise and fall in different regions, then eventually settle, illustrating the process as heat gradients are dissipated.
+
+
+== Newton's law of cooling ==
+
+Convection-cooling is sometimes loosely assumed to be described by Newton's law of cooling.
+Newton's law states that the rate of heat loss of a body is proportional to the difference in temperatures between the body and its surroundings while under the effects of a breeze. The constant of proportionality is the heat transfer coefficient. The law applies when the coefficient is independent, or relatively independent, of the temperature difference between object and environment.
+In classical natural convective heat transfer, the heat transfer coefficient is dependent on the temperature. However, Newton's law does approximate reality when the temperature changes are relatively small, and for forced air and pumped liquid cooling, where the fluid velocity does not rise with increasing temperature difference.
+
+
+== Convective heat transfer ==
+The basic relationship for heat transfer by convection is:
+
+  
+    
+      
+        
+          
+            
+              Q
+              ˙
+            
+          
+        
+        =
+        h
+        A
+        (
+        T
+        −
+        
+          T
+          
+            f
+          
+        
+        )
+      
+    
+    {\displaystyle {\dot {Q}}=hA(T-T_{f})}
+  
+
+where 
+  
+    
+      
+        
+          
+            
+              Q
+              ˙
+            
+          
+        
+      
+    
+    {\displaystyle {\dot {Q}}}
+  
+ is the heat transferred per unit time, A is the area of the object, h is the heat transfer coefficient, T is the object's surface temperature, and Tf is the fluid temperature.
+The convective heat transfer coefficient is dependent upon the physical properties of the fluid and the physical situation. Values of h have been measured and tabulated for commonly encountered fluids and flow situations.
+
+
+== See also ==
+Conjugate convective heat transfer
+Convection
+Forced convection
+Natural convection
+Mixed convection
+Heat transfer coefficient
+Heat transfer enhancement
+Heisler chart
+Thermal conductivity
+Convection–diffusion equation
+
+
+== References ==

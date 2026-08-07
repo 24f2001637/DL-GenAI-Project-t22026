@@ -1,0 +1,3268 @@
+Wikipedia article: Supersymmetric theory of stochastic dynamics
+Source: https://en.wikipedia.org/wiki/Supersymmetric_theory_of_stochastic_dynamics
+PageID: 53961341
+======================================================================
+
+Supersymmetric theory of stochastic dynamics (STS) is a multidisciplinary approach to stochastic dynamics on the intersection of dynamical systems theory,
+topological field theories,
+stochastic differential equations (SDE),
+and the theory of pseudo-Hermitian operators. It can be seen as an algebraic dual to the traditional set-theoretic framework of the dynamical systems theory, with its added algebraic structure and an inherent topological supersymmetry (TS) enabling the generalization of certain concepts from deterministic to stochastic models.
+Using tools of topological field theory originally developed in high-energy physics, STS seeks to give a rigorous mathematical derivation to several universal phenomena of stochastic dynamical systems. Particularly, the theory identifies dynamical chaos as a spontaneous order originating from the TS hidden in all stochastic models. STS also provides the lowest level classification of stochastic chaos which has a potential to explain self-organized criticality.
+
+
+== Overview ==
+The traditional approach to stochastic dynamics focuses on the temporal evolution of probability distributions. At any moment, the distribution encodes the information or the memory of the system's past, much like wavefunctions in quantum theory. STS uses generalized probability distributions, or "wavefunctions", that depend not only on the original variables of the model but also on their "superpartners", whose evolution determines Lyapunov exponents. This structure enables an extended form of memory that includes also the memory of initial conditions/perturbations known in the context of dynamical chaos as the butterfly effect.
+From an algebraic topology perspective, the wavefunctions are differential forms and dynamical systems theory defines their dynamics by the generalized transfer operator (GTO)—the pullback averaged over noise. GTO commutes with the exterior derivative, which is the topological supersymmetry (TS) of STS.
+The presence of TS arises from the fact that continuous-time dynamics preserves the topology of the phase/state space: trajectories originating from close initial conditions remain close over time for any noise configuration. If TS is spontaneously broken, this property no longer holds on average in the limit of infinitely long evolution, meaning the system is chaotic because it exhibits a stochastic variant of the butterfly effect. In modern theoretical nomenclature, chaos, along with other realizations of spontaneous symmetry breaking, is an ordered phase—a perspective anticipated in early discussions of complexity: as pointed out in the context of STS:
+
+... chaos is counter-intuitively the "ordered" phase of dynamical systems. Moreover, a pioneer of complexity, Prigogine, would define chaos as a spatiotemporally complex form of order...
+The Goldstone theorem necessitates the long-range response, which may account for 1/f noise. The Edge of Chaos is interpreted as noise-induced chaos—a distinct phase where TS is broken in a specific manner and dynamics is dominated by noise-induced instantons. In the deterministic limit, this phase collapses onto the critical boundary of conventional chaos.
+
+
+== History and relation to other theories ==
+The first relation between supersymmetry and stochastic dynamics was established in two papers in 1979 and 1982 by Giorgio Parisi and Nicolas Sourlas, where Langevin SDEs—SDEs with linear phase spaces, gradient flow vector fields, and additive noises—were given supersymmetric representation with the help of the BRST gauge fixing procedure. While the original goal of their work was dimensional reduction, the so-emerged supersymmetry of Langevin SDEs has since been addressed from a few different angles  including the fluctuation-dissipation theorems, Jarzynski equality, Onsager principle of microscopic reversibility, solutions of Fokker–Planck equations, self-organization, etc.
+The Parisi-Sourlas method has been extended to several other classes of dynamical systems, including classical mechanics, its stochastic generalization, and higher-order Langevin SDEs.
+The theory of pseudo-Hermitian supersymmetric operators
+ 
+and the relation between the Parisi-Sourlas method and Lyapunov exponents 
+further enabled the extension of the theory to SDEs of arbitrary form and the identification of the spontaneous BRST supersymmetry breaking as a stochastic generalization of chaos.
+In parallel, the concept of the generalized transfer operator have been introduced in the dynamical systems theory. This concept underlies the stochastic evolution operator of STS and provides it with a solid and natural mathematical meaning. Similar constructions were studied in the theory of SDEs.
+The Parisi-Sourlas method has been recognized  as a member of Witten-type or cohomological topological field theory, a class of models to which STS also belongs.
+
+
+== Dynamical systems theory perspective ==
+
+
+=== Generalized transfer operator ===
+The physicist's way to look at a stochastic differential equation is essentially a continuous-time non-autonomous dynamical system that can be  defined as:
+
+  
+    
+      
+        
+          
+            
+              x
+              ˙
+            
+          
+        
+        (
+        t
+        )
+        =
+        F
+        (
+        x
+        (
+        t
+        )
+        )
+        +
+        (
+        2
+        Θ
+        
+          )
+          
+            1
+            
+              /
+            
+            2
+          
+        
+        
+          G
+          
+            a
+          
+        
+        (
+        x
+        (
+        t
+        )
+        )
+        
+          ξ
+          
+            a
+          
+        
+        (
+        t
+        )
+        ≡
+        
+          
+            F
+          
+        
+        (
+        ξ
+        (
+        t
+        )
+        )
+        ,
+      
+    
+    {\displaystyle {\dot {x}}(t)=F(x(t))+(2\Theta )^{1/2}G_{a}(x(t))\xi ^{a}(t)\equiv {\mathcal {F}}(\xi (t)),}
+  
+
+where 
+  
+    
+      
+        x
+        ∈
+        X
+      
+    
+    {\textstyle x\in X}
+  
+ is a point in a closed smooth manifold, 
+  
+    
+      
+        X
+      
+    
+    {\textstyle X}
+  
+, called in dynamical systems theory a state space while in physics, where 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is often a symplectic manifold with half of variables having the meaning of momenta, it is called the phase space. Further, 
+  
+    
+      
+        F
+        ∈
+        T
+        X
+      
+    
+    {\displaystyle F\in TX}
+  
+ is a sufficiently smooth flow vector field from the tangent space of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ having the meaning of deterministic law of evolution, and 
+  
+    
+      
+        
+          G
+          
+            a
+          
+        
+        ∈
+        T
+        X
+        ,
+        a
+        =
+        1
+        ,
+        …
+        ,
+        
+          D
+          
+            ξ
+          
+        
+      
+    
+    {\displaystyle G_{a}\in TX,a=1,\ldots ,D_{\xi }}
+  
+ is a set of sufficiently smooth vector fields that specify how the system is coupled to the time-dependent noise, 
+  
+    
+      
+        ξ
+        (
+        t
+        )
+        ∈
+        
+          
+            R
+          
+          
+            
+              D
+              
+                ξ
+              
+            
+          
+        
+      
+    
+    {\displaystyle \xi (t)\in \mathbb {R} ^{D_{\xi }}}
+  
+, which is called additive/multiplicative depending on whether 
+  
+    
+      
+        
+          G
+          
+            a
+          
+        
+      
+    
+    {\displaystyle G_{a}}
+  
+'s are independent/dependent on the position on 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+.
+The randomness of the noise will be introduced later. For now, the noise is a deterministic function of time and the equation above is an ordinary differential equation (ODE) with a time-dependent flow vector field, 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}}
+  
+. The solutions/trajectories of this ODE are differentiable with respect to initial conditions even for non-differentiable 
+  
+    
+      
+        ξ
+        (
+        t
+        )
+      
+    
+    {\displaystyle \xi (t)}
+  
+'s. In other words, there exists a two-parameter family of noise-configuration-dependent diffeomorphisms:
+
+  
+    
+      
+        M
+        (
+        ξ
+        
+          )
+          
+            t
+            
+              t
+              ′
+            
+          
+        
+        :
+        X
+        →
+        X
+        ,
+        M
+        (
+        ξ
+        
+          )
+          
+            t
+            
+              t
+              ′
+            
+          
+        
+        ∘
+        M
+        (
+        ξ
+        
+          )
+          
+            
+              t
+              ′
+            
+            
+              t
+              ″
+            
+          
+        
+        =
+        M
+        (
+        ξ
+        
+          )
+          
+            t
+            
+              t
+              ″
+            
+          
+        
+        ,
+        
+          
+            
+            
+              M
+              (
+              ξ
+              
+                )
+                
+                  t
+                  
+                    t
+                    ′
+                  
+                
+              
+            
+            |
+          
+          
+            t
+            =
+            
+              t
+              ′
+            
+          
+        
+        =
+        
+          
+            Id
+          
+          
+            X
+          
+        
+        ,
+      
+    
+    {\displaystyle M(\xi )_{tt'}:X\to X,M(\xi )_{tt'}\circ M(\xi )_{t't''}=M(\xi )_{tt''},\left.M(\xi )_{tt'}\right|_{t=t'}={\text{Id}}_{X},}
+  
+ 
+such that the solution of the ODE with initial condition 
+  
+    
+      
+        x
+        (
+        
+          t
+          ′
+        
+        )
+        =
+        
+          x
+          ′
+        
+      
+    
+    {\displaystyle x(t')=x'}
+  
+ can be expressed as 
+  
+    
+      
+        x
+        (
+        t
+        )
+        =
+        M
+        (
+        ξ
+        
+          )
+          
+            t
+            
+              t
+              ′
+            
+          
+        
+        (
+        
+          x
+          ′
+        
+        )
+      
+    
+    {\displaystyle x(t)=M(\xi )_{tt'}(x')}
+  
+. 
+The dynamics can now be defined as follows: if at time 
+  
+    
+      
+        
+          t
+          ′
+        
+      
+    
+    {\displaystyle t'}
+  
+, the system is described by the probability distribution 
+  
+    
+      
+        P
+        (
+        x
+        )
+      
+    
+    {\displaystyle P(x)}
+  
+, then the average value of some function 
+  
+    
+      
+        f
+        :
+        X
+        →
+        
+          R
+        
+      
+    
+    {\displaystyle f:X\to \mathbb {R} }
+  
+ at a later time 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+ is given by:
+
+  
+    
+      
+        
+          
+            
+              f
+              ¯
+            
+          
+        
+        (
+        t
+        )
+        =
+        
+          ∫
+          
+            X
+          
+        
+        f
+        
+          (
+          
+            M
+            (
+            ξ
+            
+              )
+              
+                t
+                
+                  t
+                  ′
+                
+              
+            
+            (
+            x
+            )
+          
+          )
+        
+        P
+        (
+        x
+        )
+        d
+        
+          x
+          
+            1
+          
+        
+        ∧
+        .
+        .
+        .
+        ∧
+        d
+        
+          x
+          
+            D
+          
+        
+        =
+        
+          ∫
+          
+            X
+          
+        
+        f
+        (
+        x
+        )
+        
+          
+            
+              M
+              ^
+            
+          
+        
+        (
+        ξ
+        
+          )
+          
+            
+              t
+              ′
+            
+            t
+          
+          
+            ∗
+          
+        
+        
+          (
+          
+            P
+            (
+            x
+            )
+            d
+            
+              x
+              
+                1
+              
+            
+            ∧
+            .
+            .
+            .
+            ∧
+            d
+            
+              x
+              
+                D
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle {\bar {f}}(t)=\int _{X}f\left(M(\xi )_{tt'}(x)\right)P(x)dx^{1}\wedge ...\wedge dx^{D}=\int _{X}f(x){\hat {M}}(\xi )_{t't}^{*}\left(P(x)dx^{1}\wedge ...\wedge dx^{D}\right).}
+  
+
+Here 
+  
+    
+      
+        
+          
+            
+              M
+              ^
+            
+          
+        
+        (
+        ξ
+        
+          )
+          
+            
+              t
+              ′
+            
+            t
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle {\hat {M}}(\xi )_{t't}^{*}}
+  
+ is action or pullback induced by the inverse map, 
+  
+    
+      
+        M
+        (
+        ξ
+        
+          )
+          
+            t
+            
+              t
+              ′
+            
+          
+          
+            −
+            1
+          
+        
+        =
+        M
+        (
+        ξ
+        
+          )
+          
+            
+              t
+              ′
+            
+            t
+          
+        
+      
+    
+    {\displaystyle M(\xi )_{tt'}^{-1}=M(\xi )_{t't}}
+  
+, on the probability distribution understood in a coordinate-free setting as a top-degree differential form.
+Pullbacks are a wider concept, defined also for k-forms, i.e., differential forms of other possible degrees k, 
+  
+    
+      
+        0
+        ≤
+        k
+        ≤
+        D
+        =
+        d
+        i
+        m
+        X
+      
+    
+    {\displaystyle 0\leq k\leq D=dimX}
+  
+, 
+  
+    
+      
+        ψ
+        (
+        x
+        )
+        =
+        
+          ψ
+          
+            
+              i
+              
+                1
+              
+            
+            .
+            .
+            .
+            .
+            
+              i
+              
+                k
+              
+            
+          
+        
+        (
+        x
+        )
+        d
+        
+          x
+          
+            1
+          
+        
+        ∧
+        .
+        .
+        .
+        ∧
+        d
+        
+          x
+          
+            k
+          
+        
+        ∈
+        
+          Ω
+          
+            (
+            k
+            )
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \psi (x)=\psi _{i_{1}....i_{k}}(x)dx^{1}\wedge ...\wedge dx^{k}\in \Omega ^{(k)}(x)}
+  
+, where 
+  
+    
+      
+        
+          Ω
+          
+            (
+            k
+            )
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \Omega ^{(k)}(x)}
+  
+ is the space all k-forms at point x. 
+According to the example above, the temporal evolution of k-forms is given by,
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        t
+        )
+        ⟩
+        =
+        
+          
+            
+              M
+              ^
+            
+          
+        
+        (
+        ξ
+        
+          )
+          
+            
+              t
+              ′
+            
+            t
+          
+          
+            ∗
+          
+        
+        
+          |
+        
+        ψ
+        (
+        
+          t
+          ′
+        
+        )
+        ⟩
+        ,
+      
+    
+    {\displaystyle |\psi (t)\rangle ={\hat {M}}(\xi )_{t't}^{*}|\psi (t')\rangle ,}
+  
+
+where 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        ∈
+        Ω
+        (
+        X
+        )
+        =
+        
+          ⨁
+          
+            k
+            =
+            0
+          
+          
+            D
+          
+        
+        
+          Ω
+          
+            (
+            k
+            )
+          
+        
+        (
+        X
+        )
+      
+    
+    {\displaystyle |\psi \rangle \in \Omega (X)=\bigoplus \nolimits _{k=0}^{D}\Omega ^{(k)}(X)}
+  
+ is a time-dependent "wavefunction", adopting the terminology of quantum theory.
+Unlike, say, trajectories or positions in 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+, pullbacks are linear objects even for nonlinear 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+. As a linear object, the pullback can be averaged over the noise configurations leading to the generalized transfer operator (GTO)
+
+—the dynamical systems theory counterpart of the stochastic evolution operator of the theory of SDEs and/or the Parisi-Sourlas approach. For Gaussian white noise, 
+  
+    
+      
+        ⟨
+        
+          ξ
+          
+            a
+          
+        
+        (
+        t
+        )
+        
+          ⟩
+          
+            noise
+          
+        
+        =
+        0
+        ,
+        ⟨
+        
+          ξ
+          
+            a
+          
+        
+        (
+        t
+        )
+        
+          ξ
+          
+            b
+          
+        
+        (
+        
+          t
+          ′
+        
+        )
+        
+          ⟩
+          
+            noise
+          
+        
+        =
+        
+          δ
+          
+            a
+            b
+          
+        
+        δ
+        (
+        t
+        −
+        
+          t
+          ′
+        
+        )
+      
+    
+    {\displaystyle \langle \xi ^{a}(t)\rangle _{\text{noise}}=0,\langle \xi ^{a}(t)\xi ^{b}(t')\rangle _{\text{noise}}=\delta ^{ab}\delta (t-t')}
+  
+..., the GTO is
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  M
+                
+                ^
+              
+            
+          
+          
+            t
+            
+              t
+              ′
+            
+          
+        
+        =
+        ⟨
+        
+          
+            
+              M
+              ^
+            
+          
+        
+        (
+        ξ
+        
+          )
+          
+            
+              t
+              ′
+            
+            t
+          
+          
+            ∗
+          
+        
+        
+          ⟩
+          
+            noise
+          
+        
+        =
+        
+          e
+          
+            −
+            (
+            t
+            −
+            
+              t
+              ′
+            
+            )
+            
+              
+                
+                  H
+                  ^
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\hat {\mathcal {M}}}_{tt'}=\langle {\hat {M}}(\xi )_{t't}^{*}\rangle _{\text{noise}}=e^{-(t-t'){\hat {H}}}.}
+  
+
+Here, the infinitesimal GTO is the stochastic evolution operator in the Stratonovich interpretation in the traditional approach to SDEs, 
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                L
+                ^
+              
+            
+          
+          
+            F
+          
+        
+        −
+        Θ
+        
+          
+            
+              
+                L
+                ^
+              
+            
+          
+          
+            
+              G
+              
+                a
+              
+            
+          
+        
+        
+          
+            
+              
+                L
+                ^
+              
+            
+          
+          
+            
+              G
+              
+                a
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\hat {H}}={\hat {L}}_{F}-\Theta {\hat {L}}_{G_{a}}{\hat {L}}_{G_{a}},}
+  
+ 
+where 
+  
+    
+      
+        
+          
+            
+              
+                L
+                ^
+              
+            
+          
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\hat {L}}_{F}}
+  
+ is the Lie derivative along the vector field specified in the subscript. Note, however, that its fundamental mathematical meaning—the pullback averaged over noise—ensures that GTO is unique (see Operator representation below).
+
+
+=== Topological supersymmetry ===
+With the help of Cartan formula, saying that Lie derivative is "d-exact", i.e., can be given as, e.g., 
+  
+    
+      
+        
+          
+            
+              
+                L
+                ^
+              
+            
+          
+          
+            A
+          
+        
+        =
+        [
+        
+          
+            
+              d
+              ^
+            
+          
+        
+        ,
+        
+          
+            
+              
+                ı
+                ^
+              
+            
+          
+          
+            A
+          
+        
+        ]
+      
+    
+    {\displaystyle {\hat {L}}_{A}=[{\hat {d}},{\hat {\imath }}_{A}]}
+  
+, where square brackets denote bi-graded commutator and 
+  
+    
+      
+        
+          
+            
+              d
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {d}}}
+  
+ and 
+  
+    
+      
+        
+          
+            
+              
+                ı
+                ^
+              
+            
+          
+          
+            A
+          
+        
+      
+    
+    {\displaystyle {\hat {\imath }}_{A}}
+  
+ are, respectively, the exterior derivative and interior multiplication along A, the following explicitly
+
+can be obtained, where 
+  
+    
+      
+        
+          
+            
+              
+                
+                  d
+                  ¯
+                
+              
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                ı
+                ^
+              
+            
+          
+          
+            
+              F
+            
+          
+        
+        −
+        Θ
+        
+          
+            
+              
+                ı
+                ^
+              
+            
+          
+          
+            
+              G
+              
+                a
+              
+            
+          
+        
+        
+          
+            
+              
+                L
+                ^
+              
+            
+          
+          
+            
+              G
+              
+                a
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\bar {d}}}={\hat {\imath }}_{\mathcal {F}}-\Theta {\hat {\imath }}_{G_{a}}{\hat {L}}_{G_{a}}}
+  
+. This form of the evolution operator is similar to that of Supersymmetric quantum mechanics, and it is a central feature of topological field theories of Witten-type. It assumes that the GTO commutes with 
+  
+    
+      
+        
+          
+            
+              d
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {d}}}
+  
+, which is a (super)symmetry of the model. This symmetry is referred to as topological supersymmetry (TS), particularly because the exterior derivative plays a fundamental role in algebraic topology. TS pairs up eigenstates of GTO into doublets.
+
+
+=== Eigensystem of GTO ===
+GTO is a pseudo-Hermitian operator. It has a complete bi-orthogonal eigensystem with the left and right eigenvectors, or the bras and the kets, related nontrivially. The eigensystems of GTO have a certain set of universal properties that limit the possible spectra of the physically meaningful models—the ones with discrete spectra and with real parts of eigenvalues limited from below—to the three major types presented in the figure on the right. These properties include: 
+
+The eigenvalues are either real or come in complex conjugate pairs called in dynamical systems theory Reulle-Pollicott resonances. This form of spectrum implies the presence of pseudo-time-reversal symmetry.
+Each eigenstate has a well-defined degree.
+
+  
+    
+      
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            (
+            0
+            ,
+            D
+            )
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}^{(0,D)}}
+  
+ do not break TS, 
+  
+    
+      
+        
+          min Re
+        
+        (
+        spec
+        ⁡
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            (
+            0
+            ,
+            D
+            )
+          
+        
+        )
+        =
+        0
+      
+    
+    {\displaystyle {\text{min Re}}(\operatorname {spec} {\hat {H}}^{(0,D)})=0}
+  
+.
+Each De Rham cohomology provides one zero-eigenvalue supersymmetric "singlet" such that 
+  
+    
+      
+        
+          
+            
+              d
+              ^
+            
+          
+        
+        
+          |
+        
+        θ
+        ⟩
+        =
+        0
+        ,
+        ⟨
+        θ
+        
+          |
+        
+        
+          
+            
+              d
+              ^
+            
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle {\hat {d}}|\theta \rangle =0,\langle \theta |{\hat {d}}=0}
+  
+. The singlet from 
+  
+    
+      
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            (
+            D
+            )
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}^{(D)}}
+  
+ is the stationary probability distribution known as "ergodic zero".
+All the other eigenstates are non-supersymmetric "doublets" related by TS: 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        
+          |
+        
+        α
+        ⟩
+        =
+        
+          H
+          
+            α
+          
+        
+        
+          |
+        
+        α
+        ⟩
+        ,
+        
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        
+          |
+        
+        
+          α
+          ′
+        
+        ⟩
+        =
+        
+          H
+          
+            α
+          
+        
+        
+          |
+        
+        
+          α
+          ′
+        
+        ⟩
+      
+    
+    {\displaystyle {\hat {H}}|\alpha \rangle =H_{\alpha }|\alpha \rangle ,\;{\hat {H}}|\alpha '\rangle =H_{\alpha }|\alpha '\rangle }
+  
+ and 
+  
+    
+      
+        ⟨
+        α
+        
+          |
+        
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        ⟨
+        α
+        
+          |
+        
+        
+          H
+          
+            α
+          
+        
+        ,
+        ⟨
+        
+          α
+          ′
+        
+        
+          |
+        
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        ⟨
+        
+          α
+          ′
+        
+        
+          |
+        
+        
+          H
+          
+            α
+          
+        
+      
+    
+    {\displaystyle \langle \alpha |{\hat {H}}=\langle \alpha |H_{\alpha },\langle \alpha '|{\hat {H}}=\langle \alpha '|H_{\alpha }}
+  
+, where 
+  
+    
+      
+        
+          H
+          
+            α
+          
+        
+      
+    
+    {\displaystyle H_{\alpha }}
+  
+ is the corresponding eigenvalue, and 
+  
+    
+      
+        
+          |
+        
+        
+          α
+          ′
+        
+        ⟩
+        =
+        
+          
+            
+              d
+              ^
+            
+          
+        
+        
+          |
+        
+        α
+        ⟩
+        ,
+        
+        ⟨
+        α
+        
+          |
+        
+        =
+        ⟨
+        
+          α
+          ′
+        
+        
+          |
+        
+        
+          
+            
+              d
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle |\alpha '\rangle ={\hat {d}}|\alpha \rangle ,\;\langle \alpha |=\langle \alpha '|{\hat {d}}}
+  
+.
+
+
+=== Stochastic chaos ===
+In dynamical systems theory, a system can be characterized as chaotic if the spectral radius of the finite-time GTO is larger than unity. Under this condition, the partition function,  
+
+  
+    
+      
+        
+          Z
+          
+            t
+            
+              t
+              ′
+            
+          
+        
+        =
+        T
+        r
+        
+          
+            
+              
+                
+                  M
+                
+                ^
+              
+            
+          
+          
+            t
+            
+              t
+              ′
+            
+          
+        
+        =
+        
+          ∑
+          
+            α
+          
+        
+        
+          e
+          
+            −
+            (
+            t
+            −
+            
+              t
+              ′
+            
+            )
+            
+              H
+              
+                α
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle Z_{tt'}=Tr{\hat {\mathcal {M}}}_{tt'}=\sum \nolimits _{\alpha }e^{-(t-t')H_{\alpha }},}
+  
+
+grows exponentially in the limit of infinitely long evolution signaling the exponential growth of the number of closed solutions—the hallmark of chaotic dynamics. In terms of the infinitesimal GTO, this condition reads, 
+
+  
+    
+      
+        Δ
+        =
+        −
+        
+          min
+          
+            α
+          
+        
+        
+          Re 
+        
+        
+          H
+          
+            α
+          
+        
+        >
+        0
+        ,
+      
+    
+    {\displaystyle \Delta =-\min _{\alpha }{\text{Re }}H_{\alpha }>0,}
+  
+
+where 
+  
+    
+      
+        Δ
+      
+    
+    {\displaystyle \Delta }
+  
+ is the rate of the exponential growth which is known as "pressure", a member of the family of dynamical entropies such as topological entropy. Spectra b and c in the figure satisfy this condition.
+One notable advantage of defining stochastic chaos in this way, compared to other possible approaches, is its equivalence to the spontaneous breakdown of topological supersymmetry (see below). Consequently, through the Goldstone theorem, it has the potential to explain the experimental signature of chaotic behavior, commonly known as 1/f noise.
+
+
+==== Stochastic Poincaré–Bendixson theorem ====
+Due to one of the spectral properties of GTO that 
+  
+    
+      
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            (
+            0
+            ,
+            D
+            )
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}^{(0,D)}}
+  
+ never break TS, i.e., 
+  
+    
+      
+        
+          min Re
+        
+        (
+        spec
+        ⁡
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            (
+            0
+            ,
+            D
+            )
+          
+        
+        )
+        =
+        0
+      
+    
+    {\displaystyle {\text{min Re}}(\operatorname {spec} {\hat {H}}^{(0,D)})=0}
+  
+, a model has got to have at least two degrees other than 0 and D in order to accommodate a non-supersymmetric doublet with a negative real part of its eigenvalue and, consequently, be chaotic. This implies 
+  
+    
+      
+        D
+        =
+        
+          dim 
+        
+        X
+        ≥
+        3
+      
+    
+    {\displaystyle D={\text{dim }}X\geq 3}
+  
+, which can be viewed as a stochastic generalization of the Poincaré–Bendixson theorem.
+
+
+=== Sharp trace and Witten Index ===
+Another object of interest is the sharp trace of the GTO,
+
+  
+    
+      
+        W
+        =
+        T
+        r
+        (
+        −
+        1
+        
+          )
+          
+            
+              
+                k
+                ^
+              
+            
+          
+        
+        
+          
+            
+              
+                
+                  M
+                
+                ^
+              
+            
+          
+          
+            t
+            
+              t
+              ′
+            
+          
+        
+        =
+        
+          ∑
+          
+            α
+          
+        
+        (
+        −
+        1
+        
+          )
+          
+            
+              k
+              
+                α
+              
+            
+          
+        
+        
+          e
+          
+            −
+            (
+            t
+            −
+            
+              t
+              ′
+            
+            )
+            
+              H
+              
+                α
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle W=Tr(-1)^{\hat {k}}{\hat {\mathcal {M}}}_{tt'}=\sum \nolimits _{\alpha }(-1)^{k_{\alpha }}e^{-(t-t')H_{\alpha }},}
+  
+
+where 
+  
+    
+      
+        
+          
+            
+              k
+              ^
+            
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            α
+          
+        
+        ⟩
+        =
+        
+          k
+          
+            α
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            α
+          
+        
+        ⟩
+      
+    
+    {\displaystyle {\hat {k}}|\psi _{\alpha }\rangle =k_{\alpha }|\psi _{\alpha }\rangle }
+  
+ with 
+  
+    
+      
+        
+          
+            
+              k
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {k}}}
+  
+ being the operator of the degree of the differential form. This is a fundamental object of topological nature known in physics as the Witten index. From the properties of the eigensystem of GTO, only supersymmetric singlets contribute to the Witten index, 
+  
+    
+      
+        W
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            D
+          
+        
+        (
+        −
+        1
+        
+          )
+          
+            k
+          
+        
+        
+          B
+          
+            k
+          
+        
+        =
+        E
+        u
+        .
+        C
+        h
+        (
+        X
+        )
+      
+    
+    {\displaystyle W=\sum \nolimits _{k=0}^{D}(-1)^{k}B_{k}=Eu.Ch(X)}
+  
+, where 
+  
+    
+      
+        E
+        u
+        .
+        C
+        h
+        .
+      
+    
+    {\displaystyle Eu.Ch.}
+  
+ is the Euler characteristic and B 's are the numbers of supersymmetric singlets of the corresponding degree. These numbers equal Betti numbers as follows from one of the properties of GTO that each de Rham cohomology class provides one supersymmetric singlet.
+
+
+== Physical Perspective ==
+
+
+=== Parisi–Sourlas method as a BRST gauge-fixing procedure ===
+The idea of the Parisi–Sourlas method is to rewrite the partition function of the noise in terms of the dynamical variables of the model using BRST gauge-fixing procedure. The resulting expression is the Witten index, whose physical meaning is (up to a topological factor) the partition function of the noise.
+The path integral representation of the Witten index can be achieved in three steps: (i) introduction of the dynamical variables into the partition function of the noise; (ii) BRST gauge fixing the integration over the paths to the trajectories of the SDE which can be looked upon as the Gribov copies; and (iii) out integration of the noise. This can be expressed as the following
+
+Here, the noise is assumed Gaussian white, p.b.c. signifies periodic boundary conditions, 
+  
+    
+      
+        
+          J
+          (
+          ξ
+          )
+        
+      
+    
+    {\displaystyle \textstyle J(\xi )}
+  
+ is the Jacobian compensating (up to a sign) the Jacobian from the 
+  
+    
+      
+        δ
+      
+    
+    {\displaystyle \delta }
+  
+-functional, 
+  
+    
+      
+        Φ
+      
+    
+    {\displaystyle \Phi }
+  
+ is the collection of fields that includes, besides the original field 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+, the Faddeev–Popov ghosts 
+  
+    
+      
+        χ
+        ,
+        
+          
+            
+              χ
+              ¯
+            
+          
+        
+      
+    
+    {\displaystyle \chi ,{\bar {\chi }}}
+  
+ and the Lagrange multiplier, 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+, the topological and/or BRST supersymmetry is, 
+
+  
+    
+      
+        Q
+        =
+        
+          ∫
+          d
+          τ
+          (
+          
+            χ
+            
+              i
+            
+          
+          (
+          τ
+          )
+          δ
+          
+            /
+          
+          δ
+          
+            x
+            
+              i
+            
+          
+          (
+          τ
+          )
+          +
+          
+            B
+            
+              i
+            
+          
+          (
+          τ
+          )
+          δ
+          
+            /
+          
+          δ
+          
+            
+              
+                
+                  χ
+                  ¯
+                
+              
+            
+            
+              i
+            
+          
+          (
+          τ
+          )
+          )
+          ,
+        
+      
+    
+    {\displaystyle Q=\textstyle \int d\tau (\chi ^{i}(\tau )\delta /\delta x^{i}(\tau )+B_{i}(\tau )\delta /\delta {\bar {\chi }}_{i}(\tau )),}
+  
+ 
+that can be looked upon as a path integral version of exterior derivative, and the gauge fermion 
+
+  
+    
+      
+        Ψ
+        =
+        ∫
+        d
+        τ
+        (
+        
+          ı
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+        
+        −
+        
+          
+            
+              d
+              ¯
+            
+          
+        
+        )
+      
+    
+    {\textstyle \Psi =\int d\tau (\imath _{\dot {x}}-{\bar {d}})}
+  
+ with 
+
+  
+    
+      
+        
+          
+            
+              
+                d
+                ¯
+              
+            
+          
+          =
+          
+            
+              ı
+              
+                F
+              
+            
+            −
+            Θ
+            
+              ı
+              
+                
+                  G
+                  
+                    a
+                  
+                
+              
+            
+            
+              L
+              
+                
+                  G
+                  
+                    a
+                  
+                
+              
+            
+            ,
+            
+               and 
+            
+            
+              L
+              
+                
+                  G
+                  
+                    a
+                  
+                
+              
+            
+            =
+            (
+            Q
+            ,
+            
+              ı
+              
+                
+                  G
+                  
+                    a
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\textstyle \textstyle {\bar {d}}=\textstyle \imath _{F}-\Theta \imath _{G_{a}}L_{G_{a}},{\text{ and }}L_{G_{a}}=(Q,\imath _{G_{a}})}
+  
+ and 
+  
+    
+      
+        
+          ı
+          
+            A
+          
+        
+        =
+        i
+        
+          
+            
+              χ
+              ¯
+            
+          
+        
+        A
+      
+    
+    {\textstyle \imath _{A}=i{\bar {\chi }}A}
+  
+ being the path integral versions of the Lie derivative and interior multiplication.
+
+
+=== STS as a topological field theory ===
+The Parisi-Sourlas method is peculiar in that sense that it looks like gauge fixing of an empty theory—the gauge fixing term is the only part of the action. This is a definitive feature of Witten-type topological field theories. Therefore, the Parisi-Sourlas method is a TFT  
+and as a TFT it has got objects that are topological invariants. 
+The Parisi-Sourlas functional is one of them. It is essentially a path integral representation of the Witten index. The topological character of 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  
+ is seen by noting that the gauge-fixing character of the functional ensures that only solutions of the SDE contribute. Each solution provides either positive or negative unity: 
+
+  
+    
+      
+        W
+        =
+        ⟨
+        
+          ∬
+          
+            p
+            .
+            b
+            .
+            c
+          
+        
+        J
+        (
+        ξ
+        )
+        
+          (
+          
+            
+              ∏
+              
+                τ
+              
+            
+            
+              δ
+              
+                D
+              
+            
+            (
+            
+              
+                
+                  x
+                  ˙
+                
+              
+            
+            (
+            τ
+            )
+            −
+            
+              
+                F
+              
+            
+            (
+            x
+            (
+            τ
+            )
+            ,
+            ξ
+            (
+            τ
+            )
+            )
+            )
+          
+          )
+        
+        
+          
+            D
+          
+        
+        x
+        
+          ⟩
+          
+            noise
+          
+        
+        =
+        
+          
+            
+              ⟨
+              
+                
+                  I
+                  
+                    N
+                  
+                
+                (
+                ξ
+                )
+              
+              ⟩
+            
+            
+              noise
+            
+          
+          ,
+        
+      
+    
+    {\displaystyle W=\langle \iint _{p.b.c}J(\xi )\left(\prod \nolimits _{\tau }\delta ^{D}({\dot {x}}(\tau )-{\mathcal {F}}(x(\tau ),\xi (\tau )))\right){\mathcal {D}}x\rangle _{\text{noise}}=\textstyle \left\langle I_{N}(\xi )\right\rangle _{\text{noise}},}
+  
+
+with 
+  
+    
+      
+        
+          I
+          
+            N
+          
+        
+        (
+        ξ
+        )
+        =
+        
+          ∑
+          
+            solutions
+          
+        
+        sign
+        ⁡
+        J
+        (
+        ξ
+        )
+      
+    
+    {\displaystyle I_{N}(\xi )=\sum \nolimits _{\text{solutions}}\operatorname {sign} J(\xi )}
+  
+ being the index of the so-called Nicolai map, the map from the space of closed paths to the noise configurations making these closed paths solutions of the SDE, 
+  
+    
+      
+        
+          ξ
+          
+            a
+          
+        
+        (
+        x
+        )
+        =
+        
+          G
+          
+            i
+          
+          
+            a
+          
+        
+        (
+        
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        −
+        
+          F
+          
+            i
+          
+        
+        )
+        
+          /
+        
+        (
+        2
+        Θ
+        
+          )
+          
+            1
+            
+              /
+            
+            2
+          
+        
+      
+    
+    {\textstyle \xi ^{a}(x)=G_{i}^{a}({\dot {x}}^{i}-F^{i})/(2\Theta )^{1/2}}
+  
+. The index of the map can be viewed as a realization of Poincaré–Hopf theorem on the infinite-dimensional space of closed paths with the SDE playing the role of the vector field and with the solutions of the SDE playing the role of the critical points with index 
+  
+    
+      
+        sign
+        ⁡
+        J
+        (
+        ξ
+        )
+        =
+        sign
+        ⁡
+        
+          Det 
+        
+        δ
+        ξ
+        
+          /
+        
+        δ
+        x
+        .
+      
+    
+    {\displaystyle \operatorname {sign} J(\xi )=\operatorname {sign} {\text{Det }}\delta \xi /\delta x.}
+  
+ 
+
+  
+    
+      
+        
+          I
+          
+            N
+          
+        
+        (
+        ξ
+        )
+      
+    
+    {\textstyle I_{N}(\xi )}
+  
+ is a topological object independent of the noise configuration. It equals its own stochastic average which, in turn, equals the Witten index.
+
+
+==== Instantons ====
+There are other classes of topological objects in TFTs including instantons, i.e., the matrix elements between states of the Witten-Morse-Smale-Bott complex
+which is the algebraic representation of the Morse-Smale complex. In fact, cohomological TFTs are often called intersection theory on instantons. From the STS viewpoint, instantons refers to quanta of transient dynamics, such as neuronal avalanches or solar flares, and complex or composite instantons represent nonlinear dynamical processes that occur in response to quenches—external changes in parameters—such as paper crumpling, protein folding etc. The TFT aspect of STS in instantons remains largely unexplored.
+
+
+=== Operator representation ===
+Just like the partition function of the noise that it represents, the Witten index contains no information about the system's dynamics and cannot be used directly to investigate the dynamics in the system. The information on the dynamics is contained in the stochastic evolution operator (SEO) -- the Parisi-Sourlas path integral with open boundary conditions. Using the explicit form of the action 
+  
+    
+      
+        (
+        Q
+        ,
+        Ψ
+        (
+        Φ
+        )
+        )
+        =
+        
+          ∫
+          
+            
+              t
+              ′
+            
+          
+          
+            t
+          
+        
+        d
+        τ
+        (
+        i
+        B
+        
+          
+            
+              x
+              ˙
+            
+          
+        
+        +
+        i
+        
+          
+            
+              χ
+              ˙
+            
+          
+        
+        
+          
+            
+              χ
+              ¯
+            
+          
+        
+        −
+        H
+        )
+      
+    
+    {\displaystyle (Q,\Psi (\Phi ))=\int _{t'}^{t}d\tau (iB{\dot {x}}+i{\dot {\chi }}{\bar {\chi }}-H)}
+  
+, where 
+  
+    
+      
+        H
+        =
+        (
+        Q
+        ,
+        
+          
+            
+              d
+              ¯
+            
+          
+        
+        )
+      
+    
+    {\displaystyle H=(Q,{\bar {d}})}
+  
+, the operator representation of the SEO can be derived as
+
+  
+    
+      
+        
+          ∬
+          
+            
+              
+                x
+                χ
+                (
+                
+                  t
+                  ′
+                
+                )
+                =
+                
+                  x
+                  
+                    i
+                  
+                
+                
+                  χ
+                  
+                    i
+                  
+                
+              
+              
+                x
+                χ
+                (
+                t
+                )
+                =
+                
+                  x
+                  
+                    f
+                  
+                
+                
+                  χ
+                  
+                    f
+                  
+                
+              
+            
+          
+        
+        
+          e
+          
+            
+              ∫
+              
+                
+                  t
+                  ′
+                
+              
+              
+                t
+              
+            
+            d
+            τ
+            (
+            i
+            B
+            
+              
+                
+                  x
+                  ˙
+                
+              
+            
+            +
+            i
+            
+              
+                
+                  χ
+                  ˙
+                
+              
+            
+            
+              
+                
+                  χ
+                  ¯
+                
+              
+            
+            −
+            H
+            )
+          
+        
+        
+          
+            D
+          
+        
+        Φ
+        =
+        ⟨
+        
+          x
+          
+            f
+          
+        
+        
+          χ
+          
+            f
+          
+        
+        
+          |
+        
+        
+          e
+          
+            −
+            (
+            t
+            −
+            
+              t
+              ′
+            
+            )
+            
+              
+                
+                  H
+                  ^
+                
+              
+            
+          
+        
+        
+          |
+        
+        
+          x
+          
+            i
+          
+        
+        
+          χ
+          
+            i
+          
+        
+        ⟩
+        ,
+      
+    
+    {\displaystyle \iint _{{x\chi (t')=x_{i}\chi _{i}} \atop {x\chi (t)=x_{f}\chi _{f}}}e^{\int _{t'}^{t}d\tau (iB{\dot {x}}+i{\dot {\chi }}{\bar {\chi }}-H)}{\mathcal {D}}\Phi =\langle x_{f}\chi _{f}|e^{-(t-t'){\hat {H}}}|x_{i}\chi _{i}\rangle ,}
+  
+
+where the infinitesimal SEO 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        
+          
+            
+            
+              H
+              (
+              x
+              B
+              χ
+              
+                
+                  
+                    χ
+                    ¯
+                  
+                
+              
+              )
+            
+            |
+          
+          
+            B
+            ,
+            
+              
+                
+                  χ
+                  ¯
+                
+              
+            
+            →
+            
+              
+                
+                  B
+                  ^
+                
+              
+            
+            ,
+            
+              
+                
+                  
+                    
+                      χ
+                      ¯
+                    
+                  
+                  ^
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}=\left.H(xB\chi {\bar {\chi }})\right|_{B,{\bar {\chi }}\to {\hat {B}},{\hat {\bar {\chi }}}}}
+  
+, with 
+  
+    
+      
+        i
+        
+          
+            
+              
+                B
+                ^
+              
+            
+          
+          
+            i
+          
+        
+        =
+        ∂
+        
+          /
+        
+        ∂
+        
+          x
+          
+            i
+          
+        
+        ,
+        i
+        
+          
+            
+              
+                
+                  
+                    χ
+                    ¯
+                  
+                
+                ^
+              
+            
+          
+          
+            i
+          
+        
+        =
+        ∂
+        
+          /
+        
+        ∂
+        
+          χ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle i{\hat {B}}_{i}=\partial /\partial x^{i},i{\hat {\bar {\chi }}}_{i}=\partial /\partial \chi ^{i}}
+  
+. The explicit form of the SEO contains an ambiguity arising from the non-commutativity of momentum and position operators: 
+  
+    
+      
+        B
+        x
+      
+    
+    {\displaystyle Bx}
+  
+ in the path integral representation admits an entire 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+-family of interpretations in the operator representation: 
+  
+    
+      
+        α
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        +
+        (
+        1
+        −
+        α
+        )
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \alpha {\hat {B}}{\hat {x}}+(1-\alpha ){\hat {x}}{\hat {B}}.}
+  
+ The same ambiguity arises in the theory of SDEs, where different choices of 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ are referred to as different interpretations of SDEs with 
+  
+    
+      
+        α
+        =
+        1
+        
+           and 
+        
+        1
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \alpha =1{\text{ and }}1/2}
+  
+ being respectively the Ito and Stratonovich interpretations.
+This ambiguity can be removed by additional conditions. In quantum theory, the condition is Hermiticity of Hamiltonian, which is satisfied by the Weyl symmetrization rule corresponding to 
+  
+    
+      
+        α
+        =
+        1
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \alpha =1/2}
+  
+. In STS, the condition is that the SEO equals the GTO, which is also achieved at 
+  
+    
+      
+        α
+        =
+        1
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \alpha =1/2}
+  
+. In other words, only the Stratonovich interpretation of SDEs is consistent with the dynamical systems theory approach. Other interpretations differ by the shifted flow vector field in the corresponding SEO, 
+  
+    
+      
+        
+          F
+          
+            α
+          
+        
+        =
+        F
+        −
+        Θ
+        (
+        2
+        α
+        −
+        1
+        )
+        (
+        
+          G
+          
+            a
+          
+        
+        ⋅
+        ∂
+        )
+        
+          G
+          
+            a
+          
+        
+      
+    
+    {\displaystyle F_{\alpha }=F-\Theta (2\alpha -1)(G_{a}\cdot \partial )G_{a}}
+  
+.
+
+
+=== Effective field theory ===
+The fermions of STS represent the differentials of the wavefunctions understood as differential forms. These differentials and/or fermions are intrinsically linked to stochastic Lyapunov exponents that define the butterfly effect. Therefore, the effective field theory for these fermions is a theory of the butterfly effect. It can be defined via the generating functional
+
+where 
+  
+    
+      
+        η
+      
+    
+    {\displaystyle \eta }
+  
+ are external probing fields coupled to the system and 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  
+ is the ground state, i.e., an eigenstate of the GTO picked up from the set of eigenstates with the lowest real part of their eigenvalues—a requirement needed to ensure stability of the response. The ground state represents the system which has been allowed to evolve for a long time without perturbations. The generating functional describes how the ground state responds to external perturbations.
+When TS is spontaneously broken, the ground state is degenerate and the system can be effortlessly excited. In higher-dimensional theories, this degeneracy evolves into a gapless branch of excitations above the ground state called goldstinos. Due to gaplessness of goldstinos, the resulting effective field theory must be scale-invariant, or, a conformal field theory 
+
+with some correlators being long ranged.
+This qualitatively explains the widespread occurrence of long-range behavior in chaotic dynamics known as 1/f noise. A more rigorous theoretical explanation of 1/f noise remains an open problem.
+
+
+== Applications ==
+
+
+=== Self-organized criticality and instantonic chaos ===
+
+Since the late 80's, 
+the concept of the Edge of chaos has emerged—a finite-width phase at the boundary of conventional chaos, where dynamics is often dominated by power-law distributed instantonic processes such as solar flares, earthquakes, and neuronal avalanches.
+
+This phase has also been recognized as potentially significant for information processing.
+Its phenomenological understanding is largely based on the concepts of self-adaptation and self-organization.
+STS offers the following explanation for the Edge of chaos (see figure on the right)., In the presence of noise, the TS can be spontaneously broken not only by the non-integrability of the flow vector field, as in deterministic chaos, but also by noise-induced instantons.
+
+Under this condition, the dynamics must be dominated by instantons with power-law distributions, as dictated by the Goldstone theorem. In the deterministic limit, the noise-induced instantons vanish, causing the phase hosting this type of noise-induced dynamics to collapse onto the boundary of the deterministic chaos (see figure on the right).
+
+
+== See also ==
+Stochastic quantization
+Supersymmetric quantum mechanics
+Topological quantum field theory
+Stochastic differential equation
+Dynamical systems theory
+Chaos theory
+Self-Organized Criticality
+
+
+== References ==

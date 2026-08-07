@@ -1,0 +1,115 @@
+Wikipedia article: Resistive random-access memory
+Source: https://en.wikipedia.org/wiki/Resistive_random-access_memory
+PageID: 8768215
+======================================================================
+
+Resistive random-access memory (ReRAM or RRAM) is a type of non-volatile (NV) random-access (RAM) computer memory that works by changing the resistance across a dielectric solid-state material, often referred to as a memristor. One major advantage of ReRAM over other NVRAM technologies is the ability to scale below 10 nm.
+ReRAM bears some similarities to conductive-bridging RAM (CBRAM) and phase-change memory (PCM) in that they change dielectric material properties. CBRAM involves one electrode providing ions that dissolve readily in an electrolyte material, while PCM involves generating sufficient Joule heating to effect amorphous-to-crystalline or crystalline-to-amorphous phase changes. By contrast, ReRAM involves generating defects in a thin oxide layer, known as oxygen vacancies (oxide bond locations where the oxygen has been removed), which can subsequently charge and drift under an electric field. The motion of oxygen ions and vacancies in the oxide would be analogous to the motion of electrons and holes in a semiconductor.
+Although ReRAM was initially seen as a replacement technology for flash memory, the cost and performance benefits of ReRAM have not been enough for companies to proceed with the replacement. Apparently, a broad range of materials can be used for ReRAM. However, the discovery that the popular high-κ gate dielectric HfO2 can be used as a low-voltage ReRAM has encouraged researchers to investigate more possibilities.
+RRAM is the registered trademark name of Sharp Corporation, a Japanese electronic components manufacturer, in some countries, including members of the European Union.
+
+
+== History ==
+In the early 2000s, ReRAMs were under development by a number of companies, some of which filed patent applications claiming various implementations of this technology. ReRAM has entered commercialization on an initially limited KB-capacity scale.
+In February 2012, Rambus bought a ReRAM company called Unity Semiconductor for $35 million. Panasonic launched a ReRAM evaluation kit in May 2012, based on a tantalum oxide 1T1R (1 transistor – 1 resistor) memory cell architecture.
+In 2013, Crossbar introduced an ReRAM prototype as a chip about the size of a postage stamp that could store 1 TB of data. In August 2013, the company claimed that large-scale production of their ReRAM chips was scheduled for 2015. The memory structure (Ag/a-Si/Si) closely resembles a silver-based CBRAM.
+Also in 2013, Hewlett-Packard demonstrated a memristor-based ReRAM wafer, and predicted that 100 TB SSDs based on the technology could be available in 2018 with 1.5 PB capacities available in 2020, just in time for the stop in growth of NAND flash capacities.
+Different forms of ReRAM have been disclosed, based on different dielectric materials, spanning from perovskites to transition metal oxides to chalcogenides. Silicon dioxide was shown to exhibit resistive switching as early as May 1966, and has recently been revisited.
+In 1963 and 1964, a thin-film resistive memory array was first proposed by members of the University of Nebraska–Lincoln. Further work on this new thin-film resistive memory was reported by J.G. Simmons in 1967. In 1970, members of the Atomic Energy Research Establishment and University of Leeds attempted to explain the mechanism theoretically. In May 1997, a research team from the University of Florida and Honeywell reported a manufacturing method for "magneto-resistive random-access memory" by utilizing electron cyclotron resonance plasma etching.
+Leon Chua argued that all two-terminal non-volatile memory devices including ReRAM should be considered memristors. Stan Williams of HP Labs also argued that ReRAM was a memristor. However, others challenged this terminology and the applicability of memristor theory to any physically realizable device is open to question. Whether redox-based resistively switching elements (ReRAM) are covered by the current memristor theory is disputed.
+Silicon oxide presents an interesting case of resistance switching. Two distinct modes of intrinsic switching have been reported - surface-based, in which conductive silicon filaments are generated at exposed edges (which may be internal—within pores—or external—on the surface of mesa structures), and bulk switching, in which oxygen vacancy filaments are generated within the bulk of the oxide. The former mode suffers from oxidation of the filaments in air, requiring hermetic sealing to enable switching. The latter requires no sealing. In 2014 researchers from Rice University announced a silicon filament-based device that used a porous silicon oxide dielectric with no external edge structure - rather, filaments were formed at internal edges within pores. Devices can be manufactured at room temperature and have a sub-2V forming voltage, high on-off ratio, low power consumption, nine-bit capacity per cell, high switching speeds and good endurance. Problems with their inoperability in air can be overcome by hermetic sealing of devices. Bulk switching in silicon oxide, pioneered by researchers at UCL (University College London) since 2012, offers low electroforming voltages (2.5V), switching voltages around 1V, switching times in the nanoseconds regime, and more than 10,000,000 cycles without device failure - all in ambient conditions.
+
+
+== Forming ==
+
+The basic idea is that a dielectric, which is normally insulating, can form a conduction path after application of a sufficiently high voltage. The conduction path can arise from different mechanisms, including vacancy or metal defect migration. Once the conduction path is formed, it may be reset (broken, resulting in high resistance) or set (re-formed, resulting in lower resistance) by another lower voltage. Many current paths, rather than a single filament, are possibly involved. The presence of these current paths in the dielectric can be in situ demonstrated via conductive atomic force microscopy.
+The low-resistance path can be either localized (filamentary) or homogeneous. Both effects can occur either throughout the entire distance between the electrodes or only in proximity to one of the electrodes. Filamentary and homogenous conduction path switching effects can be distinguished by measuring the area dependence of the low-resistance state.
+Under certain conditions, the forming operation may be bypassed. It is expected that under these conditions, the initial current is already quite high compared to insulating oxide layers. ReRAM cells generally do not require high voltage forming if Cu ions are already present in the dielectric, having already been driven-in by a designed photo-diffusion or annealing process; such cells may also readily return to their initial state. In the absence of such Cu initially being in the dielectric, the voltage applied directly to the electrolyte has a strong possibility of forming.
+
+
+== Operation styles ==
+For random-access type memories, a 1T1R (one transistor, one resistor) architecture is preferred because the transistor isolates current to cells that are selected from cells that are not. On the other hand, a cross-point architecture is more compact and may enable vertically stacking memory layers, ideal suited for mass-storage devices. However, in the absence of any transistors, isolation must be provided by a "selector" device, such as a diode, in series with the memory element or by the memory element itself. Such isolation capabilities are inferior to the use of transistors if the on/off ratio for the selector is not sufficient, limiting the ability to operate very large arrays in this architecture. Thin film based threshold switch can work as a selector for bipolar and unipolar ReRAM. Threshold switch-based selector was demonstrated for 64 Mb array. The cross-point architecture requires BEOL compatible two terminal selectors like punch-through diode for bipolar ReRAM or PIN diode for unipolar ReRAM.
+Polarity can be either binary or unary. Bipolar effects cause polarity to reverse when switching from low to high resistance (reset operation) compared to switching high to low (set operation). Unipolar switching leaves polarity unaffected, but uses different voltages.
+
+
+== Material systems for resistive memory cells ==
+Multiple inorganic and organic material systems display thermal or ionic resistive switching effects. These can be grouped into the following categories:
+
+phase-change chalcogenides such as Ge2Sb2Te5 or AgInSbTe
+binary transition metal oxides such as NiO, Ta2O5, or TiO2
+perovskites such as Sr(Zr)TiO3 or PCMO
+solid-state electrolytes such as GeS, GeSe, SiOx or Cu2S
+organic charge-transfer complexes such as CuTCNQ
+organic donor–acceptor systems such as Al AIDCN
+two dimensional (layered) insulating materials like hexagonal boron nitride
+
+
+== RRAM-based on Perovskite ==
+ABO3-type inorganic perovskite materials such as BaTiO3, SrRuO3, SrZrO3, and SrTiO3 have attracted extensive research interest as the storage media in memristors due to their remarkable resistance switching effects and various functionalities such as ferroelectric, dielectric, and semiconducting physical characteristics. However, the fragile nature and high cost of the fabrication process limit the wide applications of these ABO3-type inorganic perovskite materials for memristors. Recently, ABX3-type lead trihalide perovskites have received extensive research interest for using in optoelectronic devices such as photovoltaics, photodetectors, and light-emitting diodes (LED). In these structures, A is a monovalent organic or inorganic (MA:CH3NH3+, FA: CH(NH2)2+, Cs+, Rb+), B is a divalent metal cation (Pb2+, Sn2+), and X is a halide anion (Cl, Br, I). The A cation resides at the eight corners of the cubic unit and the B cation locates at the center of the octahedral cluster [BX6]4 to form the 3D perovskite structure. According to the different A-site cations, these structures can be classified into organic-inorganic hybrid perovskites and all-inorganic perovskites. Moreover, this type of perovskite can be obtained readily by solution-processable methods at a low cost.[16] Nevertheless, owing to the inclusion of organic cations, it was commonly found that the intrinsic thermal instability of methylammonium (MA) and formamidinium (FA) lead trihalide perovskites was really a bottleneck for the development of hybrid perovskite-based electronic devices. Therefore, to resolve this issue, the organic cations must be substituted by other ions such as Cesium (Cs) cations. Interestingly, there are some reports of Cesium/Cesium hybridization solar cells that give us many new clues for the improved stability of all-inorganic perovskite-based electronic devices. More and more publications demonstrate that inorganic Cs cation-based all-inorganic perovskites could be both structurally and thermally stable above 100 °C, while hybrid perovskites thermally degraded to lead iodide above 85 °C. Therefore, it has been implied that all-inorganic perovskites could be excellent candidates for the fabrication of stable and highly efficient resistive switching memory devices using a low-cost process. Considering the CsPbX3 perovskites are usually prepared by solution method, point defects such as vacancies, interstitials, and antisites are possible in the crystals. These defects are essential for the defect drift-dominated resistive switching memory. Thus, these CsPbX3 perovskites have great potential for application in memory devices. Given the fact that resistance switching in halide perovskite-based RRAM is caused by migrations of halide atoms through vacancies, the migration characteristics of a vacancy within the RRAM are one of the most important material properties of the RRAM determining the key features of it. However, despite its importance, the activation energy of halide vacancy in RRAMs has been no serious study topic at all. Obviously, a small activation barrier of halide vacancy expected in halide perovskite-based RRAMs plays a central role in allowing this RRAM to operate at low voltages and thus at low power consumption mode.
+
+
+== Demonstrations ==
+Papers at the IEDM Conference in 2007 suggested for the first time that ReRAM exhibits lower programming currents than PRAM or MRAM without sacrificing programming performance, retention or endurance. Some commonly cited ReRAM systems are described further below.
+
+
+=== Gb-scale ReRAM ===
+A 32 Gb 24 nm ReRAM was published by SanDisk in 2013 without many details other than a non-transistor access device, and metal oxide RRAM composition.
+A 16 Gb 27 nm ReRAM (actually CBRAM) was published by Micron and Sony in 2014. Instead of a 1T1R structure for one bit, two bits were split between two transistors and bottom electrodes while sharing the top portions (electrolyte, copper reservoir, and top electrode).
+
+
+=== HfO2-based ReRAM ===
+At IEDM 2008, the first high-performance ReRAM technology was demonstrated by ITRI using HfO2 with a Ti buffer layer, showing switching times less than 10 ns and currents less than 30μA. At IEDM 2010, ITRI again broke the speed record, showing <0.3 ns switching time, while also showing process and operation improvements to allow yield up to 100% and endurance up to 10 billion cycles. IMEC presented updates of their ReRAM program at the 2012 Symposia on VLSI Technology and Circuits, including a solution with a 500 nA operating current.
+ITRI had focused on the Ti/HfO2 system since its first publication in 2008. ITRI's patent 8362454 has since been sold to TSMC; the number of prior licensees is unknown. On the other hand, IMEC focused mainly on Hf/HfO2. Winbond had done more recent work toward advancing and commercializing the HfO2-based ReRAM.
+A Chinese group presented the largest 1T1R RRAM to date, a 64 Mb chip on a 130 nm process. 10 million cycles were achieved, as well as an extrapolated retention of 10 yrs at 75 C.
+
+
+=== Panasonic ===
+Panasonic revealed its TaOx-based ReRAM at IEDM 2008. A key requirement was the need for a high work function metal such as Pt or Ir to interface with the TaOx layer. The change of O content results in resistance change as well as Schottky barrier change. More recently, a Ta2O5/TaOx layer was implemented, which still requires the high work function metal to interface with Ta2O5. This system has been associated with high endurance demonstration (trillion cycles), but products are specified at 100K cycles. Filament diameters as large as ~100 nm have been observed. Panasonic released a 4Mb part with Fujitsu, and is developing 40 nm embedded memory with UMC.
+
+
+=== HP memristor ===
+On 30 April 2008, HP announced that they had discovered the memristor, originally envisioned as a missing 4th fundamental circuit element by Chua in 1971. On 8 July they announced they would begin prototyping ReRAM using their memristors. HP first demonstrated its memristor using TiOx, but later migrated to TaOx, possibly due to improved stability. The TaOx-based device has some material similarity to Panasonic's ReRAM, but the operation characteristics are different. The Hf/HfOx system was similarly studied.
+
+
+=== Adesto Technologies ===
+The Adesto Technologies CBRAM is based on filaments generated from the electrode metal rather than oxygen vacancies. The original material system was Ag/GeS2 but eventually migrated to ZrTe/Al2O3. The tellurium filament achieved better stability as compared to silver. Adesto has targeted the ultralow power memory for Internet-of-Things (IoT) applications. Adesto has released products manufactured at Altis foundry and entered into a 45 nm foundry agreement with TowerJazz/Panasonic.
+
+
+=== Weebit Nano ===
+Weebit Nano has been working with CEA-Leti, one of the largest nanotechnology research institutes in Europe to further ReRAM technology. Beginning in November, 2017, the company has demonstrated the manufacturability in 40 nm SiOx ReRAM cells, followed by demonstrations of working arrays in 2018 and discrete components in 2020. In July 2021, the company taped out its first embedded ReRAM modules. In September 2021, Weebit, together with Leti, produced, tested and characterized a 1 Mb ReRAM array, using a 28 nm FDSOI process on 300mm wafers.
+
+
+=== Crossbar ===
+Crossbar implements an Ag filament in amorphous Si along with a threshold switching system to achieve a diode+ReRAM. Their system includes the use of a transistor in 1T1R or 1TNR architecture. Crossbar started producing samples at SMIC on the 40 nm process in 2017. The Ag filament diameter has been visualized on the scale of tens of nanometers.
+
+
+=== IntrinSic ===
+A UK based company that plans to create cells using common silicon-oxide.
+
+
+=== Programmable metallization cell ===
+
+Infineon Technologies calls it conductive-bridging RAM (CBRAM), NEC has a variant called "Nanobridge" and Sony calls their version "electrolytic memory". New research suggests CBRAM can be 3D printed.
+Quantum dot resistive memory device
+Quantum dot based non-volatile resistive memory device with a switching speed of 10 ns and ON/OFF ratio of 10 000. The device showed excellent endurance characteristics for 100 000 switching cycles. Retention tests showed good stability and the devices are reproducible. Memory operating mechanism is proposed based on charge trapping in quantum dots with AlOx acting as barrier. This mechanism is supported by marked variation in capacitance value in ON and OFF states.
+
+
+== ReRam test boards ==
+Panasonic AM13L-STK2: MN101LR05D 8-bit MCU with built in ReRAM for evaluation, USB 2.0 connector
+
+
+== Future applications ==
+Compared to PRAM, ReRAM operates at a faster timescale (switching time can be less than 10 ns), while compared to MRAM, it has a simpler, smaller cell structure (less than 8F² MIM stack). A vertical 1D1R (one diode, one resistive switching device) integration can be used for crossbar memory structure to reduce the unit cell size to 4F² (F is the feature dimension). Compared to flash memory and racetrack memory, a lower voltage is sufficient, and hence it can be used in low-power applications.
+ITRI has shown that ReRAM is scalable below 30 nm. The motion of oxygen atoms is a key phenomenon for oxide-based ReRAM; one study indicated that oxygen motion may take place in regions as small as 2 nm. It is believed that if a filament is responsible, it would not exhibit direct scaling with cell size. Instead, the current compliance limit (set by an outside resistor, for example) could define the current-carrying capacity of the filament.
+A significant hurdle to realizing the potential of ReRAM is the sneak path problem that occurs in larger passive arrays. In 2010, complementary resistive switching (CRS) was introduced as a possible solution to sneak-path current interference. In the CRS approach, the information storing states are pairs of high- and low-resistance states (HRS/LRS and LRS/HRS) so that the overall resistance is always high, allowing larger passive crossbar arrays.
+A drawback to the initial CRS solution is the requirement for switching endurance caused by conventional destructive readout based on current measurements. A new approach for a nondestructive readout based on capacity measurement potentially lowers the requirements for both material endurance and power consumption. Bi-layer structure is used to produce the nonlinearity in LRS to avoid the sneak path problem. A single-layer device exhibiting a strong nonlinear conduction in LRS was reported. Another bi-layer structure was introduced for bipolar ReRAM to improve the HRS and stability.
+Another solution to the sneak current issue is to perform read and reset operations in parallel across an entire row of cells, while using set on selected cells. In this case, for a 3D-ReRAM 1TNR array, with a column of N ReRAM cells situated above a select transistor, only the intrinsic nonlinearity of the HRS is required to be sufficiently large, since the number of vertical levels N is limited (e.g., N = 8–32), and this has been shown possible for a low-current ReRAM system.
+Modeling of 2D and 3D caches designed with ReRAM and other non-volatile random-access memories such as MRAM and PCM can be done using DESTINY tool.
+
+
+== Proposed role in artificial intelligence applications ==
+The increasing computational demands necessary for many improvements in artificial intelligence have led many to speculate that ReRAM implementations could be extremely useful hardware for running artificial intelligence and machine learning applications.
+Researchers at School of Engineering of Stanford University have built up a RRAM that "does the AI processing within the memory itself, thereby eliminating the separation between the compute and memory units." It is twice as energy efficient as state-of-the-art.
+
+
+== References ==

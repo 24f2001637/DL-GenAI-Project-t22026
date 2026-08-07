@@ -1,0 +1,39 @@
+Wikipedia article: Kapteyn's Star
+Source: https://en.wikipedia.org/wiki/Kapteyn's_Star
+PageID: 205700
+======================================================================
+
+Kapteyn's Star is a class M1 red subdwarf about 12.83 light-years (3.93 parsecs) from Earth in the southern constellation Pictor; it is the closest halo star to the Solar System and one of the nearest stars. With a slightly variable apparent magnitude of about 8.8, it is visible through binoculars or a telescope.
+Its diameter is 30% of the Sun's, but its luminosity just 1.2% that of the Sun. It may have once been part of the globular cluster Omega Centauri, itself the likely core of a dwarf galaxy swallowed up by the Milky Way in the distant past. The discovery of two planets—Kapteyn b and Kapteyn c—was announced in 2014, but had a mixed history of rejections and confirmations, until a 2021 study refuted both planets. The "planets" are in fact likely artifacts of the star's rotation and activity.
+
+
+== History of observations ==
+Attention was first drawn to what is now known as Kapteyn's Star by the Dutch astronomer Jacobus Kapteyn in 1898. Under the name CPD−44 612 it was included in the Cape photographic Durchmusterung for the equinox 1875 (−38 to −52) by David Gill and Jacobus Cornelius Kapteyn in 1897. This catalogue was based on Gill's observations from the Cape Observatory in 1885–1889 and was created in collaboration with Kapteyn. While he was reviewing star charts and photographic plates, Kapteyn noted that a star, previously catalogued in 1873 by B. A. Gould as C.Z. V 243, seemed to be missing. However, Robert T. A. Innes found an uncatalogued star about 15 arcseconds away from the absent star's position. It became clear that the star had a very high proper motion of more than 8 arcseconds per year and had moved significantly.
+Later, CPD−44 612 came to be referred to as Kapteyn's Star although equal credit should be accorded to Robert Innes. At the time of its discovery it had the highest proper motion of any star known, dethroning Groombridge 1830. In 1916, Barnard's Star was found to have an even larger proper motion. In 2014, two super-Earth planet candidates in orbit around the star were announced, but later refuted.
+
+
+== Characteristics ==
+Based upon parallax measurements, Kapteyn's Star is 12.83 light-years (3.93 parsecs) from the Earth. It came within 7.0 ly (2.1 pc) of the Sun about 10,900 years ago and has been moving away since that time. Kapteyn's Star is distinctive in a number of regards: it has a high radial velocity, orbits the Milky Way retrograde, and is the nearest-known halo star to the Sun. It is a member of a moving group of stars that share a common trajectory through space, named the Kapteyn moving group. Based upon their element abundances, these stars may once have been members of Omega Centauri, a globular cluster that is thought to be the remnant of a dwarf galaxy that merged with the Milky Way. During this process, the stars in the group, including Kapteyn's Star, may have been stripped away as tidal debris.
+Kapteyn's Star is between one quarter and one third the size and mass of the Sun and has a much cooler effective temperature at about 3,500 K, with some disagreement in the exact measurements between different observers. The stellar classification is sdM1, which indicates that it is a subdwarf with a luminosity lower than that of a main-sequence star at the same spectral type of M1. The abundance of elements other than hydrogen and helium, what astronomers term the metallicity, is about 14% of the abundance in the Sun. It is a variable star of the BY Draconis type with the identifier VZ Pictoris. This means that the luminosity of the star changes because of magnetic activity in the chromosphere coupled with rotation moving the resulting star spots into and out of the line of sight with respect to the Earth.
+The star has a mass of 0.27 M☉, a radius of 0.29 R☉ and has about 1.2% of the Sun's luminosity. It has an effective temperature of 3,570 K and is roughly 11 billion years old. In comparison, the Sun is about 4.6 billion years old and has an effective temperature of 5,778 K. Stars like Kapteyn's Star have the ability to live up to 100–200 billion years, ten to twenty times longer than the Sun will live.
+
+
+== Search for planets ==
+In 2014, Kapteyn's Star was announced to host two planets, Kapteyn b and Kapteyn c, based on Doppler spectroscopy observations by the HARPS spectrometer which is housed at the European Southern Observatory's La Silla Observatory in Chile, at the Keck Observatory in Hawaii, and at the PFS Observatory, also in Chile. Kapteyn b was described as the oldest-known potentially habitable planet, estimated to be 11 billion years old, while Kapteyn c was described as beyond the host star's habitable zone. The announcement of the planetary system was accompanied by a science-fiction short-story, "Sad Kapteyn", written by writer Alastair Reynolds.
+However, subsequent research by Robertson et al. (2015) found that the orbital period of Kapteyn b is an integer fraction (1/3) of their estimated stellar rotation period, and thus the planetary signal is most likely an artifact of stellar activity. The authors did not rule out the existence of Kapteyn c, calling for further observation. This refutation was questioned by the team that published the exoplanet discovery paper. Guinan et al. (2016) (as well as earlier authors) found a lower value for the stellar rotation, which lent support to the original planetary finding.
+In 2021, a new analysis found no evidence for either planet, and found that the observed radial velocity signals are in fact artifacts of the star's rotation and activity, after the rotational period of the star was refined, with a rotational period very similar to that of candidate c. There is currently no evidence for planets orbiting Kapteyn's Star.
+
+
+== See also ==
+Stars named after people
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+SolStation.com: Kapteyn's Star
+Press release on planetary system

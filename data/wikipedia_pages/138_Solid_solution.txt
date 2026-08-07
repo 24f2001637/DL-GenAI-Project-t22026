@@ -1,0 +1,213 @@
+Wikipedia article: Solid solution
+Source: https://en.wikipedia.org/wiki/Solid_solution
+PageID: 2221187
+======================================================================
+
+A solid solution, a term commonly used for metals, is a homogeneous mixture of two compounds in solid state and having a single crystal structure. Many examples can be found in metallurgy, geology, and solid-state chemistry. The word "solution" is used to describe the intimate mixing of components at the atomic level and distinguishes these homogeneous materials from physical mixtures of components. Two terms are mainly associated with solid solutions – solvents and solutes, depending on the relative abundance of the atomic species.
+The solute may incorporate into the solvent crystal lattice substitutionally, by replacing a solvent particle in the lattice, or interstitially, by fitting into the space between solvent particles.
+Solid solutions consist of fractional composition of one or more of its constituent ions between pure, isostructural extremes, known as end members or parents. For example, parent compounds sodium chloride (NaCl) and potassium chloride (KCl) have the same cubic crystal structure, so it is possible to make a solid solution with any ratio of sodium to potassium (Na1-xKx)Cl, eg. by dissolving that ratio of NaCl and KCl in water and then removing the water by evaporation. 
+An example of a solid solution in this family is sold under the brand name Lo Salt which is (Na0.33K0.66)Cl, hence it contains 66% less sodium than pure NaCl. Similarly, iodised salt is often composed of around 50-100 ppm of potassium iodide (KI) dissolved in a NaCl solvent. In contrast, an example of a physical mixture is the mineral sylvinite - this contains separate, large chunks of NaCl and KCl, and is therefore inhomogenous and not a solid solution.
+Because minerals are natural materials they are prone to large variations in composition. In many cases specimens are members for a solid solution family and geologists find it more helpful to discuss the composition of the family than an individual specimen. Olivine is described by the formula (Mg, Fe)2SiO4, which is equivalent to (Mg1−xFex)2SiO4. The ratio of magnesium to iron varies between the two endmembers of the solid solution series: forsterite (Mg-endmember: Mg2SiO4) and fayalite (Fe-endmember: Fe2SiO4) but the ratio in olivine is not normally defined. With increasingly complex compositions the geological notation becomes significantly easier to manage than the chemical notation.
+
+
+== Nomenclature ==
+The IUPAC definition of a solid solution is a "solid in which components are compatible and form a unique phase".
+The definition "crystal containing a second constituent which fits into and is distributed in the lattice of the host crystal" given in refs., is not general and, thus, is not recommended.
+The expression is to be used to describe a solid phase containing more than one substance when, for convenience, one (or more) of the substances, called the solvent, is treated differently from the other substances, called solutes.
+One or several of the components can be macromolecules. Some of the other components can then act as plasticizers, i.e., as molecularly dispersed substances that decrease the glass-transition temperature at which the amorphous phase of a polymer is converted between glassy and rubbery states.
+In pharmaceutical preparations, the concept of solid solution is often applied to the case of mixtures of drug and polymer.
+The number of drug molecules that do behave as solvent (plasticizer) of polymers is small.
+
+
+== Phase diagrams ==
+
+On a phase diagram a solid solution is represented by an area, often labeled with the structure type, which covers the compositional and temperature/pressure ranges. Where the end members are not isostructural there are likely to be two solid solution ranges with different structures dictated by the parents. In this case the ranges may overlap and the materials in this region can have either structure, or there may be a miscibility gap in solid state indicating that attempts to generate materials with this composition will result in mixtures. In areas on a phase diagram which are not covered by a solid solution there may be line phases, these are compounds with a known crystal structure and set stoichiometry. Where the crystalline phase consists of two (non-charged) organic molecules the line phase is commonly known as a cocrystal. In metallurgy alloys with a set composition are referred to as intermetallic compounds. A solid solution is likely to exist when the two elements (generally metals) involved are close together on the periodic table, an intermetallic compound generally results when two metals involved are not near each other on the periodic table.
+
+
+== Details ==
+The solute may incorporate into the solvent crystal lattice substitutionally, by replacing a solvent particle in the lattice, or interstitially, by fitting into the space between solvent particles. Both of these types of solid solution affect the properties of the material by distorting the crystal lattice and disrupting the physical and electrical homogeneity of the solvent material. When the atomic radius of a solute atom is larger than that of the solvent atom it replaces in a crystal structure, the unit cell generally expands to accommodate the larger atom. In this case, the composition of a solid solution can be calculated from the unit cell volume using a relationship known as Vegard's law.
+Some mixtures will readily form solid solutions over a range of concentrations, while other mixtures will not form solid solutions at all. The propensity for any two substances to form a solid solution is a complicated matter involving the chemical, crystallographic, and quantum properties of the substances in question. Substitutional solid solutions, in accordance with the Hume-Rothery rules, may form if the solute and solvent have:
+
+similar atomic radii (15% or less difference)
+the same crystal structure
+similar electronegativities
+similar valency
+A solid solution can mix with others to form a new solution.
+The binary phase diagram shown above displays an alloy of two metals which form a solid solution at all relative concentrations of the two species. In this case, the pure phase of each element is of the same crystal structure, and the similar properties of the two elements allow for unbiased substitution through the full range of relative concentrations. Solid solution of pseudo-binary systems in complex systems with three or more components may require a more involved representation of the phase diagram with more than one solvus curves drawn corresponding to different equilibrium chemical conditions.
+Solid solutions have important commercial and industrial applications, as such mixtures often have superior properties to those of the pure constituents. Many metal alloys are solid solutions. Even small amounts of solute can markedly affect the electrical and physical properties of the solvent.
+
+The binary phase diagram in the above diagram shows the phases of a mixture of two substances in varying concentrations, 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ and 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+. The region labeled "
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+" is a solid solution, with 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ acting as the solute in a matrix of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+. On the other end of the concentration scale, the region labeled "
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  
+" is also a solid solution, with 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ acting as the solute in a matrix of 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+. The large solid region in between the 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ and 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  
+ solid solutions, labeled "
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ + 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  
+", is not a solid solution. Instead, an examination of the microstructure of a mixture in this range would reveal two phases—solid solution 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+-in-
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ and solid solution 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+-in-
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ would form separate phases, perhaps lamella or grains.
+
+
+== Application ==
+In the phase diagram, at three different concentrations, the material will be solid until  heated to its melting point, and then (after adding the heat of fusion) become liquid at that same temperature:
+
+the unalloyed extreme left
+the unalloyed extreme right
+the dip in the center (the eutectic composition).
+At other proportions, the material will enter a mushy or pasty phase until it warms up to being completely melted.
+The mixture at the dip point of the diagram is called a eutectic alloy. Lead-tin mixtures formulated at that point (37/63 mixture) are useful when soldering electronic components, particularly if done manually, since the solid phase is quickly entered as the solder cools. In contrast, when lead-tin mixtures were used to solder seams in automobile bodies a pasty state enabled a shape to be formed with a wooden paddle or tool, so a 70–30 lead to tin ratio was used. (Lead is being removed from such applications owing to its toxicity and consequent difficulty in recycling devices and components that include lead.)
+
+
+== Exsolution ==
+
+When a solid solution becomes unstable—due to a lower temperature, for example—exsolution occurs and the two phases separate into distinct microscopic to megascopic lamellae. This is mainly caused by difference in cation size. Cations which have a large difference in radii are not likely to readily substitute.
+Alkali feldspar minerals, for example, have end members of albite, NaAlSi3O8 and microcline, KAlSi3O8. At high temperatures Na+ and K+ readily substitute for each other and so the minerals will form a solid solution, yet at low temperatures albite can only substitute a small amount of K+ and the same applies for Na+ in the microcline. This leads to exsolution where they will separate into two separate phases. In the case of the alkali feldspar minerals, thin white albite layers will alternate between typically pink microcline, resulting in a perthite texture.
+
+
+== See also ==
+Solid solution strengthening
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+DoITPoMS Teaching and Learning Package—"Solid Solutions"

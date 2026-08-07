@@ -1,0 +1,564 @@
+Wikipedia article: Ring-imaging Cherenkov detector
+Source: https://en.wikipedia.org/wiki/Ring-imaging_Cherenkov_detector
+PageID: 1379266
+======================================================================
+
+The ring-imaging Cherenkov, or RICH, detector is a device for identifying the type of an electrically charged subatomic particle of known momentum, that traverses a transparent refractive medium, by measurement of the presence and characteristics of the Cherenkov radiation emitted during that traversal. RICH detectors were first developed in the 1980s and are used in high energy elementary particle-, nuclear- and astro-physics experiments.
+
+
+== The RICH detector ==
+
+
+=== Origins ===
+The ring-imaging detection technique was first proposed by Jacques Séguinot and Tom Ypsilantis, working at CERN in 1977. Their research and development, of high precision single-photon detectors and related optics, lay the foundations for the design development  and construction of the first large-scale Particle Physics RICH detectors, at CERN's OMEGA facility and LEP (Large Electron–Positron Collider) DELPHI experiment.
+
+
+=== Principles ===
+A ring-imaging Cherenkov (RICH) detector allows the identification of electrically charged subatomic particle types through the detection of the Cherenkov radiation  emitted (as photons) by the particle in traversing a medium with refractive index  
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ > 1.  The identification is achieved by measurement of the angle of emission, 
+  
+    
+      
+        
+          θ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \theta _{c}}
+  
+, of the Cherenkov radiation, which is related to the charged particle's velocity 
+  
+    
+      
+        v
+      
+    
+    {\displaystyle v}
+  
+ by
+
+  
+    
+      
+        cos
+        ⁡
+        
+          θ
+          
+            c
+          
+        
+        =
+        
+          
+            c
+            
+              n
+              v
+            
+          
+        
+      
+    
+    {\displaystyle \cos \theta _{c}={\frac {c}{nv}}}
+  
+
+where 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  
+ is the speed of light.
+
+Knowledge of the particle's momentum and direction (normally available from an associated momentum-spectrometer) allows a predicted 
+  
+    
+      
+        v
+      
+    
+    {\displaystyle v}
+  
+ for each hypothesis of the particles type; using the known 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ of the RICH radiator gives a corresponding prediction of 
+  
+    
+      
+        
+          θ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \theta _{c}}
+  
+ that can be compared to the 
+  
+    
+      
+        
+          θ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \theta _{c}}
+  
+ of the detected Cherenkov photons, thus indicating the particle's identity (usually as a probability per particle type).  A typical (simulated) distribution of 
+  
+    
+      
+        
+          θ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \theta _{c}}
+  
+ vs momentum of the source particle, for single Cherenkov photons, produced in a gaseous radiator (n~1.0005, angular resolution~0.6mrad) is shown in the following Fig.1: 
+The different particle types follow distinct contours of constant mass, smeared by the effective angular resolution of the RICH detector; at higher momenta each particle emits a number of Cherenkov photons which, taken together, give a more precise measure of the average 
+  
+    
+      
+        
+          θ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \theta _{c}}
+  
+ than does a single photon (see Fig.3 below), allowing effective particle separation to extend beyond 100 GeV in this example.
+This particle identification is essential for the detailed understanding of the intrinsic physics of the structure and interactions of elementary particles.  The essence of the ring-imaging method is to devise an optical system with single-photon detectors, that can isolate the Cherenkov photons that each particle emits, to form a single "ring image" from which an accurate 
+  
+    
+      
+        
+          θ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \theta _{c}}
+  
+ can be determined.
+
+A polar plot of the Cherenkov angles of photons associated with a 22 GeV/c particle in a radiator with 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+=1.0005 is shown in Fig.2; both pion and kaon are illustrated; protons are below Cherenkov threshold,
+
+  
+    
+      
+        c
+        
+          /
+        
+        n
+        v
+        >
+        1
+      
+    
+    {\displaystyle c/nv>1}
+  
+, producing no radiation in this case (which would also be a very clear signal of particle type = proton, since fluctuations in the number of photons follow Poisson statistics about the expected mean, so that the probability of e.g. a 22 GeV/c kaon producing zero photons when ~12 were expected is very small; e−12 or 1 in 162755). The number of detected photons shown for each particle type is, for illustration purposes, the average for that type in a RICH having 
+  
+    
+      
+        
+          N
+          
+            c
+          
+        
+      
+    
+    {\displaystyle N_{c}}
+  
+ ~ 25 (see below). The distribution in azimuth is random between 0 and 360 degrees; the distribution in 
+  
+    
+      
+        
+          θ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \theta _{c}}
+  
+ is spread with RMS angular resolution  ~ 0.6 milliradians.
+Note that, because the points of emission of the photons can be at any place on the (normally straight line) trajectory of the particle through the radiator, the emerging photons occupy a light-cone in space.
+
+In a RICH detector the photons within this light-cone pass through an optical system and impinge upon a position sensitive photon detector. With a suitably focusing optical system this allows reconstruction of a ring, similar to that above in Fig.2, the radius of which gives a measure of the Cherenkov emission angle 
+  
+    
+      
+        
+          θ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \theta _{c}}
+  
+.
+The resolving power of this method is illustrated by comparing the Cherenkov angle per photon, see the first plot, Fig.1 above, with the mean Cherenkov angle per  particle (averaged over all photons emitted by that particle) obtained by ring-imaging, shown in Fig.3; the greatly enhanced separation between particle types is very clear.
+
+
+=== Optical Precision and Response ===
+This ability of a RICH system to successfully resolve different hypotheses for the particle type depends on two principal factors, which in turn depend upon the listed sub-factors;
+
+The effective angular resolution per photon, 
+  
+    
+      
+        σ
+      
+    
+    {\displaystyle \sigma }
+  
+
+Chromatic dispersion in the radiator (
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ varies with photon frequency)
+Aberrations in the optical system
+Position resolution of the photon detector
+The maximum number of detected photons in the ring-image, 
+  
+    
+      
+        
+          N
+          
+            c
+          
+        
+      
+    
+    {\displaystyle N_{c}}
+  
+
+The length of radiator through which the particle travels
+Photon transmission through the radiator material
+Photon transmission through the optical system
+Quantum efficiency of the photon detectors
+
+  
+    
+      
+        σ
+      
+    
+    {\displaystyle \sigma }
+  
+ is a measure of the intrinsic optical precision of the RICH detector. 
+  
+    
+      
+        
+          N
+          
+            c
+          
+        
+      
+    
+    {\displaystyle N_{c}}
+  
+ is a measure of the optical response of the RICH; it can be thought of as the limiting case of the number of actually detected photons produced by a particle whose velocity approaches that of light, averaged over all relevant particle trajectories in the RICH detector.   The average number of Cherenkov photons detected, for a slower particle, of charge 
+  
+    
+      
+        q
+      
+    
+    {\displaystyle q}
+  
+ (normally ±1), emitting photons at angle 
+  
+    
+      
+        
+          θ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \theta _{c}}
+  
+ is then
+
+  
+    
+      
+        N
+        =
+        
+          
+            
+              
+                
+                  N
+                  
+                    c
+                  
+                
+                
+                  q
+                  
+                    2
+                  
+                
+                
+                  sin
+                  
+                    2
+                  
+                
+                ⁡
+                (
+                
+                  θ
+                  
+                    c
+                  
+                
+                )
+              
+              
+                1
+                −
+                
+                  
+                    
+                      1
+                      
+                        n
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle N={\dfrac {N_{c}q^{2}\sin ^{2}(\theta _{c})}{1-{\dfrac {1}{n^{2}}}}}}
+  
+
+and the precision with which the mean Cherenkov angle can be determined with these photons is approximately
+
+  
+    
+      
+        
+          σ
+          
+            m
+          
+        
+        =
+        
+          
+            σ
+            
+              N
+            
+          
+        
+      
+    
+    {\displaystyle \sigma _{m}={\frac {\sigma }{\sqrt {N}}}}
+  
+
+to which the angular precision of the emitting particle's measured direction must be added in quadrature, if it is not negligible compared to 
+  
+    
+      
+        
+          σ
+          
+            m
+          
+        
+      
+    
+    {\displaystyle \sigma _{m}}
+  
+.
+
+
+=== Particle Identification ===
+Given the known momentum of the emitting particle and the refractive index of the radiator, the expected Cherenkov angle for each particle type can be predicted, and its difference from the observed mean Cherenkov angle calculated.  Dividing this difference by  
+  
+    
+      
+        
+          σ
+          
+            m
+          
+        
+      
+    
+    {\displaystyle \sigma _{m}}
+  
+ then gives a measure of the 'number of sigma' deviation of the hypothesis from the observation, which can be used in computing a probability or likelihood for each possible hypothesis.  The following Fig.4 shows the 'number of sigma' deviation of the kaon hypothesis from a true pion ring image (π not k) and of the pion hypothesis from a true kaon ring image (k not π), as a function of momentum, for a RICH with 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ = 1.0005, 
+  
+    
+      
+        
+          N
+          
+            c
+          
+        
+      
+    
+    {\displaystyle N_{c}}
+  
+ = 25, 
+  
+    
+      
+        σ
+      
+    
+    {\displaystyle \sigma }
+  
+ = 0.64 milliradians;
+
+Also shown are the average number of detected photons from pions(Ngπ) or from kaons(Ngk). One can see that the RICH's ability to separate the two particle types exceeds 4-sigma everywhere between threshold and 80 GeV/c, finally dropping below 3-sigma at about 100 GeV.
+It is important to note that this result is for an 'ideal' detector, with homogeneous acceptance and efficiency, normal error distributions and zero background.  No such detector exists, of course, and in a real experiment much more sophisticated procedures are actually used to account for those effects; position dependent acceptance and efficiency; non-Gaussian error distributions; non negligible and variable event-dependent backgrounds, where the signal from any track is a background to the rest.
+In practice, for the multi-particle final states produced in a typical collider experiment, separation of kaons from other final state hadrons, mainly pions, is the most important purpose of the RICH.  In that context the two most vital RICH functions, which maximise signal and minimise combinatorial backgrounds, are its ability to correctly identify a kaon as a kaon and its ability not to misidentify a pion as a kaon. The related probabilities, which are the usual measures of signal detection and background rejection in real data,  are plotted in Fig.5 below to show their variation with momentum (simulation with 10% random background);
+
+Note that the ~30% π → k misidentification rate at 100 GeV is, for the most part, due to the presence of 10% background hits (faking photons) in the simulated detector; the 3-sigma separation in the mean Cherenkov angle (shown in Fig.4 above) would, by itself, only account for about 6% misidentification. More detailed analyses of the above type, for operational RICH detectors, can be found in the published literature.
+For example, the LHCb experiment at the CERN LHC studies, amongst other B-meson decays, the particular process B0 → π+π−. The following Fig.6 shows, on the left, the π+π− mass distribution without RICH identification, where all particles are assumed to be π; the B0 → π+π− signal of interest is the turquoise-dotted line and is completely swamped by background due to B and  Λ decays involving kaons and protons, and combinatorial background from particles not associated with the B0 decay.
+
+On the right are the same data with RICH identification used to select only pions and reject kaons and protons; the B0 → π+π− signal is preserved but all kaon- and proton-related backgrounds are greatly reduced, so that the overall B0 signal/background has improved by a factor ~ 6, allowing much more precise measurement of the decay process.
+
+
+=== RICH Types ===
+
+Both focusing and proximity-focusing detectors are in use (Fig.7). In a focusing RICH detector, the photons are collected by a spherical mirror with focal length 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ and focused onto the photon detector placed at the focal plane. The result is a circle with a radius 
+  
+    
+      
+        r
+        =
+        f
+        
+          θ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle r=f\theta _{c}}
+  
+, independent of the emission point along the particle's track (
+  
+    
+      
+        
+          θ
+          
+            c
+          
+        
+        ≪
+        1
+      
+    
+    {\displaystyle \theta _{c}\ll 1}
+  
+). This scheme is suitable for low refractive index radiators (i.e., gases) with their larger radiator length needed to create enough photons.
+In the more compact proximity-focusing design a thin radiator volume emits a cone of Cherenkov light which traverses a small distance, the proximity gap, and is detected on the photon detector plane. The image is a ring of light the radius of which is defined by the Cherenkov emission angle and the proximity gap. The ring thickness is mainly determined by the thickness of the radiator. An example of a proximity gap RICH detector is the High Momentum Particle Identification (HMPID Archived 2020-05-12 at the Wayback Machine), one of the detectors of ALICE (A Large Ion Collider Experiment), which is one of the five experiments at the LHC (Large Hadron Collider) at CERN.
+
+In a DIRC (Detection of Internally Reflected Cherenkov light, Fig.8), another design of a RICH detector, light that is captured by total internal reflection inside the solid radiator reaches the light sensors at the detector perimeter, the precise rectangular cross section of the radiator preserving the angular information of the Cherenkov light cone. One example is the DIRC of the BaBar experiment at SLAC.
+
+The LHCb experiment on the Large Hadron Collider, Fig.9, uses two RICH detectors for differentiating between pions and kaons. The first (RICH-1) is located immediately after the Vertex Locator (VELO) around the interaction point and is optimised for low-momentum particles and the second (RICH-2) is located after the magnet and particle-tracker layers and optimised for higher-momentum particles.
+
+The Alpha Magnetic Spectrometer device AMS-02, Fig.10, recently mounted on the International Space Station uses a RICH detector in combination with other devices to analyze cosmic rays.
+
+
+== References ==

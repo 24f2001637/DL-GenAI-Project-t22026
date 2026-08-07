@@ -1,0 +1,1425 @@
+Wikipedia article: Compton scattering
+Source: https://en.wikipedia.org/wiki/Compton_scattering
+PageID: 55236
+======================================================================
+
+Compton scattering (or the Compton effect) is the quantum theory of scattering of a high-frequency photon through an interaction with a charged particle, usually an electron. Specifically, when the photon interacts with a loosely bound electron, it releases the electron from an outer valence shell of an atom or molecule.
+The effect was discovered in 1923 by Arthur Holly Compton while researching the scattering of X-rays by light elements, which earned him the Nobel Prize in Physics in 1927. The Compton effect significantly deviated from dominating classical theories, using both special relativity and quantum mechanics to explain the interaction between high frequency photons and charged particles.
+Photons can interact with matter at the atomic level (e.g. photoelectric effect and Rayleigh scattering), at the nucleus, or with only an electron. Pair production and the Compton effect occur at the level of the electron. When a high-frequency photon scatters due to an interaction with a charged particle, the photon's energy is reduced, and thus its wavelength is increased.  This trade-off between wavelength and energy in response to the collision is the Compton effect.  Because of conservation of energy, the energy that is lost by the photon is transferred to the recoiling particle (such an electron would be called a "Compton recoil electron").
+This implies that if the recoiling particle initially carried more energy than the photon has, the reverse would occur. This is known as inverse Compton scattering, in which the scattered photon increases in energy.
+
+
+== Introduction ==
+
+In Compton's original experiment (see Fig. 1), the energy of the X-ray photon (≈ 17 keV) was significantly larger than the binding energy of the atomic electron, so the electrons could be treated as being free after scattering. The amount by which the light's wavelength changes is called the Compton shift. Although Compton scattering from a nucleus exists, Compton scattering usually refers to the interaction involving only the electrons of an atom. The Compton effect was observed by Arthur Holly Compton in 1923 at Washington University in St. Louis and further verified by his graduate student Y. H. Woo in the years following. Compton was awarded the 1927 Nobel Prize in Physics for the discovery.
+The effect is significant because it demonstrates that light cannot be explained purely as a wave phenomenon. Thomson scattering, the classical theory of an electromagnetic wave scattered by charged particles, cannot explain shifts in wavelength at low intensity: classically, light of sufficient intensity for the electric field to accelerate a charged particle to a relativistic speed will cause radiation-pressure recoil and an associated Doppler shift of the scattered light, but the effect would become arbitrarily small at sufficiently low light intensities regardless of wavelength. Thus, if we are to explain low-intensity Compton scattering, light must behave as if it consists of particles. Or the assumption that the electron can be treated as free is invalid resulting in the effectively infinite electron mass equal to the nuclear mass (see e.g. the comment below on elastic scattering of X-rays being from that effect). Compton's experiment convinced physicists that light can be treated as a stream of particle-like objects (quanta called photons), whose energy is proportional to the light wave's frequency.
+As shown in Fig. 2, the interaction between an electron and a photon results in the electron being given part of the energy (making it recoil), and a photon of the remaining energy being emitted in a different direction from the original, so that the overall momentum of the system is also conserved. If the scattered photon still has enough energy, the process may be repeated. In this scenario, the electron is treated as free or loosely bound. Experimental verification of momentum conservation in individual Compton scattering processes by Bothe and Geiger as well as by Compton and Simon has been important in disproving the BKS theory.
+Compton scattering is commonly described as inelastic scattering. This is because, unlike the more common Thomson scattering that happens at the low-energy limit, the energy in the scattered photon in Compton scattering is less than the energy of the incident photon. As the electron is typically weakly bound to the atom, the scattering can be viewed from either the perspective of an electron in a potential well, or as an atom with a small ionization energy. In the former perspective, energy of the incident photon is transferred to the recoil particle, but only as kinetic energy. The electron gains no internal energy, respective masses remain the same, the mark of an elastic collision. From this perspective, Compton scattering could be considered elastic because the internal state of the electron does not change during the scattering process. In the latter perspective, the atom's state is changed, constituting an inelastic collision. Whether Compton scattering is considered elastic or inelastic depends on which perspective is being used, as well as the context.
+Compton scattering is one of four competing processes when photons interact with matter. At energies of a few eV to a few keV, corresponding to visible light through soft X-rays, a photon can be completely absorbed and its energy can eject an electron from its host atom, a process known as the photoelectric effect. High-energy photons of 1.022 MeV and above may bombard the nucleus and cause an electron and a positron to be formed, a process called pair production; even-higher-energy photons (beyond a threshold energy of at least 1.670 MeV, depending on the nuclei involved), can eject a nucleon or alpha particle from the nucleus in a process called photodisintegration. Compton scattering is the most important interaction in the intervening energy region, at photon energies greater than those typical of the photoelectric effect but less than the pair-production threshold.
+
+
+== Description of the phenomenon ==
+
+By the early 20th century, research into the interaction of X-rays with matter was well under way. It was observed that when X-rays of a known wavelength interact with atoms, the X-rays are scattered through an angle 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ and emerge at a different wavelength related to 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+. Although classical electromagnetism predicted that the wavelength of scattered rays should be equal to the initial wavelength, multiple experiments had found that the wavelength of the scattered rays was longer (corresponding to lower energy) than the initial wavelength.
+In 1923, Compton published a paper that explained the X-ray shift by attributing particle-like momentum to light quanta (Albert Einstein had proposed light quanta in 1905 in explaining the photo-electric effect, but Compton did not build on Einstein's work). The energy of light quanta depends only on the frequency of the light. In his paper, Compton derived the mathematical relationship between the shift in wavelength and the scattering angle of the X-rays by assuming that each scattered X-ray photon interacted with only one electron.  His paper concludes by reporting on experiments which verified his derived relation:
+
+  
+    
+      
+        
+          λ
+          ′
+        
+        −
+        λ
+        =
+        
+          
+            h
+            
+              
+                m
+                
+                  e
+                
+              
+              c
+            
+          
+        
+        (
+        1
+        −
+        cos
+        ⁡
+        
+          θ
+        
+        )
+        ,
+      
+    
+    {\displaystyle \lambda '-\lambda ={\frac {h}{m_{\text{e}}c}}(1-\cos {\theta }),}
+  
+
+where
+
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  
+ is the initial wavelength,
+
+  
+    
+      
+        
+          λ
+          ′
+        
+      
+    
+    {\displaystyle \lambda '}
+  
+ is the wavelength after scattering,
+
+  
+    
+      
+        h
+      
+    
+    {\displaystyle h}
+  
+ is the Planck constant,
+
+  
+    
+      
+        
+          m
+          
+            e
+          
+        
+      
+    
+    {\displaystyle m_{\text{e}}}
+  
+ is the electron mass,
+
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  
+ is the speed of light, and
+
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ is the scattering angle.
+The quantity ⁠h/mec⁠ is known as the Compton wavelength of the electron; it is equal to 2.43×10−12 m. The wavelength shift λ′ − λ is at least zero (for θ = 0°) and at most twice the Compton wavelength of the electron (for θ = 180°).
+Compton found that some X-rays experienced no wavelength shift despite being scattered through large angles; in each of these cases the photon failed to eject an electron. Thus the magnitude of the shift is related not to the Compton wavelength of the electron, but to the Compton wavelength of the entire atom, which can be upwards of 10000 times smaller.  This is known as "coherent" scattering off the entire atom since the atom remains intact, gaining no internal excitation.
+In Compton's original experiments the wavelength shift given above was the directly measurable observable.  In modern experiments it is conventional to measure the energies, not the wavelengths, of the scattered photons.  For a given incident energy 
+  
+    
+      
+        
+          E
+          
+            γ
+          
+        
+        =
+        h
+        c
+        
+          /
+        
+        λ
+      
+    
+    {\displaystyle E_{\gamma }=hc/\lambda }
+  
+, the outgoing final-state photon energy, 
+  
+    
+      
+        
+          E
+          
+            
+              γ
+              
+                ′
+              
+            
+          
+        
+      
+    
+    {\displaystyle E_{\gamma ^{\prime }}}
+  
+, is given by
+
+  
+    
+      
+        
+          E
+          
+            
+              γ
+              
+                ′
+              
+            
+          
+        
+        =
+        
+          
+            
+              E
+              
+                γ
+              
+            
+            
+              1
+              +
+              (
+              
+                E
+                
+                  γ
+                
+              
+              
+                /
+              
+              
+                m
+                
+                  e
+                
+              
+              
+                c
+                
+                  2
+                
+              
+              )
+              (
+              1
+              −
+              cos
+              ⁡
+              θ
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle E_{\gamma ^{\prime }}={\frac {E_{\gamma }}{1+(E_{\gamma }/m_{\text{e}}c^{2})(1-\cos \theta )}}.}
+  
+
+
+=== Derivation of the scattering formula ===
+
+A photon γ with wavelength λ collides with an electron e in an atom, which is treated as being at rest. The collision causes the electron to recoil, and a new photon γ′ with wavelength λ′ emerges at angle θ from the photon's incoming path. Let e′ denote the electron after the collision. Compton allowed for the possibility that the interaction would sometimes accelerate the electron to speeds sufficiently close to the velocity of light as to require the application of Einstein's special relativity theory to properly describe its energy and momentum.
+At the conclusion of Compton's 1923 paper, he reported results of experiments confirming the predictions of his scattering formula, thus supporting the assumption that photons carry momentum as well as quantized energy.  At the start of his derivation, he had postulated an expression for the momentum of a photon from equating Einstein's already established mass-energy relationship of E = mc2 to the quantized photon energies of hf, which Einstein had separately postulated. If mc2 = hf, the equivalent photon mass must be hf/c2. The photon's momentum is then simply this effective mass times the photon's frame-invariant velocity c. For a photon, its momentum 
+  
+    
+      
+        p
+        =
+        h
+        f
+        
+          /
+        
+        c
+      
+    
+    {\displaystyle p=hf/c}
+  
+, and thus hf  can be substituted for pc for all photon momentum terms which arise in course of the derivation below. The derivation which appears in Compton's paper is more terse, but follows the same logic in the same sequence as the following derivation.
+The conservation of energy E merely equates the sum of energies before and after scattering.
+
+  
+    
+      
+        
+          E
+          
+            γ
+          
+        
+        +
+        
+          E
+          
+            e
+          
+        
+        =
+        
+          E
+          
+            
+              γ
+              ′
+            
+          
+        
+        +
+        
+          E
+          
+            
+              
+                e
+              
+              ′
+            
+          
+        
+        .
+      
+    
+    {\displaystyle E_{\gamma }+E_{\text{e}}=E_{\gamma '}+E_{{\text{e}}'}.}
+  
+
+Compton postulated that photons carry momentum; thus from the conservation of momentum, the momenta of the particles should be similarly related by
+
+  
+    
+      
+        
+          
+            p
+          
+          
+            γ
+          
+        
+        =
+        
+          
+            p
+          
+          
+            
+              γ
+              ′
+            
+          
+        
+        +
+        
+          
+            p
+          
+          
+            
+              
+                e
+              
+              ′
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {p} _{\gamma }=\mathbf {p} _{\gamma '}+\mathbf {p} _{{\text{e}}'},}
+  
+
+in which pe is omitted as being negligible.
+The photon energies are related to the frequencies by
+
+  
+    
+      
+        
+          E
+          
+            γ
+          
+        
+        =
+        h
+        f
+      
+    
+    {\displaystyle E_{\gamma }=hf}
+  
+
+  
+    
+      
+        
+          E
+          
+            
+              γ
+              ′
+            
+          
+        
+        =
+        h
+        
+          f
+          ′
+        
+      
+    
+    {\displaystyle E_{\gamma '}=hf'}
+  
+
+where h is the Planck constant.
+Before the scattering event, the electron is treated as sufficiently close to being at rest that its total energy consists entirely of the mass–energy equivalence of its rest mass me,
+
+  
+    
+      
+        
+          E
+          
+            e
+          
+        
+        =
+        
+          m
+          
+            e
+          
+        
+        
+          c
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle E_{\text{e}}=m_{\text{e}}c^{2}.}
+  
+
+After scattering, the possibility that the electron might be accelerated to a significant fraction of the speed of light, requires that its total energy be represented using the relativistic energy–momentum relation
+
+  
+    
+      
+        
+          E
+          
+            
+              
+                e
+              
+              ′
+            
+          
+        
+        =
+        
+          
+            (
+            
+              p
+              
+                
+                  
+                    e
+                  
+                  ′
+                
+              
+            
+            c
+            
+              )
+              
+                2
+              
+            
+            +
+            (
+            
+              m
+              
+                e
+              
+            
+            
+              c
+              
+                2
+              
+            
+            
+              )
+              
+                2
+              
+            
+          
+        
+         
+        .
+      
+    
+    {\displaystyle E_{{\text{e}}'}={\sqrt {(p_{{\text{e}}'}c)^{2}+(m_{\text{e}}c^{2})^{2}}}~.}
+  
+
+Substituting these quantities into the expression for the conservation of energy gives
+
+  
+    
+      
+        h
+        f
+        +
+        
+          m
+          
+            e
+          
+        
+        
+          c
+          
+            2
+          
+        
+        =
+        h
+        
+          f
+          ′
+        
+        +
+        
+          
+            (
+            
+              p
+              
+                
+                  
+                    e
+                  
+                  ′
+                
+              
+            
+            c
+            
+              )
+              
+                2
+              
+            
+            +
+            (
+            
+              m
+              
+                e
+              
+            
+            
+              c
+              
+                2
+              
+            
+            
+              )
+              
+                2
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle hf+m_{\text{e}}c^{2}=hf'+{\sqrt {(p_{{\text{e}}'}c)^{2}+(m_{\text{e}}c^{2})^{2}}}.}
+  
+
+This expression can be used to find the magnitude of the momentum of the scattered electron,
+
+Note that this magnitude of the momentum gained by the electron (formerly zero) exceeds the energy/c lost by the photon,
+
+  
+    
+      
+        
+          
+            1
+            c
+          
+        
+        
+          
+            (
+            h
+            f
+            −
+            h
+            
+              f
+              ′
+            
+            +
+            
+              m
+              
+                e
+              
+            
+            
+              c
+              
+                2
+              
+            
+            
+              )
+              
+                2
+              
+            
+            −
+            
+              m
+              
+                e
+              
+              
+                2
+              
+            
+            
+              c
+              
+                4
+              
+            
+          
+        
+        >
+        
+          
+            
+              h
+              f
+              −
+              h
+              
+                f
+                ′
+              
+            
+            c
+          
+        
+         
+        .
+      
+    
+    {\displaystyle {\frac {1}{c}}{\sqrt {(hf-hf'+m_{\text{e}}c^{2})^{2}-m_{\text{e}}^{2}c^{4}}}>{\frac {hf-hf'}{c}}~.}
+  
+
+Equation (1) relates the various energies associated with the collision. The electron's momentum change involves a relativistic change in the energy of the electron, so it is not simply related to the change in energy   occurring in classical physics.  The change of the magnitude of the momentum of the photon is not just related to the change of its energy; it also involves a change in direction.
+Solving the conservation of momentum expression for the scattered electron's momentum gives
+
+  
+    
+      
+        
+          
+            p
+          
+          
+            
+              
+                e
+              
+              ′
+            
+          
+        
+        =
+        
+          
+            p
+          
+          
+            γ
+          
+        
+        −
+        
+          
+            p
+          
+          
+            
+              γ
+              ′
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \mathbf {p} _{{\text{e}}'}=\mathbf {p} _{\gamma }-\mathbf {p} _{\gamma '}.}
+  
+
+Making use of the scalar product yields the square of its magnitude,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  p
+                  
+                    
+                      
+                        e
+                      
+                      ′
+                    
+                  
+                  
+                    
+                    2
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    p
+                  
+                  
+                    
+                      
+                        e
+                      
+                      ′
+                    
+                  
+                
+                ⋅
+                
+                  
+                    p
+                  
+                  
+                    
+                      
+                        e
+                      
+                      ′
+                    
+                  
+                
+                =
+                (
+                
+                  
+                    p
+                  
+                  
+                    γ
+                  
+                
+                −
+                
+                  
+                    p
+                  
+                  
+                    
+                      γ
+                      ′
+                    
+                  
+                
+                )
+                ⋅
+                (
+                
+                  
+                    p
+                  
+                  
+                    γ
+                  
+                
+                −
+                
+                  
+                    p
+                  
+                  
+                    
+                      γ
+                      ′
+                    
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  p
+                  
+                    γ
+                  
+                  
+                    
+                    2
+                  
+                
+                +
+                
+                  p
+                  
+                    
+                      γ
+                      ′
+                    
+                  
+                  
+                    
+                    2
+                  
+                
+                −
+                2
+                
+                  p
+                  
+                    γ
+                  
+                
+                
+                
+                  p
+                  
+                    
+                      γ
+                      ′
+                    
+                  
+                
+                cos
+                ⁡
+                θ
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}p_{{\text{e}}'}^{\,2}&=\mathbf {p} _{{\text{e}}'}\cdot \mathbf {p} _{{\text{e}}'}=(\mathbf {p} _{\gamma }-\mathbf {p} _{\gamma '})\cdot (\mathbf {p} _{\gamma }-\mathbf {p} _{\gamma '})\\&=p_{\gamma }^{\,2}+p_{\gamma '}^{\,2}-2p_{\gamma }\,p_{\gamma '}\cos \theta .\end{aligned}}}
+  
+
+In anticipation of 
+  
+    
+      
+        
+          p
+          
+            γ
+          
+        
+        c
+      
+    
+    {\displaystyle p_{\gamma }c}
+  
+ being replaced  with hf, multiply both sides by c2,
+
+  
+    
+      
+        
+          p
+          
+            
+              
+                e
+              
+              ′
+            
+          
+          
+            
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+        =
+        
+          p
+          
+            γ
+          
+          
+            
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+        +
+        
+          p
+          
+            
+              γ
+              ′
+            
+          
+          
+            
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+        −
+        2
+        
+          c
+          
+            2
+          
+        
+        
+          p
+          
+            γ
+          
+        
+        
+        
+          p
+          
+            
+              γ
+              ′
+            
+          
+        
+        cos
+        ⁡
+        θ
+        .
+      
+    
+    {\displaystyle p_{{\text{e}}'}^{\,2}c^{2}=p_{\gamma }^{\,2}c^{2}+p_{\gamma '}^{\,2}c^{2}-2c^{2}p_{\gamma }\,p_{\gamma '}\cos \theta .}
+  
+
+After replacing the photon momentum terms with hf/c, we get a second expression for the magnitude of the momentum of the scattered electron,
+
+Equating the alternate expressions for this momentum gives
+
+  
+    
+      
+        (
+        h
+        f
+        −
+        h
+        
+          f
+          ′
+        
+        +
+        
+          m
+          
+            e
+          
+        
+        
+          c
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        −
+        
+          m
+          
+            e
+          
+          
+            
+            2
+          
+        
+        
+          c
+          
+            4
+          
+        
+        =
+        
+          
+            (
+            
+              h
+              f
+            
+            )
+          
+          
+            2
+          
+        
+        +
+        
+          
+            (
+            
+              h
+              
+                f
+                ′
+              
+            
+            )
+          
+          
+            2
+          
+        
+        −
+        2
+        
+          h
+          
+            2
+          
+        
+        f
+        
+          f
+          ′
+        
+        cos
+        ⁡
+        
+          θ
+        
+        ,
+      
+    
+    {\displaystyle (hf-hf'+m_{\text{e}}c^{2})^{2}-m_{\text{e}}^{\,2}c^{4}=\left(hf\right)^{2}+\left(hf'\right)^{2}-2h^{2}ff'\cos {\theta },}
+  
+
+which, after evaluating the square and canceling and rearranging terms, further  yields
+
+  
+    
+      
+        2
+        h
+        f
+        
+          m
+          
+            e
+          
+        
+        
+          c
+          
+            2
+          
+        
+        −
+        2
+        h
+        
+          f
+          ′
+        
+        
+          m
+          
+            e
+          
+        
+        
+          c
+          
+            2
+          
+        
+        =
+        2
+        
+          h
+          
+            2
+          
+        
+        f
+        
+          f
+          ′
+        
+        
+          (
+          
+            1
+            −
+            cos
+            ⁡
+            θ
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle 2hfm_{\text{e}}c^{2}-2hf'm_{\text{e}}c^{2}=2h^{2}ff'\left(1-\cos \theta \right).}
+  
+
+Dividing both sides by 2hff′mec yields
+
+  
+    
+      
+        
+          
+            c
+            
+              f
+              ′
+            
+          
+        
+        −
+        
+          
+            c
+            f
+          
+        
+        =
+        
+          
+            h
+            
+              
+                m
+                
+                  e
+                
+              
+              c
+            
+          
+        
+        
+          (
+          
+            1
+            −
+            cos
+            ⁡
+            θ
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle {\frac {c}{f'}}-{\frac {c}{f}}={\frac {h}{m_{\text{e}}c}}\left(1-\cos \theta \right).}
+  
+
+Finally, since fλ = f′λ′ = c,
+
+It can further be seen that the angle φ of the outgoing electron with the direction of the incoming photon is specified by 
+
+
+== Applications ==
+Compton scattering is of prime importance to radiobiology, as it is the most probable interaction of gamma rays and high energy X-rays with atoms in living beings and is applied in radiation therapy.
+
+Compton scattering is an important effect in gamma spectroscopy which gives rise to the Compton edge, as it is possible for the gamma rays to scatter out of the detectors used. Compton suppression is used to detect stray scatter gamma rays to counteract this effect.
+
+
+=== Magnetic Compton scattering ===
+Magnetic Compton scattering is an extension of the previously mentioned technique which involves the magnetisation of a crystal sample hit with high energy, circularly polarised photons. By measuring the scattered photons' energy and reversing the magnetisation of the sample, two different Compton profiles are generated (one for spin up momenta and one for spin down momenta). Taking the difference between these two profiles gives the magnetic Compton profile  (MCP), given by 
+  
+    
+      
+        
+          J
+          
+            mag
+          
+        
+        (
+        
+          
+            p
+          
+          
+            z
+          
+        
+        )
+      
+    
+    {\displaystyle J_{\text{mag}}(\mathbf {p} _{z})}
+  
+ – a one-dimensional projection of the electron spin density.
+
+  
+    
+      
+        
+          J
+          
+            mag
+          
+        
+        (
+        
+          
+            p
+          
+          
+            z
+          
+        
+        )
+        =
+        
+          
+            1
+            μ
+          
+        
+        
+          ∬
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        (
+        
+          n
+          
+            ↑
+          
+        
+        (
+        
+          p
+        
+        )
+        −
+        
+          n
+          
+            ↓
+          
+        
+        (
+        
+          p
+        
+        )
+        )
+        d
+        
+          
+            p
+          
+          
+            x
+          
+        
+        d
+        
+          
+            p
+          
+          
+            y
+          
+        
+      
+    
+    {\displaystyle J_{\text{mag}}(\mathbf {p} _{z})={\frac {1}{\mu }}\iint _{-\infty }^{\infty }(n_{\uparrow }(\mathbf {p} )-n_{\downarrow }(\mathbf {p} ))d\mathbf {p} _{x}d\mathbf {p} _{y}}
+  
+
+where 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+ is the number of spin-unpaired electrons in the system, 
+  
+    
+      
+        
+          n
+          
+            ↑
+          
+        
+        (
+        
+          p
+        
+        )
+      
+    
+    {\displaystyle n_{\uparrow }(\mathbf {p} )}
+  
+ and 
+  
+    
+      
+        
+          n
+          
+            ↓
+          
+        
+        (
+        
+          p
+        
+        )
+      
+    
+    {\displaystyle n_{\downarrow }(\mathbf {p} )}
+  
+ are the three-dimensional electron momentum distributions for the majority spin and minority spin electrons respectively.
+Since this scattering process is incoherent (there is no phase relationship between the scattered photons), the MCP is representative of the bulk properties of the sample and is a probe of the ground state. This means that the MCP is ideal for comparison with theoretical techniques such as density functional theory.
+The area under the MCP is directly proportional to the spin moment of the system and so, when combined with total moment measurements methods (such as SQUID magnetometry), can be used to isolate both the spin and orbital contributions to the total moment of a system.
+The shape of the MCP also yields insight into the origin of the magnetism in the system.
+
+
+=== Inverse Compton scattering ===
+Inverse Compton scattering is important in astrophysics. In X-ray astronomy, the accretion disk surrounding a black hole is presumed to produce a thermal spectrum. The lower energy photons produced from this spectrum are scattered to higher energies by relativistic electrons in the surrounding corona. This phenomenon is called relativistic reflection and is surmised to cause the power law component in the X-ray spectra (0.2–10 keV) of accreting black holes.
+The effect is also observed when photons from the cosmic microwave background (CMB) move through the hot gas surrounding a galaxy cluster.  The CMB photons are scattered to higher energies by the electrons in this gas, resulting in the Sunyaev–Zel'dovich effect. Observations of the Sunyaev–Zel'dovich effect provide a nearly redshift-independent means of detecting galaxy clusters.
+Some synchrotron radiation facilities scatter laser light off the stored electron beam.
+This Compton backscattering produces high energy photons in the MeV to GeV range subsequently used for nuclear physics experiments.
+
+
+=== Non-linear inverse Compton scattering ===
+Non-linear inverse Compton scattering (NICS) is the scattering of multiple low-energy photons, given by an intense electromagnetic field, in a high-energy photon (X-ray or gamma ray) during the interaction with a charged particle, such as an electron. It is also called non-linear Compton scattering and multiphoton Compton scattering. It is the non-linear version of inverse Compton scattering in which the conditions for multiphoton absorption by the charged particle are reached due to a very intense electromagnetic field, for example the one produced by a laser.
+Non-linear inverse Compton scattering is an interesting phenomenon for all applications requiring high-energy photons since NICS is capable of producing photons with energy comparable to the charged particle rest energy and higher. As a consequence NICS photons can be used to trigger other phenomena such as pair production, Compton scattering, nuclear reactions, and can be used to probe non-linear quantum effects and non-linear QED.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+S. Chen; H. Avakian; V. Burkert; L. Vandenaweele; P. Eugenio; the CLAS collaboration; Ambrozewicz; Anghinolfi; Asryan; Bagdasaryan; Baillie; Ball; Baltzell; Barrow; Batourine; Battaglieri; Beard; Bedlinskiy; Bektasoglu; Bellis; Benmouna; Berman; Biselli; Bonner; Bouchigny; Boiarinov; Bosted; Bradford; Branford; et al. (2006). "Measurement of Deeply Virtual Compton Scattering with a Polarized Proton Target". Physical Review Letters. 97 (7) 072002. arXiv:hep-ex/0605012. Bibcode:2006PhRvL..97g2002C. doi:10.1103/PhysRevLett.97.072002. PMID 17026221. S2CID 15326395.
+Compton, Arthur H. (May 1923). "A Quantum Theory of the Scattering of X-Rays by Light Elements". Physical Review. 21 (5): 483–502. Bibcode:1923PhRv...21..483C. doi:10.1103/PhysRev.21.483. (the original 1923 paper on the APS website)
+Stuewer, Roger H. (1975), The Compton Effect: Turning Point in Physics (New York: Science History Publications)
+
+
+== External links ==
+Compton Scattering – Georgia State University
+Compton Scattering Data – Georgia State University
+Derivation of Compton shift equation

@@ -1,0 +1,109 @@
+Wikipedia article: Amorphous metal
+Source: https://en.wikipedia.org/wiki/Amorphous_metal
+PageID: 347027
+======================================================================
+
+An amorphous metal (also known as metallic glass, glassy metal, or shiny metal) is a solid metallic material, usually an alloy, with disordered atomic-scale structure. Most metals are crystalline in their solid state, which means they have a highly ordered arrangement of atoms. Amorphous metals are non-crystalline, and have a glass-like structure. But unlike common glasses, such as window glass, which are typically electrical insulators, amorphous metals have good electrical conductivity and can show metallic luster.
+Amorphous metals can be produced in several ways, including extremely rapid cooling, physical vapor deposition, solid-state reaction, ion irradiation, and mechanical alloying. Small batches of amorphous metals have been produced through a variety of quick-cooling methods, such as amorphous metal ribbons produced by sputtering molten metal onto a spinning metal disk (melt spinning). The rapid cooling (millions of degrees Celsius per second) comes too fast for crystals to form and the material is "locked" in a glassy state. Alloys with cooling rates low enough to allow formation of amorphous structure in thick layers (i.e., over 1 millimetre or 0.039 inches) have been produced and are known as bulk metallic glasses. Batches of amorphous steel with three times the strength of conventional steel alloys have been produced. New techniques such as 3D printing, also characterised by high cooling rates, are an active research topic.
+
+
+== History ==
+
+The first reported metallic glass was Au75Si25, produced at Caltech by Klement, Willens, and Duwez in 1960. This and other early glass-forming alloys had to be rapidly cooled (on the order of one megakelvin per second, 106 K/s) to avoid crystallization. An important consequence of this was that metallic glasses could be produced in a few forms (typically ribbons, foils, or wires) in which one dimension was small so that heat could be extracted quickly enough to achieve the required cooling rate. As a result, metallic glass specimens (with a few exceptions) were limited to thicknesses of less than one hundred microns.
+In 1969, an alloy of 77.5% palladium, 6% copper, and 16.5% silicon was found to have critical cooling rate between 100 and 1000 K/s.
+In 1976, Liebermann and Graham developed a method of manufacturing thin ribbons of amorphous metal on a supercooled fast-spinning wheel. This was an alloy of iron, nickel, and boron. The material, known as Metglas, was commercialized in the early 1980s and became used for low-loss power distribution transformers (amorphous metal transformer). Metglas-2605 is composed of 80% iron and 20% boron, has a Curie temperature of 646 K (373 °C; 703 °F) and a room temperature saturation magnetization of 1.56 teslas.
+In the early 1980s, glassy ingots with a diameter of 5 mm (0.20 in) were produced with an alloy of 55% palladium, 22.5% lead, and 22.5% antimony, by surface etching followed with heating-cooling cycles. Using boron oxide flux, the achievable thickness increased to one centimeter.
+In 1982, a study on amorphous metal structural relaxation indicated a relationship between the specific heat and temperature of (Fe0.5Ni0.5)83P17. As the material was heated, the two properties displayed a negative relationship starting at 375 K, due to the change in relaxed amorphous states. When the material was annealed for periods from 1 to 48 hours, the properties instead displayed a positive relationship starting at 475 K for all annealing periods, since the annealing induced structure disappears at that temperature. In this study, amorphous alloys demonstrated glass transition and a super cooled liquid region. Between 1988 and 1992, more studies found more glass-type alloys with glass transition and a super cooled liquid region. From those studies, bulk glass alloys were made of La, Mg, and Zr, and these alloys demonstrated plasticity even with ribbon thickness from 20 μm to 50 μm. The plasticity was a stark difference to past amorphous metals that became brittle at those thicknesses.
+In 1988, alloys of lanthanum, aluminium, and copper ore were revealed to be glass-forming. Al-based metallic glasses containing scandium exhibited a record-type tensile mechanical strength of about 1,500 MPa (220 ksi).
+Bulk amorphous alloys of several millimeters in thickness were rare, although Pd-based amorphous alloys had been formed into rods with a 2 mm (0.079 in) diameter by quenching, and spheres with a 10 mm (0.39 in) diameter were formed by repetition flux melting with B2O3 and quenching.
+New techniques were found in 1990, producing alloys that form glasses at cooling rates as low as one kelvin per second. These cooling rates can be achieved by simple casting into metallic molds. These alloys can be cast into parts several centimeters thick while retaining an amorphous structure. The best glass-forming alloys were based on zirconium and palladium, but alloys based on iron, titanium, copper, magnesium, and other metals are known. The process exploited a phenomenon called "confusion". Such alloys contain many elements (often four or more) such that upon cooling sufficiently quickly, constituent atoms cannot achieve an equilibrium crystalline state before their mobility is lost. In this way, the random disordered state of the atoms is "locked in".
+In 1992, the commercial amorphous alloy, Vitreloy 1 (41.2% Zr, 13.8% Ti, 12.5% Cu, 10% Ni, and 22.5% Be), was developed at Caltech, as a part of Department of Energy and NASA research of new aerospace materials.
+By 2000, research in Tohoku University and Caltech yielded multicomponent alloys based on lanthanum, magnesium, zirconium, palladium, iron, copper, and titanium, with critical cooling rate between 1 K/s and 100 K/s, comparable to oxide glasses.
+In 2004, bulk amorphous steel was successfully produced by a groups at Oak Ridge National Laboratory, which refers to their product as "glassy steel", and another at University of Virginia, named "DARVA-Glass 101". The product is non-magnetic at room temperature and significantly stronger than conventional steel.
+In 2018, a team at SLAC National Accelerator Laboratory, the National Institute of Standards and Technology (NIST) and Northwestern University reported the use of artificial intelligence to predict and evaluate samples of 20,000 different likely metallic glass alloys in a year.
+
+
+== Properties ==
+
+Amorphous metal is usually an alloy rather than a pure metal. The alloys contain atoms of significantly different sizes, leading to low free volume (and therefore up to orders of magnitude higher viscosity than other metals and alloys) in molten state. The viscosity prevents the atoms from moving enough to form an ordered lattice. The material displays low shrinkage during cooling, and resistance to plastic deformation. The absence of grain boundaries, the weak spots of crystalline materials, leads to better wear resistance and less corrosion. Amorphous metals, while technically glasses, are much tougher and less brittle than oxide glasses and ceramics. Amorphous metals are either non-ferromagnetic, if they are composed of Ln, Mg, Zr, Ti, Pd, Ca, Cu, Pt and Au, or ferromagnetic, if they are composed of Fe, Co, and Ni.
+Thermal conductivity is lower than in crystalline metals. As formation of amorphous structure relies on fast cooling, this limits the thickness of amorphous structures. To form amorphous structure despite slower cooling, the alloy has to be made of three or more components, leading to complex crystal units with higher potential energy and lower odds of formation. The atomic radius of the components has to be significantly different (over 12%), to achieve high packing density and low free volume. The combination of components should have negative mixing heat, inhibiting crystal nucleation and prolonging the time the molten metal stays in supercooled state.
+As temperatures change, the electrical resistivity of amorphous metals behaves very different than that of regular metals. While resistivity in crystalline metals generally increases with temperature, following Matthiessen's rule, resistivity in many amorphous metals decreases with increasing temperature. This effect can be observed in amorphous metals of high resistivities between 150 and 300 microohm-centimeters. In these metals, the scattering events causing the resistivity of the metal are not statistically independent, thus explaining the breakdown of Matthiessen's rule. The fact that the thermal change of the resistivity in amorphous metals can be negative over a large range of temperatures and correlated to their absolute resistivity values was identified by Mooij in 1973, becoming Mooijs-rule.
+Alloys of boron, silicon, phosphorus, and other glass formers with magnetic metals (iron, cobalt, nickel) have high magnetic susceptibility, with low coercivity and high electrical resistance. Usually the electrical conductivity of a metallic glass is of the same low order of magnitude as of a molten metal just above the melting point. The high resistance leads to low losses by eddy currents when subjected to alternating magnetic fields, a property useful for e.g. transformer magnetic cores. Their low coercivity also contributes to low loss.
+Buckel and Hilsch discovered the superconductivity of amorphous metal thin films experimentally in the early 1950s. For certain metallic elements the superconducting critical temperature Tc can be higher in the amorphous state (e.g. upon alloying) than in the crystalline state, and in several cases Tc increases upon increasing the structural disorder. This behavior can be explained by the effect of structural disorder on electron-phonon coupling.
+Amorphous metals have higher tensile yield strengths and higher elastic strain limits than polycrystalline metal alloys, but their ductilities and fatigue strengths are lower. 
+Amorphous alloys have a variety of potentially useful properties. In particular, they tend to be stronger than crystalline alloys of similar chemical composition, and they can sustain larger reversible ("elastic") deformations than crystalline alloys. Amorphous metals derive their strength directly from their non-crystalline structure, which does not have defects (such as dislocations) that limit their strength. Vitreloy is an amorphous metal with a tensile strength almost double that of high-grade titanium. However, metallic glasses at room temperature are not ductile and tend to fail suddenly and surprisingly when loaded in tension, which limits applicability in reliability-critical applications. Metal matrix composites consisting of a ductile crystalline metal matrix containing dendritic particles or fibers of an amorphous glass metal are an alternative.
+Perhaps the most useful property of bulk amorphous alloys is that they are true glasses, which means that they soften and flow upon heating. This allows for easy processing, such as by injection molding, in much the same way as polymers. As a result, amorphous alloys have been commercialized for use in sports equipment, medical devices, and as cases for electronic equipment.
+Thin films of amorphous metals can be deposited as protective coatings via high velocity oxygen fuel.
+
+
+== Applications ==
+
+
+=== Commercial ===
+The most important application exploits the magnetic properties of some ferromagnetic metallic glasses. The low magnetization loss is used in high efficiency transformers at line frequency and in some higher frequency transformers. Amorphous steel is very brittle that makes it difficult to punch into motor laminations. Electronic article surveillance (such as passive ID tags) often uses metallic glasses because of these magnetic properties.
+Ti-based metallic glass, when made into thin pipes, have a high tensile strength of 2,100 MPa (300 ksi), elastic elongation of 2% and high corrosion resistance. A Ti–Zr–Cu–Ni–Sn metallic glass was used to improve the sensitivity of a Coriolis flow meter. This flow meter is about 28-53 times more sensitive than conventional meters, which can be applied in fossil-fuel, chemical, environmental, semiconductor and medical science industries.
+Zr-Al-Ni-Cu based metallic glass can be shaped into 2.2 to 5 by 4 mm (0.087 to 0.197 by 0.157 in) pressure sensors for automobile and other industries. Such sensors are smaller, more sensitive, and possess greater pressure endurance than conventional stainless steel. Additionally, this alloy was used to make the world's smallest geared motor with diameter 1.5 and 9.9 mm (0.059 and 0.390 in) at the time.
+
+
+=== Potential ===
+Amorphous metals exhibit unique softening behavior above their glass transition and this softening has been increasingly explored for thermoplastic forming of metallic glasses. Such low softening temperature supports simple methods for making nanoparticle composites (e.g. carbon nanotubes) and bulk metallic glasses. Metallic glasses can be patterned on scales as small as 10 nm. 
+
+
+==== Electronics ====
+This may solve problems of nanoimprint lithography where silicon nano-molds are expensive and break easily. Nano-molds made from metallic glasses are easy to fabricate and more durable. 
+The superior electronic, thermal and mechanical properties of bulk metallic glasses compared to polymers make them a good candidate for nanocomposites for electronic applications such as field electron emission devices.
+
+
+==== Biomedical ====
+Ti40Cu36Pd14Zr10 is claimed to be noncarcinogenic, about three times stronger than titanium, with an elastic modulus that nearly matches bones. It has high wear resistance and does not produce abrasion powder. The alloy does not undergo shrinkage on solidification. A surface structure can be generated that is biologically attachable by surface modification using laser pulses, allowing better joining with bone for applications such as joint replacement. 
+Laser powder bed fusion (LPBF) has been used to process Zr-based bulk metallic glass (BMG) for biomedical applications. Zr-based BMGs shows good biocompatibility, supporting osteoblastic cell growth similar to Ti-6Al-4V. The favorable response coupled with the ability to tailor surface properties through SLM highlights the promise of SLM Zr- based BMGs like AMLOY-ZR01 for orthopaedic implant applications. However, their degradation under inflammatory conditions requires further investigation.
+Mg60Zn35Ca5 is under investigation as a biomaterial for implantation into bones as screws, pins, or plates, and to fix fractures. Unlike traditional steel or titanium, this material is a bioabsorbable metallic glass: it dissolves in organisms at a rate of roughly 1 millimeter per month and is replaced with bone tissue. This speed can be adjusted by varying the zinc content.
+
+
+==== Military ====
+SAM2X5-630 is claimed to have the highest recorded plasticity of any steel alloy, essentially the highest threshold at which a material can withstand an impact without deforming permanently. The alloy can withstand pressure up to 12.5 GPa (123,000 atm) without permanent deformation. This is the highest impact resistance of any bulk metallic glass as of 2016. This makes it as an attractive option for armour material and other applications that require high stress tolerance.
+
+
+==== Electric motors ====
+Amorphous iron-based alloys  can reduce hysteresis losses in electric motors by 75–90% under typical operating conditions (50–400 Hz). Avoiding grain boundaries and magnetocrystalline anisotropy avoids "pinning" domain walls, allowing high coercivity (typically 30–100 A/m).
+
+
+== Additive manufacturing ==
+One challenge when synthesising a metallic glass is that the required fast cooling rates often translate to very small samples. 3D-printing or additive manufacturing has been suggested and proven as a method to create larger bulk samples. Selective laser melting (SLM) is one example of an additive manufacturing method that has been used to make iron based metallic glasses and zirconia based bulk metallic glasses. Laser foil printing (LFP) is another method where foils of the amorphous metals are stacked and welded together, layer by layer. Modelling of the manufacturing process is under study to reduce traditional time and resource consuming trial and error.
+
+
+== Modeling and theory ==
+Bulk metallic glasses have been modeled using atomic scale simulations (within the density functional theory framework) in a similar manner to high entropy alloys. This has allowed predictions to be made about their behavior, stability and many more properties. As such, new bulk metallic glass systems can be tested and tailored for a specific purpose (e.g. bone replacement or aero-engine component) without as much empirical searching of the phase space or experimental trial and error. Ab-initio molecular dynamics (MD) simulation confirmed that the atomic surface structure of a Ni-Nb metallic glass observed by scanning tunneling microscopy is a kind of spectroscopy. At negative applied bias it visualizes only one sort of atoms (Ni) owing to the structure of electronic density of states calculated using ab-initio MD simulation.
+One common way to try and understand the electronic properties of amorphous metals is by comparing them to liquid metals, which are similarly disordered, and for which established theoretical frameworks exist. For simple amorphous metals, good estimations can be reached by semi-classical modelling of the movement of individual electrons using the Boltzmann equation and approximating the scattering potential as the superposition of the electronic potential of each nucleus in the surrounding metal. To simplify the calculations, the electronic potentials of the atomic nuclei can be truncated to give a muffin-tin pseudopotential. In this theory, there are two main effects that govern the change of resistivity with increasing temperatures. Both are based on the induction of vibrations of the atomic nuclei of the metal as temperatures increase. One is, that the atomic structure gets increasingly smeared out as the exact positions of the atomic nuclei get less and less well defined. The other is the introduction of phonons. While the smearing out generally decreases the resistivity of the metal, the introduction of phonons generally adds scattering sites and therefore increases resistivity. Together, they can explain the anomalous decrease of resistivity in amorphous metals, as the first part outweighs the second. In contrast to regular crystalline metals, the phonon contribution in an amorphous metal does not get frozen out at low temperatures. Due to the lack of a defined crystal structure, there are always some phonon wavelengths that can be excited. While this semi-classical approach holds well for many amorphous metals, it generally breaks down under more extreme conditions. At very low temperatures, the quantum nature of the electrons leads to long range interference effects of the electrons with each other in what is called "weak localization effects". In very strongly disordered metals, impurities in the atomic structure can induce bound electronic states in what is called "Anderson localization", effectively binding the electrons and inhibiting their movement.
+
+
+== See also ==
+Bioabsorbable metallic glass
+Glass-ceramic-to-metal seals
+Liquidmetal
+Materials science
+Structure of liquids and glasses
+Amorphous brazing foil
+
+
+== References ==
+
+
+== Further reading ==
+Duarte MJ, Bruna P, Pineda E, Crespo D, Garbarino G, Verbeni R, et al. (2011). "Polyamorphic transitions in Ce-based metallic glasses by synchrotron radiation". Physical Review B. 84 (22) 224116. Bibcode:2011PhRvB..84v4116D. doi:10.1103/PhysRevB.84.224116. hdl:2117/189342. ISSN 1098-0121.
+Kumar G, Neibecker P, Liu YH, Schroers J (26 February 2013). "Critical fictive temperature for plasticity in metallic glasses". Nature Communications. 4 (1): 1536. Bibcode:2013NatCo...4.1536K. doi:10.1038/ncomms2546. PMC 3586724. PMID 23443564.
+Liu C, Pineda E, Crespo D (2015). "Mechanical Relaxation of Metallic Glasses: An Overview of Experimental Data and Theoretical Models". Metals. 5 (2): 1073–1111. doi:10.3390/met5021073. hdl:2117/84520. ISSN 2075-4701.
+Telford M (March 2004). "The case for bulk metallic glass". Materials Today. 7 (3): 36–43. Bibcode:2004MaTod...7...36T. doi:10.1016/S1369-7021(04)00124-5.
+
+
+== External links ==
+Liquidmetal Design Guide
+"Metallic glass: a drop of the hard stuff" at New Scientist
+Glass-Like Metal Performs Better Under Stress Physical Review Focus, June 9, 2005
+"Overview of metallic glasses"
+New Computational Method Developed By Carnegie Mellon University Physicist Could Speed Design and Testing of Metallic Glass (2004) (the alloy database developed by Marek Mihalkovic, Michael Widom, and others)
+New tungsten-tantalum-copper amorphous alloy developed at the Korea Advanced Institute of Science and Technology Digital Chosunilbo (English Edition) : Daily News in English About Korea
+Amorphous Metals in Electric-Power Distribution Applications
+Amorphous and Nanocrystalline Soft Magnets
+"New metallic glass material created by starving it of nuclei". newatlas.com. 8 December 2017. Retrieved 9 December 2017.
+Metallic glasses and those composites, Materials Research Forum LLC, Millersville, PA, USA, (2018), p. 336 "Metallic Glasses and Their Composites". www.mrforum.com.

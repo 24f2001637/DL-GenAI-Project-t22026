@@ -1,0 +1,58 @@
+Wikipedia article: Pulsar-based navigation
+Source: https://en.wikipedia.org/wiki/Pulsar-based_navigation
+PageID: 7664618
+======================================================================
+
+X-ray pulsar-based navigation and timing (XNAV) or simply pulsar navigation is a navigation technique whereby the periodic X-ray signals emitted from pulsars are used to determine the location of a vehicle, such as a spacecraft in deep space. A vehicle using XNAV would compare received X-ray signals with a database of known pulsar frequencies and locations. Similar to GPS, this comparison would allow the vehicle to calculate its position accurately (±5 km). The advantage of using X-ray signals over radio waves is that X-ray telescopes can be made smaller and lighter. Experimental demonstrations have been reported in 2018.
+
+
+== Principles ==
+
+
+=== Theory ===
+
+
+==== Navigation ====
+GPS works by encoding information about the time and location of the signal's emission in the signal itself. Receiving four such signals allows (in principle) an exact, unambiguous position in 4D spacetime. In contrast, the individual pulses from a pulsar contain no information about when each was emitted; they all look the same. This creates an "ambiguity problem" on account of not knowing "which" pulse has just been received.
+However, precise timing of each pulse—precisely measuring the phase offset—still considerably constrains the receiver's position in space. The reception of each pulse marks a 2D plane in 3D space, and the gap between each pulse, between each plane, is cP, lightspeed times period; for a 1 ms pulsar, that's 300 km. By precisely measuring the phase offset for two (perpendicular) pulsars, the receiver must be on an intersection between two such planes (a line); by measuring three such pulsar phase offsets, an exact position can, in principle, be recovered at the exact intersection of the three such planes. In practice, the triple-plane intersection has to be approximately solved to within the precision of the phase offset measurements (limited by the receiver's antenna and pre-knowledge of the pulsar's pulse-profile). There could be many such approximate solutions, but they should be offset by many dozens or hundreds of "pulse-widths", that is by many thousands or millions of kilometers. Therefore, even a crude prior estimate of position can suffice to find the correct triple-plane intersection—solving the ambiguity problem. (That is, the system works by continuously updating the receiver's estimated position and probable error spread as pulsar data collection continues, much like an inertial navigation system.)
+
+
+==== Type of pulsar ====
+There are several varieties of pulsars, which can be categorized according to energy source, period, rate of change of period, broadband/radio/x-ray flux, and age.
+Magnetars are bright, but not well understood, and it isn't known if their rotation is stable in the long term. Accretion-powered pulsars exhibit considerable variation in their pulsing as a result of the dynamics of the accretion disk.
+That leaves rotation-powered pulsars. Most have periods on the order of seconds, but shorter is better for precision navigation; furthermore, the millisecond pulsars also tend to be the most stable, with the slowest rate of change in period. Therefore millisecond pulsars are considered to be the most practical beacons for navigation.
+
+
+=== Practicalities ===
+In principle, pulsars are brighter in radio band, and have better-measured pulse profiles in radio, enabling up to meter-scale precision in navigation. However this would  require radio antennas on the order of 10x-100x larger/heavier than used on spacecraft of the early 21st century. In contrast, X-ray receivers are much smaller (as their wavelength is shorter) and better suited for spacecraft.
+Furthermore, typical designs typically presume many hours of data collection before the phase offset measurement becomes precise enough to be useful, for at least 3 (mutually-perpendicular) pulsars at a time. This need for long duration receiving in many different directions poses considerable challenges to the spacecraft's primary mission or solar power collection (but phased array antennas may broadly solve this problem).
+
+
+== Spacecraft navigation ==
+
+
+=== Studies ===
+The Advanced Concepts Team of ESA studied in 2003 the feasibility of x-ray pulsar navigation in collaboration with the Universitat Politecnica de Catalunya in Spain. After the study, the interest in the XNAV technology within the European Space Agency was consolidated leading, in 2012, to two different and more detailed studies performed by GMV AEROSPACE AND DEFENCE (ES) and the National Physical Laboratory (UK).
+
+
+=== Experiments ===
+XPNAV 1
+On 9 November 2016, the Chinese Academy of Sciences launched an experimental pulsar navigation satellite called XPNAV 1. XPNAV-1 has a mass of 240 kg, and is in a 493 km × 512 km, 97.41° orbit. XPNAV-1 will characterize 26 nearby pulsars for their pulse frequency and intensity to create a navigation database that could be used by future operational missions. The satellite is expected to operate for five to ten years. XPNAV-1 is the first pulsar navigation mission launched into orbit.
+SEXTANT
+SEXTANT (Station Explorer for X-ray Timing and Navigation Technology) is a NASA-funded project developed at the Goddard Space Flight Center that is testing XNAV on-orbit on board the International Space Station in connection with the NICER project, launched on 3 June 2017 on the SpaceX CRS-11 ISS resupply mission. If this is successful, XNAV may be used as secondary navigation technology for the planned Orion missions. In January 2018, X-ray navigation feasibility was demonstrated using NICER/SEXTANT on ISS. It reported a 7 km accuracy (in 2 days).
+
+
+== Aircraft navigation ==
+In 2014, a feasibility study was carried out by the National Aerospace Laboratory of Amsterdam, for use of pulsars in place of GPS in navigation. The advantage of pulsar navigation would be more available signals than from satnav constellations, being unjammable, with the broad range of frequencies available, and security of signal sources from destruction by anti-satellite weapons.
+
+
+== Extraterrestrial intelligence ==
+Among pulsars, millisecond pulsars are good candidate to be space-time references. In particular, extraterrestrial intelligence might encode rich information using millisecond pulsar signals, and the metadata about XNAV is likely to be encoded by reference to millisecond pulsars. Finally, it has been suggested that advanced extraterrestrial intelligence might have tweaked or engineered millisecond pulsars for the goals of timing, navigation and communication.
+
+
+== References ==
+
+
+== External links ==
+Johns Hopkins APL to Develop Deep Space Navigation Network Archived 14 May 2018 at the Wayback Machine
+US Government Contract Proposal for X-Ray Pulsar Based Navigation and Time Determination Archived 26 March 2021 at the Wayback Machine

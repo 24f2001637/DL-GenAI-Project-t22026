@@ -1,0 +1,1828 @@
+Wikipedia article: CW complex
+Source: https://en.wikipedia.org/wiki/CW_complex
+PageID: 353022
+======================================================================
+
+In mathematics, and specifically in topology, a CW complex (also cellular complex or cell complex) is a topological space that is built by gluing together topological balls (so-called cells) of different dimensions in specific ways. The notion generalizes both manifolds and simplicial complexes and has particular significance for algebraic topology. It was initially introduced by J. H. C. Whitehead to meet the needs of homotopy theory.
+CW complexes have better categorical properties than simplicial complexes, but still retain a combinatorial nature that allows for computation (often with a much smaller complex). 
+The C in CW stands for "closure-finite", and the W for "weak" topology.
+
+
+== Definition ==
+
+
+=== CW complex ===
+A CW complex is constructed by taking the union of a sequence of topological spaces 
+  
+    
+      
+        ∅
+        =
+        
+          X
+          
+            −
+            1
+          
+        
+        ⊂
+        
+          X
+          
+            0
+          
+        
+        ⊂
+        
+          X
+          
+            1
+          
+        
+        ⊂
+        ⋯
+      
+    
+    {\displaystyle \emptyset =X_{-1}\subset X_{0}\subset X_{1}\subset \cdots }
+  
+ such that each 
+  
+    
+      
+        
+          X
+          
+            k
+          
+        
+      
+    
+    {\displaystyle X_{k}}
+  
+ is obtained from 
+  
+    
+      
+        
+          X
+          
+            k
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle X_{k-1}}
+  
+ by gluing copies of k-cells 
+  
+    
+      
+        (
+        
+          e
+          
+            α
+          
+          
+            k
+          
+        
+        
+          )
+          
+            α
+            ∈
+            J
+          
+        
+      
+    
+    {\displaystyle (e_{\alpha }^{k})_{\alpha \in J}}
+  
+, each homeomorphic to the open unit ball 
+  
+    
+      
+        
+          B
+          
+            k
+          
+        
+      
+    
+    {\displaystyle B^{k}}
+  
+ in 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  
+-dimensional Euclidean space, to 
+  
+    
+      
+        
+          X
+          
+            k
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle X_{k-1}}
+  
+ by continuous gluing maps 
+  
+    
+      
+        
+          g
+          
+            α
+          
+          
+            k
+          
+        
+        :
+        ∂
+        
+          
+            
+              
+                e
+                ¯
+              
+            
+          
+          
+            α
+          
+          
+            k
+          
+        
+        →
+        
+          X
+          
+            k
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle g_{\alpha }^{k}:\partial {\bar {e}}_{\alpha }^{k}\to X_{k-1}}
+  
+ where 
+  
+    
+      
+        
+          
+            
+              
+                e
+                ¯
+              
+            
+          
+          
+            k
+          
+        
+        ≅
+        
+          
+            
+              
+                B
+                ¯
+              
+            
+          
+          
+            k
+          
+        
+      
+    
+    {\displaystyle {\bar {e}}^{k}\cong {\bar {B}}^{k}}
+  
+ the closed unit ball. The maps are also called attaching maps. Thus as a set, 
+  
+    
+      
+        
+          X
+          
+            k
+          
+        
+        =
+        
+          X
+          
+            k
+            −
+            1
+          
+        
+        
+          ⊔
+          
+            α
+          
+        
+        
+          e
+          
+            α
+          
+          
+            k
+          
+        
+      
+    
+    {\displaystyle X_{k}=X_{k-1}\sqcup _{\alpha }e_{\alpha }^{k}}
+  
+.
+To be precise, 
+  
+    
+      
+        
+          X
+          
+            k
+          
+        
+      
+    
+    {\displaystyle X_{k}}
+  
+ is homeomorphic to 
+  
+    
+      
+        (
+        
+          X
+          
+            k
+            −
+            1
+          
+        
+        ⊔
+        (
+        J
+        ×
+        
+          
+            
+              e
+              ¯
+            
+          
+          
+            k
+          
+        
+        )
+        )
+        
+          /
+        
+        ∼
+      
+    
+    {\displaystyle (X_{k-1}\sqcup (J\times {\overline {e}}^{k}))/\sim }
+  
+,  (here 
+  
+    
+      
+        
+          
+            
+              e
+              ¯
+            
+          
+          
+            k
+          
+        
+      
+    
+    {\displaystyle {\overline {e}}^{k}}
+  
+ is the closed 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  
+-disk in 
+  
+    
+      
+        
+          
+            R
+          
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{k}}
+  
+) where we equip 
+  
+    
+      
+        J
+      
+    
+    {\displaystyle J}
+  
+ with the discrete topology and where 
+  
+    
+      
+        ∼
+      
+    
+    {\displaystyle \sim }
+  
+ is the equivalence relation generated by 
+  
+    
+      
+        (
+        a
+        ,
+        x
+        )
+        ∼
+        
+          g
+          
+            a
+          
+          
+            k
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle (a,x)\sim g_{a}^{k}(x)}
+  
+ for 
+  
+    
+      
+        a
+        ∈
+        J
+      
+    
+    {\displaystyle a\in J}
+  
+ and 
+  
+    
+      
+        x
+        ∈
+        ∂
+        
+          e
+          
+            k
+          
+        
+      
+    
+    {\displaystyle x\in \partial e^{k}}
+  
+.
+Each 
+  
+    
+      
+        
+          X
+          
+            k
+          
+        
+      
+    
+    {\displaystyle X_{k}}
+  
+ is called the k-skeleton of the complex.
+The topology of 
+  
+    
+      
+        X
+        =
+        
+          ∪
+          
+            k
+          
+        
+        
+          X
+          
+            k
+          
+        
+      
+    
+    {\displaystyle X=\cup _{k}X_{k}}
+  
+ is a weak topology: a subset 
+  
+    
+      
+        U
+        ⊂
+        X
+      
+    
+    {\displaystyle U\subset X}
+  
+ is open iff 
+  
+    
+      
+        U
+        ∩
+        
+          X
+          
+            k
+          
+        
+      
+    
+    {\displaystyle U\cap X_{k}}
+  
+ is open for each k-skeleton 
+  
+    
+      
+        
+          X
+          
+            k
+          
+        
+      
+    
+    {\displaystyle X_{k}}
+  
+.
+In the language of category theory, the topology on 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is the direct limit of the diagram 
+  
+    
+      
+        
+          X
+          
+            −
+            1
+          
+        
+        ↪
+        
+          X
+          
+            0
+          
+        
+        ↪
+        
+          X
+          
+            1
+          
+        
+        ↪
+        ⋯
+      
+    
+    {\displaystyle X_{-1}\hookrightarrow X_{0}\hookrightarrow X_{1}\hookrightarrow \cdots }
+  
+The name "CW" stands for "closure-finite weak topology", which is explained by the following theorem:
+
+This partition of X is also called a cellulation.
+
+
+==== The construction, in words ====
+The CW complex construction is a straightforward generalization of the following process:
+
+A 0-dimensional CW complex is just a set of zero or more discrete points (with the discrete topology).
+A 1-dimensional CW complex is constructed by taking the disjoint union of a 0-dimensional CW complex with one or more copies of the unit interval. For each copy, there is a map that "glues" its boundary (its two endpoints) to elements of the 0-dimensional complex (the points). The topology of the CW complex is the topology of the quotient space defined by these gluing maps.
+In general, an n-dimensional CW complex is constructed by taking the disjoint union of a k-dimensional CW complex (for some 
+  
+    
+      
+        k
+        <
+        n
+      
+    
+    {\displaystyle k<n}
+  
+) with one or more copies of the n-dimensional ball. For each copy, there is a map that "glues" its boundary (the 
+  
+    
+      
+        (
+        n
+        −
+        1
+        )
+      
+    
+    {\displaystyle (n-1)}
+  
+-dimensional sphere) to elements of the 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  
+-dimensional complex. The topology of the CW complex is the quotient topology defined by these gluing maps.
+An infinite-dimensional CW complex can be constructed by repeating the above process countably many times. Since the topology of the union 
+  
+    
+      
+        
+          ∪
+          
+            k
+          
+        
+        
+          X
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \cup _{k}X_{k}}
+  
+ is indeterminate, one takes the direct limit topology, since the diagram is highly suggestive of a direct limit. This turns out to have great technical benefits.
+
+
+=== Regular CW complexes ===
+A regular CW complex is a CW complex whose gluing maps are homeomorphisms. Accordingly, the partition of X is also called a regular cellulation.
+A loopless graph is represented by a regular 1-dimensional CW-complex. A closed 2-cell graph embedding on a surface is a regular 2-dimensional CW-complex. Finally, the 3-sphere regular cellulation conjecture claims that every 2-connected graph is the 1-skeleton of a regular CW-complex on the 3-dimensional sphere.
+
+
+=== Relative CW complexes ===
+Roughly speaking, a relative CW complex differs from a CW complex in that we allow it to have one extra building block that does not necessarily possess a cellular structure. This extra-block can be treated as a (−1)-dimensional cell in the former definition.
+
+
+== Examples ==
+
+
+=== 0-dimensional CW complexes ===
+Every discrete topological space is a 0-dimensional CW complex.
+
+
+=== 1-dimensional CW complexes ===
+Some examples of 1-dimensional CW complexes are:
+
+An interval. It can be constructed from two points (x and y), and the 1-dimensional ball B (an interval), such that one endpoint of B is glued to x and the other is glued to y. The two points x and y are the 0-cells; the interior of B is the 1-cell.   Alternatively, it can be constructed just from a single interval, with no 0-cells.
+A circle. It can be constructed from a single point x and the 1-dimensional ball B, such that both endpoints of B are glued to x. Alternatively, it can be constructed from two points x and y and two 1-dimensional balls A and B, such that the endpoints of A are glued to x and y, and the endpoints of B are glued to x and y too.
+A graph. Given a graph, a 1-dimensional CW complex can be constructed in which the 0-cells are the vertices and the 1-cells are the edges of the graph. The endpoints of each edge are identified with the incident vertices to it. This realization of a combinatorial graph as a topological space is sometimes called a topological graph.
+3-regular graphs can be considered as generic 1-dimensional CW complexes.  Specifically, if X is a 1-dimensional CW complex, the attaching map for a 1-cell is a map from a two-point space to X, 
+  
+    
+      
+        f
+        :
+        {
+        0
+        ,
+        1
+        }
+        →
+        X
+      
+    
+    {\displaystyle f:\{0,1\}\to X}
+  
+.  This map can be perturbed to be disjoint from the 0-skeleton of X if and only if 
+  
+    
+      
+        f
+        (
+        0
+        )
+      
+    
+    {\displaystyle f(0)}
+  
+ and 
+  
+    
+      
+        f
+        (
+        1
+        )
+      
+    
+    {\displaystyle f(1)}
+  
+ are not 0-valence vertices of X.
+The standard CW structure on the real numbers has as 0-skeleton the integers 
+  
+    
+      
+        
+          Z
+        
+      
+    
+    {\displaystyle \mathbb {Z} }
+  
+ and as 1-cells the intervals 
+  
+    
+      
+        {
+        [
+        n
+        ,
+        n
+        +
+        1
+        ]
+        :
+        n
+        ∈
+        
+          Z
+        
+        }
+      
+    
+    {\displaystyle \{[n,n+1]:n\in \mathbb {Z} \}}
+  
+. Similarly, the standard CW structure on 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+  
+ has cubical cells that are products of the 0 and 1-cells from 
+  
+    
+      
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {R} }
+  
+. This is the standard cubic lattice cell structure on 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+  
+.
+
+
+=== Finite-dimensional CW complexes ===
+Some examples of finite-dimensional CW complexes are:
+
+An n-dimensional sphere. It admits a CW structure with two cells, one 0-cell and one n-cell. Here the n-cell 
+  
+    
+      
+        
+          D
+          
+            n
+          
+        
+      
+    
+    {\displaystyle D^{n}}
+  
+ is attached by the constant mapping from its boundary 
+  
+    
+      
+        
+          S
+          
+            n
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle S^{n-1}}
+  
+ to the single 0-cell. An alternative cell decomposition has one (n-1)-dimensional sphere (the "equator") and two n-cells that are attached to it (the "upper hemi-sphere" and the "lower hemi-sphere").  Inductively, this gives 
+  
+    
+      
+        
+          S
+          
+            n
+          
+        
+      
+    
+    {\displaystyle S^{n}}
+  
+ a CW decomposition with two cells in every dimension k such that 
+  
+    
+      
+        0
+        ≤
+        k
+        ≤
+        n
+      
+    
+    {\displaystyle 0\leq k\leq n}
+  
+.
+The n-dimensional real projective space. It admits a CW structure with one cell in each dimension.
+The terminology for a generic 2-dimensional CW complex is a shadow.
+A polyhedron is naturally a CW complex.
+Grassmannian manifolds admit a CW structure called Schubert cells.
+Differentiable manifolds, algebraic and projective varieties have the homotopy type of CW complexes.
+The one-point compactification of a cusped hyperbolic manifold has a canonical CW decomposition with only one 0-cell (the compactification point) called the Epstein–Penner Decomposition. Such cell decompositions are frequently called ideal polyhedral decompositions and are used in popular computer software, such as SnapPea.
+
+
+=== Infinite-dimensional CW complexes ===
+The infinite-dimensional sphere 
+  
+    
+      
+        
+          S
+          
+            ∞
+          
+        
+        :=
+        
+          
+            c
+            o
+            l
+            i
+            m
+          
+          
+            n
+            →
+            ∞
+          
+        
+        
+          S
+          
+            n
+          
+        
+      
+    
+    {\displaystyle S^{\infty }:=\mathrm {colim} _{n\to \infty }S^{n}}
+  
+. It admits a CW-structure with 2 cells in each dimension which are assembled in a way such that the 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+-skeleton is precisely given by the 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+-sphere.
+The infinite-dimensional projective spaces 
+  
+    
+      
+        
+          
+            R
+            P
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle \mathbb {RP} ^{\infty }}
+  
+, 
+  
+    
+      
+        
+          
+            C
+            P
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle \mathbb {CP} ^{\infty }}
+  
+ and 
+  
+    
+      
+        
+          
+            H
+            P
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle \mathbb {HP} ^{\infty }}
+  
+. 
+  
+    
+      
+        
+          
+            R
+            P
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle \mathbb {RP} ^{\infty }}
+  
+ has one cell in every dimension, 
+  
+    
+      
+        
+          
+            C
+            P
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle \mathbb {CP} ^{\infty }}
+  
+, has one cell in every even dimension and 
+  
+    
+      
+        
+          
+            H
+            P
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle \mathbb {HP} ^{\infty }}
+  
+ has one cell in every dimension divisible by 4. The respective skeletons are then given by 
+  
+    
+      
+        
+          
+            R
+            P
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {RP} ^{n}}
+  
+, 
+  
+    
+      
+        
+          
+            C
+            P
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {CP} ^{n}}
+  
+ (2n-skeleton) and 
+  
+    
+      
+        
+          
+            H
+            P
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {HP} ^{n}}
+  
+ (4n-skeleton).
+
+
+=== Non CW-complexes ===
+An infinite-dimensional Hilbert space is not a CW complex: it is a Baire space and therefore cannot be written as a countable union of n-skeletons, each of them being a closed set with empty interior. This argument extends to many other infinite-dimensional spaces.
+The hedgehog space 
+  
+    
+      
+        {
+        r
+        
+          e
+          
+            2
+            π
+            i
+            θ
+          
+        
+        :
+        0
+        ≤
+        r
+        ≤
+        1
+        ,
+        θ
+        ∈
+        
+          Q
+        
+        }
+        ⊆
+        
+          C
+        
+      
+    
+    {\displaystyle \{re^{2\pi i\theta }:0\leq r\leq 1,\theta \in \mathbb {Q} \}\subseteq \mathbb {C} }
+  
+ is homotopy equivalent to a CW complex (the point) but it does not admit a CW decomposition, since it is not locally contractible.
+The Hawaiian earring has no CW decomposition, because it is not locally contractible at origin. It is also not homotopy equivalent to a CW complex, because it has no good open cover.
+
+
+== Properties ==
+CW complexes are locally contractible.
+If a space is homotopy equivalent to a CW complex, then it has a good open cover. A good open cover is an open cover, such that every nonempty finite intersection is contractible.
+CW complexes are paracompact. Finite CW complexes are compact. A compact subspace of a CW complex is always contained in a finite subcomplex.
+CW complexes satisfy the Whitehead theorem: a map between CW complexes is a homotopy equivalence if and only if it induces an isomorphism on all homotopy groups.
+A covering space of a CW complex is also a CW complex.
+The product of two CW complexes can be made into a CW complex.  Specifically, if X and Y are CW complexes, then one can form a CW complex X × Y in which each cell is a product of a cell in X and a cell in Y, endowed with the weak topology. The underlying set of X × Y is then the Cartesian product of X and Y, as expected. In addition, the weak topology on this set often agrees with the more familiar product topology on X × Y, for example if either X or Y is finite.  However, the weak topology can be finer than the product topology, for example if neither X nor Y is locally compact.  In this unfavorable case, the product X × Y in the product topology is not a CW complex. On the other hand, the product of X and Y in the category of compactly generated spaces agrees with the weak topology and therefore defines a CW complex.
+Let X and Y be CW complexes.  Then the function spaces Hom(X,Y) (with the compact-open topology) are not CW complexes in general. If X is finite then Hom(X,Y) is homotopy equivalent to a CW complex by a theorem of John Milnor (1959).  Note that X and Y are compactly generated Hausdorff spaces, so Hom(X,Y) is often taken with the compactly generated variant of the compact-open topology; the above statements remain true.
+Cellular approximation theorem
+
+
+== Homology and cohomology of CW complexes ==
+Singular homology and cohomology of CW complexes is readily computable via cellular homology.  Moreover, in the category of CW complexes and cellular maps, cellular homology can be interpreted as a homology theory. To compute an extraordinary (co)homology theory for a CW complex, the Atiyah–Hirzebruch spectral sequence is the analogue of cellular homology.
+Some examples:
+
+For the sphere, 
+  
+    
+      
+        
+          S
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle S^{n},}
+  
+ take the cell decomposition with two cells: a single 0-cell and a single n-cell. The cellular homology chain complex 
+  
+    
+      
+        
+          C
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle C_{*}}
+  
+ and homology are given by:
+
+  
+    
+      
+        
+          C
+          
+            k
+          
+        
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    Z
+                  
+                
+                
+                  k
+                  ∈
+                  {
+                  0
+                  ,
+                  n
+                  }
+                
+              
+              
+                
+                  0
+                
+                
+                  k
+                  ∉
+                  {
+                  0
+                  ,
+                  n
+                  }
+                
+              
+            
+            
+          
+        
+        
+        
+          H
+          
+            k
+          
+        
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    Z
+                  
+                
+                
+                  k
+                  ∈
+                  {
+                  0
+                  ,
+                  n
+                  }
+                
+              
+              
+                
+                  0
+                
+                
+                  k
+                  ∉
+                  {
+                  0
+                  ,
+                  n
+                  }
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle C_{k}={\begin{cases}\mathbb {Z} &k\in \{0,n\}\\0&k\notin \{0,n\}\end{cases}}\quad H_{k}={\begin{cases}\mathbb {Z} &k\in \{0,n\}\\0&k\notin \{0,n\}\end{cases}}}
+  
+
+since all the differentials are zero.
+Alternatively, if we use the equatorial decomposition with two cells in every dimension
+
+  
+    
+      
+        
+          C
+          
+            k
+          
+        
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    
+                      Z
+                    
+                    
+                      2
+                    
+                  
+                
+                
+                  0
+                  ⩽
+                  k
+                  ⩽
+                  n
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    otherwise
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle C_{k}={\begin{cases}\mathbb {Z} ^{2}&0\leqslant k\leqslant n\\0&{\text{otherwise}}\end{cases}}}
+  
+
+and the differentials are matrices of the form 
+  
+    
+      
+        
+          (
+          
+            
+              
+                
+                  
+                    1
+                  
+                  
+                    −
+                    1
+                  
+                
+                
+                  
+                    1
+                  
+                  
+                    −
+                    1
+                  
+                
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle \left({\begin{smallmatrix}1&-1\\1&-1\end{smallmatrix}}\right).}
+  
+ This gives the same homology computation above, as the chain complex is exact at all terms except 
+  
+    
+      
+        
+          C
+          
+            0
+          
+        
+      
+    
+    {\displaystyle C_{0}}
+  
+ and 
+  
+    
+      
+        
+          C
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle C_{n}.}
+  
+
+For 
+  
+    
+      
+        
+          
+            P
+          
+          
+            n
+          
+        
+        (
+        
+          C
+        
+        )
+      
+    
+    {\displaystyle \mathbb {P} ^{n}(\mathbb {C} )}
+  
+ we get similarly
+
+  
+    
+      
+        
+          H
+          
+            k
+          
+        
+        
+          (
+          
+            
+              
+                P
+              
+              
+                n
+              
+            
+            (
+            
+              C
+            
+            )
+          
+          )
+        
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    Z
+                  
+                
+                
+                  0
+                  ⩽
+                  k
+                  ⩽
+                  2
+                  n
+                  ,
+                  
+                     even
+                  
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    otherwise
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle H^{k}\left(\mathbb {P} ^{n}(\mathbb {C} )\right)={\begin{cases}\mathbb {Z} &0\leqslant k\leqslant 2n,{\text{ even}}\\0&{\text{otherwise}}\end{cases}}}
+  
+
+Both of the above examples are particularly simple because the homology is determined by the number of cells—i.e.: the cellular attaching maps have no role in these computations.  This is a very special phenomenon and is not indicative of the general case.
+
+
+== Modification of CW structures ==
+There is a technique, developed by Whitehead, for replacing a CW complex with a homotopy-equivalent CW complex that has a simpler CW decomposition.
+Consider, for example, an arbitrary CW complex.  Its 1-skeleton can be fairly complicated, being an arbitrary graph. Now consider a maximal forest F in this graph.  Since it is a collection of trees, and trees are contractible, consider the space 
+  
+    
+      
+        X
+        
+          /
+        
+        
+          ∼
+        
+      
+    
+    {\displaystyle X/{\sim }}
+  
+ where the equivalence relation is generated by 
+  
+    
+      
+        x
+        ∼
+        y
+      
+    
+    {\displaystyle x\sim y}
+  
+ if they are contained in a common tree in the maximal forest F.  The quotient map 
+  
+    
+      
+        X
+        →
+        X
+        
+          /
+        
+        
+          ∼
+        
+      
+    
+    {\displaystyle X\to X/{\sim }}
+  
+ is a homotopy equivalence.  Moreover, 
+  
+    
+      
+        X
+        
+          /
+        
+        
+          ∼
+        
+      
+    
+    {\displaystyle X/{\sim }}
+  
+ naturally inherits a CW structure, with cells corresponding to the cells of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ that are not contained in F. In particular, the 1-skeleton of 
+  
+    
+      
+        X
+        
+          /
+        
+        
+          ∼
+        
+      
+    
+    {\displaystyle X/{\sim }}
+  
+ is a disjoint union of wedges of circles.
+Another way of stating the above is that a connected CW complex can be replaced by a homotopy-equivalent CW complex whose 0-skeleton consists of a single point.
+Consider climbing up the connectivity ladder—assume X is a simply-connected CW complex whose 0-skeleton consists of a point.  Can we, through suitable modifications, replace X by a homotopy-equivalent CW complex where 
+  
+    
+      
+        
+          X
+          
+            1
+          
+        
+      
+    
+    {\displaystyle X^{1}}
+  
+ consists of a single point?  The answer is yes.  The first step is to observe that 
+  
+    
+      
+        
+          X
+          
+            1
+          
+        
+      
+    
+    {\displaystyle X^{1}}
+  
+ and the attaching maps to construct 
+  
+    
+      
+        
+          X
+          
+            2
+          
+        
+      
+    
+    {\displaystyle X^{2}}
+  
+ from 
+  
+    
+      
+        
+          X
+          
+            1
+          
+        
+      
+    
+    {\displaystyle X^{1}}
+  
+ form a group presentation. The Tietze theorem for group presentations states that there is a sequence of moves we can perform to reduce this group presentation to the trivial presentation of the trivial group.  There are two Tietze moves:
+
+1) Adding/removing a generator. Adding a generator, from the perspective of the CW decomposition consists of adding a 1-cell and a 2-cell whose attaching map consists of the new 1-cell and the remainder of the attaching map is in 
+  
+    
+      
+        
+          X
+          
+            1
+          
+        
+      
+    
+    {\displaystyle X^{1}}
+  
+.  If we let 
+  
+    
+      
+        
+          
+            
+              X
+              ~
+            
+          
+        
+      
+    
+    {\displaystyle {\tilde {X}}}
+  
+ be the corresponding CW complex 
+  
+    
+      
+        
+          
+            
+              X
+              ~
+            
+          
+        
+        =
+        X
+        ∪
+        
+          e
+          
+            1
+          
+        
+        ∪
+        
+          e
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\tilde {X}}=X\cup e^{1}\cup e^{2}}
+  
+ then there is a homotopy equivalence 
+  
+    
+      
+        
+          
+            
+              X
+              ~
+            
+          
+        
+        →
+        X
+      
+    
+    {\displaystyle {\tilde {X}}\to X}
+  
+ given by sliding the new 2-cell into X.
+2) Adding/removing a relation. The act of adding a relation is similar, only one is replacing X by 
+  
+    
+      
+        
+          
+            
+              X
+              ~
+            
+          
+        
+        =
+        X
+        ∪
+        
+          e
+          
+            2
+          
+        
+        ∪
+        
+          e
+          
+            3
+          
+        
+      
+    
+    {\displaystyle {\tilde {X}}=X\cup e^{2}\cup e^{3}}
+  
+ where the new 3-cell has an attaching map that consists of the new 2-cell and remainder mapping into 
+  
+    
+      
+        
+          X
+          
+            2
+          
+        
+      
+    
+    {\displaystyle X^{2}}
+  
+.  A similar slide gives a homotopy-equivalence 
+  
+    
+      
+        
+          
+            
+              X
+              ~
+            
+          
+        
+        →
+        X
+      
+    
+    {\displaystyle {\tilde {X}}\to X}
+  
+.
+If a CW complex X is n-connected one can find a homotopy-equivalent CW complex 
+  
+    
+      
+        
+          
+            
+              X
+              ~
+            
+          
+        
+      
+    
+    {\displaystyle {\tilde {X}}}
+  
+ whose n-skeleton 
+  
+    
+      
+        
+          X
+          
+            n
+          
+        
+      
+    
+    {\displaystyle X^{n}}
+  
+ consists of a single point.  The argument for 
+  
+    
+      
+        n
+        ≥
+        2
+      
+    
+    {\displaystyle n\geq 2}
+  
+ is similar to the 
+  
+    
+      
+        n
+        =
+        1
+      
+    
+    {\displaystyle n=1}
+  
+ case, only one replaces Tietze moves for the fundamental group presentation by elementary matrix operations for the presentation matrices for 
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        X
+        ;
+        
+          Z
+        
+        )
+      
+    
+    {\displaystyle H_{n}(X;\mathbb {Z} )}
+  
+ (using the presentation matrices coming from cellular homology.  i.e.: one can similarly realize elementary matrix operations by a sequence of addition/removal of cells or suitable homotopies of the attaching maps.
+
+
+== 'The' homotopy category ==
+
+The homotopy category of CW complexes is, in the opinion of some experts, the best if not the only candidate for the homotopy category (for technical reasons the version for pointed spaces is actually used). Auxiliary constructions that yield spaces that are not CW complexes must be used on occasion. One basic result is that the representable functors on the homotopy category have a simple characterisation (the Brown representability theorem).
+
+
+== See also ==
+Abstract cell complex
+The notion of CW complex has an adaptation to smooth manifolds called a handle decomposition, which is closely related to surgery theory.
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== General references ===

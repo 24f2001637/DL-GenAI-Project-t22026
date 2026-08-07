@@ -1,0 +1,215 @@
+Wikipedia article: De Haas–Van Alphen effect
+Source: https://en.wikipedia.org/wiki/De_Haas–Van_Alphen_effect
+PageID: 5954184
+======================================================================
+
+The De Haas–Van Alphen effect, often abbreviated to DHVA, is a quantum mechanical effect by which the magnetic susceptibility of a pure metal crystal oscillates as the intensity of the magnetic field B is increased. It can be used to determine the Fermi surface of a material. Other quantities also oscillate, such as the electrical resistivity (Shubnikov–de Haas effect), specific heat, and sound attenuation and speed.  It is named after Wander Johannes de Haas and his student Pieter M. van Alphen. The DHVA effect comes from the orbital motion of itinerant electrons in the material. An equivalent phenomenon at low magnetic fields is known as Landau diamagnetism.
+
+
+== Description ==
+The differential magnetic susceptibility of a material is defined as
+
+  
+    
+      
+        χ
+        =
+        
+          
+            
+              ∂
+              M
+            
+            
+              ∂
+              H
+            
+          
+        
+      
+    
+    {\displaystyle \chi ={\frac {\partial M}{\partial H}}}
+  
+
+where 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+ is the applied external magnetic field and 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+ the magnetization of the material. Such that 
+  
+    
+      
+        
+          B
+        
+        =
+        
+          μ
+          
+            0
+          
+        
+        (
+        
+          H
+        
+        +
+        
+          M
+        
+        )
+      
+    
+    {\displaystyle \mathbf {B} =\mu _{0}(\mathbf {H} +\mathbf {M} )}
+  
+, where 
+  
+    
+      
+        
+          μ
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \mu _{0}}
+  
+ is the vacuum permeability. For practical purposes, the applied and the measured field are approximately the same 
+  
+    
+      
+        
+          B
+        
+        ≈
+        
+          μ
+          
+            0
+          
+        
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbf {B} \approx \mu _{0}\mathbf {H} }
+  
+ (if the material is not ferromagnetic).
+The oscillations of the differential susceptibility when plotted against 
+  
+    
+      
+        1
+        
+          /
+        
+        B
+      
+    
+    {\displaystyle 1/B}
+  
+, have a period 
+  
+    
+      
+        P
+      
+    
+    {\displaystyle P}
+  
+ (in teslas−1) that is inversely proportional to the area 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ of the extremal orbit of the Fermi surface (m−2), in the direction of the applied field, that is
+
+  
+    
+      
+        P
+        
+          (
+          
+            B
+            
+              −
+              1
+            
+          
+          )
+        
+        =
+        
+          
+            
+              2
+              π
+              e
+            
+            
+              ℏ
+              S
+            
+          
+        
+      
+    
+    {\displaystyle P\left(B^{-1}\right)={\frac {2\pi e}{\hbar S}}}
+  
+,
+where 
+  
+    
+      
+        ℏ
+      
+    
+    {\displaystyle \hbar }
+  
+ is Planck constant and 
+  
+    
+      
+        e
+      
+    
+    {\displaystyle e}
+  
+ is the elementary charge. The existence of more than one extremal orbit leads to multiple periods becoming superimposed. A more precise formula, known as Lifshitz–Kosevich formula, can be obtained using semiclassical approximations.
+The modern formulation allows the experimental determination of the Fermi surface of a metal from measurements performed with different orientations of the magnetic field around the sample.
+
+
+== History ==
+Experimentally it was discovered in 1930 by W.J. de Haas and P.M. van Alphen under careful study of the magnetization of a single crystal of bismuth. The magnetization oscillated as a function of the field. The inspiration for the experiment was the recently discovered Shubnikov–de Haas effect by Lev Shubnikov and De Haas, which showed oscillations of the electrical resistivity as function of a strong magnetic field. De Haas thought that the magnetoresistance should behave in an analogous way.
+The theoretical prediction of the phenomenon was formulated before the experiment, in the same year, by Lev Landau, but he discarded it as he thought that the magnetic fields necessary for its demonstration could not yet be created in a laboratory. The effect was described mathematically using Landau quantization of the electron energies in an applied magnetic field.  A strong homogeneous magnetic field — typically several teslas — and a low temperature are required to cause a material to exhibit the DHVA effect. Later in life, in private discussion, David Shoenberg asked Landau why he thought that an experimental demonstration was not possible. He answered by saying that Pyotr Kapitsa, Shoenberg's advisor, had convinced him that such homogeneity in the field was impractical.
+After the 1950s, the DHVA effect gained wider relevance after Lars Onsager (1952), and independently, Ilya Lifshitz and Arnold Kosevich (1954), pointed out that the phenomenon could be used to image the Fermi surface of a metal. In 1954, Lifshitz and Aleksei Pogorelov determined the range of applicability of the theory and described how to determine the shape of any arbitrary convex Fermi surface by measuring the extremal sections. Lifshitz and Pogorelov also found a relation between the temperature dependence of the oscillations and the cyclotron mass of an electron.
+By the 1970s the Fermi surface of most metallic elements had been reconstructed using De Haas–Van Alphen and Shubnikov–de Haas effects. Other techniques to study the Fermi surface have appeared since like the angle-resolved photoemission spectroscopy (ARPES).
+
+
+== References ==
+
+
+== External links ==
+Suzuki, Masatsugu; Suzuki, Itsuko S. (26 April 2006). "Lecture note on Solid State Physics: De Haas–Van Alphen effect" (PDF). State University of New York at Binghamton. Archived from the original (PDF) on 18 July 2011. Retrieved 2010-02-11.

@@ -1,0 +1,272 @@
+Wikipedia article: Magnitude (astronomy)
+Source: https://en.wikipedia.org/wiki/Magnitude_(astronomy)
+PageID: 2500686
+======================================================================
+
+In astronomy, magnitude is a measure of the brightness of an object, usually in a defined passband. An imprecise but systematic determination of the magnitude of objects was introduced in ancient times by Hipparchus.
+Magnitude values do not have a unit. The scale is logarithmic and defined such that a magnitude 1 star is exactly 100 times brighter than a magnitude 6 star. Thus each step of one magnitude is 
+  
+    
+      
+        
+          
+            100
+            
+              5
+            
+          
+        
+        ≈
+        2.512
+      
+    
+    {\displaystyle {\sqrt[{5}]{100}}\approx 2.512}
+  
+ times brighter than the magnitude 1 higher. The brighter an object appears, the lower the value of its magnitude, with the brightest objects reaching negative values.
+Astronomers use two different definitions of magnitude: apparent magnitude and absolute magnitude. The apparent magnitude (m) is the brightness of an object and depends on an object's intrinsic luminosity, its distance, and the extinction reducing its brightness. The absolute magnitude (M) describes the intrinsic luminosity emitted by an object and is defined to be equal to the apparent magnitude that the object would have if it were placed at a certain distance, 10 parsecs for stars. A more complex definition of absolute magnitude is used for planets and small Solar System bodies, based on its brightness at one astronomical unit from the observer and the Sun.
+The Sun has an apparent magnitude of −27 and Sirius, the brightest visible star in the night sky, −1.46.  Venus at its brightest is -5.  The International Space Station (ISS) sometimes reaches a magnitude of −6.
+Amateur astronomers commonly express the darkness of the sky in terms of limiting magnitude, i.e. the apparent magnitude of the faintest star they can see with the naked eye. At a dark site, it is usual for people to see stars of 6th magnitude or fainter.
+Apparent magnitude is really a measure of illuminance, which can also be measured in photometric units such as lux.
+
+
+== History ==
+
+The Greek astronomer Hipparchus produced a catalogue which noted the apparent brightness of stars in the second century BCE. In the second century CE, the Alexandrian astronomer Ptolemy classified stars on a six-point scale, and originated the term magnitude. To the unaided eye, a more prominent star such as Sirius or Arcturus appears larger than a less prominent star such as Mizar, which in turn appears larger than a truly faint star such as Alcor. In 1736, the mathematician John Keill described the ancient naked-eye magnitude system in this way:
+
+The fixed Stars appear to be of different Bignesses, not because they really are so, but because they are not all equally distant from us. Those that are nearest will excel in Lustre and Bigness; the more remote Stars will give a fainter Light, and appear smaller to the Eye. Hence arise the Distribution of Stars, according to their Order and Dignity, into Classes; the first Class containing those which are nearest to us, are called Stars of the first Magnitude; those that are next to them, are Stars of the second Magnitude ... and so forth, 'till we come to the Stars of the sixth Magnitude, which comprehend the smallest Stars that can be discerned with the bare Eye. For all the other Stars, which are only seen by the Help of a Telescope, and which are called Telescopical, are not reckoned among these six Orders. Altho' the Distinction of Stars into six Degrees of Magnitude is commonly received by Astronomers; yet we are not to judge, that every particular Star is exactly to be ranked according to a certain Bigness, which is one of the Six; but rather in reality there are almost as many Orders of Stars, as there are Stars, few of them being exactly of the same Bigness and Lustre. And even among those Stars which are reckoned of the brightest Class, there appears a Variety of Magnitude; for Sirius or Arcturus are each of them brighter than Aldebaran or the Bull's Eye, or even than the Star in Spica; and yet all these Stars are reckoned among the Stars of the first Order: And there are some Stars of such an intermedial Order, that the Astronomers have differed in classing of them; some putting the same Stars in one Class, others in another. For Example: The little Dog was by Tycho placed among the Stars of the second Magnitude, which Ptolemy reckoned among the Stars of the first Class: And therefore it is not truly either of the first or second Order, but ought to be ranked in a Place between both.
+
+Note that the brighter the star, the smaller the magnitude: Bright "first magnitude" stars are "1st-class" stars, while stars barely visible to the naked eye are "sixth magnitude" or "6th-class".
+The system was a simple delineation of stellar brightness into six distinct groups but made no allowance for the variations in brightness within a group.
+Tycho Brahe attempted to directly measure the "bigness" of the stars in terms of angular size, which in theory meant that a star's magnitude could be determined by more than just the subjective judgment described in the above quote. He concluded that first magnitude stars measured 2 arc minutes (2′) in apparent diameter (1⁄30 of a degree, or 1⁄15 the diameter of the full moon), with second through sixth magnitude stars measuring 1+1⁄2′, 1+1⁄12′, 3⁄4′, 1⁄2′, and 1⁄3′, respectively. The development of the telescope showed that these large sizes were illusory—stars appeared much smaller through the telescope. However, early telescopes produced a spurious disk-like image of a star that was larger for brighter stars and smaller for fainter ones. Astronomers from Galileo to Jaques Cassini mistook these spurious disks for the physical bodies of stars, and thus into the eighteenth century continued to think of magnitude in terms of the physical size of a star. Johannes Hevelius produced a very precise table of star sizes measured telescopically, but now the measured diameters ranged from just over six seconds of arc for first magnitude down to just under 2 seconds for sixth magnitude. By the time of William Herschel astronomers recognized that the telescopic disks of stars were spurious and a function of the telescope as well as the brightness of the stars, but still spoke in terms of a star's size more than its brightness. Even into the early nineteenth century, the magnitude system continued to be described in terms of six classes determined by apparent size.
+However, by the mid-nineteenth century astronomers had measured the distances to stars via stellar parallax, and so understood that stars are so far away as to essentially appear as point sources of light. Following advances in understanding the diffraction of light and astronomical seeing, astronomers fully understood both that the apparent sizes of stars were spurious and how those sizes depended on the intensity of light coming from a star (this is the star's apparent brightness, which can be measured in units such as watts per square metre) so that brighter stars appeared larger.
+
+
+=== Modern definition ===
+Early photometric measurements (made, for example, by using a light to project an artificial “star” into a telescope's field of view and adjusting it to match real stars in brightness) demonstrated that first magnitude stars are about 100 times brighter than sixth magnitude stars.
+Thus in 1856 Norman Pogson of Oxford proposed that a logarithmic scale of 5√100 ≈ 2.512 be adopted between magnitudes, so five magnitude steps corresponded precisely to a factor of 100 in brightness. Every interval of one magnitude equates to a variation in brightness of 5√100 or roughly 2.512 times. Consequently, a magnitude 1 star is about 2.5 times brighter than a magnitude 2 star, about 2.52 times brighter than a magnitude 3 star, about 2.53 times brighter than a magnitude 4 star, and so on.
+This is the modern magnitude system, which measures the brightness, not the apparent size, of stars. Using this logarithmic scale, it is possible for a star to be brighter than “first class”, so Arcturus or Vega are magnitude 0, and Sirius is magnitude −1.46.
+
+
+== Scale ==
+As mentioned above, the scale appears to work 'in reverse', with objects with a negative magnitude being brighter than those with a positive magnitude. The more negative the value, the brighter the object.
+
+Objects appearing farther to the left on this line are brighter, while objects appearing farther to the right are dimmer. Thus zero appears in the middle, with the brightest objects on the far left, and the dimmest objects on the far right.
+
+
+== Apparent and absolute magnitude ==
+Two of the main types of magnitudes distinguished by astronomers are:
+
+Apparent magnitude, the brightness of an object as it appears in the night sky.
+Absolute magnitude, which measures the luminosity of an object (or reflected light for non-luminous objects like asteroids); it is the object's apparent magnitude as seen from a specific distance, conventionally 10 parsecs (32.6 light years).
+The difference between these concepts can be seen by comparing two stars. Betelgeuse (apparent magnitude 0.5, absolute magnitude −5.8) appears slightly dimmer in the sky than Alpha Centauri A (apparent magnitude 0.0, absolute magnitude 4.4) even though it emits thousands of times more light, because Betelgeuse is much farther away.
+
+
+=== Apparent magnitude ===
+
+Under the modern logarithmic magnitude scale, two objects, one of which is used as a reference or baseline, whose flux (i.e., brightness, a measure of power per unit area) in units such as watts per square metre (W m−2) are F1 and Fref, will have magnitudes m1 and mref related by
+
+  
+    
+      
+        
+          m
+          
+            1
+          
+        
+        −
+        
+          m
+          
+            
+              r
+              e
+              f
+            
+          
+        
+        =
+        −
+        2.5
+        
+          log
+          
+            10
+          
+        
+        ⁡
+        
+          (
+          
+            
+              
+                F
+                
+                  1
+                
+              
+              
+                F
+                
+                  
+                    r
+                    e
+                    f
+                  
+                
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle m_{1}-m_{\rm {ref}}=-2.5\log _{10}\left({\frac {F_{1}}{F_{\rm {ref}}}}\right).}
+  
+
+Astronomers use the term "flux" for what is often called "intensity" in physics, in order to avoid confusion with the specific intensity. Using this formula, the magnitude scale can be extended beyond the ancient magnitude 1–6 range, and it becomes a precise measure of brightness rather than simply a classification system. Astronomers now measure differences as small as one-hundredth of a magnitude. Stars that have magnitudes between 1.5 and 2.5 are called second-magnitude; there are some 20 stars brighter than 1.5, which are first-magnitude stars (see the list of brightest stars). For example, Sirius is magnitude −1.46, Arcturus is −0.04, Aldebaran is 0.85, Spica is 1.04, and Procyon is 0.34. Under the ancient magnitude system, all of these stars might have been classified as "stars of the first magnitude".
+Magnitudes can also be calculated for objects far brighter than stars (such as the Sun and Moon), and for objects too faint for the human eye to see (such as Pluto).
+
+
+=== Absolute magnitude ===
+
+Often, only apparent magnitude is mentioned since it can be measured directly. Absolute magnitude can be calculated from apparent magnitude and distance from:
+
+  
+    
+      
+        m
+        −
+        M
+        =
+        2.5
+        
+          log
+          
+            10
+          
+        
+        ⁡
+        (
+        d
+        
+          /
+        
+        10
+        
+          )
+          
+            2
+          
+        
+        =
+        5
+        
+          (
+          
+            
+              log
+              
+                10
+              
+            
+            ⁡
+            d
+            −
+            1
+          
+          )
+        
+        
+        ,
+      
+    
+    {\displaystyle m-M=2.5\log _{10}(d/10)^{2}=5\left(\log _{10}d-1\right)\,,}
+  
+
+because intensity falls off proportionally to distance squared.  This is known as the distance modulus, where d is the distance to the star measured in parsecs, m is the apparent magnitude, and M is the absolute magnitude.
+If the line of sight between the object and observer is affected by extinction due to absorption of light by interstellar dust particles, then the object's apparent magnitude will be correspondingly fainter. For A magnitudes of extinction, the relationship between apparent and absolute magnitudes becomes
+
+  
+    
+      
+        m
+        −
+        M
+        =
+        5
+        
+          (
+          
+            
+              log
+              
+                10
+              
+            
+            ⁡
+            d
+            −
+            1
+          
+          )
+        
+        +
+        A
+        .
+      
+    
+    {\displaystyle m-M=5\left(\log _{10}d-1\right)+A.}
+  
+
+Stellar absolute magnitudes are usually designated with a capital M with a subscript to indicate the passband.  For example, MV is the magnitude at 10 parsecs in the V passband.  A bolometric magnitude (Mbol) is an absolute magnitude adjusted to take account of radiation across all wavelengths; it is typically smaller (i.e. brighter) than an absolute magnitude in a particular passband, especially for very hot or very cool objects.  Bolometric magnitudes are formally defined based on stellar luminosity in watts, and are normalised to be approximately equal to MV for  yellow stars.
+Absolute magnitudes for Solar System objects are frequently quoted based on a distance of 1 AU.  These are referred to with a capital H symbol.  Since these objects are lit primarily by reflected light from the Sun, an H magnitude is defined as the apparent magnitude of the object at 1 AU from the Sun and 1 AU from the observer.
+
+
+=== Examples ===
+The following is a table giving apparent magnitudes for celestial objects and artificial satellites ranging from the Sun to the faintest object visible with the James Webb Space Telescope (JWST):
+
+
+=== Other scales ===
+Any magnitude systems must be calibrated to define the brightness of magnitude zero. Many magnitude systems, such as the Johnson UBV system, assign the average brightness of several stars to a certain number to by definition, and all other magnitude measurements are compared to that reference point. Other magnitude systems calibrate by measuring energy directly, without a reference point, and these are called "absolute" reference systems. Current absolute reference systems include the AB magnitude system, in which the reference is a source with a constant flux density per unit frequency, and the STMAG system, in which the reference source is instead defined to have constant flux density per unit wavelength.
+
+
+==== Decibel ====
+Another logarithmic measure for intensity is the level, in decibel.  Although it is more commonly used for sound intensity, it is also used for light intensity.  It is a parameter for photomultiplier tubes and similar camera optics for telescopes and microscopes.  Each factor of 10 in intensity corresponds to 10 decibels.  In particular, a multiplier of 100 in intensity corresponds to an increase of 20 decibels and also corresponds to a decrease in magnitude by 5.  Generally, the change in level is related to a change in magnitude by
+
+  
+    
+      
+        Δ
+        L
+        =
+        −
+        4
+        Δ
+        m
+        
+      
+    
+    {\displaystyle \Delta L=-4\Delta m\,}
+  
+ dB
+For example, an object that is 1 magnitude larger (fainter) than a reference would produce a signal that is 4 dB smaller (weaker) than the reference, which might need to be compensated by an increase in the capability of the camera by as many decibels.
+
+
+== See also ==
+AB magnitude
+Color–color diagram
+List of brightest stars
+Photometric-standard star
+UBV photometric system
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Rothstein, Dave (18 September 2003). "What is apparent magnitude?". Cornell University. Archived from the original on 2015-01-17. Retrieved 23 December 2011.

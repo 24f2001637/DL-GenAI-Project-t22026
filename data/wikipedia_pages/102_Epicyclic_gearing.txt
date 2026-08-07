@@ -1,0 +1,3370 @@
+Wikipedia article: Epicyclic gearing
+Source: https://en.wikipedia.org/wiki/Epicyclic_gearing
+PageID: 368227
+======================================================================
+
+An epicyclic gear train (also known as a planetary gearset) is a gear reduction assembly consisting of two gears mounted so that the center of one gear (the "planet") revolves around the center of the other (the "sun"). A carrier connects the centers of the two gears and rotates to carry the planet gear(s) around the sun gear. The planet and sun gears mesh so that their pitch circles roll without slip. If the sun gear is held fixed, then a point on the pitch circle of the planet gear traces an epicycloid curve.
+An epicyclic gear train can be assembled so that the planet gear rolls on the inside of the pitch circle of an outer gear ring, or ring gear, sometimes called an annulus gear. Such an assembly of a planet engaging both a sun gear and a ring gear is called a planetary gear train. By choosing to hold one component or another—the planetary carrier, the ring gear, or the sun gear—stationary, three different gear ratios can be realized.
+
+One important property of planetary gear systems is their ability to combine multiple rotational inputs into a single output. This behavior can be understood through an equivalent linear (rack-and-pinion) analogy, which simplifies the kinematic relationships.
+
+Object A → upper rack corresponds to one gear element (e.g., sun gear)
+Object C → lower rack corresponds to another gear element (e.g., ring gear)
+Object B → represents the planet carrier
+If Object A is fixed and Object B moves one inch, Object C moves two inches.
+C moves twice as far as B, because rotation and translation combine.
+
+
+== Kinematic equations ==
+
+A simple planetary gear train can be analyzed using an equivalent linear rack-and-pinion model. In this analogy, rack A corresponds to one gear element, such as the sun gear; rack C corresponds to another gear element, such as the ring gear; and body B represents the planet carrier.
+Let
+
+  
+    
+      
+        
+          v
+          
+            A
+          
+        
+      
+    
+    {\displaystyle v_{A}}
+  
+ be the velocity of rack A,
+
+  
+    
+      
+        
+          v
+          
+            B
+          
+        
+      
+    
+    {\displaystyle v_{B}}
+  
+ be the velocity of carrier B,
+
+  
+    
+      
+        
+          v
+          
+            C
+          
+        
+      
+    
+    {\displaystyle v_{C}}
+  
+ be the velocity of rack C,
+
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+  
+ be the angular velocity of the planet gear, and
+
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ be the pitch radius of the planet gear.
+If rack A is fixed, the no-slip condition at the upper contact point is:
+
+  
+    
+      
+        
+          v
+          
+            A
+          
+        
+        =
+        
+          v
+          
+            B
+          
+        
+        −
+        ω
+        R
+        =
+        0.
+      
+    
+    {\displaystyle v_{A}=v_{B}-\omega R=0.}
+  
+
+Therefore,
+
+  
+    
+      
+        ω
+        R
+        =
+        
+          v
+          
+            B
+          
+        
+        .
+      
+    
+    {\displaystyle \omega R=v_{B}.}
+  
+
+At the lower contact point, the velocity of rack C is the sum of the carrier translation and the rotational contribution of the planet gear:
+
+  
+    
+      
+        
+          v
+          
+            C
+          
+        
+        =
+        
+          v
+          
+            B
+          
+        
+        +
+        ω
+        R
+        .
+      
+    
+    {\displaystyle v_{C}=v_{B}+\omega R.}
+  
+
+Substituting 
+  
+    
+      
+        ω
+        R
+        =
+        
+          v
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \omega R=v_{B}}
+  
+ gives
+
+  
+    
+      
+        
+          v
+          
+            C
+          
+        
+        =
+        2
+        
+          v
+          
+            B
+          
+        
+        .
+      
+    
+    {\displaystyle v_{C}=2v_{B}.}
+  
+
+Thus, if carrier B moves one unit while rack A is fixed, rack C moves two units.
+More generally, the no-slip conditions at the two contact points are
+
+  
+    
+      
+        
+          v
+          
+            A
+          
+        
+        =
+        
+          v
+          
+            B
+          
+        
+        −
+        ω
+        R
+      
+    
+    {\displaystyle v_{A}=v_{B}-\omega R}
+  
+
+and
+
+  
+    
+      
+        
+          v
+          
+            C
+          
+        
+        =
+        
+          v
+          
+            B
+          
+        
+        +
+        ω
+        R
+        .
+      
+    
+    {\displaystyle v_{C}=v_{B}+\omega R.}
+  
+
+Adding these equations gives
+
+  
+    
+      
+        
+          v
+          
+            A
+          
+        
+        +
+        
+          v
+          
+            C
+          
+        
+        =
+        2
+        
+          v
+          
+            B
+          
+        
+        ,
+      
+    
+    {\displaystyle v_{A}+v_{C}=2v_{B},}
+  
+
+or
+
+  
+    
+      
+        
+          v
+          
+            B
+          
+        
+        =
+        
+          
+            
+              
+                v
+                
+                  A
+                
+              
+              +
+              
+                v
+                
+                  C
+                
+              
+            
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle v_{B}={\frac {v_{A}+v_{C}}{2}}.}
+  
+
+For a planetary gear train, the corresponding rotational quantities are as follows: 
+  
+    
+      
+        
+          v
+          
+            A
+          
+        
+      
+    
+    {\displaystyle v_{A}}
+  
+ corresponds to 
+  
+    
+      
+        
+          N
+          
+            s
+          
+        
+        
+          ω
+          
+            s
+          
+        
+      
+    
+    {\displaystyle N_{s}\omega _{s}}
+  
+ for the sun gear, 
+  
+    
+      
+        
+          v
+          
+            C
+          
+        
+      
+    
+    {\displaystyle v_{C}}
+  
+ corresponds to 
+  
+    
+      
+        
+          N
+          
+            r
+          
+        
+        
+          ω
+          
+            r
+          
+        
+      
+    
+    {\displaystyle N_{r}\omega _{r}}
+  
+ for the ring gear, and 
+  
+    
+      
+        
+          v
+          
+            B
+          
+        
+      
+    
+    {\displaystyle v_{B}}
+  
+ corresponds to 
+  
+    
+      
+        (
+        
+          N
+          
+            s
+          
+        
+        +
+        
+          N
+          
+            r
+          
+        
+        )
+        
+          ω
+          
+            c
+          
+        
+      
+    
+    {\displaystyle (N_{s}+N_{r})\omega _{c}}
+  
+ for the carrier. Here, 
+  
+    
+      
+        
+          N
+          
+            s
+          
+        
+      
+    
+    {\displaystyle N_{s}}
+  
+ is the number of teeth on the sun gear, 
+  
+    
+      
+        
+          N
+          
+            r
+          
+        
+      
+    
+    {\displaystyle N_{r}}
+  
+ is the number of teeth on the ring gear, and 
+  
+    
+      
+        
+          ω
+          
+            s
+          
+        
+      
+    
+    {\displaystyle \omega _{s}}
+  
+, 
+  
+    
+      
+        
+          ω
+          
+            r
+          
+        
+      
+    
+    {\displaystyle \omega _{r}}
+  
+, and 
+  
+    
+      
+        
+          ω
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \omega _{c}}
+  
+ are the angular velocities of the sun gear, ring gear, and carrier, respectively.
+Substituting these quantities gives the standard kinematic relationship
+
+  
+    
+      
+        
+          N
+          
+            s
+          
+        
+        
+          ω
+          
+            s
+          
+        
+        +
+        
+          N
+          
+            r
+          
+        
+        
+          ω
+          
+            r
+          
+        
+        =
+        (
+        
+          N
+          
+            s
+          
+        
+        +
+        
+          N
+          
+            r
+          
+        
+        )
+        
+          ω
+          
+            c
+          
+        
+        .
+      
+    
+    {\displaystyle N_{s}\omega _{s}+N_{r}\omega _{r}=(N_{s}+N_{r})\omega _{c}.}
+  
+
+This equation describes how the angular velocities of two gear elements determine the angular velocity of the third. If only one element is driven and the others are unconstrained, the motion is not uniquely determined. A fixed member, load condition, or directional constraint, such as a ratchet or one-way clutch, is needed to define a unique output motion.
+For example, let
+
+  
+    
+      
+        
+          N
+          
+            s
+          
+        
+        =
+        60
+        ,
+        
+        
+          N
+          
+            r
+          
+        
+        =
+        100
+        ,
+        
+        
+          ω
+          
+            s
+          
+        
+        =
+        +
+        0.5
+        ,
+        
+        
+          ω
+          
+            c
+          
+        
+        =
+        −
+        0.25.
+      
+    
+    {\displaystyle N_{s}=60,\quad N_{r}=100,\quad \omega _{s}=+0.5,\quad \omega _{c}=-0.25.}
+  
+
+Solving for the ring gear speed,
+
+  
+    
+      
+        60
+        (
+        0.5
+        )
+        +
+        100
+        
+          ω
+          
+            r
+          
+        
+        =
+        (
+        60
+        +
+        100
+        )
+        (
+        −
+        0.25
+        )
+        ,
+      
+    
+    {\displaystyle 60(0.5)+100\omega _{r}=(60+100)(-0.25),}
+  
+
+so
+
+  
+    
+      
+        30
+        +
+        100
+        
+          ω
+          
+            r
+          
+        
+        =
+        −
+        40
+        ,
+      
+    
+    {\displaystyle 30+100\omega _{r}=-40,}
+  
+
+  
+    
+      
+        100
+        
+          ω
+          
+            r
+          
+        
+        =
+        −
+        70
+        ,
+      
+    
+    {\displaystyle 100\omega _{r}=-70,}
+  
+
+and
+
+  
+    
+      
+        
+          ω
+          
+            r
+          
+        
+        =
+        −
+        0.7.
+      
+    
+    {\displaystyle \omega _{r}=-0.7.}
+  
+
+The ring gear therefore rotates with an angular velocity of 
+  
+    
+      
+        −
+        0.7
+      
+    
+    {\displaystyle -0.7}
+  
+, indicating rotation in the negative direction under the chosen sign convention.
+A related relationship applies to a symmetric differential, where the carrier speed is the average of the two side-gear speeds:
+
+  
+    
+      
+        
+          ω
+          
+            c
+          
+        
+        =
+        
+          
+            
+              
+                ω
+                
+                  L
+                
+              
+              +
+              
+                ω
+                
+                  R
+                
+              
+            
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle \omega _{c}={\frac {\omega _{L}+\omega _{R}}{2}}.}
+  
+
+Solving for the right-side gear gives
+
+  
+    
+      
+        
+          ω
+          
+            R
+          
+        
+        =
+        2
+        
+          ω
+          
+            c
+          
+        
+        −
+        
+          ω
+          
+            L
+          
+        
+        .
+      
+    
+    {\displaystyle \omega _{R}=2\omega _{c}-\omega _{L}.}
+  
+
+For example, if
+
+  
+    
+      
+        
+          ω
+          
+            L
+          
+        
+        =
+        0.5
+      
+    
+    {\displaystyle \omega _{L}=0.5}
+  
+
+and
+
+  
+    
+      
+        
+          ω
+          
+            c
+          
+        
+        =
+        −
+        0.25
+        ,
+      
+    
+    {\displaystyle \omega _{c}=-0.25,}
+  
+
+then
+
+  
+    
+      
+        
+          ω
+          
+            R
+          
+        
+        =
+        2
+        (
+        −
+        0.25
+        )
+        −
+        0.5
+        =
+        −
+        1.0.
+      
+    
+    {\displaystyle \omega _{R}=2(-0.25)-0.5=-1.0.}
+  
+
+Modified planetary gear systems have also been proposed for wave-energy applications, where they may help convert irregular, low-speed, pulsating motion into steadier one-directional rotation.
+
+
+== Overview ==
+
+Epicyclic gearing or planetary gearing is a gear system consisting of one or more outer planet gears, or pinions, revolving about a central sun gear or sun wheel. Typically, the planet gears are mounted on a movable arm or carrier, which itself may rotate relative to the sun gear. Epicyclic gearing systems also incorporate the use of an outer ring gear, which meshes with the planet gears. Planetary gears (or epicyclic gears) are typically classified as simple or compound planetary gears. Simple planetary gears have one sun, one ring, one carrier, and one planet set. Compound planetary gears involve one or more of the following three types of structures: meshed-planet (there are at least two more planets in mesh with each other in each planet train), stepped-planet (there exists a shaft connection between two planets in each planet
+train), and multi-stage structures (the system contains two or more planet sets). Compared to simple planetary gears, compound planetary gears have the advantages of larger reduction ratio, higher torque-to-weight ratio, and more flexible configurations.
+The axes of all gears are usually parallel, but for special cases like pencil sharpeners and differentials, they can be placed at an angle, introducing elements of bevel gear (see below). Further, the sun, planet carrier and ring axes are usually coaxial.
+
+Another configuration of epicyclic gearing consists of a sun gear, a carrier, and two planets that mesh with each other. One planet meshes with the sun gear, while the second planet meshes with the ring gear. In this configuration, when the carrier is fixed, the ring gear rotates in the same direction as the sun gear, providing a directional reversal compared to standard epicyclic gearing.
+
+
+== History ==
+Around 500 BC, the Greeks invented the concept of epicycles, which are circles travelling on circular orbits. With this theory Claudius Ptolemy in the Almagest in 148 AD was able to approximate planetary paths observed crossing the sky. The Antikythera mechanism, circa 80 BC, had gearing that was able to closely match the Moon's elliptical path through the heavens, and even to correct for the nine-year precession of that path. (The Greeks interpreted the motion they saw, not as elliptical, but rather as epicyclic motion.)
+In the 2nd century AD treatise The Mathematical Syntaxis (a.k.a. Almagest), Claudius Ptolemy used rotating deferent and epicycles that form epicyclic gear trains to predict the motions of the planets. Accurate predictions of the movement of the Sun, Moon, and the five planets, Mercury, Venus, Mars, Jupiter, and Saturn, across the sky assumed that each followed a trajectory traced by a point on the planet gear of an epicyclic gear train. This curve is called an epitrochoid.
+Epicyclic gearing was used in the Antikythera Mechanism, circa 80 BC, to adjust the displayed position of the Moon for the ellipticity of its orbit, and even for its orbital apsidal precession. Two facing gears were rotated around slightly different centers; one drove the other, not with meshed teeth, but with a pin inserted into a slot on the second. As the slot drove the second gear, the radius of driving would change, thus invoking a speeding up and slowing down of the driven gear in each revolution.
+Richard of Wallingford, an English abbot of St. Albans monastery, later described epicyclic gearing for an astronomical clock in the 14th century. In 1588, Italian military engineer Agostino Ramelli invented the bookwheel, a vertically revolving bookstand containing epicyclic gearing with two levels of planetary gears to maintain proper orientation of the books.
+The French mathematician and engineer Desargues designed and constructed the first mill with epicycloidal teeth c. 1650.
+
+
+== Requirements for non-interference ==
+
+In order that the planet gear teeth mesh properly with both the sun and ring gears, assuming
+
+  
+    
+      
+        
+          n
+          
+            p
+          
+        
+      
+    
+    {\displaystyle n_{p}}
+  
+
+equally spaced planet gears, the following equation must be satisfied:
+
+  
+    
+      
+        
+          
+            
+              
+                N
+                
+                  s
+                
+              
+              +
+              
+                N
+                
+                  r
+                
+              
+            
+            
+              n
+              
+                p
+              
+            
+          
+        
+        =
+        A
+      
+    
+    {\displaystyle {\frac {N_{s}+N_{r}}{n_{p}}}=A}
+  
+
+where
+
+  
+    
+      
+        
+          N
+          
+            s
+          
+        
+        ,
+        
+          N
+          
+            r
+          
+        
+      
+    
+    {\displaystyle N_{s},N_{r}}
+  
+ are the number of teeth of the sun gear and the ring gear, respectively,
+
+  
+    
+      
+        
+          n
+          
+            p
+          
+        
+      
+    
+    {\displaystyle n_{p}}
+  
+ is the number of planet gears in the assembly, and
+
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ is a whole number
+If one is to create an asymmetric carrier frame with non-equiangular planet gears, say to create some kind of mechanical vibration in the system, one must design the gearing arrangement such that the above equation complies with the "imaginary gears". For example, in the case where a carrier frame is intended to contain planet gears spaced 0°, 50°, 120°, and 230°, one is to calculate as if there are actually 36 planetary gears (10° equiangular), rather than the four real ones.
+
+
+== Gear speed ratios of conventional epicyclic gearing ==
+The gear ratio of an epicyclic gearing system is somewhat non-intuitive, particularly because there are several ways in which an input rotation can be converted into an output rotation. The four basic components of the epicyclic gear are:
+
+Sun gear: The central gear
+Carrier frame: Holds one or more planetary gear(s) symmetrically and separated, all meshed with the sun gear
+Planet gear(s): Usually two to four peripheral gears, all of the same size, that mesh between the sun gear and the ring gear
+Ring gear, Moon gear, Annulus gear, or Annular gear: An outer ring with inward-facing teeth that mesh with the planetary gear(s)
+
+The overall gear ratio of a simple planetary gearset can be calculated using the following two equations, representing the sun-planet and planet-ring interactions respectively:
+
+  
+    
+      
+        
+          N
+          
+            s
+          
+        
+        
+          ω
+          
+            s
+          
+        
+        +
+        
+          N
+          
+            p
+          
+        
+        
+          ω
+          
+            p
+          
+        
+        −
+        
+          (
+          
+            
+              N
+              
+                s
+              
+            
+            +
+            
+              N
+              
+                p
+              
+            
+          
+          )
+        
+        
+          ω
+          
+            c
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle N_{s}\omega _{s}+N_{p}\omega _{p}-\left(N_{s}+N_{p}\right)\omega _{c}=0}
+  
+
+  
+    
+      
+        
+          N
+          
+            r
+          
+        
+        
+          ω
+          
+            r
+          
+        
+        −
+        
+          N
+          
+            p
+          
+        
+        
+          ω
+          
+            p
+          
+        
+        −
+        
+          (
+          
+            
+              N
+              
+                r
+              
+            
+            −
+            
+              N
+              
+                p
+              
+            
+          
+          )
+        
+        
+          ω
+          
+            c
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle N_{r}\omega _{r}-N_{p}\omega _{p}-\left(N_{r}-N_{p}\right)\omega _{c}=0}
+  
+
+where
+
+  
+    
+      
+        
+          ω
+          
+            r
+          
+        
+        ,
+        
+          ω
+          
+            s
+          
+        
+        ,
+        
+          ω
+          
+            p
+          
+        
+        ,
+        
+          ω
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \omega _{r},\omega _{s},\omega _{p},\omega _{c}}
+  
+
+are the angular velocities of the ring gear, sun gear, planetary gears, and carrier frame respectively, and
+
+  
+    
+      
+        
+          N
+          
+            r
+          
+        
+        ,
+        
+          N
+          
+            s
+          
+        
+        ,
+        
+          N
+          
+            p
+          
+        
+      
+    
+    {\displaystyle N_{r},N_{s},N_{p}}
+  
+
+are the number of teeth of the ring gear, the sun gear, and each planet gear respectively.
+from which we can derive the following:
+
+  
+    
+      
+        
+          N
+          
+            s
+          
+        
+        
+          ω
+          
+            s
+          
+        
+        +
+        
+          N
+          
+            r
+          
+        
+        
+          ω
+          
+            r
+          
+        
+        =
+        (
+        
+          N
+          
+            s
+          
+        
+        +
+        
+          N
+          
+            r
+          
+        
+        )
+        
+          ω
+          
+            c
+          
+        
+      
+    
+    {\displaystyle N_{s}\omega _{s}+N_{r}\omega _{r}=(N_{s}+N_{r})\omega _{c}}
+  
+
+  
+    
+      
+        
+          ω
+          
+            s
+          
+        
+        =
+        
+          
+            
+              
+                N
+                
+                  s
+                
+              
+              +
+              
+                N
+                
+                  r
+                
+              
+            
+            
+              N
+              
+                s
+              
+            
+          
+        
+        
+          ω
+          
+            c
+          
+        
+        −
+        
+          
+            
+              N
+              
+                r
+              
+            
+            
+              N
+              
+                s
+              
+            
+          
+        
+        
+          ω
+          
+            r
+          
+        
+      
+    
+    {\displaystyle \omega _{s}={\frac {N_{s}+N_{r}}{N_{s}}}\omega _{c}-{\frac {N_{r}}{N_{s}}}\omega _{r}}
+  
+
+  
+    
+      
+        
+          ω
+          
+            r
+          
+        
+        =
+        
+          
+            
+              
+                N
+                
+                  s
+                
+              
+              +
+              
+                N
+                
+                  r
+                
+              
+            
+            
+              N
+              
+                r
+              
+            
+          
+        
+        
+          ω
+          
+            c
+          
+        
+        −
+        
+          
+            
+              N
+              
+                s
+              
+            
+            
+              N
+              
+                r
+              
+            
+          
+        
+        
+          ω
+          
+            s
+          
+        
+      
+    
+    {\displaystyle \omega _{r}={\frac {N_{s}+N_{r}}{N_{r}}}\omega _{c}-{\frac {N_{s}}{N_{r}}}\omega _{s}}
+  
+
+  
+    
+      
+        
+          ω
+          
+            c
+          
+        
+        =
+        
+          
+            
+              N
+              
+                s
+              
+            
+            
+              
+                N
+                
+                  s
+                
+              
+              +
+              
+                N
+                
+                  r
+                
+              
+            
+          
+        
+        
+          ω
+          
+            s
+          
+        
+        +
+        
+          
+            
+              N
+              
+                r
+              
+            
+            
+              
+                N
+                
+                  s
+                
+              
+              +
+              
+                N
+                
+                  r
+                
+              
+            
+          
+        
+        
+          ω
+          
+            r
+          
+        
+      
+    
+    {\displaystyle \omega _{c}={\frac {N_{s}}{N_{s}+N_{r}}}\omega _{s}+{\frac {N_{r}}{N_{s}+N_{r}}}\omega _{r}}
+  
+
+and
+
+  
+    
+      
+        −
+        
+          
+            
+              N
+              
+                r
+              
+            
+            
+              N
+              
+                s
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                ω
+                
+                  s
+                
+              
+              −
+              
+                ω
+                
+                  c
+                
+              
+            
+            
+              
+                ω
+                
+                  r
+                
+              
+              −
+              
+                ω
+                
+                  c
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle -{\frac {N_{r}}{N_{s}}}={\frac {\omega _{s}-\omega _{c}}{\omega _{r}-\omega _{c}}}}
+  
+
+only if 
+  
+    
+      
+        
+          ω
+          
+            r
+          
+        
+        ≠
+        
+          ω
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \omega _{r}\neq \omega _{c}}
+  
+.
+In many epicyclic gearing systems, one of these three basic components is held stationary (hence set 
+  
+    
+      
+        
+          ω
+          
+            .
+            .
+            .
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \omega _{...}=0}
+  
+ for whichever gear is stationary); one of the two remaining components is an input, providing power to the system, while the last component is an output, receiving power from the system. The ratio of input rotation to output rotation is dependent upon the number of teeth in each of the gears, and upon which component is held stationary.
+Alternatively, in the special case where the number of teeth on each gear meets the relationship 
+  
+    
+      
+        
+          N
+          
+            r
+          
+        
+        =
+        
+          N
+          
+            s
+          
+        
+        +
+        2
+        
+          N
+          
+            p
+          
+        
+      
+    
+    {\displaystyle N_{r}=N_{s}+2N_{p}}
+  
+, the equation can be re-written as the following:
+
+  
+    
+      
+        
+          N
+          
+            s
+          
+        
+        
+          ω
+          
+            s
+          
+        
+        +
+        (
+        2
+        +
+        n
+        )
+        
+          ω
+          
+            r
+          
+        
+        −
+        2
+        (
+        1
+        +
+        n
+        )
+        
+          ω
+          
+            c
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle N_{s}\omega _{s}+(2+n)\omega _{r}-2(1+n)\omega _{c}=0}
+  
+
+where
+
+  
+    
+      
+        n
+        =
+        
+          
+            
+              
+                N
+                
+                  s
+                
+              
+              
+                N
+                
+                  p
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle n={\tfrac {N_{s}}{N_{p}}}}
+  
+ is the sun-to-planet gear ratio.
+These relationships can be used to analyze any epicyclic system, including those, such as hybrid vehicle transmissions, where two of the components are used as inputs with the third providing output relative to the two inputs.
+In one arrangement, the planetary carrier (green in the diagram above) is held stationary, and the sun gear (yellow) is used as input. In that case, the planetary gears simply rotate about their own axes (i.e., spin) at a rate determined by the number of teeth in each gear. If the sun gear has 
+  
+    
+      
+        
+          N
+          
+            s
+          
+        
+      
+    
+    {\displaystyle N_{s}}
+  
+ teeth, and each planet gear has 
+  
+    
+      
+        
+          N
+          
+            p
+          
+        
+      
+    
+    {\displaystyle N_{p}}
+  
+ teeth, then the ratio is equal to 
+  
+    
+      
+        −
+        
+          
+            
+              
+                N
+                
+                  s
+                
+              
+              
+                N
+                
+                  p
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle -{\tfrac {N_{s}}{N_{p}}}}
+  
+. For instance, if the sun gear has 24 teeth, and each planet has 16 teeth, then the ratio is ⁠−+24/ 16 ⁠, or ⁠−+3/ 2 ⁠; this means that one clockwise turn of the sun gear produces 1.5 counterclockwise turns of each of the planet gear(s) about its axis.
+Rotation of the planet gears can in turn drive the ring gear (not depicted in diagram), at a speed corresponding to the gear ratios: If the ring gear has 
+  
+    
+      
+        
+          N
+          
+            r
+          
+        
+      
+    
+    {\displaystyle N_{r}}
+  
+ teeth, then the ring will rotate by 
+  
+    
+      
+        
+          
+            
+              
+                N
+                
+                  p
+                
+              
+              
+                N
+                
+                  r
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\tfrac {N_{p}}{N_{r}}}}
+  
+ turns for each turn of the planetary gears. For instance, if the ring gear has 64 teeth, and the planets have 16 teeth, one clockwise turn of a planet gear results in ⁠16/ 64 ⁠, or ⁠1/ 4 ⁠ clockwise turns of the ring gear. Extending this case from the one above:
+
+One turn of the sun gear results in 
+  
+    
+      
+        −
+        
+          
+            
+              
+                N
+                
+                  s
+                
+              
+              
+                N
+                
+                  p
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle -{\tfrac {N_{s}}{N_{p}}}}
+  
+ turns of the planets
+One turn of a planet gear results in 
+  
+    
+      
+        
+          
+            
+              
+                N
+                
+                  p
+                
+              
+              
+                N
+                
+                  r
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\tfrac {N_{p}}{N_{r}}}}
+  
+ turns of the ring gear
+So, with the planetary carrier locked, one turn of the sun gear results in 
+  
+    
+      
+        −
+        
+          
+            
+              
+                N
+                
+                  s
+                
+              
+              
+                N
+                
+                  r
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle -{\tfrac {N_{s}}{N_{r}}}}
+  
+ turns of the ring gear.
+The ring gear may also be held fixed, with input provided to the planetary gear carrier; output rotation is then produced from the sun gear. This configuration will produce an increase in gear ratio, equal to 
+  
+    
+      
+        1
+        +
+        
+          
+            
+              
+                N
+                
+                  r
+                
+              
+              
+                N
+                
+                  s
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  N
+                  
+                    s
+                  
+                
+                +
+                
+                  N
+                  
+                    r
+                  
+                
+              
+              
+                N
+                
+                  s
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle 1+{\tfrac {N_{r}}{N_{s}}}={\tfrac {N_{s}+N_{r}}{N_{s}}}}
+  
+.
+If the ring gear is held stationary and the sun gear is used as the input, the planet carrier will be the output. The gear ratio in this case will be 
+  
+    
+      
+        
+          
+            
+              1
+              
+                1
+                +
+                
+                  
+                    
+                      
+                        N
+                        
+                          r
+                        
+                      
+                      
+                        N
+                        
+                          s
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                N
+                
+                  s
+                
+              
+              
+                
+                  N
+                  
+                    s
+                  
+                
+                +
+                
+                  N
+                  
+                    r
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\tfrac {1}{1+{\tfrac {N_{r}}{N_{s}}}}}={\tfrac {N_{s}}{N_{s}+N_{r}}}}
+  
+, which may also be written as 
+  
+    
+      
+        
+          N
+          
+            s
+          
+        
+        :
+        
+          N
+          
+            s
+          
+        
+        +
+        
+          N
+          
+            r
+          
+        
+      
+    
+    {\displaystyle N_{s}:N_{s}+N_{r}}
+  
+. This is the lowest gear ratio attainable with an epicyclic gear train. This type of gearing is sometimes used in tractors and construction equipment to provide high torque to the drive wheels.
+In bicycle hub gears, the sun is usually stationary, being keyed to the axle or even machined directly onto it. The planetary gear carrier is used as input. In this case the gear ratio is simply given by 
+  
+    
+      
+        
+          
+            
+              
+                
+                  N
+                  
+                    s
+                  
+                
+                +
+                
+                  N
+                  
+                    r
+                  
+                
+              
+              
+                N
+                
+                  r
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\tfrac {N_{s}+N_{r}}{N_{r}}}}
+  
+. The number of teeth in the planet gear is irrelevant.
+
+
+== Accelerations of standard epicyclic gearing ==
+From the above formulae, we can also derive the accelerations of the sun, ring and carrier, which are:
+
+  
+    
+      
+        
+          α
+          
+            s
+          
+        
+        =
+        
+          
+            
+              
+                N
+                
+                  s
+                
+              
+              +
+              
+                N
+                
+                  r
+                
+              
+            
+            
+              N
+              
+                s
+              
+            
+          
+        
+        
+          α
+          
+            c
+          
+        
+        −
+        
+          
+            
+              N
+              
+                r
+              
+            
+            
+              N
+              
+                s
+              
+            
+          
+        
+        
+          α
+          
+            r
+          
+        
+      
+    
+    {\displaystyle \alpha _{s}={\frac {N_{s}+N_{r}}{N_{s}}}\alpha _{c}-{\frac {N_{r}}{N_{s}}}\alpha _{r}}
+  
+
+  
+    
+      
+        
+          α
+          
+            r
+          
+        
+        =
+        
+          
+            
+              
+                N
+                
+                  s
+                
+              
+              +
+              
+                N
+                
+                  r
+                
+              
+            
+            
+              N
+              
+                r
+              
+            
+          
+        
+        
+          α
+          
+            c
+          
+        
+        −
+        
+          
+            
+              N
+              
+                s
+              
+            
+            
+              N
+              
+                r
+              
+            
+          
+        
+        
+          α
+          
+            s
+          
+        
+      
+    
+    {\displaystyle \alpha _{r}={\frac {N_{s}+N_{r}}{N_{r}}}\alpha _{c}-{\frac {N_{s}}{N_{r}}}\alpha _{s}}
+  
+
+  
+    
+      
+        
+          α
+          
+            c
+          
+        
+        =
+        
+          
+            
+              N
+              
+                s
+              
+            
+            
+              
+                N
+                
+                  s
+                
+              
+              +
+              
+                N
+                
+                  r
+                
+              
+            
+          
+        
+        
+          α
+          
+            s
+          
+        
+        +
+        
+          
+            
+              N
+              
+                r
+              
+            
+            
+              
+                N
+                
+                  s
+                
+              
+              +
+              
+                N
+                
+                  r
+                
+              
+            
+          
+        
+        
+          α
+          
+            r
+          
+        
+      
+    
+    {\displaystyle \alpha _{c}={\frac {N_{s}}{N_{s}+N_{r}}}\alpha _{s}+{\frac {N_{r}}{N_{s}+N_{r}}}\alpha _{r}}
+  
+
+
+== Torque ratios of standard epicyclic gearing ==
+In epicyclic gears, two speeds must be known in order to determine the third speed. However, in a steady state condition, only one torque must be known in order to determine the other two torques. The equations which determine torque are:
+
+  
+    
+      
+        
+          τ
+          
+            r
+          
+        
+        =
+        
+          τ
+          
+            s
+          
+        
+        
+          
+            
+              N
+              
+                r
+              
+            
+            
+              N
+              
+                s
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau _{r}=\tau _{s}{\frac {N_{r}}{N_{s}}}}
+  
+
+  
+    
+      
+        
+          τ
+          
+            r
+          
+        
+        =
+        −
+        
+          τ
+          
+            c
+          
+        
+        
+          
+            
+              N
+              
+                r
+              
+            
+            
+              
+                N
+                
+                  r
+                
+              
+              +
+              
+                N
+                
+                  s
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau _{r}=-\tau _{c}{\frac {N_{r}}{N_{r}+N_{s}}}}
+  
+
+  
+    
+      
+        
+          τ
+          
+            c
+          
+        
+        =
+        −
+        
+          τ
+          
+            r
+          
+        
+        
+          
+            
+              
+                N
+                
+                  r
+                
+              
+              +
+              
+                N
+                
+                  s
+                
+              
+            
+            
+              N
+              
+                r
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau _{c}=-\tau _{r}{\frac {N_{r}+N_{s}}{N_{r}}}}
+  
+
+  
+    
+      
+        
+          τ
+          
+            c
+          
+        
+        =
+        −
+        
+          τ
+          
+            s
+          
+        
+        
+          
+            
+              
+                N
+                
+                  r
+                
+              
+              +
+              
+                N
+                
+                  s
+                
+              
+            
+            
+              N
+              
+                s
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau _{c}=-\tau _{s}{\frac {N_{r}+N_{s}}{N_{s}}}}
+  
+
+  
+    
+      
+        
+          τ
+          
+            s
+          
+        
+        =
+        
+          τ
+          
+            r
+          
+        
+        
+          
+            
+              N
+              
+                s
+              
+            
+            
+              N
+              
+                r
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau _{s}=\tau _{r}{\frac {N_{s}}{N_{r}}}}
+  
+
+  
+    
+      
+        
+          τ
+          
+            s
+          
+        
+        =
+        −
+        
+          τ
+          
+            c
+          
+        
+        
+          
+            
+              N
+              
+                s
+              
+            
+            
+              
+                N
+                
+                  r
+                
+              
+              +
+              
+                N
+                
+                  s
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau _{s}=-\tau _{c}{\frac {N_{s}}{N_{r}+N_{s}}}}
+  
+
+where
+
+  
+    
+      
+        
+          τ
+          
+            r
+          
+        
+      
+    
+    {\displaystyle \tau _{r}}
+  
+ — Torque of ring (annulus),
+
+  
+    
+      
+        
+          τ
+          
+            s
+          
+        
+      
+    
+    {\displaystyle \tau _{s}}
+  
+ — Torque of sun,
+
+  
+    
+      
+        
+          τ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \tau _{c}}
+  
+— Torque of carrier.
+For all three, these are the torques applied to the mechanism (input torques). Output torques have the reverse sign of input torques. These torque ratios can be derived using the law of conservation of energy. Applied to a single stage this equation is expressed as:
+
+  
+    
+      
+        
+          τ
+          
+            r
+          
+        
+        
+          ω
+          
+            r
+          
+        
+        +
+        
+          τ
+          
+            c
+          
+        
+        
+          ω
+          
+            c
+          
+        
+        +
+        
+          τ
+          
+            s
+          
+        
+        
+          ω
+          
+            s
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \tau _{r}\omega _{r}+\tau _{c}\omega _{c}+\tau _{s}\omega _{s}=0}
+  
+
+In the cases where gears are accelerating, or to account for friction, these equations must be modified.
+
+
+== Fixed carrier train ratio ==
+A convenient approach to determine the various speed ratios available in a planetary gear train begins by considering the speed ratio of the gear train when the carrier is held fixed. This is known as the fixed carrier train ratio.
+In the case of a simple planetary gear train formed by a carrier supporting a planet gear engaged with a sun and ring gear, the fixed carrier train ratio is computed as the speed ratio of the gear train formed by the sun, planet and ring gears on the fixed carrier. This is given by
+
+  
+    
+      
+        R
+        =
+        
+          
+            
+              ω
+              
+                s
+              
+            
+            
+              ω
+              
+                r
+              
+            
+          
+        
+        =
+        −
+        
+          
+            
+              N
+              
+                r
+              
+            
+            
+              N
+              
+                s
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle R={\frac {\omega _{s}}{\omega _{r}}}=-{\frac {N_{r}}{N_{s}}}.}
+  
+
+In this calculation the planet gear is an idler gear.
+The fundamental formula of the planetary gear train with a rotating carrier is obtained by recognizing that this formula remains true if the angular velocities of the sun, planet and ring gears are computed relative to the carrier angular velocity. This becomes,
+
+  
+    
+      
+        R
+        =
+        
+          
+            
+              
+                ω
+                
+                  s
+                
+              
+              −
+              
+                ω
+                
+                  c
+                
+              
+            
+            
+              
+                ω
+                
+                  r
+                
+              
+              −
+              
+                ω
+                
+                  c
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle R={\frac {\omega _{s}-\omega _{c}}{\omega _{r}-\omega _{c}}}.}
+  
+
+This formula provides a simple way to determine the speed ratios for the simple planetary gear train under different conditions:
+1. The carrier is held fixed
+
+  
+    
+      
+        
+          ω
+          
+            c
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \omega _{c}=0}
+  
+
+  
+    
+      
+        
+          
+            
+              ω
+              
+                s
+              
+            
+            
+              ω
+              
+                r
+              
+            
+          
+        
+        =
+        R
+        ,
+        
+        
+          
+            so
+          
+        
+        
+        
+          
+            
+              ω
+              
+                s
+              
+            
+            
+              ω
+              
+                r
+              
+            
+          
+        
+        =
+        −
+        
+          
+            
+              N
+              
+                r
+              
+            
+            
+              N
+              
+                s
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {\omega _{s}}{\omega _{r}}}=R,\quad {\mbox{so}}\quad {\frac {\omega _{s}}{\omega _{r}}}=-{\frac {N_{r}}{N_{s}}}.}
+  
+
+2. The ring gear is held fixed
+
+  
+    
+      
+        
+          ω
+          
+            r
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \omega _{r}=0}
+  
+
+  
+    
+      
+        
+          
+            
+              
+                ω
+                
+                  s
+                
+              
+              −
+              
+                ω
+                
+                  c
+                
+              
+            
+            
+              −
+              
+                ω
+                
+                  c
+                
+              
+            
+          
+        
+        =
+        R
+        ,
+        
+        
+          
+            or
+          
+        
+        
+        
+          
+            
+              ω
+              
+                s
+              
+            
+            
+              ω
+              
+                c
+              
+            
+          
+        
+        =
+        1
+        −
+        R
+        ,
+        
+        
+          
+            so
+          
+        
+        
+        
+          
+            
+              ω
+              
+                s
+              
+            
+            
+              ω
+              
+                c
+              
+            
+          
+        
+        =
+        1
+        +
+        
+          
+            
+              N
+              
+                r
+              
+            
+            
+              N
+              
+                s
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {\omega _{s}-\omega _{c}}{-\omega _{c}}}=R,\quad {\mbox{or}}\quad {\frac {\omega _{s}}{\omega _{c}}}=1-R,\quad {\mbox{so}}\quad {\frac {\omega _{s}}{\omega _{c}}}=1+{\frac {N_{r}}{N_{s}}}.}
+  
+
+3. The sun gear is held fixed
+
+  
+    
+      
+        
+          ω
+          
+            s
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \omega _{s}=0}
+  
+
+  
+    
+      
+        
+          
+            
+              −
+              
+                ω
+                
+                  c
+                
+              
+            
+            
+              
+                ω
+                
+                  r
+                
+              
+              −
+              
+                ω
+                
+                  c
+                
+              
+            
+          
+        
+        =
+        R
+        ,
+        
+        
+          
+            or
+          
+        
+        
+        
+          
+            
+              ω
+              
+                r
+              
+            
+            
+              ω
+              
+                c
+              
+            
+          
+        
+        =
+        1
+        −
+        
+          
+            1
+            R
+          
+        
+        ,
+        
+        
+          
+            so
+          
+        
+        
+        
+          
+            
+              ω
+              
+                r
+              
+            
+            
+              ω
+              
+                c
+              
+            
+          
+        
+        =
+        1
+        +
+        
+          
+            
+              N
+              
+                s
+              
+            
+            
+              N
+              
+                r
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {-\omega _{c}}{\omega _{r}-\omega _{c}}}=R,\quad {\mbox{or}}\quad {\frac {\omega _{r}}{\omega _{c}}}=1-{\frac {1}{R}},\quad {\mbox{so}}\quad {\frac {\omega _{r}}{\omega _{c}}}=1+{\frac {N_{s}}{N_{r}}}.}
+  
+
+Each of the speed ratios available to a simple planetary gear train can be obtained by using band brakes to hold and release the carrier, sun or ring gears as needed. This provides the basic structure for an automatic transmission.
+
+
+=== Spur gear differential ===
+
+A spur gear differential is constructed from two identical coaxial epicyclic gear trains assembled with a single carrier such that their planet gears are engaged. This forms a planetary gear train with a fixed carrier train ratio R = −1.
+In this case, the fundamental formula for the planetary gear train yields,
+
+  
+    
+      
+        
+          
+            
+              
+                ω
+                
+                  s
+                
+              
+              −
+              
+                ω
+                
+                  c
+                
+              
+            
+            
+              
+                ω
+                
+                  r
+                
+              
+              −
+              
+                ω
+                
+                  c
+                
+              
+            
+          
+        
+        =
+        −
+        1
+        ,
+      
+    
+    {\displaystyle {\frac {\omega _{s}-\omega _{c}}{\omega _{r}-\omega _{c}}}=-1,}
+  
+
+or
+
+  
+    
+      
+        
+          ω
+          
+            c
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        (
+        
+          ω
+          
+            s
+          
+        
+        +
+        
+          ω
+          
+            r
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle \omega _{c}={\frac {1}{2}}(\omega _{s}+\omega _{r}).}
+  
+
+Thus, the angular velocity of the carrier of a spur gear differential is the average of the angular velocities of the sun and ring gears.
+In discussing the spur gear differential, the use of the term ring gear is a convenient way to distinguish the sun gears of the two epicyclic gear trains. Ring gears are normally fixed in most applications as this arrangement will have a good reduction capacity. The second sun gear serves the same purpose as the ring gear of a simple planetary gear train but clearly does not have the internal gear mate that is typical of a ring gear.
+
+
+== Gear ratio of reversed epicyclic gearing ==
+
+Some epicyclic gear trains employ two planetary gears which mesh with each other. One of these planets meshes with the sun gear, the other planet meshes with the ring gear. This results in different ratios being generated by the planetary and also causes the sun gear to rotate in the same direction as the ring gear when the planet carrier is stationary. The fundamental equation becomes:
+
+  
+    
+      
+        (
+        R
+        −
+        1
+        )
+        
+          ω
+          
+            c
+          
+        
+        =
+        R
+        
+          ω
+          
+            r
+          
+        
+        −
+        
+          ω
+          
+            s
+          
+        
+      
+    
+    {\displaystyle (R-1)\omega _{c}=R\omega _{r}-\omega _{s}}
+  
+
+where 
+  
+    
+      
+        R
+        =
+        −
+        
+          
+            
+              N
+              
+                r
+              
+            
+            
+              N
+              
+                s
+              
+            
+          
+        
+      
+    
+    {\displaystyle R=-{\frac {N_{r}}{N_{s}}}}
+  
+
+which results in:
+
+  
+    
+      
+        
+          ω
+          
+            r
+          
+        
+        =
+        
+          
+            
+              ω
+              
+                s
+              
+            
+            R
+          
+        
+      
+    
+    {\displaystyle \omega _{r}={\frac {\omega _{s}}{R}}}
+  
+ when the carrier is locked,
+
+  
+    
+      
+        
+          ω
+          
+            r
+          
+        
+        =
+        
+          ω
+          
+            c
+          
+        
+        
+          
+            
+              R
+              −
+              1
+            
+            R
+          
+        
+      
+    
+    {\displaystyle \omega _{r}=\omega _{c}{\frac {R-1}{R}}}
+  
+ when the sun is locked,
+
+  
+    
+      
+        
+          ω
+          
+            s
+          
+        
+        =
+        −
+        
+          ω
+          
+            c
+          
+        
+        (
+        R
+        −
+        1
+        )
+      
+    
+    {\displaystyle \omega _{s}=-\omega _{c}(R-1)}
+  
+ when the ring gear is locked.
+
+
+== Compound planetary gears ==
+
+"Compound planetary gear" is a general concept and it refers to any planetary gears involving one or more of the following three types of structures: meshed-planet (there are at least two or more planets in mesh with each other in each planet train), stepped-planet (there exists a shaft connection between two planets in each planet train), and multi-stage structures (the system contains two or more planet sets).
+Some designs use "stepped-planet" which have two differently-sized gears on either end of a common shaft. The small end engages the sun, while the large end engages the ring gear. This may be necessary to achieve smaller step changes in gear ratio when the overall package size is limited. Compound planets have "timing marks" (or "relative gear mesh phase" in technical term). The assembly conditions of compound planetary gears are more restrictive than simple planetary gears, and they must be assembled in the correct initial orientation relative to each other, or their teeth will not simultaneously engage the sun and ring gear at opposite ends of the planet, leading to very rough running and short life. In 2015, a traction based variant of the "stepped-planet" design was developed at the Delft University of Technology, which relies on compression of the stepped planet elements to achieve torque transmission. The use of traction elements eliminates the need to have "timing marks" as well as the restrictive assembly conditions as typically found. Compound planetary gears can easily achieve larger transmission ratio with equal or smaller volume. For example, compound planets with teeth in a 2:1 ratio with a 50T ring gear would give the same effect as a 100T ring gear, but with half the actual diameter.
+More planet and sun gear units can be placed in series in the same housing (where the output shaft of the first stage becomes the input shaft of the next stage) providing a larger (or smaller) gear ratio. This is the way most automatic transmissions work. In some cases multiple stages may even share the same ring gear which can be extended down the length of the transmission, or even be a structural part of the casing of smaller gearboxes.
+During World War II, a special variation of epicyclic gearing was developed for portable radar gear, where a very high reduction ratio in a small package was needed. This had two outer ring gears, each half the thickness of the other gears. One of these two ring gears was held fixed and had one tooth fewer than did the other. Therefore, several turns of the "sun" gear made the "planet" gears complete a single revolution, which in turn made the rotating ring gear rotate by a single tooth like a cycloidal drive.
+
+
+== Power splitting ==
+More than one member of a system can serve as an output. As an example, the input is connected to the ring gear, the sun gear is connected to the output and the planet carrier is connected to the output through a torque converter. Idler gears are used between sun gear and the planets to cause the sun gear to rotate in the same direction as the ring gear when the planet carrier is stationary. At low input speed, because of the load on the output, the sun will be stationary and the planet carrier will rotate in the direction of the ring gear. Given a high enough load, the turbine of the torque converter will remain stationary, the energy will be dissipated and the torque converter pump will slip. If the input speed is increased to overcome the load the converter turbine will turn the output shaft. Because the torque converter itself is a load on the planet carrier, a force will be exerted on the sun gear. Both the planet carrier and the sun gear extract energy from the system and apply it to the output shaft.
+
+
+== Advantages ==
+
+Planetary gear trains provide high power density in comparison to standard parallel axis gear trains. They provide a reduction in volume, multiple kinematic combinations, purely torsional reactions, and coaxial shafting. Disadvantages include high bearing loads, constant lubrication requirements, inaccessibility, and design complexity.
+The efficiency loss in a planetary gear train is typically about 3% per stage. This ensures that a high proportion (about 97%) of the input energy is transmitted through the gearbox, rather than being wasted on mechanical losses within it.
+The load in a planetary gear train is shared among multiple planets; therefore, torque capability is greatly increased. The more planets in the system, the greater the load capacity and the higher the torque density.
+The planetary gear train also provides stability due to an even distribution of mass and increased rotational stiffness. Torque applied radially onto the gears of a planetary gear train is transferred radially by the gear, without lateral pressure on the gear teeth.
+In a typical application, the drive power connects to the sun gear. The sun gear then drives the planetary gears meshed with the external ring gear. The entire planetary gear system revolves around its own axis and along the ring gear, where the output shaft connected to the planet carrier achieves speed reduction. A higher reduction ratio can be achieved by using multi-stage planetary gears that operate within the same ring gear.
+The method of motion of a planetary gear structure is different from traditional parallel gears. Traditional gears rely on a small number of contact points between two gears to transfer the driving force. In this case, all the loading is concentrated on a few contacting surfaces, making the gears wear quickly and sometimes crack. However, the planetary speed reducer has multiple gear contact surfaces with a larger area that distributes the load evenly around the central axis. Multiple gear surfaces share the load evenly—including any instantaneous impact loading—which makes them more resistant to damage from higher torque. The housing and bearing parts are also less likely to be damaged from high loading as only the planet carrier bearings experience significant lateral force from the transmission of torque, radial forces oppose each other and are balanced, and axial forces only arise when using helical gears.
+
+
+== 3D printing ==
+
+Planetary gears have become popular in the maker community, due to their inherent high torque capabilities and compactness/efficiency. Especially within 3D printing, they can be used to rapidly prototype a gearbox, to then be manufactured with machining technologies later.
+A geared-down motor must turn farther and faster to produce the same output movement in the 3D printer, which is advantageous if it is not outweighed by the slower movement speed. If the stepper motor has to turn farther then it also has to take more steps to move the printer a given distance; therefore, the geared-down stepper motor has a smaller minimum step-size than the same stepper motor without a gearbox. While down-gearing improves precision in unidirectional motion, it adds backlash to the system and so reduces its absolute positioning accuracy.
+Since herringbone gears are easy to 3D print, it has become very popular to 3D print a moving herringbone planetary gear system for teaching children how gears work. An advantage of herringbone gears is that they do not fall out of the ring and do not need a mounting plate, allowing the moving parts to be clearly seen.
+
+
+== Gallery ==
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+
+Kinematic Models for Design Digital Library (KMODDL), movies and photos of hundreds of working mechanical-systems models at Cornell.
+"Epicyclic gearing animation in SVG"
+"Animation of Epicyclic gearing"
+The "Power Split Device"
+The "Interactive Planetary Gearset tutorial"
+Prius Gearbox
+Planetary Gearbox
+Short Cuts for Analyzing Planetary Gearing Archived 2021-02-25 at the Wayback Machine

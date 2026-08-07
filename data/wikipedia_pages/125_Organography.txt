@@ -1,0 +1,24 @@
+Wikipedia article: Organography
+Source: https://en.wikipedia.org/wiki/Organography
+PageID: 21360243
+======================================================================
+
+Organography (from Greek όργανο, organo, "organ"; and -γραφή, -graphy) is the scientific description of the structure and function of the organs of living things.
+
+
+== History ==
+Organography as a scientific study starts with Aristotle, who considered the parts of plants as "organs" and began to consider the relationship between different organs and different functions. In the 17th century Joachim Jung, clearly articulated that plants are composed of different organ types such as root, stem and leaf, and he went on to define these organ types on the basis of form and position.
+In the following century Caspar Friedrich Wolff  was able to follow the development of organs from the "growing points" or apical meristems. He noted the commonality of development between foliage leaves and floral leaves (e.g. petals) and wrote: "In the whole plant, whose parts we wonder at as being, at the first glance, so extraordinarily diverse, I finally perceive and recognize nothing beyond leaves and stem (for the root may be regarded as a stem). Consequently all parts of the plant, except the stem, are modified leaves."
+Similar views were propounded at by Goethe in his well-known treatise. He wrote: "The underlying relationship between the various external parts of the plant, such as the leaves, the calyx, the corolla, the stamens, which develop one after the other and, as it were, out of one another, has long been generally recognized by investigators, and has in fact been specially studied; and the operation by which one and the same organ presents itself to us in various forms has been termed Metamorphosis of Plants."
+
+
+== See also ==
+Morphology
+
+
+== References ==
+
+
+== External links ==
+
+Organography of plants, especially of the Archegoniata and Spermaphyta, by Dr. K. Goebel

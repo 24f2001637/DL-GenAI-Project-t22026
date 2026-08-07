@@ -1,0 +1,64 @@
+Wikipedia article: Power density
+Source: https://en.wikipedia.org/wiki/Power_density
+PageID: 2207861
+======================================================================
+
+Power density is the amount of power (time rate of energy transfer) per unit volume. It is typically measured in watts per cubic meter (W/m³) and represents how much power is distributed within a given space. In various fields such as physics, engineering, and electronics, power density is used to evaluate the efficiency and performance of devices, systems, or materials by considering how much power they can handle or generate relative to their size or volume.
+In energy transformers including batteries, fuel cells, motors, power supply units, etc., power density refers to a volume, where it is often called volume power density, expressed as W/m3.
+In reciprocating internal combustion engines, power density (power per swept volume or brake horsepower per cubic centimetre) is an important metric, solely based on the internal capacity of the engine, not its external size.
+
+
+== Definition ==
+Power density is commonly defined as the converter’s rated (nominal) output power divided by the physical volume it occupies:
+
+  
+    
+      
+        
+          
+            
+              
+                V
+                
+                  0
+                
+              
+              
+                I
+                
+                  0
+                
+              
+            
+            
+              x
+              y
+              z
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {V_{0}I_{0}}{xyz}}}
+  
+
+For comparative purposes, the output power typically denotes the continuous power that can be delivered under specified worst-case environmental conditions. Typical determinants include ambient temperature, maximum permissible case temperature, unit orientation and airflow, operating altitude, and reliability or lifetime targets that may require derating.
+The converter’s volume may be defined in several ways depending on the application and construction. Reported values may include or exclude components such as electromagnetic interference (EMI) filters, thermal management hardware (e.g., fans or heatsinks), protective housings or enclosures, connectors, and input or output energy-storage capacitors. These components are often required in end products but may be omitted when measuring modular power supplies.
+
+
+== History ==
+The relevance of power density has gradually increased from the advent of switched-mode power conversion, with efficiency being the primary drive. Switching converters enables performance beyond the deterministic limits of linear power supplies, whose efficiencies were largely constrained by input-output voltage ratios and a small set of available topologies. 
+Beginning in the early 1990s, efficiency improvements accelerated, driven by the expansion of personal computing and consumer electronics, growth in telecommunications, and rapid progress in semiconductor technology. As conversion efficiency increased, attainable power density rose in parallel, reflecting the close coupling between these metrics.
+Successive energy crises and the resulting regulatory frameworks elevated efficiency from a desirable attribute to a practical requirement, with emphasis on energy conservation and total cost of ownership across the life cycle of power systems. This eventually caused high power density to become regarded as a leading benchmark of power-system engineering, being the convergence of efficiency, compactness, and performance in modern power-delivery design.
+
+
+== Examples ==
+
+
+== See also ==
+Energy density, energy per unit volume
+Specific energy, energy per unit mass
+Specific absorption rate (SAR)
+
+
+== References ==

@@ -1,0 +1,194 @@
+Wikipedia article: Uniform tilings in hyperbolic plane
+Source: https://en.wikipedia.org/wiki/Uniform_tilings_in_hyperbolic_plane
+PageID: 18640974
+======================================================================
+
+In hyperbolic geometry, a uniform hyperbolic tiling (or regular, quasiregular or semiregular hyperbolic tiling) is an edge-to-edge filling of the hyperbolic plane which has regular polygons as faces and is vertex-transitive (transitive on its vertices, isogonal, i.e. there is an isometry mapping any vertex onto any other). It follows that all vertices are congruent, and the tiling has a high degree of rotational and translational symmetry.
+Uniform tilings can be identified by their vertex configuration, a sequence of numbers representing the number of sides of the polygons around each vertex. For example, 7.7.7 represents the heptagonal tiling which has 3 heptagons around each vertex. It is also regular since all the polygons are the same size, so it can also be given the Schläfli symbol {7,3}.
+Uniform tilings may be regular (if also face- and edge-transitive), quasi-regular (if edge-transitive but not face-transitive) or semi-regular (if neither edge- nor face-transitive). For right triangles (p q 2), there are two regular tilings, represented by Schläfli symbol {p,q} and {q,p}.
+
+
+== Wythoff construction ==
+
+There are an infinite number of uniform tilings based on the Schwarz triangles (p q r) where ⁠1/p⁠ + ⁠1/q⁠ + ⁠1/r⁠ < 1, where p, q, r are each orders of reflection symmetry at three points of the fundamental domain triangle – the symmetry group is a hyperbolic triangle group.
+Each symmetry family contains 7 uniform tilings, defined by a Wythoff symbol or Coxeter-Dynkin diagram, 7 representing combinations of 3 active mirrors. An 8th represents an alternation operation, deleting alternate vertices from the highest form with all mirrors active.
+Families with r = 2 contain regular hyperbolic tilings, defined by a Coxeter group such as [7,3], [8,3], [9,3], ... [5,4], [6,4], ....
+Hyperbolic families with r = 3 or higher are given by (p q r) and include (4 3 3), (5 3 3), (6 3 3) ... (4 4 3), (5 4 3), ... (4 4 4)....
+Hyperbolic triangles (p q r) define compact uniform hyperbolic tilings. In the limit any of p, q or r can be replaced by ∞ which defines a paracompact hyperbolic triangle and creates uniform tilings with either infinite faces (called apeirogons) that converge to a single ideal point, or infinite vertex figure with infinitely many edges diverging from the same ideal point.
+More symmetry families can be constructed from fundamental domains that are not triangles.
+Selected families of uniform tilings are shown below (using the Poincaré disk model for the hyperbolic plane).  Three of them – (7 3 2), (5 4 2), and (4 3 3) – and no others, are minimal in the sense that if any of their defining numbers is replaced by a smaller integer the resulting pattern is either Euclidean or spherical rather than hyperbolic; conversely, any of the numbers can be increased (even to infinity) to generate other hyperbolic patterns.
+Each uniform tiling generates a dual uniform tiling, with many of them also given below.
+
+
+== Right triangle domains ==
+There are infinitely many (p q 2) triangle group families. This article shows the regular tiling up to p, q = 8, and uniform tilings in 12 families: (7 3 2), (8 3 2), (5 4 2), (6 4 2), (7 4 2), (8 4 2), (5 5 2), (6 5 2) (6 6 2), (7 7 2), (8 6 2), and (8 8 2).
+
+
+=== Regular hyperbolic tilings ===
+
+The simplest set of hyperbolic tilings are regular tilings {p,q}, which exist in a matrix with the regular polyhedra and Euclidean tilings. The regular tiling {p,q} has a dual tiling {q,p} across the diagonal axis of the table. Self-dual tilings {2,2}, {3,3}, {4,4}, {5,5}, etc. pass down the diagonal of the table.
+
+
+=== (7 3 2) ===
+The (7 3 2) triangle group, Coxeter group [7,3], orbifold (*732) contains these uniform tilings:
+
+
+=== (8 3 2) ===
+The (8 3 2) triangle group, Coxeter group [8,3], orbifold (*832) contains these uniform tilings:
+
+
+=== (5 4 2) ===
+The (5 4 2) triangle group, Coxeter group [5,4], orbifold (*542) contains these uniform tilings:
+
+
+=== (6 4 2) ===
+The (6 4 2) triangle group, Coxeter group [6,4], orbifold (*642) contains these uniform tilings. Because all the elements are even, each uniform dual tiling one represents the fundamental domain of a reflective symmetry: *3333, *662, *3232, *443, *222222, *3222, and *642 respectively. As well, all 7 uniform tiling can be alternated, and those have duals as well.
+
+
+=== (7 4 2) ===
+The (7 4 2) triangle group, Coxeter group [7,4], orbifold (*742) contains these uniform tilings:
+
+
+=== (8 4 2) ===
+The (8 4 2) triangle group, Coxeter group [8,4], orbifold (*842) contains these uniform tilings. Because all the elements are even, each uniform dual tiling one represents the fundamental domain of a reflective symmetry: *4444, *882, *4242, *444, *22222222, *4222, and *842 respectively. As well, all 7 uniform tiling can be alternated, and those have duals as well.
+
+
+=== (5 5 2) ===
+The (5 5 2) triangle group, Coxeter group [5,5], orbifold (*552) contains these uniform tilings:
+
+
+=== (6 5 2) ===
+The (6 5 2) triangle group, Coxeter group [6,5], orbifold (*652) contains these uniform tilings:
+
+
+=== (6 6 2) ===
+The (6 6 2) triangle group, Coxeter group [6,6], orbifold (*662) contains these uniform tilings:
+
+
+=== (8 6 2) ===
+The (8 6 2) triangle group, Coxeter group [8,6], orbifold (*862) contains these uniform tilings.
+
+
+=== (7 7 2) ===
+The (7 7 2) triangle group, Coxeter group [7,7], orbifold (*772) contains these uniform tilings:
+
+
+=== (8 8 2) ===
+The (8 8 2) triangle group, Coxeter group [8,8], orbifold (*882) contains these uniform tilings:
+
+
+== General triangle domains ==
+There are infinitely many general triangle group families (p q r). This article shows uniform tilings in 9 families: (4 3 3), (4 4 3), (4 4 4), (5 3 3), (5 4 3), (5 4 4), (6 3 3), (6 4 3), and (6 4 4).
+
+
+=== (4 3 3) ===
+The (4 3 3) triangle group, Coxeter group [(4,3,3)], orbifold (*433) contains these uniform tilings. Without right angles in the fundamental triangle, the Wythoff constructions are slightly different. For instance in the (4,3,3) triangle family, the snub form has six polygons around a vertex and its dual has hexagons rather than pentagons. In general the vertex figure of a snub tiling in a triangle (p,q,r) is p. 3.q.3.r.3, being 4.3.3.3.3.3 in this case below.
+
+
+=== (4 4 3) ===
+The (4 4 3) triangle group, Coxeter group [(4,4,3)], orbifold (*443) contains these uniform tilings. 
+
+
+=== (4 4 4) ===
+The (4 4 4) triangle group, Coxeter group [(4,4,4)], orbifold (*444) contains these uniform tilings. 
+
+
+=== (5 3 3) ===
+The (5 3 3) triangle group, Coxeter group [(5,3,3)], orbifold (*533) contains these uniform tilings.
+
+
+=== (5 4 3) ===
+The (5 4 3) triangle group, Coxeter group [(5,4,3)], orbifold (*543) contains these uniform tilings.
+
+
+=== (5 4 4) ===
+The (5 4 4) triangle group, Coxeter group [(5,4,4)], orbifold (*544) contains these uniform tilings.
+
+
+=== (6 3 3) ===
+The (6 3 3) triangle group, Coxeter group [(6,3,3)], orbifold (*633) contains these uniform tilings.
+
+
+=== (6 4 3) ===
+The (6 4 3) triangle group, Coxeter group [(6,4,3)], orbifold (*643) contains these uniform tilings.
+
+
+=== (6 4 4) ===
+The (6 4 4) triangle group, Coxeter group [(6,4,4)], orbifold (*644) contains these uniform tilings.
+
+
+== Summary of tilings with finite triangular fundamental domains ==
+Reference: Template:Finite triangular hyperbolic tilings table
+
+
+== Quadrilateral domains ==
+
+
+=== (3 2 2 2) ===
+
+Quadrilateral fundamental domains also exist in the hyperbolic plane, with the *3222 orbifold ([∞,3,∞] Coxeter notation) as the smallest family. There are 9 generation locations for uniform tiling within quadrilateral domains. The vertex figure can be extracted from a fundamental domain as 3 cases (1) Corner (2) Mid-edge, and (3) Center. When generating points are corners adjacent to order-2 corners, degenerate {2} digon faces at those corners exist but can be ignored. Snub and alternated uniform tilings can also be generated (not shown) if a vertex figure contains only even-sided faces.
+Coxeter diagrams of quadrilateral domains are treated as a degenerate tetrahedron graph with 2 of 6 edges labeled as infinity, or as dotted lines. A logical requirement of at least one of two parallel mirrors being active limits the uniform cases to 9, and other ringed patterns are not valid.
+
+
+=== (3 2 3 2) ===
+
+
+== Ideal triangle domains ==
+There are infinitely many triangle group families including infinite orders. This article shows uniform tilings in 9 families:  (∞ 3 2), (∞ 4 2), (∞ ∞ 2), (∞ 3 3), (∞ 4 3), (∞ 4 4), (∞ ∞ 3), (∞ ∞ 4), and (∞ ∞ ∞).
+
+
+=== (∞ 3 2) ===
+The ideal (∞ 3 2) triangle group, Coxeter group [∞,3], orbifold (*∞32) contains these uniform tilings:
+
+
+=== (∞ 4 2) ===
+The ideal (∞ 4 2) triangle group, Coxeter group [∞,4], orbifold (*∞42) contains these uniform tilings:
+
+
+=== (∞ 5 2) ===
+The ideal (∞ 5 2) triangle group, Coxeter group [∞,5], orbifold (*∞52) contains these uniform tilings:
+
+
+=== (∞ ∞ 2) ===
+The ideal (∞ ∞ 2) triangle group, Coxeter group [∞,∞], orbifold (*∞∞2) contains these uniform tilings:
+
+
+=== (∞ 3 3) ===
+The ideal (∞ 3 3) triangle group, Coxeter group [(∞,3,3)], orbifold (*∞33) contains these uniform tilings. 
+
+
+=== (∞ 4 3) ===
+The ideal (∞ 4 3) triangle group, Coxeter group [(∞,4,3)], orbifold (*∞43) contains these uniform tilings:
+
+
+=== (∞ 4 4) ===
+The ideal (∞ 4 4) triangle group, Coxeter group [(∞,4,4)], orbifold (*∞44) contains these uniform tilings. 
+
+
+=== (∞ ∞ 3) ===
+The ideal (∞ ∞ 3) triangle group, Coxeter group [(∞,∞,3)], orbifold (*∞∞3) contains these uniform tilings. 
+
+
+=== (∞ ∞ 4) ===
+The ideal (∞ ∞ 4) triangle group, Coxeter group [(∞,∞,4)], orbifold (*∞∞4) contains these uniform tilings. 
+
+
+=== (∞ ∞ ∞) ===
+The ideal (∞ ∞ ∞) triangle group, Coxeter group [(∞,∞,∞)], orbifold (*∞∞∞) contains these uniform tilings. 
+
+
+== Summary of tilings with infinite triangular fundamental domains ==
+For a table of all uniform hyperbolic tilings with fundamental domains (p q r), where 2 ≤ p,q,r ≤ 8, and one or more as ∞.
+
+
+== References ==
+John Horton Conway, Heidi Burgiel, Chaim Goodman-Strauss, The Symmetries of Things 2008, ISBN 978-1-56881-220-5, (Chapter 19, The Hyperbolic Archimedean Tessellations)
+
+
+== External links ==
+
+Hatch, Don. "Hyperbolic Planar Tessellations". Retrieved 2010-08-19.
+Eppstein, David. "The Geometry Junkyard: Hyperbolic Tiling". Retrieved 2010-08-19.
+Joyce, David. "Hyperbolic Tessellations". Retrieved 2010-08-19.
+Klitzing, Richard. "2D Tesselations Hyperbolic Tesselations".
+The EPINET project explores 2D hyperbolic (H²) tilings
