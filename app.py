@@ -9,107 +9,13 @@ import pandas as pd
 import streamlit as st
 
 # -------------------------------------------------------------
-# Page Configuration & Professional Theme Styling
+# Page Configuration
 # -------------------------------------------------------------
 st.set_page_config(
-    page_title="IITM BS - Science MCQ Answering System (24f2001637)",
+    page_title="Science MCQ Solver and RAG System",
     layout="wide",
     initial_sidebar_state="expanded",
 )
-
-st.markdown("""
-    <style>
-    /* Dark / Slate Executive Palette */
-    .main {
-        background-color: #0F172A;
-    }
-    .stApp {
-        background-color: #0F172A;
-        color: #F8FAFC;
-    }
-    .css-1d3 Sterling, .css-6qob1r, .stSidebar {
-        background-color: #1E293B !important;
-    }
-    .main-header {
-        font-size: 2.2rem;
-        font-weight: 700;
-        color: #F8FAFC;
-        letter-spacing: -0.5px;
-        margin-bottom: 0.2rem;
-    }
-    .sub-header {
-        color: #94A3B8;
-        font-size: 1.05rem;
-        margin-bottom: 1.5rem;
-    }
-    .meta-badge {
-        display: inline-block;
-        background-color: #1E293B;
-        color: #38BDF8;
-        border: 1px solid #0284C7;
-        padding: 4px 12px;
-        border-radius: 4px;
-        font-size: 0.85rem;
-        font-weight: 600;
-        margin-right: 8px;
-    }
-    .metric-card {
-        background-color: #1E293B;
-        border-radius: 8px;
-        padding: 16px;
-        border: 1px solid #334155;
-        border-left: 4px solid #38BDF8;
-    }
-    .prediction-box {
-        background-color: #1E293B;
-        padding: 20px;
-        border-radius: 8px;
-        border: 1px solid #334155;
-        margin-top: 10px;
-    }
-    .rank-badge-1 {
-        font-size: 1.3rem;
-        font-weight: 700;
-        color: #10B981;
-        background-color: rgba(16, 185, 129, 0.15);
-        padding: 6px 14px;
-        border-radius: 6px;
-        border: 1px solid #10B981;
-        margin-right: 6px;
-    }
-    .rank-badge-2 {
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: #38BDF8;
-        background-color: rgba(56, 189, 248, 0.15);
-        padding: 4px 10px;
-        border-radius: 6px;
-        border: 1px solid #38BDF8;
-        margin-right: 6px;
-    }
-    .rank-badge-3 {
-        font-size: 1.0rem;
-        font-weight: 600;
-        color: #F59E0B;
-        background-color: rgba(245, 158, 11, 0.15);
-        padding: 4px 10px;
-        border-radius: 6px;
-        border: 1px solid #F59E0B;
-    }
-    .context-box {
-        background-color: #0F172A;
-        border: 1px solid #334155;
-        border-radius: 6px;
-        padding: 12px;
-        font-family: monospace;
-        font-size: 0.9rem;
-        color: #CBD5E1;
-        max-height: 250px;
-        overflow-y: auto;
-    }
-    </style>
-""", unsafe_allow_html=True)
-
 
 # -------------------------------------------------------------
 # Lazy-Loaded Model Caches
@@ -271,9 +177,8 @@ def solve_mcq(prompt: str, options: dict, context: str = "", engine: str = "Sent
             else:
                 scores[l] = 0.0
 
-    # Softmax normalization for clean probability display
     raw_vals = np.array([scores[l] for l in letters])
-    exp_vals = np.exp(raw_vals * 8.0) # Temperature scaling
+    exp_vals = np.exp(raw_vals * 8.0)
     probs = exp_vals / np.sum(exp_vals)
     prob_dict = {letters[i]: probs[i] for i in range(5)}
 
@@ -285,16 +190,10 @@ def solve_mcq(prompt: str, options: dict, context: str = "", engine: str = "Sent
 
 
 # -------------------------------------------------------------
-# Sidebar Navigation & Student Metadata
+# Sidebar Navigation & Metadata
 # -------------------------------------------------------------
-st.sidebar.markdown("### Project Metadata")
-st.sidebar.markdown("""
-- **Student Roll**: `24f2001637`
-- **Course**: IITM BS Degree
-- **Subject**: Deep Learning & GenAI
-- **Term**: T2 2026
-- **Metric**: MAP@3
-""")
+st.sidebar.title("Physics MCQ Solver")
+st.sidebar.caption("IITM BS Degree - GenAI Course Project")
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### Navigation")
@@ -304,34 +203,29 @@ nav = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.caption("IITM BS Academic Repository - DL-GenAI-Project-t22026")
+st.sidebar.markdown("### Metadata")
+st.sidebar.markdown("**Student Roll:** 24f2001637")
+st.sidebar.markdown("**Course:** Deep Learning & GenAI")
+st.sidebar.markdown("**Term:** T2 2026")
+st.sidebar.markdown("**Metric:** MAP@3")
 
 
 # -------------------------------------------------------------
 # Main Header
 # -------------------------------------------------------------
-st.markdown('<div class="main-header">Multiple Choice Question Answering System</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-header">Retrieval-Augmented Generation (RAG) and Fine-Tuned Transformer Models</div>', unsafe_allow_html=True)
-
-st.markdown("""
-<span class="meta-badge">IITM BS Degree</span>
-<span class="meta-badge">Roll: 24f2001637</span>
-<span class="meta-badge">Project T2 2026</span>
-<span class="meta-badge">Evaluation: MAP@3</span>
-""", unsafe_allow_html=True)
-st.markdown("<br>", unsafe_allow_html=True)
-
+st.title("Physics & Science MCQ Answering System")
+st.caption("Retrieval-Augmented Generation (RAG) and Fine-Tuned Transformer Models | Roll: 24f2001637")
+st.write("---")
 
 # -------------------------------------------------------------
 # MODULE 1: Single Question Solver
 # -------------------------------------------------------------
 if nav == "Single Question Solver":
-    st.markdown("### Interactive Question Solver")
-    st.write("Test single physics and science multiple-choice questions. Select pre-loaded benchmark questions or enter custom input.")
+    st.header("Single Question Solver")
+    st.write("Evaluate physics and science multiple-choice questions. Select a benchmark sample or enter custom questions.")
 
-    # Preset Question Samples
     presets = {
-        "Custom Input": None,
+        "Custom Question": None,
         "Sample 1: Supersymmetric Quantum Mechanics (Q1)": {
             "prompt": "What is the relationship between the Hamiltonians and eigenstates in supersymmetric quantum mechanics?",
             "A": "For every eigenstate of one Hamiltonian, its partner Hamiltonian has a corresponding eigenstate with the same energy.",
@@ -366,7 +260,7 @@ if nav == "Single Question Solver":
         }
     }
 
-    selected_preset = st.selectbox("Load Benchmark Preset Question", list(presets.keys()))
+    selected_preset = st.selectbox("Benchmark Presets", list(presets.keys()))
     preset_data = presets[selected_preset]
 
     default_prompt = preset_data["prompt"] if preset_data else "What is the relationship between the Hamiltonians and eigenstates in supersymmetric quantum mechanics?"
@@ -376,92 +270,87 @@ if nav == "Single Question Solver":
     default_d = preset_data["D"] if preset_data else "For every eigenstate of one Hamiltonian, its partner Hamiltonian has a corresponding eigenstate with a different energy."
     default_e = preset_data["E"] if preset_data else "For every eigenstate of one Hamiltonian, its partner Hamiltonian has a corresponding eigenstate with a lower energy."
 
-    col1, col2 = st.columns([2, 1])
+    col_q, col_s = st.columns([2, 1])
 
-    with col1:
-        prompt_input = st.text_area("Question / Prompt", value=default_prompt, height=90)
-        st.markdown("**Options (A - E):**")
+    with col_q:
+        prompt_input = st.text_area("Question / Prompt", value=default_prompt, height=100)
+        st.subheader("Options")
         opt_a = st.text_area("Option A", default_a, height=65)
         opt_b = st.text_area("Option B", default_b, height=65)
         opt_c = st.text_area("Option C", default_c, height=65)
         opt_d = st.text_area("Option D", default_d, height=65)
         opt_e = st.text_area("Option E", default_e, height=65)
 
-    with col2:
-        st.markdown("#### Engine Settings")
+    with col_s:
+        st.subheader("Engine Configuration")
         engine_choice = st.selectbox(
-            "Inference Architecture",
+            "Model Architecture",
             ["DeBERTa-v3 Fine-Tuned (Local Weights)", "SentenceTransformer (all-MiniLM-L6-v2)", "Zero-Shot BART-MNLI", "TF-IDF Vectorizer"]
         )
         use_rag = st.checkbox("Enable RAG Context Retrieval", value=True, help="Queries local pre-scraped Wikipedia corpus or MediaWiki API.")
-
-        st.markdown("---")
-        solve_btn = st.button("Solve Question", type="primary", use_container_width=True)
+        st.write("")
+        solve_btn = st.button("Run Inference", type="primary", use_container_width=True)
 
     if solve_btn:
         options = {'A': opt_a, 'B': opt_b, 'C': opt_c, 'D': opt_d, 'E': opt_e}
 
-        with st.spinner("Executing Retrieval & Model Inference..."):
+        with st.spinner("Executing Model Inference and RAG Search..."):
             context_source, context_text = "", ""
             if use_rag:
                 context_source, context_text = fetch_wikipedia_context(prompt_input)
 
             probs, sorted_opts, top3_str = solve_mcq(prompt_input, options, context=context_text, engine=engine_choice)
 
-        st.markdown("---")
-        st.markdown("### Model Predictions")
+        st.write("---")
+        st.subheader("Prediction Results")
 
         res_col1, res_col2 = st.columns([1, 2])
 
         with res_col1:
-            st.markdown('<div class="prediction-box">', unsafe_allow_html=True)
-            st.markdown("#### MAP@3 Prediction Order")
-            st.markdown(f'<span class="rank-badge-1">Rank 1: {sorted_opts[0]}</span> <span class="rank-badge-2">Rank 2: {sorted_opts[1]}</span> <span class="rank-badge-3">Rank 3: {sorted_opts[2]}</span>', unsafe_allow_html=True)
-            st.markdown("<br><small>Submission string format: <b>" + top3_str + "</b></small>", unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
+            st.metric("Rank 1 (Top Option)", sorted_opts[0])
+            st.metric("Rank 2 Option", sorted_opts[1])
+            st.metric("Rank 3 Option", sorted_opts[2])
+            st.info(f"MAP@3 Prediction Output: **{top3_str}**")
 
         with res_col2:
-            st.markdown("#### Option Probability Distribution")
+            st.subheader("Option Probabilities")
             chart_df = pd.DataFrame({
                 'Option': [f"Option {l}" for l in ['A', 'B', 'C', 'D', 'E']],
                 'Probability': [probs[l] for l in ['A', 'B', 'C', 'D', 'E']]
             }).set_index('Option')
-            st.bar_chart(chart_df, color="#38BDF8")
+            st.bar_chart(chart_df)
 
         if context_text:
-            with st.expander(f"Retrieved Wikipedia Context [{context_source}]"):
-                st.markdown(f'<div class="context-box">{context_text}</div>', unsafe_allow_html=True)
+            with st.expander(f"Retrieved Context [{context_source}]"):
+                st.write(context_text)
 
 # -------------------------------------------------------------
 # MODULE 2: Batch CSV Predictor
 # -------------------------------------------------------------
 elif nav == "Batch CSV Predictor":
-    st.markdown("### Batch Test Set Inference & Submission Generator")
-    st.write("Generate MAP@3 predictions for dataset CSVs matching the schema `id, prompt, A, B, C, D, E`.")
+    st.header("Batch Test Set Predictor")
+    st.write("Generate MAP@3 predictions for test CSV files matching schema `id, prompt, A, B, C, D, E`.")
 
-    uploaded_file = st.file_uploader("Upload Custom Test CSV", type=["csv"])
+    uploaded_file = st.file_uploader("Upload Custom CSV", type=["csv"])
     df_to_predict = None
-
-    col_b1, col_b2 = st.columns([1, 3])
-    with col_b1:
-        use_repo_test = st.button("Load Repository data/test.csv (500 rows)")
 
     if uploaded_file is not None:
         df_to_predict = pd.read_csv(uploaded_file)
-        st.success(f"Custom file loaded successfully: {len(df_to_predict)} rows")
-    elif use_repo_test:
-        try:
-            df_to_predict = pd.read_csv("data/test.csv")
-            st.info(f"Loaded repository data/test.csv: {len(df_to_predict)} rows")
-        except Exception as e:
-            st.error(f"Failed to load data/test.csv: {e}")
+        st.success(f"Loaded uploaded dataset: {len(df_to_predict)} rows")
+    else:
+        if st.button("Load Repository data/test.csv (500 rows)"):
+            try:
+                df_to_predict = pd.read_csv("data/test.csv")
+                st.info(f"Loaded repository data/test.csv: {len(df_to_predict)} rows")
+            except Exception as e:
+                st.error(f"Error loading file: {e}")
 
     if df_to_predict is not None:
-        st.dataframe(df_to_predict.head(8), use_container_width=True)
+        st.dataframe(df_to_predict.head(10), use_container_width=True)
 
         num_rows = len(df_to_predict)
-        sample_size = st.slider("Select batch size to evaluate", min_value=5, max_value=min(num_rows, 500), value=min(num_rows, 50))
-        batch_engine = st.selectbox("Inference Architecture for Batch", ["SentenceTransformer (all-MiniLM-L6-v2)", "TF-IDF Vectorizer"])
+        sample_size = st.slider("Select batch size", min_value=5, max_value=min(num_rows, 500), value=min(num_rows, 50))
+        batch_engine = st.selectbox("Inference Model", ["SentenceTransformer (all-MiniLM-L6-v2)", "TF-IDF Vectorizer"])
 
         if st.button("Run Batch Inference", type="primary"):
             progress_bar = st.progress(0)
@@ -479,7 +368,7 @@ elif nav == "Batch CSV Predictor":
 
                 progress = (idx + 1) / sample_size
                 progress_bar.progress(progress)
-                status_text.text(f"Processed row {idx + 1} of {sample_size}...")
+                status_text.text(f"Evaluated row {idx + 1} of {sample_size}...")
 
             elapsed = time.time() - start_time
             status_text.text(f"Completed {sample_size} predictions in {elapsed:.2f} seconds.")
@@ -489,7 +378,7 @@ elif nav == "Batch CSV Predictor":
                 'Prediction': preds
             })
 
-            st.markdown("#### Formatted Submission Preview")
+            st.subheader("Submission Preview")
             st.dataframe(submission_df.head(10), use_container_width=True)
 
             csv_buffer = io.StringIO()
@@ -507,21 +396,16 @@ elif nav == "Batch CSV Predictor":
 # MODULE 3: Model & Training Architecture
 # -------------------------------------------------------------
 elif nav == "Model & Training Architecture":
-    st.markdown("### Fine-Tuned Model Architecture & Hyperparameters")
-    st.write("Summary of the DeBERTa-v3 Multiple Choice fine-tuning pipeline used in Milestone 3.")
+    st.header("Model Architecture & Training Details")
 
     c1, c2, c3, c4 = st.columns(4)
-    with c1:
-        st.markdown('<div class="metric-card"><b>Backbone Model</b><br><span style="font-size:1.2rem;color:#38BDF8;">DeBERTa-v3-base</span></div>', unsafe_allow_html=True)
-    with c2:
-        st.markdown('<div class="metric-card"><b>Learning Rate</b><br><span style="font-size:1.2rem;color:#38BDF8;">1e-5</span></div>', unsafe_allow_html=True)
-    with c3:
-        st.markdown('<div class="metric-card"><b>Max Sequence Len</b><br><span style="font-size:1.2rem;color:#38BDF8;">320 Tokens</span></div>', unsafe_allow_html=True)
-    with c4:
-        st.markdown('<div class="metric-card"><b>Validation MAP@3</b><br><span style="font-size:1.2rem;color:#10B981;">0.785</span></div>', unsafe_allow_html=True)
+    c1.metric("Model Backbone", "DeBERTa-v3-base")
+    c2.metric("Learning Rate", "1e-5")
+    c3.metric("Max Seq Length", "320 Tokens")
+    c4.metric("Val MAP@3", "0.785")
 
-    st.markdown("---")
-    st.markdown("#### Training Hyperparameter Configuration")
+    st.write("---")
+    st.subheader("Hyperparameter Configuration")
 
     hp_df = pd.DataFrame({
         "Parameter": [
@@ -539,7 +423,7 @@ elif nav == "Model & Training Architecture":
     })
     st.table(hp_df)
 
-    st.markdown("#### Fine-Tuning Execution Log (Validation MAP@3 Progression)")
+    st.subheader("Validation MAP@3 Progression Across Epochs")
     epochs_data = pd.DataFrame({
         'Epoch': [1, 2, 3, 4, 5, 6, 7],
         'Train Loss': [1.582, 1.341, 1.104, 0.892, 0.715, 0.589, 0.512],
@@ -547,24 +431,23 @@ elif nav == "Model & Training Architecture":
         'Val MAP@3': [0.625, 0.682, 0.721, 0.750, 0.772, 0.781, 0.785]
     }).set_index('Epoch')
 
-    st.line_chart(epochs_data[['Val Accuracy', 'Val MAP@3']], color=["#38BDF8", "#10B981"])
+    st.line_chart(epochs_data[['Val Accuracy', 'Val MAP@3']])
 
 # -------------------------------------------------------------
 # MODULE 4: Dataset Metrics
 # -------------------------------------------------------------
 elif nav == "Dataset Metrics":
-    st.markdown("### Dataset Statistics and MAP@3 Metric Definition")
+    st.header("Dataset Summary")
 
     m1, m2, m3, m4 = st.columns(4)
-    m1.metric("Training Rows", "2,000")
-    m2.metric("Test Rows", "500")
-    m3.metric("Options Per Question", "5 (A - E)")
-    m4.metric("Local Wikipedia Articles", "187")
+    m1.metric("Training Questions", "2,000")
+    m2.metric("Test Questions", "500")
+    m3.metric("Choices per Question", "5 (A - E)")
+    m4.metric("Wikipedia Articles", "187")
 
-    st.markdown("---")
-    st.markdown("#### Mean Average Precision at Rank 3 (MAP@3)")
+    st.write("---")
+    st.subheader("Mean Average Precision at Rank 3 (MAP@3)")
     st.latex(r"MAP@3 = \frac{1}{U} \sum_{u=1}^{U} \sum_{k=1}^{\min(n, 3)} P(k) \times rel(k)")
-    st.caption("Where P(k) is the precision at rank k, and rel(k) is a binary indicator of whether rank k is the true ground-truth answer.")
 
     tab1, tab2 = st.tabs(["Training Dataset (data/train.csv)", "Test Dataset (data/test.csv)"])
 
