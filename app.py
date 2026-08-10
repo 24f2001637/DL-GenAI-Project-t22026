@@ -725,7 +725,7 @@ def main():
     )
 
     st.sidebar.divider()
-    st.sidebar.subheader("Project Info")
+    st.sidebar.subheader("Project & Submission Details")
     st.sidebar.markdown("**Student Roll:** `24f2001637`")
     st.sidebar.markdown("**Course:** `Deep Learning & GenAI`")
     st.sidebar.markdown("**Term:** `T2 2026`")
