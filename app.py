@@ -193,21 +193,16 @@ def solve_mcq(prompt: str, options: dict, context: str = "", engine: str = "Sent
 # Sidebar Navigation & Metadata
 # -------------------------------------------------------------
 st.sidebar.title("Smart MCQ Solver")
-st.sidebar.caption("IITM BS Degree - GenAI Course Project")
+st.sidebar.caption("IITM BS Degree - GenAI Project (T2 2026)")
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("### Navigation")
 nav = st.sidebar.radio(
-    "Select Module",
+    "Navigation",
     ["Single Question Solver", "Batch CSV Predictor", "Model & Training Architecture", "Dataset Metrics"]
 )
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("### Project & Submission Details")
 st.sidebar.markdown("**Student Roll:** 24f2001637")
-st.sidebar.markdown("**Course:** Deep Learning & GenAI")
-st.sidebar.markdown("**Term:** T2 2026")
-st.sidebar.markdown("**Metric:** MAP@3")
+st.sidebar.markdown("**Evaluation Metric:** MAP@3")
 
 
 # -------------------------------------------------------------
@@ -366,15 +361,14 @@ elif nav == "Batch CSV Predictor":
     if df_to_predict is not None:
         st.dataframe(df_to_predict.head(10), use_container_width=True)
 
-        num_rows = len(df_to_predict)
-        sample_size = st.slider("Select batch size", min_value=5, max_value=min(num_rows, 500), value=min(num_rows, 50))
         batch_engine = st.selectbox("Inference Model", ["SentenceTransformer (all-MiniLM-L6-v2)", "TF-IDF Vectorizer"])
 
         if st.button("Run Batch Inference", type="primary"):
             progress_bar = st.progress(0)
             status_text = st.empty()
 
-            subset_df = df_to_predict.iloc[:sample_size].copy()
+            subset_df = df_to_predict.copy()
+            total_rows = len(subset_df)
             preds = []
             start_time = time.time()
 
@@ -384,12 +378,12 @@ elif nav == "Batch CSV Predictor":
                 _, _, top3_str = solve_mcq(prompt_val, opts, context="", engine=batch_engine)
                 preds.append(top3_str)
 
-                progress = (idx + 1) / sample_size
+                progress = (idx + 1) / total_rows
                 progress_bar.progress(progress)
-                status_text.text(f"Evaluated row {idx + 1} of {sample_size}...")
+                status_text.text(f"Evaluated row {idx + 1} of {total_rows}...")
 
             elapsed = time.time() - start_time
-            status_text.text(f"Completed {sample_size} predictions in {elapsed:.2f} seconds.")
+            status_text.text(f"Completed {total_rows} predictions in {elapsed:.2f} seconds.")
 
             submission_df = pd.DataFrame({
                 'id': subset_df['id'] if 'id' in subset_df.columns else range(1, sample_size + 1),
