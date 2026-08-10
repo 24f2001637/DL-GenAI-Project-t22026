@@ -260,8 +260,37 @@ if nav == "Single Question Solver":
         }
     }
 
-    selected_preset = st.radio("Select Question Mode", list(presets.keys()), horizontal=True)
-    preset_data = presets[selected_preset]
+    if "selected_preset_key" not in st.session_state:
+        st.session_state.selected_preset_key = "Custom Question"
+
+    # Custom Question at Top
+    col_c1, col_c2 = st.columns([1, 1])
+    with col_c1:
+        if st.button("Custom Question Mode", use_container_width=True, type="primary" if st.session_state.selected_preset_key == "Custom Question" else "secondary"):
+            st.session_state.selected_preset_key = "Custom Question"
+
+    st.caption("Benchmark Sample Questions:")
+
+    # 4 Sample Questions below in 2 rows x 2 columns
+    r1_c1, r1_c2 = st.columns(2)
+    with r1_c1:
+        if st.button("Sample 1: Supersymmetric Quantum Mechanics (Q1)", use_container_width=True, type="primary" if st.session_state.selected_preset_key == "Sample 1: Supersymmetric Quantum Mechanics (Q1)" else "secondary"):
+            st.session_state.selected_preset_key = "Sample 1: Supersymmetric Quantum Mechanics (Q1)"
+
+    with r1_c2:
+        if st.button("Sample 2: JWST Galaxy Redshift CEERS-93316 (Q2)", use_container_width=True, type="primary" if st.session_state.selected_preset_key == "Sample 2: JWST Galaxy Redshift CEERS-93316 (Q2)" else "secondary"):
+            st.session_state.selected_preset_key = "Sample 2: JWST Galaxy Redshift CEERS-93316 (Q2)"
+
+    r2_c1, r2_c2 = st.columns(2)
+    with r2_c1:
+        if st.button("Sample 3: Landau-Lifshitz-Gilbert Equation (Q5)", use_container_width=True, type="primary" if st.session_state.selected_preset_key == "Sample 3: Landau-Lifshitz-Gilbert Equation (Q5)" else "secondary"):
+            st.session_state.selected_preset_key = "Sample 3: Landau-Lifshitz-Gilbert Equation (Q5)"
+
+    with r2_c2:
+        if st.button("Sample 4: Maxwell's Demon Thought Experiment (Q9)", use_container_width=True, type="primary" if st.session_state.selected_preset_key == "Sample 4: Maxwell's Demon Thought Experiment (Q9)" else "secondary"):
+            st.session_state.selected_preset_key = "Sample 4: Maxwell's Demon Thought Experiment (Q9)"
+
+    preset_data = presets[st.session_state.selected_preset_key]
     st.write("")
 
     col_q, col_s = st.columns([2, 1])
