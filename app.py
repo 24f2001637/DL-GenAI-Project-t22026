@@ -214,7 +214,7 @@ st.sidebar.markdown("**Evaluation Metric:** `MAP@3`")
 # Main Header
 # -------------------------------------------------------------
 st.title("Smart MCQ Answering System")
-st.caption("Retrieval-Augmented Generation (RAG) and Fine-Tuned Transformer Models | Roll: 24f2001637")
+st.caption("Retrieval-Augmented Generation (RAG) and Fine-Tuned Transformer Models")
 st.write("---")
 
 # -------------------------------------------------------------
