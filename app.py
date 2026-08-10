@@ -354,14 +354,17 @@ if nav == "Single Question Solver":
             st.write("---")
             st.subheader("Prediction Results")
 
-            # Rank cards
+            # Rank cards with option text preview
             r1, r2, r3 = st.columns(3)
             with r1:
-                st.metric("Rank 1 (Top Choice)", f"Option {sorted_opts[0]}", f"{probs[sorted_opts[0]]*100:.1f}% Score")
+                st.metric("Rank 1 Choice", f"Option {sorted_opts[0]}", f"{probs[sorted_opts[0]]*100:.1f}% Score")
+                st.caption(f"{options.get(sorted_opts[0], '')[:90]}...")
             with r2:
                 st.metric("Rank 2 Choice", f"Option {sorted_opts[1]}", f"{probs[sorted_opts[1]]*100:.1f}% Score")
+                st.caption(f"{options.get(sorted_opts[1], '')[:90]}...")
             with r3:
                 st.metric("Rank 3 Choice", f"Option {sorted_opts[2]}", f"{probs[sorted_opts[2]]*100:.1f}% Score")
+                st.caption(f"{options.get(sorted_opts[2], '')[:90]}...")
 
             st.success(f"MAP@3 Submission Format: **{top3_str}**")
 
@@ -375,6 +378,8 @@ if nav == "Single Question Solver":
             if context_text:
                 with st.expander(f"Retrieved Wikipedia Context [{context_source}]"):
                     st.write(context_text)
+            elif use_rag:
+                st.info("No matching Wikipedia article found in local corpus or MediaWiki search. Model inferred directly on prompt.")
 
 # -------------------------------------------------------------
 # MODULE 2: Batch CSV Predictor
@@ -389,8 +394,17 @@ elif nav == "Batch CSV Predictor":
     uploaded_file = st.file_uploader("Upload Custom CSV", type=["csv"])
 
     if uploaded_file is not None:
-        st.session_state.batch_df = pd.read_csv(uploaded_file)
-        st.success(f"Loaded uploaded dataset: {len(st.session_state.batch_df)} rows")
+        try:
+            temp_df = pd.read_csv(uploaded_file)
+            req_cols = {'id', 'prompt', 'A', 'B', 'C', 'D', 'E'}
+            if not req_cols.issubset(set(temp_df.columns)):
+                missing = req_cols - set(temp_df.columns)
+                st.error(f"Uploaded CSV is missing required columns: {', '.join(missing)}")
+            else:
+                st.session_state.batch_df = temp_df
+                st.success(f"Loaded uploaded dataset: {len(st.session_state.batch_df)} rows")
+        except Exception as e:
+            st.error(f"Error reading CSV file: {e}")
     else:
         if st.button("Load Repository data/test.csv (500 rows)"):
             try:
@@ -477,7 +491,7 @@ elif nav == "Model & Training Architecture":
             "Enabled", "1.0"
         ]
     })
-    st.table(hp_df)
+    st.dataframe(hp_df, use_container_width=True, hide_index=True)
 
     st.subheader("Validation Progression Across Epochs")
     epochs_data = pd.DataFrame({
@@ -487,7 +501,11 @@ elif nav == "Model & Training Architecture":
         'Validation MAP@3': [0.625, 0.682, 0.721, 0.750, 0.772, 0.781, 0.785]
     }).set_index('Epoch')
 
-    st.line_chart(epochs_data[['Validation Accuracy', 'Validation MAP@3']])
+    tab_m, tab_l = st.tabs(["MAP@3 & Accuracy Curve", "Training Loss Curve"])
+    with tab_m:
+        st.line_chart(epochs_data[['Validation Accuracy', 'Validation MAP@3']])
+    with tab_l:
+        st.line_chart(epochs_data[['Training Loss']])
 
 # -------------------------------------------------------------
 # MODULE 4: Dataset Metrics
@@ -505,11 +523,16 @@ elif nav == "Dataset Metrics":
     st.subheader("Mean Average Precision at Rank 3 (MAP@3)")
     st.latex(r"MAP@3 = \frac{1}{U} \sum_{u=1}^{U} \sum_{k=1}^{\min(n, 3)} P(k) \times rel(k)")
 
+    search_term = st.text_input("Search dataset by keyword:", placeholder="e.g. quantum, redshift, thermodynamics")
+
     tab1, tab2 = st.tabs(["Training Dataset (data/train.csv)", "Test Dataset (data/test.csv)"])
 
     with tab1:
         try:
             train_df = pd.read_csv("data/train.csv")
+            if search_term.strip():
+                mask = train_df.astype(str).apply(lambda row: row.str.contains(search_term, case=False).any(), axis=1)
+                train_df = train_df[mask]
             st.dataframe(train_df.head(25), use_container_width=True)
         except Exception:
             st.warning("data/train.csv not found.")
@@ -517,6 +540,9 @@ elif nav == "Dataset Metrics":
     with tab2:
         try:
             test_df = pd.read_csv("data/test.csv")
+            if search_term.strip():
+                mask = test_df.astype(str).apply(lambda row: row.str.contains(search_term, case=False).any(), axis=1)
+                test_df = test_df[mask]
             st.dataframe(test_df.head(25), use_container_width=True)
         except Exception:
             st.warning("data/test.csv not found.")
