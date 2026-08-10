@@ -205,8 +205,9 @@ nav = st.sidebar.radio(
 st.sidebar.divider()
 st.sidebar.subheader("Project Info")
 st.sidebar.markdown("**Student Roll:** `24f2001637`")
+st.sidebar.markdown("**Course:** `Deep Learning & GenAI`")
+st.sidebar.markdown("**Term:** `T2 2026`")
 st.sidebar.markdown("**Evaluation Metric:** `MAP@3`")
-st.sidebar.markdown("**System Status:** Ready")
 
 
 # -------------------------------------------------------------
