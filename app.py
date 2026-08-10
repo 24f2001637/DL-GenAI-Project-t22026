@@ -195,14 +195,18 @@ def solve_mcq(prompt: str, options: dict, context: str = "", engine: str = "Sent
 st.sidebar.title("Smart MCQ Solver")
 st.sidebar.caption("IITM BS Degree - GenAI Project (T2 2026)")
 
+st.sidebar.subheader("Navigation")
 nav = st.sidebar.radio(
     "Navigation",
-    ["Single Question Solver", "Batch CSV Predictor", "Model & Training Architecture", "Dataset Metrics"]
+    ["Single Question Solver", "Batch CSV Predictor", "Model & Training Architecture", "Dataset Metrics"],
+    label_visibility="collapsed"
 )
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("**Student Roll:** 24f2001637")
-st.sidebar.markdown("**Evaluation Metric:** MAP@3")
+st.sidebar.divider()
+st.sidebar.subheader("Project Info")
+st.sidebar.markdown("**Student Roll:** `24f2001637`")
+st.sidebar.markdown("**Evaluation Metric:** `MAP@3`")
+st.sidebar.markdown("**System Status:** Ready")
 
 
 # -------------------------------------------------------------
