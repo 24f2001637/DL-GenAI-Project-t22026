@@ -263,23 +263,25 @@ if nav == "Single Question Solver":
     selected_preset = st.selectbox("Benchmark Presets", list(presets.keys()))
     preset_data = presets[selected_preset]
 
-    default_prompt = preset_data["prompt"] if preset_data else "What is the relationship between the Hamiltonians and eigenstates in supersymmetric quantum mechanics?"
-    default_a = preset_data["A"] if preset_data else "For every eigenstate of one Hamiltonian, its partner Hamiltonian has a corresponding eigenstate with the same energy."
-    default_b = preset_data["B"] if preset_data else "For every eigenstate of one Hamiltonian, its partner Hamiltonian has a corresponding eigenstate with a higher energy."
-    default_c = preset_data["C"] if preset_data else "For every eigenstate of one Hamiltonian, its partner Hamiltonian has a corresponding eigenstate with a different spin."
-    default_d = preset_data["D"] if preset_data else "For every eigenstate of one Hamiltonian, its partner Hamiltonian has a corresponding eigenstate with a different energy."
-    default_e = preset_data["E"] if preset_data else "For every eigenstate of one Hamiltonian, its partner Hamiltonian has a corresponding eigenstate with a lower energy."
+    is_disabled = preset_data is not None
+
+    default_prompt = preset_data["prompt"] if preset_data else ""
+    default_a = preset_data["A"] if preset_data else ""
+    default_b = preset_data["B"] if preset_data else ""
+    default_c = preset_data["C"] if preset_data else ""
+    default_d = preset_data["D"] if preset_data else ""
+    default_e = preset_data["E"] if preset_data else ""
 
     col_q, col_s = st.columns([2, 1])
 
     with col_q:
-        prompt_input = st.text_area("Question / Prompt", value=default_prompt, height=100)
+        prompt_input = st.text_area("Question / Prompt", value=default_prompt, height=100, disabled=is_disabled, placeholder="Enter question prompt here...")
         st.subheader("Options")
-        opt_a = st.text_area("Option A", default_a, height=65)
-        opt_b = st.text_area("Option B", default_b, height=65)
-        opt_c = st.text_area("Option C", default_c, height=65)
-        opt_d = st.text_area("Option D", default_d, height=65)
-        opt_e = st.text_area("Option E", default_e, height=65)
+        opt_a = st.text_area("Option A", default_a, height=65, disabled=is_disabled, placeholder="Enter Option A...")
+        opt_b = st.text_area("Option B", default_b, height=65, disabled=is_disabled, placeholder="Enter Option B...")
+        opt_c = st.text_area("Option C", default_c, height=65, disabled=is_disabled, placeholder="Enter Option C...")
+        opt_d = st.text_area("Option D", default_d, height=65, disabled=is_disabled, placeholder="Enter Option D...")
+        opt_e = st.text_area("Option E", default_e, height=65, disabled=is_disabled, placeholder="Enter Option E...")
 
     with col_s:
         st.subheader("Engine Configuration")
