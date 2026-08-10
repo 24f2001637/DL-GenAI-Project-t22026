@@ -255,8 +255,9 @@ if nav == "Single Question Solver":
         }
     }
 
-    selected_preset = st.radio("Select Question Mode", list(presets.keys()))
+    selected_preset = st.radio("Select Question Mode", list(presets.keys()), horizontal=True)
     preset_data = presets[selected_preset]
+    st.write("")
 
     col_q, col_s = st.columns([2, 1])
 
@@ -269,10 +270,10 @@ if nav == "Single Question Solver":
             opt_d = preset_data["D"]
             opt_e = preset_data["E"]
 
-            st.markdown("**Question / Prompt:**")
+            st.subheader("Question Prompt")
             st.info(prompt_input)
 
-            st.subheader("Options")
+            st.subheader("Candidate Options")
             st.markdown(f"**Option A:** {opt_a}")
             st.markdown(f"**Option B:** {opt_b}")
             st.markdown(f"**Option C:** {opt_c}")
@@ -280,12 +281,16 @@ if nav == "Single Question Solver":
             st.markdown(f"**Option E:** {opt_e}")
         else:
             prompt_input = st.text_area("Question / Prompt", value="", height=100, placeholder="Enter question prompt here...", key="custom_prompt")
-            st.subheader("Options")
-            opt_a = st.text_area("Option A", value="", height=65, placeholder="Enter Option A...", key="custom_a")
-            opt_b = st.text_area("Option B", value="", height=65, placeholder="Enter Option B...", key="custom_b")
-            opt_c = st.text_area("Option C", value="", height=65, placeholder="Enter Option C...", key="custom_c")
-            opt_d = st.text_area("Option D", value="", height=65, placeholder="Enter Option D...", key="custom_d")
-            opt_e = st.text_area("Option E", value="", height=65, placeholder="Enter Option E...", key="custom_e")
+            st.subheader("Candidate Options")
+            
+            c_a, c_b = st.columns(2)
+            with c_a:
+                opt_a = st.text_area("Option A", value="", height=65, placeholder="Enter Option A...", key="custom_a")
+                opt_b = st.text_area("Option B", value="", height=65, placeholder="Enter Option B...", key="custom_b")
+                opt_c = st.text_area("Option C", value="", height=65, placeholder="Enter Option C...", key="custom_c")
+            with c_b:
+                opt_d = st.text_area("Option D", value="", height=65, placeholder="Enter Option D...", key="custom_d")
+                opt_e = st.text_area("Option E", value="", height=65, placeholder="Enter Option E...", key="custom_e")
 
     with col_s:
         st.subheader("Engine Configuration")
@@ -313,24 +318,26 @@ if nav == "Single Question Solver":
             st.write("---")
             st.subheader("Prediction Results")
 
-            res_col1, res_col2 = st.columns([1, 2])
+            # Rank cards
+            r1, r2, r3 = st.columns(3)
+            with r1:
+                st.metric("Rank 1 (Top Choice)", f"Option {sorted_opts[0]}", f"{probs[sorted_opts[0]]*100:.1f}% Score")
+            with r2:
+                st.metric("Rank 2 Choice", f"Option {sorted_opts[1]}", f"{probs[sorted_opts[1]]*100:.1f}% Score")
+            with r3:
+                st.metric("Rank 3 Choice", f"Option {sorted_opts[2]}", f"{probs[sorted_opts[2]]*100:.1f}% Score")
 
-            with res_col1:
-                st.metric("Rank 1 (Top Option)", sorted_opts[0])
-                st.metric("Rank 2 Option", sorted_opts[1])
-                st.metric("Rank 3 Option", sorted_opts[2])
-                st.info(f"MAP@3 Prediction Output: **{top3_str}**")
+            st.success(f"MAP@3 Submission Format: **{top3_str}**")
 
-            with res_col2:
-                st.subheader("Option Probabilities")
-                chart_df = pd.DataFrame({
-                    'Option': [f"Option {l}" for l in ['A', 'B', 'C', 'D', 'E']],
-                    'Probability': [probs[l] for l in ['A', 'B', 'C', 'D', 'E']]
-                }).set_index('Option')
-                st.bar_chart(chart_df)
+            st.subheader("Option Score Distribution")
+            chart_df = pd.DataFrame({
+                'Option': [f"Option {l}" for l in ['A', 'B', 'C', 'D', 'E']],
+                'Probability': [probs[l] for l in ['A', 'B', 'C', 'D', 'E']]
+            }).set_index('Option')
+            st.bar_chart(chart_df)
 
             if context_text:
-                with st.expander(f"Retrieved Context [{context_source}]"):
+                with st.expander(f"Retrieved Wikipedia Context [{context_source}]"):
                     st.write(context_text)
 
 # -------------------------------------------------------------
@@ -359,6 +366,7 @@ elif nav == "Batch CSV Predictor":
     df_to_predict = st.session_state.batch_df
 
     if df_to_predict is not None:
+        st.subheader("Dataset Preview")
         st.dataframe(df_to_predict.head(10), use_container_width=True)
 
         batch_engine = st.selectbox("Inference Model", ["SentenceTransformer (all-MiniLM-L6-v2)", "TF-IDF Vectorizer"])
@@ -386,7 +394,7 @@ elif nav == "Batch CSV Predictor":
             status_text.text(f"Completed {total_rows} predictions in {elapsed:.2f} seconds.")
 
             submission_df = pd.DataFrame({
-                'id': subset_df['id'] if 'id' in subset_df.columns else range(1, sample_size + 1),
+                'id': subset_df['id'] if 'id' in subset_df.columns else range(1, total_rows + 1),
                 'Prediction': preds
             })
 
@@ -414,7 +422,7 @@ elif nav == "Model & Training Architecture":
     c1.metric("Model Backbone", "DeBERTa-v3-base")
     c2.metric("Learning Rate", "1e-5")
     c3.metric("Max Seq Length", "320 Tokens")
-    c4.metric("Val MAP@3", "0.785")
+    c4.metric("Val MAP@3", "0.785", "+0.160 vs baseline")
 
     st.write("---")
     st.subheader("Hyperparameter Configuration")
@@ -435,15 +443,15 @@ elif nav == "Model & Training Architecture":
     })
     st.table(hp_df)
 
-    st.subheader("Validation MAP@3 Progression Across Epochs")
+    st.subheader("Validation Progression Across Epochs")
     epochs_data = pd.DataFrame({
         'Epoch': [1, 2, 3, 4, 5, 6, 7],
-        'Train Loss': [1.582, 1.341, 1.104, 0.892, 0.715, 0.589, 0.512],
-        'Val Accuracy': [0.510, 0.585, 0.640, 0.685, 0.720, 0.745, 0.755],
-        'Val MAP@3': [0.625, 0.682, 0.721, 0.750, 0.772, 0.781, 0.785]
+        'Training Loss': [1.582, 1.341, 1.104, 0.892, 0.715, 0.589, 0.512],
+        'Validation Accuracy': [0.510, 0.585, 0.640, 0.685, 0.720, 0.745, 0.755],
+        'Validation MAP@3': [0.625, 0.682, 0.721, 0.750, 0.772, 0.781, 0.785]
     }).set_index('Epoch')
 
-    st.line_chart(epochs_data[['Val Accuracy', 'Val MAP@3']])
+    st.line_chart(epochs_data[['Validation Accuracy', 'Validation MAP@3']])
 
 # -------------------------------------------------------------
 # MODULE 4: Dataset Metrics
