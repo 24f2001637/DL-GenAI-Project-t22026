@@ -12,7 +12,7 @@ import streamlit as st
 # Page Configuration
 # -------------------------------------------------------------
 st.set_page_config(
-    page_title="Science MCQ Solver and RAG System",
+    page_title="Smart MCQ Solver and RAG System",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -192,7 +192,7 @@ def solve_mcq(prompt: str, options: dict, context: str = "", engine: str = "Sent
 # -------------------------------------------------------------
 # Sidebar Navigation & Metadata
 # -------------------------------------------------------------
-st.sidebar.title("Physics MCQ Solver")
+st.sidebar.title("Smart MCQ Solver")
 st.sidebar.caption("IITM BS Degree - GenAI Course Project")
 
 st.sidebar.markdown("---")
@@ -203,7 +203,7 @@ nav = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("### Metadata")
+st.sidebar.markdown("### Project & Submission Details")
 st.sidebar.markdown("**Student Roll:** 24f2001637")
 st.sidebar.markdown("**Course:** Deep Learning & GenAI")
 st.sidebar.markdown("**Term:** T2 2026")
@@ -213,7 +213,7 @@ st.sidebar.markdown("**Metric:** MAP@3")
 # -------------------------------------------------------------
 # Main Header
 # -------------------------------------------------------------
-st.title("Physics & Science MCQ Answering System")
+st.title("Smart MCQ Answering System")
 st.caption("Retrieval-Augmented Generation (RAG) and Fine-Tuned Transformer Models | Roll: 24f2001637")
 st.write("---")
 
