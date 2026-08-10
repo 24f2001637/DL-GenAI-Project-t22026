@@ -263,25 +263,34 @@ if nav == "Single Question Solver":
     selected_preset = st.selectbox("Benchmark Presets", list(presets.keys()))
     preset_data = presets[selected_preset]
 
-    is_disabled = preset_data is not None
-
-    default_prompt = preset_data["prompt"] if preset_data else ""
-    default_a = preset_data["A"] if preset_data else ""
-    default_b = preset_data["B"] if preset_data else ""
-    default_c = preset_data["C"] if preset_data else ""
-    default_d = preset_data["D"] if preset_data else ""
-    default_e = preset_data["E"] if preset_data else ""
-
     col_q, col_s = st.columns([2, 1])
 
     with col_q:
-        prompt_input = st.text_area("Question / Prompt", value=default_prompt, height=100, disabled=is_disabled, placeholder="Enter question prompt here...")
-        st.subheader("Options")
-        opt_a = st.text_area("Option A", default_a, height=65, disabled=is_disabled, placeholder="Enter Option A...")
-        opt_b = st.text_area("Option B", default_b, height=65, disabled=is_disabled, placeholder="Enter Option B...")
-        opt_c = st.text_area("Option C", default_c, height=65, disabled=is_disabled, placeholder="Enter Option C...")
-        opt_d = st.text_area("Option D", default_d, height=65, disabled=is_disabled, placeholder="Enter Option D...")
-        opt_e = st.text_area("Option E", default_e, height=65, disabled=is_disabled, placeholder="Enter Option E...")
+        if preset_data is not None:
+            prompt_input = preset_data["prompt"]
+            opt_a = preset_data["A"]
+            opt_b = preset_data["B"]
+            opt_c = preset_data["C"]
+            opt_d = preset_data["D"]
+            opt_e = preset_data["E"]
+
+            st.markdown("**Question / Prompt:**")
+            st.info(prompt_input)
+
+            st.subheader("Options")
+            st.markdown(f"**Option A:** {opt_a}")
+            st.markdown(f"**Option B:** {opt_b}")
+            st.markdown(f"**Option C:** {opt_c}")
+            st.markdown(f"**Option D:** {opt_d}")
+            st.markdown(f"**Option E:** {opt_e}")
+        else:
+            prompt_input = st.text_area("Question / Prompt", value="", height=100, placeholder="Enter question prompt here...", key="custom_prompt")
+            st.subheader("Options")
+            opt_a = st.text_area("Option A", value="", height=65, placeholder="Enter Option A...", key="custom_a")
+            opt_b = st.text_area("Option B", value="", height=65, placeholder="Enter Option B...", key="custom_b")
+            opt_c = st.text_area("Option C", value="", height=65, placeholder="Enter Option C...", key="custom_c")
+            opt_d = st.text_area("Option D", value="", height=65, placeholder="Enter Option D...", key="custom_d")
+            opt_e = st.text_area("Option E", value="", height=65, placeholder="Enter Option E...", key="custom_e")
 
     with col_s:
         st.subheader("Engine Configuration")
