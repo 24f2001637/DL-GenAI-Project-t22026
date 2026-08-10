@@ -260,7 +260,7 @@ if nav == "Single Question Solver":
         }
     }
 
-    selected_preset = st.radio("Benchmark Presets", list(presets.keys()))
+    selected_preset = st.radio("Select Question Mode", list(presets.keys()))
     preset_data = presets[selected_preset]
 
     col_q, col_s = st.columns([2, 1])
@@ -303,37 +303,40 @@ if nav == "Single Question Solver":
         solve_btn = st.button("Run Inference", type="primary", use_container_width=True)
 
     if solve_btn:
-        options = {'A': opt_a, 'B': opt_b, 'C': opt_c, 'D': opt_d, 'E': opt_e}
+        if not prompt_input.strip():
+            st.warning("Please enter a question prompt before running inference.")
+        else:
+            options = {'A': opt_a, 'B': opt_b, 'C': opt_c, 'D': opt_d, 'E': opt_e}
 
-        with st.spinner("Executing Model Inference and RAG Search..."):
-            context_source, context_text = "", ""
-            if use_rag:
-                context_source, context_text = fetch_wikipedia_context(prompt_input)
+            with st.spinner("Executing Model Inference and RAG Search..."):
+                context_source, context_text = "", ""
+                if use_rag:
+                    context_source, context_text = fetch_wikipedia_context(prompt_input)
 
-            probs, sorted_opts, top3_str = solve_mcq(prompt_input, options, context=context_text, engine=engine_choice)
+                probs, sorted_opts, top3_str = solve_mcq(prompt_input, options, context=context_text, engine=engine_choice)
 
-        st.write("---")
-        st.subheader("Prediction Results")
+            st.write("---")
+            st.subheader("Prediction Results")
 
-        res_col1, res_col2 = st.columns([1, 2])
+            res_col1, res_col2 = st.columns([1, 2])
 
-        with res_col1:
-            st.metric("Rank 1 (Top Option)", sorted_opts[0])
-            st.metric("Rank 2 Option", sorted_opts[1])
-            st.metric("Rank 3 Option", sorted_opts[2])
-            st.info(f"MAP@3 Prediction Output: **{top3_str}**")
+            with res_col1:
+                st.metric("Rank 1 (Top Option)", sorted_opts[0])
+                st.metric("Rank 2 Option", sorted_opts[1])
+                st.metric("Rank 3 Option", sorted_opts[2])
+                st.info(f"MAP@3 Prediction Output: **{top3_str}**")
 
-        with res_col2:
-            st.subheader("Option Probabilities")
-            chart_df = pd.DataFrame({
-                'Option': [f"Option {l}" for l in ['A', 'B', 'C', 'D', 'E']],
-                'Probability': [probs[l] for l in ['A', 'B', 'C', 'D', 'E']]
-            }).set_index('Option')
-            st.bar_chart(chart_df)
+            with res_col2:
+                st.subheader("Option Probabilities")
+                chart_df = pd.DataFrame({
+                    'Option': [f"Option {l}" for l in ['A', 'B', 'C', 'D', 'E']],
+                    'Probability': [probs[l] for l in ['A', 'B', 'C', 'D', 'E']]
+                }).set_index('Option')
+                st.bar_chart(chart_df)
 
-        if context_text:
-            with st.expander(f"Retrieved Context [{context_source}]"):
-                st.write(context_text)
+            if context_text:
+                with st.expander(f"Retrieved Context [{context_source}]"):
+                    st.write(context_text)
 
 # -------------------------------------------------------------
 # MODULE 2: Batch CSV Predictor
@@ -342,19 +345,23 @@ elif nav == "Batch CSV Predictor":
     st.header("Batch Test Set Predictor")
     st.write("Generate MAP@3 predictions for test CSV files matching schema `id, prompt, A, B, C, D, E`.")
 
+    if 'batch_df' not in st.session_state:
+        st.session_state.batch_df = None
+
     uploaded_file = st.file_uploader("Upload Custom CSV", type=["csv"])
-    df_to_predict = None
 
     if uploaded_file is not None:
-        df_to_predict = pd.read_csv(uploaded_file)
-        st.success(f"Loaded uploaded dataset: {len(df_to_predict)} rows")
+        st.session_state.batch_df = pd.read_csv(uploaded_file)
+        st.success(f"Loaded uploaded dataset: {len(st.session_state.batch_df)} rows")
     else:
         if st.button("Load Repository data/test.csv (500 rows)"):
             try:
-                df_to_predict = pd.read_csv("data/test.csv")
-                st.info(f"Loaded repository data/test.csv: {len(df_to_predict)} rows")
+                st.session_state.batch_df = pd.read_csv("data/test.csv")
+                st.info(f"Loaded repository data/test.csv: {len(st.session_state.batch_df)} rows")
             except Exception as e:
                 st.error(f"Error loading file: {e}")
+
+    df_to_predict = st.session_state.batch_df
 
     if df_to_predict is not None:
         st.dataframe(df_to_predict.head(10), use_container_width=True)
