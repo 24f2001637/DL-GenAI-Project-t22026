@@ -260,7 +260,7 @@ if nav == "Single Question Solver":
         }
     }
 
-    selected_preset = st.selectbox("Benchmark Presets", list(presets.keys()))
+    selected_preset = st.radio("Benchmark Presets", list(presets.keys()))
     preset_data = presets[selected_preset]
 
     col_q, col_s = st.columns([2, 1])
