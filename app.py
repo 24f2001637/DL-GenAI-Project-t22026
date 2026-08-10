@@ -270,25 +270,22 @@ if nav == "Single Question Solver":
         "Sample 4: Maxwell's Demon Thought Experiment (Q9)"
     ]
 
-    col_c1, col_c2 = st.columns([1, 2])
-    
-    with col_c1:
-        st.markdown("**Enter Custom Question:**")
-        if st.button("Custom Question Mode", use_container_width=True, type="primary" if st.session_state.selected_preset_key == "Custom Question" else "secondary"):
-            st.session_state.selected_preset_key = "Custom Question"
+    all_options = ["Custom Question (Enter prompt & options)"] + sample_keys
 
-    with col_c2:
-        curr_index = 0
-        if st.session_state.selected_preset_key in sample_keys:
-            curr_index = sample_keys.index(st.session_state.selected_preset_key) + 1
+    curr_idx = 0
+    if st.session_state.selected_preset_key in sample_keys:
+        curr_idx = sample_keys.index(st.session_state.selected_preset_key) + 1
 
-        selected_sample = st.selectbox(
-            "Select Sample Question",
-            ["-- Choose Benchmark Sample Question --"] + sample_keys,
-            index=curr_index
-        )
-        if selected_sample != "-- Choose Benchmark Sample Question --":
-            st.session_state.selected_preset_key = selected_sample
+    selected_mode = st.selectbox(
+        "Select Question Input Source",
+        all_options,
+        index=curr_idx
+    )
+
+    if selected_mode == "Custom Question (Enter prompt & options)":
+        st.session_state.selected_preset_key = "Custom Question"
+    else:
+        st.session_state.selected_preset_key = selected_mode
 
     preset_data = presets.get(st.session_state.selected_preset_key, None)
     st.write("")
