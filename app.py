@@ -270,27 +270,38 @@ if nav == "Single Question Solver":
         "Sample 4: Maxwell's Demon Thought Experiment (Q9)"
     ]
 
+    if "sample_selector_val" not in st.session_state:
+        st.session_state.sample_selector_val = "-- Select Benchmark Sample Question --"
+
+    def set_custom_mode():
+        st.session_state.selected_preset_key = "Custom Question"
+        st.session_state.sample_selector_val = "-- Select Benchmark Sample Question --"
+
+    def set_sample_mode():
+        chosen = st.session_state.sample_selector_val
+        if chosen != "-- Select Benchmark Sample Question --":
+            st.session_state.selected_preset_key = chosen
+
     col_c1, col_c2 = st.columns([1, 2], vertical_alignment="bottom")
 
     with col_c1:
         st.markdown("**Custom Question Input:**")
-        if st.button("Custom Question Mode", use_container_width=True, type="primary" if st.session_state.selected_preset_key == "Custom Question" else "secondary"):
-            st.session_state.selected_preset_key = "Custom Question"
+        st.button(
+            "Custom Question Mode",
+            use_container_width=True,
+            on_click=set_custom_mode,
+            type="primary" if st.session_state.selected_preset_key == "Custom Question" else "secondary"
+        )
 
     with col_c2:
         st.markdown("**Benchmark Sample Questions:**")
-        curr_index = 0
-        if st.session_state.selected_preset_key in sample_keys:
-            curr_index = sample_keys.index(st.session_state.selected_preset_key) + 1
-
-        selected_sample = st.selectbox(
+        st.selectbox(
             "Benchmark Sample Questions",
             ["-- Select Benchmark Sample Question --"] + sample_keys,
-            index=curr_index,
+            key="sample_selector_val",
+            on_change=set_sample_mode,
             label_visibility="collapsed"
         )
-        if selected_sample != "-- Select Benchmark Sample Question --":
-            st.session_state.selected_preset_key = selected_sample
 
     preset_data = presets.get(st.session_state.selected_preset_key, None)
     st.write("")
